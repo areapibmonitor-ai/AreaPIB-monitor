@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-18T20:00:00.444Z",
+  "createdAt": "2026-03-18T20:15:00.392Z",
   "dynamicData": {
     "notams": [
       {
@@ -30,6 +30,42 @@
         "validity": {
           "end": "2026-03-19T11:00:00Z",
           "start": "2026-03-19T07:30:00Z"
+        }
+      },
+      {
+        "id": "63909430839498273",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 576,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PD",
+          "traffic": "I",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 4072,
+          "series": "A",
+          "year": 2025
+        },
+        "text": "RNAV RWY 26 SID SUMIM 1B NOT AVAILABLE.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-16T10:00:00Z",
+          "est": true,
+          "start": "2026-03-18T11:40:00Z"
         }
       },
       {
@@ -2312,8 +2348,8 @@
       }
     ]
   },
-  "id": "4b2e9b43-1742-454a-b29c-282f5f1392ae",
-  "identifier": "BRIEFING-20260318-96",
+  "id": "2b59f25d-6c8e-47e1-a9b9-99965c86e1db",
+  "identifier": "BRIEFING-20260318-97",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2362,8 +2398,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-19T20:00:00Z",
-    "validityStart": "2026-03-18T20:00:00Z"
+    "validityEnd": "2026-03-19T20:15:00Z",
+    "validityStart": "2026-03-18T20:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
