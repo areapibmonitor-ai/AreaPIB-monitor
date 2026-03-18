@@ -39,8 +39,8 @@ LAST_JSON_PATH = os.path.join(DATA_DIR, "area24_last.json")
 DIFF_LOG_PATH = os.path.join(DATA_DIR, "area24_changes.log")
 TIMEOUT_SECS = 30
 
-# Regex to detect "REPLACES A1234/25" patterns in E-line text (case-insensitive).
-RE_REPLACES = re.compile(r"\bREPLACES\s+([A-Z]\d{4}/\d{2})\b", re.IGNORECASE)
+# Regex to detect REPL/REPLACES/REPLACING A1234/25 patterns in E-line text (case-insensitive).
+RE_REPLACES = re.compile(r"\bREPL(?:ACE|ACES|ACING)?\s+([A-Z]\d{4}/\d{2})\b", re.IGNORECASE)
 
 # -------------------------
 # Utilities
@@ -256,6 +256,15 @@ def build_aftn(n: dict, replaced_ref: Optional[str] = None) -> str:
     typ = (n.get("type") or "N").upper()
     notamx = {"N": "NOTAMN", "R": "NOTAMR", "C": "NOTAMC"}.get(typ, f"NOTAM{typ}")
 
+    # Ensure replaced_ref is filled for NOTAMR even if not provided
+    if typ == "R" and not replaced_ref:
+        try:
+            rr = detect_replaced_target(n)
+            if rr:
+                replaced_ref = rr
+        except Exception:
+            pass
+
     # Q) line
     qline = build_q_line(n) or ""
 
@@ -324,7 +333,7 @@ def detect_replaced_target(n: dict) -> Optional[str]:
     """
     Determine which NOTAM this NOTAM replaces.
     - Look for common fields or nested notamId.
-    - Fallback: regex in E-line text (REPLACES A1234/25).
+    - Fallback: regex in E-line text (REPL/REPLACES/REPLACING A1234/25).
     Returns 'A####/YY' or None.
     """
     for k in ["replaces", "replaced", "replacedNotam", "replacing", "replace", "parentNotam", "prevNotamId"]:
@@ -440,7 +449,13 @@ def main():
         # Replaced?
         if k in replacements:
             repl_key = replacements[k]
-            replaced_msgs.append(f"NOTAM {k} was replaced with NOTAM {repl_key}.\n\n{replacer_aftn.get(repl_key, '')}\n")
+            _aftn = replacer_aftn.get(repl_key, "")
+            _header = _aftn.split("\n", 1)[0] if _aftn else f"({repl_key} NOTAMR {k})"
+            replaced_msgs.append(
+                f"NOTAM {k} was replaced with NOTAM {repl_key}.\n"
+                f"AFTN: {_header}\n\n"
+                f"{_aftn}\n"
+            )
             continue
         # Expired?
         end = notam_end_time(old_n)
@@ -501,10 +516,10 @@ def main():
     print(body)
     append_log(body)
 
-    # --- SUBJECT CHANGE HERE ---
+    # Subject with full PIB timestamp
     try:
         pib_ts = pib_generated_utc_string(cur_obj)
-        subject = f"AREA PIBis muutunud NOTAMid - {pib_ts}"
+        subject = f"AREA PIB: {pib_ts} muutunud NOTAMid"
         send_email(subject, body)
     except Exception as e:
         err = f"[{ts}] ERROR: Email sending failed: {repr(e)}"
