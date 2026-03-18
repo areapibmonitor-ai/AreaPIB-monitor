@@ -12,7 +12,7 @@ Enhancements:
    * REPLACED: "NOTAM A####/YY was replaced with NOTAM B####/YY." + full AFTN of the replacing NOTAM
    * OTHER REMOVALS: fallback message if cause unknown
 - On additions, prints full AFTN of new NOTAMs.
-- No email sending (console + file log only).
+- Sends email notifications when changes are detected (if SMTP env vars are set).
 
 Author: Mikk Maasik — with Copilot assist
 """
@@ -24,6 +24,8 @@ import re
 import hashlib
 import tempfile
 import argparse
+import smtplib
+from email.message import EmailMessage
 import urllib.request
 from urllib.error import URLError, HTTPError
 from datetime import datetime, timezone
@@ -104,6 +106,36 @@ def append_log(line: str):
             f.write(line.rstrip() + "\n")
     except Exception:
         pass
+
+
+def send_email(subject: str, body: str):
+    """
+    Send an email using SMTP settings from environment variables.
+    Required env vars:
+      SMTP_HOST, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
+    Optional:
+      SMTP_PORT (default 587)
+    """
+    host = os.environ.get("SMTP_HOST")
+    port = int(os.environ.get("SMTP_PORT", "587"))
+    user = os.environ.get("SMTP_USER")
+    password = os.environ.get("SMTP_PASS")
+    email_from = os.environ.get("EMAIL_FROM")
+    email_to = os.environ.get("EMAIL_TO")
+
+    if not all([host, user, password, email_from, email_to]):
+        raise RuntimeError("Missing SMTP settings in environment variables")
+
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = email_from
+    msg["To"] = email_to
+    msg.set_content(body)
+
+    with smtplib.SMTP(host, port, timeout=30) as server:
+        server.starttls()
+        server.login(user, password)
+        server.send_message(msg)
 
 # -------------------------
 # NOTAM helpers (domain-specific)
@@ -430,6 +462,13 @@ def main():
 
     print(body)
     append_log(body)
+
+    try:
+        send_email("AREA24 NOTAM changes detected", body)
+    except Exception as e:
+        err = f"[{ts}] ERROR: Email sending failed: {repr(e)}"
+        print(err, file=sys.stderr)
+        append_log(err)
 
     # Store latest full JSON (discard previous)
     file_write_atomic(LAST_JSON_PATH, stable_json(cur_obj))
