@@ -2,7 +2,7 @@ name: AREA24 monitor
 
 on:
   schedule:
-    - cron: "5,20,35,50 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
