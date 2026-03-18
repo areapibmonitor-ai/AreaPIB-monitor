@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
 """
 Monitors https://aim.eans.ee/web/notampib/area24.json for changes,
 but ONLY compares the subsection: dynamicData.notams
@@ -8,9 +7,9 @@ but ONLY compares the subsection: dynamicData.notams
 Enhancements:
 - Builds NOTAM AFTN text from provided JSON fields.
 - On removals, classifies as:
-   * EXPIRED: "NOTAM A####/YY expired and was removed from the PIB."
-   * REPLACED: "NOTAM A####/YY was replaced with NOTAM B####/YY." + full AFTN of the replacing NOTAM
-   * OTHER REMOVALS: fallback message if cause unknown
+  * EXPIRED: "NOTAM A####/YY expired and was removed from the PIB."
+  * REPLACED: "NOTAM A####/YY was replaced with NOTAM B####/YY." + full AFTN of the replacing NOTAM
+  * OTHER REMOVALS: fallback message if cause unknown
 - On additions, prints full AFTN of new NOTAMs.
 - Sends email notifications when changes are detected (if SMTP env vars are set).
 
@@ -41,17 +40,18 @@ DIFF_LOG_PATH = os.path.join(DATA_DIR, "area24_changes.log")
 TIMEOUT_SECS = 30
 
 # Regex to detect "REPLACES A1234/25" patterns in E-line text (case-insensitive).
-RE_REPLACES = re.compile(r'\bREPLAC(?:E|ES|ING)\s+([A-Z]\d{4}/\d{2})\b', re.IGNORECASE)
+RE_REPLACES = re.compile(r"\bREPLACES\s+([A-Z]\d{4}/\d{2})\b", re.IGNORECASE)
 
 # -------------------------
 # Utilities
 # -------------------------
-
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+
 def ensure_dirs():
     os.makedirs(DATA_DIR, exist_ok=True)
+
 
 def http_get_json(url: str, timeout: int = TIMEOUT_SECS) -> Tuple[dict, str]:
     req = urllib.request.Request(
@@ -65,11 +65,13 @@ def http_get_json(url: str, timeout: int = TIMEOUT_SECS) -> Tuple[dict, str]:
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         charset = resp.headers.get_content_charset() or "utf-8"
         raw = resp.read().decode(charset, errors="replace")
-    data = json.loads(raw)
-    return data, raw
+        data = json.loads(raw)
+        return data, raw
+
 
 def stable_json(obj: Any) -> str:
     return json.dumps(obj, ensure_ascii=False, sort_keys=True, indent=2)
+
 
 def file_write_atomic(path: str, content: str):
     dirpath = os.path.dirname(path)
@@ -86,6 +88,7 @@ def file_write_atomic(path: str, content: str):
         except Exception:
             pass
 
+
 def read_json_if_exists(path: str) -> Tuple[Any, str]:
     if not os.path.exists(path):
         return None, ""
@@ -97,8 +100,10 @@ def read_json_if_exists(path: str) -> Tuple[Any, str]:
         obj = None
     return obj, text
 
+
 def hash_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8", errors="ignore")).hexdigest()
+
 
 def append_log(line: str):
     try:
@@ -111,10 +116,12 @@ def append_log(line: str):
 def send_email(subject: str, body: str):
     """
     Send an email using SMTP settings from environment variables.
+
     Required env vars:
-      SMTP_HOST, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
+    SMTP_HOST, SMTP_USER, SMTP_PASS, EMAIL_FROM, EMAIL_TO
+
     Optional:
-      SMTP_PORT (default 587)
+    SMTP_PORT (default 587)
     """
     host = os.environ.get("SMTP_HOST")
     port = int(os.environ.get("SMTP_PORT", "587"))
@@ -137,6 +144,7 @@ def send_email(subject: str, body: str):
         server.login(user, password)
         server.send_message(msg)
 
+
 # -------------------------
 # NOTAM helpers (domain-specific)
 # -------------------------
@@ -153,6 +161,7 @@ def get_notams(obj: Any) -> List[dict]:
     lst = dd.get("notams")
     return lst if isinstance(lst, list) else []
 
+
 def notam_key(n: dict) -> Optional[str]:
     """
     Build 'A####/YY' from notamId {series, number, year}.
@@ -167,6 +176,7 @@ def notam_key(n: dict) -> Optional[str]:
         return None
     return f"{series}{number:04d}/{year % 100:02d}"
 
+
 def parse_iso_utc(ts: Optional[str]) -> Optional[datetime]:
     if not ts or not isinstance(ts, str):
         return None
@@ -177,6 +187,7 @@ def parse_iso_utc(ts: Optional[str]) -> Optional[datetime]:
     except Exception:
         return None
 
+
 def format_b_or_c(ts: Optional[str]) -> Optional[str]:
     """
     Format validity time to YYMMDDhhmm (UTC) as for B) and C) lines.
@@ -185,6 +196,28 @@ def format_b_or_c(ts: Optional[str]) -> Optional[str]:
     if not dt:
         return None
     return dt.strftime("%y%m%d%H%M")
+
+
+# NEW: helper to format PIB 'generated' timestamp for email subject
+
+def pib_generated_utc_string(cur_obj: dict) -> str:
+    """
+    Returns PIB generated time as 'YYYY-MM-DD HH:MMZ'.
+    Expects cur_obj['generated'] in ISO-8601 (e.g., '2026-03-18T12:45:00Z').
+    Falls back to current UTC if not available/parseable.
+    """
+    gen = cur_obj.get("generated")
+    try:
+        if isinstance(gen, str):
+            iso = gen
+            if iso.endswith("Z"):
+                iso = iso[:-1] + "+00:00"
+            dt = datetime.fromisoformat(iso).astimezone(timezone.utc)
+            return dt.strftime("%Y-%m-%d %H:%MZ")
+    except Exception:
+        pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%MZ")
+
 
 def build_q_line(n: dict) -> Optional[str]:
     """
@@ -204,16 +237,15 @@ def build_q_line(n: dict) -> Optional[str]:
     upper = q.get("upper")
     coord = q.get("coordinate")
     radius = q.get("radius")
-
     if not (fir and subject and condition and traffic and purpose and scope and
             isinstance(lower, (int, float)) and isinstance(upper, (int, float)) and
             isinstance(coord, str) and isinstance(radius, (int, float))):
         return None
-
     lll = int(lower)
     uuu = int(upper)
     rrr = int(radius)
     return f"{fir}/{subject}{condition}/{traffic}/{purpose}/{scope}/{lll:03d}/{uuu:03d}/{coord}{rrr:03d}"
+
 
 def build_aftn(n: dict, replaced_ref: Optional[str] = None) -> str:
     """
@@ -238,7 +270,7 @@ def build_aftn(n: dict, replaced_ref: Optional[str] = None) -> str:
 
     # E)
     e_text = n.get("text", "")
-    e_text = re.sub(r'\r\n?', '\n', e_text).strip()
+    e_text = re.sub(r"\r\n?", "\n", e_text).strip()
 
     # F)/G)
     levels = n.get("levels", {}) if isinstance(n.get("levels"), dict) else {}
@@ -287,6 +319,7 @@ def build_aftn(n: dict, replaced_ref: Optional[str] = None) -> str:
     lines.append(")")
     return "\n".join(lines)
 
+
 def detect_replaced_target(n: dict) -> Optional[str]:
     """
     Determine which NOTAM this NOTAM replaces.
@@ -297,10 +330,9 @@ def detect_replaced_target(n: dict) -> Optional[str]:
     for k in ["replaces", "replaced", "replacedNotam", "replacing", "replace", "parentNotam", "prevNotamId"]:
         v = n.get(k)
         if isinstance(v, str):
-            m = re.search(r'[A-Z]\d{4}/\d{2}', v.upper())
+            m = re.search(r"[A-Z]\d{4}/\d{2}", v.upper())
             if m:
                 return m.group(0)
-
     for k in ["replaces", "replaced", "replacedNotam", "parentNotam", "previous"]:
         v = n.get(k)
         if isinstance(v, dict):
@@ -312,17 +344,17 @@ def detect_replaced_target(n: dict) -> Optional[str]:
                 s = nid.get("series"); num = nid.get("number"); yr = nid.get("year")
                 if isinstance(s, str) and isinstance(num, int) and isinstance(yr, int):
                     return f"{s.upper()}{num:04d}/{yr % 100:02d}"
-
     txt = n.get("text") or ""
     m = RE_REPLACES.search(txt)
     if m:
         return m.group(1).upper()
-
     return None
+
 
 def notam_end_time(n: dict) -> Optional[datetime]:
     v = n.get("validity", {})
     return parse_iso_utc(v.get("end"))
+
 
 # -------------------------
 # Main flow
@@ -366,6 +398,7 @@ def main():
         k = notam_key(n)
         if k:
             prev_map[k] = n
+
     cur_map: Dict[str, dict] = {}
     for n in cur_notams:
         k = notam_key(n)
@@ -383,7 +416,8 @@ def main():
 
     # Build helper: replacement index (new NOTAMs of type R)
     replacements: Dict[str, str] = {}  # replaced_key -> replacer_key
-    replacer_aftn: Dict[str, str] = {} # replacer_key -> AFTN text
+    replacer_aftn: Dict[str, str] = {}  # replacer_key -> AFTN text
+
     for k in sorted(added_keys):
         n = cur_map[k]
         if str(n.get("type", "")).upper() == "R":
@@ -442,29 +476,36 @@ def main():
 
     # Build console/log body (grouped)
     sections: List[str] = [f"[{ts}] CHANGE DETECTED in dynamicData.notams", f"URL: {URL}"]
+
     if expired_msgs:
         sections.append("\nExpired NOTAMs:")
         sections.extend(f"- {m}" for m in expired_msgs)
+
     if replaced_msgs:
         sections.append("\nReplaced NOTAMs:")
         sections.extend(replaced_msgs)
+
     if new_msgs:
         sections.append("\nNew NOTAMs:")
         sections.extend(new_msgs)
+
     if other_removed_msgs:
         sections.append("\nOther removals:")
         sections.extend(f"- {m}" for m in other_removed_msgs)
+
     if modified_msgs:
         sections.append("\nModified NOTAMs:")
         sections.extend(f"- {m}" for m in modified_msgs)
 
     body = "\n".join(sections)
-
     print(body)
     append_log(body)
 
+    # --- SUBJECT CHANGE HERE ---
     try:
-        send_email("AREA24 NOTAM changes detected", body)
+        pib_ts = pib_generated_utc_string(cur_obj)
+        subject = f"AREA PIB: {pib_ts} muutunud NOTAMid"
+        send_email(subject, body)
     except Exception as e:
         err = f"[{ts}] ERROR: Email sending failed: {repr(e)}"
         print(err, file=sys.stderr)
@@ -472,6 +513,7 @@ def main():
 
     # Store latest full JSON (discard previous)
     file_write_atomic(LAST_JSON_PATH, stable_json(cur_obj))
+
 
 if __name__ == "__main__":
     main()
