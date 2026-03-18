@@ -504,7 +504,7 @@ def main():
     # --- SUBJECT CHANGE HERE ---
     try:
         pib_ts = pib_generated_utc_string(cur_obj)
-        subject = f"AREA PIB: {pib_ts} muutunud NOTAMid"
+        subject = f"AREA PIBis muutunud NOTAMid - {pib_ts}"
         send_email(subject, body)
     except Exception as e:
         err = f"[{ts}] ERROR: Email sending failed: {repr(e)}"
