@@ -1,7 +1,87 @@
 {
-  "createdAt": "2026-03-19T11:45:00.365Z",
+  "createdAt": "2026-03-19T15:00:00.357Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909525153358161",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 584,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02717E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 45
+        },
+        "referenceId": {
+          "number": 331,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "19 1352-1759, 20 0501-1759",
+        "text": "TEMPO RESTRICTED AREA EER2575UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 6.5KM RADIUS CENTRED ON 574900N 0271700E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5308\r\n9222.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-20T17:59:00Z",
+          "start": "2026-03-19T13:52:00Z"
+        }
+      },
+      {
+        "id": "63909524220780065",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 583,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5748N02652E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "referenceId": {
+          "number": 332,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "19 1335-1759, 20 0501-1759",
+        "text": "TEMPO RESTRICTED AREA EER2589UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 8KM RADIUS CENTRED ON 574817N 0265154E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL + 372\r\n5308 9222.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-20T17:59:00Z",
+          "start": "2026-03-19T13:35:00Z"
+        }
+      },
       {
         "id": "63909502239258865",
         "levels": {
@@ -109,38 +189,37 @@
         }
       },
       {
-        "id": "63909355517645793",
+        "id": "63909006549558497",
         "levels": {
           "lower": "SFC",
-          "upper": "2700FT AMSL"
+          "upper": "9100FT AMSL"
         },
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 568,
+          "number": 553,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5930N02640E",
+          "coordinate": "5918N02742E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 20,
+          "radius": 5,
           "scope": "W",
-          "subject": "RR",
+          "subject": "RD",
           "traffic": "IV",
-          "upper": 27
+          "upper": 91
         },
-        "schedule": "DAILY 0800-1330",
-        "text": "RESTRICTED AREA EER15E ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5301 5310.",
+        "text": "DANGER AREA EED17 SIRGALA 2 ACT.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACT AVBL FROM +372 5302 7449.",
         "type": "N",
         "validity": {
-          "end": "2026-03-19T13:30:00Z",
-          "start": "2026-03-18T08:00:00Z"
+          "end": "2026-03-27T05:59:00Z",
+          "start": "2026-03-20T12:00:00Z"
         }
       },
       {
@@ -206,41 +285,6 @@
         "validity": {
           "perm": true,
           "start": "2026-03-13T12:30:00Z"
-        }
-      },
-      {
-        "id": "63908990491313249",
-        "levels": {
-          "lower": "GND",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 547,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "schedule": "DAILY 0700-1500",
-        "text": "RESTRICTED AREA EER15F ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5552 1337.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-19T15:00:00Z",
-          "start": "2026-03-17T07:00:00Z"
         }
       },
       {
@@ -1655,76 +1699,6 @@
         }
       },
       {
-        "id": "63906585603586801",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 332,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5748N02652E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "schedule": "02-06 09-13 16-20 23-28 0501-1759, 29-31 0401-1659",
-        "text": "TEMPO RESTRICTED AREA EER2589UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 8KM RADIUS CENTRED ON 574817N 0265154E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL + 372\r\n5308 9222.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T16:59:00Z",
-          "start": "2026-03-02T05:01:00Z"
-        }
-      },
-      {
-        "id": "63906585236593809",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 331,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02717E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 45
-        },
-        "schedule": "02-06 09-13 16-20 23-28 0501-1759, 29-31 0401-1659",
-        "text": "TEMPO RESTRICTED AREA EER2575UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 6.5KM RADIUS CENTRED ON 574900N 0271700E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5308\r\n9222.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T16:59:00Z",
-          "start": "2026-03-02T05:01:00Z"
-        }
-      },
-      {
         "id": "63906560766266433",
         "locations": [
           "EETT"
@@ -2352,8 +2326,8 @@
     "snowtams": [
       {
         "aerodrome": "EEKE",
-        "id": "63909492920016433",
-        "number": 155,
+        "id": "63909523464003361",
+        "number": 156,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2363,25 +2337,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-19T04:55:00Z"
+            "time": "2026-03-19T13:24:00Z"
           },
           {
             "adjacentSnowbanks": false,
@@ -2391,32 +2365,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-19T04:55:00Z"
+            "time": "2026-03-19T13:24:00Z"
           }
         ]
       },
       {
         "aerodrome": "EEPU",
-        "id": "63909494140850721",
-        "number": 187,
+        "id": "63909525609503105",
+        "number": 188,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2444,14 +2418,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-19T05:15:00Z"
+            "time": "2026-03-19T14:00:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63909513117561745",
-        "number": 402,
+        "id": "63909525094871217",
+        "number": 404,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2475,53 +2449,18 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-19T10:30:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63909499850706289",
-        "number": 250,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-19T06:49:00Z"
+            "time": "2026-03-19T13:50:00Z"
           }
         ]
       }
     ]
   },
-  "id": "1c2cea75-240e-4c73-a9db-f282f5972900",
-  "identifier": "BRIEFING-20260319-63",
+  "id": "9695cd7d-4cfa-410e-a305-add53d5cb384",
+  "identifier": "BRIEFING-20260319-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2570,8 +2509,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-20T11:45:00Z",
-    "validityStart": "2026-03-19T11:45:00Z"
+    "validityEnd": "2026-03-20T15:00:00Z",
+    "validityStart": "2026-03-19T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2729,7 +2668,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909492920016433",
+                  "referenceId": "63909523464003361",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2768,7 +2707,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909494140850721",
+                  "referenceId": "63909525609503105",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2847,7 +2786,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909513117561745",
+                  "referenceId": "63909525094871217",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2921,11 +2860,6 @@
                   "link": false,
                   "referenceId": "63900884308865169",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909499850706289",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -2996,6 +2930,16 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63909525153358161",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909524220780065",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63909502239258865",
               "structureType": "REFERENCE"
             },
@@ -3006,17 +2950,12 @@
             },
             {
               "link": false,
-              "referenceId": "63909355517645793",
+              "referenceId": "63909006549558497",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
               "referenceId": "63909004186106193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63908990491313249",
               "structureType": "REFERENCE"
             },
             {
@@ -3122,16 +3061,6 @@
             {
               "link": false,
               "referenceId": "63907187209018401",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63906585603586801",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63906585236593809",
               "structureType": "REFERENCE"
             },
             {
