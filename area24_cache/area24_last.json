@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-19T15:00:00.357Z",
+  "createdAt": "2026-03-19T18:00:00.368Z",
   "dynamicData": {
     "notams": [
       {
@@ -186,6 +186,40 @@
         "validity": {
           "end": "2026-03-20T17:59:00Z",
           "start": "2026-03-19T07:00:00Z"
+        }
+      },
+      {
+        "id": "63909007799377521",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 555,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5923N02535E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2048 ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 592513N 0252928E - 592600N 0253909E - 592036N\r\n0254000E - 592238N 0252912E - 592513N 0252928E\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5883\r\n7394.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-23T12:59:00Z",
+          "start": "2026-03-20T16:00:00Z"
         }
       },
       {
@@ -2253,46 +2287,6 @@
         }
       },
       {
-        "id": "63901740339495009",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 4083,
-          "series": "A",
-          "year": 2025
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02707E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 7
-        },
-        "referenceId": {
-          "number": 4081,
-          "series": "A",
-          "year": 2025
-        },
-        "schedule": "DEC 19 1125-1800, DEC 20-MAR 19 0500-1800",
-        "text": "TEMPO RESTRICTED AREA EER25109UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 591916N 0271026E - 591715N 0271027E -\r\n591713N 0270359E - 591914N 0270356E - 591916N 0271026E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5340\r\n0535.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-19T18:00:00Z",
-          "start": "2025-12-19T11:25:00Z"
-        }
-      },
-      {
         "id": "63900884308865169",
         "locations": [
           "EETU"
@@ -2459,16 +2453,16 @@
       }
     ]
   },
-  "id": "9695cd7d-4cfa-410e-a305-add53d5cb384",
-  "identifier": "BRIEFING-20260319-76",
+  "id": "41bba9d5-4d77-4a4f-87af-63b064cbabde",
+  "identifier": "BRIEFING-20260319-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2509,8 +2503,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-20T15:00:00Z",
-    "validityStart": "2026-03-19T15:00:00Z"
+    "validityEnd": "2026-03-20T18:00:00Z",
+    "validityStart": "2026-03-19T18:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2950,6 +2944,11 @@
             },
             {
               "link": false,
+              "referenceId": "63909007799377521",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63909006549558497",
               "structureType": "REFERENCE"
             },
@@ -3081,11 +3080,6 @@
             {
               "link": true,
               "referenceId": "63903200351940033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63901740339495009",
               "structureType": "REFERENCE"
             }
           ],
