@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-20T14:15:00.4Z",
+  "createdAt": "2026-03-20T17:00:02.721Z",
   "dynamicData": {
     "notams": [
       {
@@ -111,40 +111,6 @@
           "end": "2026-06-19T12:00:00Z",
           "est": true,
           "start": "2026-03-20T08:16:00Z"
-        }
-      },
-      {
-        "id": "63909581638104033",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 588,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5931N02601E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "text": "RESTRICTED AREA EER15D ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION. NON-PARTICIPATING AIRCRAFT\r\n(INCLUDING UNMANNED AIRCRAFT) ARE NOT PERMITTED TO ENTER INTO\r\nACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFORMATION\r\nABOUT ACT AVBL FROM: +372 5552 1337.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-20T16:00:00Z",
-          "start": "2026-03-20T06:00:00Z"
         }
       },
       {
@@ -901,40 +867,6 @@
         "validity": {
           "end": "2026-03-22T15:59:00Z",
           "start": "2026-03-08T16:00:00Z"
-        }
-      },
-      {
-        "id": "63908305908611905",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 493,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5852N02544E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2614 ESTABLISHED DUE TO CANSAT\r\nESTONIA COMPETITION: CONTROLLED RELEASE OF CANSAT-TYPE  EDUCATIONAL\r\nPAYLOADS AND UNMANNED AIRCRAFT ACTIVITY WITHIN: 585134N 0254415E -\r\n585158N 0254333E - 585209N 0254355E - 585145N 0254438E - 585134N\r\n0254415E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 56944170.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-20T17:00:00Z",
-          "start": "2026-03-19T06:00:00Z"
         }
       },
       {
@@ -2590,16 +2522,16 @@
       }
     ]
   },
-  "id": "fd1c28ad-1739-4aff-8265-b35141b2bd50",
-  "identifier": "BRIEFING-20260320-73",
+  "id": "dfbf7828-d951-49a5-8a25-595e89d5678d",
+  "identifier": "BRIEFING-20260320-84",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2640,8 +2572,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-21T14:15:00Z",
-    "validityStart": "2026-03-20T14:15:00Z"
+    "validityEnd": "2026-03-21T17:00:00Z",
+    "validityStart": "2026-03-20T17:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3091,11 +3023,6 @@
             },
             {
               "link": false,
-              "referenceId": "63909581638104033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63909525153358161",
               "structureType": "REFERENCE"
             },
@@ -3152,11 +3079,6 @@
             {
               "link": false,
               "referenceId": "63908392289238113",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63908305908611905",
               "structureType": "REFERENCE"
             },
             {
