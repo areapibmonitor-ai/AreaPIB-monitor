@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-03-20T11:45:00.454Z",
+  "createdAt": "2026-03-20T14:15:00.4Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909607728473601",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 599,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5919N02412E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "21 0600-22 1459, 23 0800-26 1559, 27 0800-1959, 28 0600-1659, 29\r\n30 0500-1359, 31 0500-1759",
+        "text": "DANGER AREA EED16 KLOOGA 1 ACT.\r\nINFO ABOUT ACT AVBL FROM +372 5332 6746.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-31T17:59:00Z",
+          "start": "2026-03-21T06:00:00Z"
+        }
+      },
       {
         "id": "63909597819000897",
         "levels": {
@@ -533,41 +568,6 @@
         }
       },
       {
-        "id": "63908815970673409",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 531,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 43
-        },
-        "schedule": "17 0500-1759, 19 0400-1659, 20 0400-1159",
-        "text": "DANGER AREA EED17 SIRGALA 2 ACT.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACT AVBL FROM +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-20T11:59:00Z",
-          "start": "2026-03-17T05:00:00Z"
-        }
-      },
-      {
         "id": "63908745938914017",
         "levels": {
           "lower": "SFC",
@@ -664,41 +664,6 @@
         "type": "N",
         "validity": {
           "end": "2026-03-30T13:59:00Z",
-          "start": "2026-03-16T06:00:00Z"
-        }
-      },
-      {
-        "id": "63908666302905729",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 524,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "16 0600-1459, 17 0500-1459, 18 19 0600-1459, 20 0700-1159, 21\r\n0600-22 1459, 23 0800-26 1559, 27 0800-1359, 28 0600-1659, 29 31\r\n0500-1359",
-        "text": "DANGER AREA EED16 KLOOGA 1 ACT.\r\nINFO ABOUT ACT AVBL FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T13:59:00Z",
           "start": "2026-03-16T06:00:00Z"
         }
       },
@@ -2520,8 +2485,8 @@
       },
       {
         "aerodrome": "EEPU",
-        "id": "63909586107128097",
-        "number": 190,
+        "id": "63909612081052945",
+        "number": 191,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2531,33 +2496,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-20T06:47:00Z"
+            "time": "2026-03-20T14:00:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63909588526663489",
-        "number": 408,
-        "remarks": "ALL TWYS FROST",
+        "id": "63909612500410065",
+        "number": 409,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2585,7 +2549,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-20T07:28:00Z"
+            "time": "2026-03-20T14:07:00Z"
           }
         ]
       },
@@ -2626,8 +2590,8 @@
       }
     ]
   },
-  "id": "976a785c-e351-4557-8b78-8bc94cd0a111",
-  "identifier": "BRIEFING-20260320-63",
+  "id": "fd1c28ad-1739-4aff-8265-b35141b2bd50",
+  "identifier": "BRIEFING-20260320-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2676,8 +2640,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-21T11:45:00Z",
-    "validityStart": "2026-03-20T11:45:00Z"
+    "validityEnd": "2026-03-21T14:15:00Z",
+    "validityStart": "2026-03-20T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2761,7 +2725,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63908666302905729",
+                  "referenceId": "63909607728473601",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2874,7 +2838,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909586107128097",
+                  "referenceId": "63909612081052945",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2953,7 +2917,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909588526663489",
+                  "referenceId": "63909612500410065",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3116,6 +3080,11 @@
         {
           "content": [
             {
+              "link": true,
+              "referenceId": "63909607728473601",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63909597819000897",
               "structureType": "REFERENCE"
@@ -3161,11 +3130,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63908815970673409",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63908745938914017",
               "structureType": "REFERENCE"
@@ -3173,11 +3137,6 @@
             {
               "link": true,
               "referenceId": "63908666541971329",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63908666302905729",
               "structureType": "REFERENCE"
             },
             {
