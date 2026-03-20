@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-03-20T07:45:00.385Z",
+  "createdAt": "2026-03-20T10:00:00.446Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909591475652497",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 591,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 4095,
+          "series": "A",
+          "year": 2025
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592513.7N 0244601.5E. ELEV 281FT\r\nAMSL (HEIGHT 176FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-19T12:00:00Z",
+          "est": true,
+          "start": "2026-03-20T08:16:00Z"
+        }
+      },
       {
         "id": "63909581638104033",
         "levels": {
@@ -2383,42 +2419,6 @@
         }
       },
       {
-        "id": "63901980102428513",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 4095,
-          "series": "A",
-          "year": 2025
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 3254,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "CRANE ERECTED IN AREA 2 AT PSN 592513.7N 0244601.5E. ELEV 281FT\r\nAMSL (HEIGHT 176FT AGL). LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-20T23:59:00Z",
-          "est": true,
-          "start": "2025-12-22T06:01:00Z"
-        }
-      },
-      {
         "id": "63900884308865169",
         "locations": [
           "EETU"
@@ -2452,8 +2452,8 @@
     "snowtams": [
       {
         "aerodrome": "EEKE",
-        "id": "63909579222751121",
-        "number": 157,
+        "id": "63909594477135937",
+        "number": 158,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2463,25 +2463,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-20T04:52:00Z"
+            "time": "2026-03-20T09:05:00Z"
           },
           {
             "adjacentSnowbanks": false,
@@ -2491,25 +2491,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "FROST",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-20T04:53:00Z"
+            "time": "2026-03-20T09:06:00Z"
           }
         ]
       },
@@ -2621,8 +2621,8 @@
       }
     ]
   },
-  "id": "192dddb9-0160-47f0-a59b-f15498c39f9b",
-  "identifier": "BRIEFING-20260320-47",
+  "id": "22136c8e-74eb-41ba-ae8d-2dd73f01a750",
+  "identifier": "BRIEFING-20260320-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2671,8 +2671,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-21T07:45:00Z",
-    "validityStart": "2026-03-20T07:45:00Z"
+    "validityEnd": "2026-03-21T10:00:00Z",
+    "validityStart": "2026-03-20T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2830,7 +2830,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909579222751121",
+                  "referenceId": "63909594477135937",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2898,6 +2898,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63909591475652497",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63908993488381681",
                   "structureType": "REFERENCE"
                 },
@@ -2939,11 +2944,6 @@
                 {
                   "link": false,
                   "referenceId": "63905960520579201",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63901980102428513",
                   "structureType": "REFERENCE"
                 },
                 {
