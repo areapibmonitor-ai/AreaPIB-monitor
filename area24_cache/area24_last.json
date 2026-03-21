@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-21T11:45:00.381Z",
+  "createdAt": "2026-03-21T13:45:00.383Z",
   "dynamicData": {
     "notams": [
       {
@@ -2169,8 +2169,8 @@
     "snowtams": [
       {
         "aerodrome": "EEKE",
-        "id": "63909672022342625",
-        "number": 159,
+        "id": "63909690539892161",
+        "number": 160,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2198,7 +2198,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-21T06:40:00Z"
+            "time": "2026-03-21T11:47:00Z"
           },
           {
             "adjacentSnowbanks": false,
@@ -2226,42 +2226,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-21T06:39:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EEPU",
-        "id": "63909665365133121",
-        "number": 192,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "03",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-21T04:49:00Z"
+            "time": "2026-03-21T11:47:00Z"
           }
         ]
       },
@@ -2302,8 +2267,8 @@
       }
     ]
   },
-  "id": "4bda9ffa-8876-453b-83d5-b26a4a47a4d1",
-  "identifier": "BRIEFING-20260321-63",
+  "id": "b86feeb2-c173-4b2a-9d83-274753ed6ba4",
+  "identifier": "BRIEFING-20260321-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2352,8 +2317,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-22T11:45:00Z",
-    "validityStart": "2026-03-21T11:45:00Z"
+    "validityEnd": "2026-03-22T13:45:00Z",
+    "validityStart": "2026-03-21T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2511,7 +2476,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909672022342625",
+                  "referenceId": "63909690539892161",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2546,11 +2511,6 @@
                 {
                   "link": false,
                   "referenceId": "63905961967110913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909665365133121",
                   "structureType": "REFERENCE"
                 }
               ],
