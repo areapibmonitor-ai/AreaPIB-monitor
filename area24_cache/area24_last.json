@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-21T19:30:00.478Z",
+  "createdAt": "2026-03-21T20:45:00.398Z",
   "dynamicData": {
     "notams": [
       {
@@ -2104,69 +2104,6 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEKE",
-        "id": "63909690539892161",
-        "number": 160,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "05",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-21T11:47:00Z"
-          },
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "17",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-21T11:47:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EEPU",
         "id": "63909698258860049",
         "number": 193,
@@ -2203,8 +2140,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63909701984852705",
-        "number": 413,
+        "id": "63909722643636465",
+        "number": 414,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2232,14 +2169,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-21T14:59:00Z"
+            "time": "2026-03-21T20:42:00Z"
           }
         ]
       }
     ]
   },
-  "id": "eaef06e9-2612-47da-b3b5-9b1d24078b73",
-  "identifier": "BRIEFING-20260321-94",
+  "id": "af7fe065-a0a3-4221-bb12-76cc76513d48",
+  "identifier": "BRIEFING-20260321-99",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2288,8 +2225,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-22T19:30:00Z",
-    "validityStart": "2026-03-21T19:30:00Z"
+    "validityEnd": "2026-03-22T20:45:00Z",
+    "validityStart": "2026-03-21T20:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2444,11 +2381,6 @@
                   "link": false,
                   "referenceId": "63905962642605345",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909690539892161",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142761216",
@@ -2560,7 +2492,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909701984852705",
+                  "referenceId": "63909722643636465",
                   "structureType": "REFERENCE"
                 }
               ],
