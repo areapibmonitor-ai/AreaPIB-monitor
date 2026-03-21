@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-21T16:45:00.409Z",
+  "createdAt": "2026-03-21T17:45:00.402Z",
   "dynamicData": {
     "notams": [
       {
@@ -111,36 +111,6 @@
           "end": "2026-06-19T12:00:00Z",
           "est": true,
           "start": "2026-03-20T08:16:00Z"
-        }
-      },
-      {
-        "id": "63909538548052977",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 587,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5811N02645E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 3,
-          "scope": "AE",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 150
-        },
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 4.5KM\r\nRADIUS CENTRED ON 581111N 0264524E FROM SFC UP TO FL150.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-21T17:00:00Z",
-          "start": "2026-03-21T07:00:00Z"
         }
       },
       {
@@ -415,40 +385,6 @@
         "type": "N",
         "validity": {
           "end": "2026-03-22T09:00:00Z",
-          "start": "2026-03-21T07:00:00Z"
-        }
-      },
-      {
-        "id": "63908745938914017",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4500FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 528,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5811N02645E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 45
-        },
-        "text": "TEMPO RESTRICTED AREA EER2616 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN 581304N 0264339E - 581216N 0264744E - 581127N\r\n0264846E - 580918N 0264846E - 580918N 0264139E - 581054N 0264139E -\r\n581304N 0264339E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5331\r\n2552.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-21T17:00:00Z",
           "start": "2026-03-21T07:00:00Z"
         }
       },
@@ -2302,8 +2238,8 @@
       }
     ]
   },
-  "id": "7797f67c-98b8-45f8-8d89-a62e6a3f6a1d",
-  "identifier": "BRIEFING-20260321-83",
+  "id": "fbd7ec06-3e8c-476b-b7f7-760bd0eaea22",
+  "identifier": "BRIEFING-20260321-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2352,8 +2288,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-22T16:45:00Z",
-    "validityStart": "2026-03-21T16:45:00Z"
+    "validityEnd": "2026-03-22T17:45:00Z",
+    "validityStart": "2026-03-21T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2636,17 +2572,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63909538548052977",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63909430839498273",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63908745938914017",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2720,11 +2646,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63909538548052977",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63908993488381681",
@@ -2809,11 +2730,6 @@
             {
               "link": false,
               "referenceId": "63908823507913521",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63908745938914017",
               "structureType": "REFERENCE"
             },
             {
