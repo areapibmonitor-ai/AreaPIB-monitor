@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-22T05:00:00.444Z",
+  "createdAt": "2026-03-22T07:15:01.487Z",
   "dynamicData": {
     "notams": [
       {
@@ -111,6 +111,40 @@
           "end": "2026-06-19T12:00:00Z",
           "est": true,
           "start": "2026-03-20T08:16:00Z"
+        }
+      },
+      {
+        "id": "63909523532137585",
+        "levels": {
+          "lower": "SFC",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 582,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5748N02705E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 16,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "TEMPO RESTRICTED AREA EER26122UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 580225N 0265739E - 575404N 0272931E -\r\n573328N 0271122E - 574301N 0264015E - 575203N 0263821E - 575843N\r\n0264707E - 580225N 0265739E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 554\r\n6558.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-02T17:00:00Z",
+          "start": "2026-03-23T06:00:00Z"
         }
       },
       {
@@ -867,6 +901,36 @@
         "validity": {
           "end": "2026-05-29T23:59:00Z",
           "start": "2026-03-04T08:42:00Z"
+        }
+      },
+      {
+        "id": "63908140288692897",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 479,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5926N02550E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 3,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 135
+        },
+        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 4KM\r\nRADIUS CENTRED ON 592611N 0255029E FROM SFC UP TO FL135.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-28T20:00:00Z",
+          "start": "2026-03-23T06:00:00Z"
         }
       },
       {
@@ -2280,8 +2344,8 @@
       }
     ]
   },
-  "id": "15d8611a-0385-497c-b396-bc887c1e99ff",
-  "identifier": "BRIEFING-20260322-31",
+  "id": "8ccc5703-1ad1-4c73-9c2f-8ad6fefba061",
+  "identifier": "BRIEFING-20260322-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2330,8 +2394,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-23T05:00:00Z",
-    "validityStart": "2026-03-22T05:00:00Z"
+    "validityEnd": "2026-03-23T07:15:00Z",
+    "validityStart": "2026-03-22T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2710,6 +2774,11 @@
             },
             {
               "link": false,
+              "referenceId": "63908140288692897",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63907771068043505",
               "structureType": "REFERENCE"
             },
@@ -2752,6 +2821,11 @@
             {
               "link": false,
               "referenceId": "63909597819000897",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909523532137585",
               "structureType": "REFERENCE"
             },
             {
