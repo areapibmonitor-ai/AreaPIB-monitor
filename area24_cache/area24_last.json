@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-21T23:45:00.42Z",
+  "createdAt": "2026-03-22T05:00:00.444Z",
   "dynamicData": {
     "notams": [
       {
@@ -181,6 +181,41 @@
         "validity": {
           "end": "2026-03-23T12:59:00Z",
           "start": "2026-03-20T16:00:00Z"
+        }
+      },
+      {
+        "id": "63909007229820993",
+        "levels": {
+          "lower": "SFC",
+          "upper": "8500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 554,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 85
+        },
+        "schedule": "MAR 23-28 0400-1959, 29-31 0300-1859, APR 01-05 0300-1859",
+        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR GUN FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E -592114N 0253942E -\r\n592744N 0254210E.\r\nINFO ABOUT ACT AVBL FROM TEL + 372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-05T18:59:00Z",
+          "start": "2026-03-23T04:00:00Z"
         }
       },
       {
@@ -417,6 +452,41 @@
           "end": "2026-06-10T12:00:00Z",
           "est": true,
           "start": "2026-03-10T13:00:00Z"
+        }
+      },
+      {
+        "id": "63908666541971329",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 525,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "16 0600-1459, 17 0700-1359, 18 0700-1159, 19 0800-1359, 20\r\n0700-1159, 23 0700-1359, 24 0600-1459, 25 0700-1259, 26 0700-1159, 27\r\n0800-1459, 28 0600-1759, 29 30 0500-1359",
+        "text": "DANGER AREA EED20 MANNIKU ACT. INFO ABOUT ACT AVBL FROM +372 503\r\n4102",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-30T13:59:00Z",
+          "start": "2026-03-16T06:00:00Z"
         }
       },
       {
@@ -684,6 +754,41 @@
           "end": "2026-06-08T12:00:00Z",
           "est": true,
           "start": "2026-03-09T06:00:00Z"
+        }
+      },
+      {
+        "id": "63908215641210833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "9200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 487,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "11 0600-1659, 12 0600-1359, 13 0600-1659, 14 0600-1559, 16 0600-17\r\n1859, 19 20 0600-1859, 23 0600-1459, 29 0600-1159",
+        "text": "DANGER AREA EED4 NURSIPALU 2 ACTIVATED. INFORMATION ABOUT ACTIVITY\r\nAVAILABLE FROM +372 507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-29T11:59:00Z",
+          "start": "2026-03-11T06:00:00Z"
         }
       },
       {
@@ -2104,9 +2209,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63909751407394401",
+        "number": 194,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-03-22T04:43:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63909722643636465",
-        "number": 414,
+        "id": "63909745493836305",
+        "number": 415,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2134,22 +2274,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-21T20:42:00Z"
+            "time": "2026-03-22T03:03:00Z"
           }
         ]
       }
     ]
   },
-  "id": "124cd217-d9ef-4589-bf7c-79d540d0e7e9",
-  "identifier": "BRIEFING-20260321-111",
+  "id": "15d8611a-0385-497c-b396-bc887c1e99ff",
+  "identifier": "BRIEFING-20260322-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2190,8 +2330,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-22T23:45:00Z",
-    "validityStart": "2026-03-21T23:45:00Z"
+    "validityEnd": "2026-03-23T05:00:00Z",
+    "validityStart": "2026-03-22T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2380,6 +2520,11 @@
                   "link": false,
                   "referenceId": "63905961967110913",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909751407394401",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2427,6 +2572,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63908666541971329",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63908231399072001",
                   "structureType": "REFERENCE"
                 },
@@ -2452,7 +2602,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909722643636465",
+                  "referenceId": "63909745493836305",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2611,6 +2761,11 @@
             },
             {
               "link": false,
+              "referenceId": "63909007229820993",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63909006549558497",
               "structureType": "REFERENCE"
             },
@@ -2626,6 +2781,11 @@
             },
             {
               "link": true,
+              "referenceId": "63908666541971329",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63908665921515377",
               "structureType": "REFERENCE"
             },
@@ -2637,6 +2797,11 @@
             {
               "link": false,
               "referenceId": "63908392289238113",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63908215641210833",
               "structureType": "REFERENCE"
             },
             {
