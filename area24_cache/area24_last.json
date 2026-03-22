@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-22T20:45:00.386Z",
+  "createdAt": "2026-03-22T21:45:00.45Z",
   "dynamicData": {
     "notams": [
       {
@@ -1302,40 +1302,6 @@
         }
       },
       {
-        "id": "63907811245182673",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 450,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "text": "DANGER AREA EED36 EIVERE ACTIVATED.\r\nINFO ABOUT ACTIVITY FROM TEL +37253557238.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-22T21:00:00Z",
-          "start": "2026-03-22T06:00:00Z"
-        }
-      },
-      {
         "id": "63907805434619121",
         "locations": [
           "EEEI"
@@ -2369,8 +2335,8 @@
       }
     ]
   },
-  "id": "ade138b5-a275-44ee-8c3f-95f1027ebbde",
-  "identifier": "BRIEFING-20260322-99",
+  "id": "c0baa961-d1e2-432c-9a49-2e95d6ef11b8",
+  "identifier": "BRIEFING-20260322-103",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2419,8 +2385,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-23T20:45:00Z",
-    "validityStart": "2026-03-22T20:45:00Z"
+    "validityEnd": "2026-03-23T21:45:00Z",
+    "validityStart": "2026-03-22T21:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2941,11 +2907,6 @@
             {
               "link": false,
               "referenceId": "63908042446159185",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907811245182673",
               "structureType": "REFERENCE"
             },
             {
