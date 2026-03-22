@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-22T15:45:00.418Z",
+  "createdAt": "2026-03-22T16:45:01.134Z",
   "dynamicData": {
     "notams": [
       {
@@ -753,41 +753,6 @@
         "validity": {
           "end": "2026-03-31T23:59:00Z",
           "start": "2026-03-06T13:18:00Z"
-        }
-      },
-      {
-        "id": "63908392289238113",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 503,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 44
-        },
-        "schedule": "08 1600-2059, 13 1500-14 0359, 16 0600-22 1559",
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-22T15:59:00Z",
-          "start": "2026-03-08T16:00:00Z"
         }
       },
       {
@@ -2404,16 +2369,16 @@
       }
     ]
   },
-  "id": "8e1e5a2e-2aee-483d-b33b-cda4c942d1eb",
-  "identifier": "BRIEFING-20260322-79",
+  "id": "ab6c90bb-96b7-433b-969c-cf194b3b1195",
+  "identifier": "BRIEFING-20260322-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2454,8 +2419,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-23T15:45:00Z",
-    "validityStart": "2026-03-22T15:45:00Z"
+    "validityEnd": "2026-03-23T16:45:00Z",
+    "validityStart": "2026-03-22T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2941,11 +2906,6 @@
             {
               "link": true,
               "referenceId": "63908664656063825",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63908392289238113",
               "structureType": "REFERENCE"
             },
             {
