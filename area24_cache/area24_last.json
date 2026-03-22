@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-22T10:45:00.427Z",
+  "createdAt": "2026-03-22T11:45:00.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -111,6 +111,36 @@
           "end": "2026-06-19T12:00:00Z",
           "est": true,
           "start": "2026-03-20T08:16:00Z"
+        }
+      },
+      {
+        "id": "63909590707067953",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 589,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LP",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 10,
+          "scope": "AE",
+          "subject": "AC",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TALLINN CTR IS PROHIBITED TO SCHOOL AND TRAINING FLIGHTS DUE TO\r\nILS INSPECTION FLIGHT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-23T18:00:00Z",
+          "start": "2026-03-23T11:00:00Z"
         }
       },
       {
@@ -2443,8 +2473,8 @@
       }
     ]
   },
-  "id": "72313138-5839-4cc1-a2f6-508c3ae3412d",
-  "identifier": "BRIEFING-20260322-59",
+  "id": "fca3dcc2-c5c3-497e-a960-cd074ab83ef0",
+  "identifier": "BRIEFING-20260322-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2493,8 +2523,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-23T10:45:00Z",
-    "validityStart": "2026-03-22T10:45:00Z"
+    "validityEnd": "2026-03-23T11:45:00Z",
+    "validityStart": "2026-03-22T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2725,6 +2755,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63909590707067953",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63908993488381681",
                   "structureType": "REFERENCE"
                 },
@@ -2866,6 +2901,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63909590707067953",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63908993488381681",
