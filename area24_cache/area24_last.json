@@ -1,7 +1,110 @@
 {
-  "createdAt": "2026-03-23T09:45:00.431Z",
+  "createdAt": "2026-03-23T11:45:00.43Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909862045195281",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 620,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 472,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF\r\nAERODROME.\r\nTYPE OF BIRDS - CRANES, HERONS, RAPTORS AND LAPWINGS\r\nBIRD WEIGHT - UP TO 6000 GRAMS\r\nMAX FLOCK SIZE - 100 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-04-13T14:00:00Z",
+          "est": true,
+          "start": "2026-03-23T11:21:00Z"
+        }
+      },
+      {
+        "id": "63909861160329633",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 619,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 470,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 2000 FT AGL\r\nTYPES OF BIRDS - SWANS, GEESE AND CRANES\r\nMAX FLOCK SIZE - 300 BIRDS\r\nBIRD WEIGHT - UP TO 8000 GRAMS\r\nMAIN MOVING DIRECTION - N, E",
+        "type": "R",
+        "validity": {
+          "end": "2026-04-13T14:00:00Z",
+          "est": true,
+          "start": "2026-03-23T11:11:00Z"
+        }
+      },
+      {
+        "id": "63909858859313729",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 618,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592432.7N 0244117.1E.\r\nELEV 197FT AMSL (HEIGHT 159FT AGL). LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-23T13:00:00Z",
+          "est": true,
+          "start": "2026-03-23T11:00:00Z"
+        }
+      },
       {
         "id": "63909847044404849",
         "levels": {
@@ -206,6 +309,36 @@
         "validity": {
           "end": "2026-03-23T18:00:00Z",
           "start": "2026-03-23T11:00:00Z"
+        }
+      },
+      {
+        "id": "63909529288316369",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 586,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AE",
+          "subject": "NX",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-24T14:00:00Z",
+          "start": "2026-03-24T10:30:00Z"
         }
       },
       {
@@ -1019,71 +1152,6 @@
           "end": "2026-03-23T14:00:00Z",
           "est": true,
           "start": "2026-03-03T10:15:00Z"
-        }
-      },
-      {
-        "id": "63908128800811905",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 472,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF\r\nAERODROME\r\nTYPE OF BIRDS - GEESE, CRANES, RAPTORS AND LAPWINGS\r\nBIRD WEIGHT - UP TO 6000 GRAMS\r\nMAX FLOCK SIZE - 50 BIRDS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-23T14:00:00Z",
-          "start": "2026-03-03T09:55:00Z"
-        }
-      },
-      {
-        "id": "63908128245163889",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 470,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 389,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AERODROME, HIGHT UP TO 2000 FT AGL\r\nTYPES OF BIRDS - SWANS  AND GEESE\r\nMAX FLOCK SIZE - 100 BIRDS\r\nBIRD WEIGHT - UP TO 8000 GRAMS\r\nMAIN MOVING DIRECTION - N, E.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-23T14:00:00Z",
-          "start": "2026-03-03T09:49:00Z"
         }
       },
       {
@@ -2329,8 +2397,8 @@
       }
     ]
   },
-  "id": "40b62bba-c471-45f1-a7d1-bc5be91925dc",
-  "identifier": "BRIEFING-20260323-55",
+  "id": "1749021a-bffd-4732-8586-bb3653b30fe9",
+  "identifier": "BRIEFING-20260323-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2379,8 +2447,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-24T09:45:00Z",
-    "validityStart": "2026-03-23T09:45:00Z"
+    "validityEnd": "2026-03-24T11:45:00Z",
+    "validityStart": "2026-03-23T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2464,22 +2532,22 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63909862045195281",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909861160329633",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909607728473601",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63908642058988769",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63908128800811905",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63908128245163889",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2601,6 +2669,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63909858859313729",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909591475652497",
                   "structureType": "REFERENCE"
                 },
@@ -2612,6 +2685,11 @@
                 {
                   "link": false,
                   "referenceId": "63909590707067953",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909529288316369",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2765,6 +2843,11 @@
             {
               "link": true,
               "referenceId": "63909590707067953",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63909529288316369",
               "structureType": "REFERENCE"
             },
             {
