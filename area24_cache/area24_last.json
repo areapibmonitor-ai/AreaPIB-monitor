@@ -1,7 +1,169 @@
 {
-  "createdAt": "2026-03-24T08:00:00.47Z",
+  "createdAt": "2026-03-24T11:00:00.702Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909946736212017",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 650,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5917N02408E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 11,
+          "scope": "AE",
+          "subject": "ST",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "referenceId": {
+          "number": 646,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "AMARI ATC CLOSED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-24T13:00:00Z",
+          "est": true,
+          "start": "2026-03-24T10:58:00Z"
+        }
+      },
+      {
+        "id": "63909944827210577",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 649,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 03/21 CLOSED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-25T11:00:00Z",
+          "start": "2026-03-25T08:00:00Z"
+        }
+      },
+      {
+        "id": "63909941395380817",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 648,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 08 U/S",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-24T16:00:00Z",
+          "start": "2026-03-24T09:30:00Z"
+        }
+      },
+      {
+        "id": "63909939539795921",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AGL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 643,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5915N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER2410 ESTABLISHED WI: 591706N0241234E -\r\n591629N0241543E - 591558N0241604E - 591442N0241433E - 591321N0241100E\r\n- 591342N0240926E - 591511N0240831E - 591706N0241234E. ALL FLIGHTS\r\n(INCLUDING UNMANNED AIRCRAFT) WI THE AREA ARE PROHIBITED EXC: MIL,\r\nSAR, HOSP FLIGHTS. ADDITIONAL INFO AVBL FROM TALLINN APP ON CHANNEL\r\n127.905.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-24T11:00:00Z",
+          "est": true,
+          "start": "2026-03-24T09:01:00Z"
+        }
+      },
+      {
+        "id": "63909939370471633",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 642,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5917N02408E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 11,
+          "scope": "AE",
+          "subject": "AC",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "AMARI CTR AIRSPACE CLASS G.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-24T11:00:00Z",
+          "est": true,
+          "start": "2026-03-24T08:50:00Z"
+        }
+      },
       {
         "id": "63909935536772385",
         "levels": {
@@ -70,100 +232,6 @@
         "validity": {
           "end": "2026-03-25T23:59:00Z",
           "start": "2026-03-24T18:00:00Z"
-        }
-      },
-      {
-        "id": "63909884958052721",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 633,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IL",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-24T10:00:00Z",
-          "start": "2026-03-24T08:00:00Z"
-        }
-      },
-      {
-        "id": "63909874334480401",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 632,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IC",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS RWY 26 U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-24T11:00:00Z",
-          "start": "2026-03-24T07:30:00Z"
-        }
-      },
-      {
-        "id": "63909872788173393",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 630,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5924N02332E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 45
-        },
-        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5664 1212.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-25T14:00:00Z",
-          "start": "2026-03-25T06:00:00Z"
         }
       },
       {
@@ -823,36 +891,6 @@
         }
       },
       {
-        "id": "63909529288316369",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 586,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "NX",
-          "traffic": "V",
-          "upper": 999
-        },
-        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-24T14:00:00Z",
-          "start": "2026-03-24T10:30:00Z"
-        }
-      },
-      {
         "id": "63909523532137585",
         "levels": {
           "lower": "SFC",
@@ -1502,6 +1540,41 @@
         "validity": {
           "end": "2026-05-29T23:59:00Z",
           "start": "2026-03-04T08:42:00Z"
+        }
+      },
+      {
+        "id": "63908142811969601",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 480,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5919N02724E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "schedule": "DAILY 0800-1200",
+        "text": "TEMPORARY RESTRICTED AREA EER26121UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 591839N 0271712E - 592249N 0272711E -\r\n592038N 0273111E - 591547N0272149E - 591839N 0271712E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5363\r\n9583.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-26T12:00:00Z",
+          "start": "2026-03-25T08:00:00Z"
         }
       },
       {
@@ -2707,8 +2780,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63909917790550337",
-        "number": 424,
+        "id": "63909940066564545",
+        "number": 425,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2736,7 +2809,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-24T02:54:00Z"
+            "time": "2026-03-24T09:04:00Z"
           }
         ]
       },
@@ -2777,8 +2850,8 @@
       }
     ]
   },
-  "id": "bf807a67-0fa9-41e5-80fd-a8afbe9740b7",
-  "identifier": "BRIEFING-20260324-48",
+  "id": "eec4485b-717e-4b59-a098-b5a65499f662",
+  "identifier": "BRIEFING-20260324-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2827,8 +2900,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-25T08:00:00Z",
-    "validityStart": "2026-03-24T08:00:00Z"
+    "validityEnd": "2026-03-25T11:00:00Z",
+    "validityStart": "2026-03-24T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2912,7 +2985,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63909884958052721",
+                  "referenceId": "63909946736212017",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909939539795921",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909939370471633",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3015,6 +3098,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63909944827210577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63908665921515377",
                   "structureType": "REFERENCE"
                 },
@@ -3054,7 +3142,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63909874334480401",
+                  "referenceId": "63909941395380817",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3080,11 +3168,6 @@
                 {
                   "link": false,
                   "referenceId": "63909590850408225",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909529288316369",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3124,7 +3207,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909917790550337",
+                  "referenceId": "63909940066564545",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3222,12 +3305,17 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63909590850408225",
+              "referenceId": "63909946736212017",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
-              "referenceId": "63909529288316369",
+              "referenceId": "63909939370471633",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63909590850408225",
               "structureType": "REFERENCE"
             },
             {
@@ -3293,17 +3381,17 @@
           "content": [
             {
               "link": true,
+              "referenceId": "63909939539795921",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63909935536772385",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
               "referenceId": "63909934728941969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909872788173393",
               "structureType": "REFERENCE"
             },
             {
@@ -3409,6 +3497,11 @@
             {
               "link": true,
               "referenceId": "63908210701561121",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63908142811969601",
               "structureType": "REFERENCE"
             },
             {
