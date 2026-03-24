@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-03-24T05:00:00.479Z",
+  "createdAt": "2026-03-24T08:00:00.47Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63909935536772385",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL185"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 639,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5830N02637E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 185
+        },
+        "schedule": "24 1800-2230, 25 0000-0345 1800-2230",
+        "text": "TEMPO RESTRICTED AREA EER254 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 584644N 0260445E - 582901N 0271519E - 581656N\r\n0271450E - 581146N 0270530E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP, MEDEVAC.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-25T22:30:00Z",
+          "start": "2026-03-24T18:00:00Z"
+        }
+      },
+      {
+        "id": "63909934728941969",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL185"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 635,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02637E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 72,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 185
+        },
+        "schedule": "24 1800-2359, 25 0000-0500 1800-2359",
+        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E -\r\n582901N 0271519E - 584644N 0260445E - 590655N 0260215E -\r\n591353N 0255129E - 591752N 0255142E - 592616N 0260250E -\r\n594847N 0260108E - 594300N 0263900E - 593500N 0265200E -\r\n593300N 0273900E - 592500N 0280000E - 592200N 0280400E -\r\n591800N 0275000E - 590000N 0273700E - 584800N 0271600E -\r\n583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E -\r\n573804N 0265219E - 573156N 0263323E - 574254N 0261221E -\r\n581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-25T23:59:00Z",
+          "start": "2026-03-24T18:00:00Z"
+        }
+      },
       {
         "id": "63909884958052721",
         "locations": [
@@ -60,6 +130,40 @@
         "validity": {
           "end": "2026-03-24T11:00:00Z",
           "start": "2026-03-24T07:30:00Z"
+        }
+      },
+      {
+        "id": "63909872788173393",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 630,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5924N02332E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 9,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 45
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5664 1212.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-25T14:00:00Z",
+          "start": "2026-03-25T06:00:00Z"
         }
       },
       {
@@ -2472,76 +2576,6 @@
         }
       },
       {
-        "id": "63903278463199297",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL185"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 26,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02637E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 72,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 185
-        },
-        "schedule": "DAILY 0000-0500 1800-2359",
-        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E -\r\n582901N 0271519E - 584644N 0260445E - 590655N 0260215E -\r\n591353N 0255129E - 591752N 0255142E - 592616N 0260250E -\r\n594847N 0260108E - 594300N 0263900E - 593500N 0265200E -\r\n593300N 0273900E - 592500N 0280000E - 592200N 0280400E -\r\n591800N 0275000E - 590000N 0273700E - 584800N 0271600E -\r\n583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E -\r\n573804N 0265219E - 573156N 0263323E - 574254N 0261221E -\r\n581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-12T23:59:00Z",
-          "start": "2026-01-12T00:00:00Z"
-        }
-      },
-      {
-        "id": "63903200351940033",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL185"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 21,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5830N02637E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 185
-        },
-        "schedule": "DAILY 0000-0345 1800-2230",
-        "text": "TEMPO RESTRICTED AREA EER254 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 584644N 0260445E - 582901N 0271519E - 581656N\r\n0271450E - 581146N 0270530E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP, MEDEVAC.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-12T22:30:00Z",
-          "start": "2026-01-12T00:00:00Z"
-        }
-      },
-      {
         "id": "63900884308865169",
         "locations": [
           "EETU"
@@ -2708,8 +2742,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63909921876581713",
-        "number": 262,
+        "id": "63909933086912513",
+        "number": 263,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2719,32 +2753,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-24T04:03:00Z"
+            "time": "2026-03-24T07:06:00Z"
           }
         ]
       }
     ]
   },
-  "id": "df9d6671-ab18-4c53-b305-d08b2ed240ca",
-  "identifier": "BRIEFING-20260324-31",
+  "id": "bf807a67-0fa9-41e5-80fd-a8afbe9740b7",
+  "identifier": "BRIEFING-20260324-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2793,8 +2827,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-25T05:00:00Z",
-    "validityStart": "2026-03-24T05:00:00Z"
+    "validityEnd": "2026-03-25T08:00:00Z",
+    "validityStart": "2026-03-24T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3102,6 +3136,16 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63909935536772385",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909934728941969",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909430839498273",
                   "structureType": "REFERENCE"
                 },
@@ -3157,22 +3201,12 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63903278463199297",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63903200351940033",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63900884308865169",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63909921876581713",
+                  "referenceId": "63909933086912513",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3257,6 +3291,21 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63909935536772385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63909934728941969",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909872788173393",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63909871868293041",
@@ -3415,16 +3464,6 @@
             {
               "link": false,
               "referenceId": "63904160145058641",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63903278463199297",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63903200351940033",
               "structureType": "REFERENCE"
             }
           ],
