@@ -1809,3 +1809,21 @@ Other removals:
 - NOTAM A0586/26 was removed from the PIB.
 - NOTAM A0630/26 was removed from the PIB.
 [2026-03-24T11:11:46Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50b36e803b8sm102670611cf.23 - gsmtp')
+[2026-03-24T14:45:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0628/26 expired and was removed from the PIB.
+- NOTAM A0642/26 expired and was removed from the PIB.
+- NOTAM A0643/26 expired and was removed from the PIB.
+- NOTAM A0650/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0658/26 NOTAMN
+Q)EETT/SAAS/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2603241230 C)2603251400
+E)ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.
+MET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.
+)
+[2026-03-24T14:45:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8cfc8f9210csm1068278785a.11 - gsmtp')
