@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-25T08:00:00.489Z",
+  "createdAt": "2026-03-25T10:30:00.451Z",
   "dynamicData": {
     "notams": [
       {
@@ -166,6 +166,41 @@
         "validity": {
           "end": "2026-03-25T22:30:00Z",
           "start": "2026-03-24T18:00:00Z"
+        }
+      },
+      {
+        "id": "63909872301433761",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2999FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 629,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "schedule": "26 0900-1600, 27 0600-1400",
+        "text": "RESTRICTED AREA EER15F ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5885 9398.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-27T14:00:00Z",
+          "start": "2026-03-26T09:00:00Z"
         }
       },
       {
@@ -2584,8 +2619,8 @@
       }
     ]
   },
-  "id": "b939d866-4ecf-471d-8702-18f1f2659af2",
-  "identifier": "BRIEFING-20260325-48",
+  "id": "b5903edd-eff9-43d0-878f-71f91cf7f20f",
+  "identifier": "BRIEFING-20260325-58",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2634,8 +2669,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-26T08:00:00Z",
-    "validityStart": "2026-03-25T08:00:00Z"
+    "validityEnd": "2026-03-26T10:30:00Z",
+    "validityStart": "2026-03-25T10:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3086,6 +3121,11 @@
             {
               "link": true,
               "referenceId": "63909935536772385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909872301433761",
               "structureType": "REFERENCE"
             },
             {
