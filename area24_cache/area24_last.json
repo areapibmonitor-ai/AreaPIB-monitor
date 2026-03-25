@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-25T16:30:00.485Z",
+  "createdAt": "2026-03-25T19:30:00.98Z",
   "dynamicData": {
     "notams": [
       {
@@ -2557,8 +2557,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910048943911649",
-        "number": 432,
+        "id": "63910053420769729",
+        "number": 433,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2570,30 +2570,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-25T15:21:00Z"
+            "time": "2026-03-25T16:35:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a33e0b88-9f39-41fa-b2dc-505fc6d68da1",
-  "identifier": "BRIEFING-20260325-82",
+  "id": "261cb3d9-961f-4683-8028-e8f881af2294",
+  "identifier": "BRIEFING-20260325-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2642,8 +2642,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-26T16:30:00Z",
-    "validityStart": "2026-03-25T16:30:00Z"
+    "validityEnd": "2026-03-26T19:30:00Z",
+    "validityStart": "2026-03-25T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2929,7 +2929,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910048943911649",
+                  "referenceId": "63910053420769729",
                   "structureType": "REFERENCE"
                 }
               ],
