@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-03-25T10:30:00.451Z",
+  "createdAt": "2026-03-25T11:45:00.43Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910034127344337",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 676,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "SA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 658,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-30T14:00:00Z",
+          "est": true,
+          "start": "2026-03-25T11:14:00Z"
+        }
+      },
       {
         "id": "63910020920202945",
         "levels": {
@@ -70,67 +106,6 @@
           "end": "2026-05-25T07:00:00Z",
           "est": true,
           "start": "2026-03-25T06:40:00Z"
-        }
-      },
-      {
-        "id": "63909952550177585",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 658,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-25T14:00:00Z",
-          "est": true,
-          "start": "2026-03-24T12:30:00Z"
-        }
-      },
-      {
-        "id": "63909944827210577",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 649,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 03/21 CLOSED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-25T11:00:00Z",
-          "start": "2026-03-25T08:00:00Z"
         }
       },
       {
@@ -2549,8 +2524,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910012632251377",
-        "number": 429,
+        "id": "63910035866670673",
+        "number": 430,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2562,23 +2537,23 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-25T05:16:00Z"
+            "time": "2026-03-25T11:43:00Z"
           }
         ]
       },
@@ -2619,8 +2594,8 @@
       }
     ]
   },
-  "id": "b5903edd-eff9-43d0-878f-71f91cf7f20f",
-  "identifier": "BRIEFING-20260325-58",
+  "id": "b4d21cd4-ab1f-4d3d-995a-67d71ababb7e",
+  "identifier": "BRIEFING-20260325-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2669,8 +2644,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-26T10:30:00Z",
-    "validityStart": "2026-03-25T10:30:00Z"
+    "validityEnd": "2026-03-26T11:45:00Z",
+    "validityStart": "2026-03-25T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2754,7 +2729,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63909952550177585",
+                  "referenceId": "63910034127344337",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2862,11 +2837,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63909944827210577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63908665921515377",
                   "structureType": "REFERENCE"
                 },
@@ -2961,7 +2931,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910012632251377",
+                  "referenceId": "63910035866670673",
                   "structureType": "REFERENCE"
                 }
               ],

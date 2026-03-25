@@ -1890,3 +1890,20 @@ ACT AVBL FROM: +372 5885 9398.
 F)SFC G)2999FT AMSL
 )
 [2026-03-25T10:35:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2c10b14cadbsm21707709eec.3 - gsmtp')
+[2026-03-25T12:07:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0649/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A0658/26 was replaced with NOTAM A0676/26.
+AFTN: (A0676/26 NOTAMR A0658/26
+
+(A0676/26 NOTAMR A0658/26
+Q)EETT/SAAS/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2603251114 C)2603301400
+E)ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.
+MET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.
+)
+[2026-03-25T12:07:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12a733d199asm12870034c88.4 - gsmtp')
