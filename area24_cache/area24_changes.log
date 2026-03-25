@@ -1855,3 +1855,21 @@ E)DANGER AREA EED8 RUTJA ACTIVATED.
 F)SFC G)2200FT AMSL
 )
 [2026-03-25T05:21:44Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50b36b50fa8sm157464661cf.0 - gsmtp')
+[2026-03-25T08:03:48Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0668/26 NOTAMN
+Q)EETT/FAHX/IV/NBO/A/000/999/5859N02250E005
+A)EEKA B)2603250640 C)2605250700
+E)CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.
+TYPE OF BIRDS - GULLS AND COMMON CRANES.
+MAX FLOCK SIZE - 100 BIRDS.
+)
+
+
+Other removals:
+- NOTAM A0570/26 was removed from the PIB.
+- NOTAM A0635/26 was removed from the PIB.
+[2026-03-25T08:03:48Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2c10b29d28csm21597858eec.19 - gsmtp')

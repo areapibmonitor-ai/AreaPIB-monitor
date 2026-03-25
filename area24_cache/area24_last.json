@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-03-25T05:15:00.526Z",
+  "createdAt": "2026-03-25T08:00:00.489Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910020920202945",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL275"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 670,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02637E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 72,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 275
+        },
+        "referenceId": {
+          "number": 667,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E - 582901N\r\n0271519E - 584644N 0260445E - 590655N 0260215E - 591353N 0255129E -\r\n591752N 0255142E - 592616N 0260250E - 594847N 0260108E - 594300N\r\n0263900E - 593500N 0265200E - 593300N 0273900E - 592500N 0280000E -\r\n592200N 0280400E - 591800N 0275000E - 590000N 0273700E - 584800N\r\n0271600E - 583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E - 573804N\r\n0265219E - 573156N 0263323E - 574254N 0261221E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP. PERMISSION FOR ENTERING\r\nTHE AREA BELOW FL095 SHALL BE OBTAINED\r\nFROM TEL +372 717 3724.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-27T23:59:00Z",
+          "start": "2026-03-25T07:33:00Z"
+        }
+      },
+      {
+        "id": "63910017532572913",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 668,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - GULLS AND COMMON CRANES.\r\nMAX FLOCK SIZE - 100 BIRDS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-25T07:00:00Z",
+          "est": true,
+          "start": "2026-03-25T06:40:00Z"
+        }
+      },
       {
         "id": "63909952550177585",
         "locations": [
@@ -95,41 +165,6 @@
         "type": "N",
         "validity": {
           "end": "2026-03-25T22:30:00Z",
-          "start": "2026-03-24T18:00:00Z"
-        }
-      },
-      {
-        "id": "63909934728941969",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL185"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 635,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02637E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 72,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 185
-        },
-        "schedule": "24 1800-2359, 25 0000-0500 1800-2359",
-        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WI:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E -\r\n582901N 0271519E - 584644N 0260445E - 590655N 0260215E -\r\n591353N 0255129E - 591752N 0255142E - 592616N 0260250E -\r\n594847N 0260108E - 594300N 0263900E - 593500N 0265200E -\r\n593300N 0273900E - 592500N 0280000E - 592200N 0280400E -\r\n591800N 0275000E - 590000N 0273700E - 584800N 0271600E -\r\n583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E -\r\n573804N 0265219E - 573156N 0263323E - 574254N 0261221E -\r\n581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-25T23:59:00Z",
           "start": "2026-03-24T18:00:00Z"
         }
       },
@@ -657,41 +692,6 @@
           "end": "2026-06-16T10:00:00Z",
           "est": true,
           "start": "2026-03-18T11:40:00Z"
-        }
-      },
-      {
-        "id": "63909410667744529",
-        "levels": {
-          "lower": "SFC",
-          "upper": "165FT AGL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 570,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5818N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 4
-        },
-        "schedule": "DAILY 0800-1000",
-        "text": "TEMPO RESTRICTED AREA EER2617 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN:\r\n581810N 0264329E - 581847N 0264317E - 581847N 0264309E - 581809N\r\n0264322E - 581810N 0264329E.\r\nINFO ABOUT ACT AVBL FM +372 516 8285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-27T10:00:00Z",
-          "start": "2026-03-23T08:00:00Z"
         }
       },
       {
@@ -2478,9 +2478,44 @@
         ]
       },
       {
+        "aerodrome": "EEPU",
+        "id": "63910012912918545",
+        "number": 200,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-03-25T05:21:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63910004471560017",
-        "number": 428,
+        "id": "63910012632251377",
+        "number": 429,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2490,32 +2525,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-25T03:00:00Z"
+            "time": "2026-03-25T05:16:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910005627030545",
-        "number": 265,
+        "id": "63910018280172209",
+        "number": 266,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2543,14 +2578,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-25T03:19:00Z"
+            "time": "2026-03-25T06:48:00Z"
           }
         ]
       }
     ]
   },
-  "id": "70fbca63-d280-4df7-9ee7-36569c04c9fd",
-  "identifier": "BRIEFING-20260325-35",
+  "id": "b939d866-4ecf-471d-8702-18f1f2659af2",
+  "identifier": "BRIEFING-20260325-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2599,8 +2634,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-26T05:15:00Z",
-    "validityStart": "2026-03-25T05:15:00Z"
+    "validityEnd": "2026-03-26T08:00:00Z",
+    "validityStart": "2026-03-25T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2731,6 +2766,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63910017532572913",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63905962718114065",
                   "structureType": "REFERENCE"
                 }
@@ -2798,6 +2838,11 @@
                 {
                   "link": false,
                   "referenceId": "63905961967110913",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63910012912918545",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2881,7 +2926,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910004471560017",
+                  "referenceId": "63910012632251377",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2893,22 +2938,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63910020920202945",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909935536772385",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63909934728941969",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63909430839498273",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909410667744529",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2963,7 +3003,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910005627030545",
+                  "referenceId": "63910018280172209",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3040,12 +3080,12 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63909935536772385",
+              "referenceId": "63910020920202945",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
-              "referenceId": "63909934728941969",
+              "referenceId": "63909935536772385",
               "structureType": "REFERENCE"
             },
             {
@@ -3086,11 +3126,6 @@
             {
               "link": false,
               "referenceId": "63909523532137585",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63909410667744529",
               "structureType": "REFERENCE"
             },
             {
