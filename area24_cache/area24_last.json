@@ -1,7 +1,68 @@
 {
-  "createdAt": "2026-03-26T05:45:00.484Z",
+  "createdAt": "2026-03-26T09:30:00.922Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910112491914049",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 687,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE MOTOR BOAT U/S DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-10T15:00:00Z",
+          "est": true,
+          "start": "2026-03-26T09:30:00Z"
+        }
+      },
+      {
+        "id": "63910110198699857",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 686,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-29T09:00:00Z",
+          "start": "2026-03-26T08:45:00Z"
+        }
+      },
       {
         "id": "63910049392393601",
         "levels": {
@@ -2459,8 +2520,8 @@
     "snowtams": [
       {
         "aerodrome": "EEKE",
-        "id": "63910098223280993",
-        "number": 169,
+        "id": "63910109359993633",
+        "number": 170,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2470,25 +2531,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T05:03:00Z"
+            "time": "2026-03-26T08:08:00Z"
           },
           {
             "adjacentSnowbanks": false,
@@ -2498,25 +2559,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T05:03:00Z"
+            "time": "2026-03-26T08:07:00Z"
           }
         ]
       },
@@ -2557,8 +2618,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910090435688241",
-        "number": 435,
+        "id": "63910105706357569",
+        "number": 436,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2569,31 +2630,31 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T02:43:00Z"
+            "time": "2026-03-26T07:07:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910092000643521",
-        "number": 268,
+        "id": "63910105278778241",
+        "number": 269,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2603,32 +2664,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T03:17:00Z"
+            "time": "2026-03-26T06:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a6e87c54-1e64-4ce4-ba43-e340c54bc7b3",
-  "identifier": "BRIEFING-20260326-38",
+  "id": "bf34b889-bdca-4495-a801-5cd28421ddc4",
+  "identifier": "BRIEFING-20260326-54",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2677,8 +2738,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-27T05:45:00Z",
-    "validityStart": "2026-03-26T05:45:00Z"
+    "validityEnd": "2026-03-27T09:30:00Z",
+    "validityStart": "2026-03-26T09:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2826,6 +2887,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63910112491914049",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63907952478037233",
                   "structureType": "REFERENCE"
                 },
@@ -2846,7 +2912,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910098223280993",
+                  "referenceId": "63910109359993633",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2964,7 +3030,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910090435688241",
+                  "referenceId": "63910105706357569",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3041,7 +3107,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910092000643521",
+                  "referenceId": "63910105278778241",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3055,6 +3121,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63910110198699857",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63908993488381681",
