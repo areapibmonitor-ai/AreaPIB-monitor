@@ -1,7 +1,119 @@
 {
-  "createdAt": "2026-03-27T08:00:00.49Z",
+  "createdAt": "2026-03-27T11:00:00.96Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910202373903217",
+        "levels": {
+          "lower": "500FT AGL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 710,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02635E",
+          "fir": "EETT",
+          "lower": 5,
+          "purpose": "BO",
+          "radius": 71,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "AIP SUP 04/2026 - ESTABLISHMENT OF TEMPORARY RESTRICTED AREA\r\nEER2615.\r\nEFFECTIVE DATE POSTPONED TO 30 MAR 2026 0530.",
+        "type": "N",
+        "validity": {
+          "end": "2026-03-30T05:30:00Z",
+          "start": "2026-03-27T10:00:00Z"
+        }
+      },
+      {
+        "id": "63910197724355729",
+        "levels": {
+          "lower": "FL175",
+          "upper": "FL275"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 709,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5830N02637E",
+          "fir": "EETT",
+          "lower": 175,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 275
+        },
+        "referenceId": {
+          "number": 702,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPO RESTRICTED AREA EER254 ESTABLISHED DUE TO MIL OPS WITHIN:\r\n581133N 0260859E - 584644N 0260445E - 582901N 0271519E - 581656N\r\n0271450E - 581146N 0270530E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP,\r\nMEDEVAC FLIGHTS.\r\nINFO ABOUT ACT AVBL FROM TEL +372 717 3724.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-30T05:30:00Z",
+          "start": "2026-03-27T08:40:00Z"
+        }
+      },
+      {
+        "id": "63910197392337281",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL275"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 708,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02637E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 72,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 275
+        },
+        "referenceId": {
+          "number": 701,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WITHIN:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E - 582901N\r\n0271519E - 584644N 0260445E - 590655N 0260215E - 591353N 0255129E -\r\n591752N 0255142E - 592616N 0260250E - 594847N 0260108E - 594300N\r\n0263900E - 593500N 0265200E - 593300N 0273900E - 592500N 0280000E -\r\n592200N 0280400E - 591800N 0275000E - 590000N 0273700E - 584800N\r\n0271600E - 583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E - 573804N\r\n0265219E - 573156N 0263323E - 574254N 0261221E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP\r\nFLIGHTS.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
+        "type": "R",
+        "validity": {
+          "end": "2026-03-30T05:30:00Z",
+          "start": "2026-03-27T08:34:00Z"
+        }
+      },
       {
         "id": "63910192674771841",
         "levels": {
@@ -34,118 +146,6 @@
         "validity": {
           "end": "2026-03-27T15:00:00Z",
           "start": "2026-03-27T07:00:00Z"
-        }
-      },
-      {
-        "id": "63910190306336081",
-        "levels": {
-          "lower": "FL175",
-          "upper": "FL275"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 702,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5830N02637E",
-          "fir": "EETT",
-          "lower": 175,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 275
-        },
-        "referenceId": {
-          "number": 680,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TEMPO RESTRICTED AREA EER254 ESTABLISHED DUE TO MIL OPS WITHIN:\r\n581133N 0260859E - 584644N 0260445E - 582901N 0271519E - 581656N\r\n0271450E - 581146N 0270530E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP,\r\nMEDEVAC FLIGHTS.\r\nINFO ABOUT ACT AVBL FROM TEL +372 717 3724.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-31T03:59:00Z",
-          "start": "2026-03-27T06:37:00Z"
-        }
-      },
-      {
-        "id": "63910189521826465",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL275"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 701,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02637E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 72,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 275
-        },
-        "referenceId": {
-          "number": 670,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TEMPO RESTRICTED AREA EER253 ESTABLISHED DUE TO MIL OPS WITHIN:\r\n581133N 0260859E - 581146N 0270530E - 581656N 0271450E - 582901N\r\n0271519E - 584644N 0260445E - 590655N 0260215E - 591353N 0255129E -\r\n591752N 0255142E - 592616N 0260250E - 594847N 0260108E - 594300N\r\n0263900E - 593500N 0265200E - 593300N 0273900E - 592500N 0280000E -\r\n592200N 0280400E - 591800N 0275000E - 590000N 0273700E - 584800N\r\n0271600E - 583000N 0272400E - 581200N 0272400E - 575800N 0273300E -\r\n573311N 0271110E - 573313N 0271103E - 573807N 0265636E - 573804N\r\n0265219E - 573156N 0263323E - 574254N 0261221E - 581133N 0260859E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP\r\nFLIGHTS.\r\nPERMISSION FOR ENTERING THE AREA BELOW FL095 SHALL BE OBTAINED FROM\r\nTEL +372 717 3724.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-31T03:59:00Z",
-          "start": "2026-03-27T06:16:00Z"
-        }
-      },
-      {
-        "id": "63910114882482193",
-        "levels": {
-          "lower": "500FT AGL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 690,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5841N02635E",
-          "fir": "EETT",
-          "lower": 5,
-          "purpose": "BO",
-          "radius": 142,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TRIGGER NOTAM - AIP SUP 04/2026 WEF 28 MAR 2026 TIL 01 JAN 2027.\r\n- ESTABLISHMENT OF TEMPORARY RESTRICTED AREA EER2615.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-10T23:59:00Z",
-          "start": "2026-03-28T00:00:00Z"
         }
       },
       {
@@ -2757,8 +2757,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910176235132721",
-        "number": 439,
+        "id": "63910198653744161",
+        "number": 440,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2786,7 +2786,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-27T02:42:00Z"
+            "time": "2026-03-27T08:56:00Z"
           }
         ]
       },
@@ -2827,8 +2827,8 @@
       }
     ]
   },
-  "id": "20206277-2fb9-44c1-b48e-91d24a9fa099",
-  "identifier": "BRIEFING-20260327-48",
+  "id": "6a26fa9e-e615-46b0-9519-8255a4b62a49",
+  "identifier": "BRIEFING-20260327-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2877,8 +2877,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-28T08:00:00Z",
-    "validityStart": "2026-03-27T08:00:00Z"
+    "validityEnd": "2026-03-28T11:00:00Z",
+    "validityStart": "2026-03-27T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3164,7 +3164,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910176235132721",
+                  "referenceId": "63910198653744161",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3176,17 +3176,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63910190306336081",
+                  "referenceId": "63910202373903217",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63910189521826465",
+                  "referenceId": "63910197724355729",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63910114882482193",
+                  "referenceId": "63910197392337281",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3337,23 +3337,23 @@
         {
           "content": [
             {
+              "link": true,
+              "referenceId": "63910202373903217",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63910197724355729",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63910197392337281",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63910192674771841",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63910190306336081",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63910189521826465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63910114882482193",
               "structureType": "REFERENCE"
             },
             {
