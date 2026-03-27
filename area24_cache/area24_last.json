@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-03-27T00:00:00.534Z",
+  "createdAt": "2026-03-27T05:45:00.478Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910114882482193",
+        "levels": {
+          "lower": "500FT AGL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 690,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5841N02635E",
+          "fir": "EETT",
+          "lower": 5,
+          "purpose": "BO",
+          "radius": 142,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TRIGGER NOTAM - AIP SUP 04/2026 WEF 28 MAR 2026 TIL 01 JAN 2027.\r\n- ESTABLISHMENT OF TEMPORARY RESTRICTED AREA EER2615.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-10T23:59:00Z",
+          "start": "2026-03-28T00:00:00Z"
+        }
+      },
       {
         "id": "63910112491914049",
         "locations": [
@@ -2415,9 +2449,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63910182421117713",
+        "number": 204,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-03-27T04:26:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63910155268031409",
-        "number": 438,
+        "id": "63910176235132721",
+        "number": 439,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2445,14 +2514,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T20:53:00Z"
+            "time": "2026-03-27T02:42:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910159197647089",
-        "number": 271,
+        "id": "63910178806470065",
+        "number": 272,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2480,14 +2549,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-26T21:59:00Z"
+            "time": "2026-03-27T03:23:00Z"
           }
         ]
       }
     ]
   },
-  "id": "93d3f3df-be71-48dd-b436-8f77676de362",
-  "identifier": "BRIEFING-20260327-1",
+  "id": "ab298c71-1dd3-442b-84e0-85726e220b76",
+  "identifier": "BRIEFING-20260327-38",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2536,8 +2605,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-28T00:00:00Z",
-    "validityStart": "2026-03-27T00:00:00Z"
+    "validityEnd": "2026-03-28T05:45:00Z",
+    "validityStart": "2026-03-27T05:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2736,6 +2805,11 @@
                   "link": false,
                   "referenceId": "63905961967110913",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63910182421117713",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2818,7 +2892,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910155268031409",
+                  "referenceId": "63910176235132721",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2828,6 +2902,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63910114882482193",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63910043345379873",
@@ -2890,7 +2969,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910159197647089",
+                  "referenceId": "63910178806470065",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2970,6 +3049,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63910114882482193",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63910043345379873",
