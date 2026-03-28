@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-28T19:15:00.422Z",
+  "createdAt": "2026-03-28T20:45:00.475Z",
   "dynamicData": {
     "notams": [
       {
@@ -1376,36 +1376,6 @@
         }
       },
       {
-        "id": "63908140288692897",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 479,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5926N02550E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 3,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 135
-        },
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 4KM\r\nRADIUS CENTRED ON 592611N 0255029E FROM SFC UP TO FL135.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-28T20:00:00Z",
-          "start": "2026-03-23T06:00:00Z"
-        }
-      },
-      {
         "id": "63908046414281217",
         "levels": {
           "lower": "1000FT AGL",
@@ -2513,69 +2483,6 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEKE",
-        "id": "63910297227709777",
-        "number": 172,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "05",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-28T12:19:00Z"
-          },
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "17",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-03-28T12:19:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EEPU",
         "id": "63910301517641057",
         "number": 208,
@@ -2647,8 +2554,8 @@
       }
     ]
   },
-  "id": "6ad6bbd8-1b5f-4313-8986-d9b9725516c4",
-  "identifier": "BRIEFING-20260328-93",
+  "id": "8263326b-4b5f-4274-a994-c2316a7da40b",
+  "identifier": "BRIEFING-20260328-99",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2697,8 +2604,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-29T19:15:00Z",
-    "validityStart": "2026-03-28T19:15:00Z"
+    "validityEnd": "2026-03-29T20:45:00Z",
+    "validityStart": "2026-03-28T20:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2877,11 +2784,6 @@
                 {
                   "link": false,
                   "referenceId": "63905962642605345",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63910297227709777",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3113,11 +3015,6 @@
             {
               "link": true,
               "referenceId": "63908400137180033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63908140288692897",
               "structureType": "REFERENCE"
             },
             {
