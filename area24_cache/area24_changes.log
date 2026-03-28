@@ -2280,3 +2280,15 @@ SAT 0630-1130
 SUN 0655-1655
 )
 [2026-03-28T05:14:21Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2c3c68b2ff2sm1312520eec.18 - gsmtp')
+[2026-03-28T07:51:07Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0374/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5901N02650E002
+A)EETT B)2603290700 C)2603291600
+E)DANGER AREA EED25 MURU ACTIVATED.
+F)SFC G)2200FT AMSL
+)
+[2026-03-28T07:51:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-89ecc1914d1sm13282496d6.21 - gsmtp')
