@@ -2292,3 +2292,12 @@ E)DANGER AREA EED25 MURU ACTIVATED.
 F)SFC G)2200FT AMSL
 )
 [2026-03-28T07:51:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-89ecc1914d1sm13282496d6.21 - gsmtp')
+[2026-03-28T09:56:19Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0606/26 expired and was removed from the PIB.
+- NOTAM A0607/26 expired and was removed from the PIB.
+- NOTAM A0608/26 expired and was removed from the PIB.
+- NOTAM A0609/26 expired and was removed from the PIB.
+[2026-03-28T09:56:19Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12ab9864810sm1670537c88.12 - gsmtp')
