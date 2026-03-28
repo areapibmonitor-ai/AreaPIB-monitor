@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-28T16:00:00.475Z",
+  "createdAt": "2026-03-28T17:45:03.296Z",
   "dynamicData": {
     "notams": [
       {
@@ -1891,41 +1891,6 @@
         }
       },
       {
-        "id": "63907254371048833",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 391,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "14-22 25-28 0800-1700",
-        "text": "DANGER AREA EED25 MURU ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-28T17:00:00Z",
-          "start": "2026-03-14T08:00:00Z"
-        }
-      },
-      {
         "id": "63907187479314689",
         "levels": {
           "lower": "SFC",
@@ -2099,40 +2064,6 @@
           "end": "2026-05-20T19:00:00Z",
           "est": true,
           "start": "2026-02-20T07:40:00Z"
-        }
-      },
-      {
-        "id": "63907102859630465",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1400FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 367,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5810N02646E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 14
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2607 ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 2.5KM RADIUS CENTRED ON 580953N 0264553E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5816\r\n7877.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-28T16:30:00Z",
-          "start": "2026-03-28T07:00:00Z"
         }
       },
       {
@@ -2750,8 +2681,8 @@
       }
     ]
   },
-  "id": "c4e7e069-8aba-41ef-8d36-b0cda92389dc",
-  "identifier": "BRIEFING-20260328-80",
+  "id": "1c8f67c1-5cb9-45a8-8119-a3e3f8dc6703",
+  "identifier": "BRIEFING-20260328-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2800,8 +2731,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-29T16:00:00Z",
-    "validityStart": "2026-03-28T16:00:00Z"
+    "validityEnd": "2026-03-29T17:45:00Z",
+    "validityStart": "2026-03-28T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3164,11 +3095,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63907102859630465",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63905960130653617",
                   "structureType": "REFERENCE"
                 },
@@ -3396,11 +3322,6 @@
             },
             {
               "link": false,
-              "referenceId": "63907254371048833",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63907187479314689",
               "structureType": "REFERENCE"
             },
@@ -3412,11 +3333,6 @@
             {
               "link": false,
               "referenceId": "63907176025341441",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63907102859630465",
               "structureType": "REFERENCE"
             },
             {
