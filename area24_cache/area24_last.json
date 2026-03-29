@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-29T14:00:00.439Z",
+  "createdAt": "2026-03-29T15:45:00.444Z",
   "dynamicData": {
     "notams": [
       {
@@ -1129,41 +1129,6 @@
         "validity": {
           "end": "2026-03-30T13:59:00Z",
           "start": "2026-03-16T06:00:00Z"
-        }
-      },
-      {
-        "id": "63908665921515377",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 523,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "16 1100-1359, 17-19 0700-1359, 20 0600-1559, 21 0600-1759, 22\r\n0600-1759, 23 0800-1959, 24-26 0500-1959, 27 0500-1259, 28 0600-1759,\r\n29 0500-1459",
-        "text": "DANGER AREA EED32 KIKEPERA ACT.\r\nINFO ABOUT ACT AVBL FROM +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-29T14:59:00Z",
-          "start": "2026-03-16T11:00:00Z"
         }
       },
       {
@@ -2519,8 +2484,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910374303171953",
-        "number": 448,
+        "id": "63910391692824817",
+        "number": 449,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2548,7 +2513,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-29T09:44:00Z"
+            "time": "2026-03-29T14:33:00Z"
           }
         ]
       },
@@ -2589,8 +2554,8 @@
       }
     ]
   },
-  "id": "00c3abae-8418-4701-b76d-79533bf4eeb6",
-  "identifier": "BRIEFING-20260329-72",
+  "id": "a92e6bd1-8b3a-4966-b05b-254f3f605195",
+  "identifier": "BRIEFING-20260329-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2639,8 +2604,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-30T14:00:00Z",
-    "validityStart": "2026-03-29T14:00:00Z"
+    "validityEnd": "2026-03-30T15:45:00Z",
+    "validityStart": "2026-03-29T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2842,11 +2807,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63908665921515377",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63905961967110913",
                   "structureType": "REFERENCE"
                 },
@@ -2936,7 +2896,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910374303171953",
+                  "referenceId": "63910391692824817",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3171,11 +3131,6 @@
             {
               "link": true,
               "referenceId": "63908666541971329",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63908665921515377",
               "structureType": "REFERENCE"
             },
             {
