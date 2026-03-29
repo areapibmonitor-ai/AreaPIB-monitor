@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-28T23:00:00.446Z",
+  "createdAt": "2026-03-29T00:00:00.484Z",
   "dynamicData": {
     "notams": [
       {
@@ -1526,66 +1526,6 @@
         }
       },
       {
-        "id": "63907952478037233",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 454,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0730-1600\r\nSAT 0930-1200\r\nSUN 0755-1600",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-28T23:59:00Z",
-          "start": "2026-03-01T09:00:00Z"
-        }
-      },
-      {
-        "id": "63907952299758833",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 453,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0525-1755\r\nSAT 0730-1230\r\nSUN 0755-1755",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-28T23:59:00Z",
-          "start": "2026-03-01T09:00:00Z"
-        }
-      },
-      {
         "id": "63907805434619121",
         "locations": [
           "EEEI"
@@ -2519,16 +2459,16 @@
       }
     ]
   },
-  "id": "ed601d2d-9d93-43d4-bcee-8aa1754cc86b",
-  "identifier": "BRIEFING-20260328-108",
+  "id": "14055aa4-3311-46e5-8fb1-fc12035f6bb4",
+  "identifier": "BRIEFING-20260329-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2569,8 +2509,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-29T23:00:00Z",
-    "validityStart": "2026-03-28T23:00:00Z"
+    "validityEnd": "2026-03-30T00:00:00Z",
+    "validityStart": "2026-03-29T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2729,16 +2669,6 @@
                 {
                   "link": false,
                   "referenceId": "63910112491914049",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63907952478037233",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63907952299758833",
                   "structureType": "REFERENCE"
                 },
                 {
