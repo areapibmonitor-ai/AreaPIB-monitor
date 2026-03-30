@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-03-30T06:15:00.497Z",
+  "createdAt": "2026-03-30T10:45:00.499Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910460862852737",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 732,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "SA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 676,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
+        "type": "R",
+        "validity": {
+          "end": "2026-04-03T14:00:00Z",
+          "est": true,
+          "start": "2026-03-30T09:44:00Z"
+        }
+      },
       {
         "id": "63910448023418513",
         "levels": {
@@ -444,42 +480,6 @@
         "validity": {
           "end": "2026-03-31T15:00:00Z",
           "start": "2026-03-31T06:00:00Z"
-        }
-      },
-      {
-        "id": "63910034127344337",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 676,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 658,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-30T14:00:00Z",
-          "est": true,
-          "start": "2026-03-25T11:14:00Z"
         }
       },
       {
@@ -2305,8 +2305,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910438486280033",
-        "number": 452,
+        "id": "63910453912707329",
+        "number": 453,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2316,32 +2316,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-30T03:33:00Z"
+            "time": "2026-03-30T07:51:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910446585964337",
-        "number": 282,
+        "id": "63910463584673057",
+        "number": 283,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2351,32 +2351,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-30T05:48:00Z"
+            "time": "2026-03-30T10:29:00Z"
           }
         ]
       }
     ]
   },
-  "id": "db2b162d-5b89-413a-a35e-4aa6b67cec80",
-  "identifier": "BRIEFING-20260330-41",
+  "id": "042711d8-c0a9-4619-92cf-b5c64edbcbe3",
+  "identifier": "BRIEFING-20260330-59",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2425,8 +2425,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-03-31T06:15:00Z",
-    "validityStart": "2026-03-30T06:15:00Z"
+    "validityEnd": "2026-03-31T10:45:00Z",
+    "validityStart": "2026-03-30T10:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2510,7 +2510,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63910034127344337",
+                  "referenceId": "63910460862852737",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2712,7 +2712,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910438486280033",
+                  "referenceId": "63910453912707329",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2784,7 +2784,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910446585964337",
+                  "referenceId": "63910463584673057",
                   "structureType": "REFERENCE"
                 }
               ],
