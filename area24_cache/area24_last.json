@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-03-31T09:45:00.422Z",
+  "createdAt": "2026-03-31T12:00:00.461Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910554069717633",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 739,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 448,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ANTENNA AT PSN 591513.78N 0241158.81E. ELEV 157FT AMSL. LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-30T14:00:00Z",
+          "est": true,
+          "start": "2026-03-31T11:40:00Z"
+        }
+      },
+      {
+        "id": "63910549998457665",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 737,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5923N02535E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2048 ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 592513N 0252928E - 592600N 0253909E - 592036N\r\n0254000E - 592238N 0252912E - 592513N 0252928E\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5883\r\n7394.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-06T14:59:00Z",
+          "start": "2026-04-01T05:00:00Z"
+        }
+      },
       {
         "id": "63910460862852737",
         "locations": [
@@ -515,40 +585,6 @@
         "validity": {
           "end": "2026-04-13T13:59:00Z",
           "start": "2026-04-01T06:00:00Z"
-        }
-      },
-      {
-        "id": "63910122666644337",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 694,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5923N02535E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 13
-        },
-        "text": "TEMPO RESTRICTED AREA EER2048 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN: 592513N 0252928E - 592600N 0253909E - 592036N\r\n0254000E - 592238N 0252912E - 592513N 0252928E\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5883\r\n7394",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-09T08:59:00Z",
-          "start": "2026-04-01T05:00:00Z"
         }
       },
       {
@@ -1948,42 +1984,6 @@
         }
       },
       {
-        "id": "63907805434619121",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 448,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 203,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ANTENNA AT POSITION 591513.78N 0241158.81E. ELEVATION 157FT AMSL.\r\nLIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-03-31T14:00:00Z",
-          "est": true,
-          "start": "2026-02-27T16:08:00Z"
-        }
-      },
-      {
         "id": "63907778074227297",
         "levels": {
           "lower": "SFC",
@@ -2708,8 +2708,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63910524805325041",
-        "number": 213,
+        "id": "63910549526767057",
+        "number": 214,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2719,25 +2719,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-03-31T03:33:00Z"
+            "time": "2026-03-31T10:24:00Z"
           }
         ]
       },
@@ -2813,8 +2813,8 @@
       }
     ]
   },
-  "id": "fab6cbd0-ee14-45a9-b9a1-6b7c3b3a7d08",
-  "identifier": "BRIEFING-20260331-55",
+  "id": "e26542f3-5cd6-4fd7-83b6-6c8b0bbfc97a",
+  "identifier": "BRIEFING-20260331-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2863,8 +2863,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-01T09:45:00Z",
-    "validityStart": "2026-03-31T09:45:00Z"
+    "validityEnd": "2026-04-01T12:00:00Z",
+    "validityStart": "2026-03-31T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2948,6 +2948,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63910554069717633",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63910460862852737",
                   "structureType": "REFERENCE"
                 },
@@ -2974,11 +2979,6 @@
                 {
                   "link": false,
                   "referenceId": "63908642058988769",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63907805434619121",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3081,7 +3081,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910524805325041",
+                  "referenceId": "63910549526767057",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3344,6 +3344,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63910549998457665",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63910448023418513",
               "structureType": "REFERENCE"
             },
@@ -3390,11 +3395,6 @@
             {
               "link": true,
               "referenceId": "63910123544275041",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910122666644337",
               "structureType": "REFERENCE"
             },
             {

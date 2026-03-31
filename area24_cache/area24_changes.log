@@ -2746,3 +2746,34 @@ E)DANGER AREA EED5 KILTSI ACTIVATED.
 F)SFC G)2100FT AMSL
 )
 [2026-03-31T09:48:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50bb2dd640dsm97316271cf.19 - gsmtp')
+[2026-03-31T12:05:28Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0448/26 was replaced with NOTAM A0739/26.
+AFTN: (A0739/26 NOTAMR A0448/26
+
+(A0739/26 NOTAMR A0448/26
+Q)EETT/OBCE/IV/M/A/000/999/5916N02413E005
+A)EEEI B)2603311140 C)2606301400
+E)ANTENNA AT PSN 591513.78N 0241158.81E. ELEV 157FT AMSL. LIGHTED.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A0737/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/013/5923N02535E004
+A)EETT B)2604010500 C)2604061459
+E)TEMPORARY RESTRICTED AREA EER2048 ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WI: 592513N 0252928E - 592600N 0253909E - 592036N
+0254000E - 592238N 0252912E - 592513N 0252928E
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5883
+7394.
+F)SFC G)1300FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0694/26 was removed from the PIB.
+[2026-03-31T12:05:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-89ecf862cdfsm84829936d6.33 - gsmtp')
