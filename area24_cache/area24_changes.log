@@ -2842,3 +2842,18 @@ A)EETN B)2604011700 C)2604020500
 E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9.
 )
 [2026-03-31T19:43:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2c3c68b249fsm10673045eec.19 - gsmtp')
+[2026-03-31T21:57:22Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0704/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/006/5835N02431E001
+A)EEPU B)2604012000 C)2604012100
+E)TEMPORARY DANGER AREA EED2601 ESTABLISHED WITHIN 100M RADIUS
+CENTRED
+ON 583460N 0243044E DUE TO DEMOLITION WORKS.
+INFO ABOUT ACTIVATION AVBL FROM TEL +372 5360 3049.
+F)SFC G)500FT AGL
+)
+[2026-03-31T21:57:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8d027edb6cbsm978198185a.3 - gsmtp')
