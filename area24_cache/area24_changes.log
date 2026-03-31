@@ -2824,3 +2824,21 @@ ACT AVBL FROM: +372 5301 5310.
 F)SFC G)3000FT AMSL
 )
 [2026-03-31T16:15:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-41d048e47cfsm6642116fac.3 - gsmtp')
+[2026-03-31T19:43:05Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0380/26 expired and was removed from the PIB.
+- NOTAM A0381/26 expired and was removed from the PIB.
+- NOTAM A0522/26 expired and was removed from the PIB.
+- NOTAM A0594/26 expired and was removed from the PIB.
+- NOTAM A0599/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0715/26 NOTAMN
+Q)EETT/FFCH/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2604011700 C)2604020500
+E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9.
+)
+[2026-03-31T19:43:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2c3c68b249fsm10673045eec.19 - gsmtp')

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-03-31T16:00:00.45Z",
+  "createdAt": "2026-03-31T19:30:00.478Z",
   "dynamicData": {
     "notams": [
       {
@@ -345,6 +345,36 @@
           "end": "2026-06-30T23:59:00Z",
           "est": true,
           "start": "2026-03-30T05:30:00Z"
+        }
+      },
+      {
+        "id": "63910214603266145",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 715,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-02T05:00:00Z",
+          "start": "2026-04-01T17:00:00Z"
         }
       },
       {
@@ -1323,41 +1353,6 @@
         }
       },
       {
-        "id": "63909607728473601",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 599,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "21 0600-22 1459, 23 0800-26 1559, 27 0800-1959, 28 0600-1659, 29\r\n30 0500-1359, 31 0500-1759",
-        "text": "DANGER AREA EED16 KLOOGA 1 ACT.\r\nINFO ABOUT ACT AVBL FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T17:59:00Z",
-          "start": "2026-03-21T06:00:00Z"
-        }
-      },
-      {
         "id": "63909602198981393",
         "levels": {
           "lower": "SFC",
@@ -1389,41 +1384,6 @@
         "validity": {
           "end": "2026-04-04T13:59:00Z",
           "start": "2026-03-29T04:00:00Z"
-        }
-      },
-      {
-        "id": "63909598590716145",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 594,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 43
-        },
-        "schedule": "23 1500-1859, 24-26 0600-1859, 27 0600-2059, 28 0600-1859, 29\r\n1200-1759, 30 31 0500-1759",
-        "text": "DANGER AREA EED4 NURSIPALU 2 ACT.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACT AVBL FROM +372 507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T17:59:00Z",
-          "start": "2026-03-23T15:00:00Z"
         }
       },
       {
@@ -1699,41 +1659,6 @@
           "end": "2026-06-10T12:00:00Z",
           "est": true,
           "start": "2026-03-10T13:00:00Z"
-        }
-      },
-      {
-        "id": "63908664656063825",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 522,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5816N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "schedule": "16 1000-1759, 17 0600-1559, 18 0700-1559, 19 0700-1759, 20 1600-22\r\n1659, 23 0800-1959, 25 0700-1659, 26 0800-1959, 27 0700-1459, 28\r\n0700-29 1659, 31 1200-1659",
-        "text": "DANGER AREA EED2 UNIKULA ACTIVATED\r\nINFO ABOUT ACT AVBL FROM: +372 525 8504\r\nAREA DEACTIVATION IS POSS BY ATS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T16:59:00Z",
-          "start": "2026-03-16T10:00:00Z"
         }
       },
       {
@@ -2040,76 +1965,6 @@
         "validity": {
           "end": "2026-03-31T23:59:00Z",
           "start": "2026-03-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63907187479314689",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 381,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5921N02728E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "01-28 0600-2000, 29-31 0500-1900",
-        "text": "DANGER AREA EED26 VIRU ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T19:00:00Z",
-          "start": "2026-03-01T06:00:00Z"
-        }
-      },
-      {
-        "id": "63907187209018401",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 380,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5915N02554E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "01-28 0600-2000, 29-31 0500-1900",
-        "text": "DANGER AREA EED13 TAPA1 ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-03-31T19:00:00Z",
-          "start": "2026-03-01T06:00:00Z"
         }
       },
       {
@@ -2736,8 +2591,8 @@
       }
     ]
   },
-  "id": "c70a64c2-c49b-4b54-aeb4-4d4c7576f48f",
-  "identifier": "BRIEFING-20260331-80",
+  "id": "f45d585a-f5c6-4606-b9ce-606d0168a7b6",
+  "identifier": "BRIEFING-20260331-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2786,8 +2641,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-01T16:00:00Z",
-    "validityStart": "2026-03-31T16:00:00Z"
+    "validityEnd": "2026-04-01T19:30:00Z",
+    "validityStart": "2026-03-31T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2897,11 +2752,6 @@
                 {
                   "link": false,
                   "referenceId": "63909861160329633",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909607728473601",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3043,6 +2893,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63910214603266145",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63910035563572577",
                   "structureType": "REFERENCE"
                 },
@@ -3136,11 +2991,6 @@
                 {
                   "link": false,
                   "referenceId": "63909430839498273",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63908664656063825",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3371,18 +3221,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63909607728473601",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63909602198981393",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909598590716145",
               "structureType": "REFERENCE"
             },
             {
@@ -3397,27 +3237,12 @@
             },
             {
               "link": true,
-              "referenceId": "63908664656063825",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63908210771768145",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
               "referenceId": "63908210701561121",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907187479314689",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907187209018401",
               "structureType": "REFERENCE"
             },
             {
