@@ -2961,3 +2961,26 @@ E)DANGER AREA EED11 METSNIKU ACT.
 F)SFC G)2300FT AMSL
 )
 [2026-04-02T05:53:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a59390aa90sm15931936d6.13 - gsmtp')
+[2026-04-02T09:44:23Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0745/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0595/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5901N02650E002
+A)EETT B)2604030700 C)2604151400
+D)03-04 10-12 15 0700-1400
+E)DANGER AREA EED25 MURU ACTIVATED.
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A0748/26 NOTAMN
+Q)EETT/NTAS/IV/BO/AE/000/999/5916N02413E025
+A)EEEI B)2604021000 C)2604021130
+E)VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINTENANCE.
+)
+[2026-04-02T09:44:23Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ca7c20b2b1sm2178392eec.18 - gsmtp')
