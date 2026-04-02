@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-01T23:45:00.481Z",
+  "createdAt": "2026-04-02T05:45:00.561Z",
   "dynamicData": {
     "notams": [
       {
@@ -348,36 +348,6 @@
         }
       },
       {
-        "id": "63910214603266145",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 715,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-02T05:00:00Z",
-          "start": "2026-04-01T17:00:00Z"
-        }
-      },
-      {
         "id": "63910210441656881",
         "levels": {
           "lower": "SFC",
@@ -702,6 +672,41 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-03-29T00:00:00Z"
+        }
+      },
+      {
+        "id": "63910113627084657",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 689,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "03 0500-05 1200, 09 12 15 29 0500-1400, 11 0600-1500, 13\r\n0700-1200, 14 28 0500-1900, 17 1600-19 1400, 20 0900-23 1400, 25\r\n0500-1000 1500-1800, 26 0500-0900",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-29T14:00:00Z",
+          "start": "2026-04-03T05:00:00Z"
         }
       },
       {
@@ -1909,276 +1914,6 @@
         }
       },
       {
-        "id": "63905963023020065",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 287,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- FF-ICE INFORMATION ADDED\r\n- UPDATED EN-ROUTE HOLDING MAGNETIC TRACKS",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905962921557185",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 286,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED AD ELEVATION\r\n- UPDATED RWY 06 AND RWY 24 THR COORDINATES AND ELEVATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905962718114065",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 285,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905962642605345",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 284,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905962072367809",
-        "locations": [
-          "EEKU"
-        ],
-        "notamId": {
-          "number": 283,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5809N02400E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905961967110913",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 282,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905960866002801",
-        "locations": [
-          "EERU"
-        ],
-        "notamId": {
-          "number": 281,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5747N02316E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905960520579201",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 280,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION\r\n- REMOVED AIRCRAFT STAND M33",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63905960130653617",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 279,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 03/2026 WEF 19 MAR 2026.\r\n- UPDATED MAGNETIC VARIATION",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-01T23:59:00Z",
-          "start": "2026-03-19T00:00:00Z"
-        }
-      },
-      {
         "id": "63905746645914209",
         "levels": {
           "lower": "SFC",
@@ -2322,9 +2057,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63910702510715025",
+        "number": 218,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-02T04:55:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63910669392874417",
-        "number": 465,
+        "id": "63910693722270689",
+        "number": 466,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2352,14 +2122,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-01T19:40:00Z"
+            "time": "2026-04-02T02:25:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910673699433121",
-        "number": 291,
+        "id": "63910692978047569",
+        "number": 292,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2387,22 +2157,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-01T20:54:00Z"
+            "time": "2026-04-02T02:15:00Z"
           }
         ]
       }
     ]
   },
-  "id": "858f8309-1785-4892-96c9-f68024949f34",
-  "identifier": "BRIEFING-20260401-111",
+  "id": "48df7003-5276-499e-93da-d9a15b811ffe",
+  "identifier": "BRIEFING-20260402-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2443,8 +2213,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-02T23:45:00Z",
-    "validityStart": "2026-04-01T23:45:00Z"
+    "validityEnd": "2026-04-03T05:45:00Z",
+    "validityStart": "2026-04-02T05:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2560,11 +2330,6 @@
                   "link": false,
                   "referenceId": "63908642058988769",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63905962921557185",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762132169",
@@ -2586,11 +2351,6 @@
                 {
                   "link": false,
                   "referenceId": "63910017532572913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63905962718114065",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2619,11 +2379,6 @@
                   "link": false,
                   "referenceId": "63910112491914049",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63905962642605345",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142761216",
@@ -2631,13 +2386,6 @@
               "title": "EEKE - KURESSAARE"
             },
             {
-              "content": [
-                {
-                  "link": false,
-                  "referenceId": "63905962072367809",
-                  "structureType": "REFERENCE"
-                }
-              ],
               "staticDataId": "63544203144014057",
               "structureType": "SECTION",
               "title": "EEKU - KIHNU"
@@ -2661,7 +2409,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63905961967110913",
+                  "referenceId": "63910702510715025",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2675,24 +2423,12 @@
               "title": "EERA - RAPLA"
             },
             {
-              "content": [
-                {
-                  "link": false,
-                  "referenceId": "63905960866002801",
-                  "structureType": "REFERENCE"
-                }
-              ],
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63910214603266145",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63910035563572577",
@@ -2745,12 +2481,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63905960520579201",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63910669392874417",
+                  "referenceId": "63910693722270689",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2807,11 +2538,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63905960130653617",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63903539627681393",
                   "structureType": "REFERENCE"
                 },
@@ -2822,7 +2548,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910673699433121",
+                  "referenceId": "63910692978047569",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2880,11 +2606,6 @@
               "link": false,
               "referenceId": "63906560766266433",
               "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63905963023020065",
-              "structureType": "REFERENCE"
             }
           ],
           "structureType": "SECTION",
@@ -2940,6 +2661,11 @@
             {
               "link": true,
               "referenceId": "63910123544275041",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910113627084657",
               "structureType": "REFERENCE"
             },
             {

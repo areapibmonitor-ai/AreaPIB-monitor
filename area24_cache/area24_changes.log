@@ -2934,3 +2934,30 @@ Expired NOTAMs:
 - NOTAM A0704/26 expired and was removed from the PIB.
 [2026-04-01T22:06:14Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50d4ddcb152sm3701081cf.18 - gsmtp')
 [2026-04-01T23:54:14Z] NO CHANGE in dynamicData.notams.
+[2026-04-02T05:53:13Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0279/26 expired and was removed from the PIB.
+- NOTAM A0280/26 expired and was removed from the PIB.
+- NOTAM A0281/26 expired and was removed from the PIB.
+- NOTAM A0282/26 expired and was removed from the PIB.
+- NOTAM A0283/26 expired and was removed from the PIB.
+- NOTAM A0284/26 expired and was removed from the PIB.
+- NOTAM A0285/26 expired and was removed from the PIB.
+- NOTAM A0286/26 expired and was removed from the PIB.
+- NOTAM A0287/26 expired and was removed from the PIB.
+- NOTAM A0715/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0689/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/023/5751N02605E002
+A)EETT B)2604030500 C)2604291400
+D)03 0500-05 1200, 09 12 15 29 0500-1400, 11 0600-1500, 13
+0700-1200, 14 28 0500-1900, 17 1600-19 1400, 20 0900-23 1400, 25
+0500-1000 1500-1800, 26 0500-0900
+E)DANGER AREA EED11 METSNIKU ACT.
+F)SFC G)2300FT AMSL
+)
+[2026-04-02T05:53:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a59390aa90sm15931936d6.13 - gsmtp')
