@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-04-02T09:30:00.437Z",
+  "createdAt": "2026-04-02T12:00:00.474Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63910708566533921",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 748,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "NT",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-02T11:30:00Z",
-          "start": "2026-04-02T10:00:00Z"
-        }
-      },
       {
         "id": "63910653360365729",
         "levels": {
@@ -2198,8 +2168,8 @@
       }
     ]
   },
-  "id": "a603e4d5-c18f-4b92-81a6-1207d21f6605",
-  "identifier": "BRIEFING-20260402-54",
+  "id": "ebd1aac9-168a-4d36-98bc-549c6da80261",
+  "identifier": "BRIEFING-20260402-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2248,8 +2218,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-03T09:30:00Z",
-    "validityStart": "2026-04-02T09:30:00Z"
+    "validityEnd": "2026-04-03T12:00:00Z",
+    "validityStart": "2026-04-02T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2331,11 +2301,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63910708566533921",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63910554069717633",
@@ -2597,11 +2562,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63910708566533921",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63910196186490513",
