@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-02T15:30:00.47Z",
+  "createdAt": "2026-04-02T18:00:00.45Z",
   "dynamicData": {
     "notams": [
       {
@@ -350,45 +350,6 @@
         "validity": {
           "end": "2026-04-30T18:00:00Z",
           "start": "2026-04-01T07:00:00Z"
-        }
-      },
-      {
-        "id": "63910206267573169",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 713,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5748N02705E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "referenceId": {
-          "number": 582,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TEMPO RESTRICTED AREA EER26122UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 580225N 0265739E - 575404N 0272931E -\r\n573328N 0271122E - 574301N 0264015E - 575203N 0263821E - 575843N\r\n0264707E - 580225N 0265739E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 554\r\n6558 OR +372 5918 3399.",
-        "type": "R",
-        "validity": {
-          "end": "2026-04-02T17:00:00Z",
-          "start": "2026-03-27T11:02:00Z"
         }
       },
       {
@@ -1372,6 +1333,40 @@
         }
       },
       {
+        "id": "63909263500608033",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 566,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02452E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER26125UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 2KM RADIUS CENTRED ON 591217N 0245146E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5389\r\n3598.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-05T17:00:00Z",
+          "start": "2026-04-03T16:00:00Z"
+        }
+      },
+      {
         "id": "63909007229820993",
         "levels": {
           "lower": "SFC",
@@ -2099,16 +2094,16 @@
       }
     ]
   },
-  "id": "5fb7f9a7-07ad-48ff-96f8-4c06b18f5245",
-  "identifier": "BRIEFING-20260402-78",
+  "id": "5c5cf180-2953-45a6-8862-8880b43d590c",
+  "identifier": "BRIEFING-20260402-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2149,8 +2144,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-03T15:30:00Z",
-    "validityStart": "2026-04-02T15:30:00Z"
+    "validityEnd": "2026-04-03T18:00:00Z",
+    "validityStart": "2026-04-02T18:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2565,11 +2560,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63910206267573169",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63910205129814513",
               "structureType": "REFERENCE"
@@ -2642,6 +2632,11 @@
             {
               "link": false,
               "referenceId": "63909600010490769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909263500608033",
               "structureType": "REFERENCE"
             },
             {
