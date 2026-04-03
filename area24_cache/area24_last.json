@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-03T05:45:00.417Z",
+  "createdAt": "2026-04-03T09:00:00.551Z",
   "dynamicData": {
     "notams": [
       {
@@ -172,6 +172,40 @@
         "validity": {
           "end": "2026-04-10T04:59:00Z",
           "start": "2026-04-03T19:00:00Z"
+        }
+      },
+      {
+        "id": "63910448512968033",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 728,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5855N02335E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER26132UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 585451N 0232758E - 585448N 0234239E -\r\n585425N 0234238E - 585425N 0232758E - 585451N 0232758E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-04T15:30:00Z",
+          "start": "2026-04-04T06:00:00Z"
         }
       },
       {
@@ -1960,8 +1994,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910782155882945",
-        "number": 472,
+        "id": "63910801516154929",
+        "number": 473,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -1989,14 +2023,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-03T03:00:00Z"
+            "time": "2026-04-03T08:20:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63910778755005153",
-        "number": 295,
+        "id": "63910792881518897",
+        "number": 296,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2024,14 +2058,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-03T02:03:00Z"
+            "time": "2026-04-03T05:58:00Z"
           }
         ]
       }
     ]
   },
-  "id": "00286557-2604-43ac-a16b-dc91bdaed274",
-  "identifier": "BRIEFING-20260403-39",
+  "id": "56c239c5-4ccf-4882-8c67-4433cf2e9a85",
+  "identifier": "BRIEFING-20260403-52",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2080,8 +2114,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-04T05:45:00Z",
-    "validityStart": "2026-04-03T05:45:00Z"
+    "validityEnd": "2026-04-04T09:00:00Z",
+    "validityStart": "2026-04-03T09:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2333,7 +2367,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910782155882945",
+                  "referenceId": "63910801516154929",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2395,7 +2429,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910778755005153",
+                  "referenceId": "63910792881518897",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2468,6 +2502,11 @@
             {
               "link": false,
               "referenceId": "63910454586990913",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910448512968033",
               "structureType": "REFERENCE"
             },
             {
