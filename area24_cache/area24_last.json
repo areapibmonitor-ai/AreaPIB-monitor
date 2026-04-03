@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-04-03T16:00:00.42Z",
+  "createdAt": "2026-04-03T17:45:03.233Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63910829458791521",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 776,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AERODROME UNABLE TO COMPLY WITH LOW VISIBILITY PROCEDURES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-04T12:00:00Z",
+          "est": true,
+          "start": "2026-04-03T16:15:00Z"
+        }
+      },
       {
         "id": "63910816477774385",
         "locations": [
@@ -2131,8 +2162,8 @@
       }
     ]
   },
-  "id": "ccb84599-61aa-4128-b09a-2e13a8f4db38",
-  "identifier": "BRIEFING-20260403-80",
+  "id": "25d5834d-cf33-4fda-856c-697f62a38cb6",
+  "identifier": "BRIEFING-20260403-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2181,8 +2212,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-04T16:00:00Z",
-    "validityStart": "2026-04-03T16:00:00Z"
+    "validityEnd": "2026-04-04T17:45:00Z",
+    "validityStart": "2026-04-03T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2382,6 +2413,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63910829458791521",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63910035563572577",
