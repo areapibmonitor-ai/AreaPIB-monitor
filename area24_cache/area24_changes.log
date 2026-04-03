@@ -3090,3 +3090,28 @@ PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5204
 F)SFC G)1300FT AMSL
 )
 [2026-04-03T11:27:00Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50d4b86ceedsm43516181cf.20 - gsmtp')
+[2026-04-03T14:10:17Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0732/26 was replaced with NOTAM A0774/26.
+AFTN: (A0774/26 NOTAMR A0732/26
+
+(A0774/26 NOTAMR A0732/26
+Q)EETT/SAAS/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2604031234 C)2604081400
+E)ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.
+MET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A0773/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/147/5922N02549E007
+A)EETT B)2604031215 C)2605011959
+E)REF AIRAC AIP SUP 03/2026 ESTABLISHMENT OF TEMPORARY DANGER AREA
+EED2007. AIRAC SUP 03/2026 CANCELLED BY AIP SUP 05/2026.
+F)SFC G)14700FT AMSL
+)
+[2026-04-03T14:10:17Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ca7c20c30asm5554907eec.15 - gsmtp')
