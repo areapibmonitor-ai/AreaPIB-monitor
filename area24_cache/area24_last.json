@@ -1,38 +1,7 @@
 {
-  "createdAt": "2026-04-04T07:45:00.941Z",
+  "createdAt": "2026-04-04T09:45:00.486Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63910829458791521",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 776,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AERODROME UNABLE TO COMPLY WITH LOW VISIBILITY PROCEDURES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-04T12:00:00Z",
-          "est": true,
-          "start": "2026-04-03T16:15:00Z"
-        }
-      },
       {
         "id": "63910816477774385",
         "locations": [
@@ -2127,8 +2096,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63910865892214049",
-        "number": 476,
+        "id": "63910888693392673",
+        "number": 477,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2156,7 +2125,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-04T01:57:00Z"
+            "time": "2026-04-04T08:30:00Z"
           }
         ]
       },
@@ -2197,8 +2166,8 @@
       }
     ]
   },
-  "id": "4fe76a88-2c62-4314-a54b-28f8f45d1257",
-  "identifier": "BRIEFING-20260404-47",
+  "id": "289a6448-cd43-4bd5-ba0b-0adcf68e01a2",
+  "identifier": "BRIEFING-20260404-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2247,8 +2216,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-05T07:45:00Z",
-    "validityStart": "2026-04-04T07:45:00Z"
+    "validityEnd": "2026-04-05T09:45:00Z",
+    "validityStart": "2026-04-04T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2450,11 +2419,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63910829458791521",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63910035563572577",
                   "structureType": "REFERENCE"
                 },
@@ -2505,7 +2469,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910865892214049",
+                  "referenceId": "63910888693392673",
                   "structureType": "REFERENCE"
                 }
               ],
