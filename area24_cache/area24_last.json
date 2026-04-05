@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-04-05T17:15:00.423Z",
+  "createdAt": "2026-04-05T19:15:00.435Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63911006707593265",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 778,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IG",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS GP RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-06T09:30:00Z",
+          "start": "2026-04-06T06:30:00Z"
+        }
+      },
       {
         "id": "63910816477774385",
         "locations": [
@@ -1505,41 +1535,6 @@
         }
       },
       {
-        "id": "63909007229820993",
-        "levels": {
-          "lower": "SFC",
-          "upper": "8500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 554,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 85
-        },
-        "schedule": "MAR 23-28 0400-1959, 29-31 0300-1859, APR 01-05 0300-1859",
-        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR GUN FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E -592114N 0253942E -\r\n592744N 0254210E.\r\nINFO ABOUT ACT AVBL FROM TEL + 372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-05T18:59:00Z",
-          "start": "2026-03-23T04:00:00Z"
-        }
-      },
-      {
         "id": "63908993488381681",
         "locations": [
           "EETN"
@@ -2202,8 +2197,8 @@
       }
     ]
   },
-  "id": "2a8961cd-c5dc-4989-a884-188415a7df90",
-  "identifier": "BRIEFING-20260405-85",
+  "id": "9c319ffe-938f-4d00-b4d5-d30c05791273",
+  "identifier": "BRIEFING-20260405-93",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2252,8 +2247,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-06T17:15:00Z",
-    "validityStart": "2026-04-05T17:15:00Z"
+    "validityEnd": "2026-04-06T19:15:00Z",
+    "validityStart": "2026-04-05T19:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2335,6 +2330,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63911006707593265",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63910816477774385",
@@ -2760,11 +2760,6 @@
             {
               "link": false,
               "referenceId": "63909610215792225",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909007229820993",
               "structureType": "REFERENCE"
             },
             {
