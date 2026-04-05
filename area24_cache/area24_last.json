@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-05T11:45:00.425Z",
+  "createdAt": "2026-04-05T14:00:02.549Z",
   "dynamicData": {
     "notams": [
       {
@@ -741,41 +741,6 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-03-29T00:00:00Z"
-        }
-      },
-      {
-        "id": "63910113627084657",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 689,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "03 0500-05 1200, 09 12 15 29 0500-1400, 11 0600-1500, 13\r\n0700-1200, 14 28 0500-1900, 17 1600-19 1400, 20 0900-23 1400, 25\r\n0500-1000 1500-1800, 26 0500-0900",
-        "text": "DANGER AREA EED11 METSNIKU ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-29T14:00:00Z",
-          "start": "2026-04-03T05:00:00Z"
         }
       },
       {
@@ -2201,8 +2166,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63910962614463329",
-        "number": 224,
+        "id": "63910989898983089",
+        "number": 225,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2212,32 +2177,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-05T05:10:00Z"
+            "time": "2026-04-05T12:44:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63910978114167505",
-        "number": 484,
+        "id": "63910988152056433",
+        "number": 485,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2247,25 +2212,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-05T09:27:00Z"
+            "time": "2026-04-05T12:14:00Z"
           }
         ]
       },
@@ -2306,8 +2271,8 @@
       }
     ]
   },
-  "id": "ff609a3a-a944-4a2c-afad-60a722e8a034",
-  "identifier": "BRIEFING-20260405-63",
+  "id": "89ca44a9-e239-4584-9353-f1330e6b3b31",
+  "identifier": "BRIEFING-20260405-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2356,8 +2321,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-06T11:45:00Z",
-    "validityStart": "2026-04-05T11:45:00Z"
+    "validityEnd": "2026-04-06T14:00:00Z",
+    "validityStart": "2026-04-05T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2542,7 +2507,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910962614463329",
+                  "referenceId": "63910989898983089",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2614,7 +2579,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910978114167505",
+                  "referenceId": "63910988152056433",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2804,11 +2769,6 @@
             {
               "link": true,
               "referenceId": "63910123544275041",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910113627084657",
               "structureType": "REFERENCE"
             },
             {
