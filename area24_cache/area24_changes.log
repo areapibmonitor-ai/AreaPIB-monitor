@@ -3274,3 +3274,23 @@ URL: https://aim.eans.ee/web/notampib/area24.json
 Other removals:
 - NOTAM A0689/26 was removed from the PIB.
 [2026-04-05T14:03:52Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50d879efe43sm21242751cf.26 - gsmtp')
+[2026-04-05T15:49:49Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0655/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0738/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/025/5922N02535E005
+A)EETT B)2604061500 C)2604091900
+E)TEMPO RESTRICTED AREA EER26134UAS ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WI:
+592513N 0252928E - 592600N 0253909E - 592036N 0254000E - 591751N
+0253718E - 591746N 0253027E - 592238N 0252912E - 592513N 0252928E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5348
+0063.
+F)SFC G)2500FT AMSL
+)
+[2026-04-05T15:49:49Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-682a6dd3e9fsm4011833eaf.6 - gsmtp')
