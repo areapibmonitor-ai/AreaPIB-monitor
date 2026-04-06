@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-04-06T06:15:00.428Z",
+  "createdAt": "2026-04-06T10:30:00.448Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63911006707593265",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 778,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IG",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS GP RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-06T09:30:00Z",
-          "start": "2026-04-06T06:30:00Z"
-        }
-      },
       {
         "id": "63910816477774385",
         "locations": [
@@ -2127,8 +2097,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63911037035165521",
-        "number": 488,
+        "id": "63911060591639329",
+        "number": 489,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2156,7 +2126,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-06T01:49:00Z"
+            "time": "2026-04-06T08:22:00Z"
           }
         ]
       },
@@ -2197,8 +2167,8 @@
       }
     ]
   },
-  "id": "16900df8-b185-4387-8a1b-7f077eb1f965",
-  "identifier": "BRIEFING-20260406-41",
+  "id": "91541359-6c16-4934-9203-a6078cb19543",
+  "identifier": "BRIEFING-20260406-58",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2247,8 +2217,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-07T06:15:00Z",
-    "validityStart": "2026-04-06T06:15:00Z"
+    "validityEnd": "2026-04-07T10:30:00Z",
+    "validityStart": "2026-04-06T10:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2330,11 +2300,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63911006707593265",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63910816477774385",
@@ -2510,7 +2475,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911037035165521",
+                  "referenceId": "63911060591639329",
                   "structureType": "REFERENCE"
                 }
               ],
