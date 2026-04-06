@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-06T10:30:00.448Z",
+  "createdAt": "2026-04-06T14:15:00.426Z",
   "dynamicData": {
     "notams": [
       {
@@ -277,71 +277,38 @@
         }
       },
       {
-        "id": "63910470481049329",
+        "id": "63910456893997297",
         "levels": {
           "lower": "SFC",
-          "upper": "1300FT AMSL"
+          "upper": "1100FT AMSL"
         },
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 734,
+          "number": 730,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5856N02522E",
+          "coordinate": "5749N02655E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
           "radius": 2,
           "scope": "W",
-          "subject": "RT",
+          "subject": "RD",
           "traffic": "IV",
-          "upper": 13
+          "upper": 11
         },
-        "text": "TEMPO RESTRICTED AREA EER26133UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n585615N 0251955E - 585618N 0252405E - 585504N 0252408E - 585501N\r\n0251958E - 585615N0251955E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5204\r\n833.",
+        "schedule": "07 1200-1659, 10 0500-1759, 11 0500-1459, 16 17 0500-1359, 21\r\n1200-1659, 25 0500-1459, 27-29 0500-1759, 30 0500-1359",
+        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885",
         "type": "N",
         "validity": {
-          "end": "2026-04-06T14:00:00Z",
-          "start": "2026-04-04T10:00:00Z"
-        }
-      },
-      {
-        "id": "63910464881553393",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 733,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5857N02531E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 13
-        },
-        "text": "TEMPO RESTRICTED AREA EER25151UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n585821N 0252912E - 585823N 0253220E - 585614N 0253225E - 585612N\r\n0252918E - 585821N 0252912E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5204\r\n833.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-06T14:00:00Z",
-          "start": "2026-04-04T10:00:00Z"
+          "end": "2026-04-30T13:59:00Z",
+          "start": "2026-04-07T12:00:00Z"
         }
       },
       {
@@ -2062,8 +2029,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63911048249773729",
-        "number": 226,
+        "id": "63911076655715281",
+        "number": 227,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2091,7 +2058,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-06T04:57:00Z"
+            "time": "2026-04-06T12:49:00Z"
           }
         ]
       },
@@ -2129,46 +2096,11 @@
             "time": "2026-04-06T08:22:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63911052089804577",
-        "number": 302,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-06T05:57:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "91541359-6c16-4934-9203-a6078cb19543",
-  "identifier": "BRIEFING-20260406-58",
+  "id": "c3cbadea-0d0e-42a0-9e65-1513804e235c",
+  "identifier": "BRIEFING-20260406-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2217,8 +2149,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-07T10:30:00Z",
-    "validityStart": "2026-04-06T10:30:00Z"
+    "validityEnd": "2026-04-07T14:15:00Z",
+    "validityStart": "2026-04-06T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2403,7 +2335,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911048249773729",
+                  "referenceId": "63911076655715281",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2534,11 +2466,6 @@
                   "link": false,
                   "referenceId": "63903539627681393",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63911052089804577",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -2629,12 +2556,7 @@
             },
             {
               "link": false,
-              "referenceId": "63910470481049329",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910464881553393",
+              "referenceId": "63910456893997297",
               "structureType": "REFERENCE"
             },
             {
