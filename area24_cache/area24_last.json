@@ -1,7 +1,75 @@
 {
-  "createdAt": "2026-04-07T10:15:00.765Z",
+  "createdAt": "2026-04-07T14:45:00.452Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63911166052812289",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 787,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 35
+        },
+        "text": "RESTRICTED AREA EER15F ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5682 6886.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-09T10:00:00Z",
+          "start": "2026-04-08T14:00:00Z"
+        }
+      },
+      {
+        "id": "63911159451786513",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 786,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02701E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPO RESTRICTED AREA EER26136UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 3KM RADIUS CENTRED ON 574922N 0270112E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL + 372\r\n5556 2528.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-09T14:00:00Z",
+          "start": "2026-04-08T05:00:00Z"
+        }
+      },
       {
         "id": "63910816477774385",
         "locations": [
@@ -2166,8 +2234,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63911134416699889",
-        "number": 228,
+        "id": "63911162834052289",
+        "number": 229,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2195,14 +2263,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-07T04:53:00Z"
+            "time": "2026-04-07T12:44:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63911145405097281",
-        "number": 492,
+        "id": "63911166008396609",
+        "number": 493,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2230,49 +2298,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-07T07:55:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63911137679846017",
-        "number": 305,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-07T05:44:00Z"
+            "time": "2026-04-07T13:39:00Z"
           }
         ]
       }
     ]
   },
-  "id": "0addb399-1e0e-45b2-9aa1-013523f84b07",
-  "identifier": "BRIEFING-20260407-57",
+  "id": "a6b6829f-7ebd-4f3a-ab1a-1c95e0f7f79a",
+  "identifier": "BRIEFING-20260407-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2321,8 +2354,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-08T10:15:00Z",
-    "validityStart": "2026-04-07T10:15:00Z"
+    "validityEnd": "2026-04-08T14:45:00Z",
+    "validityStart": "2026-04-07T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2507,7 +2540,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911134416699889",
+                  "referenceId": "63911162834052289",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2579,7 +2612,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911145405097281",
+                  "referenceId": "63911166008396609",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2637,11 +2670,6 @@
                 {
                   "link": false,
                   "referenceId": "63903539627681393",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63911137679846017",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2706,6 +2734,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63911166052812289",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63911159451786513",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63910814479381825",
