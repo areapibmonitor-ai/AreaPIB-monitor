@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-07T22:00:00.471Z",
+  "createdAt": "2026-04-08T00:00:00.463Z",
   "dynamicData": {
     "notams": [
       {
@@ -447,41 +447,6 @@
         }
       },
       {
-        "id": "63910456893997297",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 730,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "07 1200-1659, 10 0500-1759, 11 0500-1459, 16 17 0500-1359, 21\r\n1200-1659, 25 0500-1459, 27-29 0500-1759, 30 0500-1359",
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T13:59:00Z",
-          "start": "2026-04-07T12:00:00Z"
-        }
-      },
-      {
         "id": "63910454586990913",
         "levels": {
           "lower": "SFC",
@@ -912,6 +877,41 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-03-29T00:00:00Z"
+        }
+      },
+      {
+        "id": "63910113627084657",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 689,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "03 0500-05 1200, 09 12 15 29 0500-1400, 11 0600-1500, 13\r\n0700-1200, 14 28 0500-1900, 17 1600-19 1400, 20 0900-23 1400, 25\r\n0500-1000 1500-1800, 26 0500-0900",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-29T14:00:00Z",
+          "start": "2026-04-03T05:00:00Z"
         }
       },
       {
@@ -2270,16 +2270,16 @@
       }
     ]
   },
-  "id": "34451585-e0a4-4bdd-9706-f31f16b9401f",
-  "identifier": "BRIEFING-20260407-104",
+  "id": "7265d250-6f3f-40fa-ae87-2d9776223731",
+  "identifier": "BRIEFING-20260408-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2320,8 +2320,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-08T22:00:00Z",
-    "validityStart": "2026-04-07T22:00:00Z"
+    "validityEnd": "2026-04-09T00:00:00Z",
+    "validityStart": "2026-04-08T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2752,11 +2752,6 @@
             },
             {
               "link": false,
-              "referenceId": "63910456893997297",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63910454586990913",
               "structureType": "REFERENCE"
             },
@@ -2788,6 +2783,11 @@
             {
               "link": true,
               "referenceId": "63910123544275041",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910113627084657",
               "structureType": "REFERENCE"
             },
             {
