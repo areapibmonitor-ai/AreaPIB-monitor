@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-08T00:00:00.463Z",
+  "createdAt": "2026-04-08T06:00:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -2199,9 +2199,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63911220944762241",
+        "number": 230,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-08T04:55:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63911188462617617",
-        "number": 495,
+        "id": "63911209156165745",
+        "number": 496,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2212,31 +2247,31 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-07T19:53:00Z"
+            "time": "2026-04-08T01:37:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63911192930342049",
-        "number": 306,
+        "id": "63911224038194225",
+        "number": 308,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2264,14 +2299,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-07T21:08:00Z"
+            "time": "2026-04-08T05:45:00Z"
           }
         ]
       }
     ]
   },
-  "id": "7265d250-6f3f-40fa-ae87-2d9776223731",
-  "identifier": "BRIEFING-20260408-1",
+  "id": "30c0afc0-018e-4dc8-b08c-55381a4ed611",
+  "identifier": "BRIEFING-20260408-40",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2320,8 +2355,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-09T00:00:00Z",
-    "validityStart": "2026-04-08T00:00:00Z"
+    "validityEnd": "2026-04-09T06:00:00Z",
+    "validityStart": "2026-04-08T06:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2503,6 +2538,11 @@
                   "link": false,
                   "referenceId": "63910123544275041",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63911220944762241",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2573,7 +2613,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911188462617617",
+                  "referenceId": "63911209156165745",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2635,7 +2675,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911192930342049",
+                  "referenceId": "63911224038194225",
                   "structureType": "REFERENCE"
                 }
               ],
