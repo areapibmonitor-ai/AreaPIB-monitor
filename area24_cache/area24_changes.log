@@ -3542,3 +3542,19 @@ E)ILS GP RWY 24 U/S DUE TO MAINT.
 Other removals:
 - NOTAM A0786/26 was removed from the PIB.
 [2026-04-08T14:57:24Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a5977e00b4sm173034146d6.47 - gsmtp')
+[2026-04-08T18:57:03Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0754/26 expired and was removed from the PIB.
+- NOTAM A0755/26 expired and was removed from the PIB.
+- NOTAM A0756/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0716/26 NOTAMN
+Q)EETT/FFCH/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2604091700 C)2604100500
+E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9.
+)
+[2026-04-08T18:57:03Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8a5974dda27sm178520456d6.42 - gsmtp')
