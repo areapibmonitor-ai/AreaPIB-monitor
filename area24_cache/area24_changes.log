@@ -3720,3 +3720,24 @@ A)EEEI B)2604100630 C)2604100900
 E)ILS LOC RWY 24 U/S DUE TO MAINTENANCE.
 )
 [2026-04-09T16:06:31Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-423dd42130dsm48488fac.8 - gsmtp')
+[2026-04-09T20:05:37Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0738/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0744/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/018/5845N02421E003
+A)EETT B)2604101600 C)2604112100
+E)TEMPO RESTRICTED AREA EER26135UAS ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WI:
+584721N0241948E - 584728N0242120E - 584414N0242016E - 584304N0242240E
+- 584227N0242128E - 584315N0241830E - 584416N0241640E -
+584621N0241753E - 584721N0241948E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5681
+9422.
+F)SFC G)1800FT AMSL
+)
+[2026-04-09T20:05:37Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50dd539c600sm4509371cf.3 - gsmtp')

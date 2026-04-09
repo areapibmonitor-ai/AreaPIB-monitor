@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-09T16:00:00.443Z",
+  "createdAt": "2026-04-09T20:00:00.449Z",
   "dynamicData": {
     "notams": [
       {
@@ -452,6 +452,40 @@
         }
       },
       {
+        "id": "63910630119291169",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1800FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 744,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5845N02421E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 18
+        },
+        "text": "TEMPO RESTRICTED AREA EER26135UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n584721N0241948E - 584728N0242120E - 584414N0242016E - 584304N0242240E\r\n- 584227N0242128E - 584315N0241830E - 584416N0241640E -\r\n584621N0241753E - 584721N0241948E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5681\r\n9422.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-11T21:00:00Z",
+          "start": "2026-04-10T16:00:00Z"
+        }
+      },
+      {
         "id": "63910556151967665",
         "locations": [
           "EEKA"
@@ -516,40 +550,6 @@
           "end": "2026-06-30T14:00:00Z",
           "est": true,
           "start": "2026-03-31T11:40:00Z"
-        }
-      },
-      {
-        "id": "63910551179875169",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 738,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02535E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 25
-        },
-        "text": "TEMPO RESTRICTED AREA EER26134UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n592513N 0252928E - 592600N 0253909E - 592036N 0254000E - 591751N\r\n0253718E - 591746N 0253027E - 592238N 0252912E - 592513N 0252928E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5348\r\n0063.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-09T19:00:00Z",
-          "start": "2026-04-06T15:00:00Z"
         }
       },
       {
@@ -2538,8 +2538,8 @@
       }
     ]
   },
-  "id": "ca890ff4-0168-4d7d-83cf-d106d5a84d55",
-  "identifier": "BRIEFING-20260409-80",
+  "id": "2b6c579c-6cda-4ee8-abc6-9acc7a19bc80",
+  "identifier": "BRIEFING-20260409-96",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2588,8 +2588,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-10T16:00:00Z",
-    "validityStart": "2026-04-09T16:00:00Z"
+    "validityEnd": "2026-04-10T20:00:00Z",
+    "validityStart": "2026-04-09T20:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3045,7 +3045,7 @@
             },
             {
               "link": false,
-              "referenceId": "63910551179875169",
+              "referenceId": "63910630119291169",
               "structureType": "REFERENCE"
             },
             {
