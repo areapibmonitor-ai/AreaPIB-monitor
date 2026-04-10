@@ -3862,3 +3862,30 @@ E)ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372
 717 3310 AND AMARI TWR ON FREQ 122.100MHZ.
 )
 [2026-04-10T10:17:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2d55faa571csm4145337eec.10 - gsmtp')
+[2026-04-10T14:32:08Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0816/26 NOTAMN
+Q)EETT/FUAU/IV/NBO/A/000/999/5825N02428E005
+A)EEPU B)2604101300 C)2604141300
+E)FUEL AVGAS 100LL NOT AVAILABLE.
+)
+
+New NOTAM added:
+(A0818/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/092/5749N02648E004
+A)EETT B)2604101400 C)2604122059
+E)DANGER AREA EED4 NURSIPALU 2 ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.
+F)SFC G)9200FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0611/26 was removed from the PIB.
+- NOTAM A0612/26 was removed from the PIB.
+- NOTAM A0679/26 was removed from the PIB.
+- NOTAM A0757/26 was removed from the PIB.
+[2026-04-10T14:32:08Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2d55f5c69b3sm4506925eec.1 - gsmtp')
