@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-09T22:15:00.436Z",
+  "createdAt": "2026-04-10T00:00:00.481Z",
   "dynamicData": {
     "notams": [
       {
@@ -414,41 +414,6 @@
         "validity": {
           "end": "2026-04-11T02:59:00Z",
           "start": "2026-04-10T05:00:00Z"
-        }
-      },
-      {
-        "id": "63910715894437249",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 749,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "06 0500-1359, 07 0500-1459, 08 0500-1959, 09 0500-\r\n1559, 12 0400-15 1359",
-        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-15T13:59:00Z",
-          "start": "2026-04-06T05:00:00Z"
         }
       },
       {
@@ -2572,16 +2537,16 @@
       }
     ]
   },
-  "id": "8e372fa6-eb41-442b-b9a6-0059e59ecd3d",
-  "identifier": "BRIEFING-20260409-105",
+  "id": "7fb066f5-8ca7-4aa9-a193-0186955f9905",
+  "identifier": "BRIEFING-20260410-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2622,8 +2587,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-10T22:15:00Z",
-    "validityStart": "2026-04-09T22:15:00Z"
+    "validityEnd": "2026-04-11T00:00:00Z",
+    "validityStart": "2026-04-10T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3070,11 +3035,6 @@
             {
               "link": false,
               "referenceId": "63910724403881969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910715894437249",
               "structureType": "REFERENCE"
             },
             {
