@@ -3901,3 +3901,22 @@ Expired NOTAMs:
 [2026-04-10T19:57:46Z] NO CHANGE in dynamicData.notams.
 [2026-04-10T22:01:09Z] NO CHANGE in dynamicData.notams.
 [2026-04-10T23:54:52Z] NO CHANGE in dynamicData.notams.
+[2026-04-11T05:38:04Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0752/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0749/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/023/5918N02742E005
+A)EETT B)2604060500 C)2604151359
+D)06 0500-1359, 07 0500-1459, 08 0500-1959, 09 0500-
+1559, 12 0400-15 1359
+E)DANGER AREA EED17 SIRGALA 2 ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.
+F)SFC G)2300FT AMSL
+)
+[2026-04-11T05:38:04Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12c3459fa73sm8279041c88.1 - gsmtp')

@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-10T23:45:00.425Z",
+  "createdAt": "2026-04-11T05:30:00.483Z",
   "dynamicData": {
     "notams": [
       {
@@ -386,37 +386,38 @@
         }
       },
       {
-        "id": "63910724403881969",
+        "id": "63910715894437249",
         "levels": {
           "lower": "SFC",
-          "upper": "7000FT AMSL"
+          "upper": "2300FT AMSL"
         },
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 752,
+          "number": 749,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5922N02549E",
+          "coordinate": "5918N02742E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 7,
+          "radius": 5,
           "scope": "W",
           "subject": "RD",
           "traffic": "IV",
-          "upper": 70
+          "upper": 23
         },
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
+        "schedule": "06 0500-1359, 07 0500-1459, 08 0500-1959, 09 0500-\r\n1559, 12 0400-15 1359",
+        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
         "type": "N",
         "validity": {
-          "end": "2026-04-11T02:59:00Z",
-          "start": "2026-04-10T05:00:00Z"
+          "end": "2026-04-15T13:59:00Z",
+          "start": "2026-04-06T05:00:00Z"
         }
       },
       {
@@ -2297,9 +2298,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63911481072349857",
+        "number": 236,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-11T05:11:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63911448819554465",
-        "number": 507,
+        "id": "63911468862547953",
+        "number": 508,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2327,14 +2363,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-10T20:12:00Z"
+            "time": "2026-04-11T01:46:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63911451587810385",
-        "number": 316,
+        "id": "63911467952797537",
+        "number": 317,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2362,22 +2398,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-10T20:59:00Z"
+            "time": "2026-04-11T01:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e4f2f53a-2141-405f-a152-7f5c37287f9e",
-  "identifier": "BRIEFING-20260410-111",
+  "id": "63956b5d-5a13-478e-b0b1-321b9efa8fec",
+  "identifier": "BRIEFING-20260411-37",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2418,8 +2454,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-11T23:45:00Z",
-    "validityStart": "2026-04-10T23:45:00Z"
+    "validityEnd": "2026-04-12T05:30:00Z",
+    "validityStart": "2026-04-11T05:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2611,6 +2647,11 @@
                   "link": false,
                   "referenceId": "63910123544275041",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63911481072349857",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2686,7 +2727,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911448819554465",
+                  "referenceId": "63911468862547953",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2748,7 +2789,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911451587810385",
+                  "referenceId": "63911467952797537",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2855,7 +2896,7 @@
             },
             {
               "link": false,
-              "referenceId": "63910724403881969",
+              "referenceId": "63910715894437249",
               "structureType": "REFERENCE"
             },
             {
