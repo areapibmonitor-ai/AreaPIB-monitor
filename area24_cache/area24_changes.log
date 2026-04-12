@@ -4029,3 +4029,14 @@ Expired NOTAMs:
 - NOTAM A0731/26 expired and was removed from the PIB.
 - NOTAM A0735/26 expired and was removed from the PIB.
 [2026-04-12T16:01:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ac84a47a0dsm75561906d6.22 - gsmtp')
+[2026-04-12T19:55:43Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0825/26 NOTAMN
+Q)EETT/IDAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2604130700 C)2604130900
+E)ILS DME RWY 06 U/S DUE TO MAINT.
+)
+[2026-04-12T19:55:43Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2d55ce46a65sm13762875eec.0 - gsmtp')

@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-04-12T16:00:00.487Z",
+  "createdAt": "2026-04-12T19:45:00.461Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63911614761804305",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 825,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "ID",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS DME RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-13T09:00:00Z",
+          "start": "2026-04-13T07:00:00Z"
+        }
+      },
       {
         "id": "63911426608790465",
         "levels": {
@@ -2306,8 +2336,8 @@
       }
     ]
   },
-  "id": "3bdb59cb-3049-486a-8192-db32a39d7233",
-  "identifier": "BRIEFING-20260412-80",
+  "id": "239b2e88-5e18-449f-880f-71e55818405f",
+  "identifier": "BRIEFING-20260412-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2356,8 +2386,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-13T16:00:00Z",
-    "validityStart": "2026-04-12T16:00:00Z"
+    "validityEnd": "2026-04-13T19:45:00Z",
+    "validityStart": "2026-04-12T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2439,6 +2469,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63911614761804305",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63911398932718849",
