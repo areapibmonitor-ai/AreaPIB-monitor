@@ -4222,3 +4222,19 @@ Other removals:
 - NOTAM A0785/26 was removed from the PIB.
 [2026-04-13T16:41:17Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12c346fb031sm14133320c88.13 - gsmtp')
 [2026-04-13T20:13:42Z] NO CHANGE in dynamicData.notams.
+[2026-04-13T23:05:53Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0826/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/055/5852N02545E006
+A)EETT B)2604142000 C)2604150200
+E)TEMPORARY SEGREGATED AREA EETSA21 NURMSI ACTIVATED FOR UNMANNED
+AIRCRAFT ACTIVITY. CHANGED VERTICAL LIMITS DURING ACTIVATION.
+NON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT
+PERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE
+AREA AND INFO ABOUT ACTIVITY AVAILABLE FROM: +372 5650 2880.
+F)GND G)FL055
+)
+[2026-04-13T23:05:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8ddb6373926sm1004653985a.13 - gsmtp')
