@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-13T23:00:03.725Z",
+  "createdAt": "2026-04-14T06:00:00.504Z",
   "dynamicData": {
     "notams": [
       {
@@ -628,6 +628,41 @@
         }
       },
       {
+        "id": "63911073439460913",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 782,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "15-17 0500-1359, 18 0500-1559, 19 20 0500-1359, 21-23 0600-1259,\r\n24 0600-0959, 25 0700-1659, 26 0900-1359, 28 0600-1559, 29 0600-1359\r\n1700-1959",
+        "text": "DANGER AREA EED20 MANNIKU ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-29T19:59:00Z",
+          "start": "2026-04-15T05:00:00Z"
+        }
+      },
+      {
         "id": "63911073290121409",
         "levels": {
           "lower": "SFC",
@@ -1033,6 +1068,41 @@
           "end": "2026-06-30T23:59:00Z",
           "est": true,
           "start": "2026-03-30T05:30:00Z"
+        }
+      },
+      {
+        "id": "63910210441656881",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 714,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "01 02 04 05 08 09 11 12 15 16 18 19 22 23 25 26 29 30 0700-1800",
+        "text": "DANGER AREA EED5 KILTSI ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-30T18:00:00Z",
+          "start": "2026-04-01T07:00:00Z"
         }
       },
       {
@@ -1604,6 +1674,41 @@
         "validity": {
           "end": "2026-04-30T14:00:00Z",
           "start": "2026-04-06T05:00:00Z"
+        }
+      },
+      {
+        "id": "63909600010490769",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 595,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "03-04 10-12 15 0700-1400",
+        "text": "DANGER AREA EED25 MURU ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-15T14:00:00Z",
+          "start": "2026-04-03T07:00:00Z"
         }
       },
       {
@@ -2194,9 +2299,44 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63911739291504513",
+        "number": 242,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-14T04:54:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63911707567485217",
-        "number": 520,
+        "id": "63911728674667201",
+        "number": 521,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2224,14 +2364,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-13T20:05:00Z"
+            "time": "2026-04-14T01:56:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63911710894183425",
-        "number": 323,
+        "id": "63911743036039409",
+        "number": 325,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2241,9 +2381,9 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
@@ -2259,22 +2399,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-13T20:59:00Z"
+            "time": "2026-04-14T05:55:00Z"
           }
         ]
       }
     ]
   },
-  "id": "f265484d-d84d-4ec7-bce5-882468ff6975",
-  "identifier": "BRIEFING-20260413-108",
+  "id": "edaf6ecf-38a0-4be3-9b7f-5dd79ba26cf6",
+  "identifier": "BRIEFING-20260414-40",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2315,8 +2455,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-14T23:00:00Z",
-    "validityStart": "2026-04-13T23:00:00Z"
+    "validityEnd": "2026-04-15T06:00:00Z",
+    "validityStart": "2026-04-14T06:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2503,6 +2643,11 @@
                   "link": false,
                   "referenceId": "63910358429599329",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63911739291504513",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2534,6 +2679,11 @@
                 {
                   "link": false,
                   "referenceId": "63911327237386257",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63911073439460913",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2578,7 +2728,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911707567485217",
+                  "referenceId": "63911728674667201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2635,7 +2785,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911710894183425",
+                  "referenceId": "63911743036039409",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2752,6 +2902,11 @@
             },
             {
               "link": true,
+              "referenceId": "63911073439460913",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63911073290121409",
               "structureType": "REFERENCE"
             },
@@ -2793,6 +2948,11 @@
             {
               "link": true,
               "referenceId": "63910227514438113",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910210441656881",
               "structureType": "REFERENCE"
             },
             {
@@ -2843,6 +3003,11 @@
             {
               "link": false,
               "referenceId": "63909610215792225",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909600010490769",
               "structureType": "REFERENCE"
             },
             {
