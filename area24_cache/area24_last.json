@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-04-15T10:30:00.449Z",
+  "createdAt": "2026-04-15T14:45:00.433Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63911860556969729",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 851,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "SA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 813,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372\r\n717 3310 AND AMARI TWR ON FREQ 122.100MHZ.",
+        "type": "R",
+        "validity": {
+          "end": "2026-04-22T14:00:00Z",
+          "est": true,
+          "start": "2026-04-15T14:35:00Z"
+        }
+      },
       {
         "id": "63911835600463169",
         "locations": [
@@ -416,37 +452,6 @@
         }
       },
       {
-        "id": "63911398932718849",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 813,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372\r\n717 3310 AND AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-15T14:00:00Z",
-          "est": true,
-          "start": "2026-04-10T06:30:00Z"
-        }
-      },
-      {
         "id": "63911339040541905",
         "locations": [
           "EETN"
@@ -514,6 +519,142 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-04-09T10:26:00Z"
+        }
+      },
+      {
+        "id": "63911326844501393",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 806,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02636E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15G ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-16T12:30:00Z",
+          "start": "2026-04-16T10:30:00Z"
+        }
+      },
+      {
+        "id": "63911326705184801",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 805,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-16T12:30:00Z",
+          "start": "2026-04-16T10:30:00Z"
+        }
+      },
+      {
+        "id": "63911326578821841",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 804,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15E ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-16T12:30:00Z",
+          "start": "2026-04-16T10:30:00Z"
+        }
+      },
+      {
+        "id": "63911326379288465",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 803,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5931N02601E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15D ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-16T12:30:00Z",
+          "start": "2026-04-16T10:30:00Z"
         }
       },
       {
@@ -896,41 +1037,6 @@
         "validity": {
           "end": "2026-04-27T05:00:00Z",
           "start": "2026-04-13T05:00:00Z"
-        }
-      },
-      {
-        "id": "63910715894437249",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 749,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "06 0500-1359, 07 0500-1459, 08 0500-1959, 09 0500-\r\n1559, 12 0400-15 1359",
-        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-15T13:59:00Z",
-          "start": "2026-04-06T05:00:00Z"
         }
       },
       {
@@ -1772,41 +1878,6 @@
         }
       },
       {
-        "id": "63909600010490769",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 595,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "03-04 10-12 15 0700-1400",
-        "text": "DANGER AREA EED25 MURU ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-15T14:00:00Z",
-          "start": "2026-04-03T07:00:00Z"
-        }
-      },
-      {
         "id": "63909591475652497",
         "locations": [
           "EETN"
@@ -2530,8 +2601,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63911825669146657",
-        "number": 244,
+        "id": "63911854640518081",
+        "number": 245,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2559,14 +2630,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-15T04:54:00Z"
+            "time": "2026-04-15T12:57:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63911839829124017",
-        "number": 526,
+        "id": "63911859077215857",
+        "number": 527,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2594,49 +2665,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-15T08:49:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63911829289609937",
-        "number": 328,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-15T05:53:00Z"
+            "time": "2026-04-15T14:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "869843b7-dbfc-4874-a1c6-c549996bc194",
-  "identifier": "BRIEFING-20260415-58",
+  "id": "c92c120c-172b-47f1-bbce-0fe43a6ce634",
+  "identifier": "BRIEFING-20260415-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2685,8 +2721,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-16T10:30:00Z",
-    "validityStart": "2026-04-15T10:30:00Z"
+    "validityEnd": "2026-04-16T14:45:00Z",
+    "validityStart": "2026-04-15T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2770,17 +2806,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63911860556969729",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911674646569425",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63911674424969473",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63911398932718849",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2876,7 +2912,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911825669146657",
+                  "referenceId": "63911854640518081",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2963,7 +2999,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911839829124017",
+                  "referenceId": "63911859077215857",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3016,11 +3052,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63911829289609937",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3132,6 +3163,26 @@
             },
             {
               "link": false,
+              "referenceId": "63911326844501393",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63911326705184801",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63911326578821841",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63911326379288465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63911326100037457",
               "structureType": "REFERENCE"
             },
@@ -3178,11 +3229,6 @@
             {
               "link": false,
               "referenceId": "63910735564939873",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910715894437249",
               "structureType": "REFERENCE"
             },
             {
@@ -3253,11 +3299,6 @@
             {
               "link": false,
               "referenceId": "63909610215792225",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909600010490769",
               "structureType": "REFERENCE"
             },
             {
