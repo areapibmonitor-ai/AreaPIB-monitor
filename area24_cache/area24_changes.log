@@ -4508,3 +4508,10 @@ PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372
 F)SFC G)FL095
 )
 [2026-04-15T14:56:59Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ae6c93cc5dsm14162236d6.3 - gsmtp')
+[2026-04-15T18:55:01Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0657/26 expired and was removed from the PIB.
+- NOTAM A0824/26 expired and was removed from the PIB.
+[2026-04-15T18:55:01Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ae6cba0b33sm17869566d6.27 - gsmtp')
