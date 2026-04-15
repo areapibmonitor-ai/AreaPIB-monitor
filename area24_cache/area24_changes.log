@@ -4411,3 +4411,32 @@ INFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.
 F)SFC G)2300FT AMSL
 )
 [2026-04-15T06:07:34Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8e4f2926001sm47667385a.34 - gsmtp')
+[2026-04-15T10:43:30Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0842/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0617/26 NOTAMN
+Q)EETT/FFCG/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2604160800 C)2604161500
+E)RESCUE AND FIRE FIGHTING SERVICE DOWNGRADED TO CATEGORY 7.
+)
+
+New NOTAM added:
+(A0811/26 NOTAMN
+Q)EETT/OBCE/IV/M/A/000/999/5925N02450E005
+A)EETN B)2604160700 C)2607160700
+E)CRANE ERECTED IN AREA 2 AT PSN 592520.3N 0244816.1E. ELEV 388FT
+AMSL (HEIGHT 240FT AGL). LIGHTED.
+)
+
+New NOTAM added:
+(A0847/26 NOTAMN
+Q)EETT/SFXX/IV/BO/AE/000/050/5825N02428E015
+A)EEPU B)2604160500 C)2604161330
+E)PARNU AFIS NOT AVBL.
+)
+[2026-04-15T10:43:30Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2de8c606db2sm1990902eec.11 - gsmtp')
