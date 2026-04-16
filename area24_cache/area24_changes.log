@@ -4516,3 +4516,33 @@ Expired NOTAMs:
 - NOTAM A0824/26 expired and was removed from the PIB.
 [2026-04-15T18:55:01Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ae6cba0b33sm17869566d6.27 - gsmtp')
 [2026-04-15T22:05:24Z] NO CHANGE in dynamicData.notams.
+[2026-04-16T06:11:40Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0565/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/015/5809N02708E003
+A)EETT B)2604170300 C)2604191200
+E)TEMPO RESTRICTED AREA EER26126UAS ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WI 3KM RADIUS CENTRED ON 580853N 0270815E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL: +372
+5302 7209.
+F)SFC G)1500FT AMSL
+)
+
+New NOTAM added:
+(A0821/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/091/5918N02742E005
+A)EETT B)2604170500 C)2604191359
+E)DANGER AREA EED17 SIRGALA 2 ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.
+F)SFC G)9100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0689/26 was removed from the PIB.
+- NOTAM A0796/26 was removed from the PIB.
+[2026-04-16T06:11:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7dc76a12833sm2840872a34.3 - gsmtp')
