@@ -4565,3 +4565,35 @@ GUARD BOARD FLIGHTS.
 F)SFC G)FL090
 )
 [2026-04-16T10:45:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ae6cb9eb87sm32834826d6.32 - gsmtp')
+[2026-04-16T16:09:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0617/26 expired and was removed from the PIB.
+- NOTAM A0674/26 expired and was removed from the PIB.
+- NOTAM A0803/26 expired and was removed from the PIB.
+- NOTAM A0804/26 expired and was removed from the PIB.
+- NOTAM A0805/26 expired and was removed from the PIB.
+- NOTAM A0806/26 expired and was removed from the PIB.
+- NOTAM A0847/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0659/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5821N02551E002
+A)EETT B)2604171400 C)2604191400
+E)DANGER AREA EED9 VALUSTE ACTIVATED
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A0822/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/021/5919N02412E003
+A)EEEI B)2604171500 C)2604301359
+D)17 1500-19 1359, 20 21 0500-1859, 22 0500-1659, 23 0600-1359, 24
+0600-1059, 25 0400-1559, 26-30 0500-1359
+E)DANGER AREA EED16 KLOOGA 1 ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5332 6746.
+F)SFC G)2100FT AMSL
+)
+[2026-04-16T16:09:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12c5e63f61csm6261185c88.8 - gsmtp')
