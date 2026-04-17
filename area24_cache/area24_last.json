@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-16T22:00:00.427Z",
+  "createdAt": "2026-04-17T00:00:00.497Z",
   "dynamicData": {
     "notams": [
       {
@@ -2500,8 +2500,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63911966530110913",
-        "number": 534,
+        "id": "63911973717122993",
+        "number": 535,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2511,25 +2511,25 @@
             "looseSand": false,
             "thirds": [
               {
+                "code": 6,
+                "condition": "WET",
+                "coverage": "25",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "WET",
+                "coverage": "25",
+                "depth": "NR"
+              },
+              {
                 "code": 5,
                 "condition": "WET",
                 "coverage": "75",
                 "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
               }
             ],
-            "time": "2026-04-16T20:01:00Z"
+            "time": "2026-04-16T22:00:00Z"
           }
         ]
       },
@@ -2570,16 +2570,16 @@
       }
     ]
   },
-  "id": "c50c474d-5170-48b7-8ca3-45d91f5dc3fc",
-  "identifier": "BRIEFING-20260416-104",
+  "id": "765a36ca-a425-4bb3-9a3a-e9b2b2bec09a",
+  "identifier": "BRIEFING-20260417-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2620,8 +2620,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-17T22:00:00Z",
-    "validityStart": "2026-04-16T22:00:00Z"
+    "validityEnd": "2026-04-18T00:00:00Z",
+    "validityStart": "2026-04-17T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2888,7 +2888,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911966530110913",
+                  "referenceId": "63911973717122993",
                   "structureType": "REFERENCE"
                 }
               ],
