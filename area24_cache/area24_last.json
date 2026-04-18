@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-18T18:30:00.472Z",
+  "createdAt": "2026-04-18T19:15:00.464Z",
   "dynamicData": {
     "notams": [
       {
@@ -553,40 +553,6 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-04-09T10:26:00Z"
-        }
-      },
-      {
-        "id": "63911317564147569",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 797,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5855N02329E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 25
-        },
-        "text": "TEMPO RESTRICTED AREA EER26130UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 585506N 0232725E - 585508N 0233041E -\r\n585411N 0233046E - 585409N 0232725E - 585506N 0232725E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5646\r\n5674.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-18T19:00:00Z",
-          "start": "2026-04-17T16:00:00Z"
         }
       },
       {
@@ -2147,8 +2113,8 @@
       }
     ]
   },
-  "id": "5754bef6-a85c-45d9-9130-054fa655d275",
-  "identifier": "BRIEFING-20260418-90",
+  "id": "6d7f3d05-5410-467f-9185-4c696bf8bc8e",
+  "identifier": "BRIEFING-20260418-93",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2197,8 +2163,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-19T18:30:00Z",
-    "validityStart": "2026-04-18T18:30:00Z"
+    "validityEnd": "2026-04-19T19:15:00Z",
+    "validityStart": "2026-04-18T19:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2635,11 +2601,6 @@
             {
               "link": true,
               "referenceId": "63911327237386257",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911317564147569",
               "structureType": "REFERENCE"
             },
             {
