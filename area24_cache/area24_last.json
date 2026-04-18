@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-17T23:45:00.431Z",
+  "createdAt": "2026-04-18T03:15:00.392Z",
   "dynamicData": {
     "notams": [
       {
@@ -894,41 +894,6 @@
           "end": "2026-06-30T14:00:00Z",
           "est": true,
           "start": "2026-03-31T11:40:00Z"
-        }
-      },
-      {
-        "id": "63910456893997297",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 730,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "07 1200-1659, 10 0500-1759, 11 0500-1459, 16 17 0500-1359, 21\r\n1200-1659, 25 0500-1459, 27-29 0500-1759, 30 0500-1359",
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T13:59:00Z",
-          "start": "2026-04-07T12:00:00Z"
         }
       },
       {
@@ -2146,8 +2111,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63912053054872961",
-        "number": 541,
+        "id": "63912074692769969",
+        "number": 542,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2175,14 +2140,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-17T20:03:00Z"
+            "time": "2026-04-18T02:04:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63912049342588225",
-        "number": 336,
+        "id": "63912075257127409",
+        "number": 337,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2210,22 +2175,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-17T19:01:00Z"
+            "time": "2026-04-18T02:13:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8c260ed7-2004-4969-a599-8ed1288bc897",
-  "identifier": "BRIEFING-20260417-111",
+  "id": "78594e1d-d0c8-49ba-8dc7-ed52335dc5ca",
+  "identifier": "BRIEFING-20260418-21",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2266,8 +2231,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-18T23:45:00Z",
-    "validityStart": "2026-04-17T23:45:00Z"
+    "validityEnd": "2026-04-19T03:15:00Z",
+    "validityStart": "2026-04-18T03:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2534,7 +2499,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912053054872961",
+                  "referenceId": "63912074692769969",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2591,7 +2556,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912049342588225",
+                  "referenceId": "63912075257127409",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2744,11 +2709,6 @@
             {
               "link": false,
               "referenceId": "63910653360365729",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910456893997297",
               "structureType": "REFERENCE"
             },
             {
