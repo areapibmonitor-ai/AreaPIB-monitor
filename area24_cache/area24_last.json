@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-19T01:00:00.425Z",
+  "createdAt": "2026-04-19T04:15:00.606Z",
   "dynamicData": {
     "notams": [
       {
@@ -134,6 +134,41 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
+        }
+      },
+      {
+        "id": "63911685693680225",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 835,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02742E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 43
+        },
+        "schedule": "20 0300-23 1659, 24 1500-26 1359",
+        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-26T13:59:00Z",
+          "start": "2026-04-20T03:00:00Z"
         }
       },
       {
@@ -2008,8 +2043,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63912142767314049",
-        "number": 545,
+        "id": "63912159205610033",
+        "number": 546,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2037,14 +2072,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-18T20:58:00Z"
+            "time": "2026-04-19T01:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "3a104deb-f4c1-4b47-a027-4d03cf7f112b",
-  "identifier": "BRIEFING-20260419-5",
+  "id": "f0dea0e6-08ba-4944-b514-73aac63161d3",
+  "identifier": "BRIEFING-20260419-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2093,8 +2128,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-20T01:00:00Z",
-    "validityStart": "2026-04-19T01:00:00Z"
+    "validityEnd": "2026-04-20T04:15:00Z",
+    "validityStart": "2026-04-19T04:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2361,7 +2396,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912142767314049",
+                  "referenceId": "63912159205610033",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2496,6 +2531,11 @@
             {
               "link": false,
               "referenceId": "63911757689556353",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63911685693680225",
               "structureType": "REFERENCE"
             },
             {
