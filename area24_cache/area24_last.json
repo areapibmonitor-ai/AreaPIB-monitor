@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-19T07:45:00.428Z",
+  "createdAt": "2026-04-19T09:45:00.433Z",
   "dynamicData": {
     "notams": [
       {
@@ -202,6 +202,41 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
+        }
+      },
+      {
+        "id": "63911686396380417",
+        "levels": {
+          "lower": "2200FT AMSL",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 838,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 22,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "schedule": "20 0800-1759, 21 0500-1059, 24 25 0500-1859",
+        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-25T18:59:00Z",
+          "start": "2026-04-20T08:00:00Z"
         }
       },
       {
@@ -2251,8 +2286,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912159205610033",
-        "number": 546,
+        "id": "63912182336668321",
+        "number": 547,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2280,7 +2315,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-19T01:30:00Z"
+            "time": "2026-04-19T07:57:00Z"
           }
         ]
       },
@@ -2321,8 +2356,8 @@
       }
     ]
   },
-  "id": "27f8eeb6-3a2d-4204-ac65-00b88ee7bc9c",
-  "identifier": "BRIEFING-20260419-47",
+  "id": "749db835-7940-4e3c-a259-8cdac4e373dc",
+  "identifier": "BRIEFING-20260419-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2371,8 +2406,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-20T07:45:00Z",
-    "validityStart": "2026-04-19T07:45:00Z"
+    "validityEnd": "2026-04-20T09:45:00Z",
+    "validityStart": "2026-04-19T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2547,6 +2582,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63911686396380417",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911685387867777",
                   "structureType": "REFERENCE"
                 },
@@ -2644,7 +2684,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912159205610033",
+                  "referenceId": "63912182336668321",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2794,6 +2834,11 @@
             {
               "link": false,
               "referenceId": "63911757689556353",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63911686396380417",
               "structureType": "REFERENCE"
             },
             {
