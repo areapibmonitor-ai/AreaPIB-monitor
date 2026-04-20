@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-20T14:45:00.441Z",
+  "createdAt": "2026-04-20T16:15:00.467Z",
   "dynamicData": {
     "notams": [
       {
@@ -232,74 +232,6 @@
         "validity": {
           "end": "2026-04-21T16:00:00Z",
           "start": "2026-04-21T09:00:00Z"
-        }
-      },
-      {
-        "id": "63911764796395073",
-        "levels": {
-          "lower": "400FT AMSL",
-          "upper": "3500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 844,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5903N02619E",
-          "fir": "EETT",
-          "lower": 4,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 35
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2507 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n501 0296. REF AIP SUP 01/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-20T15:00:00Z",
-          "start": "2026-04-20T07:00:00Z"
-        }
-      },
-      {
-        "id": "63911764424342929",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 843,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5907N02613E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2506 ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n501 0296. REF AIP SUP 01/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-20T15:00:00Z",
-          "start": "2026-04-20T07:00:00Z"
         }
       },
       {
@@ -2349,16 +2281,16 @@
       }
     ]
   },
-  "id": "6a6d038f-dae7-4b26-9407-f40f6ef11e89",
-  "identifier": "BRIEFING-20260420-75",
+  "id": "f90fb551-2b4f-4401-aad1-2fb702fba34e",
+  "identifier": "BRIEFING-20260420-81",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2399,8 +2331,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-21T14:45:00Z",
-    "validityStart": "2026-04-20T14:45:00Z"
+    "validityEnd": "2026-04-21T16:15:00Z",
+    "validityStart": "2026-04-20T16:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2822,16 +2754,6 @@
             {
               "link": false,
               "referenceId": "63911997548319793",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911764796395073",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911764424342929",
               "structureType": "REFERENCE"
             },
             {
