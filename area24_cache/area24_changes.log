@@ -4868,3 +4868,23 @@ F)SFC G)7000FT AMSL
 [2026-04-19T22:20:58Z] NO CHANGE in dynamicData.notams.
 [2026-04-19T23:06:47Z] NO CHANGE in dynamicData.notams.
 [2026-04-19T23:55:25Z] NO CHANGE in dynamicData.notams.
+[2026-04-20T03:47:43Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0730/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/011/5749N02655E002
+A)EETT B)2604071200 C)2604301359
+D)07 1200-1659, 10 0500-1759, 11 0500-1459, 16 17 0500-1359, 21
+1200-1659, 25 0500-1459, 27-29 0500-1759, 30 0500-1359
+E)DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885
+F)SFC G)1100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0714/26 was removed from the PIB.
+[2026-04-20T03:47:43Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53d2cfc1dsm12212523eec.22 - gsmtp')
