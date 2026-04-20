@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-04-20T08:15:00.405Z",
+  "createdAt": "2026-04-20T10:15:00.425Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912270137193697",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL115"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 859,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5906N02345E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 115
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA22C, ENR 5.2 PARAGRAPH 1.4:\r\nREMARKS.\r\nREAD AREA MANAGED BY AMC. MILITARY AIR OPERATIONS. BTN SFC AND 2500FT\r\nAMSL TIME OF ACT (D-1) BY NOTAM. ATC HAS A RIGHT TO TEMPORARILY\r\nCHANGE THE VERTICAL LIMITS OF TSA IN ORDER TO ACCOMMODATE FLIGHTS\r\nWITH PRIORITY STATUS (HOSP, SAR, STATE) OR AIRCRAFT CARRYING ANY SICK\r\nOR SERIOUSLY INJURED PERSONS REQUIRING URGENT MEDICAL ATTENTION.\r\nTHE PILOT SHALL CONTACT TALLINN APP BY RADIO ON CHANNEL 127.905 AS\r\nSOON AS PRACTICABLE. BTN 2500FT AMSL AND FL115 ACTIVATED TACTICALLY\r\nONLY.\r\nINSTEAD OF AREA MANAGED BY AMC. MILITARY AIR OPERATIONS.\r\nBTN SFC AND 2500FT AMSL TIME OF ACT (D-1) BY NOTAM.\r\nBTN 2500FT AMSL AND FL115 ACTIVATED TACTICALLY ONLY.",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-04-20T08:25:00Z"
+        }
+      },
       {
         "id": "63912268416048193",
         "levels": {
@@ -133,6 +167,36 @@
           "end": "2026-04-22T14:00:00Z",
           "est": true,
           "start": "2026-04-15T14:35:00Z"
+        }
+      },
+      {
+        "id": "63911844134083185",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 848,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 26 U/S DUE TO MAINT, EXCEPT FOR SCHEDULED REGULAR FLIGHTS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-21T16:00:00Z",
+          "start": "2026-04-21T09:00:00Z"
         }
       },
       {
@@ -2355,8 +2419,8 @@
       }
     ]
   },
-  "id": "0b5017d5-53a6-4e05-9903-fc30434c6000",
-  "identifier": "BRIEFING-20260420-49",
+  "id": "2ab6a667-a0ce-4ee2-8c01-468b65a20bd2",
+  "identifier": "BRIEFING-20260420-57",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2405,8 +2469,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-21T08:15:00Z",
-    "validityStart": "2026-04-20T08:15:00Z"
+    "validityEnd": "2026-04-21T10:15:00Z",
+    "validityStart": "2026-04-20T10:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2700,6 +2764,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63911844134083185",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911073290121409",
                   "structureType": "REFERENCE"
                 },
@@ -2815,6 +2884,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63912270137193697",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63912268416048193",
