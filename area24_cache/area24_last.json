@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-04-20T12:45:00.547Z",
+  "createdAt": "2026-04-20T14:45:00.441Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912285920229073",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 861,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PD",
+          "traffic": "I",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 576,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "RNAV RWY 26 SID SUMIM 1B NOT AVAILABLE.",
+        "type": "R",
+        "validity": {
+          "end": "2026-05-13T23:59:00Z",
+          "start": "2026-04-20T12:43:00Z"
+        }
+      },
       {
         "id": "63912270137193697",
         "levels": {
@@ -895,40 +930,6 @@
         }
       },
       {
-        "id": "63911062244597633",
-        "levels": {
-          "lower": "SFC",
-          "upper": "14700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 779,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ACTIVATED FOR GUN FIRING.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5326 4560.\r\nREF AIP SUP 05/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-20T13:59:00Z",
-          "start": "2026-04-13T05:00:00Z"
-        }
-      },
-      {
         "id": "63910814479381825",
         "levels": {
           "lower": "SFC",
@@ -1732,42 +1733,6 @@
         }
       },
       {
-        "id": "63909430839498273",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 576,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PD",
-          "traffic": "I",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 4072,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "RNAV RWY 26 SID SUMIM 1B NOT AVAILABLE.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-16T10:00:00Z",
-          "est": true,
-          "start": "2026-03-18T11:40:00Z"
-        }
-      },
-      {
         "id": "63908993488381681",
         "locations": [
           "EETN"
@@ -2314,8 +2279,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63912258621357633",
-        "number": 254,
+        "id": "63912286518241121",
+        "number": 255,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2343,14 +2308,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-20T05:10:00Z"
+            "time": "2026-04-20T12:54:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63912266496395889",
-        "number": 551,
+        "id": "63912288450405473",
+        "number": 552,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2378,49 +2343,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-20T07:20:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63912261138974785",
-        "number": 341,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-20T05:50:00Z"
+            "time": "2026-04-20T13:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "fd108d7a-40f3-4807-8d63-c79f828bf160",
-  "identifier": "BRIEFING-20260420-67",
+  "id": "6a6d038f-dae7-4b26-9407-f40f6ef11e89",
+  "identifier": "BRIEFING-20260420-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2469,8 +2399,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-21T12:45:00Z",
-    "validityStart": "2026-04-20T12:45:00Z"
+    "validityEnd": "2026-04-21T14:45:00Z",
+    "validityStart": "2026-04-20T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2660,7 +2590,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912258621357633",
+                  "referenceId": "63912286518241121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2747,7 +2677,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912266496395889",
+                  "referenceId": "63912288450405473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2757,6 +2687,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63912285920229073",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
@@ -2789,11 +2724,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909430839498273",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63908572352547569",
                   "structureType": "REFERENCE"
                 },
@@ -2805,11 +2735,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63912261138974785",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2967,11 +2892,6 @@
             {
               "link": true,
               "referenceId": "63911073290121409",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911062244597633",
               "structureType": "REFERENCE"
             },
             {
