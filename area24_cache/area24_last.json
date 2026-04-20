@@ -1,7 +1,40 @@
 {
-  "createdAt": "2026-04-20T06:00:00.45Z",
+  "createdAt": "2026-04-20T08:15:00.405Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912268416048193",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL115"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 858,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 115
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA22B, ENR 5.2 PARAGRAPH 1.4: \r\nREMARKS.\r\nREAD AREA MANAGED BY AMC. MILITARY AIR OPERATIONS. BTN SFC AND 2500FT\r\nAMSL TIME OF ACT (D-1) BY NOTAM. ATC HAS A RIGHT TO TEMPORARILY\r\nCHANGE THE VERTICAL LIMITS OF TSA IN ORDER TO ACCOMMODATE FLIGHTS\r\nWITH PRIORITY STATUS (HOSP, SAR, STATE) OR AIRCRAFT CARRYING ANY SICK\r\nOR SERIOUSLY INJURED PERSONS REQUIRING URGENT MEDICAL ATTENTION.\r\nTHE PILOT SHALL CONTACT TALLINN APP BY RADIO ON CHANNEL 127.905 AS\r\nSOON AS PRACTICABLE.\r\nBTN 2500FT AMSL AND FL115 ACTIVATED TACTICALLY\r\nONLY.\r\nINSTEAD OF AREA MANAGED BY AMC. MILITARY AIR OPERATIONS.\r\nBTN SFC AND 2500FT AMSL TIME OF ACT (D-1) BY NOTAM.\r\nBTN 2500FT AMSL AND FL115 ACTIVATED TACTICALLY ONLY.",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-04-20T08:10:00Z"
+        }
+      },
       {
         "id": "63912009825894017",
         "locations": [
@@ -2252,8 +2285,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912249331562017",
-        "number": 550,
+        "id": "63912266496395889",
+        "number": 551,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2281,7 +2314,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-20T02:30:00Z"
+            "time": "2026-04-20T07:20:00Z"
           }
         ]
       },
@@ -2322,8 +2355,8 @@
       }
     ]
   },
-  "id": "e67a612f-1d57-4a6a-afc2-ec02be1465a5",
-  "identifier": "BRIEFING-20260420-40",
+  "id": "0b5017d5-53a6-4e05-9903-fc30434c6000",
+  "identifier": "BRIEFING-20260420-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2372,8 +2405,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-21T06:00:00Z",
-    "validityStart": "2026-04-20T06:00:00Z"
+    "validityEnd": "2026-04-21T08:15:00Z",
+    "validityStart": "2026-04-20T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2650,7 +2683,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912249331562017",
+                  "referenceId": "63912266496395889",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2782,6 +2815,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63912268416048193",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63911997548319793",
