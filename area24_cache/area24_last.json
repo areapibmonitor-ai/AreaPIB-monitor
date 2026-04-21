@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-04-21T05:45:00.431Z",
+  "createdAt": "2026-04-21T08:00:00.442Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912289760150593",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 865,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "NT",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-22T10:00:00Z",
+          "start": "2026-04-22T07:00:00Z"
+        }
+      },
       {
         "id": "63912285920229073",
         "locations": [
@@ -2316,8 +2346,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63912333965769393",
-        "number": 343,
+        "id": "63912347531263073",
+        "number": 344,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2345,14 +2375,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-21T02:04:00Z"
+            "time": "2026-04-21T05:51:00Z"
           }
         ]
       }
     ]
   },
-  "id": "492de32d-8765-4e8e-bf11-b69bd51f71cc",
-  "identifier": "BRIEFING-20260421-39",
+  "id": "dbaf083d-67f1-421f-9322-7d5eefd83b43",
+  "identifier": "BRIEFING-20260421-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2401,8 +2431,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-22T05:45:00Z",
-    "validityStart": "2026-04-21T05:45:00Z"
+    "validityEnd": "2026-04-22T08:00:00Z",
+    "validityStart": "2026-04-21T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2484,6 +2514,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63912289760150593",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63911860556969729",
@@ -2741,7 +2776,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912333965769393",
+                  "referenceId": "63912347531263073",
                   "structureType": "REFERENCE"
                 }
               ],
