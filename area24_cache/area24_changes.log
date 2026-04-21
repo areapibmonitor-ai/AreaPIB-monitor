@@ -5013,3 +5013,19 @@ A)EEEI B)2604220700 C)2604221000
 E)VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.
 )
 [2026-04-21T08:06:16Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-50fb8ba53f3sm2934331cf.15 - gsmtp')
+[2026-04-21T09:54:41Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0867/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/017/5925N02450E010
+A)EETN B)2604210800 C)2604211100
+E)TEMPO RESTRICTED AREA EER104POL ESTABLISHED DUE TO POLICE AND
+BORDER GUARD OPERATIONS WITHIN TALLINN CTR. RESTRICTION APPLIES TO
+UNMANNED AIRCRAFT, SIGHTSEEING, TRAINING AND SCHOOL FLIGHTS.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372
+53315919.
+F)SFC G)1700FT AMSL
+)
+[2026-04-21T09:54:41Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53d9b056fsm24205735eec.29 - gsmtp')

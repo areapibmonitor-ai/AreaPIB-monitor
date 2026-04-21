@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-04-21T08:00:00.442Z",
+  "createdAt": "2026-04-21T09:45:00.489Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912355374051457",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 867,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 10,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER104POL ESTABLISHED DUE TO POLICE AND\r\nBORDER GUARD OPERATIONS WITHIN TALLINN CTR. RESTRICTION APPLIES TO\r\nUNMANNED AIRCRAFT, SIGHTSEEING, TRAINING AND SCHOOL FLIGHTS.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372\r\n53315919.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-21T11:00:00Z",
+          "start": "2026-04-21T08:00:00Z"
+        }
+      },
       {
         "id": "63912289760150593",
         "locations": [
@@ -2311,8 +2345,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912333444182849",
-        "number": 554,
+        "id": "63912357418990577",
+        "number": 555,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2340,7 +2374,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-21T01:56:00Z"
+            "time": "2026-04-21T08:35:00Z"
           }
         ]
       },
@@ -2381,8 +2415,8 @@
       }
     ]
   },
-  "id": "dbaf083d-67f1-421f-9322-7d5eefd83b43",
-  "identifier": "BRIEFING-20260421-48",
+  "id": "76e09e5f-0def-4729-9fbb-656bfc9c8ac2",
+  "identifier": "BRIEFING-20260421-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2431,8 +2465,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-22T08:00:00Z",
-    "validityStart": "2026-04-21T08:00:00Z"
+    "validityEnd": "2026-04-22T09:45:00Z",
+    "validityStart": "2026-04-21T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2649,6 +2683,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63912355374051457",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911675396278641",
                   "structureType": "REFERENCE"
                 },
@@ -2714,7 +2753,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912333444182849",
+                  "referenceId": "63912357418990577",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2851,6 +2890,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63912355374051457",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63912270137193697",
