@@ -5062,3 +5062,20 @@ ACT AVBL FROM: +372 5693 2912.
 F)3000FT AMSL G)FL095
 )
 [2026-04-21T11:20:11Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e536e54562sm18378415eec.0 - gsmtp')
+[2026-04-21T17:14:15Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0848/26 expired and was removed from the PIB.
+- NOTAM A0853/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0871/26 NOTAMN
+Q)EETT/ANAW/I/NBO/E/095/660/5923N02435E050
+A)EETT B)2604211130
+E)RNAV ROUTES Q11, Q22, Q33, Q55, Q77, Q92, Q141, Y117, Y123
+COMPLETELY
+WITHDRAWN. REF AIP ENR 3.3 AND ENR ENRC.
+)
+[2026-04-21T17:14:15Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12c74a18a2bsm29463901c88.10 - gsmtp')
