@@ -1,39 +1,75 @@
 {
-  "createdAt": "2026-04-21T09:45:00.489Z",
+  "createdAt": "2026-04-21T11:15:00.454Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63912355374051457",
+        "id": "63912358180878513",
         "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
         },
         "locations": [
-          "EETN"
+          "EETT"
         ],
         "notamId": {
-          "number": 867,
+          "number": 870,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5925N02450E",
+          "coordinate": "5914N02556E",
           "fir": "EETT",
-          "lower": 0,
+          "lower": 30,
           "purpose": "BO",
-          "radius": 10,
-          "scope": "AW",
-          "subject": "RT",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
           "traffic": "IV",
-          "upper": 17
+          "upper": 95
         },
-        "text": "TEMPO RESTRICTED AREA EER104POL ESTABLISHED DUE TO POLICE AND\r\nBORDER GUARD OPERATIONS WITHIN TALLINN CTR. RESTRICTION APPLIES TO\r\nUNMANNED AIRCRAFT, SIGHTSEEING, TRAINING AND SCHOOL FLIGHTS.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372\r\n53315919.",
+        "schedule": "DAILY 1045-1345",
+        "text": "RESTRICTED AREA EER15F ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5693 2912.",
         "type": "N",
         "validity": {
-          "end": "2026-04-21T11:00:00Z",
-          "start": "2026-04-21T08:00:00Z"
+          "end": "2026-04-24T13:45:00Z",
+          "start": "2026-04-22T10:45:00Z"
+        }
+      },
+      {
+        "id": "63912357974597121",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 869,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5931N02601E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "DAILY 1045-1345",
+        "text": "RESTRICTED AREA EER15D ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5693 2912.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-24T13:45:00Z",
+          "start": "2026-04-22T10:45:00Z"
         }
       },
       {
@@ -2415,8 +2451,8 @@
       }
     ]
   },
-  "id": "76e09e5f-0def-4729-9fbb-656bfc9c8ac2",
-  "identifier": "BRIEFING-20260421-55",
+  "id": "a701fd24-1b28-46f4-b174-6059f7caa274",
+  "identifier": "BRIEFING-20260421-61",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2465,8 +2501,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-22T09:45:00Z",
-    "validityStart": "2026-04-21T09:45:00Z"
+    "validityEnd": "2026-04-22T11:15:00Z",
+    "validityStart": "2026-04-21T11:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2683,11 +2719,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63912355374051457",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63911675396278641",
                   "structureType": "REFERENCE"
                 },
@@ -2891,8 +2922,13 @@
         {
           "content": [
             {
-              "link": true,
-              "referenceId": "63912355374051457",
+              "link": false,
+              "referenceId": "63912358180878513",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912357974597121",
               "structureType": "REFERENCE"
             },
             {
