@@ -1,73 +1,70 @@
 {
-  "createdAt": "2026-04-22T12:00:00.514Z",
+  "createdAt": "2026-04-22T14:00:00.468Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63912449064118033",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
+        "id": "63912461819356065",
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 883,
+          "number": 887,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5912N02636E",
+          "condition": "AW",
+          "coordinate": "5923N02435E",
           "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
+          "lower": 95,
+          "purpose": "NBO",
+          "radius": 50,
+          "scope": "E",
+          "subject": "AN",
+          "traffic": "I",
+          "upper": 660
         },
-        "text": "RESTRICTED AREA EER15G ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5693 2912.",
+        "text": "FRA CONNECTING ROUTES FOR EFHK DEPARTURES AND ARRIVALS COMPLETELY\r\nWITHDRAWN. REF AIP ENR 3.5.",
         "type": "N",
         "validity": {
-          "end": "2026-04-22T13:30:00Z",
-          "start": "2026-04-22T11:30:00Z"
+          "perm": true,
+          "start": "2026-04-22T13:39:00Z"
         }
       },
       {
-        "id": "63912448989929921",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
+        "id": "63912461786441713",
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 882,
+          "number": 886,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
+          "condition": "AW",
+          "coordinate": "5923N02435E",
           "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
+          "lower": 95,
+          "purpose": "NBO",
+          "radius": 50,
+          "scope": "E",
+          "subject": "AN",
+          "traffic": "I",
+          "upper": 660
         },
-        "text": "RESTRICTED AREA EER15E ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5693 2912.",
-        "type": "N",
+        "referenceId": {
+          "number": 871,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "RNAV ROUTES Q11, Q22, Q33, Q55, Q77, Q92, Q141, Y117, Y123\r\nCOMPLETELY WITHDRAWN. REF AIP ENR 3.3, ENR 4.4 AND ENR ENRC.",
+        "type": "R",
         "validity": {
-          "end": "2026-04-22T13:30:00Z",
-          "start": "2026-04-22T11:30:00Z"
+          "perm": true,
+          "start": "2026-04-22T13:26:00Z"
         }
       },
       {
@@ -138,36 +135,6 @@
         "validity": {
           "end": "2026-04-24T13:45:00Z",
           "start": "2026-04-22T10:45:00Z"
-        }
-      },
-      {
-        "id": "63912367330489681",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 871,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AW",
-          "coordinate": "5923N02435E",
-          "fir": "EETT",
-          "lower": 95,
-          "purpose": "NBO",
-          "radius": 50,
-          "scope": "E",
-          "subject": "AN",
-          "traffic": "I",
-          "upper": 660
-        },
-        "text": "RNAV ROUTES Q11, Q22, Q33, Q55, Q77, Q92, Q141, Y117, Y123\r\nCOMPLETELY\r\nWITHDRAWN. REF AIP ENR 3.3 AND ENR ENRC.",
-        "type": "N",
-        "validity": {
-          "perm": true,
-          "start": "2026-04-21T11:30:00Z"
         }
       },
       {
@@ -369,42 +336,6 @@
         "validity": {
           "end": "2026-04-23T08:00:00Z",
           "start": "2026-04-23T03:00:00Z"
-        }
-      },
-      {
-        "id": "63911860556969729",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 851,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 813,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372\r\n717 3310 AND AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "R",
-        "validity": {
-          "end": "2026-04-22T14:00:00Z",
-          "est": true,
-          "start": "2026-04-15T14:35:00Z"
         }
       },
       {
@@ -2344,8 +2275,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63912431000921377",
-        "number": 258,
+        "id": "63912459455980577",
+        "number": 259,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2373,14 +2304,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-22T05:03:00Z"
+            "time": "2026-04-22T12:54:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63912442891139617",
-        "number": 559,
+        "id": "63912461776284881",
+        "number": 560,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2408,49 +2339,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-22T08:20:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63912432961818417",
-        "number": 347,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-22T05:35:00Z"
+            "time": "2026-04-22T13:35:00Z"
           }
         ]
       }
     ]
   },
-  "id": "edd36fb3-fce7-4471-891c-b73ea25d8766",
-  "identifier": "BRIEFING-20260422-64",
+  "id": "06395895-35bf-4477-bd7d-608111bc59b2",
+  "identifier": "BRIEFING-20260422-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2499,8 +2395,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-23T12:00:00Z",
-    "validityStart": "2026-04-22T12:00:00Z"
+    "validityEnd": "2026-04-23T14:00:00Z",
+    "validityStart": "2026-04-22T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2582,11 +2478,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63911860556969729",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63911674646569425",
@@ -2690,7 +2581,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912431000921377",
+                  "referenceId": "63912459455980577",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2777,7 +2668,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912442891139617",
+                  "referenceId": "63912461776284881",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2836,11 +2727,6 @@
                   "link": false,
                   "referenceId": "63908210701561121",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63912432961818417",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -2855,7 +2741,12 @@
           "content": [
             {
               "link": false,
-              "referenceId": "63912367330489681",
+              "referenceId": "63912461819356065",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912461786441713",
               "structureType": "REFERENCE"
             },
             {
@@ -2919,16 +2810,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63912449064118033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912448989929921",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63912448893526865",
