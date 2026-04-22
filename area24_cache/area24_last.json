@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-04-22T16:30:00.471Z",
+  "createdAt": "2026-04-22T17:45:00.475Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63912461819356065",
+        "id": "63912472679757793",
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 887,
+          "number": 889,
           "series": "A",
           "year": 2026
         },
@@ -25,11 +25,16 @@
           "traffic": "I",
           "upper": 660
         },
-        "text": "FRA CONNECTING ROUTES FOR EFHK DEPARTURES AND ARRIVALS COMPLETELY\r\nWITHDRAWN. REF AIP ENR 3.5.",
-        "type": "N",
+        "referenceId": {
+          "number": 887,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CHAPTER ENR 3.5 OTHER ROUTES: FRA CONNECTING ROUTES FOR EFHK\r\nDEPARTURES AND ARRIVALS COMPLETELY WITHDRAWN. FOR ROUTE PLANNING,\r\nFOLLOW CONDITIONS PUBLISHED BY NETWORK MANAGER IN ROUTE AVAILABILITY\r\nDOCUMENT. REF AIP ENR 3.5.",
+        "type": "R",
         "validity": {
           "perm": true,
-          "start": "2026-04-22T13:39:00Z"
+          "start": "2026-04-22T16:37:00Z"
         }
       },
       {
@@ -2345,8 +2350,8 @@
       }
     ]
   },
-  "id": "dbf65882-2635-43f5-89c0-29758b1f0612",
-  "identifier": "BRIEFING-20260422-82",
+  "id": "c1172435-43d7-40ab-a176-34e5752f1a93",
+  "identifier": "BRIEFING-20260422-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2395,8 +2400,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-23T16:30:00Z",
-    "validityStart": "2026-04-22T16:30:00Z"
+    "validityEnd": "2026-04-23T17:45:00Z",
+    "validityStart": "2026-04-22T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2741,7 +2746,7 @@
           "content": [
             {
               "link": false,
-              "referenceId": "63912461819356065",
+              "referenceId": "63912472679757793",
               "structureType": "REFERENCE"
             },
             {
