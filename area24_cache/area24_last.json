@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-22T05:45:00.394Z",
+  "createdAt": "2026-04-22T08:00:00.486Z",
   "dynamicData": {
     "notams": [
       {
@@ -232,6 +232,41 @@
         "validity": {
           "perm": true,
           "start": "2026-04-20T08:10:00Z"
+        }
+      },
+      {
+        "id": "63912263228306577",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 856,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5823N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 6
+        },
+        "schedule": "23 24 0600-1500, 25 0600-1300",
+        "text": "TEMPO RESTRICTED AREA EER2532 ESTABLISHED DUE TO MAAMESS WI: 200M\r\nRADIUS CENTRED ON 582326N 0264128E.\r\nUNMANNED AIRCRAFT ARE FORBIDDEN TO FLY IN THE ACTIVATED AREA WITHOUT\r\nPRIOR COORDINATION FROM: HENRIK(AT)TARTUNAITUSED.EE OR TEL +372 5190\r\n3734.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-25T13:00:00Z",
+          "start": "2026-04-23T06:00:00Z"
         }
       },
       {
@@ -2346,8 +2381,8 @@
       }
     ]
   },
-  "id": "5b3ac57c-2d27-4753-b5fa-206ca8d5e789",
-  "identifier": "BRIEFING-20260422-39",
+  "id": "2e230568-454a-46e9-9a98-3818e748de39",
+  "identifier": "BRIEFING-20260422-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2396,8 +2431,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-23T05:45:00Z",
-    "validityStart": "2026-04-22T05:45:00Z"
+    "validityEnd": "2026-04-23T08:00:00Z",
+    "validityStart": "2026-04-22T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2691,6 +2726,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63912263228306577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
                 },
@@ -2829,6 +2869,11 @@
             {
               "link": false,
               "referenceId": "63912268416048193",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63912263228306577",
               "structureType": "REFERENCE"
             },
             {
