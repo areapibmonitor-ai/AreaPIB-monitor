@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-22T08:00:00.486Z",
+  "createdAt": "2026-04-22T09:45:00.422Z",
   "dynamicData": {
     "notams": [
       {
@@ -367,6 +367,36 @@
           "end": "2026-04-22T14:00:00Z",
           "est": true,
           "start": "2026-04-15T14:35:00Z"
+        }
+      },
+      {
+        "id": "63911844348586401",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 849,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 17 U/S DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-23T16:00:00Z",
+          "start": "2026-04-23T09:00:00Z"
         }
       },
       {
@@ -2311,8 +2341,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912419793188929",
-        "number": 558,
+        "id": "63912442891139617",
+        "number": 559,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2340,7 +2370,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-22T01:55:00Z"
+            "time": "2026-04-22T08:20:00Z"
           }
         ]
       },
@@ -2381,8 +2411,8 @@
       }
     ]
   },
-  "id": "2e230568-454a-46e9-9a98-3818e748de39",
-  "identifier": "BRIEFING-20260422-48",
+  "id": "12409ef3-b4f7-4a97-9692-6002f6956c8a",
+  "identifier": "BRIEFING-20260422-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2431,8 +2461,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-23T08:00:00Z",
-    "validityStart": "2026-04-22T08:00:00Z"
+    "validityEnd": "2026-04-23T09:45:00Z",
+    "validityStart": "2026-04-22T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2580,6 +2610,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63911844348586401",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911402704177457",
                   "structureType": "REFERENCE"
                 },
@@ -2709,7 +2744,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912419793188929",
+                  "referenceId": "63912442891139617",
                   "structureType": "REFERENCE"
                 }
               ],
