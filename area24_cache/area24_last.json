@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-21T23:45:00.432Z",
+  "createdAt": "2026-04-22T03:30:00.466Z",
   "dynamicData": {
     "notams": [
       {
@@ -265,6 +265,40 @@
         }
       },
       {
+        "id": "63911997677566961",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 854,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5924N02332E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 9,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 45
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5623 7738.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-23T08:00:00Z",
+          "start": "2026-04-23T03:00:00Z"
+        }
+      },
+      {
         "id": "63911860556969729",
         "locations": [
           "EEEI"
@@ -366,41 +400,6 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
-        }
-      },
-      {
-        "id": "63911686396380417",
-        "levels": {
-          "lower": "2200FT AMSL",
-          "upper": "3100FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 838,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 22,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 31
-        },
-        "schedule": "20 0800-1759, 21 0500-1059, 24 25 0500-1859",
-        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-25T18:59:00Z",
-          "start": "2026-04-20T08:00:00Z"
         }
       },
       {
@@ -1097,41 +1096,6 @@
         }
       },
       {
-        "id": "63910456893997297",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 730,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "07 1200-1659, 10 0500-1759, 11 0500-1459, 16 17 0500-1359, 21\r\n1200-1659, 25 0500-1459, 27-29 0500-1759, 30 0500-1359",
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T13:59:00Z",
-          "start": "2026-04-07T12:00:00Z"
-        }
-      },
-      {
         "id": "63910358429599329",
         "locations": [
           "EEPU"
@@ -1622,41 +1586,6 @@
         "validity": {
           "end": "2026-04-30T17:00:00Z",
           "start": "2026-03-23T12:44:00Z"
-        }
-      },
-      {
-        "id": "63909848127756417",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 616,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5933N02618E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01-16 0600-1700, 18-21 0600-1800, 24-30 0600-1700",
-        "text": "DANGER AREA EED8 RUTJA ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T17:00:00Z",
-          "start": "2026-04-01T06:00:00Z"
         }
       },
       {
@@ -2312,8 +2241,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63912398032111665",
-        "number": 557,
+        "id": "63912419793188929",
+        "number": 558,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2341,14 +2270,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-21T19:48:00Z"
+            "time": "2026-04-22T01:55:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63912402567624753",
-        "number": 345,
+        "id": "63912421088169201",
+        "number": 346,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2376,22 +2305,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-21T21:08:00Z"
+            "time": "2026-04-22T02:16:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a657b080-49b0-4383-84fb-0c8421767acb",
-  "identifier": "BRIEFING-20260421-111",
+  "id": "74ed269d-36d3-4f76-9ba3-8895ce2d3f92",
+  "identifier": "BRIEFING-20260422-24",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2432,8 +2361,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-22T23:45:00Z",
-    "validityStart": "2026-04-21T23:45:00Z"
+    "validityEnd": "2026-04-23T03:30:00Z",
+    "validityStart": "2026-04-22T03:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2613,11 +2542,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63911686396380417",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63911685387867777",
                   "structureType": "REFERENCE"
                 },
@@ -2710,7 +2634,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912398032111665",
+                  "referenceId": "63912419793188929",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2767,7 +2691,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912402567624753",
+                  "referenceId": "63912421088169201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2869,17 +2793,17 @@
             },
             {
               "link": false,
+              "referenceId": "63911997677566961",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63911758149735681",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
               "referenceId": "63911757689556353",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63911686396380417",
               "structureType": "REFERENCE"
             },
             {
@@ -2943,11 +2867,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63910456893997297",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63910227514438113",
               "structureType": "REFERENCE"
@@ -2975,11 +2894,6 @@
             {
               "link": false,
               "referenceId": "63909866875647553",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909848127756417",
               "structureType": "REFERENCE"
             },
             {
