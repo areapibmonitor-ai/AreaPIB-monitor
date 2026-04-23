@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-22T23:00:00.55Z",
+  "createdAt": "2026-04-23T00:00:00.472Z",
   "dynamicData": {
     "notams": [
       {
@@ -439,6 +439,41 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
+        }
+      },
+      {
+        "id": "63911686396380417",
+        "levels": {
+          "lower": "2200FT AMSL",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 838,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 22,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "schedule": "20 0800-1759, 21 0500-1059, 24 25 0500-1859",
+        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-25T18:59:00Z",
+          "start": "2026-04-20T08:00:00Z"
         }
       },
       {
@@ -1628,6 +1663,41 @@
         }
       },
       {
+        "id": "63909848127756417",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 616,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5933N02618E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01-16 0600-1700, 18-21 0600-1800, 24-30 0600-1700",
+        "text": "DANGER AREA EED8 RUTJA ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-30T17:00:00Z",
+          "start": "2026-04-01T06:00:00Z"
+        }
+      },
+      {
         "id": "63909610481358145",
         "levels": {
           "lower": "SFC",
@@ -1731,6 +1801,36 @@
           "end": "2026-06-19T12:00:00Z",
           "est": true,
           "start": "2026-03-20T08:16:00Z"
+        }
+      },
+      {
+        "id": "63909417841685761",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 571,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 08/26 CLSD DUE TO MAINTENANCE WORKS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-24T02:15:00Z",
+          "start": "2026-04-23T23:00:00Z"
         }
       },
       {
@@ -2350,16 +2450,16 @@
       }
     ]
   },
-  "id": "7c796855-636f-4a71-83b6-01f0ad8a5d0e",
-  "identifier": "BRIEFING-20260422-108",
+  "id": "5b26edc4-d2f7-446b-ab7b-677cfd55b384",
+  "identifier": "BRIEFING-20260423-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2400,8 +2500,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-23T23:00:00Z",
-    "validityStart": "2026-04-22T23:00:00Z"
+    "validityEnd": "2026-04-24T00:00:00Z",
+    "validityStart": "2026-04-23T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2576,6 +2676,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63911686396380417",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911685387867777",
                   "structureType": "REFERENCE"
                 },
@@ -2639,6 +2744,11 @@
                 {
                   "link": false,
                   "referenceId": "63909591475652497",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63909417841685761",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2856,6 +2966,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": true,
+              "referenceId": "63911686396380417",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63911686063841089",
               "structureType": "REFERENCE"
@@ -2943,6 +3058,11 @@
             {
               "link": false,
               "referenceId": "63909866875647553",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63909848127756417",
               "structureType": "REFERENCE"
             },
             {
