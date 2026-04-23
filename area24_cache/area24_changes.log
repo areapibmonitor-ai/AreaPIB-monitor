@@ -5336,3 +5336,21 @@ Other removals:
 [2026-04-23T14:15:46Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53ccce426sm28086224eec.16 - gsmtp')
 [2026-04-23T16:12:52Z] NO CHANGE in dynamicData.notams.
 [2026-04-23T17:50:21Z] NO CHANGE in dynamicData.notams.
+[2026-04-23T19:37:05Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0789/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/017/5929N02514E003
+A)EETT B)2604241800 C)2604251800
+E)TEMPO RESTRICTED AREA EER26137UAS ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WITH SIGNAL FLARES WITHIN 593002N 0251114E -
+593011N 0251339E - 593058N 0251540E - 592950N 0251736E - 592850N
+0251503E - 592746N 0251403E - 592812N 0251213E - 592812N 0251005E -
+592856N 0251013E - 593002N 0251114E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 564
+3631.
+F)SFC G)1700FT AMSL
+)
+[2026-04-23T19:37:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8e7d8edb7acsm1791060785a.28 - gsmtp')
