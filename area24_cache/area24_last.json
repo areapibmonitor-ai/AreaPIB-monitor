@@ -1,38 +1,7 @@
 {
-  "createdAt": "2026-04-24T06:15:00.5Z",
+  "createdAt": "2026-04-24T10:00:00.486Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63912607201885985",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 900,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372\r\n717 3310 AND AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-24T09:00:00Z",
-          "est": true,
-          "start": "2026-04-24T06:00:00Z"
-        }
-      },
       {
         "id": "63912472679757793",
         "locations": [
@@ -206,36 +175,6 @@
         "validity": {
           "end": "2026-04-28T16:59:00Z",
           "start": "2026-04-24T07:00:00Z"
-        }
-      },
-      {
-        "id": "63912356170174193",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 868,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "ND",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "DME KRS 112.400MHZ/CH71X U/S DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-24T10:00:00Z",
-          "start": "2026-04-24T06:30:00Z"
         }
       },
       {
@@ -2521,8 +2460,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912592120034561",
-        "number": 566,
+        "id": "63912614305206753",
+        "number": 567,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2550,7 +2489,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-24T01:47:00Z"
+            "time": "2026-04-24T07:57:00Z"
           }
         ]
       },
@@ -2591,8 +2530,8 @@
       }
     ]
   },
-  "id": "a7a477e4-6231-4e78-b128-b1fe316919e4",
-  "identifier": "BRIEFING-20260424-41",
+  "id": "0d871bf2-7b05-4daa-9def-5868d355f398",
+  "identifier": "BRIEFING-20260424-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2641,8 +2580,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-25T06:15:00Z",
-    "validityStart": "2026-04-24T06:15:00Z"
+    "validityEnd": "2026-04-25T10:00:00Z",
+    "validityStart": "2026-04-24T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2726,11 +2665,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63912607201885985",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63911674646569425",
                   "structureType": "REFERENCE"
                 },
@@ -2783,11 +2717,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63912356170174193",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63911402704177457",
@@ -2924,7 +2853,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912592120034561",
+                  "referenceId": "63912614305206753",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3008,11 +2937,6 @@
             {
               "link": false,
               "referenceId": "63912461786441713",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63912356170174193",
               "structureType": "REFERENCE"
             },
             {

@@ -5403,3 +5403,10 @@ E)ATIS CHANNEL 123.880 U/S. MET INFORMATION AVBL FROM ATIS TEL +372
 717 3310 AND AMARI TWR ON FREQ 122.100MHZ.
 )
 [2026-04-24T06:27:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53dcb487bsm31599998eec.31 - gsmtp')
+[2026-04-24T10:10:10Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0868/26 expired and was removed from the PIB.
+- NOTAM A0900/26 expired and was removed from the PIB.
+[2026-04-24T10:10:10Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53d9b056fsm40889435eec.29 - gsmtp')
