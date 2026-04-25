@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-25T17:45:00.42Z",
+  "createdAt": "2026-04-25T19:00:00.427Z",
   "dynamicData": {
     "notams": [
       {
@@ -305,41 +305,6 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
-        }
-      },
-      {
-        "id": "63911686396380417",
-        "levels": {
-          "lower": "2200FT AMSL",
-          "upper": "3100FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 838,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 22,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 31
-        },
-        "schedule": "20 0800-1759, 21 0500-1059, 24 25 0500-1859",
-        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-25T18:59:00Z",
-          "start": "2026-04-20T08:00:00Z"
         }
       },
       {
@@ -758,40 +723,6 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-04-09T10:26:00Z"
-        }
-      },
-      {
-        "id": "63911242345387201",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 789,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5929N02514E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "TEMPO RESTRICTED AREA EER26137UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITH SIGNAL FLARES WITHIN 593002N 0251114E -\r\n593011N 0251339E - 593058N 0251540E - 592950N 0251736E - 592850N\r\n0251503E - 592746N 0251403E - 592812N 0251213E - 592812N 0251005E -\r\n592856N 0251013E - 593002N 0251114E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 564\r\n3631.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-25T18:00:00Z",
-          "start": "2026-04-24T18:00:00Z"
         }
       },
       {
@@ -2250,8 +2181,8 @@
       }
     ]
   },
-  "id": "8b64ff06-7914-4a82-988e-6bbb9ce542f0",
-  "identifier": "BRIEFING-20260425-87",
+  "id": "2dc6c5d8-e730-413f-9759-52b8ed07cc5c",
+  "identifier": "BRIEFING-20260425-92",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2300,8 +2231,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-26T17:45:00Z",
-    "validityStart": "2026-04-25T17:45:00Z"
+    "validityEnd": "2026-04-26T19:00:00Z",
+    "validityStart": "2026-04-25T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2464,11 +2395,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63911686396380417",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63911685387867777",
@@ -2731,11 +2657,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63911686396380417",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63911686063841089",
               "structureType": "REFERENCE"
@@ -2768,11 +2689,6 @@
             {
               "link": true,
               "referenceId": "63911327237386257",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911242345387201",
               "structureType": "REFERENCE"
             },
             {
