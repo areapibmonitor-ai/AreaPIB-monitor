@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-25T11:45:00.403Z",
+  "createdAt": "2026-04-25T13:30:00.483Z",
   "dynamicData": {
     "notams": [
       {
@@ -207,41 +207,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-20T08:10:00Z"
-        }
-      },
-      {
-        "id": "63912263228306577",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 856,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "schedule": "23 24 0600-1500, 25 0600-1300",
-        "text": "TEMPO RESTRICTED AREA EER2532 ESTABLISHED DUE TO MAAMESS WI: 200M\r\nRADIUS CENTRED ON 582326N 0264128E.\r\nUNMANNED AIRCRAFT ARE FORBIDDEN TO FLY IN THE ACTIVATED AREA WITHOUT\r\nPRIOR COORDINATION FROM: HENRIK(AT)TARTUNAITUSED.EE OR TEL +372 5190\r\n3734.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-25T13:00:00Z",
-          "start": "2026-04-23T06:00:00Z"
         }
       },
       {
@@ -2215,8 +2180,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63912690196627729",
-        "number": 264,
+        "id": "63912718196221905",
+        "number": 265,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2226,25 +2191,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-25T05:03:00Z"
+            "time": "2026-04-25T12:47:00Z"
           }
         ]
       },
@@ -2285,8 +2250,8 @@
       }
     ]
   },
-  "id": "e4489103-68ae-4cfd-a932-7df24d206fb0",
-  "identifier": "BRIEFING-20260425-63",
+  "id": "f0e66246-e67b-4ad3-8bec-1ac2d762733c",
+  "identifier": "BRIEFING-20260425-70",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2335,8 +2300,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-26T11:45:00Z",
-    "validityStart": "2026-04-25T11:45:00Z"
+    "validityEnd": "2026-04-26T13:30:00Z",
+    "validityStart": "2026-04-25T13:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2516,7 +2481,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912690196627729",
+                  "referenceId": "63912718196221905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2616,11 +2581,6 @@
                 {
                   "link": false,
                   "referenceId": "63912285920229073",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63912263228306577",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2758,11 +2718,6 @@
             {
               "link": false,
               "referenceId": "63912268416048193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63912263228306577",
               "structureType": "REFERENCE"
             },
             {
