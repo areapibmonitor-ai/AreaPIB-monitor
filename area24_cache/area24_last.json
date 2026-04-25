@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-24T23:45:00.464Z",
+  "createdAt": "2026-04-25T03:15:00.458Z",
   "dynamicData": {
     "notams": [
       {
@@ -1001,40 +1001,6 @@
         "validity": {
           "end": "2026-04-27T05:00:00Z",
           "start": "2026-04-13T05:00:00Z"
-        }
-      },
-      {
-        "id": "63910653360365729",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL055"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 747,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 55
-        },
-        "schedule": "02 06-24 27-30 0600-1500",
-        "text": "TEMPORARY SEGREGATED AREA EETSA21 NURMSI ACTIVATED FOR UNMANNED\r\nAIRCRAFT ACTIVITY.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACTIVITY AVAILABLE\r\nFROM: +372 5650 2880.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T15:00:00Z",
-          "start": "2026-04-02T06:00:00Z"
         }
       },
       {
@@ -2285,8 +2251,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63912657715753393",
-        "number": 569,
+        "id": "63912679148056337",
+        "number": 570,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2314,14 +2280,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-24T20:00:00Z"
+            "time": "2026-04-25T01:57:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63912661643455441",
-        "number": 355,
+        "id": "63912679974870177",
+        "number": 356,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2349,22 +2315,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-24T21:06:00Z"
+            "time": "2026-04-25T02:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d4791bdd-3f52-4af1-8f26-0a975f4d0de6",
-  "identifier": "BRIEFING-20260424-111",
+  "id": "574a13f6-a158-4321-804f-eb20845affa4",
+  "identifier": "BRIEFING-20260425-21",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2405,8 +2371,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-25T23:45:00Z",
-    "validityStart": "2026-04-24T23:45:00Z"
+    "validityEnd": "2026-04-26T03:15:00Z",
+    "validityStart": "2026-04-25T03:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2673,7 +2639,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912657715753393",
+                  "referenceId": "63912679148056337",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2735,7 +2701,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912661643455441",
+                  "referenceId": "63912679974870177",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2913,11 +2879,6 @@
             {
               "link": false,
               "referenceId": "63910735564939873",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910653360365729",
               "structureType": "REFERENCE"
             },
             {
