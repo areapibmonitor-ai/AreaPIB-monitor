@@ -1,7 +1,147 @@
 {
-  "createdAt": "2026-04-26T17:45:00.485Z",
+  "createdAt": "2026-04-26T19:45:00.445Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912616045658017",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 909,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02636E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "27 1800-2000, 28 1330-1530",
+        "text": "RESTRICTED AREA EER15G ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-28T15:30:00Z",
+          "start": "2026-04-27T18:00:00Z"
+        }
+      },
+      {
+        "id": "63912615907519585",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 908,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "27 1800-2000, 28 1330-1530",
+        "text": "RESTRICTED AREA EER15E ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-28T15:30:00Z",
+          "start": "2026-04-27T18:00:00Z"
+        }
+      },
+      {
+        "id": "63912615730188801",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 907,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5931N02601E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "27 1800-2000, 28 1330-1530",
+        "text": "RESTRICTED AREA EER15D ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-28T15:30:00Z",
+          "start": "2026-04-27T18:00:00Z"
+        }
+      },
+      {
+        "id": "63912615539873569",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 906,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "27 1800-2000, 28 1330-1530",
+        "text": "RESTRICTED AREA EER15F ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-28T15:30:00Z",
+          "start": "2026-04-27T18:00:00Z"
+        }
+      },
       {
         "id": "63912472679757793",
         "locations": [
@@ -2315,11 +2455,46 @@
             "time": "2026-04-26T14:20:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63912829215837601",
+        "number": 358,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-26T19:40:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "7b653b20-a57d-49f3-a431-bf0797fb9047",
-  "identifier": "BRIEFING-20260426-87",
+  "id": "9d5d0f9f-30af-492c-bbc1-74dfe8a36cfc",
+  "identifier": "BRIEFING-20260426-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2368,8 +2543,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-27T17:45:00Z",
-    "validityStart": "2026-04-26T17:45:00Z"
+    "validityEnd": "2026-04-27T19:45:00Z",
+    "validityStart": "2026-04-26T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2690,6 +2865,11 @@
                   "link": false,
                   "referenceId": "63908210701561121",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63912829215837601",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -2773,6 +2953,26 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63912616045658017",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912615907519585",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912615730188801",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912615539873569",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63912448141465313",
