@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-26T16:00:00.414Z",
+  "createdAt": "2026-04-26T17:00:00.472Z",
   "dynamicData": {
     "notams": [
       {
@@ -442,40 +442,6 @@
         "validity": {
           "end": "2026-05-13T23:59:00Z",
           "start": "2026-04-14T13:00:00Z"
-        }
-      },
-      {
-        "id": "63911686063841089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "7000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 837,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 70
-        },
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-26T16:59:00Z",
-          "start": "2026-04-20T14:00:00Z"
         }
       },
       {
@@ -2352,8 +2318,8 @@
       }
     ]
   },
-  "id": "9a69e6de-1c37-4c39-8bb5-725781d87580",
-  "identifier": "BRIEFING-20260426-80",
+  "id": "4c17d938-5138-4d17-afb3-95191ef7a93e",
+  "identifier": "BRIEFING-20260426-84",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2402,8 +2368,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-27T16:00:00Z",
-    "validityStart": "2026-04-26T16:00:00Z"
+    "validityEnd": "2026-04-27T17:00:00Z",
+    "validityStart": "2026-04-26T17:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2850,11 +2816,6 @@
             {
               "link": false,
               "referenceId": "63911757689556353",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63911686063841089",
               "structureType": "REFERENCE"
             },
             {
