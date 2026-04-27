@@ -6332,3 +6332,21 @@ F)GND G)FL055
 [2026-04-27T09:10:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b02ae9dbe7sm252606176d6.43 - gsmtp')
 [2026-04-27T11:19:45Z] NO CHANGE in dynamicData.notams.
 [2026-04-27T12:58:15Z] NO CHANGE in dynamicData.notams.
+[2026-04-27T15:15:14Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0781/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0898/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/043/5918N02742E005
+A)EETT B)2604281400 C)2604301959
+D)APR 28 1400-1959, APR 29-30 0500-1959
+E)DANGER AREA EED17 SIRGALA 2 ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.
+F)SFC G)4300FT AMSL
+)
+[2026-04-27T15:15:14Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2e53d8aed43sm43181539eec.26 - gsmtp')
