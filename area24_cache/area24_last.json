@@ -1,7 +1,47 @@
 {
-  "createdAt": "2026-04-27T06:30:00.436Z",
+  "createdAt": "2026-04-27T09:00:00.489Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63912870839900225",
+        "levels": {
+          "lower": "GND",
+          "upper": "FL055"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 934,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5852N02545E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 55
+        },
+        "referenceId": {
+          "number": 747,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "27 0713-1500, 28 0600-1500, 29 0600-1500 1800-2359, 30 0600-1500",
+        "text": "TEMPORARY SEGREGATED AREA EETSA21 NURMSI ACTIVATED FOR UNMANNED\r\nAIRCRAFT ACTIVITY.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO  ACTIVATED AREA. PERMISSION FOR ENTERING THE\r\nAREA AND INFO ABOUT ACTIVITY AVAILABLE FROM: +372 5650 2880.",
+        "type": "R",
+        "validity": {
+          "end": "2026-04-30T15:00:00Z",
+          "start": "2026-04-27T07:13:00Z"
+        }
+      },
       {
         "id": "63912866891491249",
         "levels": {
@@ -1173,40 +1213,6 @@
         "validity": {
           "end": "2026-05-01T19:59:00Z",
           "start": "2026-04-03T12:15:00Z"
-        }
-      },
-      {
-        "id": "63910653360365729",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL055"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 747,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 55
-        },
-        "schedule": "02 06-24 27-30 0600-1500",
-        "text": "TEMPORARY SEGREGATED AREA EETSA21 NURMSI ACTIVATED FOR UNMANNED\r\nAIRCRAFT ACTIVITY.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACTIVITY AVAILABLE\r\nFROM: +372 5650 2880.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T15:00:00Z",
-          "start": "2026-04-02T06:00:00Z"
         }
       },
       {
@@ -2492,8 +2498,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63912850969487297",
-        "number": 581,
+        "id": "63912875512253265",
+        "number": 582,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2521,7 +2527,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-27T01:40:00Z"
+            "time": "2026-04-27T08:30:00Z"
           }
         ]
       },
@@ -2562,8 +2568,8 @@
       }
     ]
   },
-  "id": "7c1f68a5-f036-430c-9f91-9ed7a79df0fc",
-  "identifier": "BRIEFING-20260427-42",
+  "id": "182b2004-63d4-457c-854c-8fdc2e2602f5",
+  "identifier": "BRIEFING-20260427-52",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2612,8 +2618,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-28T06:30:00Z",
-    "validityStart": "2026-04-27T06:30:00Z"
+    "validityEnd": "2026-04-28T09:00:00Z",
+    "validityStart": "2026-04-27T09:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2880,7 +2886,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912850969487297",
+                  "referenceId": "63912875512253265",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3028,6 +3034,11 @@
         {
           "content": [
             {
+              "link": false,
+              "referenceId": "63912870839900225",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63912866891491249",
               "structureType": "REFERENCE"
@@ -3150,11 +3161,6 @@
             {
               "link": false,
               "referenceId": "63910814479381825",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63910653360365729",
               "structureType": "REFERENCE"
             },
             {
