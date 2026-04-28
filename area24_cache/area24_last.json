@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-28T00:00:00.518Z",
+  "createdAt": "2026-04-28T04:00:00.517Z",
   "dynamicData": {
     "notams": [
       {
@@ -75,6 +75,36 @@
         "validity": {
           "end": "2026-05-02T13:30:00Z",
           "start": "2026-04-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63912651040303489",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 926,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5854N02209E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 660
+        },
+        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 30KM\r\nRADIUS CENTRED ON 585400N 0220900E FROM SFC UP TO FL660.",
+        "type": "N",
+        "validity": {
+          "end": "2026-04-29T13:00:00Z",
+          "start": "2026-04-29T02:00:00Z"
         }
       },
       {
@@ -2463,8 +2493,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63912917921757297",
-        "number": 584,
+        "id": "63912938212565185",
+        "number": 585,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2492,14 +2522,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-27T20:17:00Z"
+            "time": "2026-04-28T01:55:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63912920539146529",
-        "number": 361,
+        "id": "63912939074312097",
+        "number": 362,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2527,14 +2557,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-27T21:01:00Z"
+            "time": "2026-04-28T02:09:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8c308c16-8eaf-4d59-87eb-13cb2f69546e",
-  "identifier": "BRIEFING-20260428-1",
+  "id": "f6383ea1-4695-4178-81cb-aa9eb58922a0",
+  "identifier": "BRIEFING-20260428-27",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2583,8 +2613,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-29T00:00:00Z",
-    "validityStart": "2026-04-28T00:00:00Z"
+    "validityEnd": "2026-04-29T04:00:00Z",
+    "validityStart": "2026-04-28T04:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2703,6 +2733,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63912651040303489",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63910556151967665",
@@ -2846,7 +2881,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912917921757297",
+                  "referenceId": "63912938212565185",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2903,7 +2938,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912920539146529",
+                  "referenceId": "63912939074312097",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2917,6 +2952,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63912651040303489",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63912472679757793",

@@ -6374,3 +6374,15 @@ E)DANGER AREA EED5 KILTSI ACTIVATED.
 F)SFC G)2100FT AMSL
 )
 [2026-04-28T00:09:26Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12ddd9a64desm1292737c88.9 - gsmtp')
+[2026-04-28T04:09:20Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0926/26 NOTAMN
+Q)EETT/GWXX/IV/NBO/AE/000/660/5854N02209E017
+A)EEKA B)2604290200 C)2604291300
+E)GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 30KM
+RADIUS CENTRED ON 585400N 0220900E FROM SFC UP TO FL660.
+)
+[2026-04-28T04:09:20Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8f7c87a0942sm115210885a.42 - gsmtp')
