@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-04-28T15:30:00.458Z",
+  "createdAt": "2026-04-28T17:15:03.163Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63912986380741489",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 953,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-28T16:30:00Z",
-          "start": "2026-04-28T15:30:00Z"
-        }
-      },
       {
         "id": "63912957351508337",
         "levels": {
@@ -2691,16 +2661,16 @@
       }
     ]
   },
-  "id": "908aef04-01a3-4136-8fa6-8450ccc9e629",
-  "identifier": "BRIEFING-20260428-78",
+  "id": "9d9d6959-2235-4542-8f7b-2831ad75ce0a",
+  "identifier": "BRIEFING-20260428-85",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2741,8 +2711,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-29T15:30:00Z",
-    "validityStart": "2026-04-28T15:30:00Z"
+    "validityEnd": "2026-04-29T17:15:00Z",
+    "validityStart": "2026-04-28T17:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3085,11 +3055,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63912986380741489",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63912651040303489",
