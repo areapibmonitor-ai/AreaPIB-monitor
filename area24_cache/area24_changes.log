@@ -6545,3 +6545,24 @@ F)SFC G)2200FT AMSL
 Other removals:
 - NOTAM A0944/26 was removed from the PIB.
 [2026-04-28T13:06:19Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8f7c4eba235sm187283985a.14 - gsmtp')
+[2026-04-28T15:41:00Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0862/26 expired and was removed from the PIB.
+- NOTAM A0906/26 expired and was removed from the PIB.
+- NOTAM A0907/26 expired and was removed from the PIB.
+- NOTAM A0908/26 expired and was removed from the PIB.
+- NOTAM A0909/26 expired and was removed from the PIB.
+- NOTAM A0943/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0953/26 NOTAMN
+Q)EETT/ORLT/IV/M/E/000/999/5849N02426E999
+A)EETT B)2604281530 C)2604281630
+E)RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO
+HELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE
+IMMEDIATE RESPONSE IF REQUESTED (1HR PN).
+)
+[2026-04-28T15:41:00Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-5100db2fa68sm20160521cf.19 - gsmtp')
