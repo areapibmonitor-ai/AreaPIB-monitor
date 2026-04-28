@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-28T20:30:00.491Z",
+  "createdAt": "2026-04-28T21:30:00.479Z",
   "dynamicData": {
     "notams": [
       {
@@ -2590,41 +2590,6 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEPU",
-        "id": "63912977873083009",
-        "number": 271,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "03",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-28T12:55:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EETN",
         "id": "63912981858696481",
         "number": 587,
@@ -2658,11 +2623,46 @@
             "time": "2026-04-28T14:03:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63913007278072977",
+        "number": 364,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-28T21:07:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "641d6e0d-86e8-4d52-a576-3ee122f73478",
-  "identifier": "BRIEFING-20260428-98",
+  "id": "93e1ec2e-4b5d-489b-93da-4797fdb0c30e",
+  "identifier": "BRIEFING-20260428-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2711,8 +2711,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-29T20:30:00Z",
-    "validityStart": "2026-04-28T20:30:00Z"
+    "validityEnd": "2026-04-29T21:30:00Z",
+    "validityStart": "2026-04-28T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2899,11 +2899,6 @@
                   "link": false,
                   "referenceId": "63910358429599329",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63912977873083009",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -3042,6 +3037,11 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63913007278072977",
                   "structureType": "REFERENCE"
                 }
               ],
