@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-29T15:15:00.51Z",
+  "createdAt": "2026-04-29T17:00:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -1665,40 +1665,6 @@
         }
       },
       {
-        "id": "63909953138959521",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 661,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02551E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "text": "DANGER AREA EED9 VALUSTE ACTIVATED",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-29T17:00:00Z",
-          "start": "2026-04-29T12:00:00Z"
-        }
-      },
-      {
         "id": "63909867536505009",
         "locations": [
           "EETN"
@@ -2532,16 +2498,16 @@
       }
     ]
   },
-  "id": "91e01556-c58e-4c71-9c98-92fd36316ef8",
-  "identifier": "BRIEFING-20260429-77",
+  "id": "5c1be612-ddd6-4543-8f08-c2f6dfea6310",
+  "identifier": "BRIEFING-20260429-84",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2582,8 +2548,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-30T15:15:00Z",
-    "validityStart": "2026-04-29T15:15:00Z"
+    "validityEnd": "2026-04-30T17:00:00Z",
+    "validityStart": "2026-04-29T17:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3140,11 +3106,6 @@
             {
               "link": false,
               "referenceId": "63910028981764785",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909953138959521",
               "structureType": "REFERENCE"
             },
             {
