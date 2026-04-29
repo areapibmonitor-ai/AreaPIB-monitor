@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-29T18:45:00.511Z",
+  "createdAt": "2026-04-29T20:15:00.425Z",
   "dynamicData": {
     "notams": [
       {
@@ -1109,41 +1109,6 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-04-09T10:26:00Z"
-        }
-      },
-      {
-        "id": "63911073439460913",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 782,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02443E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "15-17 0500-1359, 18 0500-1559, 19 20 0500-1359, 21-23 0600-1259,\r\n24 0600-0959, 25 0700-1659, 26 0900-1359, 28 0600-1559, 29 0600-1359\r\n1700-1959",
-        "text": "DANGER AREA EED20 MANNIKU ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 503 4102.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-29T19:59:00Z",
-          "start": "2026-04-15T05:00:00Z"
         }
       },
       {
@@ -2463,8 +2428,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63913068599311089",
-        "number": 591,
+        "id": "63913088367457777",
+        "number": 592,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2492,14 +2457,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-29T14:08:00Z"
+            "time": "2026-04-29T19:38:00Z"
           }
         ]
       }
     ]
   },
-  "id": "653a3529-46ee-411f-8486-3681eec6770c",
-  "identifier": "BRIEFING-20260429-91",
+  "id": "c0f68153-8e2f-4fa3-96aa-6184b98da869",
+  "identifier": "BRIEFING-20260429-97",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2548,8 +2513,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-30T18:45:00Z",
-    "validityStart": "2026-04-29T18:45:00Z"
+    "validityEnd": "2026-04-30T20:15:00Z",
+    "validityStart": "2026-04-29T20:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2776,11 +2741,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911073439460913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63910217759614897",
                   "structureType": "REFERENCE"
                 },
@@ -2821,7 +2781,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913068599311089",
+                  "referenceId": "63913088367457777",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3071,11 +3031,6 @@
             {
               "link": true,
               "referenceId": "63911327237386257",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63911073439460913",
               "structureType": "REFERENCE"
             },
             {
