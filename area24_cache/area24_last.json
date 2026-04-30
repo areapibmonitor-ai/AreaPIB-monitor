@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-30T15:15:00.421Z",
+  "createdAt": "2026-04-30T17:00:00.424Z",
   "dynamicData": {
     "notams": [
       {
@@ -236,41 +236,6 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-05-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63912957351508337",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL080"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 942,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5756N02659E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 80
-        },
-        "schedule": "28 0800-1659, 29 30 0700-1659",
-        "text": "TEMPO RESTRICTED AREA EER2410B ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 5NM RADIUS CENTRED ON 575623N 0265848E (EERI\r\nAD). ALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO\r\nFLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE\r\nAND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +372 5309 4264. RESTRICTION DOES NOT APPLY TO\r\nSAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T16:59:00Z",
-          "start": "2026-04-28T08:00:00Z"
         }
       },
       {
@@ -1830,41 +1795,6 @@
         }
       },
       {
-        "id": "63909848127756417",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 616,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5933N02618E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01-16 0600-1700, 18-21 0600-1800, 24-30 0600-1700",
-        "text": "DANGER AREA EED8 RUTJA ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T17:00:00Z",
-          "start": "2026-04-01T06:00:00Z"
-        }
-      },
-      {
         "id": "63909591475652497",
         "locations": [
           "EETN"
@@ -2487,16 +2417,16 @@
       }
     ]
   },
-  "id": "5d49d947-15e8-4f09-96a3-734d0f7a9eb9",
-  "identifier": "BRIEFING-20260430-77",
+  "id": "ca6f9d78-e000-4d84-b610-e85cb86fc2e1",
+  "identifier": "BRIEFING-20260430-84",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2537,8 +2467,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T15:15:00Z",
-    "validityStart": "2026-04-30T15:15:00Z"
+    "validityEnd": "2026-05-01T17:00:00Z",
+    "validityStart": "2026-04-30T17:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2974,11 +2904,6 @@
             },
             {
               "link": false,
-              "referenceId": "63912957351508337",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63912950288093649",
               "structureType": "REFERENCE"
             },
@@ -3110,11 +3035,6 @@
             {
               "link": false,
               "referenceId": "63910028981764785",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63909848127756417",
               "structureType": "REFERENCE"
             },
             {
