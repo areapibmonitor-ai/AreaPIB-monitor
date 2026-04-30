@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-30T19:45:00.434Z",
+  "createdAt": "2026-04-30T21:00:00.441Z",
   "dynamicData": {
     "notams": [
       {
@@ -719,41 +719,6 @@
         }
       },
       {
-        "id": "63912549225244401",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 898,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 43
-        },
-        "schedule": "APR 28 1400-1959, APR 29-30 0500-1959",
-        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T19:59:00Z",
-          "start": "2026-04-28T14:00:00Z"
-        }
-      },
-      {
         "id": "63912530615530385",
         "levels": {
           "lower": "SFC",
@@ -856,40 +821,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-22T13:26:00Z"
-        }
-      },
-      {
-        "id": "63912288341412561",
-        "levels": {
-          "lower": "SFC",
-          "upper": "14700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 863,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ACTIVATED FOR GUN FIRING.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5326 4560.\r\nREF AIP SUP 05/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T20:59:00Z",
-          "start": "2026-04-27T03:00:00Z"
         }
       },
       {
@@ -2206,41 +2137,6 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEPU",
-        "id": "63913150784253121",
-        "number": 276,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "03",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-04-30T12:58:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EETN",
         "id": "63913174451948801",
         "number": 599,
@@ -2277,8 +2173,8 @@
       }
     ]
   },
-  "id": "80a05c6a-de03-4da4-855a-6994cbdfdcee",
-  "identifier": "BRIEFING-20260430-95",
+  "id": "42650ae9-4575-4955-b42c-31ab4b4f8ebe",
+  "identifier": "BRIEFING-20260430-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2327,8 +2223,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T19:45:00Z",
-    "validityStart": "2026-04-30T19:45:00Z"
+    "validityEnd": "2026-05-01T21:00:00Z",
+    "validityStart": "2026-04-30T21:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2519,11 +2415,6 @@
                 {
                   "link": false,
                   "referenceId": "63910358429599329",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913150784253121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2824,17 +2715,7 @@
             },
             {
               "link": false,
-              "referenceId": "63912549225244401",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63912530615530385",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912288341412561",
               "structureType": "REFERENCE"
             },
             {
