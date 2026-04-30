@@ -6790,3 +6790,19 @@ F)2200FT AMSL G)3100FT AMSL
 )
 [2026-04-30T09:54:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b3ff301c24sm13849856d6.6 - gsmtp')
 [2026-04-30T11:48:54Z] NO CHANGE in dynamicData.notams.
+[2026-04-30T13:15:23Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0740/26 was replaced with NOTAM A0966/26.
+AFTN: (A0966/26 NOTAMR A0740/26
+
+(A0966/26 NOTAMR A0740/26
+Q)EETT/FAHX/IV/NBO/A/000/999/5859N02250E005
+A)EEKA B)2604301208 C)2605251300
+E)SEASONAL BIRDS ACTIVITY AT AERODROME AND VICINITY OF AERODROME FROM
+SURFACE UP TO 1500FT AMSL.
+TYPES OF BIRDS - LARKS, DUCKS, LAPWINGS, CRANES, GEESE.
+MAIN MOVING DIRECTION NE - SW.
+)
+[2026-04-30T13:15:23Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8f940536e87sm443077185a.45 - gsmtp')

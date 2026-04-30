@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-04-30T11:45:00.459Z",
+  "createdAt": "2026-04-30T13:00:00.479Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63913147779312385",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 966,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 740,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AERODROME AND VICINITY OF AERODROME FROM\r\nSURFACE UP TO 1500FT AMSL.\r\nTYPES OF BIRDS - LARKS, DUCKS, LAPWINGS, CRANES, GEESE.\r\nMAIN MOVING DIRECTION NE - SW.",
+        "type": "R",
+        "validity": {
+          "end": "2026-05-25T13:00:00Z",
+          "est": true,
+          "start": "2026-04-30T12:08:00Z"
+        }
+      },
       {
         "id": "63913129150468017",
         "locations": [
@@ -1519,37 +1555,6 @@
         }
       },
       {
-        "id": "63910556151967665",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 740,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AERODROME AND VICINITY OF AERODROME\r\nFROM SURFACE UP TO 1500FT AMSL. TYPES OF BIRDS - LARKS, DUCKS,\r\nLAPWINGS, CRANES, GEESE. MAIN MOVING DIRECTION NE - SW.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T13:00:00Z",
-          "est": true,
-          "start": "2026-03-31T12:30:00Z"
-        }
-      },
-      {
         "id": "63910554069717633",
         "locations": [
           "EEEI"
@@ -2631,8 +2636,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63913129161190609",
-        "number": 275,
+        "id": "63913150784253121",
+        "number": 276,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2642,25 +2647,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-30T06:50:00Z"
+            "time": "2026-04-30T12:58:00Z"
           }
         ]
       },
@@ -2736,8 +2741,8 @@
       }
     ]
   },
-  "id": "8674b112-1586-4fc1-8909-8a6e16e0a2fd",
-  "identifier": "BRIEFING-20260430-63",
+  "id": "8825fe58-16e2-44b8-81ad-1aa9c32c2f6a",
+  "identifier": "BRIEFING-20260430-68",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2786,8 +2791,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T11:45:00Z",
-    "validityStart": "2026-04-30T11:45:00Z"
+    "validityEnd": "2026-05-01T13:00:00Z",
+    "validityStart": "2026-04-30T13:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2908,12 +2913,12 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63913129150468017",
+                  "referenceId": "63913147779312385",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63910556151967665",
+                  "referenceId": "63913129150468017",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2992,7 +2997,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913129161190609",
+                  "referenceId": "63913150784253121",
                   "structureType": "REFERENCE"
                 }
               ],
