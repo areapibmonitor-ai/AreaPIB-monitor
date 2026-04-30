@@ -1,7 +1,47 @@
 {
-  "createdAt": "2026-04-30T01:15:00.471Z",
+  "createdAt": "2026-04-30T05:00:00.482Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63913119455399857",
+        "levels": {
+          "lower": "SFC",
+          "upper": "450FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 961,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "referenceId": {
+          "number": 261,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPORARY DANGER AREA EED2519B ESTABLISHED DUE TO SLACKLINE\r\nBETWEEN KIVIOLI TUHAMAGI AND KIVIOLI UUS TUHAMAGI WITHIN: 592139N\r\n0265540E - 592145N 0265540E - 592146N 0265716E - 592139N 0265717E -\r\n592139N 0265540E. SLACKLINE ATTACHMENT POINTS ARE ILLUMINATED AT\r\nNIGHT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-30T10:00:00Z",
+          "est": true,
+          "start": "2026-04-30T04:12:00Z"
+        }
+      },
       {
         "id": "63913042046400833",
         "locations": [
@@ -1404,36 +1444,6 @@
         }
       },
       {
-        "id": "63910217759614897",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 717,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:\r\n17 1700-18 0500,\r\n21 1700-22 0500,\r\n25 1700-26 0500,\r\n29 1700-30 0500.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T05:00:00Z",
-          "start": "2026-04-17T17:00:00Z"
-        }
-      },
-      {
         "id": "63910210441656881",
         "levels": {
           "lower": "SFC",
@@ -2413,48 +2423,48 @@
           "est": true,
           "start": "2026-02-06T13:30:00Z"
         }
-      },
-      {
-        "id": "63905746645914209",
-        "levels": {
-          "lower": "SFC",
-          "upper": "450FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 261,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "text": "TEMPORARY DANGER AREA EED2519B ESTABLISHED DUE TO SLACKLINE\r\nBETWEEN KIVIOLI TUHAMAGI AND KIVIOLI UUS TUHAMAGI WITHIN: 592139N\r\n0265540E - 592145N 0265540E - 592146N 0265716E - 592139N 0265717E -\r\n592139N 0265540E. SLACKLINE ATTACHMENT POINTS ARE ILLUMINATED AT\r\nNIGHT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-03T20:00:00Z",
-          "est": true,
-          "start": "2026-02-03T20:30:00Z"
-        }
       }
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63913121563061233",
+        "number": 274,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-04-30T04:52:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63913088367457777",
-        "number": 592,
+        "id": "63913110568787233",
+        "number": 593,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2482,14 +2492,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-29T19:38:00Z"
+            "time": "2026-04-30T01:48:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63913093153816017",
-        "number": 367,
+        "id": "63913112028253233",
+        "number": 368,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2517,14 +2527,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-29T20:58:00Z"
+            "time": "2026-04-30T02:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d7d7788d-ff0f-4f93-8a63-82a5ee537039",
-  "identifier": "BRIEFING-20260430-6",
+  "id": "8c252b5b-13da-4d51-addd-108716ac7a51",
+  "identifier": "BRIEFING-20260430-35",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2573,8 +2583,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T01:15:00Z",
-    "validityStart": "2026-04-30T01:15:00Z"
+    "validityEnd": "2026-05-01T05:00:00Z",
+    "validityStart": "2026-04-30T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2761,6 +2771,11 @@
                   "link": false,
                   "referenceId": "63910358429599329",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63913121563061233",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2801,11 +2816,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910217759614897",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63909867536505009",
                   "structureType": "REFERENCE"
                 },
@@ -2841,7 +2851,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913088367457777",
+                  "referenceId": "63913110568787233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2908,7 +2918,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913093153816017",
+                  "referenceId": "63913112028253233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2998,6 +3008,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63913119455399857",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63912957351508337",
@@ -3171,11 +3186,6 @@
             {
               "link": true,
               "referenceId": "63908210701561121",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63905746645914209",
               "structureType": "REFERENCE"
             }
           ],

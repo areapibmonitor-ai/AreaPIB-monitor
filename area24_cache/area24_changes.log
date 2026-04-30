@@ -6668,3 +6668,24 @@ SUN 1300-1655.
 SERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.
 )
 [2026-04-30T01:25:08Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b3ff32891csm5069706d6.17 - gsmtp')
+[2026-04-30T05:01:25Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0717/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A0261/26 was replaced with NOTAM A0961/26.
+AFTN: (A0961/26 NOTAMR A0261/26
+
+(A0961/26 NOTAMR A0261/26
+Q)EETT/RDCA/IV/BO/W/000/005/5922N02656E001
+A)EETT B)2604300412 C)2607301000
+E)TEMPORARY DANGER AREA EED2519B ESTABLISHED DUE TO SLACKLINE
+BETWEEN KIVIOLI TUHAMAGI AND KIVIOLI UUS TUHAMAGI WITHIN: 592139N
+0265540E - 592145N 0265540E - 592146N 0265716E - 592139N 0265717E -
+592139N 0265540E. SLACKLINE ATTACHMENT POINTS ARE ILLUMINATED AT
+NIGHT.
+F)SFC G)450FT AMSL
+)
+[2026-04-30T05:01:25Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ed1c09b157sm5118697eec.22 - gsmtp')
