@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-30T07:30:00.466Z",
+  "createdAt": "2026-04-30T09:45:00.404Z",
   "dynamicData": {
     "notams": [
       {
@@ -446,6 +446,75 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-05-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63912619948407457",
+        "levels": {
+          "lower": "2200FT AMSL",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 916,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 22,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-01T13:59:00Z",
+          "start": "2026-05-01T08:00:00Z"
+        }
+      },
+      {
+        "id": "63912617661299601",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 915,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01 0800-1359, 02 0500-1859, 03 0400-1359, 05 06 0500-1659, 07\r\n0500-1459, 09 10 0500-1359, 12 13 0500-1659",
+        "text": "DANGER AREA EED32 KIKEPERA ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-13T16:59:00Z",
+          "start": "2026-05-01T08:00:00Z"
         }
       },
       {
@@ -2597,8 +2666,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63913110568787233",
-        "number": 593,
+        "id": "63913136010590113",
+        "number": 595,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2608,25 +2677,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-04-30T01:48:00Z"
+            "time": "2026-04-30T08:52:00Z"
           }
         ]
       },
@@ -2667,8 +2736,8 @@
       }
     ]
   },
-  "id": "6a66bdb5-4c0f-41ed-85ef-88d8d36ac07b",
-  "identifier": "BRIEFING-20260430-46",
+  "id": "947d6cec-1bf1-4709-b676-d81df49edc2b",
+  "identifier": "BRIEFING-20260430-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2717,8 +2786,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T07:30:00Z",
-    "validityStart": "2026-04-30T07:30:00Z"
+    "validityEnd": "2026-05-01T09:45:00Z",
+    "validityStart": "2026-04-30T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2903,6 +2972,16 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63912619948407457",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63912617661299601",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63911685387867777",
                   "structureType": "REFERENCE"
                 },
@@ -2990,7 +3069,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913110568787233",
+                  "referenceId": "63913136010590113",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3185,6 +3264,16 @@
             {
               "link": false,
               "referenceId": "63912639217722145",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63912619948407457",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63912617661299601",
               "structureType": "REFERENCE"
             },
             {
