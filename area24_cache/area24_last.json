@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-04-29T23:30:00.474Z",
+  "createdAt": "2026-04-30T01:15:00.471Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63913042046400833",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 956,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655,\r\nSAT 0630-1000,\r\nSUN 1300-1655.\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T23:59:00Z",
+          "start": "2026-05-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63913041732450721",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 955,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5819N02646E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 34,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2115-2200.\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.\r\nIF SERVICE IS NOT AVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T23:59:00Z",
+          "start": "2026-05-01T00:00:00Z"
+        }
+      },
       {
         "id": "63912957351508337",
         "levels": {
@@ -246,6 +306,36 @@
         "validity": {
           "end": "2026-05-01T17:00:00Z",
           "start": "2026-04-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63912623143305457",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 920,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-1300 2115-2200.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T23:59:00Z",
+          "start": "2026-05-01T00:00:00Z"
         }
       },
       {
@@ -2041,36 +2131,6 @@
         }
       },
       {
-        "id": "63908394073723681",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 509,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 04/2026 WEF 16 APR 2026.\r\n- ADDED NEW SIGNIFICANT POINTS\r\n- UPDATED LIST OF RESTRICTED AREAS\r\n- UPDATED LIST OF TEMPORARY SEGREGATED AREAS",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-29T23:59:00Z",
-          "start": "2026-04-16T00:00:00Z"
-        }
-      },
-      {
         "id": "63908231399072001",
         "locations": [
           "EETN"
@@ -2463,16 +2523,16 @@
       }
     ]
   },
-  "id": "a9d31de9-d429-4bcd-bc7b-e317ae96ec57",
-  "identifier": "BRIEFING-20260429-110",
+  "id": "d7d7788d-ff0f-4f93-8a63-82a5ee537039",
+  "identifier": "BRIEFING-20260430-6",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2513,8 +2573,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-04-30T23:30:00Z",
-    "validityStart": "2026-04-29T23:30:00Z"
+    "validityEnd": "2026-05-01T01:15:00Z",
+    "validityStart": "2026-04-30T01:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2650,6 +2710,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63913042046400833",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63912734799184817",
@@ -2788,6 +2853,16 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63913041732450721",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63912623143305457",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63912351326188609",
                   "structureType": "REFERENCE"
                 },
@@ -2848,6 +2923,16 @@
         {
           "content": [
             {
+              "link": true,
+              "referenceId": "63913042046400833",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63913041732450721",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63912472679757793",
               "structureType": "REFERENCE"
@@ -2885,11 +2970,6 @@
             {
               "link": true,
               "referenceId": "63908744510072817",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63908394073723681",
               "structureType": "REFERENCE"
             },
             {
