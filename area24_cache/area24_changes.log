@@ -6864,3 +6864,29 @@ Expired NOTAMs:
 - NOTAM A0705/26 expired and was removed from the PIB.
 - NOTAM A0707/26 expired and was removed from the PIB.
 [2026-05-01T00:09:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8fc2cd04ddesm4491485a.43 - gsmtp')
+[2026-05-01T04:32:02Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0918/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/085/5922N02549E007
+A)EETT B)2605020300 C)2605031959
+E)TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR GUN FIRING WITHIN:
+592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N
+0255744E - 591615N 0255524E - 591626N 0254707E -592114N 0253942E -
+592744N 0254210E.
+INFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326 4560.
+F)SFC G)8500FT AMSL
+)
+
+New NOTAM added:
+(A0919/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/102/5922N02549E007
+A)EETT B)2605020300 C)2605031959
+E)DANGER AREA EED14 TAPA 2 ACTIVTED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.
+F)SFC G)10200FT AMSL
+)
+[2026-05-01T04:32:02Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-43454951a95sm1682654fac.7 - gsmtp')
