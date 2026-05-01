@@ -6937,3 +6937,16 @@ INFO ABOUT ACT FROM TEL +372 5355 7238.
 F)SFC G)3200FT AMSL
 )
 [2026-05-01T07:15:18Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-434549540b2sm2035356fac.6 - gsmtp')
+[2026-05-01T09:13:44Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0932/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2605020700 C)2605311800
+D)02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800
+E)DANGER AREA EED5 KILTSI ACT.
+F)SFC G)2100FT AMSL
+)
+[2026-05-01T09:13:44Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8fc2cd04c68sm118154585a.46 - gsmtp')

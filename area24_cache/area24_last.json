@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-01T07:00:00.461Z",
+  "createdAt": "2026-05-01T09:00:00.448Z",
   "dynamicData": {
     "notams": [
       {
@@ -305,6 +305,41 @@
         "validity": {
           "end": "2026-05-16T19:00:00Z",
           "start": "2026-05-02T05:00:00Z"
+        }
+      },
+      {
+        "id": "63912867828809489",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 932,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800",
+        "text": "DANGER AREA EED5 KILTSI ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T18:00:00Z",
+          "start": "2026-05-02T07:00:00Z"
         }
       },
       {
@@ -2291,8 +2326,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63913195850262449",
-        "number": 600,
+        "id": "63913219688475937",
+        "number": 601,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2320,7 +2355,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-01T01:29:00Z"
+            "time": "2026-05-01T08:07:00Z"
           }
         ]
       },
@@ -2361,8 +2396,8 @@
       }
     ]
   },
-  "id": "e037a25c-76af-4662-97ee-82c43f771fac",
-  "identifier": "BRIEFING-20260501-44",
+  "id": "c397a1d6-a4da-4551-9563-fe055055a47f",
+  "identifier": "BRIEFING-20260501-52",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2411,8 +2446,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-02T07:00:00Z",
-    "validityStart": "2026-05-01T07:00:00Z"
+    "validityEnd": "2026-05-02T09:00:00Z",
+    "validityStart": "2026-05-01T09:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2689,7 +2724,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913195850262449",
+                  "referenceId": "63913219688475937",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2839,6 +2874,11 @@
             {
               "link": false,
               "referenceId": "63912883941115585",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
             {
