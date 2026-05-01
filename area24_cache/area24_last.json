@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-04-30T23:00:00.896Z",
+  "createdAt": "2026-05-01T00:00:03.563Z",
   "dynamicData": {
     "notams": [
       {
@@ -1404,96 +1404,6 @@
         }
       },
       {
-        "id": "63910196186490513",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 707,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5819N02646E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 34,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2115-2200.\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.\r\nIF SERVICE IS NOT AVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T23:59:00Z",
-          "start": "2026-04-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63910194628626449",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 705,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-1300 2115-2200.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T23:59:00Z",
-          "start": "2026-04-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63910128796616913",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 698,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON THU 0430-1655,\r\nTUE WED FRI 0430-0830 1000-1655,\r\nSAT 0630-1000,\r\nSUN 1300-1655.\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
-        "type": "N",
-        "validity": {
-          "end": "2026-04-30T23:59:00Z",
-          "start": "2026-04-01T00:00:00Z"
-        }
-      },
-      {
         "id": "63910121845065153",
         "locations": [
           "EEKE"
@@ -2208,16 +2118,16 @@
       }
     ]
   },
-  "id": "8423e5a1-436b-4f31-b97b-ecb4d88d6e59",
-  "identifier": "BRIEFING-20260430-108",
+  "id": "521db1d9-5632-43b8-9674-cf810a90c7df",
+  "identifier": "BRIEFING-20260501-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2258,8 +2168,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-01T23:00:00Z",
-    "validityStart": "2026-04-30T23:00:00Z"
+    "validityEnd": "2026-05-02T00:00:00Z",
+    "validityStart": "2026-05-01T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2403,11 +2313,6 @@
                 {
                   "link": false,
                   "referenceId": "63913042046400833",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63910128796616913",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2563,16 +2468,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910196186490513",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63910194628626449",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63908572352547569",
                   "structureType": "REFERENCE"
                 },
@@ -2625,16 +2520,6 @@
             {
               "link": true,
               "referenceId": "63912009825894017",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63910196186490513",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63910128796616913",
               "structureType": "REFERENCE"
             },
             {
