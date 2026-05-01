@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-01T12:30:00.488Z",
+  "createdAt": "2026-05-01T14:00:00.457Z",
   "dynamicData": {
     "notams": [
       {
@@ -611,40 +611,6 @@
         "validity": {
           "end": "2026-05-03T19:59:00Z",
           "start": "2026-05-02T03:00:00Z"
-        }
-      },
-      {
-        "id": "63912619948407457",
-        "levels": {
-          "lower": "2200FT AMSL",
-          "upper": "3100FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 916,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 22,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 31
-        },
-        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE\r\nLATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-01T13:59:00Z",
-          "start": "2026-05-01T08:00:00Z"
         }
       },
       {
@@ -2291,8 +2257,8 @@
     "snowtams": [
       {
         "aerodrome": "EEPU",
-        "id": "63913209716413841",
-        "number": 277,
+        "id": "63913236550683905",
+        "number": 278,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2320,7 +2286,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-01T05:21:00Z"
+            "time": "2026-05-01T12:47:00Z"
           }
         ]
       },
@@ -2358,46 +2324,11 @@
             "time": "2026-05-01T08:07:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63913211876361905",
-        "number": 373,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-01T05:56:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "e9f30348-80aa-4fee-a708-fc9f1c5b1f99",
-  "identifier": "BRIEFING-20260501-66",
+  "id": "e7fcc724-bc2e-40ae-8258-c222d88c15b6",
+  "identifier": "BRIEFING-20260501-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2446,8 +2377,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-02T12:30:00Z",
-    "validityStart": "2026-05-01T12:30:00Z"
+    "validityEnd": "2026-05-02T14:00:00Z",
+    "validityStart": "2026-05-01T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2627,11 +2558,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912619948407457",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63912617661299601",
                   "structureType": "REFERENCE"
                 },
@@ -2642,7 +2568,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913209716413841",
+                  "referenceId": "63913236550683905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2772,11 +2698,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913211876361905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2914,11 +2835,6 @@
             {
               "link": false,
               "referenceId": "63912621196559729",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63912619948407457",
               "structureType": "REFERENCE"
             },
             {
