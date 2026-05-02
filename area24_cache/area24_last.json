@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-02T12:00:00.477Z",
+  "createdAt": "2026-05-02T13:30:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -340,41 +340,6 @@
         "validity": {
           "end": "2026-05-31T18:00:00Z",
           "start": "2026-05-02T07:00:00Z"
-        }
-      },
-      {
-        "id": "63912866891491249",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AGL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 931,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02425E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 18
-        },
-        "schedule": "DAILY 0500-1330",
-        "text": "TEMPO RESTRICTED AREA EER26143UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT FLIGHTS WITHIN: 582313N 0241735E - 582330N 0242810E -\r\n581838N 0243317E - 581939N 0241638E - 582313N 0241735E. INFORMATION\r\nABOUT ACTIVATION AVAILABLE FROM PARNU AFIS +372 447 5008.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-02T13:30:00Z",
-          "start": "2026-04-28T05:00:00Z"
         }
       },
       {
@@ -2049,6 +2014,41 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63913323433715009",
+        "number": 279,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-05-02T12:57:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
         "id": "63913305263892993",
         "number": 605,
@@ -2085,8 +2085,8 @@
       }
     ]
   },
-  "id": "06e04a4d-2f85-4683-8eb6-b526e896eaf8",
-  "identifier": "BRIEFING-20260502-64",
+  "id": "a72b9d8b-89cc-4cb8-b2d9-edb1dc6d64ce",
+  "identifier": "BRIEFING-20260502-70",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2135,8 +2135,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-03T12:00:00Z",
-    "validityStart": "2026-05-02T12:00:00Z"
+    "validityEnd": "2026-05-03T13:30:00Z",
+    "validityStart": "2026-05-02T13:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2311,17 +2311,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63912866891491249",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63912617661299601",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63910358429599329",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63913323433715009",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2558,11 +2558,6 @@
             {
               "link": false,
               "referenceId": "63912867828809489",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63912866891491249",
               "structureType": "REFERENCE"
             },
             {
