@@ -6980,3 +6980,25 @@ Expired NOTAMs:
 [2026-05-02T00:01:34Z] NO CHANGE in dynamicData.notams.
 [2026-05-02T03:46:26Z] NO CHANGE in dynamicData.notams.
 [2026-05-02T05:57:31Z] NO CHANGE in dynamicData.notams.
+[2026-05-02T07:57:17Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0910/26 expired and was removed from the PIB.
+- NOTAM A0911/26 expired and was removed from the PIB.
+- NOTAM A0912/26 expired and was removed from the PIB.
+- NOTAM A0913/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A0923/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/019/5816N02656E001
+A)EETU B)2605030600 C)2605140959
+D)03 0600-1559, 04 0700-1859, 05 0500-1659, 06 0600-2059, 07-10
+0500-1659, 11 0700-1659, 12 0500-1859, 13 0500-1659, 14 0500-0959
+E)DANGER AREA EED2 UNIKULA ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM: +372 525 8504.
+AREA DEACTIVATION IS POSSIBLE BY ATS.
+F)SFC G)1900FT AMSL
+)
+[2026-05-02T07:57:17Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-12df828849dsm5840171c88.5 - gsmtp')
