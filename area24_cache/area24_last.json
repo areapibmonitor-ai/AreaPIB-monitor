@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-02T23:45:00.44Z",
+  "createdAt": "2026-05-03T04:00:00.426Z",
   "dynamicData": {
     "notams": [
       {
@@ -270,41 +270,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-28T05:23:00Z"
-        }
-      },
-      {
-        "id": "63912883941115585",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 939,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "schedule": "02 09 16 0500-1900",
-        "text": "DANGER AREA EED36 EIVERE ACT.\r\nINFO ABOUT ACT FROM TEL +372 5355 7238.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-16T19:00:00Z",
-          "start": "2026-05-02T05:00:00Z"
         }
       },
       {
@@ -2045,8 +2010,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913348925517329",
-        "number": 607,
+        "id": "63913365774824049",
+        "number": 608,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2074,22 +2039,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-02T20:00:00Z"
+            "time": "2026-05-03T00:41:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d3a0c7e8-318b-4c29-b2d8-350d1125f9da",
-  "identifier": "BRIEFING-20260502-111",
+  "id": "aa5fba71-3801-4b89-8c86-46fa974386e2",
+  "identifier": "BRIEFING-20260503-27",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2130,8 +2095,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-03T23:45:00Z",
-    "validityStart": "2026-05-02T23:45:00Z"
+    "validityEnd": "2026-05-04T04:00:00Z",
+    "validityStart": "2026-05-03T04:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2398,7 +2363,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913348925517329",
+                  "referenceId": "63913365774824049",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2543,11 +2508,6 @@
             {
               "link": false,
               "referenceId": "63912950288093649",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912883941115585",
               "structureType": "REFERENCE"
             },
             {
