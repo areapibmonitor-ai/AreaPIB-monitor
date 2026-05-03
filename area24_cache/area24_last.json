@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-03T19:30:00.415Z",
+  "createdAt": "2026-05-03T20:15:00.458Z",
   "dynamicData": {
     "notams": [
       {
@@ -753,74 +753,6 @@
         "validity": {
           "end": "2026-05-31T23:59:00Z",
           "start": "2026-05-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63912622487723697",
-        "levels": {
-          "lower": "SFC",
-          "upper": "10200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 919,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 102
-        },
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVTED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-03T19:59:00Z",
-          "start": "2026-05-02T03:00:00Z"
-        }
-      },
-      {
-        "id": "63912621196559729",
-        "levels": {
-          "lower": "SFC",
-          "upper": "8500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 918,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 85
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR GUN FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E -592114N 0253942E -\r\n592744N 0254210E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-03T19:59:00Z",
-          "start": "2026-05-02T03:00:00Z"
         }
       },
       {
@@ -2323,8 +2255,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913413439269633",
-        "number": 612,
+        "id": "63913435499906289",
+        "number": 613,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2352,14 +2284,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-03T13:56:00Z"
+            "time": "2026-05-03T20:03:00Z"
           }
         ]
       }
     ]
   },
-  "id": "f6f77cb7-d4c8-40b1-876e-b2bd6fc226db",
-  "identifier": "BRIEFING-20260503-94",
+  "id": "09f3eb7e-6457-4103-9f85-67ded3350261",
+  "identifier": "BRIEFING-20260503-97",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2408,8 +2340,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-04T19:30:00Z",
-    "validityStart": "2026-05-03T19:30:00Z"
+    "validityEnd": "2026-05-04T20:15:00Z",
+    "validityStart": "2026-05-03T20:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2676,7 +2608,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913413439269633",
+                  "referenceId": "63913435499906289",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2886,16 +2818,6 @@
             {
               "link": true,
               "referenceId": "63912626909833153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912622487723697",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912621196559729",
               "structureType": "REFERENCE"
             },
             {
