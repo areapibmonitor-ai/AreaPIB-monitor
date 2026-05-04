@@ -1,7 +1,69 @@
 {
-  "createdAt": "2026-05-04T13:00:00.745Z",
+  "createdAt": "2026-05-04T15:15:00.405Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63913502471269905",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 999,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 26 U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-05T14:00:00Z",
+          "est": true,
+          "start": "2026-05-04T14:45:00Z"
+        }
+      },
+      {
+        "id": "63913496480193681",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 998,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 3000FT AGL.\r\nTYPES OF BIRDS - SWANS, GEESE AND CRANES.\r\nMAX FLOCK SIZE - 1000 BIRDS.\r\nBIRD WEIGHT - UP TO 8000 GRAMS.\r\nMAIN MOVING DIRECTION - N, E.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-25T14:00:00Z",
+          "est": true,
+          "start": "2026-05-04T13:00:00Z"
+        }
+      },
       {
         "id": "63913496091046321",
         "locations": [
@@ -2335,44 +2397,9 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEPU",
-        "id": "63913468315713265",
-        "number": 280,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "03",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-04T05:11:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EETN",
-        "id": "63913479554294449",
-        "number": 615,
+        "id": "63913501285535473",
+        "number": 616,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2400,7 +2427,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-04T08:18:00Z"
+            "time": "2026-05-04T14:20:00Z"
           }
         ]
       },
@@ -2441,8 +2468,8 @@
       }
     ]
   },
-  "id": "aad0c16a-d3ed-4e22-bd80-d8a56d16ca9e",
-  "identifier": "BRIEFING-20260504-68",
+  "id": "ae5bbde8-662b-4860-b411-79f084125cb5",
+  "identifier": "BRIEFING-20260504-77",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2491,8 +2518,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-05T13:00:00Z",
-    "validityStart": "2026-05-04T13:00:00Z"
+    "validityEnd": "2026-05-05T15:15:00Z",
+    "validityStart": "2026-05-04T15:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2679,11 +2706,6 @@
                   "link": false,
                   "referenceId": "63912617661299601",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913468315713265",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2702,6 +2724,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63913496480193681",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63913496091046321",
@@ -2769,7 +2796,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913479554294449",
+                  "referenceId": "63913501285535473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2779,6 +2806,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63913502471269905",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63913041732450721",

@@ -7361,3 +7361,25 @@ MAX FLOCK SIZE - 200 BIRDS.
 Other removals:
 - NOTAM A0832/26 was removed from the PIB.
 [2026-05-04T13:11:58Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-510416dfc75sm110242161cf.3 - gsmtp')
+[2026-05-04T15:24:45Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0998/26 NOTAMN
+Q)EETT/FAHX/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2605041300 C)2605251400
+E)SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 3000FT AGL.
+TYPES OF BIRDS - SWANS, GEESE AND CRANES.
+MAX FLOCK SIZE - 1000 BIRDS.
+BIRD WEIGHT - UP TO 8000 GRAMS.
+MAIN MOVING DIRECTION - N, E.
+)
+
+New NOTAM added:
+(A0999/26 NOTAMN
+Q)EETT/ICAS/I/NBO/A/000/999/5818N02641E005
+A)EETU B)2605041445 C)2605051400
+E)ILS RWY 26 U/S.
+)
+[2026-05-04T15:24:45Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ee3c24e738sm16009944eec.31 - gsmtp')
