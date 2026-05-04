@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-04T04:00:00.439Z",
+  "createdAt": "2026-05-04T07:15:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -888,6 +888,41 @@
         "validity": {
           "end": "2026-05-31T15:00:00Z",
           "start": "2026-05-01T06:00:00Z"
+        }
+      },
+      {
+        "id": "63912529287516129",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 891,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "05-07 11-29 0700-2000",
+        "text": "DANGER AREA EED25 MURU ACTIVATED",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-29T20:00:00Z",
+          "start": "2026-05-05T07:00:00Z"
         }
       },
       {
@@ -2184,6 +2219,41 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEPU",
+        "id": "63913468315713265",
+        "number": 280,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-05-04T05:11:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
         "id": "63913456567133905",
         "number": 614,
@@ -2220,8 +2290,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63913457343608209",
-        "number": 378,
+        "id": "63913471560400673",
+        "number": 379,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2249,14 +2319,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-04T02:06:00Z"
+            "time": "2026-05-04T06:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "2fb9fe5f-08d0-4b98-8df9-e3a6aa204437",
-  "identifier": "BRIEFING-20260504-27",
+  "id": "501e4349-036a-4de8-b5b1-cb4695833cff",
+  "identifier": "BRIEFING-20260504-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2305,8 +2375,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-05T04:00:00Z",
-    "validityStart": "2026-05-04T04:00:00Z"
+    "validityEnd": "2026-05-05T07:15:00Z",
+    "validityStart": "2026-05-04T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2488,6 +2558,11 @@
                   "link": false,
                   "referenceId": "63910358429599329",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63913468315713265",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145429",
@@ -2630,7 +2705,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913457343608209",
+                  "referenceId": "63913471560400673",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2803,6 +2878,11 @@
             {
               "link": false,
               "referenceId": "63912530615530385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912529287516129",
               "structureType": "REFERENCE"
             },
             {
