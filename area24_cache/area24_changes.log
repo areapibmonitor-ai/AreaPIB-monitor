@@ -7299,3 +7299,20 @@ E)CEILOMETER RWY 03 U/S.
 Other removals:
 - NOTAM A0723/26 was removed from the PIB.
 [2026-05-04T09:38:36Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ee38d79eb9sm20616207eec.8 - gsmtp')
+[2026-05-04T11:28:53Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0921/26 was replaced with NOTAM A0993/26.
+AFTN: (A0993/26 NOTAMR A0921/26
+
+(A0993/26 NOTAMR A0921/26
+Q)EETT/RDCA/IV/BO/AW/000/021/5919N02412E003
+A)EEEI B)2605040955 C)2605141759
+D)04 0955-1359, 05 0500-1459, 06 0500-1359, 07 08 0500-1659, 11
+0500-13 2059, 14 0500-1759
+E)DANGER AREA EED16 KLOOGA 1 ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5332 6746.
+F)SFC G)2100FT AMSL
+)
+[2026-05-04T11:28:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2ee3bf6812asm15159645eec.28 - gsmtp')
