@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-04T23:30:00.455Z",
+  "createdAt": "2026-05-05T01:15:00.424Z",
   "dynamicData": {
     "notams": [
       {
@@ -930,6 +930,41 @@
         "validity": {
           "end": "2026-05-13T17:59:00Z",
           "start": "2026-05-04T05:00:00Z"
+        }
+      },
+      {
+        "id": "63912867828809489",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 932,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800",
+        "text": "DANGER AREA EED5 KILTSI ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T18:00:00Z",
+          "start": "2026-05-02T07:00:00Z"
         }
       },
       {
@@ -2437,16 +2472,16 @@
       }
     ]
   },
-  "id": "6f3fc929-d6c1-4f32-a87a-99d318af1493",
-  "identifier": "BRIEFING-20260504-110",
+  "id": "eadad83e-6edc-45b5-a2cb-91d348ca8719",
+  "identifier": "BRIEFING-20260505-6",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2487,8 +2522,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-05T23:30:00Z",
-    "validityStart": "2026-05-04T23:30:00Z"
+    "validityEnd": "2026-05-06T01:15:00Z",
+    "validityStart": "2026-05-05T01:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2975,6 +3010,11 @@
             {
               "link": false,
               "referenceId": "63912877336956561",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
             {
