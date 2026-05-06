@@ -7504,3 +7504,26 @@ E)AREA 3 OBSTACLE ID 2954 ANTENNA COMPLETELY WITHDRAWN.
 REF AIP EEKA AD 2.10
 )
 [2026-05-06T09:13:12Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2f56fd909e3sm2521111eec.20 - gsmtp')
+[2026-05-06T11:22:47Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0302/26 was replaced with NOTAM A1008/26.
+AFTN: (A1008/26 NOTAMR A0302/26
+
+(A1008/26 NOTAMR A0302/26
+Q)EETT/OBCE/IV/M/A/000/999/5925N02450E005
+A)EETN B)2605060945 C)2608061230
+E)GROUP OF CRANES ERECTED IN AREA 2:
+1. AT PSN 592523.9N 0244738.8E. ELEV 243FT AMSL (HEIGHT 113FT AGL).
+NOT LIGHTED.
+2. AT PSN 592523.1N 0244747.1E. ELEV 279FT AMSL (HEIGHT 140FT AGL).
+NOT LIGHTED.
+3. AT PSN 592523.1N 0244752.4E. ELEV 320FT AMSL (HEIGHT 178FT AGL).
+LIGHTED.
+4. AT PSN 592523.2N 0244757.2E. ELEV 283FT AMSL (HEIGHT 150FT AGL).
+NOT LIGHTED.
+5. AT PSN 592523.1N 0244810.7E. ELEV 286FT AMSL (HEIGHT 140FT AGL).
+NOT LIGHTED.
+)
+[2026-05-06T11:22:47Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2f56d8c45acsm3228809eec.13 - gsmtp')
