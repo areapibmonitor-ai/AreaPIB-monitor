@@ -1,7 +1,72 @@
 {
-  "createdAt": "2026-05-06T04:00:00.694Z",
+  "createdAt": "2026-05-06T09:00:00.448Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63913646413635953",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1006,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AW",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AREA 3 OBSTACLE ID 2954 ANTENNA COMPLETELY WITHDRAWN.\r\nREF AIP EEKA AD 2.10",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-05-06T06:30:00Z"
+        }
+      },
+      {
+        "id": "63913646081902081",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1005,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "schedule": "06 0901-1300, 07 0600-1020",
+        "text": "RESTRICTED AREA EER15E ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n5627 7960.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-07T10:20:00Z",
+          "start": "2026-05-06T09:01:00Z"
+        }
+      },
       {
         "id": "63913585944409745",
         "levels": {
@@ -2466,8 +2531,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913629395159441",
-        "number": 624,
+        "id": "63913650796895649",
+        "number": 625,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2495,14 +2560,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-06T01:55:00Z"
+            "time": "2026-05-06T07:51:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63913630417640833",
-        "number": 385,
+        "id": "63913644232224289",
+        "number": 386,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2530,14 +2595,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-06T02:11:00Z"
+            "time": "2026-05-06T05:59:00Z"
           }
         ]
       }
     ]
   },
-  "id": "827cd46a-1c6b-4766-b405-cffb7d860e35",
-  "identifier": "BRIEFING-20260506-27",
+  "id": "da247fa4-05f1-4f80-9db8-c7cafd700999",
+  "identifier": "BRIEFING-20260506-52",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2586,8 +2651,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-07T04:00:00Z",
-    "validityStart": "2026-05-06T04:00:00Z"
+    "validityEnd": "2026-05-07T09:00:00Z",
+    "validityStart": "2026-05-06T09:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2706,6 +2771,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63913646413635953",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63913560283236337",
@@ -2869,7 +2939,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913629395159441",
+                  "referenceId": "63913650796895649",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2926,7 +2996,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913630417640833",
+                  "referenceId": "63913644232224289",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3006,6 +3076,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63913646081902081",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63913585944409745",
