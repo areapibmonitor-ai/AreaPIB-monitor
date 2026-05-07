@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-07T05:00:00.523Z",
+  "createdAt": "2026-05-07T07:45:00.441Z",
   "dynamicData": {
     "notams": [
       {
@@ -833,6 +833,41 @@
         }
       },
       {
+        "id": "63913061045383585",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 960,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02655E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 11
+        },
+        "schedule": "08 0500-1759, 09 0500-1459, 12 13 0500-1759",
+        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-13T17:59:00Z",
+          "start": "2026-05-08T05:00:00Z"
+        }
+      },
+      {
         "id": "63913060595965185",
         "levels": {
           "lower": "SFC",
@@ -1437,6 +1472,41 @@
         "validity": {
           "perm": true,
           "start": "2026-04-22T13:26:00Z"
+        }
+      },
+      {
+        "id": "63912377745705057",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 874,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "02 0600-1500, 03 0500-1700, 08 0500-17 2100, 18 0500-1800, 23\r\n0300-24 1100",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-24T11:00:00Z",
+          "start": "2026-05-02T06:00:00Z"
         }
       },
       {
@@ -2537,8 +2607,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63913716799363617",
-        "number": 389,
+        "id": "63913730419447025",
+        "number": 390,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2548,32 +2618,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-07T02:10:00Z"
+            "time": "2026-05-07T05:59:00Z"
           }
         ]
       }
     ]
   },
-  "id": "82fd910a-00e2-4c00-96c6-a1c1f47b925d",
-  "identifier": "BRIEFING-20260507-35",
+  "id": "32d6bb81-ad6a-4e21-a191-beaa98df126e",
+  "identifier": "BRIEFING-20260507-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2622,8 +2692,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-08T05:00:00Z",
-    "validityStart": "2026-05-07T05:00:00Z"
+    "validityEnd": "2026-05-08T07:45:00Z",
+    "validityStart": "2026-05-07T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2967,7 +3037,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913716799363617",
+                  "referenceId": "63913730419447025",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3104,6 +3174,11 @@
             },
             {
               "link": false,
+              "referenceId": "63913061045383585",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63913060595965185",
               "structureType": "REFERENCE"
             },
@@ -3160,6 +3235,11 @@
             {
               "link": false,
               "referenceId": "63912529287516129",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912377745705057",
               "structureType": "REFERENCE"
             },
             {
