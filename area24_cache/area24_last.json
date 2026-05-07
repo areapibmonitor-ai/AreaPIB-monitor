@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-07T07:45:00.441Z",
+  "createdAt": "2026-05-07T10:30:00.448Z",
   "dynamicData": {
     "notams": [
       {
@@ -66,41 +66,6 @@
         "validity": {
           "perm": true,
           "start": "2026-05-06T06:30:00Z"
-        }
-      },
-      {
-        "id": "63913646081902081",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1005,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "schedule": "06 0901-1300, 07 0600-1020",
-        "text": "RESTRICTED AREA EER15E ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n5627 7960.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-07T10:20:00Z",
-          "start": "2026-05-06T09:01:00Z"
         }
       },
       {
@@ -2572,8 +2537,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913715283773553",
-        "number": 628,
+        "id": "63913738028839569",
+        "number": 629,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2601,7 +2566,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-07T01:47:00Z"
+            "time": "2026-05-07T08:06:00Z"
           }
         ]
       },
@@ -2642,8 +2607,8 @@
       }
     ]
   },
-  "id": "32d6bb81-ad6a-4e21-a191-beaa98df126e",
-  "identifier": "BRIEFING-20260507-47",
+  "id": "fdf8ed03-581f-4207-9425-be3f6eaa53ec",
+  "identifier": "BRIEFING-20260507-58",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2692,8 +2657,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-08T07:45:00Z",
-    "validityStart": "2026-05-07T07:45:00Z"
+    "validityEnd": "2026-05-08T10:30:00Z",
+    "validityStart": "2026-05-07T10:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2980,7 +2945,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913715283773553",
+                  "referenceId": "63913738028839569",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3117,11 +3082,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63913646081902081",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63913585944409745",
