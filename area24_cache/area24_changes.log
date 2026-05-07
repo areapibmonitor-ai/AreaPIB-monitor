@@ -7573,3 +7573,37 @@ URL: https://aim.eans.ee/web/notampib/area24.json
 Expired NOTAMs:
 - NOTAM A1005/26 expired and was removed from the PIB.
 [2026-05-07T10:32:30Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2f56cec593dsm7965691eec.6 - gsmtp')
+[2026-05-07T12:19:34Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0845/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A0915/26 was replaced with NOTAM A1012/26.
+AFTN: (A1012/26 NOTAMR A0915/26
+
+(A1012/26 NOTAMR A0915/26
+Q)EETT/RDCA/IV/BO/AW/000/022/5819N02448E002
+A)EEPU B)2605071142 C)2605171359
+D)07 1142-1459, 09 10 0500-1359, 11 0500-17 1359
+E)DANGER AREA EED32 KIKEPERA ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5303 2206.
+F)SFC G)2200FT AMSL
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A0809/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/010/5826N02635E003
+A)EETU B)2605081200 C)2605091300
+E)TEMPO RESTRICTED AREA EER2621 ESTABLISHED DUE TO UNMANNED AIRCRAFT
+ACTIVITY WITHIN
+582735N0263112E - 582736N0263824E - 582422N0263826E - 582421N0263115E
+- 582735N0263112E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5564
+4000.
+F)SFC G)1000FT AMSL
+)
+[2026-05-07T12:19:34Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-131f9679dc4sm8305089c88.3 - gsmtp')
