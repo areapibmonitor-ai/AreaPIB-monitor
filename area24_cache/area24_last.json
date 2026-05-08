@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-05-08T08:00:00.437Z",
+  "createdAt": "2026-05-08T09:45:00.452Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63913816543597617",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1020,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MH",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 24 ARRESTING GEAR BAK-14 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-08T09:00:00Z",
-          "start": "2026-05-08T06:00:00Z"
-        }
-      },
       {
         "id": "63913751036168545",
         "levels": {
@@ -2570,8 +2540,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913802539803841",
-        "number": 632,
+        "id": "63913826557065217",
+        "number": 633,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2599,7 +2569,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-08T02:01:00Z"
+            "time": "2026-05-08T08:35:00Z"
           }
         ]
       },
@@ -2640,8 +2610,8 @@
       }
     ]
   },
-  "id": "6742f1d0-eec1-4169-a621-23f2e8e4c75e",
-  "identifier": "BRIEFING-20260508-48",
+  "id": "2f4efabd-864e-458f-832a-4d53daea5f35",
+  "identifier": "BRIEFING-20260508-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2690,8 +2660,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-09T08:00:00Z",
-    "validityStart": "2026-05-08T08:00:00Z"
+    "validityEnd": "2026-05-09T09:45:00Z",
+    "validityStart": "2026-05-08T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2773,11 +2743,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63913816543597617",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63913494221888497",
@@ -2983,7 +2948,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913802539803841",
+                  "referenceId": "63913826557065217",
                   "structureType": "REFERENCE"
                 }
               ],
