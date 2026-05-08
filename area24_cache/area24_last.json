@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-07T23:30:00.509Z",
+  "createdAt": "2026-05-08T01:15:00.423Z",
   "dynamicData": {
     "notams": [
       {
@@ -146,6 +146,40 @@
         "validity": {
           "end": "2026-05-13T17:59:00Z",
           "start": "2026-05-05T13:52:00Z"
+        }
+      },
+      {
+        "id": "63907014250126289",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1003,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5921N02806E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 43
+        },
+        "text": "TEMPO RESTRICTED AREA EER2626 ESTABLISHED DUE TO POLICE AND BORDER\r\nGUARD OPERATIONS WI: 592518N 0280810E - THEN ALONG THE TERRITORY\r\nDIVIDING LINE BETWEEN ESTONIA AND RUSSIA TO 591726N 0280251E -\r\n592013N 0280051E - 592109N 0280201E - 592116N 0280454E - 592212N\r\n0280450E - 592218N 0280759E - 592342N 0280914E - 592400N 0280813E -\r\n592508N 0280757E - 592518N 0280810E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL: +372 5770 4391.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-09T20:00:00Z",
+          "start": "2026-05-09T01:00:00Z"
         }
       },
       {
@@ -449,76 +483,6 @@
           "end": "2026-06-04T12:00:00Z",
           "est": true,
           "start": "2026-05-04T07:35:00Z"
-        }
-      },
-      {
-        "id": "63913476380124833",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 982,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02717E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "schedule": "05-07 11-15 18-22 25-29 0500-1400",
-        "text": "TEMPO RESTRICTED AREA EER2575UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 6.5KM RADIUS CENTRED ON 574900N 0271700E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 512\r\n3386.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-29T14:00:00Z",
-          "start": "2026-05-05T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913476116196593",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 981,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5748N02652E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "schedule": "05-07 11-15 18-22 25-29 0500-1400",
-        "text": "TEMPO RESTRICTED AREA EER2589UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 8KM RADIUS CENTRED ON 574817N 0265154E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 512\r\n3386.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-29T14:00:00Z",
-          "start": "2026-05-05T05:00:00Z"
         }
       },
       {
@@ -1070,6 +1034,41 @@
         }
       },
       {
+        "id": "63912883941115585",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 939,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "02 09 16 0500-1900",
+        "text": "DANGER AREA EED36 EIVERE ACT.\r\nINFO ABOUT ACT FROM TEL +372 5355 7238.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-16T19:00:00Z",
+          "start": "2026-05-02T05:00:00Z"
+        }
+      },
+      {
         "id": "63912867828809489",
         "levels": {
           "lower": "SFC",
@@ -1337,41 +1336,6 @@
         "validity": {
           "end": "2026-05-31T15:00:00Z",
           "start": "2026-05-01T06:00:00Z"
-        }
-      },
-      {
-        "id": "63912529287516129",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 891,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "05-07 11-29 0700-2000",
-        "text": "DANGER AREA EED25 MURU ACTIVATED",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-29T20:00:00Z",
-          "start": "2026-05-05T07:00:00Z"
         }
       },
       {
@@ -2612,16 +2576,16 @@
       }
     ]
   },
-  "id": "699e12fa-367b-4127-812f-91f1904c58e0",
-  "identifier": "BRIEFING-20260507-111",
+  "id": "2ece1600-0845-4134-88bc-fcd6df491383",
+  "identifier": "BRIEFING-20260508-6",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2662,8 +2626,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-08T23:30:00Z",
-    "validityStart": "2026-05-07T23:30:00Z"
+    "validityEnd": "2026-05-09T01:15:00Z",
+    "validityStart": "2026-05-08T01:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3103,18 +3067,13 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63907014250126289",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63913485325016289",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913476380124833",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913476116196593",
               "structureType": "REFERENCE"
             },
             {
@@ -3174,6 +3133,11 @@
             },
             {
               "link": false,
+              "referenceId": "63912883941115585",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
@@ -3200,11 +3164,6 @@
             {
               "link": false,
               "referenceId": "63912530615530385",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912529287516129",
               "structureType": "REFERENCE"
             },
             {
