@@ -7679,3 +7679,23 @@ URL: https://aim.eans.ee/web/notampib/area24.json
 Expired NOTAMs:
 - NOTAM A1020/26 expired and was removed from the PIB.
 [2026-05-08T09:57:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-5148e7bef56sm12214141cf.15 - gsmtp')
+[2026-05-08T11:40:31Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0987/26 was replaced with NOTAM A1030/26.
+AFTN: (A1030/26 NOTAMR A0987/26
+
+(A1030/26 NOTAMR A0987/26
+Q)EETT/FCAS/IV/M/A/000/999/5825N02428E005
+A)EEPU B)2605081043 C)2605121200
+E)CEILOMETER RWY 03 U/S.
+)
+
+
+Other removals:
+- NOTAM A0969/26 was removed from the PIB.
+- NOTAM A0970/26 was removed from the PIB.
+- NOTAM A0971/26 was removed from the PIB.
+- NOTAM A0972/26 was removed from the PIB.
+[2026-05-08T11:40:31Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8bf39c7e30bsm15139186d6.25 - gsmtp')
