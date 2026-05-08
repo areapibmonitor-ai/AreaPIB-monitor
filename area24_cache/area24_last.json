@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-08T15:00:01.976Z",
+  "createdAt": "2026-05-08T16:30:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -1480,6 +1480,40 @@
         }
       },
       {
+        "id": "63912264329238705",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 857,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5926N02445E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 6
+        },
+        "text": "TEMPO RESTRICTED AREA EER2534 ESTABLISHED DUE TO EUROPE DAY PUBLIC\r\nEVENT WI: 2.5NM RADIUS CENTERED ON 592559N 0244445E.\r\nUNMANNED AIRCRAFT IS NOT PERMITTED TO ENTER INTO ACTIVATED AREA\r\nWITHOUT PERMISSION FROM POLICE AND BORDER GUARD BOARD. PERMISSION\r\nSHALL BE OBTAINED FROM: TEL +372 5342 4591.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-09T19:00:00Z",
+          "start": "2026-05-09T15:00:00Z"
+        }
+      },
+      {
         "id": "63912009825894017",
         "locations": [
           "EETU"
@@ -2441,16 +2475,16 @@
       }
     ]
   },
-  "id": "9171be31-461e-48a1-a3c5-1340253f4270",
-  "identifier": "BRIEFING-20260508-76",
+  "id": "d82c01b5-65f5-4079-b683-f113bc96b427",
+  "identifier": "BRIEFING-20260508-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2491,8 +2525,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-09T15:00:00Z",
-    "validityStart": "2026-05-08T15:00:00Z"
+    "validityEnd": "2026-05-09T16:30:00Z",
+    "validityStart": "2026-05-08T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2735,6 +2769,11 @@
                 {
                   "link": false,
                   "referenceId": "63912620665167073",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63912264329238705",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3029,6 +3068,11 @@
             {
               "link": false,
               "referenceId": "63912268416048193",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63912264329238705",
               "structureType": "REFERENCE"
             },
             {
