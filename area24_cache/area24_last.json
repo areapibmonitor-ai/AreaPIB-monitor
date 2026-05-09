@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-09T18:30:00.432Z",
+  "createdAt": "2026-05-09T19:30:00.408Z",
   "dynamicData": {
     "notams": [
       {
@@ -1406,40 +1406,6 @@
         }
       },
       {
-        "id": "63912264329238705",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 857,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5926N02445E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "text": "TEMPO RESTRICTED AREA EER2534 ESTABLISHED DUE TO EUROPE DAY PUBLIC\r\nEVENT WI: 2.5NM RADIUS CENTERED ON 592559N 0244445E.\r\nUNMANNED AIRCRAFT IS NOT PERMITTED TO ENTER INTO ACTIVATED AREA\r\nWITHOUT PERMISSION FROM POLICE AND BORDER GUARD BOARD. PERMISSION\r\nSHALL BE OBTAINED FROM: TEL +372 5342 4591.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-09T19:00:00Z",
-          "start": "2026-05-09T15:00:00Z"
-        }
-      },
-      {
         "id": "63912009825894017",
         "locations": [
           "EETU"
@@ -2332,8 +2298,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63913932516524689",
-        "number": 638,
+        "id": "63913951787680545",
+        "number": 639,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2361,14 +2327,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-09T14:07:00Z"
+            "time": "2026-05-09T19:28:00Z"
           }
         ]
       }
     ]
   },
-  "id": "39d7cfa8-d0b2-43bb-ba7a-637bea34b16a",
-  "identifier": "BRIEFING-20260509-91",
+  "id": "3b352324-8685-40ca-8cce-d79944feb668",
+  "identifier": "BRIEFING-20260509-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2417,8 +2383,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-10T18:30:00Z",
-    "validityStart": "2026-05-09T18:30:00Z"
+    "validityEnd": "2026-05-10T19:30:00Z",
+    "validityStart": "2026-05-09T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2660,11 +2626,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63912264329238705",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63911339040541905",
                   "structureType": "REFERENCE"
                 },
@@ -2705,7 +2666,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913932516524689",
+                  "referenceId": "63913951787680545",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2940,11 +2901,6 @@
             {
               "link": false,
               "referenceId": "63912268416048193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63912264329238705",
               "structureType": "REFERENCE"
             },
             {
