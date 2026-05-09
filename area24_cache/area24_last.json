@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-09T11:00:00.465Z",
+  "createdAt": "2026-05-09T13:45:00.442Z",
   "dynamicData": {
     "notams": [
       {
@@ -1609,40 +1609,6 @@
         }
       },
       {
-        "id": "63911334654497089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1000FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 809,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5826N02635E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 10
-        },
-        "text": "TEMPO RESTRICTED AREA EER2621 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN\r\n582735N0263112E - 582736N0263824E - 582422N0263826E - 582421N0263115E\r\n- 582735N0263112E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5564\r\n4000.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-09T13:00:00Z",
-          "start": "2026-05-08T12:00:00Z"
-        }
-      },
-      {
         "id": "63911327237386257",
         "levels": {
           "lower": "SFC",
@@ -2401,8 +2367,8 @@
       }
     ]
   },
-  "id": "bde3042e-6a75-476c-a03b-2d236d47f380",
-  "identifier": "BRIEFING-20260509-60",
+  "id": "f184cb3a-9758-48d0-bac3-85b484c55498",
+  "identifier": "BRIEFING-20260509-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2451,8 +2417,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-10T11:00:00Z",
-    "validityStart": "2026-05-09T11:00:00Z"
+    "validityEnd": "2026-05-10T13:45:00Z",
+    "validityStart": "2026-05-09T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2776,11 +2742,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63911334654497089",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63910227514438113",
                   "structureType": "REFERENCE"
                 },
@@ -2999,11 +2960,6 @@
             {
               "link": false,
               "referenceId": "63911403189674225",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63911334654497089",
               "structureType": "REFERENCE"
             },
             {
