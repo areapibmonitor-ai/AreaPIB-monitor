@@ -7851,3 +7851,31 @@ Other removals:
 - NOTAM A0960/26 was removed from the PIB.
 [2026-05-10T01:23:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-907b9c542cdsm637343285a.0 - gsmtp')
 [2026-05-10T05:07:56Z] NO CHANGE in dynamicData.notams.
+[2026-05-10T07:36:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0973/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5821N02551E002
+A)EETT B)2605110500 C)2605121700
+E)DANGER AREA EED9 VALUSTE ACTIVATED.
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A1019/26 NOTAMN
+Q)EETT/GWXX/IV/NBO/E/000/165/5852N02544E004
+A)EETT B)2605110500 C)2605171500
+E)GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 5KM
+RADIUS CENTRED ON 585150N 0254400E FROM SFC UP TO FL165.
+)
+
+New NOTAM added:
+(A1028/26 NOTAMN
+Q)EETT/ICAS/I/NBO/A/000/999/5818N02641E005
+A)EETU B)2605110630 C)2605111400
+E)ILS CAT I RWY 26 U/S DUE TO FLIGHT INSPECTION, EXCEPT FOR
+SCHEDULED REGULAR FLIGHTS.
+)
+[2026-05-10T07:36:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b53d831ac7sm275269556d6.49 - gsmtp')
