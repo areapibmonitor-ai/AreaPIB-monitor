@@ -7879,3 +7879,18 @@ E)ILS CAT I RWY 26 U/S DUE TO FLIGHT INSPECTION, EXCEPT FOR
 SCHEDULED REGULAR FLIGHTS.
 )
 [2026-05-10T07:36:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b53d831ac7sm275269556d6.49 - gsmtp')
+[2026-05-10T09:17:15Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1016/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/010/5759N02205E011
+A)EEKE B)2605110900 C)2605212000
+E)TEMPO RESTRICTED AREA EER2624 ESTABLISHED DUE TO UNMANNED AIRCRAFT
+ACTIVITY WITHIN 10NM RADIUS CENTRED ON 575929N 0220506E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5362
+1476.
+F)SFC G)1000FT AMSL
+)
+[2026-05-10T09:17:15Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-907b87c037esm719800385a.30 - gsmtp')
