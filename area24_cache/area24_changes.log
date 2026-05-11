@@ -7935,3 +7935,23 @@ F)SFC G)1100FT AMSL
 Other removals:
 - NOTAM A0932/26 was removed from the PIB.
 [2026-05-11T01:28:33Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-132787673ffsm15617111c88.15 - gsmtp')
+[2026-05-11T05:41:06Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1010/26 NOTAMN
+Q)EETT/GWXX/IV/NBO/E/000/165/5749N02649E005
+A)EETT B)2605120500 C)2605251700
+E)GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN: 8KM
+RADIUS CENTRED ON 574840N 0264840E FROM SFC UP TO FL165.
+)
+
+New NOTAM added:
+(A1011/26 NOTAMN
+Q)EETT/GWXX/IV/NBO/E/000/165/5748N02718E004
+A)EETT B)2605120500 C)2605251700
+E)GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN:
+5KM RADIUS CENTRED ON 574750N 0271738E FROM SFC UP TO FL165.
+)
+[2026-05-11T05:41:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-5148e7e97c8sm81742661cf.22 - gsmtp')
