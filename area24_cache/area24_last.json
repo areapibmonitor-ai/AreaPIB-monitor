@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-11T08:45:00.437Z",
+  "createdAt": "2026-05-11T11:45:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -73,6 +73,70 @@
         }
       },
       {
+        "id": "63913847722632017",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1039,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5885 9398.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-14T18:00:00Z",
+          "start": "2026-05-12T09:00:00Z"
+        }
+      },
+      {
+        "id": "63913842011365473",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1038,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5826N02301E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "E",
+          "subject": "ND",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "DME LAI 111.750MHZ/CH54Y U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-12T16:00:00Z",
+          "start": "2026-05-12T10:00:00Z"
+        }
+      },
+      {
         "id": "63913833852950129",
         "locations": [
           "EEPU"
@@ -136,36 +200,6 @@
         "validity": {
           "end": "2026-05-12T14:00:00Z",
           "start": "2026-05-12T07:00:00Z"
-        }
-      },
-      {
-        "id": "63913821948870721",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1028,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IC",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS CAT I RWY 26 U/S DUE TO FLIGHT INSPECTION, EXCEPT FOR\r\nSCHEDULED REGULAR FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-11T14:00:00Z",
-          "start": "2026-05-11T06:30:00Z"
         }
       },
       {
@@ -2832,8 +2866,8 @@
       }
     ]
   },
-  "id": "a5aedf8d-f103-4e6b-85f7-88e6e2f064fd",
-  "identifier": "BRIEFING-20260511-51",
+  "id": "66b9a791-7013-4a8e-b2ca-eace1894a69e",
+  "identifier": "BRIEFING-20260511-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2882,8 +2916,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-12T08:45:00Z",
-    "validityStart": "2026-05-11T08:45:00Z"
+    "validityEnd": "2026-05-12T11:45:00Z",
+    "validityStart": "2026-05-11T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3202,11 +3236,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913821948870721",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913041732450721",
                   "structureType": "REFERENCE"
                 },
@@ -3271,6 +3300,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63913842011365473",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63913761154941009",
@@ -3360,6 +3394,11 @@
             {
               "link": false,
               "referenceId": "63914076076766385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913847722632017",
               "structureType": "REFERENCE"
             },
             {

@@ -8026,3 +8026,30 @@ PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719
 F)SFC G)FL095
 )
 [2026-05-11T08:49:31Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8fc2c91dd48sm3027185485a.38 - gsmtp')
+[2026-05-11T11:56:21Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1038/26 NOTAMN
+Q)EETT/NDAS/IV/BO/E/000/999/5826N02301E025
+A)EETT B)2605121000 C)2605121600
+E)DME LAI 111.750MHZ/CH54Y U/S DUE TO MAINT.
+)
+
+New NOTAM added:
+(A1039/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/040/5914N02556E013
+A)EETT B)2605120900 C)2605141800
+E)RESTRICTED AREA EER15F ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER
+INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT
+ACT AVBL FROM: +372 5885 9398.
+F)SFC G)4000FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1028/26 was removed from the PIB.
+[2026-05-11T11:56:21Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8b53d35787esm309849606d6.44 - gsmtp')
