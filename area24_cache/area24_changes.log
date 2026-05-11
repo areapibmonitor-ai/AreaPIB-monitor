@@ -7916,3 +7916,22 @@ Expired NOTAMs:
 - NOTAM A0958/26 expired and was removed from the PIB.
 [2026-05-10T21:30:24Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2f88847504dsm11068370eec.15 - gsmtp')
 [2026-05-10T22:26:42Z] NO CHANGE in dynamicData.notams.
+[2026-05-11T01:28:33Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0960/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/011/5749N02655E002
+A)EETT B)2605080500 C)2605131759
+D)08 0500-1759, 09 0500-1459, 12 13 0500-1759
+E)DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885
+F)SFC G)1100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0932/26 was removed from the PIB.
+[2026-05-11T01:28:33Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-132787673ffsm15617111c88.15 - gsmtp')
