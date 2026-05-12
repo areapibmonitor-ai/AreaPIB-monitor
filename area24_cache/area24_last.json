@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-12T00:00:00.433Z",
+  "createdAt": "2026-05-12T04:00:00.428Z",
   "dynamicData": {
     "notams": [
       {
@@ -200,6 +200,40 @@
         "validity": {
           "end": "2026-05-12T14:00:00Z",
           "start": "2026-05-12T07:00:00Z"
+        }
+      },
+      {
+        "id": "63913819429697393",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1022,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02407E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER26146UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 590531N0240402E - 590538N0240916E -\r\n590257N0240929E - 590250N0240416E - 590531N0240402E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5560\r\n4376.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-21T21:00:00Z",
+          "start": "2026-05-13T03:00:00Z"
         }
       },
       {
@@ -2761,8 +2795,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914126792945809",
-        "number": 647,
+        "id": "63914146551135121",
+        "number": 648,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2790,14 +2824,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-11T20:05:00Z"
+            "time": "2026-05-12T01:34:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63914129799314897",
-        "number": 401,
+        "id": "63914149787280305",
+        "number": 402,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2825,14 +2859,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-11T20:56:00Z"
+            "time": "2026-05-12T02:29:00Z"
           }
         ]
       }
     ]
   },
-  "id": "42c27987-60d6-4e68-8ffe-8e240cb5272e",
-  "identifier": "BRIEFING-20260512-1",
+  "id": "0dadab54-426b-42de-87e7-a3d2750eb423",
+  "identifier": "BRIEFING-20260512-27",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2881,8 +2915,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-13T00:00:00Z",
-    "validityStart": "2026-05-12T00:00:00Z"
+    "validityEnd": "2026-05-13T04:00:00Z",
+    "validityStart": "2026-05-12T04:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2964,6 +2998,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63913819429697393",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63913818770941137",
@@ -3184,7 +3223,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914126792945809",
+                  "referenceId": "63914146551135121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3251,7 +3290,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914129799314897",
+                  "referenceId": "63914149787280305",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3364,6 +3403,11 @@
             {
               "link": false,
               "referenceId": "63913847722632017",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63913819429697393",
               "structureType": "REFERENCE"
             },
             {
