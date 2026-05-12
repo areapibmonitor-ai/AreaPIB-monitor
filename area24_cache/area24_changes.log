@@ -8120,3 +8120,24 @@ E)DANGER AREA EED9 VALUSTE ACTIVATED.
 F)SFC G)2200FT AMSL
 )
 [2026-05-12T07:19:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-1327875a269sm17844834c88.13 - gsmtp')
+[2026-05-12T10:02:01Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1058/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/017/5934N02427E009
+A)EETT B)2605130600 C)2605152200
+D)DAILY 0600-2200
+E)TEMPO RESTRICTED AREA EER26141UAS ESTABLISHED DUE TO UNMANNED
+AIRCRAFT ACTIVITY WI: 594007N0242041E - 594212N0243228E -
+592546N0243247E - 592551N0242041E - 594007N0242041E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5912
+5047 OR +372 5193 7084.
+F)SFC G)1700FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1015/26 was removed from the PIB.
+[2026-05-12T10:02:01Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-2f888e381c9sm16875767eec.26 - gsmtp')
