@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-12T04:00:00.428Z",
+  "createdAt": "2026-05-12T07:15:00.492Z",
   "dynamicData": {
     "notams": [
       {
@@ -917,6 +917,40 @@
         }
       },
       {
+        "id": "63913473880957377",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 974,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 VALUSTE ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-13T17:00:00Z",
+          "start": "2026-05-13T04:00:00Z"
+        }
+      },
+      {
         "id": "63913473281555057",
         "levels": {
           "lower": "SFC",
@@ -1014,6 +1048,41 @@
           "end": "2026-05-25T13:00:00Z",
           "est": true,
           "start": "2026-04-30T12:08:00Z"
+        }
+      },
+      {
+        "id": "63913133902900465",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 965,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02722E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 35
+        },
+        "schedule": "DAILY 0700-2200",
+        "text": "TEMPO RESTRICTED AREA EER26139UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n591849N 0271903E - 591849N 0272415E - 591711N 0272413E - 591711N\r\n0271858E - 591849N 0271903E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5887\r\n6605.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-14T22:00:00Z",
+          "start": "2026-05-13T07:00:00Z"
         }
       },
       {
@@ -2830,8 +2899,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63914149787280305",
-        "number": 402,
+        "id": "63914162286599441",
+        "number": 403,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2859,14 +2928,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-12T02:29:00Z"
+            "time": "2026-05-12T05:50:00Z"
           }
         ]
       }
     ]
   },
-  "id": "0dadab54-426b-42de-87e7-a3d2750eb423",
-  "identifier": "BRIEFING-20260512-27",
+  "id": "4c12e79f-b916-42b1-92ff-b79800c29a51",
+  "identifier": "BRIEFING-20260512-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2915,8 +2984,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-13T04:00:00Z",
-    "validityStart": "2026-05-12T04:00:00Z"
+    "validityEnd": "2026-05-13T07:15:00Z",
+    "validityStart": "2026-05-12T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3290,7 +3359,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914149787280305",
+                  "referenceId": "63914162286599441",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3452,7 +3521,17 @@
             },
             {
               "link": false,
+              "referenceId": "63913473880957377",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63913473281555057",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913133902900465",
               "structureType": "REFERENCE"
             },
             {
