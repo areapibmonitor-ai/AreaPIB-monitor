@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-12T20:45:00.54Z",
+  "createdAt": "2026-05-12T22:15:00.561Z",
   "dynamicData": {
     "notams": [
       {
@@ -2980,8 +2980,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914213192391777",
-        "number": 650,
+        "id": "63914216953167281",
+        "number": 651,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2991,32 +2991,67 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-12T20:05:00Z"
+            "time": "2026-05-12T21:08:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63914215702725425",
+        "number": 404,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-05-12T20:47:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8fa2c9f7-c4db-4706-9c52-f0e5dcdb42ba",
-  "identifier": "BRIEFING-20260512-100",
+  "id": "7d45c73e-f46d-4389-b9e2-54d0ea0d3ed2",
+  "identifier": "BRIEFING-20260512-106",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3065,8 +3100,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-13T20:45:00Z",
-    "validityStart": "2026-05-12T20:45:00Z"
+    "validityEnd": "2026-05-13T22:15:00Z",
+    "validityStart": "2026-05-12T22:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3368,7 +3403,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914213192391777",
+                  "referenceId": "63914216953167281",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3431,6 +3466,11 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914215702725425",
                   "structureType": "REFERENCE"
                 }
               ],
