@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-13T01:30:00.501Z",
+  "createdAt": "2026-05-13T05:30:00.492Z",
   "dynamicData": {
     "notams": [
       {
@@ -517,6 +517,40 @@
         "validity": {
           "end": "2026-05-21T20:00:00Z",
           "start": "2026-05-11T09:00:00Z"
+        }
+      },
+      {
+        "id": "63913754088206001",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1013,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-25T04:59:00Z",
+          "start": "2026-05-14T03:00:00Z"
         }
       },
       {
@@ -1064,6 +1098,40 @@
           "end": "2026-06-04T12:00:00Z",
           "est": true,
           "start": "2026-05-04T07:35:00Z"
+        }
+      },
+      {
+        "id": "63913474305721409",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 975,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 VALUSTE ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-14T17:00:00Z",
+          "start": "2026-05-14T04:00:00Z"
         }
       },
       {
@@ -3070,8 +3138,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914216953167281",
-        "number": 651,
+        "id": "63914233271527521",
+        "number": 652,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3099,14 +3167,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-12T21:08:00Z"
+            "time": "2026-05-13T01:40:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63914215702725425",
-        "number": 404,
+        "id": "63914235388505777",
+        "number": 405,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3118,30 +3186,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-12T20:47:00Z"
+            "time": "2026-05-13T02:15:00Z"
           }
         ]
       }
     ]
   },
-  "id": "501b7dd4-344b-4957-a92e-8c658f708b4c",
-  "identifier": "BRIEFING-20260513-7",
+  "id": "b58fa35b-14f1-421f-aa7a-e200d15c696b",
+  "identifier": "BRIEFING-20260513-37",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3190,8 +3258,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-14T01:30:00Z",
-    "validityStart": "2026-05-13T01:30:00Z"
+    "validityEnd": "2026-05-14T05:30:00Z",
+    "validityStart": "2026-05-13T05:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3498,7 +3566,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914216953167281",
+                  "referenceId": "63914233271527521",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3570,7 +3638,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914215702725425",
+                  "referenceId": "63914235388505777",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3736,6 +3804,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63913754088206001",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63913751036168545",
               "structureType": "REFERENCE"
@@ -3758,6 +3831,11 @@
             {
               "link": false,
               "referenceId": "63913483126269457",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913474305721409",
               "structureType": "REFERENCE"
             },
             {
