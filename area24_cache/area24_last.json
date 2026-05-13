@@ -1,7 +1,107 @@
 {
-  "createdAt": "2026-05-13T05:30:00.492Z",
+  "createdAt": "2026-05-13T08:15:00.482Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63914255200797857",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1073,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 327,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "PRECAUTION - GNSS SIGNAL INTERFERENCE AND/OR SPOOFING CAN BE\r\nEXPECTED IN TALLINN FIR. AIRCREW ARE ASKED TO INFORM AN ATC OF ANY\r\nGNSS INTERFERENCE OR SPOOFING DETECTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-13T09:00:00Z",
+          "est": true,
+          "start": "2026-05-13T07:45:00Z"
+        }
+      },
+      {
+        "id": "63914250261514305",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1072,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE AND FIREFIGHTING SERVICE NOT AVBL.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-14T13:30:00Z",
+          "start": "2026-05-13T06:30:00Z"
+        }
+      },
+      {
+        "id": "63914204489866753",
+        "levels": {
+          "lower": "SFC",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1071,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5915N02721E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 24,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "RESTRICTED AREA EER15H ACT.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 5627 7960.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-14T13:30:00Z",
+          "start": "2026-05-14T05:30:00Z"
+        }
+      },
       {
         "id": "63914186433907921",
         "locations": [
@@ -3097,49 +3197,13 @@
           "est": true,
           "start": "2026-02-20T07:40:00Z"
         }
-      },
-      {
-        "id": "63906560766266433",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 327,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 3792,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "PRECAUTION - GNSS SIGNAL INTERFERENCE AND/OR SPOOFING CAN BE\r\nEXPECTED IN TALLINN FIR. AIRCREW ARE ASKED TO INFORM AN ATC OF ANY\r\nGNSS INTERFERENCE OR SPOOFING DETECTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-13T23:59:00Z",
-          "est": true,
-          "start": "2026-02-13T06:25:00Z"
-        }
       }
     ],
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914233271527521",
-        "number": 652,
+        "id": "63914256057355617",
+        "number": 653,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3151,30 +3215,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-13T01:40:00Z"
+            "time": "2026-05-13T07:59:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63914235388505777",
-        "number": 405,
+        "id": "63914248375613089",
+        "number": 406,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3184,32 +3248,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-13T02:15:00Z"
+            "time": "2026-05-13T05:43:00Z"
           }
         ]
       }
     ]
   },
-  "id": "b58fa35b-14f1-421f-aa7a-e200d15c696b",
-  "identifier": "BRIEFING-20260513-37",
+  "id": "26ce0809-1819-45bc-b574-697ad319419a",
+  "identifier": "BRIEFING-20260513-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3258,8 +3322,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-14T05:30:00Z",
-    "validityStart": "2026-05-13T05:30:00Z"
+    "validityEnd": "2026-05-14T08:15:00Z",
+    "validityStart": "2026-05-13T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3459,6 +3523,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63914250261514305",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63914186433907921",
                   "structureType": "REFERENCE"
                 },
@@ -3566,7 +3635,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914233271527521",
+                  "referenceId": "63914256057355617",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3638,7 +3707,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914235388505777",
+                  "referenceId": "63914248375613089",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3652,6 +3721,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63914255200797857",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63913761154941009",
@@ -3726,11 +3800,6 @@
               "link": false,
               "referenceId": "63907170091283681",
               "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63906560766266433",
-              "structureType": "REFERENCE"
             }
           ],
           "structureType": "SECTION",
@@ -3738,6 +3807,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63914204489866753",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63914178102901361",
