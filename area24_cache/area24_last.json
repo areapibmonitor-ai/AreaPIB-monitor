@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-05-13T13:15:00.476Z",
+  "createdAt": "2026-05-13T16:00:00.476Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63914282660389457",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1092,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "HANDLING HR OF SERVICE: 0230-1630",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-13T16:30:00Z",
+          "start": "2026-05-13T15:20:00Z"
+        }
+      },
+      {
+        "id": "63914282465921985",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1091,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KARDLA AFIS HR OF SERVICE: 0300-0730 1200-1630",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-13T16:30:00Z",
+          "start": "2026-05-13T15:17:00Z"
+        }
+      },
       {
         "id": "63914255200797857",
         "locations": [
@@ -3062,8 +3122,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914256057355617",
-        "number": 653,
+        "id": "63914276743173073",
+        "number": 654,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3075,23 +3135,23 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-13T07:59:00Z"
+            "time": "2026-05-13T13:44:00Z"
           }
         ]
       },
@@ -3132,16 +3192,16 @@
       }
     ]
   },
-  "id": "4ca7ef1d-d9f7-4627-b1d5-c6deceb000cb",
-  "identifier": "BRIEFING-20260513-69",
+  "id": "3d6b724f-8222-4b25-99b2-9d5a9f48ad2f",
+  "identifier": "BRIEFING-20260513-81",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3182,8 +3242,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-14T13:15:00Z",
-    "validityStart": "2026-05-13T13:15:00Z"
+    "validityEnd": "2026-05-14T16:00:00Z",
+    "validityStart": "2026-05-13T16:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3312,6 +3372,16 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63914282660389457",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914282465921985",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63913646413635953",
@@ -3495,7 +3565,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914256057355617",
+                  "referenceId": "63914276743173073",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3581,6 +3651,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63914282465921985",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63914255200797857",
