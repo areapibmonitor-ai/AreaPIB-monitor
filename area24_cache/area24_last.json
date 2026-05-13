@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-12T23:30:00.491Z",
+  "createdAt": "2026-05-13T01:30:00.501Z",
   "dynamicData": {
     "notams": [
       {
@@ -2296,6 +2296,96 @@
         }
       },
       {
+        "id": "63910733604561393",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 764,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 1 OBSTACLES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-27T23:59:00Z",
+          "start": "2026-05-14T00:00:00Z"
+        }
+      },
+      {
+        "id": "63910733345900433",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 763,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 2 AERODROME OBSTACLES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-27T23:59:00Z",
+          "start": "2026-05-14T00:00:00Z"
+        }
+      },
+      {
+        "id": "63910732946400609",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 762,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PD",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 2 AERODROME OBSTACLES.\r\n-UPDATED RNAV SID PROCEDURES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-27T23:59:00Z",
+          "start": "2026-05-14T00:00:00Z"
+        }
+      },
+      {
         "id": "63910554069717633",
         "locations": [
           "EEEI"
@@ -3050,16 +3140,16 @@
       }
     ]
   },
-  "id": "660499fa-2c92-4b8d-9fdb-fbbb44f8dc00",
-  "identifier": "BRIEFING-20260512-111",
+  "id": "501b7dd4-344b-4957-a92e-8c658f708b4c",
+  "identifier": "BRIEFING-20260513-7",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3100,8 +3190,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-13T23:30:00Z",
-    "validityStart": "2026-05-12T23:30:00Z"
+    "validityEnd": "2026-05-14T01:30:00Z",
+    "validityStart": "2026-05-13T01:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3373,6 +3463,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63910733345900433",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909867536505009",
                   "structureType": "REFERENCE"
                 },
@@ -3450,6 +3545,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63910732946400609",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63910227514438113",
                   "structureType": "REFERENCE"
                 },
@@ -3522,6 +3622,11 @@
             {
               "link": true,
               "referenceId": "63912009825894017",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910733604561393",
               "structureType": "REFERENCE"
             },
             {
