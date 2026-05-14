@@ -1,7 +1,71 @@
 {
-  "createdAt": "2026-05-14T07:15:03.56Z",
+  "createdAt": "2026-05-14T09:45:00.458Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63914342764067793",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1100,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5811N02634E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 51,
+          "scope": "E",
+          "subject": "CA",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 581105N\r\n0263429E (PANGODI).\r\nALTERNATE CH 119.380 AND FREQ 134.325MHZ AVBL.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-15T12:30:00Z",
+          "start": "2026-05-15T06:30:00Z"
+        }
+      },
+      {
+        "id": "63914339913821345",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1098,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02730E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 35
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2509B ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 593300N 0273900E - 593519N 0274213E -\r\n592818N 0280236E - THEN ALONG THE TERRITORY DIVIDING LINE BETWEEN\r\nESTONIA AND RUSSIA TO 584722N 0272141E - 584800N 0271600E - 585959N\r\n0271000E - 593300N 0273900E.\r\nALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO\r\nOR IN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER\r\nGUARD BOARD.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5382\r\n3704.\r\nRESTRICTION DOES NOT APPLY TO ESTONIAN POLICE AND BORDER GUARD BOARD\r\nUNMANNED FLIGHTS AT HEIGHTS UP TO 400FT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-15T20:59:00Z",
+          "start": "2026-05-14T07:20:00Z"
+        }
+      },
       {
         "id": "63914339514090481",
         "levels": {
@@ -3096,8 +3160,8 @@
       }
     ]
   },
-  "id": "95419be8-5dab-4a92-bb8b-1f952d595fc6",
-  "identifier": "BRIEFING-20260514-45",
+  "id": "43b87ace-d038-48d0-8b28-1aa7606de465",
+  "identifier": "BRIEFING-20260514-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3146,8 +3210,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-15T07:15:00Z",
-    "validityStart": "2026-05-14T07:15:00Z"
+    "validityEnd": "2026-05-15T09:45:00Z",
+    "validityStart": "2026-05-14T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3557,6 +3621,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63914342764067793",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63914255200797857",
               "structureType": "REFERENCE"
             },
@@ -3641,6 +3710,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63914339913821345",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63914339514090481",
