@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-15T12:00:00.5Z",
+  "createdAt": "2026-05-15T14:30:00.486Z",
   "dynamicData": {
     "notams": [
       {
@@ -236,36 +236,6 @@
         "validity": {
           "end": "2026-05-15T19:30:00Z",
           "start": "2026-05-14T16:00:00Z"
-        }
-      },
-      {
-        "id": "63914342764067793",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1100,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5811N02634E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 51,
-          "scope": "E",
-          "subject": "CA",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 581105N\r\n0263429E (PANGODI).\r\nALTERNATE CH 119.380 AND FREQ 134.325MHZ AVBL.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-15T12:30:00Z",
-          "start": "2026-05-15T06:30:00Z"
         }
       },
       {
@@ -578,6 +548,40 @@
         "validity": {
           "end": "2026-05-15T22:00:00Z",
           "start": "2026-05-13T06:00:00Z"
+        }
+      },
+      {
+        "id": "63914083207760721",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1047,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5816N02449E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "text": "TEMPO RESTRICTED AREA EER2628 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN:\r\n582335N 0243059E -  582256N 0243246E -  582320N 0243404E - 582156N\r\n0243817E - 581845N 0243851E - 581628N 0244301E - 581153N 0245232E -\r\n581043N 0250356E -  581004N 0250744E -  580732N 0250622E - 580702N\r\n0250332E - 580818N 0244716E - 581450N 0243529E -  581843N 0243156E -\r\n582100N 0242840E -  582335N 0243059E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP. PERMISSION FOR ENTERING\r\nTHE AREA AND INFO ABOUT ACT AVBL FROM: +372 5560 4376",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-17T07:00:00Z",
+          "start": "2026-05-16T14:00:00Z"
         }
       },
       {
@@ -3113,8 +3117,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914432918119089",
-        "number": 661,
+        "id": "63914450333671825",
+        "number": 662,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3142,49 +3146,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-15T09:00:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63914420266539201",
-        "number": 415,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-15T05:36:00Z"
+            "time": "2026-05-15T13:55:00Z"
           }
         ]
       }
     ]
   },
-  "id": "057c5bb8-8081-40d1-972d-3aea1ac0e27b",
-  "identifier": "BRIEFING-20260515-64",
+  "id": "96a01077-1860-4cee-a734-8de055985c87",
+  "identifier": "BRIEFING-20260515-74",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3233,8 +3202,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-16T12:00:00Z",
-    "validityStart": "2026-05-15T12:00:00Z"
+    "validityEnd": "2026-05-16T14:30:00Z",
+    "validityStart": "2026-05-15T14:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3444,6 +3413,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63914083207760721",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913751036168545",
                   "structureType": "REFERENCE"
                 },
@@ -3561,7 +3535,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914432918119089",
+                  "referenceId": "63914450333671825",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3630,11 +3604,6 @@
                   "link": false,
                   "referenceId": "63908210701561121",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914420266539201",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3647,11 +3616,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63914342764067793",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63914273903072193",
@@ -3796,6 +3760,11 @@
             {
               "link": false,
               "referenceId": "63914176430894529",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63914083207760721",
               "structureType": "REFERENCE"
             },
             {
