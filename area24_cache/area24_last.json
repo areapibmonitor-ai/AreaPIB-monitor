@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-15T14:30:00.486Z",
+  "createdAt": "2026-05-15T16:15:00.452Z",
   "dynamicData": {
     "notams": [
       {
@@ -61,6 +61,36 @@
           "end": "2026-08-14T23:59:00Z",
           "est": true,
           "start": "2026-05-15T11:00:00Z"
+        }
+      },
+      {
+        "id": "63914436185338625",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1109,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 6.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-16T16:30:00Z",
+          "start": "2026-05-16T15:00:00Z"
         }
       },
       {
@@ -3152,16 +3182,16 @@
       }
     ]
   },
-  "id": "96a01077-1860-4cee-a734-8de055985c87",
-  "identifier": "BRIEFING-20260515-74",
+  "id": "115960c9-2d67-4a2d-a008-e30a12b2149a",
+  "identifier": "BRIEFING-20260515-81",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3202,8 +3232,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-16T14:30:00Z",
-    "validityStart": "2026-05-15T14:30:00Z"
+    "validityEnd": "2026-05-16T16:15:00Z",
+    "validityStart": "2026-05-15T16:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3545,6 +3575,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63914436185338625",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63914433176866641",
