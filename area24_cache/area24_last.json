@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-15T18:00:00.504Z",
+  "createdAt": "2026-05-15T19:45:00.501Z",
   "dynamicData": {
     "notams": [
       {
@@ -231,41 +231,6 @@
         "validity": {
           "end": "2026-05-17T10:00:00Z",
           "start": "2026-05-16T07:00:00Z"
-        }
-      },
-      {
-        "id": "63914353127960721",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL450"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1101,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LW",
-          "coordinate": "5926N02445E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 16,
-          "scope": "AW",
-          "subject": "WO",
-          "traffic": "IV",
-          "upper": 450
-        },
-        "schedule": "14 1600-2200, 15 1630-1930",
-        "text": "LIGHTSHOW WILL TAKE PLACE AT PSN 592601.9N 0244439.0E (TALLINN).\r\nLASER BEAMS MAY CAUSE BLINDNESS IF VIEWED WITHIN HORISONTAL SECTOR\r\nFROM 240DEG CLOCKWISE TO 330DEG AND VERTICAL SECTOR BTN 025DEG AND\r\n055DEG FROM SFC UNTIL 4NM AND FL200.\r\nIN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR\r\nUNTIL 15NM AND FL450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-15T19:30:00Z",
-          "start": "2026-05-14T16:00:00Z"
         }
       },
       {
@@ -3080,8 +3045,8 @@
       }
     ]
   },
-  "id": "24aaed2e-4c0d-420d-9ce6-ef1d2e0786cb",
-  "identifier": "BRIEFING-20260515-88",
+  "id": "51fa7742-51d5-41ac-b521-c6db73efefba",
+  "identifier": "BRIEFING-20260515-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3130,8 +3095,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-16T18:00:00Z",
-    "validityStart": "2026-05-15T18:00:00Z"
+    "validityEnd": "2026-05-16T19:45:00Z",
+    "validityStart": "2026-05-15T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3379,11 +3344,6 @@
                 {
                   "link": false,
                   "referenceId": "63914421208948161",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914353127960721",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3648,11 +3608,6 @@
             {
               "link": true,
               "referenceId": "63914421208948161",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63914353127960721",
               "structureType": "REFERENCE"
             },
             {
