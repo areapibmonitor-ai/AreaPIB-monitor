@@ -8673,3 +8673,26 @@ E)CRANE ERECTED IN AREA 2 AT PSN 592500.5N 0244622.2E. ELEV 219FT
 AMSL (HEIGHT 86FT AGL). LIGHTED.
 )
 [2026-05-15T10:08:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cbed2232sm9439833c88.7 - gsmtp')
+[2026-05-15T12:14:40Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1111/26 NOTAMN
+Q)EETT/OBCE/IV/M/A/000/999/5925N02450E005
+A)EETN B)2605151100 C)2608142359
+E)CRANE ERECTED IN AREA 2 AT PSN 592500.5N 0244622.2E. ELEV 236FT
+AMSL (HEIGHT 102FT AGL). LIGHTED.
+)
+
+New NOTAM added:
+(A1112/26 NOTAMN
+Q)EETT/FFAS/IV/NBO/A/000/999/5825N02428E005
+A)EEPU B)2605160500 C)2605161330
+E)RESCUE AND FIREFIGHTING SER NOT AVBL.
+)
+
+
+Other removals:
+- NOTAM A1108/26 was removed from the PIB.
+[2026-05-15T12:14:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-910ba36e1acsm529100285a.3 - gsmtp')
