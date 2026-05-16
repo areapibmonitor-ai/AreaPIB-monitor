@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-16T06:30:00.446Z",
+  "createdAt": "2026-05-16T08:15:00.482Z",
   "dynamicData": {
     "notams": [
       {
@@ -409,6 +409,40 @@
         "validity": {
           "end": "2026-05-23T16:00:00Z",
           "start": "2026-05-16T05:00:00Z"
+        }
+      },
+      {
+        "id": "63914276353510097",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1000FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1088,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5818N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 10
+        },
+        "text": "TEMPO RESTRICTED AREA EER2632 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN 3KM RADIUS CENTRED ON 581825N 0264000E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM EETU AFIS TEL\r\n+372 671 0244 OR OUTSIDE PUBLISHED EETU AFIS OPS HOURS TEL +372 5301\r\n6238",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-22T21:00:00Z",
+          "start": "2026-05-17T06:30:00Z"
         }
       },
       {
@@ -3253,8 +3287,8 @@
       }
     ]
   },
-  "id": "ebb93f1a-7eab-4c0d-a524-ac4bc9b211ea",
-  "identifier": "BRIEFING-20260516-42",
+  "id": "dd04d7d3-9539-45ab-9a6c-7e3cfd7bf737",
+  "identifier": "BRIEFING-20260516-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3303,8 +3337,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-17T06:30:00Z",
-    "validityStart": "2026-05-16T06:30:00Z"
+    "validityEnd": "2026-05-17T08:15:00Z",
+    "validityStart": "2026-05-16T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3658,6 +3692,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63914276353510097",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913820589741537",
                   "structureType": "REFERENCE"
                 },
@@ -3851,6 +3890,11 @@
             {
               "link": false,
               "referenceId": "63914337130305073",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63914276353510097",
               "structureType": "REFERENCE"
             },
             {

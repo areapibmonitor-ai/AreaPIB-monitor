@@ -8867,3 +8867,19 @@ F)SFC G)400FT AGL
 Other removals:
 - NOTAM A1102/26 was removed from the PIB.
 [2026-05-16T06:37:02Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cbcb9ed3sm12652515c88.1 - gsmtp')
+[2026-05-16T08:29:07Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1088/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/010/5818N02640E003
+A)EETU B)2605170630 C)2605222100
+E)TEMPO RESTRICTED AREA EER2632 ESTABLISHED DUE TO UNMANNED AIRCRAFT
+ACTIVITY WITHIN 3KM RADIUS CENTRED ON 581825N 0264000E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM EETU AFIS TEL
++372 671 0244 OR OUTSIDE PUBLISHED EETU AFIS OPS HOURS TEL +372 5301
+6238
+F)SFC G)1000FT AMSL
+)
+[2026-05-16T08:29:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cbdcf140sm13386973c88.5 - gsmtp')
