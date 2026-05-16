@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-16T21:15:00.487Z",
+  "createdAt": "2026-05-16T22:15:00.447Z",
   "dynamicData": {
     "notams": [
       {
@@ -2241,41 +2241,6 @@
         }
       },
       {
-        "id": "63912444654924145",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 876,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5843N02651E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 35
-        },
-        "schedule": "15 1200-2200, 16 0700-2200",
-        "text": "TEMPO RESTRICTED AREA EER26140UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI:\r\n584315N0265040E - 584315N0265142E - 584243N0265142E - 584243N0265040E\r\n- 584315N0265040E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5887\r\n6605.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-16T22:00:00Z",
-          "start": "2026-05-15T12:00:00Z"
-        }
-      },
-      {
         "id": "63912377745705057",
         "levels": {
           "lower": "SFC",
@@ -3256,8 +3221,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914557721585185",
-        "number": 669,
+        "id": "63914565687568097",
+        "number": 670,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3268,24 +3233,24 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-16T19:47:00Z"
+            "time": "2026-05-16T21:57:00Z"
           }
         ]
       },
@@ -3326,8 +3291,8 @@
       }
     ]
   },
-  "id": "1568b62e-b0a1-47c3-8bb1-12b7f748e62d",
-  "identifier": "BRIEFING-20260516-101",
+  "id": "880082d6-8b70-412d-9062-6f138223ef2b",
+  "identifier": "BRIEFING-20260516-105",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3376,8 +3341,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-17T21:15:00Z",
-    "validityStart": "2026-05-16T21:15:00Z"
+    "validityEnd": "2026-05-17T22:15:00Z",
+    "validityStart": "2026-05-16T22:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3699,7 +3664,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914557721585185",
+                  "referenceId": "63914565687568097",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4084,11 +4049,6 @@
             {
               "link": false,
               "referenceId": "63912529287516129",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912444654924145",
               "structureType": "REFERENCE"
             },
             {
