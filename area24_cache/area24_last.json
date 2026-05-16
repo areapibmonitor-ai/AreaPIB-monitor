@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-16T20:30:00.462Z",
+  "createdAt": "2026-05-16T21:15:00.487Z",
   "dynamicData": {
     "notams": [
       {
@@ -758,6 +758,40 @@
         "validity": {
           "end": "2026-05-31T17:59:00Z",
           "start": "2026-05-15T05:00:00Z"
+        }
+      },
+      {
+        "id": "63913820165175073",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1024,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5840N02344E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPO RESTRICTED AREA EER26147UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 584028N0234302E - 584025N0234533E -\r\n583933N0234529E - 583936N0234258E - 584028N0234302E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-19T21:00:00Z",
+          "start": "2026-05-17T21:00:00Z"
         }
       },
       {
@@ -1527,40 +1561,6 @@
         "validity": {
           "end": "2026-05-18T15:00:00Z",
           "start": "2026-05-17T04:00:00Z"
-        }
-      },
-      {
-        "id": "63913474856893265",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 977,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02551E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "text": "DANGER AREA EED9 VALUSTE ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-16T21:00:00Z",
-          "start": "2026-05-16T04:00:00Z"
         }
       },
       {
@@ -3326,8 +3326,8 @@
       }
     ]
   },
-  "id": "488c2d3f-c611-4021-a04a-37d505d5118d",
-  "identifier": "BRIEFING-20260516-98",
+  "id": "1568b62e-b0a1-47c3-8bb1-12b7f748e62d",
+  "identifier": "BRIEFING-20260516-101",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3376,8 +3376,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-17T20:30:00Z",
-    "validityStart": "2026-05-16T20:30:00Z"
+    "validityEnd": "2026-05-17T21:15:00Z",
+    "validityStart": "2026-05-16T21:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3973,6 +3973,11 @@
             },
             {
               "link": false,
+              "referenceId": "63913820165175073",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63913820000199633",
               "structureType": "REFERENCE"
             },
@@ -4024,11 +4029,6 @@
             {
               "link": false,
               "referenceId": "63913475076188209",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913474856893265",
               "structureType": "REFERENCE"
             },
             {
