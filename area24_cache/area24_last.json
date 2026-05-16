@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-16T08:15:00.482Z",
+  "createdAt": "2026-05-16T10:00:00.483Z",
   "dynamicData": {
     "notams": [
       {
@@ -409,6 +409,68 @@
         "validity": {
           "end": "2026-05-23T16:00:00Z",
           "start": "2026-05-16T05:00:00Z"
+        }
+      },
+      {
+        "id": "63914276676104321",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1090,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "schedule": "17 0901-0959 1301-2114 2201-2359, 18-21 0000-0229 0331-0559\r\n0901-1029 1301-2114 2201-2359, 22 0000-0229 0331-0559 0901-1029\r\n1301-2100",
+        "text": "RNP APPROACH RWY 26 AND ILS APPROACH RWY 26 NOT AVAILABLE DUE TO\r\nACTIVITY IN TEMPO RESTRICTED AREA EER2632",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-22T21:00:00Z",
+          "start": "2026-05-17T09:01:00Z"
+        }
+      },
+      {
+        "id": "63914276567231457",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1089,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "schedule": "17 0901-0959 1301-2114 2201-2359, 18-21 0000-0229 0331-0559\r\n0901-1029 1301-2114 2201-2359, 22 0000-0229 0331-0559 0901-1029\r\n1301-2100",
+        "text": "RNP APPROACH RWY 08 NOT AVAILABLE DUE TO ACTIVITY IN TEMPO\r\nRESTRICTED AREA EER2632",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-22T21:00:00Z",
+          "start": "2026-05-17T09:01:00Z"
         }
       },
       {
@@ -1323,6 +1385,40 @@
           "end": "2026-05-25T14:00:00Z",
           "est": true,
           "start": "2026-05-04T12:20:00Z"
+        }
+      },
+      {
+        "id": "63913484550924721",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 992,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5808N02713E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 10,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 15
+        },
+        "text": "TEMPO RESTRICTED AREA EER26145UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 581611N 0270509E - 581704N 0271446E - 581444N\r\n0272137E - 580507N 0272717E - 580011N 0272133E - 580214N 0271817E -\r\n580248N 0271458E - 581611N 0270509E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5302\r\n7209.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-23T21:00:00Z",
+          "start": "2026-05-17T09:00:00Z"
         }
       },
       {
@@ -3217,43 +3313,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914499582341377",
-        "number": 665,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-16T03:37:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63914493651031953",
-        "number": 417,
+        "id": "63914516913594305",
+        "number": 666,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3281,14 +3342,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-16T01:58:00Z"
+            "time": "2026-05-16T08:20:00Z"
           }
         ]
       }
     ]
   },
-  "id": "dd04d7d3-9539-45ab-9a6c-7e3cfd7bf737",
-  "identifier": "BRIEFING-20260516-49",
+  "id": "77a85185-825e-4dd8-99b5-737ec29c5043",
+  "identifier": "BRIEFING-20260516-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3337,8 +3398,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-17T08:15:00Z",
-    "validityStart": "2026-05-16T08:15:00Z"
+    "validityEnd": "2026-05-17T10:00:00Z",
+    "validityStart": "2026-05-16T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3670,7 +3731,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914499582341377",
+                  "referenceId": "63914516913594305",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3688,6 +3749,16 @@
                 {
                   "link": false,
                   "referenceId": "63914433176866641",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914276676104321",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914276567231457",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3743,11 +3814,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914493651031953",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3965,6 +4031,11 @@
             {
               "link": false,
               "referenceId": "63913651081841345",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913484550924721",
               "structureType": "REFERENCE"
             },
             {
