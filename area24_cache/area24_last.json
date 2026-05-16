@@ -1,7 +1,75 @@
 {
-  "createdAt": "2026-05-16T18:30:00.45Z",
+  "createdAt": "2026-05-16T19:30:00.486Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63914522490197201",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1120,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5752N02643E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 26,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2613B ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345. REF AIP SUP 08/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-18T05:59:00Z",
+          "start": "2026-05-17T19:01:00Z"
+        }
+      },
+      {
+        "id": "63914522366111313",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1119,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5802N02553E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 23,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345. REF AIP SUP 08/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-18T05:59:00Z",
+          "start": "2026-05-17T19:01:00Z"
+        }
+      },
       {
         "id": "63914506449180145",
         "levels": {
@@ -1833,41 +1901,6 @@
         }
       },
       {
-        "id": "63912883941115585",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 939,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "schedule": "02 09 16 0500-1900",
-        "text": "DANGER AREA EED36 EIVERE ACT.\r\nINFO ABOUT ACT FROM TEL +372 5355 7238.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-16T19:00:00Z",
-          "start": "2026-05-02T05:00:00Z"
-        }
-      },
-      {
         "id": "63912867828809489",
         "levels": {
           "lower": "SFC",
@@ -3293,8 +3326,8 @@
       }
     ]
   },
-  "id": "9b394c98-a230-49d3-8f39-c09c85c536ba",
-  "identifier": "BRIEFING-20260516-90",
+  "id": "2e8f485b-e21a-4354-8d5f-ebe5dcc08d16",
+  "identifier": "BRIEFING-20260516-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3343,8 +3376,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-17T18:30:00Z",
-    "validityStart": "2026-05-16T18:30:00Z"
+    "validityEnd": "2026-05-17T19:30:00Z",
+    "validityStart": "2026-05-16T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3678,6 +3711,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63914522490197201",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63914433176866641",
                   "structureType": "REFERENCE"
                 },
@@ -3850,6 +3888,16 @@
           "content": [
             {
               "link": true,
+              "referenceId": "63914522490197201",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914522366111313",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63914506449180145",
               "structureType": "REFERENCE"
             },
@@ -4006,11 +4054,6 @@
             {
               "link": false,
               "referenceId": "63912950288093649",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912883941115585",
               "structureType": "REFERENCE"
             },
             {

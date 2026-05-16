@@ -8940,3 +8940,32 @@ Expired NOTAMs:
 - NOTAM A1109/26 expired and was removed from the PIB.
 [2026-05-16T17:27:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-302947e917dsm9880797eec.12 - gsmtp')
 [2026-05-16T18:34:32Z] NO CHANGE in dynamicData.notams.
+[2026-05-16T19:45:02Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0939/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1119/26 NOTAMN
+Q)EETT/RTCA/IV/BO/W/000/030/5802N02553E023
+A)EETT B)2605171901 C)2605180559
+E)TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACT.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719
+1345. REF AIP SUP 08/2026.
+F)SFC G)3000FT AMSL
+)
+
+New NOTAM added:
+(A1120/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/030/5752N02643E026
+A)EETU B)2605171901 C)2605180559
+E)TEMPORARY RESTRICTED AREA EER2613B ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACT.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719
+1345. REF AIP SUP 08/2026.
+F)SFC G)3000FT AMSL
+)
+[2026-05-16T19:45:02Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8c908e11929sm90327706d6.14 - gsmtp')
