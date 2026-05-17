@@ -1,7 +1,75 @@
 {
-  "createdAt": "2026-05-17T07:45:00.5Z",
+  "createdAt": "2026-05-17T09:45:00.471Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63914606916933377",
+        "levels": {
+          "lower": "FL095",
+          "upper": "FL265"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1125,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5744N02642E",
+          "fir": "EETT",
+          "lower": 95,
+          "purpose": "BO",
+          "radius": 21,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 265
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2613C ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-18T10:00:00Z",
+          "start": "2026-05-18T08:00:00Z"
+        }
+      },
+      {
+        "id": "63914605952439665",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1121,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5802N02553E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 23,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-18T19:00:00Z",
+          "start": "2026-05-18T06:00:00Z"
+        }
+      },
       {
         "id": "63914522490197201",
         "levels": {
@@ -3427,8 +3495,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914582177584401",
-        "number": 671,
+        "id": "63914601899047169",
+        "number": 672,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3456,7 +3524,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-17T02:34:00Z"
+            "time": "2026-05-17T08:03:00Z"
           }
         ]
       },
@@ -3497,8 +3565,8 @@
       }
     ]
   },
-  "id": "513298ef-0e79-49e5-aa13-240af2625968",
-  "identifier": "BRIEFING-20260517-47",
+  "id": "1c85d62c-bcdd-4d66-9777-19be4a30ced2",
+  "identifier": "BRIEFING-20260517-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3547,8 +3615,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-18T07:45:00Z",
-    "validityStart": "2026-05-17T07:45:00Z"
+    "validityEnd": "2026-05-18T09:45:00Z",
+    "validityStart": "2026-05-17T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3875,7 +3943,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914582177584401",
+                  "referenceId": "63914601899047169",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4067,6 +4135,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63914606916933377",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914605952439665",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63914522490197201",
