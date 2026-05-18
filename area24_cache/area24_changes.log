@@ -9270,3 +9270,21 @@ F)FL095 G)FL265
 Other removals:
 - NOTAM A1060/26 was removed from the PIB.
 [2026-05-18T12:17:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ca3608c424sm54066796d6.3 - gsmtp')
+[2026-05-18T15:59:09Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0978/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1136/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/017/5920N02443E003
+A)EETN B)2605190600 C)2605311559
+D)19-21 0600-1359, 23 0300-1959, 24 0300-1459, 25-28 0500-1359, 29
+0600-0959, 30 31 0700-1559
+E)DANGER AREA EED20 MANNIKU ACTIVATED. INFO ABOUT ACTIVATION
+AVAILABLE FROM +372 503 4102.
+F)SFC G)1700FT AMSL
+)
+[2026-05-18T15:59:09Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ca3619011fsm59812816d6.31 - gsmtp')
