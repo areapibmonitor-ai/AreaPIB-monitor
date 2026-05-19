@@ -9459,3 +9459,16 @@ Expired NOTAMs:
 - NOTAM A1024/26 expired and was removed from the PIB.
 [2026-05-19T21:05:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cc2351d9sm25755942c88.9 - gsmtp')
 [2026-05-19T22:40:24Z] NO CHANGE in dynamicData.notams.
+[2026-05-19T23:47:29Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1152/26 NOTAMN
+Q)EETT/CAAS/IV/BO/AE/000/095/5814N02230E051
+A)EEKE B)2605192300 C)2605201700
+E)TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 581401N
+0223011E (KURESSAARE). ALTERNATE CH 134.325MHZ AND CH FREQ 119.380
+AVBL.
+)
+[2026-05-19T23:47:29Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cc3490bcsm21045064c88.15 - gsmtp')
