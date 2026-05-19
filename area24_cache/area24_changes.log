@@ -9329,3 +9329,33 @@ Expired NOTAMs:
 [2026-05-18T21:41:08Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-910bcf318e4sm1592672085a.32 - gsmtp')
 [2026-05-18T22:42:41Z] NO CHANGE in dynamicData.notams.
 [2026-05-18T23:51:10Z] NO CHANGE in dynamicData.notams.
+[2026-05-19T04:20:55Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A0932/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2605020700 C)2605311800
+D)02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800
+E)DANGER AREA EED5 KILTSI ACT.
+F)SFC G)2100FT AMSL
+)
+
+New NOTAM added:
+(A1049/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/020/5826N02417E004
+A)EEPU B)2605200400 C)2605202030
+E)TEMPO RESTRICTED AREA EER2630 ESTABLISHED DUE TO UNMANNED AIRCRAFT
+ACTIVITY WITHIN 5KM RADIUS CENTRED ON 582541N 0241711E.
+NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER
+INTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP. PERMISSION FOR ENTERING
+THE AREA AND INFO ABOUT ACT AVBL FROM: +372 5560 4376.
+F)SFC G)2000FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0874/26 was removed from the PIB.
+- NOTAM A1095/26 was removed from the PIB.
+[2026-05-19T04:20:55Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-69d04911744sm6565456eaf.12 - gsmtp')
