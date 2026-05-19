@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-19T11:15:00.492Z",
+  "createdAt": "2026-05-19T14:00:00.568Z",
   "dynamicData": {
     "notams": [
       {
@@ -138,41 +138,6 @@
         "validity": {
           "end": "2026-05-31T15:59:00Z",
           "start": "2026-05-19T06:00:00Z"
-        }
-      },
-      {
-        "id": "63914692998117681",
-        "levels": {
-          "lower": "FL095",
-          "upper": "FL265"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1131,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5744N02642E",
-          "fir": "EETT",
-          "lower": 95,
-          "purpose": "BO",
-          "radius": 21,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 265
-        },
-        "schedule": "0800-1000 1100-1300",
-        "text": "TEMPORARY RESTRICTED AREA EER2613C ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-19T13:00:00Z",
-          "start": "2026-05-19T08:00:00Z"
         }
       },
       {
@@ -3251,8 +3216,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914776920740081",
-        "number": 681,
+        "id": "63914795159091601",
+        "number": 682,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3262,67 +3227,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-19T08:41:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63914767269735473",
-        "number": 426,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-19T05:57:00Z"
+            "time": "2026-05-19T13:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "b4f2332c-c91a-47ce-a519-53d06333c5c0",
-  "identifier": "BRIEFING-20260519-61",
+  "id": "d9ee665b-8d08-442a-ba81-4d686bb0e9ab",
+  "identifier": "BRIEFING-20260519-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3371,8 +3301,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-20T11:15:00Z",
-    "validityStart": "2026-05-19T11:15:00Z"
+    "validityEnd": "2026-05-20T14:00:00Z",
+    "validityStart": "2026-05-19T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3689,7 +3619,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914776920740081",
+                  "referenceId": "63914795159091601",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3777,11 +3707,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914767269735473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3894,11 +3819,6 @@
             {
               "link": true,
               "referenceId": "63914703208094193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914692998117681",
               "structureType": "REFERENCE"
             },
             {
