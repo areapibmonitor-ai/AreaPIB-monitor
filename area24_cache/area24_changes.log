@@ -9590,3 +9590,22 @@ REF AIP SUP 08/2026.
 F)SFC G)FL095
 )
 [2026-05-20T09:56:17Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-302973bbd50sm18105285eec.20 - gsmtp')
+[2026-05-20T12:34:48Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1163/26 NOTAMN
+Q)EETT/RTCA/IV/BO/AW/000/095/5752N02643E026
+A)EETU B)2605210600 C)2605220559
+E)TEMPORARY RESTRICTED AREA EER2613B ACTIVATED.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719
+1345.
+REF AIP SUP 08/2026.
+F)SFC G)FL095
+)
+
+
+Other removals:
+- NOTAM A1160/26 was removed from the PIB.
+[2026-05-20T12:34:48Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-516456d0bd6sm192818851cf.11 - gsmtp')
