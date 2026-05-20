@@ -1,35 +1,77 @@
 {
-  "createdAt": "2026-05-19T23:45:00.51Z",
+  "createdAt": "2026-05-20T06:15:00.491Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63914828258436385",
+        "id": "63914852146938465",
         "locations": [
-          "EEKE"
+          "EETT"
         ],
         "notamId": {
-          "number": 1152,
+          "number": 1157,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02230E",
+          "condition": "XX",
+          "coordinate": "5849N02426E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "BO",
-          "radius": 51,
-          "scope": "AE",
-          "subject": "CA",
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
           "traffic": "IV",
-          "upper": 95
+          "upper": 999
         },
-        "text": "TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 581401N\r\n0223011E (KURESSAARE). ALTERNATE CH 134.325MHZ AND CH FREQ 119.380\r\nAVBL.",
-        "type": "N",
+        "referenceId": {
+          "number": 371,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ESTONIAN AIR CARRIERS AND CAPTAINS OF AIRCRAFT IN CHARGE OF AIR\r\nSERVICE MANAGED BY CARRIERS HOLDERS OF OPERATING LICENCE ISSUED BY\r\nESTONIA, WHETHER THEY ARE CONTRACTUAL CARRIERS AND OR DE FACTO\r\nCARRIERS, OR PERFORMING AIR SERVICE WITH COMMERCIAL CHARTER AGREEMENT\r\nOR WITH CODE SHARING AND TO ALL FLIGHT PERFORMED WITH ESTONIAN\r\nAIRCRAFT REGISTRATION, ARE REQUESTED TO AVOID MINSK FIR (UMMV).\r\nFOREIGN AIR CARRIERS INBOUND EU ARE RECOMMENDED TO AVOID BELARUS\r\nMINSK FIR(UMMV). FOR MORE INFORMATION EASA SAFETY DIRECTIVE\r\nSD2021-02.",
+        "type": "R",
         "validity": {
-          "end": "2026-05-20T17:00:00Z",
-          "start": "2026-05-19T23:00:00Z"
+          "end": "2026-08-20T09:00:00Z",
+          "est": true,
+          "start": "2026-05-20T05:35:00Z"
+        }
+      },
+      {
+        "id": "63914851946498273",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1156,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LP",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 370,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ALL AIRCRAFT OWNED, CHARTERED OR OPERATED BY CITIZENS OF THE\r\nRUSSIAN FEDERATION, OPERATORS HOLDING AIR OPERATOR CERTIFICATE (AOC)\r\nISSUED BY THE RUSSIAN FEDERATION AUTHORITIES ARE PROHIBITED TO ENTER,\r\nEXIT OR OVERFLY ESTONIAN AIRSPACE EXCEPT HUMANITARIAN FLIGHTS AND SAR\r\nFLIGHTS WITH THE PERMISSION OF THE ESTONIAN TRANSPORT ADMINISTRATION\r\nAND IN CASE OF EMERGENCY LANDING OR EMERGENCY OVERFLIGHT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-20T09:00:00Z",
+          "est": true,
+          "start": "2026-05-20T05:31:00Z"
         }
       },
       {
@@ -236,74 +278,6 @@
         "validity": {
           "end": "2026-05-31T15:59:00Z",
           "start": "2026-05-19T06:00:00Z"
-        }
-      },
-      {
-        "id": "63914692810418449",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1130,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5752N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 26,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2613B ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T05:59:00Z",
-          "start": "2026-05-19T19:01:00Z"
-        }
-      },
-      {
-        "id": "63914692634031089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1129,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5802N02553E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 23,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T05:59:00Z",
-          "start": "2026-05-19T19:01:00Z"
         }
       },
       {
@@ -683,73 +657,37 @@
         }
       },
       {
-        "id": "63914189770396641",
+        "id": "63914083550477841",
         "levels": {
           "lower": "SFC",
-          "upper": "4500FT AMSL"
+          "upper": "1000FT AMSL"
         },
         "locations": [
-          "EETT"
+          "EEPU"
         ],
         "notamId": {
-          "number": 1069,
+          "number": 1050,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5858N02123E",
+          "coordinate": "5827N02446E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 16,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 45
-        },
-        "schedule": "DAILY 0600-2200",
-        "text": "TEMPO DANGER AREA EED2602 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WI 590006N0205920E - 590318N0215044E - 585524N0213852E -\r\n585318N0205542E - 590006N0205920E. INFO ABOUT ACT AVBL FROM TEL +372\r\n5912 5047 OR +372 5193 7084.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T22:00:00Z",
-          "start": "2026-05-17T06:00:00Z"
-        }
-      },
-      {
-        "id": "63914189413090577",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1067,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5834N02147E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 30,
-          "scope": "W",
+          "radius": 5,
+          "scope": "AW",
           "subject": "RT",
           "traffic": "IV",
-          "upper": 45
+          "upper": 10
         },
-        "schedule": "DAILY 0600-2200",
-        "text": "TEMPO RESTRICTED AREA EER26144UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 590318N0215044E - 585529N0222521E -\r\n583153N0214121E - 580657N0212929E - 581825N0212233E - 583417N0212621E\r\n- 584104N0213614E - 584942N0214200E - 585524N0213852E -\r\n590318N0215044E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5912 5047 OR +372 5193 7084.",
+        "text": "TEMPO RESTRICTED AREA EER2631 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN 6KM RADIUS CENTRED ON 582653N 0244615E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP. PERMISSION FOR ENTERING\r\nTHE AREA AND INFO ABOUT ACT AVBL FROM: +372 5560 4376.",
         "type": "N",
         "validity": {
-          "end": "2026-05-20T22:00:00Z",
-          "start": "2026-05-17T06:00:00Z"
+          "end": "2026-05-21T20:30:00Z",
+          "start": "2026-05-21T04:00:00Z"
         }
       },
       {
@@ -3066,85 +3004,13 @@
           "est": true,
           "start": "2026-02-27T06:37:00Z"
         }
-      },
-      {
-        "id": "63907170503186625",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 371,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 3871,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "ESTONIAN AIR CARRIERS AND CAPTAINS OF AIRCRAFT IN CHARGE OF AIR\r\nSERVICE MANAGED BY CARRIERS HOLDERS OF OPERATING LICENCE ISSUED BY\r\nESTONIA, WHETHER THEY ARE CONTRACTUAL CARRIERS AND OR DE FACTO\r\nCARRIERS, OR PERFORMING AIR SERVICE WITH COMMERCIAL CHARTER AGREEMENT\r\nOR WITH CODE SHARING AND TO ALL FLIGHT PERFORMED WITH ESTONIAN\r\nAIRCRAFT REGISTRATION, ARE REQUESTED TO AVOID MINSK FIR (UMMV).\r\nFOREIGN AIR CARRIERS INBOUND EU ARE RECOMMENDED TO AVOID BELARUS\r\nMINSK FIR(UMMV).\r\nFOR MORE INFORMATION EASA SAFETY DIRECTIVE SD2021-02.",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-20T19:00:00Z",
-          "est": true,
-          "start": "2026-02-20T07:47:00Z"
-        }
-      },
-      {
-        "id": "63907170091283681",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 370,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LP",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 3872,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "ALL AIRCRAFT OWNED, CHARTERED OR OPERATED BY CITIZENS OF THE\r\nRUSSIAN FEDERATION, OPERATORS HOLDING AIR OPERATOR CERTIFICATE (AOC)\r\nISSUED BY THE RUSSIAN FEDERATION AUTHORITIES ARE PROHIBITED TO ENTER,\r\nEXIT OR OVERFLY ESTONIAN AIRSPACE EXCEPT HUMANITARIAN FLIGHTS AND SAR\r\nFLIGHTS WITH THE PERMISSION OF THE ESTONIAN TRANSPORT ADMINISTRATION\r\nAND IN CASE OF EMERGENCY LANDING OR EMERGENCY OVERFLIGHT.",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-20T19:00:00Z",
-          "est": true,
-          "start": "2026-02-20T07:40:00Z"
-        }
       }
     ],
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914814699895809",
-        "number": 685,
+        "id": "63914838758427761",
+        "number": 686,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3172,14 +3038,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-19T19:11:00Z"
+            "time": "2026-05-20T01:52:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63914820613753921",
-        "number": 427,
+        "id": "63914853222836273",
+        "number": 429,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3207,22 +3073,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-19T20:49:00Z"
+            "time": "2026-05-20T05:51:00Z"
           }
         ]
       }
     ]
   },
-  "id": "9c80afa0-86e3-42b3-a858-d6cf515587b1",
-  "identifier": "BRIEFING-20260519-111",
+  "id": "bea08010-1bb1-45ab-a418-594706298aec",
+  "identifier": "BRIEFING-20260520-41",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3263,8 +3129,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-20T23:45:00Z",
-    "validityStart": "2026-05-19T23:45:00Z"
+    "validityEnd": "2026-05-21T06:15:00Z",
+    "validityStart": "2026-05-20T06:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3427,11 +3293,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63914828258436385",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913758547454721",
                   "structureType": "REFERENCE"
                 },
@@ -3470,6 +3331,11 @@
                 {
                   "link": false,
                   "referenceId": "63914425925527649",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914083550477841",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3586,7 +3452,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914814699895809",
+                  "referenceId": "63914838758427761",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3604,11 +3470,6 @@
                 {
                   "link": false,
                   "referenceId": "63914778245557569",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914692810418449",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3678,7 +3539,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914820613753921",
+                  "referenceId": "63914853222836273",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3693,8 +3554,13 @@
         {
           "content": [
             {
-              "link": true,
-              "referenceId": "63914828258436385",
+              "link": false,
+              "referenceId": "63914852146938465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914851946498273",
               "structureType": "REFERENCE"
             },
             {
@@ -3761,16 +3627,6 @@
               "link": false,
               "referenceId": "63907771068043505",
               "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907170503186625",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907170091283681",
-              "structureType": "REFERENCE"
             }
           ],
           "structureType": "SECTION",
@@ -3809,16 +3665,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63914692810418449",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914692634031089",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63914453695175377",
               "structureType": "REFERENCE"
@@ -3849,13 +3695,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63914189770396641",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914189413090577",
+              "link": true,
+              "referenceId": "63914083550477841",
               "structureType": "REFERENCE"
             },
             {
