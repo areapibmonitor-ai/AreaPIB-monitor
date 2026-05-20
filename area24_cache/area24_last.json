@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-20T18:30:00.473Z",
+  "createdAt": "2026-05-20T20:45:00.474Z",
   "dynamicData": {
     "notams": [
       {
@@ -34,6 +34,40 @@
         "validity": {
           "end": "2026-05-22T05:59:00Z",
           "start": "2026-05-21T06:00:00Z"
+        }
+      },
+      {
+        "id": "63914866231599873",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1162,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5802N02553E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 23,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACT.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-22T05:59:00Z",
+          "start": "2026-05-21T19:01:00Z"
         }
       },
       {
@@ -207,40 +241,6 @@
         }
       },
       {
-        "id": "63914778245557569",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1142,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5752N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 26,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2613B ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T19:00:00Z",
-          "start": "2026-05-20T06:00:00Z"
-        }
-      },
-      {
         "id": "63914778058430321",
         "levels": {
           "lower": "SFC",
@@ -272,40 +272,6 @@
         "validity": {
           "end": "2026-05-21T05:59:00Z",
           "start": "2026-05-20T19:01:00Z"
-        }
-      },
-      {
-        "id": "63914777926090865",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1140,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5802N02553E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 23,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2613A ACTIVATED.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 719\r\n1345.\r\nREF AIP SUP 08/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T19:00:00Z",
-          "start": "2026-05-20T06:00:00Z"
         }
       },
       {
@@ -681,40 +647,6 @@
         "validity": {
           "end": "2026-05-21T20:30:00Z",
           "start": "2026-05-21T04:00:00Z"
-        }
-      },
-      {
-        "id": "63914083481789937",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1049,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5826N02417E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPO RESTRICTED AREA EER2630 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WITHIN 5KM RADIUS CENTRED ON 582541N 0241711E.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA EXCLUDING MIL, SAR, HOSP. PERMISSION FOR ENTERING\r\nTHE AREA AND INFO ABOUT ACT AVBL FROM: +372 5560 4376.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-20T20:30:00Z",
-          "start": "2026-05-20T04:00:00Z"
         }
       },
       {
@@ -2968,8 +2900,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914882293463089",
-        "number": 688,
+        "id": "63914905248814849",
+        "number": 689,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2997,14 +2929,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-20T13:57:00Z"
+            "time": "2026-05-20T20:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "3afc8362-c409-49cc-b898-03e2e8ea50a1",
-  "identifier": "BRIEFING-20260520-90",
+  "id": "54f3ba00-788c-42ee-8eb1-0c6e3b962b73",
+  "identifier": "BRIEFING-20260520-99",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3053,8 +2985,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-21T18:30:00Z",
-    "validityStart": "2026-05-20T18:30:00Z"
+    "validityEnd": "2026-05-21T20:45:00Z",
+    "validityStart": "2026-05-20T20:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3264,11 +3196,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914083481789937",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63914080692660417",
                   "structureType": "REFERENCE"
                 },
@@ -3376,7 +3303,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914882293463089",
+                  "referenceId": "63914905248814849",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3394,11 +3321,6 @@
                 {
                   "link": false,
                   "referenceId": "63914778378077393",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63914778245557569",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3565,6 +3487,11 @@
             },
             {
               "link": false,
+              "referenceId": "63914866231599873",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63914865925905489",
               "structureType": "REFERENCE"
             },
@@ -3574,18 +3501,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63914778245557569",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63914778058430321",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914777926090865",
               "structureType": "REFERENCE"
             },
             {
@@ -3616,11 +3533,6 @@
             {
               "link": true,
               "referenceId": "63914083550477841",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63914083481789937",
               "structureType": "REFERENCE"
             },
             {
