@@ -9757,3 +9757,27 @@ REF AIP SUP 08/2026.
 F)SFC G)FL095
 )
 [2026-05-21T11:50:15Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8cc768d402bsm3242856d6.14 - gsmtp')
+[2026-05-21T15:48:40Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0933/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1114/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/022/031/5819N02448E002
+A)EEPU B)2605221200 C)2605241359
+D)22 1200-1659, 23 0500-1659, 24 0500-1359
+E)TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR GUN FIRING ABOVE
+LATERAL LIMITS OF DANGER AREA EED32 KIKEPERA WITHIN:
+581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N
+0244515E - 581915N 0244530E
+INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5303 2206
+F)2200FT AMSL G)3100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1017/26 was removed from the PIB.
+[2026-05-21T15:48:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8cc768dfdf6sm8087006d6.19 - gsmtp')
