@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-22T13:45:00.498Z",
+  "createdAt": "2026-05-22T16:30:00.42Z",
   "dynamicData": {
     "notams": [
       {
@@ -237,40 +237,6 @@
           "end": "2026-08-14T23:59:00Z",
           "est": true,
           "start": "2026-05-15T11:00:00Z"
-        }
-      },
-      {
-        "id": "63914428244349153",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1105,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5853N02216E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "text": "TEMPO RESTRICTED AREA EER26151UAS ESTABLISHED DUE TO UAS ACTIVITY:\r\nENVIRONMENTAL BOARD AERIAL SURVEY OF STRUCTURES WITHIN\r\n585452N 0220651E - 585417N 0222415E - 585216N 0222533E - 585154N\r\n0220651E -  585452N 0220651E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372\r\n5124731.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-22T16:00:00Z",
-          "start": "2026-05-22T05:00:00Z"
         }
       },
       {
@@ -687,40 +653,6 @@
         "validity": {
           "end": "2026-05-31T17:59:00Z",
           "start": "2026-05-15T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913760408724721",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1018,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02329E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "TEMPO RESTRICTED AREA EER2573UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 585620N0232605E - 585627N0233054E -\r\n585217N0233320E - 585041N0232851E - 585620N0232605E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-22T15:00:00Z",
-          "start": "2026-05-12T05:30:00Z"
         }
       },
       {
@@ -2803,8 +2735,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915035306220849",
-        "number": 699,
+        "id": "63915054688633233",
+        "number": 700,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2814,25 +2746,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-22T08:27:00Z"
+            "time": "2026-05-22T13:50:00Z"
           }
         ]
       },
@@ -2873,16 +2805,16 @@
       }
     ]
   },
-  "id": "2f3ea3c8-5278-4e15-9ef2-4294226e9062",
-  "identifier": "BRIEFING-20260522-71",
+  "id": "b5e70c72-5b36-4fb8-b4b6-19b98eb546f6",
+  "identifier": "BRIEFING-20260522-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2923,8 +2855,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-23T13:45:00Z",
-    "validityStart": "2026-05-22T13:45:00Z"
+    "validityEnd": "2026-05-23T16:30:00Z",
+    "validityStart": "2026-05-22T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3226,7 +3158,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915035306220849",
+                  "referenceId": "63915054688633233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3420,11 +3352,6 @@
             },
             {
               "link": false,
-              "referenceId": "63914428244349153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63914339913821345",
               "structureType": "REFERENCE"
             },
@@ -3461,11 +3388,6 @@
             {
               "link": true,
               "referenceId": "63913820589741537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913760408724721",
               "structureType": "REFERENCE"
             },
             {
