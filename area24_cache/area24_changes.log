@@ -9831,3 +9831,14 @@ Expired NOTAMs:
 - NOTAM A1162/26 expired and was removed from the PIB.
 - NOTAM A1163/26 expired and was removed from the PIB.
 [2026-05-22T08:42:03Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30452259de0sm500670eec.22 - gsmtp')
+[2026-05-22T11:34:07Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1177/26 NOTAMN
+Q)EETT/FFCH/IV/NBO/A/000/999/5818N02641E005
+A)EETU B)2605231100 C)2605231230
+E)FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 7
+)
+[2026-05-22T11:34:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30451f20561sm790920eec.10 - gsmtp')

@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-05-22T08:30:02.409Z",
+  "createdAt": "2026-05-22T11:30:05.212Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915041730643633",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1177,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 7",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-23T12:30:00Z",
+          "start": "2026-05-23T11:00:00Z"
+        }
+      },
       {
         "id": "63914949012806001",
         "levels": {
@@ -2940,8 +2970,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63915026083255969",
-        "number": 436,
+        "id": "63915044581627185",
+        "number": 437,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2951,32 +2981,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-22T05:52:00Z"
+            "time": "2026-05-22T11:02:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d6fd0817-b391-45e6-88dc-ec9bbbf7fc02",
-  "identifier": "BRIEFING-20260522-50",
+  "id": "11376f61-4bac-4aa9-99b9-e95752ae7b13",
+  "identifier": "BRIEFING-20260522-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3025,8 +3055,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-23T08:30:00Z",
-    "validityStart": "2026-05-22T08:30:00Z"
+    "validityEnd": "2026-05-23T11:30:00Z",
+    "validityStart": "2026-05-22T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3350,6 +3380,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63915041730643633",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63914949012806001",
                   "structureType": "REFERENCE"
                 },
@@ -3420,7 +3455,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915026083255969",
+                  "referenceId": "63915044581627185",
                   "structureType": "REFERENCE"
                 }
               ],
