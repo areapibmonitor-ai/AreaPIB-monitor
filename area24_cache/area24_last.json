@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-22T01:15:00.529Z",
+  "createdAt": "2026-05-22T05:45:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -2065,6 +2065,41 @@
         }
       },
       {
+        "id": "63912377745705057",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 874,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "02 0600-1500, 03 0500-1700, 08 0500-17 2100, 18 0500-1800, 23\r\n0300-24 1100",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-24T11:00:00Z",
+          "start": "2026-05-02T06:00:00Z"
+        }
+      },
+      {
         "id": "63912270137193697",
         "levels": {
           "lower": "SFC",
@@ -2938,8 +2973,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63914990943564113",
-        "number": 696,
+        "id": "63915010951425633",
+        "number": 697,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2967,14 +3002,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-21T20:00:00Z"
+            "time": "2026-05-22T01:40:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63914993959546321",
-        "number": 434,
+        "id": "63915011335215105",
+        "number": 435,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3002,14 +3037,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-21T20:57:00Z"
+            "time": "2026-05-22T01:47:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c1c6fbf9-ac6f-4e1f-82b6-7ee34ee87615",
-  "identifier": "BRIEFING-20260522-6",
+  "id": "fc82425e-2a03-4045-8d36-5af6bed4fa80",
+  "identifier": "BRIEFING-20260522-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3058,8 +3093,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-23T01:15:00Z",
-    "validityStart": "2026-05-22T01:15:00Z"
+    "validityEnd": "2026-05-23T05:45:00Z",
+    "validityStart": "2026-05-22T05:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3371,7 +3406,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914990943564113",
+                  "referenceId": "63915010951425633",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3458,7 +3493,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914993959546321",
+                  "referenceId": "63915011335215105",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3716,6 +3751,11 @@
             {
               "link": false,
               "referenceId": "63912529287516129",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912377745705057",
               "structureType": "REFERENCE"
             },
             {
