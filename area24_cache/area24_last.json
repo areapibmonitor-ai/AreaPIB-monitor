@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-23T21:30:00.44Z",
+  "createdAt": "2026-05-23T22:30:00.449Z",
   "dynamicData": {
     "notams": [
       {
@@ -352,41 +352,6 @@
           "end": "2026-08-13T09:00:00Z",
           "est": true,
           "start": "2026-05-13T07:45:00Z"
-        }
-      },
-      {
-        "id": "63914187008089713",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1065,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5938N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 15,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 25
-        },
-        "schedule": "DAILY 0600-2200",
-        "text": "TEMPO RESTRICTED AREA EER25112UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 594533N0250628E - 594611N0255108E -\r\n593002N0255224E -\r\n592954N0252749E - THEN ALONG TALLINN TMA 1 (COUNTERCLOCKWISE) -\r\n594252N0250628E - 594533N0250628E. PERMISSION FOR ENTERING THE AREA\r\nSHALL BE OBTAINED FROM TEL +372 5912 5047 OR +372 5193 7084.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-23T22:00:00Z",
-          "start": "2026-05-22T06:00:00Z"
         }
       },
       {
@@ -2404,8 +2369,8 @@
       }
     ]
   },
-  "id": "232fb0fa-f523-4e61-baac-299a0dd4dea1",
-  "identifier": "BRIEFING-20260523-102",
+  "id": "abd53f78-8841-4934-92a6-4fd6e91cb5fb",
+  "identifier": "BRIEFING-20260523-106",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2454,8 +2419,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-24T21:30:00Z",
-    "validityStart": "2026-05-23T21:30:00Z"
+    "validityEnd": "2026-05-24T22:30:00Z",
+    "validityStart": "2026-05-23T22:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2922,11 +2887,6 @@
             {
               "link": false,
               "referenceId": "63914339514090481",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914187008089713",
               "structureType": "REFERENCE"
             },
             {
