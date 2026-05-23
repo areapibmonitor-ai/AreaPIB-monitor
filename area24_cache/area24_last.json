@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-23T20:30:00.44Z",
+  "createdAt": "2026-05-23T21:30:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -787,40 +787,6 @@
           "end": "2026-05-25T14:00:00Z",
           "est": true,
           "start": "2026-05-04T12:20:00Z"
-        }
-      },
-      {
-        "id": "63913484550924721",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 992,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5808N02713E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 15
-        },
-        "text": "TEMPO RESTRICTED AREA EER26145UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI: 581611N 0270509E - 581704N 0271446E - 581444N\r\n0272137E - 580507N 0272717E - 580011N 0272133E - 580214N 0271817E -\r\n580248N 0271458E - 581611N 0270509E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5302\r\n7209.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-23T21:00:00Z",
-          "start": "2026-05-17T09:00:00Z"
         }
       },
       {
@@ -2438,8 +2404,8 @@
       }
     ]
   },
-  "id": "0df6a09a-4f72-40f9-ad26-6045474eac6f",
-  "identifier": "BRIEFING-20260523-98",
+  "id": "232fb0fa-f523-4e61-baac-299a0dd4dea1",
+  "identifier": "BRIEFING-20260523-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2488,8 +2454,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-24T20:30:00Z",
-    "validityStart": "2026-05-23T20:30:00Z"
+    "validityEnd": "2026-05-24T21:30:00Z",
+    "validityStart": "2026-05-23T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2976,11 +2942,6 @@
             {
               "link": false,
               "referenceId": "63913754088206001",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913484550924721",
               "structureType": "REFERENCE"
             },
             {
