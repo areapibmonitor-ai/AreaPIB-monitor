@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-05-23T11:45:00.448Z",
+  "createdAt": "2026-05-23T12:45:00.426Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63915041730643633",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1177,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 7",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-23T12:30:00Z",
-          "start": "2026-05-23T11:00:00Z"
-        }
-      },
       {
         "id": "63914852146938465",
         "locations": [
@@ -616,40 +586,6 @@
         "validity": {
           "end": "2026-05-25T17:00:00Z",
           "start": "2026-05-12T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913680433903233",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1009,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02520E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPO RESTRICTED AREA EER26138UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 583324N 0251551E - 583330N 0252405E -\r\n582807N 0252420E - 582801N 0251607E - 583324N 0251551E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5415\r\n4914.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-23T12:00:00Z",
-          "start": "2026-05-18T05:00:00Z"
         }
       },
       {
@@ -2607,8 +2543,8 @@
       }
     ]
   },
-  "id": "af65d1f3-f3ae-4e9f-82bb-6214922c5f70",
-  "identifier": "BRIEFING-20260523-63",
+  "id": "d03eaba0-131b-481b-9262-422ea2db69c6",
+  "identifier": "BRIEFING-20260523-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2657,8 +2593,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-24T11:45:00Z",
-    "validityStart": "2026-05-23T11:45:00Z"
+    "validityEnd": "2026-05-24T12:45:00Z",
+    "validityStart": "2026-05-23T12:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2967,11 +2903,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63915041730643633",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913820589741537",
                   "structureType": "REFERENCE"
                 },
@@ -3160,11 +3091,6 @@
             {
               "link": false,
               "referenceId": "63913754088206001",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913680433903233",
               "structureType": "REFERENCE"
             },
             {
