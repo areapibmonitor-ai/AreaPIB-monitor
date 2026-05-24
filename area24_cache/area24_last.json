@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-24T01:45:00.433Z",
+  "createdAt": "2026-05-24T08:30:00.422Z",
   "dynamicData": {
     "notams": [
       {
@@ -107,6 +107,40 @@
         "validity": {
           "end": "2026-05-31T15:59:00Z",
           "start": "2026-05-19T06:00:00Z"
+        }
+      },
+      {
+        "id": "63914694614280081",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1132,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "TEMPORARY DANGER AREA EED2007 ACTIVATED FOR GUN FIRING. INFO ABOUT\r\nACTIVATION AVAILABLE FROM TEL +372 5326 4560.\r\nREF AIRAC AIP SUP 07/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-01T19:59:00Z",
+          "start": "2026-05-25T05:00:00Z"
         }
       },
       {
@@ -352,6 +386,76 @@
           "end": "2026-08-13T09:00:00Z",
           "est": true,
           "start": "2026-05-13T07:45:00Z"
+        }
+      },
+      {
+        "id": "63914105406833473",
+        "levels": {
+          "lower": "SFC",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1056,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02717E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "schedule": "DAILY 0500-1400",
+        "text": "TEMPO RESTRICTED AREA EER2575UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 6.5KM RADIUS CENTRED ON 574900N 0271700E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 512\r\n3386.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-29T14:00:00Z",
+          "start": "2026-05-25T05:00:00Z"
+        }
+      },
+      {
+        "id": "63914105254198321",
+        "levels": {
+          "lower": "SFC",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1054,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5748N02652E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "schedule": "DAILY 0500-1400",
+        "text": "TEMPO RESTRICTED AREA EER2589UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WI 8KM RADIUS CENTRED ON 574817N 0265154E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 512\r\n3386.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-29T14:00:00Z",
+          "start": "2026-05-25T05:00:00Z"
         }
       },
       {
@@ -1702,6 +1806,40 @@
         }
       },
       {
+        "id": "63910735021046337",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 766,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "TRIGGER NOTAM - AIRAC AIP SUP 07/2026 WEF 14 MAY 2026 TIL 02 JUN\r\n2026.\r\n- ESTABLISHMENT OF TEMPORARY DANGER AREA EED2007.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-01T19:59:00Z",
+          "start": "2026-05-25T05:00:00Z"
+        }
+      },
+      {
         "id": "63910733604561393",
         "locations": [
           "EETT"
@@ -2368,8 +2506,43 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915178653086273",
-        "number": 707,
+        "id": "63915201428461201",
+        "number": 709,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-05-24T06:35:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63915200253841121",
+        "number": 440,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2397,14 +2570,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-24T00:12:00Z"
+            "time": "2026-05-24T06:16:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ad9e663f-c409-4c5e-954c-e0c2da7ed5a0",
-  "identifier": "BRIEFING-20260524-8",
+  "id": "641fd8ab-49ff-4541-ad4f-dabe8b2fcf9c",
+  "identifier": "BRIEFING-20260524-50",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2453,8 +2626,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-25T01:45:00Z",
-    "validityStart": "2026-05-24T01:45:00Z"
+    "validityEnd": "2026-05-25T08:30:00Z",
+    "validityStart": "2026-05-24T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2756,7 +2929,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915178653086273",
+                  "referenceId": "63915201428461201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2804,6 +2977,11 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63915200253841121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2904,6 +3082,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63914694614280081",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63914445536030225",
               "structureType": "REFERENCE"
@@ -2921,6 +3104,16 @@
             {
               "link": false,
               "referenceId": "63914339514090481",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914105406833473",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914105254198321",
               "structureType": "REFERENCE"
             },
             {
@@ -3011,6 +3204,11 @@
             {
               "link": true,
               "referenceId": "63911327237386257",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63910735021046337",
               "structureType": "REFERENCE"
             },
             {
