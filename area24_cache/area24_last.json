@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-24T23:15:00.505Z",
+  "createdAt": "2026-05-25T01:30:00.434Z",
   "dynamicData": {
     "notams": [
       {
@@ -490,6 +490,41 @@
         }
       },
       {
+        "id": "63913820589741537",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1900FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1025,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5816N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 19
+        },
+        "schedule": "15-17 0500-1859, 18 0500-1659, 19 0500-1159, 21 0600-1459, 22\r\n0500-0959, 23 0500-1659, 26 0600-1659, 27 0700-1459, 28 0600-1359, 30\r\n0600-1559, 31 0500-1759",
+        "text": "DANGER AREA EED2 UNIKULA ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 525 8504.\r\nAREA DEACTIVATION IS POSSIBLE BY ATS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T17:59:00Z",
+          "start": "2026-05-15T05:00:00Z"
+        }
+      },
+      {
         "id": "63913754088206001",
         "levels": {
           "lower": "SFC",
@@ -617,6 +652,41 @@
           "end": "2026-08-06T12:30:00Z",
           "est": true,
           "start": "2026-05-06T09:45:00Z"
+        }
+      },
+      {
+        "id": "63913651081841345",
+        "levels": {
+          "lower": "SFC",
+          "upper": "9200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1007,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "13 1100-1559, 16 0500-1559, 17 1400-23 1359, 26 27 0500-1359",
+        "text": "DANGER AREA EED4 NURSIPALU 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-27T13:59:00Z",
+          "start": "2026-05-13T11:00:00Z"
         }
       },
       {
@@ -1183,41 +1253,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-28T05:23:00Z"
-        }
-      },
-      {
-        "id": "63912867828809489",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 932,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800",
-        "text": "DANGER AREA EED5 KILTSI ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-31T18:00:00Z",
-          "start": "2026-05-02T07:00:00Z"
         }
       },
       {
@@ -2468,16 +2503,16 @@
       }
     ]
   },
-  "id": "b4040f96-6bdc-4e4f-9b03-71e75092e8cd",
-  "identifier": "BRIEFING-20260524-109",
+  "id": "91ad81ff-308d-4012-9803-bf7f415714c5",
+  "identifier": "BRIEFING-20260525-7",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2518,8 +2553,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-25T23:15:00Z",
-    "validityStart": "2026-05-24T23:15:00Z"
+    "validityEnd": "2026-05-26T01:30:00Z",
+    "validityStart": "2026-05-25T01:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2833,6 +2868,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63913820589741537",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913041732450721",
                   "structureType": "REFERENCE"
                 },
@@ -3009,8 +3049,18 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": true,
+              "referenceId": "63913820589741537",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63913754088206001",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913651081841345",
               "structureType": "REFERENCE"
             },
             {
@@ -3031,11 +3081,6 @@
             {
               "link": false,
               "referenceId": "63912950288093649",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
             {
