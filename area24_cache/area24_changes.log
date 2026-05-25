@@ -10181,3 +10181,22 @@ A)EEPU B)2605251241 C)2605291300
 E)CEILOMETER RWY 03 U/S.
 )
 [2026-05-25T14:15:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30451ef4afdsm8016041eec.5 - gsmtp')
+[2026-05-25T18:13:22Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1010/26 expired and was removed from the PIB.
+- NOTAM A1011/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1133/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/023/5749N02648E004
+A)EETT B)2605261400 C)2605301359
+D)26 27 1400-1759, 28 0700-1259, 29 0700-1659, 30 0500-1359
+E)DANGER AREA EED4 NURSIPALU 2 ACTIVATED. CHANGED VERTICAL LIMITS
+DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.
+F)SFC G)2300FT AMSL
+)
+[2026-05-25T18:13:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8cc80decd31sm114157996d6.13 - gsmtp')

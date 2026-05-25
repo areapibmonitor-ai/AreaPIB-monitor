@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-25T14:00:00.385Z",
+  "createdAt": "2026-05-25T18:00:00.466Z",
   "dynamicData": {
     "notams": [
       {
@@ -360,6 +360,41 @@
         }
       },
       {
+        "id": "63914698033441553",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1133,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "26 27 1400-1759, 28 0700-1259, 29 0700-1659, 30 0500-1359",
+        "text": "DANGER AREA EED4 NURSIPALU 2 ACTIVATED. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-30T13:59:00Z",
+          "start": "2026-05-26T14:00:00Z"
+        }
+      },
+      {
         "id": "63914694614280081",
         "levels": {
           "lower": "SFC",
@@ -706,66 +741,6 @@
         "validity": {
           "end": "2026-05-31T17:59:00Z",
           "start": "2026-05-15T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913729593167729",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1011,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5748N02718E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 4,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 165
-        },
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN:\r\n5KM RADIUS CENTRED ON 574750N 0271738E FROM SFC UP TO FL165.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-25T17:00:00Z",
-          "start": "2026-05-12T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913729083793409",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1010,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5749N02649E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 165
-        },
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN: 8KM\r\nRADIUS CENTRED ON 574840N 0264840E FROM SFC UP TO FL165.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-25T17:00:00Z",
-          "start": "2026-05-12T05:00:00Z"
         }
       },
       {
@@ -2412,16 +2387,16 @@
       }
     ]
   },
-  "id": "27b881b5-cee8-44e7-9d0e-adc78bda1745",
-  "identifier": "BRIEFING-20260525-72",
+  "id": "539bcee3-c5c5-449d-a132-1d9e811a738c",
+  "identifier": "BRIEFING-20260525-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2462,8 +2437,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-26T14:00:00Z",
-    "validityStart": "2026-05-25T14:00:00Z"
+    "validityEnd": "2026-05-26T18:00:00Z",
+    "validityStart": "2026-05-25T18:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2837,16 +2812,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63913729593167729",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913729083793409",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63913042046400833",
               "structureType": "REFERENCE"
@@ -2910,6 +2875,11 @@
             {
               "link": true,
               "referenceId": "63914703208094193",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914698033441553",
               "structureType": "REFERENCE"
             },
             {
