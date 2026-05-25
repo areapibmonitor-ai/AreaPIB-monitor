@@ -10165,3 +10165,19 @@ BIRD WEIGHT - UP TO 8000 GRAMS.
 MAIN MOVING DIRECTION - N, E.
 )
 [2026-05-25T10:52:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30451f20e71sm7440920eec.12 - gsmtp')
+[2026-05-25T14:15:07Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1201/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A1103/26 was replaced with NOTAM A1217/26.
+AFTN: (A1217/26 NOTAMR A1103/26
+
+(A1217/26 NOTAMR A1103/26
+Q)EETT/FCAS/IV/M/A/000/999/5825N02428E005
+A)EEPU B)2605251241 C)2605291300
+E)CEILOMETER RWY 03 U/S.
+)
+[2026-05-25T14:15:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30451ef4afdsm8016041eec.5 - gsmtp')

@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-05-25T10:45:00.429Z",
+  "createdAt": "2026-05-25T14:00:00.385Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915309728727057",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1217,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FC",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1103,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CEILOMETER RWY 03 U/S.",
+        "type": "R",
+        "validity": {
+          "end": "2026-05-29T13:00:00Z",
+          "est": true,
+          "start": "2026-05-25T12:41:00Z"
+        }
+      },
       {
         "id": "63915286226780833",
         "locations": [
@@ -180,36 +216,6 @@
           "end": "2026-07-24T07:00:00Z",
           "est": true,
           "start": "2026-05-25T05:47:00Z"
-        }
-      },
-      {
-        "id": "63915215897307185",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1201,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUEL JET A1 NOT AVAILABLE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-25T14:00:00Z",
-          "start": "2026-05-24T13:00:00Z"
         }
       },
       {
@@ -416,42 +422,6 @@
           "end": "2026-08-14T23:59:00Z",
           "est": true,
           "start": "2026-05-15T11:00:00Z"
-        }
-      },
-      {
-        "id": "63914425925527649",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1103,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FC",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1063,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CEILOMETER RWY 03 U/S.",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-27T12:00:00Z",
-          "est": true,
-          "start": "2026-05-15T07:11:00Z"
         }
       },
       {
@@ -2407,8 +2377,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915289227145985",
-        "number": 715,
+        "id": "63915314394831345",
+        "number": 716,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2436,49 +2406,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-25T06:58:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63915285566142481",
-        "number": 444,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-05-25T05:57:00Z"
+            "time": "2026-05-25T13:58:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c755663a-b487-4a43-b23f-23062232fdb5",
-  "identifier": "BRIEFING-20260525-59",
+  "id": "27b881b5-cee8-44e7-9d0e-adc78bda1745",
+  "identifier": "BRIEFING-20260525-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2527,8 +2462,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-26T10:45:00Z",
-    "validityStart": "2026-05-25T10:45:00Z"
+    "validityEnd": "2026-05-26T14:00:00Z",
+    "validityStart": "2026-05-25T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2708,7 +2643,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63914425925527649",
+                  "referenceId": "63915309728727057",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2820,7 +2755,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915289227145985",
+                  "referenceId": "63915314394831345",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2830,11 +2765,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63915215897307185",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63913820589741537",
@@ -2878,11 +2808,6 @@
                 {
                   "link": false,
                   "referenceId": "63908210701561121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63915285566142481",
                   "structureType": "REFERENCE"
                 }
               ],
