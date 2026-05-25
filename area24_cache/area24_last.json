@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-05-25T01:30:00.434Z",
+  "createdAt": "2026-05-25T06:00:00.536Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915284864602369",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1203,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 668,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - DUCKS, LAPWINGS, GULLS, CROWS, LARKS AND SPARROWS.\r\nMAX FLOCK SIZE - 50 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-24T07:00:00Z",
+          "est": true,
+          "start": "2026-05-25T05:47:00Z"
+        }
+      },
       {
         "id": "63915215897307185",
         "locations": [
@@ -30,6 +66,40 @@
         "validity": {
           "end": "2026-05-25T14:00:00Z",
           "start": "2026-05-24T13:00:00Z"
+        }
+      },
+      {
+        "id": "63915046037849153",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1195,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02742E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 43
+        },
+        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-28T13:59:00Z",
+          "start": "2026-05-26T05:00:00Z"
         }
       },
       {
@@ -525,40 +595,6 @@
         }
       },
       {
-        "id": "63913754088206001",
-        "levels": {
-          "lower": "SFC",
-          "upper": "14700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1013,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-25T04:59:00Z",
-          "start": "2026-05-14T03:00:00Z"
-        }
-      },
-      {
         "id": "63913729593167729",
         "locations": [
           "EETT"
@@ -979,42 +1015,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-30T14:00:00Z"
-        }
-      },
-      {
-        "id": "63913147779312385",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 966,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 740,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AERODROME AND VICINITY OF AERODROME FROM\r\nSURFACE UP TO 1500FT AMSL.\r\nTYPES OF BIRDS - LARKS, DUCKS, LAPWINGS, CRANES, GEESE.\r\nMAIN MOVING DIRECTION NE - SW.",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-25T13:00:00Z",
-          "est": true,
-          "start": "2026-04-30T12:08:00Z"
         }
       },
       {
@@ -1988,37 +1988,6 @@
         }
       },
       {
-        "id": "63910017532572913",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 668,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - GULLS AND COMMON CRANES.\r\nMAX FLOCK SIZE - 100 BIRDS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-25T07:00:00Z",
-          "est": true,
-          "start": "2026-03-25T06:40:00Z"
-        }
-      },
-      {
         "id": "63909867536505009",
         "locations": [
           "EETN"
@@ -2433,8 +2402,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915247840402657",
-        "number": 711,
+        "id": "63915280862817329",
+        "number": 714,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2444,9 +2413,9 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
@@ -2462,14 +2431,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-24T19:29:00Z"
+            "time": "2026-05-25T04:39:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915253784850865",
-        "number": 442,
+        "id": "63915285566142481",
+        "number": 444,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2497,14 +2466,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-24T21:08:00Z"
+            "time": "2026-05-25T05:57:00Z"
           }
         ]
       }
     ]
   },
-  "id": "91ad81ff-308d-4012-9803-bf7f415714c5",
-  "identifier": "BRIEFING-20260525-7",
+  "id": "d2b711f1-5e51-4cef-9de1-dad9d19936c5",
+  "identifier": "BRIEFING-20260525-40",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2553,8 +2522,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-26T01:30:00Z",
-    "validityStart": "2026-05-25T01:30:00Z"
+    "validityEnd": "2026-05-26T06:00:00Z",
+    "validityStart": "2026-05-25T06:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2675,6 +2644,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63915284864602369",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913646413635953",
                   "structureType": "REFERENCE"
                 },
@@ -2690,17 +2664,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913147779312385",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913129150468017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63910017532572913",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2851,7 +2815,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915247840402657",
+                  "referenceId": "63915280862817329",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2913,7 +2877,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915253784850865",
+                  "referenceId": "63915285566142481",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3009,6 +2973,11 @@
         {
           "content": [
             {
+              "link": false,
+              "referenceId": "63915046037849153",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63914703208094193",
               "structureType": "REFERENCE"
@@ -3051,11 +3020,6 @@
             {
               "link": true,
               "referenceId": "63913820589741537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63913754088206001",
               "structureType": "REFERENCE"
             },
             {

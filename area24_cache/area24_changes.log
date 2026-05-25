@@ -10077,3 +10077,37 @@ F)SFC G)1900FT AMSL
 Other removals:
 - NOTAM A0932/26 was removed from the PIB.
 [2026-05-25T01:34:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-516d8b0023bsm84408551cf.1 - gsmtp')
+[2026-05-25T06:08:43Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1013/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A0668/26 was replaced with NOTAM A1203/26.
+AFTN: (A1203/26 NOTAMR A0668/26
+
+(A1203/26 NOTAMR A0668/26
+Q)EETT/FAHX/IV/NBO/A/000/999/5859N02250E005
+A)EEKA B)2605250547 C)2607240700
+E)CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.
+TYPE OF BIRDS - DUCKS, LAPWINGS, GULLS, CROWS, LARKS AND SPARROWS.
+MAX FLOCK SIZE - 50 BIRDS.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1195/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/043/5918N02742E005
+A)EETT B)2605260500 C)2605281359
+E)DANGER AREA EED17 SIRGALA 2 ACTIVATED.
+CHANGED VERTICAL LIMITS DURING ACTIVATION.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.
+F)SFC G)4300FT AMSL
+)
+
+
+Other removals:
+- NOTAM A0966/26 was removed from the PIB.
+[2026-05-25T06:08:43Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30451f20561sm6570189eec.10 - gsmtp')
