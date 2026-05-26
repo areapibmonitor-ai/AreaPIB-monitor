@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-25T23:45:00.464Z",
+  "createdAt": "2026-05-26T04:15:00.433Z",
   "dynamicData": {
     "notams": [
       {
@@ -1206,6 +1206,41 @@
         }
       },
       {
+        "id": "63912867828809489",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 932,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800",
+        "text": "DANGER AREA EED5 KILTSI ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T18:00:00Z",
+          "start": "2026-05-02T07:00:00Z"
+        }
+      },
+      {
         "id": "63912623143305457",
         "locations": [
           "EETU"
@@ -2352,8 +2387,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915334224875169",
-        "number": 717,
+        "id": "63915356430175601",
+        "number": 718,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2381,14 +2416,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-25T19:29:00Z"
+            "time": "2026-05-26T01:39:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915339979338977",
-        "number": 445,
+        "id": "63915358473203745",
+        "number": 446,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2416,22 +2451,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-25T21:05:00Z"
+            "time": "2026-05-26T02:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "5c3f532a-6ed2-46ec-873c-5b0fce2667ce",
-  "identifier": "BRIEFING-20260525-111",
+  "id": "17f51bfe-3738-44aa-9328-b2bef8103ea2",
+  "identifier": "BRIEFING-20260526-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2472,8 +2507,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-26T23:45:00Z",
-    "validityStart": "2026-05-25T23:45:00Z"
+    "validityEnd": "2026-05-27T04:15:00Z",
+    "validityStart": "2026-05-26T04:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2765,7 +2800,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915334224875169",
+                  "referenceId": "63915356430175601",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2822,7 +2857,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915339979338977",
+                  "referenceId": "63915358473203745",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2985,6 +3020,11 @@
             {
               "link": false,
               "referenceId": "63912950288093649",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
             {
