@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-26T04:15:00.433Z",
+  "createdAt": "2026-05-26T08:00:00.46Z",
   "dynamicData": {
     "notams": [
       {
@@ -253,6 +253,41 @@
         }
       },
       {
+        "id": "63915038696622673",
+        "levels": {
+          "lower": "SFC",
+          "upper": "35000FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1176,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5940N02628E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 351
+        },
+        "schedule": "27 0500-1700, 28 0500-29 1700, 30 31 0500-1700",
+        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5342 5760.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T17:00:00Z",
+          "start": "2026-05-27T05:00:00Z"
+        }
+      },
+      {
         "id": "63914852146938465",
         "locations": [
           "EETT"
@@ -325,6 +360,76 @@
         }
       },
       {
+        "id": "63914795876659025",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1150,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5936N02422E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "27 0700-1259, 28 0800-1359",
+        "text": "DANGER AREA EED23 NAISSAAR ACTIVATED. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-28T13:59:00Z",
+          "start": "2026-05-27T07:00:00Z"
+        }
+      },
+      {
+        "id": "63914795703220257",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1149,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02655E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 11
+        },
+        "schedule": "27 0500-1359, 30 0500-1359",
+        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-30T13:59:00Z",
+          "start": "2026-05-27T05:00:00Z"
+        }
+      },
+      {
         "id": "63914703208094193",
         "levels": {
           "lower": "SFC",
@@ -357,6 +462,36 @@
         "validity": {
           "end": "2026-05-31T15:59:00Z",
           "start": "2026-05-19T06:00:00Z"
+        }
+      },
+      {
+        "id": "63914700550090577",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1134,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5933N02620E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 4,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 165
+        },
+        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN: 5KM\r\nRADIUS CENTRED ON 593317N 0261953E FROM SFC UP TO FL165.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-29T15:00:00Z",
+          "start": "2026-05-27T05:00:00Z"
         }
       },
       {
@@ -2387,8 +2522,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915356430175601",
-        "number": 718,
+        "id": "63915378800818961",
+        "number": 719,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2416,14 +2551,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-26T01:39:00Z"
+            "time": "2026-05-26T07:52:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915358473203745",
-        "number": 446,
+        "id": "63915372216467633",
+        "number": 447,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2451,14 +2586,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-26T02:11:00Z"
+            "time": "2026-05-26T05:58:00Z"
           }
         ]
       }
     ]
   },
-  "id": "17f51bfe-3738-44aa-9328-b2bef8103ea2",
-  "identifier": "BRIEFING-20260526-31",
+  "id": "a6147d40-9445-4cb3-b154-528732f94b3e",
+  "identifier": "BRIEFING-20260526-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2507,8 +2642,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-27T04:15:00Z",
-    "validityStart": "2026-05-26T04:15:00Z"
+    "validityEnd": "2026-05-27T08:00:00Z",
+    "validityStart": "2026-05-26T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2800,7 +2935,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915356430175601",
+                  "referenceId": "63915378800818961",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2857,7 +2992,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915358473203745",
+                  "referenceId": "63915372216467633",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2879,6 +3014,11 @@
             {
               "link": false,
               "referenceId": "63914851946498273",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914700550090577",
               "structureType": "REFERENCE"
             },
             {
@@ -2945,6 +3085,21 @@
             {
               "link": false,
               "referenceId": "63915046037849153",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915038696622673",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914795876659025",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914795703220257",
               "structureType": "REFERENCE"
             },
             {
