@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-05-27T00:15:00.435Z",
+  "createdAt": "2026-05-27T08:45:00.476Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915463295057601",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1229,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 442,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "MILITARY INVASION OF UKRAINE BY RUSSIAN FEDERATION. ESTONIAN AIR\r\nOPERATORS AND OWNERS OF AIRCRAFT REGISTERED IN ESTONIA SHALL NOT\r\nENTER UIR KYIV (UKBU), FIR LVIV (UKLV), FIR KYIV(UKBV), FIR\r\nDNIPROPETROVSK (UKDV), FIR SIMFEROPOL (UKFV), FIR ODESA(UKOV), FIR\r\nROSTOV (URRV). SAID OPERATORS AND AIRCRAFT OWNERS SHALL ALSO AVOID\r\nFLIGHT OPERATIONS WITHIN THE BUFFER ZONE EXTENDING OUT TO 200NM ALONG\r\nTHE UKRAINE/RUSSIA BORDER. OPERATIONS WITHIN THE FIR CHISINAU (LUUU)\r\nAIRSPACE SHALL ONLY BE UNDERTAKEN IN COMPLIANCE WITH APPLICABLE\r\nAERONAUTICAL PUBLICATIONS ISSUED BY REPUBLIC OF MOLDOVA. ADDITIONAL\r\nRISK ASSESSMENT AND FLIGHT PLANNING DECISIONS SHALL BE TAKEN BEFORE\r\nOPERATING IN THE FOLLOWING AIRSPACE: MOSCOW (UUWV).",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-27T12:00:00Z",
+          "est": true,
+          "start": "2026-05-27T07:18:00Z"
+        }
+      },
       {
         "id": "63915309728727057",
         "locations": [
@@ -1070,6 +1106,40 @@
           "end": "2026-06-04T12:00:00Z",
           "est": true,
           "start": "2026-05-04T07:35:00Z"
+        }
+      },
+      {
+        "id": "63913475208441953",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 979,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA  EED9 VALUSTE ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-28T14:00:00Z",
+          "start": "2026-05-28T05:00:00Z"
         }
       },
       {
@@ -2481,49 +2551,13 @@
           "end": "2026-05-29T23:59:00Z",
           "start": "2026-03-04T08:42:00Z"
         }
-      },
-      {
-        "id": "63907771068043505",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 442,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 3914,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "MILITARY INVASION OF UKRAINE BY RUSSIAN FEDERATION. ESTONIAN AIR\r\nOPERATORS AND OWNERS OF AIRCRAFT REGISTERED IN ESTONIA SHALL NOT\r\nENTER UIR KYIV (UKBU), FIR LVIV (UKLV), FIR KYIV(UKBV),FIR\r\nDNIPROPETROVSK (UKDV), FIR SIMFEROPOL (UKFV), FIR ODESA(UKOV),FIR\r\nROSTOV (URRV). SAID OPERATORS AND AIRCRAFT OWNERS SHALL ALSO AVOID\r\nFLIGHT OPERATIONS WITHIN THE BUFFER ZONE EXTENDING OUT TO 200NM ALONG\r\nTHE UKRAINE/RUSSIA BORDER. OPERATIONS WITHIN THE FIR CHISINAU (LUUU)\r\nAIRSPACE SHALL ONLY BE UNDERTAKEN IN COMPLIANCE WITH APPLICABLE\r\nAERONAUTICAL PUBLICATIONS ISSUED BY REPUBLIC OF MOLDOVA. ADDITIONAL\r\nRISK ASSESSMENT AND FLIGHT PLANNING DECISIONS SHALL BE TAKEN BEFORE\r\nOPERATING IN THE FOLLOWING AIRSPACE: MOSCOW (UUWV).",
-        "type": "R",
-        "validity": {
-          "end": "2026-05-27T12:00:00Z",
-          "est": true,
-          "start": "2026-02-27T06:37:00Z"
-        }
       }
     ],
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915412343520209",
-        "number": 722,
+        "id": "63915460734164193",
+        "number": 725,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2551,14 +2585,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-26T17:11:00Z"
+            "time": "2026-05-27T06:37:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63884255430569009",
-        "number": 448,
+        "id": "63915464806286737",
+        "number": 451,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2586,14 +2620,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-26T21:06:00Z"
+            "time": "2026-05-27T07:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d4b2a034-3e48-4d61-bdc3-de1dd7571f47",
-  "identifier": "BRIEFING-20260527-2",
+  "id": "b965fdb1-6fd6-4cba-b1ef-31075377b77d",
+  "identifier": "BRIEFING-20260527-51",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2642,8 +2676,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-28T00:15:00Z",
-    "validityStart": "2026-05-27T00:15:00Z"
+    "validityEnd": "2026-05-28T08:45:00Z",
+    "validityStart": "2026-05-27T08:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2935,7 +2969,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915412343520209",
+                  "referenceId": "63915460734164193",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2992,7 +3026,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63884255430569009",
+                  "referenceId": "63915464806286737",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3006,6 +3040,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63915463295057601",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63914852146938465",
@@ -3069,11 +3108,6 @@
             {
               "link": true,
               "referenceId": "63908744510072817",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63907771068043505",
               "structureType": "REFERENCE"
             }
           ],
@@ -3155,6 +3189,11 @@
             {
               "link": false,
               "referenceId": "63913651081841345",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63913475208441953",
               "structureType": "REFERENCE"
             },
             {
