@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-27T22:45:00.426Z",
+  "createdAt": "2026-05-27T23:45:00.491Z",
   "dynamicData": {
     "notams": [
       {
@@ -872,6 +872,36 @@
         "validity": {
           "end": "2026-05-31T13:59:00Z",
           "start": "2026-05-18T07:00:00Z"
+        }
+      },
+      {
+        "id": "63913836655160833",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1035,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 08/26 CLSD DUE TO MAINTENANCE WORKS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-29T02:15:00Z",
+          "start": "2026-05-28T23:00:00Z"
         }
       },
       {
@@ -2621,8 +2651,8 @@
       }
     ]
   },
-  "id": "08ec2969-b60d-4054-9a8f-15bc34208e64",
-  "identifier": "BRIEFING-20260527-107",
+  "id": "111473ce-8d92-4bb8-a2cc-7362953f18ac",
+  "identifier": "BRIEFING-20260527-111",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2671,8 +2701,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-28T22:45:00Z",
-    "validityStart": "2026-05-27T22:45:00Z"
+    "validityEnd": "2026-05-28T23:45:00Z",
+    "validityStart": "2026-05-27T23:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2900,6 +2930,11 @@
                 {
                   "link": false,
                   "referenceId": "63914438030284049",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63913836655160833",
                   "structureType": "REFERENCE"
                 },
                 {
