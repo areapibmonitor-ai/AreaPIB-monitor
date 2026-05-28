@@ -10328,3 +10328,14 @@ A)EETN B)2605282300 C)2605290215
 E)RWY 08/26 CLSD DUE TO MAINTENANCE WORKS.
 )
 [2026-05-27T23:52:04Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30452461cb5sm20566568eec.31 - gsmtp')
+[2026-05-28T04:24:06Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A0762/26 expired and was removed from the PIB.
+- NOTAM A0763/26 expired and was removed from the PIB.
+- NOTAM A0764/26 expired and was removed from the PIB.
+
+Other removals:
+- NOTAM A1149/26 was removed from the PIB.
+[2026-05-28T04:24:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-914f8801390sm754360185a.36 - gsmtp')

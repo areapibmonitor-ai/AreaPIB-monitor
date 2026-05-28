@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-27T23:45:00.491Z",
+  "createdAt": "2026-05-28T04:15:00.437Z",
   "dynamicData": {
     "notams": [
       {
@@ -458,41 +458,6 @@
         "validity": {
           "end": "2026-05-28T13:59:00Z",
           "start": "2026-05-27T07:00:00Z"
-        }
-      },
-      {
-        "id": "63914795703220257",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1149,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "27 0500-1359, 30 0500-1359",
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-30T13:59:00Z",
-          "start": "2026-05-27T05:00:00Z"
         }
       },
       {
@@ -1982,96 +1947,6 @@
         }
       },
       {
-        "id": "63910733604561393",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 764,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 1 OBSTACLES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-27T23:59:00Z",
-          "start": "2026-05-14T00:00:00Z"
-        }
-      },
-      {
-        "id": "63910733345900433",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 763,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 2 AERODROME OBSTACLES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-27T23:59:00Z",
-          "start": "2026-05-14T00:00:00Z"
-        }
-      },
-      {
-        "id": "63910732946400609",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 762,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PD",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 05/2026 WEF 14 MAY 2026.\r\n-UPDATED AREA 2 AERODROME OBSTACLES.\r\n-UPDATED RNAV SID PROCEDURES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-27T23:59:00Z",
-          "start": "2026-05-14T00:00:00Z"
-        }
-      },
-      {
         "id": "63910554069717633",
         "locations": [
           "EEEI"
@@ -2581,8 +2456,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915517309797025",
-        "number": 729,
+        "id": "63915531039810161",
+        "number": 730,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2599,25 +2474,25 @@
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-27T22:20:00Z"
+            "time": "2026-05-28T02:08:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915512338454753",
-        "number": 453,
+        "id": "63915529249399201",
+        "number": 454,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2641,26 +2516,26 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-27T20:58:00Z"
+            "time": "2026-05-28T01:38:00Z"
           }
         ]
       }
     ]
   },
-  "id": "111473ce-8d92-4bb8-a2cc-7362953f18ac",
-  "identifier": "BRIEFING-20260527-111",
+  "id": "dc5d0e42-6cdf-4d32-a706-c142e3e24331",
+  "identifier": "BRIEFING-20260528-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2701,8 +2576,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-28T23:45:00Z",
-    "validityStart": "2026-05-27T23:45:00Z"
+    "validityEnd": "2026-05-29T04:15:00Z",
+    "validityStart": "2026-05-28T04:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2964,11 +2839,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910733345900433",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63909867536505009",
                   "structureType": "REFERENCE"
                 },
@@ -2999,7 +2869,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915517309797025",
+                  "referenceId": "63915531039810161",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3036,11 +2906,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63910732946400609",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63910227514438113",
                   "structureType": "REFERENCE"
                 },
@@ -3061,7 +2926,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915512338454753",
+                  "referenceId": "63915529249399201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3126,11 +2991,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63910733604561393",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63908993488381681",
               "structureType": "REFERENCE"
@@ -3164,11 +3024,6 @@
             {
               "link": false,
               "referenceId": "63914795876659025",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914795703220257",
               "structureType": "REFERENCE"
             },
             {
