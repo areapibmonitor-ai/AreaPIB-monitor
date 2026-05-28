@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-05-28T04:15:00.437Z",
+  "createdAt": "2026-05-28T08:15:00.509Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63915482999080993",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1237,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 7.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-28T07:30:00Z",
-          "start": "2026-05-28T06:30:00Z"
-        }
-      },
       {
         "id": "63915463295057601",
         "locations": [
@@ -282,6 +252,40 @@
           "end": "2026-07-24T07:00:00Z",
           "est": true,
           "start": "2026-05-25T05:47:00Z"
+        }
+      },
+      {
+        "id": "63915046706993585",
+        "levels": {
+          "lower": "SFC",
+          "upper": "15400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1196,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02742E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 154
+        },
+        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-30T11:59:00Z",
+          "start": "2026-05-29T06:00:00Z"
         }
       },
       {
@@ -2456,8 +2460,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915531039810161",
-        "number": 730,
+        "id": "63915551731705537",
+        "number": 731,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2485,14 +2489,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-28T02:08:00Z"
+            "time": "2026-05-28T07:54:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915529249399201",
-        "number": 454,
+        "id": "63915544798211473",
+        "number": 455,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2502,32 +2506,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-28T01:38:00Z"
+            "time": "2026-05-28T05:56:00Z"
           }
         ]
       }
     ]
   },
-  "id": "dc5d0e42-6cdf-4d32-a706-c142e3e24331",
-  "identifier": "BRIEFING-20260528-31",
+  "id": "0df30463-fd48-4aa0-917c-8068f622fc36",
+  "identifier": "BRIEFING-20260528-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2576,8 +2580,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-29T04:15:00Z",
-    "validityStart": "2026-05-28T04:15:00Z"
+    "validityEnd": "2026-05-29T08:15:00Z",
+    "validityStart": "2026-05-28T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2869,7 +2873,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915531039810161",
+                  "referenceId": "63915551731705537",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2879,11 +2883,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63915482999080993",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63913820589741537",
@@ -2926,7 +2925,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915529249399201",
+                  "referenceId": "63915544798211473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3011,6 +3010,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63915046706993585",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63915046037849153",
