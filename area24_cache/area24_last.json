@@ -1,7 +1,72 @@
 {
-  "createdAt": "2026-05-29T04:45:00.39Z",
+  "createdAt": "2026-05-29T08:30:00.423Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915638841022881",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1253,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUEL JET A1 NOT AVAILABLE",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-03T11:00:00Z",
+          "start": "2026-05-29T08:10:00Z"
+        }
+      },
+      {
+        "id": "63915632255999025",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL420"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1246,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LW",
+          "coordinate": "5927N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 15,
+          "scope": "AW",
+          "subject": "WO",
+          "traffic": "IV",
+          "upper": 420
+        },
+        "schedule": "29 1900-2359, 30 1800-2200",
+        "text": "LIGHTSHOW WILL TAKE PLACE AT PSN 592640.1N 0244826.8E (TALLINN).\r\nSHORT DURATION LASER BEAMS MAY CAUSE BLINDNESS IF VIEWED WITHIN\r\nHORISONTAL SECTOR FROM 250 DEG CLOCKWISE TO 340 DEG IN VERTICAL ANGLE\r\nBTN SFC AND 30 DEG UNTIL 3 NM AND FL95. IN SAME SECTOR FLASHBLINDNESS\r\nAND COCKPIT ILLUMINATION MAY OCCUR UNTIL 14 NM AND FL420",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-30T22:00:00Z",
+          "start": "2026-05-29T19:00:00Z"
+        }
+      },
       {
         "id": "63915463295057601",
         "locations": [
@@ -39,39 +104,72 @@
         }
       },
       {
-        "id": "63915309728727057",
+        "id": "63915384000837665",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
         "locations": [
-          "EEPU"
+          "EETT"
         ],
         "notamId": {
-          "number": 1217,
+          "number": 1224,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5825N02428E",
+          "condition": "CA",
+          "coordinate": "5831N02614E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FC",
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
           "traffic": "IV",
-          "upper": 999
+          "upper": 22
         },
-        "referenceId": {
-          "number": 1103,
+        "text": "DANGER AREA EED10 UTSALI ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-30T17:00:00Z",
+          "start": "2026-05-30T05:00:00Z"
+        }
+      },
+      {
+        "id": "63915376915078305",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1220,
           "series": "A",
           "year": 2026
         },
-        "text": "CEILOMETER RWY 03 U/S.",
-        "type": "R",
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5837N02307E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "30 31 0600-1500",
+        "text": "DANGER AREA EED31 KOGUVA ACT.",
+        "type": "N",
         "validity": {
-          "end": "2026-05-29T13:00:00Z",
-          "est": true,
-          "start": "2026-05-25T12:41:00Z"
+          "end": "2026-05-31T15:00:00Z",
+          "start": "2026-05-30T06:00:00Z"
         }
       },
       {
@@ -252,6 +350,40 @@
           "end": "2026-07-24T07:00:00Z",
           "est": true,
           "start": "2026-05-25T05:47:00Z"
+        }
+      },
+      {
+        "id": "63915047994555457",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1197,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5923N02535E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPORARY DANGER AREA EED2319 ESTABLISHED FOR TACTICAL EXERCISE\r\nWITH LIGHT FLARES WITHIN: 592513N 0252928E - 592600N 0253909E -\r\n592036N 0254000E - 592238N 0252912E - 592513N 0252928E\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5883 7394.",
+        "type": "N",
+        "validity": {
+          "end": "2026-05-31T09:59:00Z",
+          "start": "2026-05-30T06:00:00Z"
         }
       },
       {
@@ -2362,8 +2494,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915618353785857",
-        "number": 734,
+        "id": "63915638131856689",
+        "number": 735,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2391,14 +2523,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-29T02:20:00Z"
+            "time": "2026-05-29T07:54:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915613358804465",
-        "number": 458,
+        "id": "63915630407402609",
+        "number": 459,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2426,14 +2558,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-29T01:00:00Z"
+            "time": "2026-05-29T05:43:00Z"
           }
         ]
       }
     ]
   },
-  "id": "613f0061-388f-4e21-b936-d47dbf5af6e6",
-  "identifier": "BRIEFING-20260529-34",
+  "id": "217961d8-b044-442b-b2af-d067ae821faa",
+  "identifier": "BRIEFING-20260529-50",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2482,8 +2614,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-30T04:45:00Z",
-    "validityStart": "2026-05-29T04:45:00Z"
+    "validityEnd": "2026-05-30T08:30:00Z",
+    "validityStart": "2026-05-29T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2663,7 +2795,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63915309728727057",
+                  "referenceId": "63915638841022881",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2693,6 +2825,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63915632255999025",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63915286226780833",
@@ -2770,7 +2907,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915618353785857",
+                  "referenceId": "63915638131856689",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2822,7 +2959,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915613358804465",
+                  "referenceId": "63915630407402609",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2907,6 +3044,26 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63915632255999025",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915384000837665",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915376915078305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915047994555457",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63915046706993585",
