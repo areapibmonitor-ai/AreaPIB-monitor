@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-29T00:15:00.44Z",
+  "createdAt": "2026-05-29T04:45:00.39Z",
   "dynamicData": {
     "notams": [
       {
@@ -807,36 +807,6 @@
         "validity": {
           "end": "2026-05-31T13:59:00Z",
           "start": "2026-05-18T07:00:00Z"
-        }
-      },
-      {
-        "id": "63913836655160833",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1035,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 08/26 CLSD DUE TO MAINTENANCE WORKS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-29T02:15:00Z",
-          "start": "2026-05-28T23:00:00Z"
         }
       },
       {
@@ -2392,8 +2362,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915593730075697",
-        "number": 733,
+        "id": "63915618353785857",
+        "number": 734,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2421,14 +2391,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-28T19:34:00Z"
+            "time": "2026-05-29T02:20:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915598558493649",
-        "number": 457,
+        "id": "63915613358804465",
+        "number": 458,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2456,14 +2426,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-28T20:54:00Z"
+            "time": "2026-05-29T01:00:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a56c9cc2-876a-4366-9a0e-f417634422ad",
-  "identifier": "BRIEFING-20260529-2",
+  "id": "613f0061-388f-4e21-b936-d47dbf5af6e6",
+  "identifier": "BRIEFING-20260529-34",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2512,8 +2482,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-30T00:15:00Z",
-    "validityStart": "2026-05-29T00:15:00Z"
+    "validityEnd": "2026-05-30T04:45:00Z",
+    "validityStart": "2026-05-29T04:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2745,11 +2715,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63913836655160833",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913657602614913",
                   "structureType": "REFERENCE"
                 },
@@ -2805,7 +2770,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915593730075697",
+                  "referenceId": "63915618353785857",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2857,7 +2822,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915598558493649",
+                  "referenceId": "63915613358804465",
                   "structureType": "REFERENCE"
                 }
               ],
