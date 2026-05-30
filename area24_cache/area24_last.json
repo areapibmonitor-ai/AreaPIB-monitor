@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-30T04:00:00.411Z",
+  "createdAt": "2026-05-30T07:15:00.432Z",
   "dynamicData": {
     "notams": [
       {
@@ -315,6 +315,41 @@
         "validity": {
           "end": "2026-05-31T15:00:00Z",
           "start": "2026-05-30T06:00:00Z"
+        }
+      },
+      {
+        "id": "63915329381201921",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1219,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5831N02614E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "MAY 31 0500-1600, JUN 06 0500-1800, 07 0500-1200, 12 1200-1800, 17\r\n0600-1600",
+        "text": "DANGER AREA EED10 UTSALI ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T16:00:00Z",
+          "start": "2026-05-31T05:00:00Z"
         }
       },
       {
@@ -2371,8 +2406,8 @@
       }
     ]
   },
-  "id": "02b27598-f3c3-4dbd-88ce-bffa01e45637",
-  "identifier": "BRIEFING-20260530-27",
+  "id": "f439dd62-d115-47cf-b7c6-10edd6c3880b",
+  "identifier": "BRIEFING-20260530-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2421,8 +2456,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-31T04:00:00Z",
-    "validityStart": "2026-05-30T04:00:00Z"
+    "validityEnd": "2026-05-31T07:15:00Z",
+    "validityStart": "2026-05-30T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2859,6 +2894,11 @@
             {
               "link": false,
               "referenceId": "63915376915078305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915329381201921",
               "structureType": "REFERENCE"
             },
             {
