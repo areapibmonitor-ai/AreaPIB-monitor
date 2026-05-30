@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-30T16:30:00.435Z",
+  "createdAt": "2026-05-30T17:45:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -246,40 +246,6 @@
           "end": "2026-08-27T12:00:00Z",
           "est": true,
           "start": "2026-05-27T07:18:00Z"
-        }
-      },
-      {
-        "id": "63915384000837665",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1224,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "text": "DANGER AREA EED10 UTSALI ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-30T17:00:00Z",
-          "start": "2026-05-30T05:00:00Z"
         }
       },
       {
@@ -2301,8 +2267,8 @@
       }
     ]
   },
-  "id": "34dd4fcc-bf4a-4203-829b-610986de084f",
-  "identifier": "BRIEFING-20260530-82",
+  "id": "5a03b0b9-9737-43cc-b5e3-1d220ef7975e",
+  "identifier": "BRIEFING-20260530-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2351,8 +2317,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-31T16:30:00Z",
-    "validityStart": "2026-05-30T16:30:00Z"
+    "validityEnd": "2026-05-31T17:45:00Z",
+    "validityStart": "2026-05-30T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2774,11 +2740,6 @@
             {
               "link": true,
               "referenceId": "63915632255999025",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915384000837665",
               "structureType": "REFERENCE"
             },
             {
