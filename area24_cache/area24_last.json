@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-30T12:00:00.432Z",
+  "createdAt": "2026-05-30T14:00:00.432Z",
   "dynamicData": {
     "notams": [
       {
@@ -708,41 +708,6 @@
         }
       },
       {
-        "id": "63914795703220257",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1149,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "27 0500-1359, 30 0500-1359",
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-30T13:59:00Z",
-          "start": "2026-05-27T05:00:00Z"
-        }
-      },
-      {
         "id": "63914703208094193",
         "levels": {
           "lower": "SFC",
@@ -775,41 +740,6 @@
         "validity": {
           "end": "2026-05-31T15:59:00Z",
           "start": "2026-05-19T06:00:00Z"
-        }
-      },
-      {
-        "id": "63914698033441553",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1133,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "26 27 1400-1759, 28 0700-1259, 29 0700-1659, 30 0500-1359",
-        "text": "DANGER AREA EED4 NURSIPALU 2 ACTIVATED. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-30T13:59:00Z",
-          "start": "2026-05-26T14:00:00Z"
         }
       },
       {
@@ -2336,8 +2266,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915725097391249",
-        "number": 739,
+        "id": "63915746273673153",
+        "number": 740,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2365,14 +2295,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-30T08:04:00Z"
+            "time": "2026-05-30T13:56:00Z"
           }
         ]
       }
     ]
   },
-  "id": "f0300734-5954-4851-8007-a7ad55ac7771",
-  "identifier": "BRIEFING-20260530-64",
+  "id": "96bf1882-b8d4-4c39-acbf-f8de2c670d2a",
+  "identifier": "BRIEFING-20260530-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2421,8 +2351,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-31T12:00:00Z",
-    "validityStart": "2026-05-30T12:00:00Z"
+    "validityEnd": "2026-05-31T14:00:00Z",
+    "validityStart": "2026-05-30T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2704,7 +2634,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915725097391249",
+                  "referenceId": "63915746273673153",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2877,18 +2807,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63914795703220257",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63914703208094193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914698033441553",
               "structureType": "REFERENCE"
             },
             {
