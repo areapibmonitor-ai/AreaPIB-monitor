@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-05-31T11:15:00.466Z",
+  "createdAt": "2026-05-31T12:45:00.436Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915826425964593",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1288,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUEL JET-A1 NOT AVAILABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-01T14:00:00Z",
+          "start": "2026-05-31T13:00:00Z"
+        }
+      },
       {
         "id": "63915660312834401",
         "levels": {
@@ -3603,8 +3633,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63915805592624625",
-        "number": 462,
+        "id": "63915823481653761",
+        "number": 463,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3614,32 +3644,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-05-31T06:20:00Z"
+            "time": "2026-05-31T11:23:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8264b755-0781-44a9-a5f4-a67f0e5a79bb",
-  "identifier": "BRIEFING-20260531-61",
+  "id": "9511c5e9-de47-4ac8-a398-b221675fecdf",
+  "identifier": "BRIEFING-20260531-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3688,8 +3718,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-01T11:15:00Z",
-    "validityStart": "2026-05-31T11:15:00Z"
+    "validityEnd": "2026-06-01T12:45:00Z",
+    "validityStart": "2026-05-31T12:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4035,6 +4065,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63915826425964593",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63915651922347777",
                   "structureType": "REFERENCE"
                 },
@@ -4095,7 +4130,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915805592624625",
+                  "referenceId": "63915823481653761",
                   "structureType": "REFERENCE"
                 }
               ],
