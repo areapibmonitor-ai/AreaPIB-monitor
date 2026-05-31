@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-31T16:15:01.583Z",
+  "createdAt": "2026-05-31T17:30:00.429Z",
   "dynamicData": {
     "notams": [
       {
@@ -1693,41 +1693,6 @@
         "validity": {
           "end": "2026-06-07T18:00:00Z",
           "start": "2026-06-01T06:00:00Z"
-        }
-      },
-      {
-        "id": "63915038696622673",
-        "levels": {
-          "lower": "SFC",
-          "upper": "35000FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1176,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5940N02628E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 14,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 351
-        },
-        "schedule": "27 0500-1700, 28 0500-29 1700, 30 31 0500-1700",
-        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACT. CHANGED VERTICAL LIMITS\r\nDURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5342 5760.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-31T17:00:00Z",
-          "start": "2026-05-27T05:00:00Z"
         }
       },
       {
@@ -3528,8 +3493,8 @@
       }
     ]
   },
-  "id": "80d7aa4c-47b1-46b0-8d0a-5e9b5ec2fe0b",
-  "identifier": "BRIEFING-20260531-81",
+  "id": "e9093a9c-3cf7-4cf4-832b-a56217f93876",
+  "identifier": "BRIEFING-20260531-86",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3578,8 +3543,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-01T16:15:00Z",
-    "validityStart": "2026-05-31T16:15:00Z"
+    "validityEnd": "2026-06-01T17:30:00Z",
+    "validityStart": "2026-05-31T17:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4238,11 +4203,6 @@
             {
               "link": false,
               "referenceId": "63915043800785345",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915038696622673",
               "structureType": "REFERENCE"
             },
             {
