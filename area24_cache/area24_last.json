@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-05-30T23:30:00.463Z",
+  "createdAt": "2026-05-31T01:45:00.465Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915654906885201",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1272,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0630-1500\r\nSAT 0830-1100\r\nSUN 0655-1500",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
       {
         "id": "63915651922347777",
         "levels": {
@@ -118,6 +148,66 @@
         }
       },
       {
+        "id": "63915647026622033",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1258,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0425-1655\r\nSAT 0630-1130\r\nSUN 0655-1655",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63915644723918305",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1256,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-1300 2115-2200\r\nEXCEPT:\r\n6 0230-0400 0600-1500\r\n7 0600-1500 2115-2200\r\n14 1000-1400 2115-2200\r\n15 0230-0330 0600-1300\r\n16-19, 21-26, 28-30 0630-1400\r\n20 27 CLOSED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
         "id": "63915638841022881",
         "locations": [
           "EEPU"
@@ -181,6 +271,101 @@
           "end": "2026-08-27T12:00:00Z",
           "est": true,
           "start": "2026-05-27T07:18:00Z"
+        }
+      },
+      {
+        "id": "63915457847987889",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1228,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5822N02406E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPO RESTRICTED AREA EER2623 ESTABLISHED WITHIN: 582207N 0240613E\r\n- 582119N 0240632E - 582109N 0240505E - 582158N 0240446E - 582207N\r\n0240613E.\r\nAN OBJECT OF THE MINISTRY OF DEFENCE JURISDICTION.\r\nFLIGHTS INTO OR WITHIN THE AREA FORBIDDEN WITHOUT PRIOR COORDINATION\r\nWITH ESTONIAN DEFENCE FORCES.\r\nPERMISSION TO FLY IN THE AREA SHALL BE REQUESTED AT LEAST 5 WORKING\r\nDAYS PRIOR TO THE INTENDED FLIGHT VIA LENNULUBA(AT)MIL.EE.\r\nRESTRICTION DOES NOT APPLY TO THE ESTONIAN DEFENCE FORCES, POLICE AND\r\nBORDER GUARD BOARD, INTERNAL SECURITY SERVICE, TAX AND CUSTOMS BOARD,\r\nRESCUE BOARD AND ENVIRONMENTAL BOARD PERFORMING THEIR STATUTORY\r\nDUTIES.\r\nFLIGHT RESTRICTIONS DO NOT APPLY TO AIRCRAFT TAKING OFF OR LANDING AT\r\nAN ADJACENT AERODROME OR HELIPORT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-28T23:59:00Z",
+          "est": true,
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63915383627854177",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1223,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5819N02646E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 34,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2115-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2115-2200\r\nEXC 06 0230-0400 0600-1500\r\n07 0600-1500 2115-2200\r\n14 1000-1400 2115-2200\r\n15 0230-0330 0600-0900 1030-1300\r\n16-19 21-26 28-30 0630-0900 1000-1400\r\n20 27 CLOSED\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.\r\nIF SERVICE IS NOT AVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63915379604021921",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1221,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nEXC 14 1245-1400 1500-1655, 21 28 0845-1230 1330-1655\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
         }
       },
       {
@@ -779,6 +964,74 @@
         "validity": {
           "end": "2026-07-15T20:59:00Z",
           "start": "2026-05-14T07:10:00Z"
+        }
+      },
+      {
+        "id": "63914272234562881",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1082,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5810N02203E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "text": "TRIGGER NOTAM - AIP SUP 09/2026 WEF 01 JUN 2026 TIL 01 DEC 2026.\r\n- ESTABLISHMENT OF TEMPORARY RESTRICTED AREA EER2611M FOR UAS AIR\r\nOPERATIONS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-14T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63914265989619873",
+        "levels": {
+          "lower": "SFC",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1080,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5838N02220E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 55,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "text": "TRIGGER NOTAM - AIP SUP 09/2026 WEF 01 JUN 2026 TIL 01 DEC 2026.\r\n- ESTABLISHMENT OF TEMPORARY DANGER AND RESTRICTED AREAS FOR UAS AIR\r\nOPERATIONS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-14T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
         }
       },
       {
@@ -1827,6 +2080,36 @@
         }
       },
       {
+        "id": "63910733993095681",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 765,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - AIRAC AIP SUP 06/2026 WEF 14 MAY 2026 TIL 01 DEC\r\n2026.\r\n- TALLINN AERODROME (EETN) RUNWAY 08 TEMPORARY LOC 08 APPROACH\r\nPROCEDURE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-14T23:59:00Z",
+          "start": "2026-06-01T00:00:00Z"
+        }
+      },
+      {
         "id": "63910554069717633",
         "locations": [
           "EEEI"
@@ -2202,16 +2485,16 @@
       }
     ]
   },
-  "id": "f07bca02-7d9d-4f85-86b0-06b5df4cd851",
-  "identifier": "BRIEFING-20260530-110",
+  "id": "f7bfd6b9-2cfc-4066-95c4-a80e37d500f7",
+  "identifier": "BRIEFING-20260531-8",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2252,8 +2535,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-05-31T23:30:00Z",
-    "validityStart": "2026-05-30T23:30:00Z"
+    "validityEnd": "2026-06-01T01:45:00Z",
+    "validityStart": "2026-05-31T01:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2401,6 +2684,26 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63915654906885201",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63915647026622033",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63915379604021921",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63914272234562881",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913042046400833",
                   "structureType": "REFERENCE"
                 },
@@ -2429,6 +2732,11 @@
                 {
                   "link": false,
                   "referenceId": "63915638841022881",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63915457847987889",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2505,6 +2813,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63910733993095681",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63909867536505009",
                   "structureType": "REFERENCE"
                 },
@@ -2557,6 +2870,16 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63915644723918305",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63915383627854177",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63913820589741537",
                   "structureType": "REFERENCE"
                 },
@@ -2594,6 +2917,16 @@
             {
               "link": false,
               "referenceId": "63915463295057601",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63915383627854177",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63915379604021921",
               "structureType": "REFERENCE"
             },
             {
@@ -2663,6 +2996,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": true,
+              "referenceId": "63915457847987889",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63915376915078305",
               "structureType": "REFERENCE"
@@ -2705,6 +3043,16 @@
             {
               "link": false,
               "referenceId": "63914339514090481",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63914272234562881",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914265989619873",
               "structureType": "REFERENCE"
             },
             {
