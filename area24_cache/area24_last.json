@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-05-31T17:30:00.429Z",
+  "createdAt": "2026-05-31T18:45:00.425Z",
   "dynamicData": {
     "notams": [
       {
@@ -2114,76 +2114,6 @@
         }
       },
       {
-        "id": "63913820883872801",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1026,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "15 0500-1759, 16 17 0500-1659, 18 19 0400-1859, 20-22 0500-1359,\r\n25-28 0500-1559, 29 0600-1559, 30 31 0500-1759",
-        "text": "DANGER AREA EED16 KLOOGA 1 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-31T17:59:00Z",
-          "start": "2026-05-15T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913820589741537",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1025,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5816N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "schedule": "15-17 0500-1859, 18 0500-1659, 19 0500-1159, 21 0600-1459, 22\r\n0500-0959, 23 0500-1659, 26 0600-1659, 27 0700-1459, 28 0600-1359, 30\r\n0600-1559, 31 0500-1759",
-        "text": "DANGER AREA EED2 UNIKULA ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 525 8504.\r\nAREA DEACTIVATION IS POSSIBLE BY ATS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-31T17:59:00Z",
-          "start": "2026-05-15T05:00:00Z"
-        }
-      },
-      {
         "id": "63913657602614913",
         "locations": [
           "EETN"
@@ -2574,41 +2504,6 @@
         "validity": {
           "perm": true,
           "start": "2026-04-28T05:23:00Z"
-        }
-      },
-      {
-        "id": "63912867828809489",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 932,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "02-03 06-07 09-10 13-14 16-17 20-24 27-31 0700-1800",
-        "text": "DANGER AREA EED5 KILTSI ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-05-31T18:00:00Z",
-          "start": "2026-05-02T07:00:00Z"
         }
       },
       {
@@ -3493,8 +3388,8 @@
       }
     ]
   },
-  "id": "e9093a9c-3cf7-4cf4-832b-a56217f93876",
-  "identifier": "BRIEFING-20260531-86",
+  "id": "8b654cb8-235a-4bf1-b8b9-460a0f9e527f",
+  "identifier": "BRIEFING-20260531-91",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3543,8 +3438,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-01T17:30:00Z",
-    "validityStart": "2026-05-31T17:30:00Z"
+    "validityEnd": "2026-06-01T18:45:00Z",
+    "validityStart": "2026-05-31T18:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3639,11 +3534,6 @@
                 {
                   "link": false,
                   "referenceId": "63915285843557729",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913820883872801",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3916,11 +3806,6 @@
                 {
                   "link": false,
                   "referenceId": "63915305283677137",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913820589741537",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4246,16 +4131,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63913820883872801",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63913820589741537",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63913126032112737",
               "structureType": "REFERENCE"
@@ -4268,11 +4143,6 @@
             {
               "link": false,
               "referenceId": "63912950288093649",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63912867828809489",
               "structureType": "REFERENCE"
             },
             {
