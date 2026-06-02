@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-06-02T05:00:00.494Z",
+  "createdAt": "2026-06-02T09:30:00.446Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63915984664711521",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1310,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "OBSTACLE (AIRCRAFT TAIL) AT POSITION 592454.1N 0244802.4E.\r\nELEVATION 137 AMSL (HEIGHT 39FT AGL).",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-02T16:35:00Z",
+          "start": "2026-06-02T11:00:00Z"
+        }
+      },
       {
         "id": "63915906409273185",
         "locations": [
@@ -975,6 +1005,40 @@
         }
       },
       {
+        "id": "63915633669941345",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1249,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5744N02717E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPO RESTRICTED AREA EER26153UA ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 1NM RADIUS CENTRED ON 574359N 0271720E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5621\r\n3172.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-03T13:00:00Z",
+          "start": "2026-06-03T07:00:00Z"
+        }
+      },
+      {
         "id": "63915550178427841",
         "levels": {
           "lower": "SFC",
@@ -1146,6 +1210,41 @@
         "validity": {
           "end": "2026-06-07T20:00:00Z",
           "start": "2026-06-02T05:00:00Z"
+        }
+      },
+      {
+        "id": "63915466325959905",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1230,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "03-04 06-21 24-25 27-28 0700-1700",
+        "text": "DANGER AREA EED5 KILTSI ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-28T17:00:00Z",
+          "start": "2026-06-03T07:00:00Z"
         }
       },
       {
@@ -3173,8 +3272,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915960275092369",
-        "number": 750,
+        "id": "63915985062055297",
+        "number": 751,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3202,14 +3301,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-02T01:23:00Z"
+            "time": "2026-06-02T08:16:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63915944836846689",
-        "number": 467,
+        "id": "63915976157998273",
+        "number": 468,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3237,14 +3336,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-01T21:06:00Z"
+            "time": "2026-06-02T05:48:00Z"
           }
         ]
       }
     ]
   },
-  "id": "293e68d2-a993-4352-9090-7cfb6f51f5d1",
-  "identifier": "BRIEFING-20260602-35",
+  "id": "e46bb1e8-df58-485e-892c-81b431b9ebbe",
+  "identifier": "BRIEFING-20260602-54",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3293,8 +3392,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-03T05:00:00Z",
-    "validityStart": "2026-06-02T05:00:00Z"
+    "validityEnd": "2026-06-03T09:30:00Z",
+    "validityStart": "2026-06-02T09:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3516,6 +3615,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63915984664711521",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63915901887660465",
                   "structureType": "REFERENCE"
                 },
@@ -3586,7 +3690,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915960275092369",
+                  "referenceId": "63915985062055297",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3648,7 +3752,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915944836846689",
+                  "referenceId": "63915976157998273",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3830,6 +3934,11 @@
             },
             {
               "link": false,
+              "referenceId": "63915633669941345",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63915550178427841",
               "structureType": "REFERENCE"
             },
@@ -3851,6 +3960,11 @@
             {
               "link": false,
               "referenceId": "63915466950489729",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915466325959905",
               "structureType": "REFERENCE"
             },
             {
