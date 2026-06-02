@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-02T00:15:00.442Z",
+  "createdAt": "2026-06-02T05:00:00.494Z",
   "dynamicData": {
     "notams": [
       {
@@ -1010,6 +1010,75 @@
         }
       },
       {
+        "id": "63911325513335825",
+        "levels": {
+          "lower": "SFC",
+          "upper": "8500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1239,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 85
+        },
+        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR GUN FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E -592114N 0253942E -\r\n592744N 0254210E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-07T11:59:00Z",
+          "start": "2026-06-03T03:00:00Z"
+        }
+      },
+      {
+        "id": "63915480763313041",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1235,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "schedule": "03 0300-04 2059, 05 0700-1859",
+        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-05T18:59:00Z",
+          "start": "2026-06-03T03:00:00Z"
+        }
+      },
+      {
         "id": "63915473702992353",
         "levels": {
           "lower": "SFC",
@@ -1938,6 +2007,41 @@
           "end": "2026-08-20T09:00:00Z",
           "est": true,
           "start": "2026-05-20T05:31:00Z"
+        }
+      },
+      {
+        "id": "63914787747469409",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1146,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "03 0300-04 1700, 06 0500-1500, 13 0500-1700, 14 0500-1200, 19\r\n0500-20 1600, 26 0600-1900, 27 28 0500-1400",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-28T14:00:00Z",
+          "start": "2026-06-03T03:00:00Z"
         }
       },
       {
@@ -3069,8 +3173,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63915939084580625",
-        "number": 749,
+        "id": "63915960275092369",
+        "number": 750,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3098,7 +3202,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-01T19:30:00Z"
+            "time": "2026-06-02T01:23:00Z"
           }
         ]
       },
@@ -3139,8 +3243,8 @@
       }
     ]
   },
-  "id": "b1dfc14c-0df6-4089-8be5-ff285ff1e7e3",
-  "identifier": "BRIEFING-20260602-2",
+  "id": "293e68d2-a993-4352-9090-7cfb6f51f5d1",
+  "identifier": "BRIEFING-20260602-35",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3189,8 +3293,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-03T00:15:00Z",
-    "validityStart": "2026-06-02T00:15:00Z"
+    "validityEnd": "2026-06-03T05:00:00Z",
+    "validityStart": "2026-06-02T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3482,7 +3586,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915939084580625",
+                  "referenceId": "63915960275092369",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3731,6 +3835,16 @@
             },
             {
               "link": false,
+              "referenceId": "63911325513335825",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915480763313041",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63915473702992353",
               "structureType": "REFERENCE"
             },
@@ -3827,6 +3941,11 @@
             {
               "link": false,
               "referenceId": "63914858343367889",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914787747469409",
               "structureType": "REFERENCE"
             },
             {
