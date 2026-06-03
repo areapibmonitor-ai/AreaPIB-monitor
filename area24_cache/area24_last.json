@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-03T00:15:00.428Z",
+  "createdAt": "2026-06-03T05:15:00.462Z",
   "dynamicData": {
     "notams": [
       {
@@ -3143,8 +3143,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916025031969329",
-        "number": 753,
+        "id": "63916045764982049",
+        "number": 754,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3172,14 +3172,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-02T19:23:00Z"
+            "time": "2026-06-03T01:08:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916031371748257",
-        "number": 469,
+        "id": "63916050845476305",
+        "number": 470,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3189,32 +3189,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-02T21:08:00Z"
+            "time": "2026-06-03T02:23:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8bc4e565-50db-4f95-842f-a74f8194d4d4",
-  "identifier": "BRIEFING-20260603-2",
+  "id": "61e7e7d0-7af0-4fb6-aecb-adf5ba782218",
+  "identifier": "BRIEFING-20260603-36",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3263,8 +3263,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-04T00:15:00Z",
-    "validityStart": "2026-06-03T00:15:00Z"
+    "validityEnd": "2026-06-04T05:15:00Z",
+    "validityStart": "2026-06-03T05:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3551,7 +3551,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916025031969329",
+                  "referenceId": "63916045764982049",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3608,7 +3608,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916031371748257",
+                  "referenceId": "63916050845476305",
                   "structureType": "REFERENCE"
                 }
               ],
