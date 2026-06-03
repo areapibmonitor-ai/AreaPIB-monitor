@@ -11689,3 +11689,21 @@ Other removals:
 - NOTAM A1298/26 was removed from the PIB.
 - NOTAM A1300/26 was removed from the PIB.
 [2026-06-03T15:19:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8cecd06b701sm21955276d6.34 - gsmtp')
+[2026-06-03T19:02:39Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1244/26 NOTAMN
+Q)EETT/FFCH/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2606041700 C)2606290500
+E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:
+JUN 04 1700-5 0500,
+08 1700-9 0500,
+12 1700-13 0500,
+16 1700-17 0500,
+20 1700-21 0500,
+24 1700-25 0500,
+28 1700-29 0500.
+)
+[2026-06-03T19:02:39Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9158a381abfsm325269885a.27 - gsmtp')
