@@ -11725,3 +11725,14 @@ FL420.
 F)SFC G)FL420
 )
 [2026-06-03T22:03:31Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9158a243f24sm382477485a.20 - gsmtp')
+[2026-06-03T23:57:56Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1036/26 NOTAMN
+Q)EETT/MRLC/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2606042300 C)2606050215
+E)RWY 08/26 CLSD DUE TO MAINTENANCE WORKS.
+)
+[2026-06-03T23:57:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3074df191d0sm5506215eec.21 - gsmtp')
