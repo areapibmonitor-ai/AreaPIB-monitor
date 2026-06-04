@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-06-04T12:00:00.455Z",
+  "createdAt": "2026-06-04T15:45:00.485Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63916172679626449",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1375,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 984,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS: LAPWINGS, CROWS, BLACKBIRDS, GEESE, CRANES, JACKDAWS,\r\nGULLS, SWIFTS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-04T12:00:00Z",
+          "est": true,
+          "start": "2026-06-04T12:23:00Z"
+        }
+      },
       {
         "id": "63916093439786049",
         "levels": {
@@ -808,6 +844,40 @@
         "validity": {
           "end": "2026-06-09T07:59:00Z",
           "start": "2026-06-05T05:00:00Z"
+        }
+      },
+      {
+        "id": "63915648065610225",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1260,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02404E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2439 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN: 590424N 0240404E - 590404N 0240529E -\r\n590317N 0240436E - 590328N 0240347E - 590424N 0240404E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372\r\n53032206",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-07T13:59:00Z",
+          "start": "2026-06-05T15:00:00Z"
         }
       },
       {
@@ -1691,40 +1761,6 @@
         }
       },
       {
-        "id": "63915053317319681",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1198,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 43
-        },
-        "text": "DANGER AREA EED17 SIRGALA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-04T13:59:00Z",
-          "start": "2026-05-31T09:00:00Z"
-        }
-      },
-      {
         "id": "63915033706330833",
         "levels": {
           "lower": "SFC",
@@ -2368,37 +2404,6 @@
           "end": "2026-07-31T13:30:00Z",
           "est": true,
           "start": "2026-05-05T05:00:00Z"
-        }
-      },
-      {
-        "id": "63913476741996849",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 984,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS: LAPWINGS, CROWS, BLACKBIRDS, GEESE, CRANES, JACKDAWS,\r\nGULLS, SWIFTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-04T12:00:00Z",
-          "est": true,
-          "start": "2026-05-04T07:35:00Z"
         }
       },
       {
@@ -3163,8 +3168,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916155632340689",
-        "number": 761,
+        "id": "63916179516226689",
+        "number": 762,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3192,49 +3197,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-04T07:37:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63916149351481473",
-        "number": 475,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-04T05:52:00Z"
+            "time": "2026-06-04T14:18:00Z"
           }
         ]
       }
     ]
   },
-  "id": "6f39035b-28d1-44f5-af2b-d24da90f3f0f",
-  "identifier": "BRIEFING-20260604-64",
+  "id": "11428b59-68ec-4a23-a0ac-3ad175414a33",
+  "identifier": "BRIEFING-20260604-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3283,8 +3253,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-05T12:00:00Z",
-    "validityStart": "2026-06-04T12:00:00Z"
+    "validityEnd": "2026-06-05T15:45:00Z",
+    "validityStart": "2026-06-04T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3474,17 +3444,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63916172679626449",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63915457847987889",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63915308478296801",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913476741996849",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3586,7 +3556,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916155632340689",
+                  "referenceId": "63916179516226689",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3649,11 +3619,6 @@
                 {
                   "link": false,
                   "referenceId": "63910227514438113",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916149351481473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3820,6 +3785,11 @@
             },
             {
               "link": false,
+              "referenceId": "63915648065610225",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63911325513335825",
               "structureType": "REFERENCE"
             },
@@ -3906,11 +3876,6 @@
             {
               "link": false,
               "referenceId": "63915290337991553",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915053317319681",
               "structureType": "REFERENCE"
             },
             {
