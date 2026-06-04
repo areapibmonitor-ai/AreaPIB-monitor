@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-03T23:45:01.474Z",
+  "createdAt": "2026-06-04T04:45:00.428Z",
   "dynamicData": {
     "notams": [
       {
@@ -3029,8 +3029,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916107651542321",
-        "number": 759,
+        "id": "63916134842840721",
+        "number": 760,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3058,14 +3058,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-03T18:20:00Z"
+            "time": "2026-06-04T01:53:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916116885388433",
-        "number": 473,
+        "id": "63916135048856977",
+        "number": 474,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3093,22 +3093,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-03T20:54:00Z"
+            "time": "2026-06-04T01:56:00Z"
           }
         ]
       }
     ]
   },
-  "id": "4dc88188-564c-4017-8bfa-c7a114132f04",
-  "identifier": "BRIEFING-20260603-111",
+  "id": "5ec02783-a39f-449a-8ec7-1b48b9543072",
+  "identifier": "BRIEFING-20260604-34",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3149,8 +3149,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-04T23:45:00Z",
-    "validityStart": "2026-06-03T23:45:00Z"
+    "validityEnd": "2026-06-05T04:45:00Z",
+    "validityStart": "2026-06-04T04:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3452,7 +3452,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916107651542321",
+                  "referenceId": "63916134842840721",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3509,7 +3509,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916116885388433",
+                  "referenceId": "63916135048856977",
                   "structureType": "REFERENCE"
                 }
               ],
