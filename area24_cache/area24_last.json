@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-04T15:45:00.485Z",
+  "createdAt": "2026-06-04T18:00:00.432Z",
   "dynamicData": {
     "notams": [
       {
@@ -71,36 +71,6 @@
         "validity": {
           "end": "2026-06-05T21:00:00Z",
           "start": "2026-06-04T19:00:00Z"
-        }
-      },
-      {
-        "id": "63916081192023249",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1357,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUEL AVGAS 100LL NOT AVAILABLE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-04T18:00:00Z",
-          "start": "2026-06-04T08:00:00Z"
         }
       },
       {
@@ -1937,41 +1907,6 @@
         }
       },
       {
-        "id": "63914787747469409",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1146,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "03 0300-04 1700, 06 0500-1500, 13 0500-1700, 14 0500-1200, 19\r\n0500-20 1600, 26 0600-1900, 27 28 0500-1400",
-        "text": "DANGER AREA EED11 METSNIKU ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-28T14:00:00Z",
-          "start": "2026-06-03T03:00:00Z"
-        }
-      },
-      {
         "id": "63914438030284049",
         "locations": [
           "EETN"
@@ -3203,16 +3138,16 @@
       }
     ]
   },
-  "id": "11428b59-68ec-4a23-a0ac-3ad175414a33",
-  "identifier": "BRIEFING-20260604-79",
+  "id": "75d363ea-3f40-4bf2-bb07-38450add6619",
+  "identifier": "BRIEFING-20260604-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3253,8 +3188,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-05T15:45:00Z",
-    "validityStart": "2026-06-04T15:45:00Z"
+    "validityEnd": "2026-06-05T18:00:00Z",
+    "validityStart": "2026-06-04T18:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3474,11 +3409,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63916081192023249",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63915901887660465",
@@ -3891,11 +3821,6 @@
             {
               "link": false,
               "referenceId": "63914858343367889",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914787747469409",
               "structureType": "REFERENCE"
             },
             {

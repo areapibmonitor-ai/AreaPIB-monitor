@@ -11820,3 +11820,12 @@ PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372
 F)SFC G)2100FT AMSL
 )
 [2026-06-04T15:49:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3074dba046esm4832585eec.9 - gsmtp')
+[2026-06-04T18:07:03Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1357/26 expired and was removed from the PIB.
+
+Other removals:
+- NOTAM A1146/26 was removed from the PIB.
+[2026-06-04T18:07:03Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2c164fa072asm64186935ad.34 - gsmtp')
