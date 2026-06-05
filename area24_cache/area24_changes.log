@@ -11860,3 +11860,17 @@ F)SFC G)2200FT AMSL
 )
 [2026-06-05T06:40:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9158a3d250dsm809062585a.38 - gsmtp')
 [2026-06-05T10:37:24Z] NO CHANGE in dynamicData.notams.
+[2026-06-05T13:44:53Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A1001/26 was replaced with NOTAM A1392/26.
+AFTN: (A1392/26 NOTAMR A1001/26
+
+(A1392/26 NOTAMR A1001/26
+Q)EETT/OBCE/IV/M/A/000/999/5859N02250E005
+A)EEKA B)2606051210 C)2607051300
+E)SAILING BOAT MAST AT PSN 585959.1N 0224910.1E (ROOGRAHU MARINA)
+ELEV 38FT AMSL. UNLIGHTED
+)
+[2026-06-05T13:44:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9158a2359ecsm901283885a.14 - gsmtp')
