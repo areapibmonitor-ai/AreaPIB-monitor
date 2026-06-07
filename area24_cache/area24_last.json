@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-07T19:45:00.424Z",
+  "createdAt": "2026-06-07T21:15:00.418Z",
   "dynamicData": {
     "notams": [
       {
@@ -1114,41 +1114,6 @@
         "validity": {
           "end": "2026-06-29T05:00:00Z",
           "start": "2026-06-04T17:00:00Z"
-        }
-      },
-      {
-        "id": "63915466950489729",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1231,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5904N02406E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "02-04 06-07 0500-2000",
-        "text": "DANGER AREA EED7 PIIRSALU ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-07T20:00:00Z",
-          "start": "2026-06-02T05:00:00Z"
         }
       },
       {
@@ -2946,8 +2911,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63879815446343729",
-        "number": 777,
+        "id": "63916461897027665",
+        "number": 778,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2975,14 +2940,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-07T14:23:00Z"
+            "time": "2026-06-07T20:44:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63916463095274545",
+        "number": 483,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-06-07T21:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8ef553e4-820c-48b5-92c9-3a1e6a6e42af",
-  "identifier": "BRIEFING-20260607-95",
+  "id": "ac1c4d6d-48ea-4432-aafe-6357a0b7865d",
+  "identifier": "BRIEFING-20260607-101",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3031,8 +3031,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-08T19:45:00Z",
-    "validityStart": "2026-06-07T19:45:00Z"
+    "validityEnd": "2026-06-08T21:15:00Z",
+    "validityStart": "2026-06-07T21:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3319,7 +3319,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63879815446343729",
+                  "referenceId": "63916461897027665",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3372,6 +3372,11 @@
                 {
                   "link": false,
                   "referenceId": "63910227514438113",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916463095274545",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3554,11 +3559,6 @@
             {
               "link": false,
               "referenceId": "63915648564796465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915466950489729",
               "structureType": "REFERENCE"
             },
             {
