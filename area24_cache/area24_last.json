@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-07T14:15:00.417Z",
+  "createdAt": "2026-06-07T15:45:00.446Z",
   "dynamicData": {
     "notams": [
       {
@@ -1504,36 +1504,6 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-06-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63915641890023393",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1254,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5748N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 2,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 100
-        },
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 3KM\r\nRADIUS CENTRED ON 574813N0265520E FROM SFC UP TO FL100.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-07T15:00:00Z",
-          "start": "2026-06-05T05:00:00Z"
         }
       },
       {
@@ -3431,8 +3401,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916420294806385",
-        "number": 776,
+        "id": "63879815446343729",
+        "number": 777,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3460,14 +3430,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-07T09:10:00Z"
+            "time": "2026-06-07T14:23:00Z"
           }
         ]
       }
     ]
   },
-  "id": "0a1e381c-8903-47b6-85d9-7330cfd7ca08",
-  "identifier": "BRIEFING-20260607-73",
+  "id": "cc82ee35-2054-4bfe-9567-01e52c448d5a",
+  "identifier": "BRIEFING-20260607-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3516,8 +3486,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-08T14:15:00Z",
-    "validityStart": "2026-06-07T14:15:00Z"
+    "validityEnd": "2026-06-08T15:45:00Z",
+    "validityStart": "2026-06-07T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3809,7 +3779,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916420294806385",
+                  "referenceId": "63879815446343729",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3875,11 +3845,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63915641890023393",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63915463295057601",
