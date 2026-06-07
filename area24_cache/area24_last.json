@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-06-07T15:45:00.446Z",
+  "createdAt": "2026-06-07T16:45:00.469Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63916446608665425",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1406,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5938N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 15,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 25
+        },
+        "schedule": "08 0400-1800, 09-12 0400-1600",
+        "text": "TEMPO RESTRICTED AREA EER25112UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 594533N0250628E - 594611N0255108E -\r\n593002N0255224E - 592954N0252749E - THEN ALONG TALLINN TMA 1\r\n(COUNTERCLOCKWISE) - 594252N0250628E - 594533N0250628E. PERMISSION\r\nFOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5645 3077.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-12T16:00:00Z",
+          "start": "2026-06-08T04:00:00Z"
+        }
+      },
       {
         "id": "63916409721197265",
         "levels": {
@@ -2228,41 +2263,6 @@
         }
       },
       {
-        "id": "63914858343367889",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1159,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5938N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 15,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 25
-        },
-        "schedule": "DAILY 0400-1600",
-        "text": "TEMPO RESTRICTED AREA EER25112UAS ESTABLISHED DUE TO UNMANNED\r\nAIRCRAFT ACTIVITY WITHIN 594533N0250628E - 594611N0255108E -\r\n593002N0255224E - 592954N0252749E - THEN ALONG TALLINN TMA 1\r\n(COUNTERCLOCKWISE) - 594252N0250628E - 594533N0250628E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5645\r\n3077.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-12T16:00:00Z",
-          "start": "2026-06-01T04:00:00Z"
-        }
-      },
-      {
         "id": "63914852146938465",
         "locations": [
           "EETT"
@@ -3436,16 +3436,16 @@
       }
     ]
   },
-  "id": "cc82ee35-2054-4bfe-9567-01e52c448d5a",
-  "identifier": "BRIEFING-20260607-79",
+  "id": "96451df5-07cf-4570-9ee1-50a568958c97",
+  "identifier": "BRIEFING-20260607-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3486,8 +3486,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-08T15:45:00Z",
-    "validityStart": "2026-06-07T15:45:00Z"
+    "validityEnd": "2026-06-08T16:45:00Z",
+    "validityStart": "2026-06-07T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3907,6 +3907,11 @@
         {
           "content": [
             {
+              "link": false,
+              "referenceId": "63916446608665425",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63916409721197265",
               "structureType": "REFERENCE"
@@ -4154,11 +4159,6 @@
             {
               "link": false,
               "referenceId": "63914877162902049",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914858343367889",
               "structureType": "REFERENCE"
             },
             {
