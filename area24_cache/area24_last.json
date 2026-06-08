@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-06-08T09:45:00.485Z",
+  "createdAt": "2026-06-08T14:15:00.497Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63916510538143393",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1411,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER730 ESTABLISHED WITHIN 20NM RADIUS\r\nCENTERED ON 592448N 0244957E (EETN ARP). ALL VFR FLIGHTS, IFR\r\nTRAINING FLIGHTS AND UNMANNED AIRCRAFT ARE FORBIDDEN TO FLY IN THE\r\nAREA EXCEPT MIL, SAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD\r\nAND ESTONIAN INTERNAL SECURITY SERVICE FLIGHTS. VERTICAL LIMITS FROM\r\nSFC TO FL095.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-09T17:00:00Z",
+          "start": "2026-06-09T05:00:00Z"
+        }
+      },
       {
         "id": "63916492519279761",
         "locations": [
@@ -317,36 +347,6 @@
           "end": "2026-07-04T12:00:00Z",
           "est": true,
           "start": "2026-06-04T12:23:00Z"
-        }
-      },
-      {
-        "id": "63916171275750753",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1373,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER730 ESTABLISHED WITHIN 20NM RADIUS\r\nCENTERED ON 592448N 0244957E (EETN ARP). ALL VFR FLIGHTS, IFR\r\nTRAINING FLIGHTS AND UNMANNED AIRCRAFT ARE FORBIDDEN TO FLY IN THE\r\nAREA EXCEPT MIL, SAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD\r\nAND ESTONIAN INTERNAL SECURITY SERVICE FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-09T17:00:00Z",
-          "start": "2026-06-09T05:00:00Z"
         }
       },
       {
@@ -3075,46 +3075,11 @@
             "time": "2026-06-08T07:50:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63916494773339601",
-        "number": 485,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-08T05:50:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "64a69564-eae6-4249-a584-2b25ca29c44b",
-  "identifier": "BRIEFING-20260608-55",
+  "id": "ca4d0cb3-7f66-4e9d-925b-efba9b1afb0c",
+  "identifier": "BRIEFING-20260608-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3163,8 +3128,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-09T09:45:00Z",
-    "validityStart": "2026-06-08T09:45:00Z"
+    "validityEnd": "2026-06-09T14:15:00Z",
+    "validityStart": "2026-06-08T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3248,7 +3213,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63916171275750753",
+                  "referenceId": "63916510538143393",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3519,11 +3484,6 @@
                 {
                   "link": false,
                   "referenceId": "63910227514438113",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916494773339601",
                   "structureType": "REFERENCE"
                 }
               ],
