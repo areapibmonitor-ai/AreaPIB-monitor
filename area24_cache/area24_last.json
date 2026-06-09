@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-09T00:00:00.628Z",
+  "createdAt": "2026-06-09T04:30:00.476Z",
   "dynamicData": {
     "notams": [
       {
@@ -101,6 +101,36 @@
         "validity": {
           "end": "2026-06-12T16:00:00Z",
           "start": "2026-06-08T04:00:00Z"
+        }
+      },
+      {
+        "id": "63916432141975009",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1404,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KARDLA AFIS HRS OF SERVICE CHANGED TO: 0300-1530.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-10T15:30:00Z",
+          "start": "2026-06-10T03:00:00Z"
         }
       },
       {
@@ -3078,8 +3108,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916545339564609",
-        "number": 782,
+        "id": "63916569407124913",
+        "number": 783,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3089,32 +3119,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-08T19:54:00Z"
+            "time": "2026-06-09T02:35:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916549571300945",
-        "number": 486,
+        "id": "63916568033263217",
+        "number": 487,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3124,32 +3154,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-08T21:05:00Z"
+            "time": "2026-06-09T02:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "4467beaf-fc6e-4d7b-b330-3ff5d022c52e",
-  "identifier": "BRIEFING-20260609-1",
+  "id": "befd5490-2c7f-4e88-92e6-5eecdaa15395",
+  "identifier": "BRIEFING-20260609-32",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3198,8 +3228,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-10T00:00:00Z",
-    "validityStart": "2026-06-09T00:00:00Z"
+    "validityEnd": "2026-06-10T04:30:00Z",
+    "validityStart": "2026-06-09T04:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3318,6 +3348,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63916432141975009",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63916258283833937",
@@ -3501,7 +3536,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916545339564609",
+                  "referenceId": "63916569407124913",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3558,7 +3593,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916549571300945",
+                  "referenceId": "63916568033263217",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3572,6 +3607,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63916432141975009",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63916168801982833",
