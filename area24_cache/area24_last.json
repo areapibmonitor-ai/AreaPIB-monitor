@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-10T21:30:00.509Z",
+  "createdAt": "2026-06-10T23:00:00.519Z",
   "dynamicData": {
     "notams": [
       {
@@ -68,36 +68,6 @@
         "validity": {
           "end": "2026-06-11T23:00:00Z",
           "start": "2026-06-11T18:00:00Z"
-        }
-      },
-      {
-        "id": "63916681719586033",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1461,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "OBSTACLE (CONSTRUCTION EQUIPMENT) IN STRIP AREA AT PSN 592450.41N\r\n0244947.08E. ELEV 147FT AMSL. UNLIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T02:00:00Z",
-          "start": "2026-06-10T20:00:00Z"
         }
       },
       {
@@ -2838,8 +2808,8 @@
       }
     ]
   },
-  "id": "60e00a8c-ccfa-421d-bf6c-dbcc62fec80e",
-  "identifier": "BRIEFING-20260610-102",
+  "id": "06ce6b44-1d68-45ae-b42e-484f1bc2a0da",
+  "identifier": "BRIEFING-20260610-108",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2888,8 +2858,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-11T21:30:00Z",
-    "validityStart": "2026-06-10T21:30:00Z"
+    "validityEnd": "2026-06-11T23:00:00Z",
+    "validityStart": "2026-06-10T23:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3117,11 +3087,6 @@
                 {
                   "link": false,
                   "referenceId": "63916686264166129",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916681719586033",
                   "structureType": "REFERENCE"
                 },
                 {
