@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-09T23:00:00.466Z",
+  "createdAt": "2026-06-10T05:00:00.507Z",
   "dynamicData": {
     "notams": [
       {
@@ -2471,6 +2471,40 @@
         }
       },
       {
+        "id": "63907014339511169",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL115"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1087,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5851N02257E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 58,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 115
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 06/2026 WEF 11 JUN 2026\r\n-  REMOVED RESTRICTED AREAS EER16E AND EER16W\r\nUPDATED INFORMATION ABOUT EETSA22B AND EETSA22C.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-24T23:59:00Z",
+          "start": "2026-06-11T00:00:00Z"
+        }
+      },
+      {
         "id": "63914272234562881",
         "levels": {
           "lower": "SFC",
@@ -3402,8 +3436,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916630681559537",
-        "number": 787,
+        "id": "63916657790901041",
+        "number": 789,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3431,14 +3465,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-09T19:37:00Z"
+            "time": "2026-06-10T03:09:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916636328919553",
-        "number": 490,
+        "id": "63916652478059361",
+        "number": 491,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3466,22 +3500,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-09T21:06:00Z"
+            "time": "2026-06-10T01:39:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8e0cc5a7-4d6b-4d7c-af36-04da0833f388",
-  "identifier": "BRIEFING-20260609-108",
+  "id": "10f22a12-ca44-4a53-9964-6ec18b02b157",
+  "identifier": "BRIEFING-20260610-35",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3522,8 +3556,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-10T23:00:00Z",
-    "validityStart": "2026-06-09T23:00:00Z"
+    "validityEnd": "2026-06-11T05:00:00Z",
+    "validityStart": "2026-06-10T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3855,7 +3889,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916630681559537",
+                  "referenceId": "63916657790901041",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3912,7 +3946,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916636328919553",
+                  "referenceId": "63916652478059361",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4230,6 +4264,11 @@
             {
               "link": false,
               "referenceId": "63914339514090481",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63907014339511169",
               "structureType": "REFERENCE"
             },
             {
