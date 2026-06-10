@@ -12659,3 +12659,50 @@ UPDATED INFORMATION ABOUT EETSA22B AND EETSA22C.
 F)SFC G)FL115
 )
 [2026-06-10T05:03:43Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3078c1ac378sm16498576eec.1 - gsmtp')
+[2026-06-10T08:59:39Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0527/26 was replaced with NOTAM A1434/26.
+AFTN: (A1434/26 NOTAMR A0527/26
+
+(A1434/26 NOTAMR A0527/26
+Q)EETT/OBCE/IV/M/AE/000/005/5926N02445E001
+A)EETN B)2606100514 C)2609101200
+E)CRANE ERECTED AT PSN 592555.5N 0244527.5E.
+ELEV 406FT AMSL (HEIGHT 371FT AGL). LIGHTED.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1433/26 NOTAMN
+Q)EETT/ORLT/IV/M/E/000/999/5849N02426E999
+A)EETT B)2606100515 C)2606101100
+E)RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO
+HELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE
+IMMEDIATE RESPONSE IF REQUESTED (1HR PN).
+)
+
+New NOTAM added:
+(A1435/26 NOTAMN
+Q)EETT/OBCE/IV/M/AE/000/999/5925N02450E005
+A)EETN B)2606100800 C)2609100800
+E)CRANE ERECTED IN AREA 2 AT PSN 592605.1N 0244532.4E.
+ELEV 360FT AMSL (HEIGHT 345FT AGL). LIGHTED.
+)
+
+
+Other removals:
+- NOTAM A1311/26 was removed from the PIB.
+- NOTAM A1312/26 was removed from the PIB.
+- NOTAM A1313/26 was removed from the PIB.
+- NOTAM A1314/26 was removed from the PIB.
+- NOTAM A1315/26 was removed from the PIB.
+- NOTAM A1316/26 was removed from the PIB.
+- NOTAM A1317/26 was removed from the PIB.
+- NOTAM A1318/26 was removed from the PIB.
+- NOTAM A1319/26 was removed from the PIB.
+- NOTAM A1320/26 was removed from the PIB.
+- NOTAM A1321/26 was removed from the PIB.
+[2026-06-10T08:59:39Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9158a21f871sm2400949485a.12 - gsmtp')
