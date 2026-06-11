@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-11T14:45:00.515Z",
+  "createdAt": "2026-06-11T18:15:00.504Z",
   "dynamicData": {
     "notams": [
       {
@@ -90,70 +90,6 @@
         "validity": {
           "end": "2026-09-12T08:00:00Z",
           "start": "2026-06-12T02:30:00Z"
-        }
-      },
-      {
-        "id": "63916775950058769",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1476,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "KARDLA AFIS HR OF SERVICE: 1300-1530",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T15:30:00Z",
-          "start": "2026-06-11T12:00:00Z"
-        }
-      },
-      {
-        "id": "63916697981058545",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1469,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15F ACTIVATED. NON-PARTICIPATING AIRCRAFT\r\n(INCLUDING UA) ARE NOT PERMITTED TO ENTER INTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T15:00:00Z",
-          "start": "2026-06-11T14:00:00Z"
         }
       },
       {
@@ -325,111 +261,6 @@
           "end": "2026-09-10T12:00:00Z",
           "est": true,
           "start": "2026-06-10T05:14:00Z"
-        }
-      },
-      {
-        "id": "63916592374959537",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1426,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5912N02636E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "10 1130-1430, 11 1400-1500",
-        "text": "RESTRICTED AREA EER15G ACTIVATED. CHANGED VERTICAL LIMITS DURING\r\nACT. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO\r\nENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO\r\nABOUT ACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T15:00:00Z",
-          "start": "2026-06-10T11:30:00Z"
-        }
-      },
-      {
-        "id": "63916591817908897",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1422,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "10 1130-1430, 11 1400-1500",
-        "text": "RESTRICTED AREA EER15E ACTIVATED. CHANGED VERTICAL LIMITS DURING\r\nACT. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO\r\nENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO\r\nABOUT ACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T15:00:00Z",
-          "start": "2026-06-10T11:30:00Z"
-        }
-      },
-      {
-        "id": "63916591515130001",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1420,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5931N02601E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "10 1130-1430, 11 1400-1500",
-        "text": "RESTRICTED AREA EER15D ACTIVATED. CHANGED VERTICAL LIMITS DURING\r\nACT. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO\r\nENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO\r\nABOUT ACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T15:00:00Z",
-          "start": "2026-06-10T11:30:00Z"
         }
       },
       {
@@ -2893,16 +2724,16 @@
       }
     ]
   },
-  "id": "5f170c92-4b9e-48b8-818e-134a289b957d",
-  "identifier": "BRIEFING-20260611-75",
+  "id": "39ca6cd7-f649-4b67-a217-4c2e57449857",
+  "identifier": "BRIEFING-20260611-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2943,8 +2774,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-12T14:45:00Z",
-    "validityStart": "2026-06-11T14:45:00Z"
+    "validityEnd": "2026-06-12T18:15:00Z",
+    "validityStart": "2026-06-11T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3071,11 +2902,6 @@
                 {
                   "link": false,
                   "referenceId": "63916779442260577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916775950058769",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3329,11 +3155,6 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63916775950058769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63916673681280161",
               "structureType": "REFERENCE"
             },
@@ -3399,11 +3220,6 @@
         {
           "content": [
             {
-              "link": false,
-              "referenceId": "63916697981058545",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63916686264166129",
               "structureType": "REFERENCE"
@@ -3416,21 +3232,6 @@
             {
               "link": false,
               "referenceId": "63916677362740753",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916592374959537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916591817908897",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916591515130001",
               "structureType": "REFERENCE"
             },
             {
