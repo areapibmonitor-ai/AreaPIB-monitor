@@ -12861,3 +12861,47 @@ Expired NOTAMs:
 Other removals:
 - NOTAM A1326/26 was removed from the PIB.
 [2026-06-11T11:13:04Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8d1e8777a69sm15458106d6.21 - gsmtp')
+[2026-06-11T14:57:53Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1213/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1476/26 NOTAMN
+Q)EETT/SFXX/IV/BO/AE/000/050/5859N02250E013
+A)EEKA B)2606111200 C)2606111530
+E)KARDLA AFIS HR OF SERVICE: 1300-1530
+)
+
+New NOTAM added:
+(A1478/26 NOTAMN
+Q)EETT/FAAH/IV/BO/A/000/999/5859N02250E005
+A)EEKA B)2606120230 C)2609120800
+E)HANDLING HR OF SERVICE:
+MON-FRI 0300-0900 0930-1530
+SAT 0330-0800
+SUN 1200-1530
+)
+
+New NOTAM added:
+(A1479/26 NOTAMN
+Q)EETT/FUAH/IV/BO/A/000/999/5859N02250E005
+A)EEKA B)2606120230 C)2609120800
+E)FUELLING HR OF SERVICE:
+MON-FRI 0300-0900 0930-1530
+SAT 0330-0800
+SUN 1200-1530
+)
+
+New NOTAM added:
+(A1480/26 NOTAMN
+Q)EETT/FIAH/IV/BO/A/000/999/5859N02250E005
+A)EEKA B)2606120230 C)2609120800
+E)DE-ICING HR OF SERVICE:
+MON-FRI 0300-0900 0930-1530
+SAT 0330-0800
+SUN 1200-1530
+)
+[2026-06-11T14:57:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30806c2f364sm2159043eec.3 - gsmtp')

@@ -1,7 +1,127 @@
 {
-  "createdAt": "2026-06-11T11:00:00.441Z",
+  "createdAt": "2026-06-11T14:45:00.515Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63916779871508385",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1480,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FI",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "DE-ICING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-12T08:00:00Z",
+          "start": "2026-06-12T02:30:00Z"
+        }
+      },
+      {
+        "id": "63916779594100673",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1479,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-12T08:00:00Z",
+          "start": "2026-06-12T02:30:00Z"
+        }
+      },
+      {
+        "id": "63916779442260577",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1478,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "HANDLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-12T08:00:00Z",
+          "start": "2026-06-12T02:30:00Z"
+        }
+      },
+      {
+        "id": "63916775950058769",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1476,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KARDLA AFIS HR OF SERVICE: 1300-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-11T15:30:00Z",
+          "start": "2026-06-11T12:00:00Z"
+        }
+      },
       {
         "id": "63916697981058545",
         "levels": {
@@ -1383,41 +1503,6 @@
         }
       },
       {
-        "id": "63915307224444369",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1213,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02443E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "01 02 0500-1359, 03 0600-1359, 04 0500-1359, 05 0500-1859, 06\r\n0600-1859, 07 0600-1259, 08 09 0500-1359, 10 0600-1459, 11 0600-1259",
-        "text": "DANGER AREA EED20 MANNIKU ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 503 4102.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T12:59:00Z",
-          "start": "2026-06-01T05:00:00Z"
-        }
-      },
-      {
         "id": "63915305283677137",
         "levels": {
           "lower": "SFC",
@@ -2738,8 +2823,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916760950806817",
-        "number": 794,
+        "id": "63916778012460721",
+        "number": 795,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2749,32 +2834,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-11T07:43:00Z"
+            "time": "2026-06-11T12:32:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916754421171553",
-        "number": 496,
+        "id": "63916772529246369",
+        "number": 497,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2784,32 +2869,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-11T05:57:00Z"
+            "time": "2026-06-11T11:01:00Z"
           }
         ]
       }
     ]
   },
-  "id": "6830422b-ed2d-4c76-b292-e08fad0392b5",
-  "identifier": "BRIEFING-20260611-60",
+  "id": "5f170c92-4b9e-48b8-818e-134a289b957d",
+  "identifier": "BRIEFING-20260611-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2858,8 +2943,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-12T11:00:00Z",
-    "validityStart": "2026-06-11T11:00:00Z"
+    "validityEnd": "2026-06-12T14:45:00Z",
+    "validityStart": "2026-06-11T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2973,6 +3058,26 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63916779871508385",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916779594100673",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916779442260577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916775950058769",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63916258283833937",
@@ -3106,11 +3211,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63915307224444369",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63914438030284049",
                   "structureType": "REFERENCE"
                 },
@@ -3156,7 +3256,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916760950806817",
+                  "referenceId": "63916778012460721",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3213,7 +3313,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916754421171553",
+                  "referenceId": "63916772529246369",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3227,6 +3327,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63916775950058769",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63916673681280161",
@@ -3411,11 +3516,6 @@
             {
               "link": false,
               "referenceId": "63915307597433457",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63915307224444369",
               "structureType": "REFERENCE"
             },
             {
