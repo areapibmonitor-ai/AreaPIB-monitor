@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-11T18:15:00.504Z",
+  "createdAt": "2026-06-11T21:00:01.399Z",
   "dynamicData": {
     "notams": [
       {
@@ -261,40 +261,6 @@
           "end": "2026-09-10T12:00:00Z",
           "est": true,
           "start": "2026-06-10T05:14:00Z"
-        }
-      },
-      {
-        "id": "63916580076383473",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL080"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1416,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5837N02659E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 8,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 80
-        },
-        "text": "TEMPO RESTRICTED AREA EER2641 ESTABLISHED DUE TO UNMANNED AIRCRAFT\r\nACTIVITY WI: 584341N 0265413E - 583608N 0270757E - 583200N 0271040E\r\n- 583230N 0270930E - 583250N 0270744E - 583315N 0270440E - 583320N\r\n0270055E - 583300N 0265720E - 583230N 0265430E - 583130N 0265130E -\r\n583045N 0265020E - 583423N 0264927E - 584341N 0265413E.\r\nALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY\r\nINTO OR IN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND\r\nBORDER GUARD BOARD. PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +372 53094264 AT LEAST 1 HOUR BEFORE THE FLIGHT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T19:00:00Z",
-          "start": "2026-06-10T05:00:00Z"
         }
       },
       {
@@ -2654,8 +2620,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63916778012460721",
-        "number": 795,
+        "id": "63916804888048161",
+        "number": 796,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2683,14 +2649,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-11T12:32:00Z"
+            "time": "2026-06-11T20:00:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63916772529246369",
-        "number": 497,
+        "id": "63916807852491361",
+        "number": 498,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2718,14 +2684,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-11T11:01:00Z"
+            "time": "2026-06-11T20:48:00Z"
           }
         ]
       }
     ]
   },
-  "id": "39ca6cd7-f649-4b67-a217-4c2e57449857",
-  "identifier": "BRIEFING-20260611-89",
+  "id": "5cdf73fb-0887-44af-9a08-cc8ab03ab804",
+  "identifier": "BRIEFING-20260611-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2774,8 +2740,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-12T18:15:00Z",
-    "validityStart": "2026-06-11T18:15:00Z"
+    "validityEnd": "2026-06-12T21:00:00Z",
+    "validityStart": "2026-06-11T21:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3082,7 +3048,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916778012460721",
+                  "referenceId": "63916804888048161",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3139,7 +3105,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916772529246369",
+                  "referenceId": "63916807852491361",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3232,11 +3198,6 @@
             {
               "link": false,
               "referenceId": "63916677362740753",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916580076383473",
               "structureType": "REFERENCE"
             },
             {
