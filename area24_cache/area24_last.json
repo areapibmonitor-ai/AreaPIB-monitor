@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-11T22:45:00.434Z",
+  "createdAt": "2026-06-12T00:15:00.47Z",
   "dynamicData": {
     "notams": [
       {
@@ -90,40 +90,6 @@
         "validity": {
           "end": "2026-09-12T08:00:00Z",
           "start": "2026-06-12T02:30:00Z"
-        }
-      },
-      {
-        "id": "63916686264166129",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1462,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5927N02436E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2642  ESTABLISHED DUE UAV (DRONE)\r\nLIGHT SHOW WI 500M RADIUS CENTRED ON 592701N 0243626E.\r\nNON-PARTICIPATING ACFT SHALL REMAIN CLEAR OF AREA.\r\nINTENSE VISUAL LIGHT EMISSIONS AND UAV FORMATION MANOEUVRES EXPECTED.\r\nCONTACT: EVENT CONTROL +49 160 94483079",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-11T23:00:00Z",
-          "start": "2026-06-11T18:00:00Z"
         }
       },
       {
@@ -1476,6 +1442,41 @@
         }
       },
       {
+        "id": "63914961606656417",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1172,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "07 13 20 0500-1900",
+        "text": "DANGER AREA EED36 EIVERE ACTIVATED.\r\nINFO ABOUT ACTIVITY FROM TEL +37253557238.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-20T19:00:00Z",
+          "start": "2026-06-07T05:00:00Z"
+        }
+      },
+      {
         "id": "63914877162902049",
         "levels": {
           "lower": "GND",
@@ -1579,6 +1580,41 @@
           "end": "2026-08-20T09:00:00Z",
           "est": true,
           "start": "2026-05-20T05:31:00Z"
+        }
+      },
+      {
+        "id": "63914787747469409",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1146,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "03 0300-04 1700, 06 0500-1500, 13 0500-1700, 14 0500-1200, 19\r\n0500-20 1600, 26 0600-1900, 27 28 0500-1400",
+        "text": "DANGER AREA EED11 METSNIKU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-28T14:00:00Z",
+          "start": "2026-06-03T03:00:00Z"
         }
       },
       {
@@ -2690,16 +2726,16 @@
       }
     ]
   },
-  "id": "79f367c5-caf3-403c-9719-e8d3b1632fb7",
-  "identifier": "BRIEFING-20260611-107",
+  "id": "64453e80-8c60-4338-a28d-96f5b634a43f",
+  "identifier": "BRIEFING-20260612-2",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2740,8 +2776,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-12T22:45:00Z",
-    "validityStart": "2026-06-11T22:45:00Z"
+    "validityEnd": "2026-06-13T00:15:00Z",
+    "validityStart": "2026-06-12T00:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2973,11 +3009,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63916686264166129",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63916673681280161",
                   "structureType": "REFERENCE"
                 },
@@ -3186,11 +3217,6 @@
         {
           "content": [
             {
-              "link": true,
-              "referenceId": "63916686264166129",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63916678027044577",
               "structureType": "REFERENCE"
@@ -3302,7 +3328,17 @@
             },
             {
               "link": false,
+              "referenceId": "63914961606656417",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63914877162902049",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63914787747469409",
               "structureType": "REFERENCE"
             },
             {
