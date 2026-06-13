@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-13T14:30:00.453Z",
+  "createdAt": "2026-06-13T16:00:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -674,40 +674,6 @@
           "end": "2026-09-10T12:00:00Z",
           "est": true,
           "start": "2026-06-10T05:14:00Z"
-        }
-      },
-      {
-        "id": "63916514376277713",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1412,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5853N02216E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RT",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "text": "TEMPO RESTRICTED AREA EER26151UA ESTABLISHED DUE TO UAS ACTIVITY:\r\nENVIRONMENTAL BOARD AERIAL SURVEY OF STRUCTURES WITHIN\r\n585452N 0220651E - 585417N 0222415E - 585216N 0222533E - 585154N\r\n0220651E - 585452N 0220651E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5124\r\n731.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-13T16:00:00Z",
-          "start": "2026-06-13T05:00:00Z"
         }
       },
       {
@@ -2961,16 +2927,16 @@
       }
     ]
   },
-  "id": "db76745c-a2a7-4f3b-995f-6aebbe7d20d8",
-  "identifier": "BRIEFING-20260613-74",
+  "id": "bcd3b2f0-bc19-41f7-95dc-0ea93e1eda04",
+  "identifier": "BRIEFING-20260613-80",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3011,8 +2977,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-14T14:30:00Z",
-    "validityStart": "2026-06-13T14:30:00Z"
+    "validityEnd": "2026-06-14T16:00:00Z",
+    "validityStart": "2026-06-13T16:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3519,11 +3485,6 @@
             {
               "link": false,
               "referenceId": "63916674825665153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916514376277713",
               "structureType": "REFERENCE"
             },
             {
