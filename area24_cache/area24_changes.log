@@ -13353,3 +13353,22 @@ ACT AVBL FROM: +372 717 3701.
 F)GND G)FL095
 )
 [2026-06-14T08:50:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3081e5cea89sm11392995eec.8 - gsmtp')
+[2026-06-14T13:18:02Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1212/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1409/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/019/5816N02656E001
+A)EETU B)2606150900 C)2606291759
+D)15 0900-1759, 16 0600-1359, 17 18 0900-1559, 19 0500-0959, 21
+0600-1559, 25 1200-1659, 26 0500-0959, 28 0600-1559, 29 0900-1759
+E)DANGER AREA EED2 UNIKULA ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM: +372 525 8504.
+AREA DEACTIVATION POSSIBLE BY ATS.
+F)SFC G)1900FT AMSL
+)
+[2026-06-14T13:18:02Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8d304b58edesm76105196d6.37 - gsmtp')
