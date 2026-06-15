@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-15T06:00:00.473Z",
+  "createdAt": "2026-06-15T12:30:00.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -468,6 +468,101 @@
         "validity": {
           "end": "2026-06-30T16:59:00Z",
           "start": "2026-06-16T05:00:00Z"
+        }
+      },
+      {
+        "id": "63916599803342305",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1428,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5919N02412E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "16 0600-1259, 17 18 0500-1359, 19 0500-1959, 20 0300-1959, 21\r\n0300-1459, 22 25 0500-1359, 26 0600-1359, 29 30 0500-1359",
+        "text": "DANGER AREA EED16 KLOOGA 1 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5332 6746.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T13:59:00Z",
+          "start": "2026-06-16T06:00:00Z"
+        }
+      },
+      {
+        "id": "63916524293610961",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1415,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "SA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "ATIS CHANNEL 123.880 AND TEL +372 717 3310 U/S.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T14:00:00Z",
+          "start": "2026-06-16T06:00:00Z"
+        }
+      },
+      {
+        "id": "63916523686458273",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1414,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AMARI METAR AND SPECI INFO UNAVAILABLE.\r\nRELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T14:00:00Z",
+          "start": "2026-06-16T06:00:00Z"
         }
       },
       {
@@ -2795,8 +2890,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917092490329953",
-        "number": 814,
+        "id": "63917115152812545",
+        "number": 815,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2824,7 +2919,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-15T03:54:00Z"
+            "time": "2026-06-15T10:11:00Z"
           }
         ]
       },
@@ -2865,8 +2960,8 @@
       }
     ]
   },
-  "id": "77801ea4-e83e-4df8-8b5f-e0516b867997",
-  "identifier": "BRIEFING-20260615-40",
+  "id": "51d55afc-8c3f-4e07-982d-3bcc4cad079d",
+  "identifier": "BRIEFING-20260615-66",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2915,8 +3010,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-16T06:00:00Z",
-    "validityStart": "2026-06-15T06:00:00Z"
+    "validityEnd": "2026-06-16T12:30:00Z",
+    "validityStart": "2026-06-15T12:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3001,6 +3096,21 @@
                 {
                   "link": false,
                   "referenceId": "63916841608842321",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916599803342305",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916524293610961",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63916523686458273",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3223,7 +3333,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917092490329953",
+                  "referenceId": "63917115152812545",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3388,6 +3498,11 @@
             {
               "link": true,
               "referenceId": "63916600062354609",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63916599803342305",
               "structureType": "REFERENCE"
             },
             {
