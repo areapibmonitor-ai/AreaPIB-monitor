@@ -13443,3 +13443,36 @@ Other removals:
 - NOTAM A1146/26 was removed from the PIB.
 - NOTAM A1225/26 was removed from the PIB.
 [2026-06-15T00:20:47Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3081e5d810fsm12955251eec.12 - gsmtp')
+[2026-06-15T06:04:18Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1232/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5904N02406E002
+A)EETT B)2606160500 C)2606212000
+D)16-18 20-21 0500-2000
+E)DANGER AREA EED7 PIIRSALU ACT.
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A1429/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/022/5819N02448E002
+A)EEPU B)2606160500 C)2606301659
+D)16 17 0500-1659, 19 0500-1359, 20 0500-21 1359, 23 24 0500-1659,
+27 0500-1859, 30 0500-1659
+E)DANGER AREA EED32 KIKEPERA ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 5303 2206.
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A1430/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/092/5749N02648E004
+A)EETT B)2606160500 C)2606161459
+E)DANGER AREA EED4 NURSIPALU 2 ACTIVATED.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.
+F)SFC G)9200FT AMSL
+)
+[2026-06-15T06:04:18Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-1384b910c51sm9364716c88.4 - gsmtp')

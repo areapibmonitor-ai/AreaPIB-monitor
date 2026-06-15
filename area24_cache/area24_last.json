@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-15T00:15:00.444Z",
+  "createdAt": "2026-06-15T06:00:00.473Z",
   "dynamicData": {
     "notams": [
       {
@@ -399,6 +399,75 @@
           "end": "2026-09-10T12:00:00Z",
           "est": true,
           "start": "2026-06-10T05:14:00Z"
+        }
+      },
+      {
+        "id": "63916600240220929",
+        "levels": {
+          "lower": "SFC",
+          "upper": "9200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1430,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "text": "DANGER AREA EED4 NURSIPALU 2 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-16T14:59:00Z",
+          "start": "2026-06-16T05:00:00Z"
+        }
+      },
+      {
+        "id": "63916600062354609",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1429,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "16 17 0500-1659, 19 0500-1359, 20 0500-21 1359, 23 24 0500-1659,\r\n27 0500-1859, 30 0500-1659",
+        "text": "DANGER AREA EED32 KIKEPERA ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T16:59:00Z",
+          "start": "2026-06-16T05:00:00Z"
         }
       },
       {
@@ -1233,6 +1302,41 @@
         "validity": {
           "end": "2026-06-29T05:00:00Z",
           "start": "2026-06-04T17:00:00Z"
+        }
+      },
+      {
+        "id": "63915468471928449",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1232,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02406E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "16-18 20-21 0500-2000",
+        "text": "DANGER AREA EED7 PIIRSALU ACT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-21T20:00:00Z",
+          "start": "2026-06-16T05:00:00Z"
         }
       },
       {
@@ -2691,8 +2795,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917065637889185",
-        "number": 812,
+        "id": "63917092490329953",
+        "number": 814,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2704,30 +2808,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-14T20:23:00Z"
+            "time": "2026-06-15T03:54:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63917061736569953",
-        "number": 504,
+        "id": "63917099494000369",
+        "number": 506,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2737,32 +2841,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-14T19:20:00Z"
+            "time": "2026-06-15T05:48:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8ce2ad29-7629-42aa-87b9-f9b67c44e813",
-  "identifier": "BRIEFING-20260615-2",
+  "id": "77801ea4-e83e-4df8-8b5f-e0516b867997",
+  "identifier": "BRIEFING-20260615-40",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2811,8 +2915,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-16T00:15:00Z",
-    "validityStart": "2026-06-15T00:15:00Z"
+    "validityEnd": "2026-06-16T06:00:00Z",
+    "validityStart": "2026-06-15T06:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3017,6 +3121,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63916600062354609",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63916172679626449",
                   "structureType": "REFERENCE"
                 },
@@ -3114,7 +3223,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917065637889185",
+                  "referenceId": "63917092490329953",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3171,7 +3280,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917061736569953",
+                  "referenceId": "63917099494000369",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3272,6 +3381,16 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63916600240220929",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63916600062354609",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63916509104985937",
               "structureType": "REFERENCE"
@@ -3334,6 +3453,11 @@
             {
               "link": false,
               "referenceId": "63915633076780049",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63915468471928449",
               "structureType": "REFERENCE"
             },
             {
