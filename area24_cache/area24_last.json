@@ -1,7 +1,75 @@
 {
-  "createdAt": "2026-06-16T01:30:00.436Z",
+  "createdAt": "2026-06-16T07:00:00.429Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63917127365351697",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1495,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2507 ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n501 0296. REF AIP SUP 01/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T15:00:00Z",
+          "start": "2026-06-17T06:00:00Z"
+        }
+      },
+      {
+        "id": "63917127029680529",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1494,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RT",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2506 ACT.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA.\r\nPERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372\r\n501 0296. REF AIP SUP 01/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T15:00:00Z",
+          "start": "2026-06-17T06:00:00Z"
+        }
+      },
       {
         "id": "63917126810710161",
         "locations": [
@@ -30,6 +98,36 @@
         "validity": {
           "end": "2026-06-17T03:00:00Z",
           "start": "2026-06-16T03:00:00Z"
+        }
+      },
+      {
+        "id": "63917114488422369",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1491,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AE",
+          "subject": "NX",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO\r\nMAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-17T12:00:00Z",
+          "start": "2026-06-17T06:00:00Z"
         }
       },
       {
@@ -362,6 +460,41 @@
         "validity": {
           "end": "2026-09-12T08:00:00Z",
           "start": "2026-06-12T02:30:00Z"
+        }
+      },
+      {
+        "id": "63916688433340609",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1463,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5927N02752E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "schedule": "17  0600-1000, 18 0700-1200",
+        "text": "TEMPO DANGER AREA EED2335 ESTABLISHED DUE TO GUN FIRING ACTIVITY\r\nWI: 592806N 0275015E - 592813N 0275325E - 592607N 0275348E - 592557N\r\n0275038E - 592806N 0275015E.\r\nINFO ABOUT ACT AVBL FROM TEL +372 5309 1114.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-18T12:00:00Z",
+          "start": "2026-06-17T06:00:00Z"
         }
       },
       {
@@ -3166,8 +3299,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917149928330625",
-        "number": 817,
+        "id": "63917184408303601",
+        "number": 819,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3178,31 +3311,66 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-15T19:51:00Z"
+            "time": "2026-06-16T05:25:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63917186190928593",
+        "number": 507,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-06-16T05:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "40b2c472-8110-4d98-b607-9781872dd088",
-  "identifier": "BRIEFING-20260616-7",
+  "id": "66df54a4-44ac-4b0c-bc44-c8c71f960d1e",
+  "identifier": "BRIEFING-20260616-44",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3251,8 +3419,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-17T01:30:00Z",
-    "validityStart": "2026-06-16T01:30:00Z"
+    "validityEnd": "2026-06-17T07:00:00Z",
+    "validityStart": "2026-06-16T07:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3504,6 +3672,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63917114488422369",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63916840053085889",
                   "structureType": "REFERENCE"
                 },
@@ -3574,7 +3747,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917149928330625",
+                  "referenceId": "63917184408303601",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3628,6 +3801,11 @@
                   "link": false,
                   "referenceId": "63910227514438113",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917186190928593",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3640,6 +3818,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63917114488422369",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63916840332689953",
@@ -3708,6 +3891,16 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63917127365351697",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917127029680529",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63916926713786097",
               "structureType": "REFERENCE"
             },
@@ -3724,6 +3917,11 @@
             {
               "link": false,
               "referenceId": "63916925062101873",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63916688433340609",
               "structureType": "REFERENCE"
             },
             {
