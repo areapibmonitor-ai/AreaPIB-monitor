@@ -13771,3 +13771,47 @@ FOLLOWS:
 Other removals:
 - NOTAM A1222/26 was removed from the PIB.
 [2026-06-17T10:09:46Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3081e91f878sm22171555eec.17 - gsmtp')
+[2026-06-17T14:04:06Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1414/26 expired and was removed from the PIB.
+- NOTAM A1415/26 expired and was removed from the PIB.
+- NOTAM A1484/26 expired and was removed from the PIB.
+- NOTAM A1491/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A1392/26 was replaced with NOTAM A1526/26.
+AFTN: (A1526/26 NOTAMR A1392/26
+
+(A1526/26 NOTAMR A1392/26
+Q)EETT/OBCE/IV/M/A/000/999/5859N02250E005
+A)EEKA B)2606171237 C)2606172359
+E)SAILING BOAT MAST AT PSN 585959.1N 0224910.1E (ROOGRAHU MARINA)
+ELEV 38FT AMSL. UNLIGHTED
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1525/26 NOTAMN
+Q)EETT/OBCE/IV/M/A/000/999/5859N02250E005
+A)EEKA B)2606180000 C)2607051300
+E)TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU
+MARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT LIGHTED.
+)
+
+New NOTAM added:
+(A1533/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/030/060/5904N02156E013
+A)EETT B)2606180000 C)2606200600
+D)18 20 0000-0600, 19 1800-2359
+E)RESTRICTED AREA EER2611F ACTIVATED. PERMISSION FOR ENTERING THE
+AREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.
+F)3000FT AMSL G)6000FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1385/26 was removed from the PIB.
+[2026-06-17T14:04:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3081e92096esm23605296eec.15 - gsmtp')
