@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-18T17:30:00.454Z",
+  "createdAt": "2026-06-18T19:45:00.45Z",
   "dynamicData": {
     "notams": [
       {
@@ -502,45 +502,6 @@
         }
       },
       {
-        "id": "63917383198801745",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1617,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5915N02554E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "referenceId": {
-          "number": 1208,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "DANGER AREA EED13 TAPA1 ACTIVATED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-18T19:00:00Z",
-          "start": "2026-06-18T12:38:00Z"
-        }
-      },
-      {
         "id": "63917382635771761",
         "levels": {
           "lower": "SFC",
@@ -808,45 +769,6 @@
         "validity": {
           "end": "2026-06-25T04:59:00Z",
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917374528947553",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1602,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5921N02728E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "referenceId": {
-          "number": 1214,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "DANGER AREA EED26 VIRU ACTIVATED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-18T19:00:00Z",
-          "start": "2026-06-18T10:13:00Z"
         }
       },
       {
@@ -1123,45 +1045,6 @@
           "end": "2026-09-18T23:59:00Z",
           "est": true,
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917370413535073",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1591,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "referenceId": {
-          "number": 1408,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "DANGER AREA EED18 TSIATSUNGOLMAA ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5919 1885.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-18T17:59:00Z",
-          "start": "2026-06-18T09:05:00Z"
         }
       },
       {
@@ -3445,8 +3328,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917388435255185",
-        "number": 832,
+        "id": "63917407794104849",
+        "number": 833,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3474,14 +3357,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-18T14:06:00Z"
+            "time": "2026-06-18T19:29:00Z"
           }
         ]
       }
     ]
   },
-  "id": "1a4925f8-643d-4268-8cf7-ab74053a0399",
-  "identifier": "BRIEFING-20260618-86",
+  "id": "160496ef-9108-4d30-a919-d7eaf89c5526",
+  "identifier": "BRIEFING-20260618-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3530,8 +3413,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-19T17:30:00Z",
-    "validityStart": "2026-06-18T17:30:00Z"
+    "validityEnd": "2026-06-19T19:45:00Z",
+    "validityStart": "2026-06-18T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3908,7 +3791,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917388435255185",
+                  "referenceId": "63917407794104849",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4077,11 +3960,6 @@
             },
             {
               "link": false,
-              "referenceId": "63917383198801745",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63917382635771761",
               "structureType": "REFERENCE"
             },
@@ -4093,11 +3971,6 @@
             {
               "link": false,
               "referenceId": "63917376377961281",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917374528947553",
               "structureType": "REFERENCE"
             },
             {
@@ -4118,11 +3991,6 @@
             {
               "link": true,
               "referenceId": "63917372521010513",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917370413535073",
               "structureType": "REFERENCE"
             },
             {
