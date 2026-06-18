@@ -1,7 +1,854 @@
 {
-  "createdAt": "2026-06-18T10:45:00.42Z",
+  "createdAt": "2026-06-18T14:15:00.453Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63917387432514481",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1641,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "referenceId": {
+          "number": 1230,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "DANGER AREA EED5 KILTSI ACT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T17:00:00Z",
+          "start": "2026-06-18T13:49:00Z"
+        }
+      },
+      {
+        "id": "63917386998809073",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1640,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02406E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "referenceId": {
+          "number": 1232,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "DANGER AREA EED7 PIIRSALU ACT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T20:00:00Z",
+          "start": "2026-06-18T13:42:00Z"
+        }
+      },
+      {
+        "id": "63917386405223537",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1634,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1111,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592500.5N 0244622.2E. ELEV 236FT\r\nAMSL (HEIGHT 102FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T13:32:00Z"
+        }
+      },
+      {
+        "id": "63917386256682513",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1633,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592500.50N 0244622.20E\r\nELEVATION 236FT (HEIGHT 102FT). LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917385861927313",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1631,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592523.10N 0244752.40E ELEVATION\r\n320FT (HEIGHT 178FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917385292979393",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1629,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "ID",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS DME RWY 24 U/S DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-19T12:00:00Z",
+          "start": "2026-06-19T10:00:00Z"
+        }
+      },
+      {
+        "id": "63917385501694817",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1628,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1008,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "GROUP OF CRANES ERECTED IN AREA 2:\r\n1. AT PSN 592523.9N 0244738.8E. ELEV 243FT AMSL (HEIGHT 113FT AGL).\r\nNOT LIGHTED.\r\n2. AT PSN 592523.1N 0244747.1E. ELEV 279FT AMSL (HEIGHT 140FT AGL).\r\nNOT LIGHTED.\r\n3. AT PSN 592523.1N 0244752.4E. ELEV 320FT AMSL (HEIGHT 178FT AGL).\r\nLIGHTED.\r\n4. AT PSN 592523.2N 0244757.2E. ELEV 283FT AMSL (HEIGHT 150FT AGL).\r\nNOT LIGHTED.\r\n5. AT PSN 592523.1N 0244810.7E. ELEV 286FT AMSL (HEIGHT 140FT AGL).\r\nNOT LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T13:17:00Z"
+        }
+      },
+      {
+        "id": "63917385141865825",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1627,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY GROUP OF CRANE ERECTED POSITIONS:\r\n592523.90N 0244738.80E\r\n592523.10N 0244747.10E\r\n592523.20N 0244757.20E\r\n592523.10N 0244810.70E\r\nELEVATION 283FT (HEIGHT 150FT). NOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917385021438641",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1626,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "19-21 24-25 27-28 0700-1700",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-28T17:00:00Z",
+          "start": "2026-06-19T07:00:00Z"
+        }
+      },
+      {
+        "id": "63917384509879041",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1624,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "DAILY 0500-1400",
+        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-21T14:00:00Z",
+          "start": "2026-06-19T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917384174853025",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1623,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 811,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592520.3N 0244816.1E. ELEV 388FT\r\nAMSL (HEIGHT 240FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T12:55:00Z"
+        }
+      },
+      {
+        "id": "63917384065234529",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1622,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592520.30N 0244816.10E ELEVATION\r\n388FT (HEIGHT 240FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917383975642001",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1621,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 622,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592432.7N 0244117.1E.\r\nELEV 197FT AMSL (HEIGHT 159FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T12:52:00Z"
+        }
+      },
+      {
+        "id": "63917383803833377",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1620,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592432.70N 0244117.10E ELEVATION\r\n197FT (HEIGHT 159FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917383767101969",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1619,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 591,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE ERECTED IN AREA 2 AT PSN 592513.7N 0244601.5E. ELEV 281FT\r\nAMSL (HEIGHT 176FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T12:48:00Z"
+        }
+      },
+      {
+        "id": "63917383512558225",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1618,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592513.70N 0244601.50E ELEVATION\r\n281FT (HEIGHT 176FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917383198801745",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1617,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5915N02554E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 24
+        },
+        "referenceId": {
+          "number": 1208,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "DANGER AREA EED13 TAPA1 ACTIVATED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T19:00:00Z",
+          "start": "2026-06-18T12:38:00Z"
+        }
+      },
+      {
+        "id": "63917382635771761",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1616,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5915N02554E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 24
+        },
+        "schedule": "DAILY 0500-1859",
+        "text": "DANGER AREA EED13 (TAPA 1) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T18:59:00Z",
+          "start": "2026-06-19T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917382497543521",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1615,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU\r\nMARINA POSITION: 585959.19N 0224911.01E ELEVATION 56FT. NOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-20T20:00:00Z",
+          "start": "2026-06-18T12:30:00Z"
+        }
+      },
+      {
+        "id": "63917378844398769",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1613,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5926N02445E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 1,
+          "scope": "AE",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "referenceId": {
+          "number": 1434,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE ERECTED AT PSN 592555.5N 0244527.5E.\r\nELEV 406FT AMSL (HEIGHT 371FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T11:26:00Z"
+        }
+      },
+      {
+        "id": "63917378605092753",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1612,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5926N02445E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 1,
+          "scope": "AE",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592555.50N 0244527.50E ELEVATION\r\n444FT (HEIGHT 414FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917377209743969",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1609,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1407,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CRANE AT POSITION 592519.4N 0244812.5E. ELEVATION 330FT AMSL\r\n(HEIGHT 183FT AGL). LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T10:58:00Z"
+        }
+      },
+      {
+        "id": "63917376873018193",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1608,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592519.37N 0244812.48E ELEVATION\r\n330FT (HEIGHT 183FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T23:59:00Z",
+          "est": true,
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917376541830897",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1606,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 44
+        },
+        "referenceId": {
+          "number": 1360,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
+        "type": "R",
+        "validity": {
+          "end": "2026-06-18T23:59:00Z",
+          "start": "2026-06-18T10:48:00Z"
+        }
+      },
+      {
+        "id": "63917376377961281",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1605,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "schedule": "19-20 23-24 H24, 21 0500-1959, 22 0500-2359, 25 0000-0459",
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-25T04:59:00Z",
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
       {
         "id": "63917374528947553",
         "levels": {
@@ -461,45 +1308,6 @@
         }
       },
       {
-        "id": "63917367775726705",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1586,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "referenceId": {
-          "number": 1428,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "DANGER AREA EED16 KLOOGA 1 ACTIVATED.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5332 6746.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-18T13:59:00Z",
-          "start": "2026-06-18T08:22:00Z"
-        }
-      },
-      {
         "id": "63917367641066545",
         "levels": {
           "lower": "SFC",
@@ -601,36 +1409,6 @@
         "validity": {
           "end": "2026-06-21T13:59:00Z",
           "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917362993341569",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1580,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LB",
-          "traffic": "V",
-          "upper": 999
-        },
-        "text": "AERODROME BEACON U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T20:59:00Z",
-          "start": "2026-06-18T06:30:00Z"
         }
       },
       {
@@ -1458,146 +2236,6 @@
         }
       },
       {
-        "id": "63916926713786097",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1490,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0815-0915, 16 1145-1245, 18 1045-1215",
-        "text": "RESTRICTED AREA EER15F ACTIVATED.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-18T12:15:00Z",
-          "start": "2026-06-15T08:15:00Z"
-        }
-      },
-      {
-        "id": "63916926472381681",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1489,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5912N02636E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0815-0915, 16 1145-1245, 18 1045-1215",
-        "text": "RESTRICTED AREA EER15G ACTIVATED.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-18T12:15:00Z",
-          "start": "2026-06-15T08:15:00Z"
-        }
-      },
-      {
-        "id": "63916926241825713",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1488,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5931N02601E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0815-0915, 16 1145-1245, 18 1045-1215",
-        "text": "RESTRICTED AREA EER15D ACTIVATED.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-18T12:15:00Z",
-          "start": "2026-06-15T08:15:00Z"
-        }
-      },
-      {
-        "id": "63916925062101873",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1487,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0815-0915, 16 1145-1245, 18 1045-1215",
-        "text": "RESTRICTED AREA EER15E ACTIVATED.\r\nNON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-18T12:15:00Z",
-          "start": "2026-06-15T08:15:00Z"
-        }
-      },
-      {
         "id": "63916840332689953",
         "locations": [
           "EETT"
@@ -1724,113 +2362,6 @@
         }
       },
       {
-        "id": "63916688433340609",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1463,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5927N02752E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "schedule": "17  0600-1000, 18 0700-1200",
-        "text": "TEMPO DANGER AREA EED2335 ESTABLISHED DUE TO GUN FIRING ACTIVITY\r\nWI: 592806N 0275015E - 592813N 0275325E - 592607N 0275348E - 592557N\r\n0275038E - 592806N 0275015E.\r\nINFO ABOUT ACT AVBL FROM TEL +372 5309 1114.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-18T12:00:00Z",
-          "start": "2026-06-17T06:00:00Z"
-        }
-      },
-      {
-        "id": "63916665309426929",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1434,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5926N02445E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 1,
-          "scope": "AE",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "referenceId": {
-          "number": 527,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CRANE ERECTED AT PSN 592555.5N 0244527.5E.\r\nELEV 406FT AMSL (HEIGHT 371FT AGL). LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-10T12:00:00Z",
-          "est": true,
-          "start": "2026-06-10T05:14:00Z"
-        }
-      },
-      {
-        "id": "63916492519279761",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1407,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 492,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CRANE AT POSITION 592519.4N 0244812.5E. ELEVATION 330FT AMSL\r\n(HEIGHT 183FT AGL). LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-08T12:00:00Z",
-          "est": true,
-          "start": "2026-06-08T05:13:00Z"
-        }
-      },
-      {
         "id": "63916172679626449",
         "locations": [
           "EEPU"
@@ -1894,41 +2425,6 @@
         "validity": {
           "end": "2026-06-19T02:15:00Z",
           "start": "2026-06-18T23:00:00Z"
-        }
-      },
-      {
-        "id": "63916086179453793",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1360,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 44
-        },
-        "schedule": "09 0500-11 1459, 12 1400-14 1359, 15 0400-1859, 16 0600-1359, 17\r\n0400-1859, 18 0500-21 1959, 22 0500-25 0459",
-        "text": "DANGER AREA EED14 TAPA 2 ACTIVATED.\r\nCHANGED VERTICAL LIMITS DURING ACTIVATION.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-25T04:59:00Z",
-          "start": "2026-06-09T05:00:00Z"
         }
       },
       {
@@ -2195,111 +2691,6 @@
         }
       },
       {
-        "id": "63915550813658673",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1242,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02551E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "DAILY 0500-1400",
-        "text": "DANGER AREA EED9 VALUSTE ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T14:00:00Z",
-          "start": "2026-06-18T05:00:00Z"
-        }
-      },
-      {
-        "id": "63915468471928449",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1232,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5904N02406E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "16-18 20-21 0500-2000",
-        "text": "DANGER AREA EED7 PIIRSALU ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T20:00:00Z",
-          "start": "2026-06-16T05:00:00Z"
-        }
-      },
-      {
-        "id": "63915466325959905",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1230,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "03-04 06-21 24-25 27-28 0700-1700",
-        "text": "DANGER AREA EED5 KILTSI ACT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-28T17:00:00Z",
-          "start": "2026-06-03T07:00:00Z"
-        }
-      },
-      {
         "id": "63915463295057601",
         "locations": [
           "EETT"
@@ -2393,41 +2784,6 @@
         "validity": {
           "end": "2026-06-30T23:59:00Z",
           "start": "2026-06-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63915290337991553",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1208,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5915N02554E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "DAILY 0500-1900",
-        "text": "DANGER AREA EED13 TAPA1 ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T19:00:00Z",
-          "start": "2026-06-01T05:00:00Z"
         }
       },
       {
@@ -2574,37 +2930,6 @@
         }
       },
       {
-        "id": "63914438030284049",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1111,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "CRANE ERECTED IN AREA 2 AT PSN 592500.5N 0244622.2E. ELEV 236FT\r\nAMSL (HEIGHT 102FT AGL). LIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T23:59:00Z",
-          "est": true,
-          "start": "2026-05-15T11:00:00Z"
-        }
-      },
-      {
         "id": "63914339913821345",
         "levels": {
           "lower": "SFC",
@@ -2745,42 +3070,6 @@
           "end": "2026-08-13T09:00:00Z",
           "est": true,
           "start": "2026-05-13T07:45:00Z"
-        }
-      },
-      {
-        "id": "63913657602614913",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1008,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 302,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "GROUP OF CRANES ERECTED IN AREA 2:\r\n1. AT PSN 592523.9N 0244738.8E. ELEV 243FT AMSL (HEIGHT 113FT AGL).\r\nNOT LIGHTED.\r\n2. AT PSN 592523.1N 0244747.1E. ELEV 279FT AMSL (HEIGHT 140FT AGL).\r\nNOT LIGHTED.\r\n3. AT PSN 592523.1N 0244752.4E. ELEV 320FT AMSL (HEIGHT 178FT AGL).\r\nLIGHTED.\r\n4. AT PSN 592523.2N 0244757.2E. ELEV 283FT AMSL (HEIGHT 150FT AGL).\r\nNOT LIGHTED.\r\n5. AT PSN 592523.1N 0244810.7E. ELEV 286FT AMSL (HEIGHT 140FT AGL).\r\nNOT LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-06T12:30:00Z",
-          "est": true,
-          "start": "2026-05-06T09:45:00Z"
         }
       },
       {
@@ -3186,37 +3475,6 @@
         }
       },
       {
-        "id": "63911339040541905",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 811,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "CRANE ERECTED IN AREA 2 AT PSN 592520.3N 0244816.1E. ELEV 388FT\r\nAMSL (HEIGHT 240FT AGL). LIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T07:00:00Z",
-          "est": true,
-          "start": "2026-04-16T07:00:00Z"
-        }
-      },
-      {
         "id": "63911327237386257",
         "levels": {
           "lower": "SFC",
@@ -3290,85 +3548,13 @@
           "est": true,
           "start": "2026-03-31T11:40:00Z"
         }
-      },
-      {
-        "id": "63909867536505009",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 622,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 618,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CRANE ERECTED IN AREA 2 AT PSN 592432.7N 0244117.1E.\r\nELEV 197FT AMSL (HEIGHT 159FT AGL). LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-19T12:00:00Z",
-          "est": true,
-          "start": "2026-03-23T12:57:00Z"
-        }
-      },
-      {
-        "id": "63909591475652497",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 591,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 4095,
-          "series": "A",
-          "year": 2025
-        },
-        "text": "CRANE ERECTED IN AREA 2 AT PSN 592513.7N 0244601.5E. ELEV 281FT\r\nAMSL (HEIGHT 176FT AGL). LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-19T12:00:00Z",
-          "est": true,
-          "start": "2026-03-20T08:16:00Z"
-        }
       }
     ],
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917367660316353",
-        "number": 831,
+        "id": "63917388435255185",
+        "number": 832,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3396,49 +3582,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-18T08:20:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63917358901264497",
-        "number": 511,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-18T05:53:00Z"
+            "time": "2026-06-18T14:06:00Z"
           }
         ]
       }
     ]
   },
-  "id": "64e17f42-ed7b-41c8-a720-c3ce6f634817",
-  "identifier": "BRIEFING-20260618-59",
+  "id": "71b94c1a-03c1-44ea-a0bf-077b348e57f5",
+  "identifier": "BRIEFING-20260618-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3487,8 +3638,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-19T10:45:00Z",
-    "validityStart": "2026-06-18T10:45:00Z"
+    "validityEnd": "2026-06-19T14:15:00Z",
+    "validityStart": "2026-06-18T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3572,17 +3723,12 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63917367775726705",
+                  "referenceId": "63917385292979393",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63917367641066545",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917362993341569",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3612,6 +3758,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63917382497543521",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63917296198340497",
@@ -3725,6 +3876,81 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63917386405223537",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917386256682513",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917385861927313",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917385501694817",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917385141865825",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917384174853025",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917384065234529",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917383975642001",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917383803833377",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917383767101969",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917383512558225",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917378844398769",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917378605092753",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917377209743969",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917376873018193",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917373229561761",
                   "structureType": "REFERENCE"
                 },
@@ -3765,16 +3991,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63916665309426929",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916492519279761",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63916089479905681",
                   "structureType": "REFERENCE"
                 },
@@ -3790,22 +4006,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63914438030284049",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63913657602614913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63913477727573329",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63911339040541905",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3815,17 +4016,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63909867536505009",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63909591475652497",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917367660316353",
+                  "referenceId": "63917388435255185",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3889,11 +4080,6 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917358901264497",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3906,6 +4092,16 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63917378844398769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63917378605092753",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63917373229561761",
@@ -3929,11 +4125,6 @@
             {
               "link": false,
               "referenceId": "63916840332689953",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63916665309426929",
               "structureType": "REFERENCE"
             },
             {
@@ -3989,6 +4180,46 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63917387432514481",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917386998809073",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917385021438641",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917384509879041",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917383198801745",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917382635771761",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917376541830897",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917376377961281",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63917374528947553",
               "structureType": "REFERENCE"
             },
@@ -4025,11 +4256,6 @@
             {
               "link": true,
               "referenceId": "63917369875163009",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917367775726705",
               "structureType": "REFERENCE"
             },
             {
@@ -4150,56 +4376,6 @@
             {
               "link": true,
               "referenceId": "63917272372040913",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916926713786097",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916926472381681",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916926241825713",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916925062101873",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916688433340609",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63916086179453793",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915550813658673",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915468471928449",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915466325959905",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63915290337991553",
               "structureType": "REFERENCE"
             },
             {
