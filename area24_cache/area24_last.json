@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-20T19:45:00.451Z",
+  "createdAt": "2026-06-20T21:30:00.452Z",
   "dynamicData": {
     "notams": [
       {
@@ -743,36 +743,6 @@
         "validity": {
           "end": "2026-06-30T18:59:00Z",
           "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917382497543521",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1615,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU\r\nMARINA POSITION: 585959.19N 0224911.01E ELEVATION 56FT. NOT LIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-20T20:00:00Z",
-          "start": "2026-06-18T12:30:00Z"
         }
       },
       {
@@ -2717,8 +2687,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917565780794465",
-        "number": 840,
+        "id": "63917582382059921",
+        "number": 841,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2746,14 +2716,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-20T15:21:00Z"
+            "time": "2026-06-20T19:59:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ce99e075-05ea-4f58-8cb6-319f02084c9e",
-  "identifier": "BRIEFING-20260620-95",
+  "id": "039e2aef-200a-4abc-a772-297c1f119339",
+  "identifier": "BRIEFING-20260620-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2802,8 +2772,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-21T19:45:00Z",
-    "validityStart": "2026-06-20T19:45:00Z"
+    "validityEnd": "2026-06-21T21:30:00Z",
+    "validityStart": "2026-06-20T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2922,11 +2892,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63917382497543521",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63917296198340497",
@@ -3120,7 +3085,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917565780794465",
+                  "referenceId": "63917582382059921",
                   "structureType": "REFERENCE"
                 }
               ],
