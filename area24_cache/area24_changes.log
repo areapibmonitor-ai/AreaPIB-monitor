@@ -15276,3 +15276,10 @@ FROM TEL +372 5340 0535.
 F)SFC G)400FT AGL
 )
 [2026-06-20T14:54:38Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-139add5bd68sm2909433c88.11 - gsmtp')
+[2026-06-20T16:42:40Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1590/26 expired and was removed from the PIB.
+- NOTAM A1599/26 expired and was removed from the PIB.
+[2026-06-20T16:42:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-921dba38487sm346379985a.47 - gsmtp')
