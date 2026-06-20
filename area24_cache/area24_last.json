@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-20T18:00:00.487Z",
+  "createdAt": "2026-06-20T19:45:00.451Z",
   "dynamicData": {
     "notams": [
       {
@@ -414,40 +414,6 @@
           "end": "2026-09-18T23:59:00Z",
           "est": true,
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917386203876961",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1632,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED. INFO ABOUT ACTIVITY FROM TEL\r\n+37253557238.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-20T19:00:00Z",
-          "start": "2026-06-20T05:00:00Z"
         }
       },
       {
@@ -2786,8 +2752,8 @@
       }
     ]
   },
-  "id": "daddad39-a824-4278-a6db-fbe0d50c3fcc",
-  "identifier": "BRIEFING-20260620-88",
+  "id": "ce99e075-05ea-4f58-8cb6-319f02084c9e",
+  "identifier": "BRIEFING-20260620-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2836,8 +2802,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-21T18:00:00Z",
-    "validityStart": "2026-06-20T18:00:00Z"
+    "validityEnd": "2026-06-21T19:45:00Z",
+    "validityStart": "2026-06-20T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3339,11 +3305,6 @@
             {
               "link": true,
               "referenceId": "63917444957761153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917386203876961",
               "structureType": "REFERENCE"
             },
             {
