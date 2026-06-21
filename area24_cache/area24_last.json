@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-21T11:45:00.44Z",
+  "createdAt": "2026-06-21T14:15:00.463Z",
   "dynamicData": {
     "notams": [
       {
@@ -583,41 +583,6 @@
         }
       },
       {
-        "id": "63917384509879041",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1624,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02551E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "DAILY 0500-1400",
-        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T14:00:00Z",
-          "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
         "id": "63917384065234529",
         "locations": [
           "EETN"
@@ -1040,40 +1005,6 @@
         "type": "N",
         "validity": {
           "end": "2026-06-30T16:59:00Z",
-          "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917366274405393",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1581,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T13:59:00Z",
           "start": "2026-06-19T05:00:00Z"
         }
       },
@@ -2513,46 +2444,11 @@
             "time": "2026-06-21T08:32:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63917618527681153",
-        "number": 513,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-21T06:01:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "4a08a26e-761c-48a7-9837-3bc597d3d4f7",
-  "identifier": "BRIEFING-20260621-63",
+  "id": "d9969596-84e4-4774-aa26-f268fb614977",
+  "identifier": "BRIEFING-20260621-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2601,8 +2497,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-22T11:45:00Z",
-    "validityStart": "2026-06-21T11:45:00Z"
+    "validityEnd": "2026-06-22T14:15:00Z",
+    "validityStart": "2026-06-21T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2968,11 +2864,6 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917618527681153",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3118,11 +3009,6 @@
             },
             {
               "link": false,
-              "referenceId": "63917384509879041",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63917382635771761",
               "structureType": "REFERENCE"
             },
@@ -3149,11 +3035,6 @@
             {
               "link": true,
               "referenceId": "63917367144142113",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917366274405393",
               "structureType": "REFERENCE"
             },
             {
