@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-21T09:00:00.464Z",
+  "createdAt": "2026-06-21T11:45:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -1457,36 +1457,6 @@
         }
       },
       {
-        "id": "63917206553851281",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1500,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CG",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE AND FIRE FIGHTING SERVICE DOWNGRADED TO CATEGORY 7 AS\r\nFOLLOWS:\r\n18 0630-0930,\r\n19 0630-0930,\r\n20 0630-0930,\r\n21 0630-0930.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T09:30:00Z",
-          "start": "2026-06-18T06:30:00Z"
-        }
-      },
-      {
         "id": "63916840332689953",
         "locations": [
           "EETT"
@@ -2581,8 +2551,8 @@
       }
     ]
   },
-  "id": "7358477f-690c-4a13-9119-e057865bd54a",
-  "identifier": "BRIEFING-20260621-52",
+  "id": "4a08a26e-761c-48a7-9837-3bc597d3d4f7",
+  "identifier": "BRIEFING-20260621-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2631,8 +2601,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-22T09:00:00Z",
-    "validityStart": "2026-06-21T09:00:00Z"
+    "validityEnd": "2026-06-22T11:45:00Z",
+    "validityStart": "2026-06-21T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2920,11 +2890,6 @@
                 {
                   "link": false,
                   "referenceId": "63917371698823489",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917206553851281",
                   "structureType": "REFERENCE"
                 },
                 {
