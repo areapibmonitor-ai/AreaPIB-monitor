@@ -15302,3 +15302,23 @@ Expired NOTAMs:
 - NOTAM A1615/26 expired and was removed from the PIB.
 [2026-06-20T21:36:33Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8df7f0164fasm42145446d6.8 - gsmtp')
 [2026-06-20T22:53:08Z] NO CHANGE in dynamicData.notams.
+[2026-06-21T00:18:06Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1557/26 NOTAMN
+A)EETT B)2606180600 C)2607031500
+D)JUN 18-19 22 25-26 29-30 0600-1500, JUL 01-03 0600-1500
+E)TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED
+AIRCRAFT SYSTEM ACTIVITIES. VERTICAL LIMITS CHANGED DURING
+ACTIVATION. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT
+PERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE
+AREA AND INFO ABOUT ACT AVBL FROM +372 5650 2880.
+F)GND G)FL055
+)
+
+
+Other removals:
+- NOTAM A1559/26 was removed from the PIB.
+[2026-06-21T00:18:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-51a091c272dsm30877441cf.5 - gsmtp')

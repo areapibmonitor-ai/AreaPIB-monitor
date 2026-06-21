@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-20T22:45:00.438Z",
+  "createdAt": "2026-06-21T00:15:00.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -1393,38 +1393,37 @@
         }
       },
       {
-        "id": "63917309896545393",
+        "id": "63917308579968705",
         "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
+          "lower": "GND",
+          "upper": "FL055"
         },
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 1559,
+          "number": 1557,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5751N02605E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 2,
+          "radius": 6,
           "scope": "W",
-          "subject": "RD",
+          "subject": "RR",
           "traffic": "IV",
-          "upper": 23
+          "upper": 155
         },
-        "schedule": "19 0500-2359, 20 0000-1600, 26 0600-1900, 27-28 0500-1400",
-        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
+        "schedule": "JUN 18-19 22 25-26 29-30 0600-1500, JUL 01-03 0600-1500",
+        "text": "TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE\r\nAREA AND INFO ABOUT ACT AVBL FROM +372 5650 2880.",
         "type": "N",
         "validity": {
-          "end": "2026-06-28T14:00:00Z",
-          "start": "2026-06-19T05:00:00Z"
+          "end": "2026-07-03T15:00:00Z",
+          "start": "2026-06-18T06:00:00Z"
         }
       },
       {
@@ -2722,16 +2721,16 @@
       }
     ]
   },
-  "id": "5676e3c5-b0c0-40d4-a295-e33e696d79ff",
-  "identifier": "BRIEFING-20260620-107",
+  "id": "4c4ccaba-e184-4c34-ad77-7a8d24ceca3d",
+  "identifier": "BRIEFING-20260621-2",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2772,8 +2771,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-21T22:45:00Z",
-    "validityStart": "2026-06-20T22:45:00Z"
+    "validityEnd": "2026-06-22T00:15:00Z",
+    "validityStart": "2026-06-21T00:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3374,7 +3373,7 @@
             },
             {
               "link": false,
-              "referenceId": "63917309896545393",
+              "referenceId": "63917308579968705",
               "structureType": "REFERENCE"
             },
             {
