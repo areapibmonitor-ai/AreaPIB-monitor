@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-21T17:45:00.436Z",
+  "createdAt": "2026-06-21T19:45:00.453Z",
   "dynamicData": {
     "notams": [
       {
@@ -445,41 +445,6 @@
           "end": "2026-09-18T23:59:00Z",
           "est": true,
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917385918151809",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1630,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "20-21 0700-1800",
-        "text": "DANGER AREA EED25 (MURU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-21T18:00:00Z",
-          "start": "2026-06-20T07:00:00Z"
         }
       },
       {
@@ -2447,8 +2412,8 @@
       }
     ]
   },
-  "id": "033007e1-76c4-47c3-b501-a394995e19ae",
-  "identifier": "BRIEFING-20260621-87",
+  "id": "b4b7e512-9ccc-424b-887a-fdd28995ba73",
+  "identifier": "BRIEFING-20260621-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2497,8 +2462,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-22T17:45:00Z",
-    "validityStart": "2026-06-21T17:45:00Z"
+    "validityEnd": "2026-06-22T19:45:00Z",
+    "validityStart": "2026-06-21T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2990,11 +2955,6 @@
             {
               "link": true,
               "referenceId": "63917444957761153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917385918151809",
               "structureType": "REFERENCE"
             },
             {
