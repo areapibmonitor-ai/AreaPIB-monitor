@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-21T00:15:00.445Z",
+  "createdAt": "2026-06-21T05:15:00.434Z",
   "dynamicData": {
     "notams": [
       {
@@ -2682,47 +2682,10 @@
           "start": "2026-04-17T08:10:00Z"
         }
       }
-    ],
-    "snowtams": [
-      {
-        "aerodrome": "EETN",
-        "id": "63917582382059921",
-        "number": 841,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-20T19:59:00Z"
-          }
-        ]
-      }
     ]
   },
-  "id": "4c4ccaba-e184-4c34-ad77-7a8d24ceca3d",
-  "identifier": "BRIEFING-20260621-2",
+  "id": "c6169c1e-fa01-4e25-a90a-1fa104c88051",
+  "identifier": "BRIEFING-20260621-36",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2771,8 +2734,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-22T00:15:00Z",
-    "validityStart": "2026-06-21T00:15:00Z"
+    "validityEnd": "2026-06-22T05:15:00Z",
+    "validityStart": "2026-06-21T05:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3080,11 +3043,6 @@
                 {
                   "link": false,
                   "referenceId": "63913477727573329",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917582382059921",
                   "structureType": "REFERENCE"
                 }
               ],
