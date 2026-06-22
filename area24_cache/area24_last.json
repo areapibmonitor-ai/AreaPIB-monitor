@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-22T00:15:00.449Z",
+  "createdAt": "2026-06-22T05:30:00.482Z",
   "dynamicData": {
     "notams": [
       {
@@ -1104,6 +1104,41 @@
         }
       },
       {
+        "id": "63917283958185633",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1522,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5900N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 7
+        },
+        "schedule": "23 0500-0844 0931-1100",
+        "text": "TEMPORARY RESTRICTED AREA EER26157UA ESTABLISHED FOR VICTORY DAY\r\nPARADE SECURITY WITHIN: CIRCLE OF 2.5NM RADIUS CENTERED ON 590021N\r\n0244739E. UNMANNED AIRCRAFT IS NOT PERMITTED TO ENTER INTO ACTIVATED\r\nAREA WITHOUT PERMISSION FROM POLICE AND BORDER GUARD BOARD.\r\nPERMISSION SHALL BE OBTAINED FROM PPA(AT)POLITSEI.EE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-23T11:00:00Z",
+          "start": "2026-06-23T05:00:00Z"
+        }
+      },
+      {
         "id": "63917272372040913",
         "levels": {
           "lower": "SFC",
@@ -2162,8 +2197,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917670059520753",
-        "number": 844,
+        "id": "63917691260262785",
+        "number": 845,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2191,14 +2226,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-21T20:20:00Z"
+            "time": "2026-06-22T02:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "3f3ac500-203c-4133-8c7f-9e490238b60d",
-  "identifier": "BRIEFING-20260622-2",
+  "id": "7afc9808-ab5f-4ee0-ba06-923ad541339f",
+  "identifier": "BRIEFING-20260622-37",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2247,8 +2282,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-23T00:15:00Z",
-    "validityStart": "2026-06-22T00:15:00Z"
+    "validityEnd": "2026-06-23T05:30:00Z",
+    "validityStart": "2026-06-22T05:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2550,7 +2585,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917670059520753",
+                  "referenceId": "63917691260262785",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2785,6 +2820,11 @@
             {
               "link": false,
               "referenceId": "63917302890798049",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917283958185633",
               "structureType": "REFERENCE"
             },
             {
