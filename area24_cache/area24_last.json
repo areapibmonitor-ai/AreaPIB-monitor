@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-22T19:45:00.406Z",
+  "createdAt": "2026-06-22T21:45:00.441Z",
   "dynamicData": {
     "notams": [
       {
@@ -1237,40 +1237,6 @@
         "validity": {
           "end": "2026-06-23T11:00:00Z",
           "start": "2026-06-23T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917272372040913",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1520,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02642E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2643 ESTABLISHED FOR ZZ TOP CONCERT\r\nWITHIN: CIRCLE OF 400M RADIUS CENTERED ON 582317N 0264210E. UNMANNED\r\nAIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED AREA\r\nWITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION SHALL\r\nBE OBTAINED BY PHONE: +372 5682 6820.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-22T20:59:00Z",
-          "start": "2026-06-19T05:00:00Z"
         }
       },
       {
@@ -2679,8 +2645,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917733760654017",
-        "number": 847,
+        "id": "63917754320877649",
+        "number": 848,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2708,14 +2674,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-22T14:01:00Z"
+            "time": "2026-06-22T19:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "75486abf-4c3f-4bd1-85bb-61cad7a9b01b",
-  "identifier": "BRIEFING-20260622-95",
+  "id": "098e8741-cf62-4805-be74-e6017b6120b1",
+  "identifier": "BRIEFING-20260622-103",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2764,8 +2730,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-23T19:45:00Z",
-    "validityStart": "2026-06-22T19:45:00Z"
+    "validityEnd": "2026-06-23T21:45:00Z",
+    "validityStart": "2026-06-22T21:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3077,7 +3043,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917733760654017",
+                  "referenceId": "63917754320877649",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3105,11 +3071,6 @@
                 {
                   "link": false,
                   "referenceId": "63917303860207313",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917272372040913",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3317,11 +3278,6 @@
             {
               "link": false,
               "referenceId": "63917283958185633",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917272372040913",
               "structureType": "REFERENCE"
             },
             {
