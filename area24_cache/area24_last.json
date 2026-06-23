@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-23T13:15:00.434Z",
+  "createdAt": "2026-06-23T16:00:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -2474,8 +2474,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63917796668542401",
-        "number": 850,
+        "id": "63917821951815009",
+        "number": 851,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2503,57 +2503,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-23T07:30:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63917790722368433",
-        "number": 515,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-23T05:50:00Z"
+            "time": "2026-06-23T14:31:00Z"
           }
         ]
       }
     ]
   },
-  "id": "dd920b65-a3c3-45dd-9e98-06555f1dc4f9",
-  "identifier": "BRIEFING-20260623-69",
+  "id": "90a7950d-28c4-49e2-a068-7fbf5fe633ee",
+  "identifier": "BRIEFING-20260623-80",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2594,8 +2559,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-24T13:15:00Z",
-    "validityStart": "2026-06-23T13:15:00Z"
+    "validityEnd": "2026-06-24T16:00:00Z",
+    "validityStart": "2026-06-23T16:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2897,7 +2862,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917796668542401",
+                  "referenceId": "63917821951815009",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2945,11 +2910,6 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917790722368433",
                   "structureType": "REFERENCE"
                 }
               ],
