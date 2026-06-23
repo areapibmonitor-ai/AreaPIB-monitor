@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-23T10:00:00.462Z",
+  "createdAt": "2026-06-23T13:15:00.434Z",
   "dynamicData": {
     "notams": [
       {
@@ -967,40 +967,6 @@
         }
       },
       {
-        "id": "63917308319237153",
-        "levels": {
-          "lower": "SFC",
-          "upper": "700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1555,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5900N02447E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 7
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26152UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 590006N 0244641E - 590004N\r\n0244702E - 585953N 0244656E - 585954N 0244638E - 590006N 0244641E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8485.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-23T13:00:00Z",
-          "start": "2026-06-23T12:00:00Z"
-        }
-      },
-      {
         "id": "63917306548858241",
         "levels": {
           "lower": "SFC",
@@ -1106,40 +1072,6 @@
         }
       },
       {
-        "id": "63917299484641585",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1531,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5849N02525E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 12
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26156UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 584907N 0252322E - 584910N\r\n0252629E - 584805N 0252632E - 584803N 0252325E - 584907N 0252322E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5204\r\n833.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-23T12:00:00Z",
-          "start": "2026-06-23T08:00:00Z"
-        }
-      },
-      {
         "id": "63917296198340497",
         "locations": [
           "EEKA"
@@ -1168,41 +1100,6 @@
           "end": "2026-07-05T13:00:00Z",
           "est": true,
           "start": "2026-06-18T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917283958185633",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1522,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5900N02448E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 7
-        },
-        "schedule": "23 0500-0844 0931-1100",
-        "text": "TEMPORARY RESTRICTED AREA EER26157UA ESTABLISHED FOR VICTORY DAY\r\nPARADE SECURITY WITHIN: CIRCLE OF 2.5NM RADIUS CENTERED ON 590021N\r\n0244739E. UNMANNED AIRCRAFT IS NOT PERMITTED TO ENTER INTO ACTIVATED\r\nAREA WITHOUT PERMISSION FROM POLICE AND BORDER GUARD BOARD.\r\nPERMISSION SHALL BE OBTAINED FROM PPA(AT)POLITSEI.EE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-23T11:00:00Z",
-          "start": "2026-06-23T05:00:00Z"
         }
       },
       {
@@ -2647,8 +2544,8 @@
       }
     ]
   },
-  "id": "e0411e7c-0805-4948-95c0-eb4e1f92a526",
-  "identifier": "BRIEFING-20260623-56",
+  "id": "dd920b65-a3c3-45dd-9e98-06555f1dc4f9",
+  "identifier": "BRIEFING-20260623-69",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2697,8 +2594,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-24T10:00:00Z",
-    "validityStart": "2026-06-23T10:00:00Z"
+    "validityEnd": "2026-06-24T13:15:00Z",
+    "validityStart": "2026-06-23T13:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3208,11 +3105,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63917308319237153",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63917306548858241",
               "structureType": "REFERENCE"
@@ -3225,16 +3117,6 @@
             {
               "link": true,
               "referenceId": "63917303860207313",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917299484641585",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917283958185633",
               "structureType": "REFERENCE"
             },
             {
