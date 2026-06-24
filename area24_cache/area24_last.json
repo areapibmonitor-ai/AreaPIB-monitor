@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-24T21:30:00.444Z",
+  "createdAt": "2026-06-24T22:45:00.438Z",
   "dynamicData": {
     "notams": [
       {
@@ -108,6 +108,41 @@
           "end": "2026-07-13T14:00:00Z",
           "est": true,
           "start": "2026-06-22T10:29:00Z"
+        }
+      },
+      {
+        "id": "63917705732895105",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL390"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1689,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5804N02644E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 9,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 390
+        },
+        "schedule": "25 2200-2359, 27 2000-2359",
+        "text": "TEMPORARY AREA FOR LASER HAZARD (PUHAJARVE) WILL TAKE PLACE\r\nWITHIN: 581235.44N 0264350.21E - CLOCKWISE ARC OF 13NM CENTERED ON\r\n580240.30N 0262802.50E - 575609.45N 0264909.61E - 580240.30N\r\n0262802.50E - 581235.44N 0264350.21E. LASER BEAMS MAY CAUSE BLINDNESS\r\nWITHIN 3NM UP TO FL95. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY\r\nOCCUR WITHIN 13NM UP TO FL390.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-27T23:59:00Z",
+          "start": "2026-06-25T22:00:00Z"
         }
       },
       {
@@ -2587,8 +2622,8 @@
       }
     ]
   },
-  "id": "426e7620-b254-4737-8f2e-710a3d1fd76a",
-  "identifier": "BRIEFING-20260624-102",
+  "id": "9091a751-cc51-4218-a73b-8b9e1f2e3b96",
+  "identifier": "BRIEFING-20260624-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2637,8 +2672,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-25T21:30:00Z",
-    "validityStart": "2026-06-24T21:30:00Z"
+    "validityEnd": "2026-06-25T22:45:00Z",
+    "validityStart": "2026-06-24T22:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2952,6 +2987,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63917705732895105",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917444957761153",
                   "structureType": "REFERENCE"
                 },
@@ -3072,6 +3112,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63917705732895105",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63917556079229537",
