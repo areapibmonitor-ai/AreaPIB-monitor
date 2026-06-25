@@ -15873,3 +15873,27 @@ Expired NOTAMs:
 - NOTAM A1605/26 expired and was removed from the PIB.
 [2026-06-25T08:14:45Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8df81cdd8e2sm178036706d6.27 - gsmtp')
 [2026-06-25T11:09:28Z] NO CHANGE in dynamicData.notams.
+[2026-06-25T13:30:03Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A0985/26 was replaced with NOTAM A1722/26.
+AFTN: (A1722/26 NOTAMR A0985/26
+
+(A1722/26 NOTAMR A0985/26
+Q)EETT/MRLT/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2606251255 C)2606252359
+E)RWY 08/26 180DEG TURNOVER NOT ALLOWED, EXCEPT WAKE TURBULENCE CAT
+L AIRPLANES, AND AT INTERSECTIONS OF TAXIWAYS AND RWY.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1721/26 NOTAMN
+Q)EETT/MRLT/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2606260000 C)2607311330
+E)RUNWAY 08/26 180DEG TURN PROHIBITED FOR AIRCRAFT MASS HEAVIER THAN
+7000KG  EXCEPT AT TWY AND RWY INTERSECTIONS.
+)
+[2026-06-25T13:30:03Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9260079070bsm846351285a.40 - gsmtp')
