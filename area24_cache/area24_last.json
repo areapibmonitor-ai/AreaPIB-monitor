@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-06-26T09:45:00.427Z",
+  "createdAt": "2026-06-26T12:15:00.419Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63918050222076113",
-        "locations": [
-          "EERU"
-        ],
-        "notamId": {
-          "number": 1725,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5747N02316E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 13/31 CLSD DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-26T10:00:00Z",
-          "start": "2026-06-26T06:00:00Z"
-        }
-      },
       {
         "id": "63918047689964801",
         "locations": [
@@ -2786,8 +2756,8 @@
       }
     ]
   },
-  "id": "abde660f-3d23-4653-9b3e-982b57015e86",
-  "identifier": "BRIEFING-20260626-55",
+  "id": "ce555f8d-f42e-45dc-8270-20bb2b7bf49f",
+  "identifier": "BRIEFING-20260626-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2836,8 +2806,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-27T09:45:00Z",
-    "validityStart": "2026-06-26T09:45:00Z"
+    "validityEnd": "2026-06-27T12:15:00Z",
+    "validityStart": "2026-06-26T12:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3061,13 +3031,6 @@
               "title": "EERA - RAPLA"
             },
             {
-              "content": [
-                {
-                  "link": false,
-                  "referenceId": "63918050222076113",
-                  "structureType": "REFERENCE"
-                }
-              ],
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
