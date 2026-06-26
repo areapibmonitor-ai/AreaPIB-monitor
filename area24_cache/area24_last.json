@@ -1,42 +1,7 @@
 {
-  "createdAt": "2026-06-25T23:45:03.35Z",
+  "createdAt": "2026-06-26T01:45:00.437Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63917988932189121",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1722,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 985,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "RWY 08/26 180DEG TURNOVER NOT ALLOWED, EXCEPT WAKE TURBULENCE CAT\r\nL AIRPLANES, AND AT INTERSECTIONS OF TAXIWAYS AND RWY.",
-        "type": "R",
-        "validity": {
-          "end": "2026-06-25T23:59:00Z",
-          "start": "2026-06-25T12:55:00Z"
-        }
-      },
       {
         "id": "63917988603171297",
         "locations": [
@@ -412,6 +377,41 @@
           "end": "2026-09-20T23:59:00Z",
           "est": true,
           "start": "2026-06-20T00:00:00Z"
+        }
+      },
+      {
+        "id": "63917452286690769",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1651,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5831N02614E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "20 0500-2359, 21 0000-1400, 27 0500-1700",
+        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-27T17:00:00Z",
+          "start": "2026-06-20T05:00:00Z"
         }
       },
       {
@@ -1012,6 +1012,41 @@
         }
       },
       {
+        "id": "63917372521010513",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1594,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "19 0000-1859, 20-21 0300-1859, 27 0600-1559, 28 0600-1159, 29-30\r\n0500-1659",
+        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T16:59:00Z",
+          "start": "2026-06-19T00:00:00Z"
+        }
+      },
+      {
         "id": "63917371698823489",
         "locations": [
           "EETN"
@@ -1074,6 +1109,41 @@
         "type": "N",
         "validity": {
           "end": "2026-06-30T13:59:00Z",
+          "start": "2026-06-19T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917367144142113",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1583,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "19 0500-1359, 20 0500-2359, 21 0000-1359, 23-24 30 0500-1659, 27\r\n0500-1859",
+        "text": "DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-06-30T16:59:00Z",
           "start": "2026-06-19T05:00:00Z"
         }
       },
@@ -2693,8 +2763,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918012587621825",
-        "number": 861,
+        "id": "63918034149094561",
+        "number": 862,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2722,22 +2792,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-25T19:28:00Z"
+            "time": "2026-06-26T01:27:00Z"
           }
         ]
       }
     ]
   },
-  "id": "1b98cb7d-c0c9-4c6d-a6d4-5695604c8907",
-  "identifier": "BRIEFING-20260625-111",
+  "id": "b743bde1-c855-4e8e-8c4b-cbb3850bc763",
+  "identifier": "BRIEFING-20260626-8",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2778,8 +2848,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-26T23:45:00Z",
-    "validityStart": "2026-06-25T23:45:00Z"
+    "validityEnd": "2026-06-27T01:45:00Z",
+    "validityStart": "2026-06-26T01:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2974,6 +3044,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63917367144142113",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917306548858241",
                   "structureType": "REFERENCE"
                 },
@@ -2999,11 +3074,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63917988932189121",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63917988603171297",
@@ -3066,6 +3136,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63917372521010513",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917371698823489",
                   "structureType": "REFERENCE"
                 },
@@ -3076,7 +3151,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918012587621825",
+                  "referenceId": "63918034149094561",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3245,6 +3320,11 @@
             },
             {
               "link": false,
+              "referenceId": "63917452286690769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63917451938848929",
               "structureType": "REFERENCE"
             },
@@ -3290,7 +3370,17 @@
             },
             {
               "link": true,
+              "referenceId": "63917372521010513",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63917367641066545",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63917367144142113",
               "structureType": "REFERENCE"
             },
             {
