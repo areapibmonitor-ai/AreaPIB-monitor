@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-27T23:45:00.45Z",
+  "createdAt": "2026-06-28T01:45:00.452Z",
   "dynamicData": {
     "notams": [
       {
@@ -170,41 +170,6 @@
           "end": "2026-07-13T14:00:00Z",
           "est": true,
           "start": "2026-06-22T10:29:00Z"
-        }
-      },
-      {
-        "id": "63917705732895105",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL390"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1689,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5804N02644E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 390
-        },
-        "schedule": "25 2200-2359, 27 2000-2359",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (PUHAJARVE) WILL TAKE PLACE\r\nWITHIN: 581235.44N 0264350.21E - CLOCKWISE ARC OF 13NM CENTERED ON\r\n580240.30N 0262802.50E - 575609.45N 0264909.61E - 580240.30N\r\n0262802.50E - 581235.44N 0264350.21E. LASER BEAMS MAY CAUSE BLINDNESS\r\nWITHIN 3NM UP TO FL95. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY\r\nOCCUR WITHIN 13NM UP TO FL390.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-27T23:59:00Z",
-          "start": "2026-06-25T22:00:00Z"
         }
       },
       {
@@ -968,37 +933,37 @@
         }
       },
       {
-        "id": "63917367144142113",
+        "id": "63917367641066545",
         "levels": {
           "lower": "SFC",
-          "upper": "2200FT AMSL"
+          "upper": "2100FT AMSL"
         },
         "locations": [
-          "EEPU"
+          "EEEI"
         ],
         "notamId": {
-          "number": 1583,
+          "number": 1585,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5819N02448E",
+          "coordinate": "5919N02412E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 2,
+          "radius": 3,
           "scope": "AW",
           "subject": "RD",
           "traffic": "IV",
-          "upper": 22
+          "upper": 21
         },
-        "schedule": "19 0500-1359, 20 0500-2359, 21 0000-1359, 23-24 30 0500-1659, 27\r\n0500-1859",
-        "text": "DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5303 2206.",
+        "schedule": "19 0500-1959, 20 0300-1959, 21 0300-1459, 22 25 29-30 0500-1359,\r\n26 0600-1359",
+        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746..",
         "type": "N",
         "validity": {
-          "end": "2026-06-30T16:59:00Z",
+          "end": "2026-06-30T13:59:00Z",
           "start": "2026-06-19T05:00:00Z"
         }
       },
@@ -1105,6 +1070,40 @@
         "validity": {
           "end": "2026-06-28T14:00:00Z",
           "start": "2026-06-19T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917308579968705",
+        "levels": {
+          "lower": "GND",
+          "upper": "FL055"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1557,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 155
+        },
+        "schedule": "JUN 18-19 22 25-26 29-30 0600-1500, JUL 01-03 0600-1500",
+        "text": "TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE\r\nAREA AND INFO ABOUT ACT AVBL FROM +372 5650 2880.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-03T15:00:00Z",
+          "start": "2026-06-18T06:00:00Z"
         }
       },
       {
@@ -2301,16 +2300,16 @@
       }
     ]
   },
-  "id": "5c69f12e-a175-487d-8f24-b6011d4d3b94",
-  "identifier": "BRIEFING-20260627-111",
+  "id": "cf6acee1-34ac-4b48-85eb-d82e3059341b",
+  "identifier": "BRIEFING-20260628-8",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2351,8 +2350,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-06-28T23:45:00Z",
-    "validityStart": "2026-06-27T23:45:00Z"
+    "validityEnd": "2026-06-29T01:45:00Z",
+    "validityStart": "2026-06-28T01:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2453,6 +2452,11 @@
                   "link": false,
                   "referenceId": "63917455049070385",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63917367641066545",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762132169",
@@ -2545,11 +2549,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63917367144142113",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63917306548858241",
@@ -2664,11 +2663,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63917705732895105",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63917444957761153",
@@ -2802,11 +2796,6 @@
         {
           "content": [
             {
-              "link": true,
-              "referenceId": "63917705732895105",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63917556079229537",
               "structureType": "REFERENCE"
@@ -2868,7 +2857,7 @@
             },
             {
               "link": true,
-              "referenceId": "63917367144142113",
+              "referenceId": "63917367641066545",
               "structureType": "REFERENCE"
             },
             {
@@ -2884,6 +2873,11 @@
             {
               "link": false,
               "referenceId": "63917309896545393",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917308579968705",
               "structureType": "REFERENCE"
             },
             {
