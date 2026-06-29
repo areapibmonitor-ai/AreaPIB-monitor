@@ -16510,3 +16510,19 @@ A)EETU B)2606291700 C)2606291810
 E)FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 8
 )
 [2026-06-29T17:14:04Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f1a7b254edsm2575006d6.47 - gsmtp')
+[2026-06-29T19:16:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1644/26 expired and was removed from the PIB.
+- NOTAM A1778/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1779/26 NOTAMN
+Q)EETT/OBCE/IV/M/A/000/999/5818N02641E005
+A)EETU B)2606291839 C)2606300945
+E)TEMPORARY MOBILE OBSTACLE ERECTED POSITION: 581833.90N 0264129.90E
+ELEVATION 260FT. NOT LIGHTED.
+)
+[2026-06-29T19:16:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f1a26f21e4sm5352406d6.10 - gsmtp')
