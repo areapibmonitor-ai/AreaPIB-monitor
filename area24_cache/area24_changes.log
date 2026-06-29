@@ -16447,3 +16447,30 @@ ELEVATION 261FT (HEIGHT 132FT). LIGHTED. LIGHTING FIXED RED.
 Other removals:
 - NOTAM A1718/26 was removed from the PIB.
 [2026-06-29T09:55:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30ea81b39easm16209596eec.31 - gsmtp')
+[2026-06-29T14:15:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1519/26 expired and was removed from the PIB.
+- NOTAM A1676/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A1724/26 was replaced with NOTAM A1774/26.
+AFTN: (A1774/26 NOTAMR A1724/26
+
+(A1774/26 NOTAMR A1724/26
+Q)EETT/FMAU/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2606291238 C)2607031300
+E)METAR INFO UNAVAILABLE.
+RELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1773/26 NOTAMN
+Q)EETT/IDAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2606300700 C)2606300900
+E)ILS DME RWY 06 U/S DUE TO MAINT.
+)
+[2026-06-29T14:15:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30c7c4c691dsm44376820eec.5 - gsmtp')
