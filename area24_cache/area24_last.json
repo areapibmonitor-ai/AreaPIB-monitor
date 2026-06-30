@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-06-30T17:15:00.419Z",
+  "createdAt": "2026-06-30T19:00:00.42Z",
   "dynamicData": {
     "notams": [
       {
@@ -1555,41 +1555,6 @@
         }
       },
       {
-        "id": "63917382635771761",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1616,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5915N02554E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "DAILY 0500-1859",
-        "text": "DANGER AREA EED13 (TAPA 1) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T18:59:00Z",
-          "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
         "id": "63917378605092753",
         "locations": [
           "EETN"
@@ -1683,41 +1648,6 @@
           "end": "2026-09-18T23:59:00Z",
           "est": true,
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917374316331905",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1601,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5921N02728E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "DAILY 0500-1859",
-        "text": "DANGER AREA EED26 (VIRU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T18:59:00Z",
-          "start": "2026-06-19T05:00:00Z"
         }
       },
       {
@@ -1989,40 +1919,6 @@
         "validity": {
           "end": "2026-07-01T12:00:00Z",
           "start": "2026-06-30T06:30:00Z"
-        }
-      },
-      {
-        "id": "63917298857605089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1000FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1529,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5829N02421E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 10
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2531 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 583118N 0241713E - 583127N\r\n0242425E - 582741N 0242441E - 582731N 0241730E - 583118N 0241713E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5690\r\n7590.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T19:00:00Z",
-          "start": "2026-06-30T15:00:00Z"
         }
       },
       {
@@ -2916,8 +2812,8 @@
       }
     ]
   },
-  "id": "78efc437-ae86-4bd3-8a70-1044d61c6655",
-  "identifier": "BRIEFING-20260630-85",
+  "id": "3349eb51-8d2c-4eca-bf3a-9c350b8c82af",
+  "identifier": "BRIEFING-20260630-92",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2966,8 +2862,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-01T17:15:00Z",
-    "validityStart": "2026-06-30T17:15:00Z"
+    "validityEnd": "2026-07-01T19:00:00Z",
+    "validityStart": "2026-06-30T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3183,11 +3079,6 @@
                 {
                   "link": false,
                   "referenceId": "63917306548858241",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917298857605089",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3593,17 +3484,7 @@
             },
             {
               "link": false,
-              "referenceId": "63917382635771761",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63917377598283921",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917374316331905",
               "structureType": "REFERENCE"
             },
             {
@@ -3634,11 +3515,6 @@
             {
               "link": true,
               "referenceId": "63917303298920033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917298857605089",
               "structureType": "REFERENCE"
             },
             {
