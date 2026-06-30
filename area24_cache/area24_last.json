@@ -1,7 +1,47 @@
 {
-  "createdAt": "2026-06-30T12:15:00.415Z",
+  "createdAt": "2026-06-30T15:00:00.43Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918418771218417",
+        "levels": {
+          "lower": "500FT AGL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1794,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02635E",
+          "fir": "EETT",
+          "lower": 5,
+          "purpose": "BO",
+          "radius": 71,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "referenceId": {
+          "number": 1563,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "RESTRICTED AREA EER2615 ACTIVATED. ALL AIRCRAFT (INCLUDING\r\nUNMANNED AIRCRAFT) OPERATING WITHIN THE AREA SHALL BE EQUIPPED WITH A\r\nTURNED-ON 3A/C OR MODE S TRANSPONDER OR NOTIFY ESTONIAN AIR FORCE AT\r\nLEAST 60 MINUTES BEFORE DEPARTURE ON TEL +372 717 3724. REF AIP SUP\r\n04/2026.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-28T23:59:00Z",
+          "est": true,
+          "start": "2026-06-30T12:18:00Z"
+        }
+      },
       {
         "id": "63918407331565329",
         "locations": [
@@ -1778,41 +1818,6 @@
         }
       },
       {
-        "id": "63917367641066545",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1585,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "19 0500-1959, 20 0300-1959, 21 0300-1459, 22 25 29-30 0500-1359,\r\n26 0600-1359",
-        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746..",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T13:59:00Z",
-          "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
         "id": "63917367144142113",
         "levels": {
           "lower": "SFC",
@@ -1845,41 +1850,6 @@
         "validity": {
           "end": "2026-06-30T16:59:00Z",
           "start": "2026-06-19T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917310606618545",
-        "levels": {
-          "lower": "500FT AGL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1563,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02635E",
-          "fir": "EETT",
-          "lower": 5,
-          "purpose": "BO",
-          "radius": 71,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER2615 ACTIVATED. ALL AIRCRAFT (INCLUDING\r\nUNMANNED AIRCRAFT) OPERATING WITHIN THE AREA SHALL BE EQUIPPED WITH A\r\nTURNED-ON 3A/C OR MODE S TRANSPONDER OR NOTIFY ESTONIAN AIR FORCE AT\r\nLEAST 60 MINUTES BEFORE DEPARTURE ON TEL +372 717 3724. REF AIP SUP\r\n04/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-06-30T23:59:00Z",
-          "est": true,
-          "start": "2026-06-18T00:00:00Z"
         }
       },
       {
@@ -2981,8 +2951,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918402957288241",
-        "number": 883,
+        "id": "63918424844081425",
+        "number": 884,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3010,49 +2980,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-06-30T07:54:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63918391585779905",
-        "number": 523,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-06-30T04:45:00Z"
+            "time": "2026-06-30T14:00:00Z"
           }
         ]
       }
     ]
   },
-  "id": "751700e3-5df6-4314-83ba-cccb6074e632",
-  "identifier": "BRIEFING-20260630-65",
+  "id": "92fea630-6e73-447a-9163-bc96cb02e8c5",
+  "identifier": "BRIEFING-20260630-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3101,8 +3036,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-01T12:15:00Z",
-    "validityStart": "2026-06-30T12:15:00Z"
+    "validityEnd": "2026-07-01T15:00:00Z",
+    "validityStart": "2026-06-30T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3207,11 +3142,6 @@
                 {
                   "link": false,
                   "referenceId": "63917455049070385",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917367641066545",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3439,7 +3369,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918402957288241",
+                  "referenceId": "63918424844081425",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3449,6 +3379,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918418771218417",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918407331565329",
@@ -3467,11 +3402,6 @@
                 {
                   "link": false,
                   "referenceId": "63917720684734705",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917310606618545",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3502,11 +3432,6 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918391585779905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3601,6 +3526,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63918418771218417",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63918405718640545",
@@ -3763,17 +3693,7 @@
             },
             {
               "link": true,
-              "referenceId": "63917367641066545",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63917367144142113",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917310606618545",
               "structureType": "REFERENCE"
             },
             {

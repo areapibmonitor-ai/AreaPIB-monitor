@@ -16775,3 +16775,24 @@ LIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +371
 F)3000FT AMSL G)FL095
 )
 [2026-06-30T12:20:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-92e62139d1csm222965485a.10 - gsmtp')
+[2026-06-30T15:15:51Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1585/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A1563/26 was replaced with NOTAM A1794/26.
+AFTN: (A1794/26 NOTAMR A1563/26
+
+(A1794/26 NOTAMR A1563/26
+Q)EETT/RRCA/IV/BO/AW/005/095/5841N02635E071
+A)EETU B)2606301218 C)2609282359
+E)RESTRICTED AREA EER2615 ACTIVATED. ALL AIRCRAFT (INCLUDING
+UNMANNED AIRCRAFT) OPERATING WITHIN THE AREA SHALL BE EQUIPPED WITH A
+TURNED-ON 3A/C OR MODE S TRANSPONDER OR NOTIFY ESTONIAN AIR FORCE AT
+LEAST 60 MINUTES BEFORE DEPARTURE ON TEL +372 717 3724. REF AIP SUP
+04/2026.
+F)500FT AGL G)FL095
+)
+[2026-06-30T15:15:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-92e622e775csm254080585a.23 - gsmtp')
