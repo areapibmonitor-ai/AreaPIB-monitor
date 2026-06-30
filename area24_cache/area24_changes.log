@@ -16796,3 +16796,10 @@ LEAST 60 MINUTES BEFORE DEPARTURE ON TEL +372 717 3724. REF AIP SUP
 F)500FT AGL G)FL095
 )
 [2026-06-30T15:15:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-92e622e775csm254080585a.23 - gsmtp')
+[2026-06-30T17:18:28Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1583/26 expired and was removed from the PIB.
+- NOTAM A1594/26 expired and was removed from the PIB.
+[2026-06-30T17:18:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-448dbee3badsm3090295fac.12 - gsmtp')
