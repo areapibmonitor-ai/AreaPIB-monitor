@@ -17002,3 +17002,9 @@ E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:
 30 1700-31 0500.
 )
 [2026-07-01T18:51:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30f0bbd221bsm388845eec.22 - gsmtp')
+[2026-07-01T20:51:10Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1809/26 expired and was removed from the PIB.
+[2026-07-01T20:51:10Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b3c876ea9sm1029995c88.13 - gsmtp')

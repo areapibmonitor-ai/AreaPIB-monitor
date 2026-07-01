@@ -1,43 +1,7 @@
 {
-  "createdAt": "2026-07-01T18:45:00.441Z",
+  "createdAt": "2026-07-01T20:45:00.418Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63918528213370017",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1809,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MX",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1807,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "HOLDING POSITION TWY B CLSD.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-01T20:00:00Z",
-          "est": true,
-          "start": "2026-07-01T18:43:00Z"
-        }
-      },
       {
         "id": "63918504139504577",
         "locations": [
@@ -2930,8 +2894,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918511157471633",
-        "number": 888,
+        "id": "63918532302007665",
+        "number": 889,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2959,14 +2923,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-01T13:58:00Z"
+            "time": "2026-07-01T19:45:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a9442e5b-b17a-4790-8b58-cf6344a5f662",
-  "identifier": "BRIEFING-20260701-91",
+  "id": "6b703f8f-1b5e-4d50-9713-0bfffa66107e",
+  "identifier": "BRIEFING-20260701-99",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3015,8 +2979,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-02T18:45:00Z",
-    "validityStart": "2026-07-01T18:45:00Z"
+    "validityEnd": "2026-07-02T20:45:00Z",
+    "validityStart": "2026-07-01T20:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3253,11 +3217,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918528213370017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918400221082769",
                   "structureType": "REFERENCE"
                 },
@@ -3328,7 +3287,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918511157471633",
+                  "referenceId": "63918532302007665",
                   "structureType": "REFERENCE"
                 }
               ],
