@@ -16966,3 +16966,9 @@ A)EETN B)2607011320 C)2607011900
 E)HOLDING POSITION TWY B CLSD.
 )
 [2026-07-01T13:56:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382ac8c7sm32477695ad.61 - gsmtp')
+[2026-07-01T16:35:50Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1638/26 expired and was removed from the PIB.
+[2026-07-01T16:35:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f46e27d533sm1666256d6.8 - gsmtp')
