@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-01T04:45:00.431Z",
+  "createdAt": "2026-07-01T08:30:00.418Z",
   "dynamicData": {
     "notams": [
       {
@@ -1135,6 +1135,41 @@
         "validity": {
           "end": "2026-07-05T18:00:00Z",
           "start": "2026-06-29T06:00:00Z"
+        }
+      },
+      {
+        "id": "63917714622410833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1692,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "02-05 09 11-12 15-16 18-19 23 25-26 30 0500-2000",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T20:00:00Z",
+          "start": "2026-07-02T05:00:00Z"
         }
       },
       {
@@ -2864,8 +2899,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918468126712881",
-        "number": 886,
+        "id": "63918489294966401",
+        "number": 887,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2893,14 +2928,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-01T02:00:00Z"
+            "time": "2026-07-01T07:54:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63918484141073841",
+        "number": 524,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-01T06:27:00Z"
           }
         ]
       }
     ]
   },
-  "id": "fa887274-b4a5-42df-8fb5-0768f4debb3d",
-  "identifier": "BRIEFING-20260701-34",
+  "id": "72b9a013-6cf4-46e4-8e5c-ddd828b7a654",
+  "identifier": "BRIEFING-20260701-50",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2949,8 +3019,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-02T04:45:00Z",
-    "validityStart": "2026-07-01T04:45:00Z"
+    "validityEnd": "2026-07-02T08:30:00Z",
+    "validityStart": "2026-07-01T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3257,7 +3327,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918468126712881",
+                  "referenceId": "63918489294966401",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3310,6 +3380,11 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918484141073841",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3512,6 +3587,11 @@
             {
               "link": false,
               "referenceId": "63917715272928369",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917714622410833",
               "structureType": "REFERENCE"
             },
             {
