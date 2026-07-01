@@ -16972,3 +16972,33 @@ URL: https://aim.eans.ee/web/notampib/area24.json
 Expired NOTAMs:
 - NOTAM A1638/26 expired and was removed from the PIB.
 [2026-07-01T16:35:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f46e27d533sm1666256d6.8 - gsmtp')
+[2026-07-01T18:51:32Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A1807/26 was replaced with NOTAM A1809/26.
+AFTN: (A1809/26 NOTAMR A1807/26
+
+(A1809/26 NOTAMR A1807/26
+Q)EETT/MXLC/IV/BO/A/000/999/5925N02450E005
+A)EETN B)2607011843 C)2607012000
+E)HOLDING POSITION TWY B CLSD.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1768/26 NOTAMN
+Q)EETT/FFCH/IV/NBO/A/000/999/5925N02450E005
+A)EETN B)2607021700 C)2607310500
+E)RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:
+02 1700-03 0500,
+06 1700-07 0500,
+10 1700-11 0500,
+14 1700-15 0500,
+18 1700-19 0500,
+22 1700-23 0500,
+26 1700-27 0500,
+30 1700-31 0500.
+)
+[2026-07-01T18:51:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-30f0bbd221bsm388845eec.22 - gsmtp')

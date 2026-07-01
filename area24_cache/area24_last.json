@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-07-01T16:30:03.14Z",
+  "createdAt": "2026-07-01T18:45:00.441Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63918508929928609",
+        "id": "63918528213370017",
         "locations": [
           "EETN"
         ],
         "notamId": {
-          "number": 1807,
+          "number": 1809,
           "series": "A",
           "year": 2026
         },
@@ -25,12 +25,17 @@
           "traffic": "IV",
           "upper": 999
         },
+        "referenceId": {
+          "number": 1807,
+          "series": "A",
+          "year": 2026
+        },
         "text": "HOLDING POSITION TWY B CLSD.",
-        "type": "N",
+        "type": "R",
         "validity": {
-          "end": "2026-07-01T19:00:00Z",
+          "end": "2026-07-01T20:00:00Z",
           "est": true,
-          "start": "2026-07-01T13:20:00Z"
+          "start": "2026-07-01T18:43:00Z"
         }
       },
       {
@@ -291,6 +296,36 @@
         "validity": {
           "end": "2026-07-31T23:59:00Z",
           "start": "2026-07-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63918319286605393",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1768,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:\r\n02 1700-03 0500,\r\n06 1700-07 0500,\r\n10 1700-11 0500,\r\n14 1700-15 0500,\r\n18 1700-19 0500,\r\n22 1700-23 0500,\r\n26 1700-27 0500,\r\n30 1700-31 0500.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-31T05:00:00Z",
+          "start": "2026-07-02T17:00:00Z"
         }
       },
       {
@@ -2930,8 +2965,8 @@
       }
     ]
   },
-  "id": "79c09166-91e3-4bf4-8fa0-379613e20b67",
-  "identifier": "BRIEFING-20260701-82",
+  "id": "a9442e5b-b17a-4790-8b58-cf6344a5f662",
+  "identifier": "BRIEFING-20260701-91",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2980,8 +3015,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-02T16:30:00Z",
-    "validityStart": "2026-07-01T16:30:00Z"
+    "validityEnd": "2026-07-02T18:45:00Z",
+    "validityStart": "2026-07-01T18:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3218,12 +3253,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918508929928609",
+                  "referenceId": "63918528213370017",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63918400221082769",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918319286605393",
                   "structureType": "REFERENCE"
                 },
                 {
