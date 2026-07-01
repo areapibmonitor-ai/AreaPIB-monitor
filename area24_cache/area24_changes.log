@@ -16941,3 +16941,28 @@ LIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +372 71
 F)3000FT AMSL G)FL095
 )
 [2026-07-01T11:46:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-8479ff8c6f8sm3744049b3a.1 - gsmtp')
+[2026-07-01T13:56:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1541/26 expired and was removed from the PIB.
+- NOTAM A1780/26 expired and was removed from the PIB.
+- NOTAM A1787/26 expired and was removed from the PIB.
+- NOTAM A1788/26 expired and was removed from the PIB.
+- NOTAM A1789/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1806/26 NOTAMN
+Q)EETT/IGAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2607020630 C)2607021000
+E)ILS GP RWY 06 U/S DUE TO MAINT.
+)
+
+New NOTAM added:
+(A1807/26 NOTAMN
+Q)EETT/MXLC/IV/BO/A/000/999/5925N02450E005
+A)EETN B)2607011320 C)2607011900
+E)HOLDING POSITION TWY B CLSD.
+)
+[2026-07-01T13:56:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2ca382ac8c7sm32477695ad.61 - gsmtp')

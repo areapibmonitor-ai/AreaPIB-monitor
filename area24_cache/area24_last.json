@@ -1,7 +1,68 @@
 {
-  "createdAt": "2026-07-01T11:45:00.421Z",
+  "createdAt": "2026-07-01T13:45:00.431Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918508929928609",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1807,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MX",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "HOLDING POSITION TWY B CLSD.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-01T19:00:00Z",
+          "est": true,
+          "start": "2026-07-01T13:20:00Z"
+        }
+      },
+      {
+        "id": "63918504139504577",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1806,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IG",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS GP RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-02T10:00:00Z",
+          "start": "2026-07-02T06:30:00Z"
+        }
+      },
       {
         "id": "63918418771218417",
         "levels": {
@@ -73,108 +134,6 @@
         }
       },
       {
-        "id": "63918405718640545",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1789,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5912N02636E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15G ACTIVATED FOR MILITARY OPERATIONS. VERTICAL\r\nLIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +371\r\n6500 2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-01T13:30:00Z",
-          "start": "2026-07-01T11:30:00Z"
-        }
-      },
-      {
-        "id": "63918405583395185",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1788,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15F ACTIVATED FOR MILITARY OPERATIONS. VERTICAL\r\nLIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +371\r\n6500 2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-01T13:30:00Z",
-          "start": "2026-07-01T11:30:00Z"
-        }
-      },
-      {
-        "id": "63918405439033201",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1787,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5931N02601E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15D ACTIVATED FOR MILITARY OPERATIONS. VERTICAL\r\nLIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +371\r\n6500 2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-01T13:30:00Z",
-          "start": "2026-07-01T11:30:00Z"
-        }
-      },
-      {
         "id": "63918400221082769",
         "levels": {
           "lower": "SFC",
@@ -206,40 +165,6 @@
         "validity": {
           "end": "2026-10-01T23:59:00Z",
           "start": "2026-07-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918394952913569",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1780,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15E ACTIVATED FOR MILITARY OPERATIONS. VERTICAL\r\nLIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE\r\nFROM +371 6500 2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-01T13:30:00Z",
-          "start": "2026-07-01T11:30:00Z"
         }
       },
       {
@@ -2235,41 +2160,6 @@
         }
       },
       {
-        "id": "63917303298920033",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1541,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02411E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 11
-        },
-        "schedule": "DAILY 0630-0900 1000-1200",
-        "text": "TEMPORARY RESTRICTED AREA EER2638 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 592205N 0240600E - 592205N\r\n0241648E - 591759N 0241650E - 591726N 0240622E - 592205N 0240600E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5661\r\n4112.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-01T12:00:00Z",
-          "start": "2026-06-30T06:30:00Z"
-        }
-      },
-      {
         "id": "63917296198340497",
         "locations": [
           "EEKA"
@@ -3105,8 +2995,8 @@
       }
     ]
   },
-  "id": "17d33ce4-956f-4ad5-93e1-125e1dd693b1",
-  "identifier": "BRIEFING-20260701-63",
+  "id": "4c72b945-e901-47e3-93b8-38508253d93d",
+  "identifier": "BRIEFING-20260701-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3155,8 +3045,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-02T11:45:00Z",
-    "validityStart": "2026-07-01T11:45:00Z"
+    "validityEnd": "2026-07-02T13:45:00Z",
+    "validityStart": "2026-07-01T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3240,6 +3130,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63918504139504577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918333568654993",
                   "structureType": "REFERENCE"
                 },
@@ -3261,11 +3156,6 @@
                 {
                   "link": false,
                   "referenceId": "63917455049070385",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917303298920033",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3391,6 +3281,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918508929928609",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918400221082769",
@@ -3611,28 +3506,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63918405718640545",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918405583395185",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918405439033201",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918394952913569",
               "structureType": "REFERENCE"
             },
             {
@@ -3828,11 +3703,6 @@
             {
               "link": true,
               "referenceId": "63917303860207313",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917303298920033",
               "structureType": "REFERENCE"
             },
             {
