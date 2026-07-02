@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-02T14:45:02.935Z",
+  "createdAt": "2026-07-02T16:45:00.43Z",
   "dynamicData": {
     "notams": [
       {
@@ -1886,41 +1886,6 @@
         }
       },
       {
-        "id": "63917377598283921",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1611,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5855N02323E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "schedule": "DAILY 0600-1500",
-        "text": "TEMPORARY RESTRICTED AREA EER26158UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585545N 0231702E - 585531N\r\n0232929E - 585325N 0232920E - 585339N 0231654E - 585545N 0231702E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-02T15:00:00Z",
-          "start": "2026-06-29T06:00:00Z"
-        }
-      },
-      {
         "id": "63917376873018193",
         "locations": [
           "EETN"
@@ -2286,6 +2251,41 @@
         "validity": {
           "end": "2026-07-31T14:00:00Z",
           "start": "2026-06-29T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917209097940913",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1501,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "03 1500-2359, 04 H24, 05 0000-1500, 06 14 28 0500-1400, 08 21\r\n0600-1400, 17-18 0600-2000",
+        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-28T14:00:00Z",
+          "start": "2026-07-03T15:00:00Z"
         }
       },
       {
@@ -3023,16 +3023,16 @@
       }
     ]
   },
-  "id": "ea2ed24a-a37a-40f8-bf9c-cb9f74af84a8",
-  "identifier": "BRIEFING-20260702-75",
+  "id": "326509d2-91ef-4838-b74e-bd295f3a865c",
+  "identifier": "BRIEFING-20260702-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3073,8 +3073,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-03T14:45:00Z",
-    "validityStart": "2026-07-02T14:45:00Z"
+    "validityEnd": "2026-07-03T16:45:00Z",
+    "validityStart": "2026-07-02T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3715,11 +3715,6 @@
             },
             {
               "link": false,
-              "referenceId": "63917377598283921",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63917310281072161",
               "structureType": "REFERENCE"
             },
@@ -3751,6 +3746,11 @@
             {
               "link": false,
               "referenceId": "63917214292074497",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917209097940913",
               "structureType": "REFERENCE"
             },
             {

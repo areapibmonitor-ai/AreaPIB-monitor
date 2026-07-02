@@ -17110,3 +17110,20 @@ E)TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO
 MAINT.
 )
 [2026-07-02T14:55:38Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6a310020e13sm2274996eaf.7 - gsmtp')
+[2026-07-02T16:58:37Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1611/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1501/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/023/5751N02605E002
+A)EETT B)2607031500 C)2607281400
+D)03 1500-2359, 04 H24, 05 0000-1500, 06 14 28 0500-1400, 08 21
+0600-1400, 17-18 0600-2000
+E)DANGER AREA EED11 (METSNIKU) ACTIVATED.
+F)SFC G)2300FT AMSL
+)
+[2026-07-02T16:58:37Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-44cbed29e7asm3544418fac.13 - gsmtp')
