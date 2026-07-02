@@ -17076,3 +17076,37 @@ LIMITS CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION FROM +372 71
 F)3000FT AMSL G)FL095
 )
 [2026-07-02T12:30:33Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f46e84dfb0sm25303576d6.12 - gsmtp')
+[2026-07-02T14:55:38Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1750/26 expired and was removed from the PIB.
+- NOTAM A1759/26 expired and was removed from the PIB.
+- NOTAM A1760/26 expired and was removed from the PIB.
+- NOTAM A1761/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1811/26 NOTAMN
+Q)EETT/OBAW/IV/M/A/000/999/5818N02641E005
+A)EETU B)2607021245
+E)AREA 2 OBSTACLE ID 224 POLE COMPLETELY WITHDRAWN. REF AIP EETU AD
+2.10.
+)
+
+New NOTAM added:
+(A1812/26 NOTAMN
+Q)EETT/OBAW/IV/M/A/000/999/5818N02641E005
+A)EETU B)2607021252
+E)AREA 2 OBSTACLE ID 225 POLE COMPLETELY WITHDRAWN. REF AIP EETU AD
+2.10.
+)
+
+New NOTAM added:
+(A1818/26 NOTAMN
+Q)EETT/NXAS/V/BO/AE/000/999/5925N02450E025
+A)EETN B)2607030630 C)2607030800
+E)TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO
+MAINT.
+)
+[2026-07-02T14:55:38Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6a310020e13sm2274996eaf.7 - gsmtp')
