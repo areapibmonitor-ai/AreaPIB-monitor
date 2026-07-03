@@ -1,35 +1,81 @@
 {
-  "createdAt": "2026-07-03T07:30:00.425Z",
+  "createdAt": "2026-07-03T10:15:00.47Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63918595621965505",
+        "id": "63918666789846097",
         "locations": [
-          "EETN"
+          "EEEI"
         ],
         "notamId": {
-          "number": 1818,
+          "number": 1836,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
+          "condition": "AU",
+          "coordinate": "5916N02413E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "NX",
-          "traffic": "V",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
           "upper": 999
         },
-        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO\r\nMAINT.",
-        "type": "N",
+        "referenceId": {
+          "number": 1774,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "METAR INFO UNAVAILABLE.\r\nRELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413.",
+        "type": "R",
         "validity": {
-          "end": "2026-07-03T08:00:00Z",
-          "start": "2026-07-03T06:30:00Z"
+          "end": "2026-07-17T12:00:00Z",
+          "est": true,
+          "start": "2026-07-03T09:12:00Z"
+        }
+      },
+      {
+        "id": "63918664175366081",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1831,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "referenceId": {
+          "number": 1706,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "03 0828-1359, 04 0500-1759, 05 0500-1659, 09 0600-1359",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-09T13:59:00Z",
+          "start": "2026-07-03T08:28:00Z"
         }
       },
       {
@@ -427,42 +473,6 @@
         }
       },
       {
-        "id": "63918333568654993",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1774,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1724,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "METAR INFO UNAVAILABLE.\r\nRELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-03T13:00:00Z",
-          "est": true,
-          "start": "2026-06-29T12:38:00Z"
-        }
-      },
-      {
         "id": "63918327794493281",
         "locations": [
           "EETU"
@@ -832,41 +842,6 @@
         "validity": {
           "end": "2026-07-05T18:00:00Z",
           "start": "2026-06-29T06:00:00Z"
-        }
-      },
-      {
-        "id": "63917718778081617",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1706,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "01-04 0500-1759, 05 0500-1659, 09 0600-1359, 11 0500-1359",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-11T13:59:00Z",
-          "start": "2026-07-01T05:00:00Z"
         }
       },
       {
@@ -2845,8 +2820,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918652739352017",
-        "number": 899,
+        "id": "63918666405910753",
+        "number": 901,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2856,25 +2831,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-03T05:17:00Z"
+            "time": "2026-07-03T09:05:00Z"
           }
         ]
       },
@@ -2915,8 +2890,8 @@
       }
     ]
   },
-  "id": "01c4e40e-f168-45cd-8198-17e470bb477f",
-  "identifier": "BRIEFING-20260703-46",
+  "id": "d2e3ab0c-9268-45d0-b2f2-f2219ca06ae6",
+  "identifier": "BRIEFING-20260703-57",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2965,8 +2940,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-04T07:30:00Z",
-    "validityStart": "2026-07-03T07:30:00Z"
+    "validityEnd": "2026-07-04T10:15:00Z",
+    "validityStart": "2026-07-03T10:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3050,7 +3025,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918333568654993",
+                  "referenceId": "63918666789846097",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3198,11 +3173,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918595621965505",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918400221082769",
                   "structureType": "REFERENCE"
                 },
@@ -3273,7 +3243,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918652739352017",
+                  "referenceId": "63918666405910753",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3356,11 +3326,6 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63918595621965505",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63918337546481745",
               "structureType": "REFERENCE"
             },
@@ -3431,6 +3396,11 @@
         {
           "content": [
             {
+              "link": false,
+              "referenceId": "63918664175366081",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63918418771218417",
               "structureType": "REFERENCE"
@@ -3488,11 +3458,6 @@
             {
               "link": true,
               "referenceId": "63917719095851985",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917718778081617",
               "structureType": "REFERENCE"
             },
             {
