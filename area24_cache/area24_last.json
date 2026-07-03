@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-03T14:45:00.419Z",
+  "createdAt": "2026-07-03T16:30:00.417Z",
   "dynamicData": {
     "notams": [
       {
@@ -1711,40 +1711,6 @@
         }
       },
       {
-        "id": "63917308579968705",
-        "levels": {
-          "lower": "GND",
-          "upper": "FL055"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1557,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 155
-        },
-        "schedule": "JUN 18-19 22 25-26 29-30 0600-1500, JUL 01-03 0600-1500",
-        "text": "TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. NON-PARTICIPATING AIRCRAFT (INCLUDING UA) ARE NOT\r\nPERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING THE\r\nAREA AND INFO ABOUT ACT AVBL FROM +372 5650 2880.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-03T15:00:00Z",
-          "start": "2026-06-18T06:00:00Z"
-        }
-      },
-      {
         "id": "63917306548858241",
         "levels": {
           "lower": "SFC",
@@ -2754,16 +2720,16 @@
       }
     ]
   },
-  "id": "08ed9d1d-fcf5-4e54-bd18-b7618fcecff9",
-  "identifier": "BRIEFING-20260703-75",
+  "id": "95a7391e-9b80-4530-9a65-28687a342033",
+  "identifier": "BRIEFING-20260703-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2804,8 +2770,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-04T14:45:00Z",
-    "validityStart": "2026-07-03T14:45:00Z"
+    "validityEnd": "2026-07-04T16:30:00Z",
+    "validityStart": "2026-07-03T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3397,11 +3363,6 @@
             {
               "link": false,
               "referenceId": "63917310281072161",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917308579968705",
               "structureType": "REFERENCE"
             },
             {
