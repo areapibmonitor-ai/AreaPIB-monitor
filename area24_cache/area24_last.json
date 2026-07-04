@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-04T01:00:00.425Z",
+  "createdAt": "2026-07-04T04:45:01.983Z",
   "dynamicData": {
     "notams": [
       {
@@ -637,6 +637,40 @@
           "end": "2026-07-13T14:00:00Z",
           "est": true,
           "start": "2026-06-22T10:29:00Z"
+        }
+      },
+      {
+        "id": "63917719958909601",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1709,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-05T19:59:00Z",
+          "start": "2026-07-05T03:00:00Z"
         }
       },
       {
@@ -2756,8 +2790,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918711062083329",
-        "number": 907,
+        "id": "63918726281571425",
+        "number": 908,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2767,32 +2801,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
+                "code": 5,
                 "condition": "WET",
-                "coverage": "25",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
+                "code": 5,
                 "condition": "WET",
-                "coverage": "25",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
+                "code": 5,
                 "condition": "WET",
-                "coverage": "25",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-03T21:29:00Z"
+            "time": "2026-07-04T01:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "71418235-703d-4627-a7f3-72b1ab9d6b3f",
-  "identifier": "BRIEFING-20260704-5",
+  "id": "4e5cf98c-ec41-40c5-b790-8c78f1f256b4",
+  "identifier": "BRIEFING-20260704-34",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2841,8 +2875,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-05T01:00:00Z",
-    "validityStart": "2026-07-04T01:00:00Z"
+    "validityEnd": "2026-07-05T04:45:00Z",
+    "validityStart": "2026-07-04T04:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3094,6 +3128,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63917719958909601",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917386256682513",
                   "structureType": "REFERENCE"
                 },
@@ -3144,7 +3183,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918711062083329",
+                  "referenceId": "63918726281571425",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3319,6 +3358,11 @@
             {
               "link": false,
               "referenceId": "63917990125354369",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63917719958909601",
               "structureType": "REFERENCE"
             },
             {
