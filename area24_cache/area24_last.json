@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-04T04:45:01.983Z",
+  "createdAt": "2026-07-04T07:30:00.394Z",
   "dynamicData": {
     "notams": [
       {
@@ -2825,8 +2825,8 @@
       }
     ]
   },
-  "id": "4e5cf98c-ec41-40c5-b790-8c78f1f256b4",
-  "identifier": "BRIEFING-20260704-34",
+  "id": "2cd8e88c-8e7d-4662-a855-64958e086a16",
+  "identifier": "BRIEFING-20260704-46",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2844,12 +2844,10 @@
     "locations": {
       "aerodromes": [
         "EEEI",
-        "EEJI",
         "EEKA",
         "EEKE",
         "EEKU",
         "EEPU",
-        "EERA",
         "EERU",
         "EETN",
         "EETU"
@@ -2875,8 +2873,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-05T04:45:00Z",
-    "validityStart": "2026-07-04T04:45:00Z"
+    "validityEnd": "2026-07-05T07:30:00Z",
+    "validityStart": "2026-07-04T07:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2886,12 +2884,6 @@
         "id": "63638525762132169",
         "name": "AMARI",
         "wkt": "POINT (24.2186111 59.2622221)"
-      },
-      {
-        "designator": "EEJI",
-        "id": "63677256904707585",
-        "name": "JOHVI",
-        "wkt": "POINT (27.3930555 59.3261111)"
       },
       {
         "designator": "EEKA",
@@ -2916,12 +2908,6 @@
         "id": "63638525762145429",
         "name": "PARNU",
         "wkt": "POINT (24.4727777 58.4188889)"
-      },
-      {
-        "designator": "EERA",
-        "id": "63764342532419585",
-        "name": "RAPLA",
-        "wkt": "POINT (24.7202777 58.9888889)"
       },
       {
         "designator": "EERU",
@@ -2987,11 +2973,6 @@
               "staticDataId": "63638525762132169",
               "structureType": "SECTION",
               "title": "EEEI - AMARI"
-            },
-            {
-              "staticDataId": "63677256904707585",
-              "structureType": "SECTION",
-              "title": "EEJI - JOHVI"
             },
             {
               "content": [
@@ -3093,11 +3074,6 @@
               "staticDataId": "63638525762145429",
               "structureType": "SECTION",
               "title": "EEPU - PARNU"
-            },
-            {
-              "staticDataId": "63764342532419585",
-              "structureType": "SECTION",
-              "title": "EERA - RAPLA"
             },
             {
               "staticDataId": "63544203142222571",
