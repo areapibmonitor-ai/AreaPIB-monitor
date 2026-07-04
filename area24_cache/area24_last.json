@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-07-04T09:45:00.407Z",
+  "createdAt": "2026-07-04T11:00:00.439Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918757851211905",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1837,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1375,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPES OF BIRDS: LAPWINGS, CROWS, BLACKBIRDS, GEESE, CRANES, JACKDAWS,\r\nGULLS, SWIFTS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-04T10:30:00Z",
+          "est": true,
+          "start": "2026-07-04T10:28:00Z"
+        }
+      },
       {
         "id": "63918666789846097",
         "locations": [
@@ -2252,42 +2288,6 @@
         }
       },
       {
-        "id": "63916172679626449",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1375,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 984,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS: LAPWINGS, CROWS, BLACKBIRDS, GEESE, CRANES, JACKDAWS,\r\nGULLS, SWIFTS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-04T12:00:00Z",
-          "est": true,
-          "start": "2026-06-04T12:23:00Z"
-        }
-      },
-      {
         "id": "63915654906885201",
         "locations": [
           "EEKE"
@@ -2790,8 +2790,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918752543585537",
-        "number": 910,
+        "id": "63918757719703537",
+        "number": 911,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2802,31 +2802,31 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-04T08:58:00Z"
+            "time": "2026-07-04T10:25:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e39e7982-c1db-44c5-9692-3cd4d0746d25",
-  "identifier": "BRIEFING-20260704-55",
+  "id": "fd72b6e6-e2e5-4428-ae39-8052a5a8e393",
+  "identifier": "BRIEFING-20260704-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2873,8 +2873,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-05T09:45:00Z",
-    "validityStart": "2026-07-04T09:45:00Z"
+    "validityEnd": "2026-07-05T11:00:00Z",
+    "validityStart": "2026-07-04T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3057,17 +3057,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63918757851211905",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917718374382433",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63917306548858241",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63916172679626449",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3159,7 +3159,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918752543585537",
+                  "referenceId": "63918757719703537",
                   "structureType": "REFERENCE"
                 }
               ],
