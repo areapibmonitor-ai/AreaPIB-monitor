@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-04T21:00:00.632Z",
+  "createdAt": "2026-07-04T22:00:00.51Z",
   "dynamicData": {
     "notams": [
       {
@@ -172,6 +172,40 @@
         "validity": {
           "perm": true,
           "start": "2026-07-02T12:45:00Z"
+        }
+      },
+      {
+        "id": "63918493869747169",
+        "levels": {
+          "lower": "SFC",
+          "upper": "130FT AGL"
+        },
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1802,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5815N02229E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 2
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2645 ESTABLISHED FOR CULTURAL EVENT\r\nWITHIN: CIRCLE OF 500M RADIUS CENTERED ON 581448N 0222846E. UNMANNED\r\nAIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED AREA\r\nWITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION SHALL\r\nBE OBTAINED BY PHONE: +372 56693633 OR BY E-MAIL:\r\nPRIIT.MIKK(AT)CONCERT.EE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T20:59:00Z",
+          "start": "2026-07-05T21:00:00Z"
         }
       },
       {
@@ -2825,8 +2859,8 @@
       }
     ]
   },
-  "id": "3690e376-d5de-472c-9e95-961c00dce2e4",
-  "identifier": "BRIEFING-20260704-100",
+  "id": "32010162-6844-4cd2-9da8-37c776ffb45b",
+  "identifier": "BRIEFING-20260704-104",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2873,8 +2907,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-05T21:00:00Z",
-    "validityStart": "2026-07-04T21:00:00Z"
+    "validityEnd": "2026-07-05T22:00:00Z",
+    "validityStart": "2026-07-04T22:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3023,6 +3057,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918493869747169",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918337037204321",
@@ -3304,6 +3343,11 @@
             {
               "link": false,
               "referenceId": "63918664175366081",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63918493869747169",
               "structureType": "REFERENCE"
             },
             {
