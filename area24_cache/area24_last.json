@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-04T22:00:00.51Z",
+  "createdAt": "2026-07-04T23:15:00.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -464,40 +464,6 @@
         "validity": {
           "end": "2026-07-31T05:00:00Z",
           "start": "2026-07-02T17:00:00Z"
-        }
-      },
-      {
-        "id": "63918311823648497",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1762,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5847N02415E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2172UA ESTABLISHED FOR HARD ROCK\r\nLAAGER FESTIVAL WITHIN: CIRCLE OF 0.85NM RADIUS CENTERED ON 584651N\r\n0241518E. UNMANNED AIRCRAFT MUST OBTAIN PERMISSION FOR ENTERING THE\r\nAREA FM EVENT ORGANIZER BY PHONE: +372 5557 2289.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-04T23:00:00Z",
-          "start": "2026-07-03T11:00:00Z"
         }
       },
       {
@@ -2859,8 +2825,8 @@
       }
     ]
   },
-  "id": "32010162-6844-4cd2-9da8-37c776ffb45b",
-  "identifier": "BRIEFING-20260704-104",
+  "id": "cd70f856-9137-4ece-80d9-90dd04bf92f2",
+  "identifier": "BRIEFING-20260704-109",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2907,8 +2873,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-05T22:00:00Z",
-    "validityStart": "2026-07-04T22:00:00Z"
+    "validityEnd": "2026-07-05T23:15:00Z",
+    "validityStart": "2026-07-04T23:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3363,11 +3329,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918311823648497",
               "structureType": "REFERENCE"
             },
             {
