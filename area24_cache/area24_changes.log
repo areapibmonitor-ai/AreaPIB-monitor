@@ -17526,3 +17526,9 @@ FROM TEL +372 5199 8543. REF AIP SUP 09/2026.
 F)SFC G)3000FT AMSL
 )
 [2026-07-05T19:39:01Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-311561dd3a1sm6894859eec.22 - gsmtp')
+[2026-07-05T20:42:12Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1709/26 expired and was removed from the PIB.
+[2026-07-05T20:42:12Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8f471814408sm115961506d6.23 - gsmtp')

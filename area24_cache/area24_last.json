@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-05T19:30:00.432Z",
+  "createdAt": "2026-07-05T20:30:00.429Z",
   "dynamicData": {
     "notams": [
       {
@@ -1050,40 +1050,6 @@
         "validity": {
           "end": "2026-07-08T16:59:00Z",
           "start": "2026-07-01T09:00:00Z"
-        }
-      },
-      {
-        "id": "63917719958909601",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1709,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02443E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-05T19:59:00Z",
-          "start": "2026-07-05T03:00:00Z"
         }
       },
       {
@@ -2681,8 +2647,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918857539636977",
-        "number": 918,
+        "id": "63918877505094465",
+        "number": 919,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2692,67 +2658,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-05T14:11:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63918848365961377",
-        "number": 530,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-05T11:37:00Z"
+            "time": "2026-07-05T19:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ff0e365f-2fe5-409b-9e6d-32f9ca97607c",
-  "identifier": "BRIEFING-20260705-94",
+  "id": "6613724a-9c03-476a-93d0-cfbe74bd2a81",
+  "identifier": "BRIEFING-20260705-98",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2799,8 +2730,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-06T19:30:00Z",
-    "validityStart": "2026-07-05T19:30:00Z"
+    "validityEnd": "2026-07-06T20:30:00Z",
+    "validityStart": "2026-07-05T20:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3040,11 +2971,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63917719958909601",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917386256682513",
                   "structureType": "REFERENCE"
                 },
@@ -3095,7 +3021,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918857539636977",
+                  "referenceId": "63918877505094465",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3168,11 +3094,6 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918848365961377",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3330,11 +3251,6 @@
             {
               "link": true,
               "referenceId": "63917720684734705",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917719958909601",
               "structureType": "REFERENCE"
             },
             {
