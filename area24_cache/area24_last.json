@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-07-05T15:30:00.428Z",
+  "createdAt": "2026-07-05T16:45:00.427Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918864570815873",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1840,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IL",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-06T09:30:00Z",
+          "start": "2026-07-06T06:30:00Z"
+        }
+      },
       {
         "id": "63918853944271473",
         "locations": [
@@ -2931,16 +2961,16 @@
       }
     ]
   },
-  "id": "0fb19a9e-64d8-457a-983a-a2daddbac23d",
-  "identifier": "BRIEFING-20260705-78",
+  "id": "3b8d27f4-9ed1-4cd8-9326-713fd05ed304",
+  "identifier": "BRIEFING-20260705-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2979,8 +3009,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-06T15:30:00Z",
-    "validityStart": "2026-07-05T15:30:00Z"
+    "validityEnd": "2026-07-06T16:45:00Z",
+    "validityStart": "2026-07-05T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3050,6 +3080,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918864570815873",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918666789846097",
