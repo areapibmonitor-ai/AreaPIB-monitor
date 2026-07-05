@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-07-05T10:45:00.484Z",
+  "createdAt": "2026-07-05T12:00:00.465Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918848541747857",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1838,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1525,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU\r\nMARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-30T13:00:00Z",
+          "est": true,
+          "start": "2026-07-05T11:41:00Z"
+        }
+      },
       {
         "id": "63918757851211905",
         "locations": [
@@ -246,40 +282,6 @@
           "end": "2026-09-28T23:59:00Z",
           "est": true,
           "start": "2026-06-30T12:18:00Z"
-        }
-      },
-      {
-        "id": "63918416710964449",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1793,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 12
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26162UA (METSNIKU) ESTABLISHED FOR\r\nUNMANNED AIRCRAFT SYSTEM ACTIVITIES WITHIN: 575118N 0260334E -\r\n575106N 0260625E - 575017N 0260621E - 574959N 0260451E - 575007N\r\n0260412E - 575047N 0260330E - 575118N 0260334E. PERMISSION FOR\r\nENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5645 6447.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-05T12:00:00Z",
-          "start": "2026-07-04T06:00:00Z"
         }
       },
       {
@@ -2166,37 +2168,6 @@
         }
       },
       {
-        "id": "63917296198340497",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1525,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU\r\nMARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT LIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-05T13:00:00Z",
-          "est": true,
-          "start": "2026-06-18T00:00:00Z"
-        }
-      },
-      {
         "id": "63917209097940913",
         "levels": {
           "lower": "SFC",
@@ -2895,8 +2866,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63918828255590689",
-        "number": 529,
+        "id": "63918848365961377",
+        "number": 530,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2908,30 +2879,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-05T06:02:00Z"
+            "time": "2026-07-05T11:37:00Z"
           }
         ]
       }
     ]
   },
-  "id": "829410e0-3eb0-400b-abdc-cb8be257bd30",
-  "identifier": "BRIEFING-20260705-59",
+  "id": "7f676492-3268-47d8-b53b-7a80921bacf2",
+  "identifier": "BRIEFING-20260705-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2978,8 +2949,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-06T10:45:00Z",
-    "validityStart": "2026-07-05T10:45:00Z"
+    "validityEnd": "2026-07-06T12:00:00Z",
+    "validityStart": "2026-07-05T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3083,7 +3054,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63917296198340497",
+                  "referenceId": "63918848541747857",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3341,7 +3312,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918828255590689",
+                  "referenceId": "63918848365961377",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3439,11 +3410,6 @@
             {
               "link": true,
               "referenceId": "63918418771218417",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918416710964449",
               "structureType": "REFERENCE"
             },
             {
