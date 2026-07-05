@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-07-05T12:00:00.465Z",
+  "createdAt": "2026-07-05T14:00:00.42Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918853944271473",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1839,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUEL JET A1 NOT AVAILABLE",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-06T14:00:00Z",
+          "start": "2026-07-05T13:11:00Z"
+        }
+      },
       {
         "id": "63918848541747857",
         "locations": [
@@ -2901,8 +2931,8 @@
       }
     ]
   },
-  "id": "7f676492-3268-47d8-b53b-7a80921bacf2",
-  "identifier": "BRIEFING-20260705-64",
+  "id": "45a03ab1-7682-4e00-bc55-1384bf6ab50f",
+  "identifier": "BRIEFING-20260705-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2949,8 +2979,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-06T12:00:00Z",
-    "validityStart": "2026-07-05T12:00:00Z"
+    "validityEnd": "2026-07-06T14:00:00Z",
+    "validityStart": "2026-07-05T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3250,6 +3280,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918853944271473",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918593470378785",
