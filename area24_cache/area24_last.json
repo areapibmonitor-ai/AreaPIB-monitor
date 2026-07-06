@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-07-06T06:00:00.405Z",
+  "createdAt": "2026-07-06T11:00:00.41Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918923476962289",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1843,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LB",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "AERODROME BEACON U/S DUE TO FAULT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-06T14:00:00Z",
+          "est": true,
+          "start": "2026-07-06T08:30:00Z"
+        }
+      },
       {
         "id": "63918908851379185",
         "locations": [
@@ -31,36 +62,6 @@
           "end": "2026-08-31T13:00:00Z",
           "est": true,
           "start": "2026-07-06T04:30:00Z"
-        }
-      },
-      {
-        "id": "63918864570815873",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1840,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IL",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-06T09:30:00Z",
-          "start": "2026-07-06T06:30:00Z"
         }
       },
       {
@@ -257,6 +258,41 @@
         "validity": {
           "end": "2026-07-27T20:59:00Z",
           "start": "2026-07-05T21:00:00Z"
+        }
+      },
+      {
+        "id": "63918488759543201",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1200FT AMSL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1800,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02408E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 12
+        },
+        "schedule": "DAILY 0600-1500",
+        "text": "TEMPORARY RESTRICTED AREA EER2612 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 592451N 0235951E - 592349N\r\n0241343E - 591816N 0241654E - 591752N 0240834E - 591753N 0240045E -\r\n592451N 0235951E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM AMARI TOWER ON THE PHONE +372 717 3415 OR ON FREQUENCY\r\n122.100MHZ.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-09T15:00:00Z",
+          "start": "2026-07-07T06:00:00Z"
         }
       },
       {
@@ -2635,8 +2671,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918897287097505",
-        "number": 921,
+        "id": "63918926721212993",
+        "number": 922,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2664,14 +2700,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-06T01:13:00Z"
+            "time": "2026-07-06T09:24:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63918914112475089",
-        "number": 531,
+        "id": "63918931391577073",
+        "number": 533,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2699,14 +2735,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-06T05:53:00Z"
+            "time": "2026-07-06T10:40:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e21de2f6-3073-4c43-a5cc-bea942dab8a7",
-  "identifier": "BRIEFING-20260706-40",
+  "id": "16598b6f-a663-4b74-9ad6-7e0d0f421c5e",
+  "identifier": "BRIEFING-20260706-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2753,8 +2789,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-07T06:00:00Z",
-    "validityStart": "2026-07-06T06:00:00Z"
+    "validityEnd": "2026-07-07T11:00:00Z",
+    "validityStart": "2026-07-06T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2826,12 +2862,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918864570815873",
+                  "referenceId": "63918923476962289",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63918666789846097",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918488759543201",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3044,7 +3085,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918897287097505",
+                  "referenceId": "63918926721212993",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3126,7 +3167,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918914112475089",
+                  "referenceId": "63918931391577073",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3214,6 +3255,11 @@
             {
               "link": true,
               "referenceId": "63918493869747169",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63918488759543201",
               "structureType": "REFERENCE"
             },
             {
