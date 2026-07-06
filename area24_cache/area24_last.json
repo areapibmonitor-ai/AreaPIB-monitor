@@ -1,7 +1,127 @@
 {
-  "createdAt": "2026-07-06T11:00:00.41Z",
+  "createdAt": "2026-07-06T14:30:00.896Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918944818483825",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1847,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "NT",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "VORTAC AMI 115.300MHZ/CH100X U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-07T08:00:00Z",
+          "start": "2026-07-07T06:00:00Z"
+        }
+      },
+      {
+        "id": "63918944487597537",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1846,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 06 U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-07T08:00:00Z",
+          "start": "2026-07-07T06:00:00Z"
+        }
+      },
+      {
+        "id": "63918944276193713",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1845,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 24 U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-07T08:00:00Z",
+          "start": "2026-07-07T06:00:00Z"
+        }
+      },
+      {
+        "id": "63918940691257633",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1844,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUEL JET A1 NOT AVAILABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T09:00:00Z",
+          "start": "2026-07-06T14:00:00Z"
+        }
+      },
       {
         "id": "63918923476962289",
         "locations": [
@@ -62,36 +182,6 @@
           "end": "2026-08-31T13:00:00Z",
           "est": true,
           "start": "2026-07-06T04:30:00Z"
-        }
-      },
-      {
-        "id": "63918853944271473",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1839,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUEL JET A1 NOT AVAILABLE",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-06T14:00:00Z",
-          "start": "2026-07-05T13:11:00Z"
         }
       },
       {
@@ -224,6 +314,37 @@
         "validity": {
           "perm": true,
           "start": "2026-07-02T12:45:00Z"
+        }
+      },
+      {
+        "id": "63918512426939457",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1808,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "schedule": "07 09 10 1115-1300",
+        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 14 AND RNP RWY 32 NOT\r\nAVAILABLE DUE TO MIL ACTIVITY IN EER2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-07T11:15:00Z"
         }
       },
       {
@@ -586,6 +707,41 @@
         "validity": {
           "end": "2026-07-31T05:00:00Z",
           "start": "2026-07-02T17:00:00Z"
+        }
+      },
+      {
+        "id": "63918315278714705",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1767,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02208E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 22,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "07 09-10 1115-1300",
+        "text": "TEMPORARY RESTRICTED AREA EER2204 ESTABLISHED FOR MILITARY\r\nOPERATIONS WITHIN: 585111N 0214240E - 585914N 0222637E - 584756N\r\n0224329E - 583600N 0224659E - 582937N 0223450E - 582257N 0220542E -\r\n582824N 0220213E - 583242N 0213106E - 585111N 0214240E EXCLUDING\r\nKARDLA FIZ/RMZ AND KURESSAARE FIZ/RMZ. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-07T11:15:00Z"
         }
       },
       {
@@ -2671,8 +2827,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918926721212993",
-        "number": 922,
+        "id": "63918934471082721",
+        "number": 923,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2682,25 +2838,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-06T09:24:00Z"
+            "time": "2026-07-06T11:33:00Z"
           }
         ]
       },
@@ -2741,8 +2897,8 @@
       }
     ]
   },
-  "id": "16598b6f-a663-4b74-9ad6-7e0d0f421c5e",
-  "identifier": "BRIEFING-20260706-60",
+  "id": "d19b30dc-e328-4efb-a101-57f05474b0a6",
+  "identifier": "BRIEFING-20260706-74",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2789,8 +2945,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-07T11:00:00Z",
-    "validityStart": "2026-07-06T11:00:00Z"
+    "validityEnd": "2026-07-07T14:30:00Z",
+    "validityStart": "2026-07-06T14:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2862,6 +3018,21 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63918944818483825",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918944487597537",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918944276193713",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918923476962289",
                   "structureType": "REFERENCE"
                 },
@@ -2905,6 +3076,11 @@
                 {
                   "link": false,
                   "referenceId": "63918908851379185",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918512426939457",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2986,6 +3162,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63918940691257633",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918757851211905",
@@ -3085,7 +3266,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918926721212993",
+                  "referenceId": "63918934471082721",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3095,11 +3276,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63918853944271473",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63918593470378785",
@@ -3280,6 +3456,11 @@
             {
               "link": true,
               "referenceId": "63918328628700321",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918315278714705",
               "structureType": "REFERENCE"
             },
             {
