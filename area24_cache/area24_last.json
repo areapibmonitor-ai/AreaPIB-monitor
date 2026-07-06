@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-07-06T01:45:00.428Z",
+  "createdAt": "2026-07-06T06:00:00.405Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63918908851379185",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1842,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY GROUP OF POLE (SAILING BOAT MASTS) ERECTED LOCATED AT\r\nROOGRAHU MARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT\r\nLIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T13:00:00Z",
+          "est": true,
+          "start": "2026-07-06T04:30:00Z"
+        }
+      },
       {
         "id": "63918864570815873",
         "locations": [
@@ -60,42 +91,6 @@
         "validity": {
           "end": "2026-07-06T14:00:00Z",
           "start": "2026-07-05T13:11:00Z"
-        }
-      },
-      {
-        "id": "63918848541747857",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1838,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1525,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TEMPORARY POLE (SAILING BOAT MAST) ERECTED LOCATED AT ROOGRAHU\r\nMARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT LIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-30T13:00:00Z",
-          "est": true,
-          "start": "2026-07-05T11:41:00Z"
         }
       },
       {
@@ -262,6 +257,40 @@
         "validity": {
           "end": "2026-07-27T20:59:00Z",
           "start": "2026-07-05T21:00:00Z"
+        }
+      },
+      {
+        "id": "63918421394250785",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1797,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5823N02642E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 6
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2643 ESTABLISHED FOR CULTURAL EVENT\r\nWITHIN: CIRCLE OF 400M RADIUS CENTERED ON 582317N 0264210E. UNMANNED\r\nAIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED AREA\r\nWITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION SHALL\r\nBE OBTAINED BY PHONE: +372 5682 6820.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-09T20:59:00Z",
+          "start": "2026-07-07T05:00:00Z"
         }
       },
       {
@@ -2638,11 +2667,46 @@
             "time": "2026-07-06T01:13:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63918914112475089",
+        "number": 531,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-06T05:53:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "5b410ea2-91a4-49f9-8776-5c36ff6e1e9b",
-  "identifier": "BRIEFING-20260706-8",
+  "id": "e21de2f6-3073-4c43-a5cc-bea942dab8a7",
+  "identifier": "BRIEFING-20260706-40",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2689,8 +2753,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-07T01:45:00Z",
-    "validityStart": "2026-07-06T01:45:00Z"
+    "validityEnd": "2026-07-07T06:00:00Z",
+    "validityStart": "2026-07-06T06:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2799,7 +2863,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918848541747857",
+                  "referenceId": "63918908851379185",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3007,6 +3071,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63918421394250785",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
                 },
@@ -3053,6 +3122,11 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918914112475089",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3140,6 +3214,11 @@
             {
               "link": true,
               "referenceId": "63918493869747169",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63918421394250785",
               "structureType": "REFERENCE"
             },
             {
