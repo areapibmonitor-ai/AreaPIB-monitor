@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-07T04:00:02.857Z",
+  "createdAt": "2026-07-07T07:45:00.395Z",
   "dynamicData": {
     "notams": [
       {
@@ -254,6 +254,40 @@
           "end": "2026-07-17T12:00:00Z",
           "est": true,
           "start": "2026-07-03T09:12:00Z"
+        }
+      },
+      {
+        "id": "63918666143523953",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1835,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5924N02332E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 9,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 197
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5278 945.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-08T14:00:00Z",
+          "start": "2026-07-08T06:00:00Z"
         }
       },
       {
@@ -2896,8 +2930,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63918987585498145",
-        "number": 925,
+        "id": "63919007064823921",
+        "number": 926,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2925,14 +2959,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-07T02:17:00Z"
+            "time": "2026-07-07T07:43:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63918972566548145",
-        "number": 534,
+        "id": "63919005787533985",
+        "number": 536,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2942,32 +2976,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-06T22:09:00Z"
+            "time": "2026-07-07T07:20:00Z"
           }
         ]
       }
     ]
   },
-  "id": "fb3389eb-dbc8-49b5-96d4-3a1084b55f06",
-  "identifier": "BRIEFING-20260707-27",
+  "id": "33d7a709-d7bb-4e8a-8a50-0372b740e29d",
+  "identifier": "BRIEFING-20260707-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3014,8 +3048,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-08T04:00:00Z",
-    "validityStart": "2026-07-07T04:00:00Z"
+    "validityEnd": "2026-07-08T07:45:00Z",
+    "validityStart": "2026-07-07T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3335,7 +3369,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918987585498145",
+                  "referenceId": "63919007064823921",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3412,7 +3446,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918972566548145",
+                  "referenceId": "63919005787533985",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3497,6 +3531,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63918666143523953",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63918493869747169",
