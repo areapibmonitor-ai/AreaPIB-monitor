@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-07T16:00:00.533Z",
+  "createdAt": "2026-07-07T18:15:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -879,6 +879,41 @@
         }
       },
       {
+        "id": "63918053686020785",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1738,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5753N02221E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "08 11 1800-2359, 09 12 0000-0600",
+        "text": "RESTRICTED AREA EER2611K ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-12T06:00:00Z",
+          "start": "2026-07-08T18:00:00Z"
+        }
+      },
+      {
         "id": "63918053258214449",
         "levels": {
           "lower": "3000FT AMSL",
@@ -946,6 +981,76 @@
         "validity": {
           "end": "2026-07-13T06:00:00Z",
           "start": "2026-07-06T18:00:00Z"
+        }
+      },
+      {
+        "id": "63918052660785793",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1733,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02156E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "08 11 1800-2359, 09 12 0000-0600",
+        "text": "RESTRICTED AREA EER2611F ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-12T06:00:00Z",
+          "start": "2026-07-08T18:00:00Z"
+        }
+      },
+      {
+        "id": "63918052531632449",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1732,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5917N02238E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 15,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "08 11 1800-2359, 09 12 0000-0600",
+        "text": "RESTRICTED AREA EER2611E ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-12T06:00:00Z",
+          "start": "2026-07-08T18:00:00Z"
         }
       },
       {
@@ -1294,40 +1399,6 @@
         "validity": {
           "end": "2026-07-08T16:59:00Z",
           "start": "2026-07-01T09:00:00Z"
-        }
-      },
-      {
-        "id": "63917720270234897",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1710,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-07T16:59:00Z",
-          "start": "2026-07-07T15:00:00Z"
         }
       },
       {
@@ -2995,8 +3066,8 @@
       }
     ]
   },
-  "id": "a5e9513f-7308-466b-a4de-9941ca71db24",
-  "identifier": "BRIEFING-20260707-80",
+  "id": "bfbbcfe1-fe3a-464b-80a2-1dd528e19f94",
+  "identifier": "BRIEFING-20260707-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3043,8 +3114,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-08T16:00:00Z",
-    "validityStart": "2026-07-07T16:00:00Z"
+    "validityEnd": "2026-07-08T18:15:00Z",
+    "validityStart": "2026-07-07T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3573,12 +3644,27 @@
             },
             {
               "link": false,
+              "referenceId": "63918053686020785",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63918053258214449",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
               "referenceId": "63918053038749809",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918052660785793",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918052531632449",
               "structureType": "REFERENCE"
             },
             {
@@ -3609,11 +3695,6 @@
             {
               "link": true,
               "referenceId": "63917720684734705",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917720270234897",
               "structureType": "REFERENCE"
             },
             {
