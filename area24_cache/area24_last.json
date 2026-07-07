@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-07T20:15:00.434Z",
+  "createdAt": "2026-07-07T21:45:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -741,6 +741,40 @@
         "validity": {
           "end": "2026-07-31T23:59:00Z",
           "start": "2026-07-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63918320563534241",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1769,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5823N02430E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2644 ESTABLISHED FOR BEACH GRIND\r\nFESTIVAL WITHIN: CIRCLE OF 400M RADIUS CENTERED ON 582234N 0242935E.\r\nUNMANNED AIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED\r\nAREA WITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION\r\nSHALL BE OBTAINED BY PHONE: +372 5697 3037.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-12T09:00:00Z",
+          "start": "2026-07-08T21:00:00Z"
         }
       },
       {
@@ -3031,8 +3065,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919034905368737",
-        "number": 928,
+        "id": "63919052169592705",
+        "number": 929,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3060,14 +3094,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-07T15:27:00Z"
+            "time": "2026-07-07T20:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "4d7c8990-61e8-4e40-a16e-77ac1688c40e",
-  "identifier": "BRIEFING-20260707-97",
+  "id": "ec90e451-304f-4e27-be99-c33c8966d81b",
+  "identifier": "BRIEFING-20260707-103",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3114,8 +3148,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-08T20:15:00Z",
-    "validityStart": "2026-07-07T20:15:00Z"
+    "validityEnd": "2026-07-08T21:45:00Z",
+    "validityStart": "2026-07-07T21:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3328,6 +3362,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63918320563534241",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63917718374382433",
                   "structureType": "REFERENCE"
                 },
@@ -3420,7 +3459,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919034905368737",
+                  "referenceId": "63919052169592705",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3625,6 +3664,11 @@
             {
               "link": true,
               "referenceId": "63918328628700321",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63918320563534241",
               "structureType": "REFERENCE"
             },
             {
