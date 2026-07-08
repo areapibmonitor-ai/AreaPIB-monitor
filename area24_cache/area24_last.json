@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-07-08T00:00:00.476Z",
+  "createdAt": "2026-07-08T03:45:01.006Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919077653071281",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1866,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY GROUP OF POLE (SAILING BOAT MAST) ERECTED LOCATED AT\r\nROOGRAHU MARINA POSITION: 585958.88N 0224910.46E ELEVATION 53FT. NOT\r\nLIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T13:00:00Z",
+          "start": "2026-07-08T03:21:00Z"
+        }
+      },
       {
         "id": "63919027251210305",
         "locations": [
@@ -250,37 +280,6 @@
           "end": "2026-08-06T14:00:00Z",
           "est": true,
           "start": "2026-07-06T08:30:00Z"
-        }
-      },
-      {
-        "id": "63918908851379185",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1842,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TEMPORARY GROUP OF POLE (SAILING BOAT MASTS) ERECTED LOCATED AT\r\nROOGRAHU MARINA POSITION: 585959.10N 0224910.10E ELEVATION 38FT. NOT\r\nLIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-31T13:00:00Z",
-          "est": true,
-          "start": "2026-07-06T04:30:00Z"
         }
       },
       {
@@ -880,6 +879,66 @@
         "validity": {
           "end": "2026-07-10T13:00:00Z",
           "start": "2026-07-07T11:15:00Z"
+        }
+      },
+      {
+        "id": "63918067914181313",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1755,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 07/2026 WEF 09 JUL 2026:\r\n- RNAV ROUTES Q11, Q22, Q33, Q55, Q77, Q92, Q141, Y117, Y123\r\nCOMPLETELY WITHDRAWN.\r\n- FRA CONNECTING ROUTES FOR EFHK DEPARTURES AND ARRIVALS COMPLETELY\r\nWITHDRAWN.\r\n- TEMPORARY SEGREGATED AREA EETSA22J LATERAL LIMITS UPDATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-22T23:59:00Z",
+          "start": "2026-07-09T00:00:00Z"
+        }
+      },
+      {
+        "id": "63918064420463857",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1751,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 07/2026 WEF 09 JUL 2026:\r\n- REMOVED AREA 3 OBSTACLES ID 1051, ID 2951, ID 2954.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-22T23:59:00Z",
+          "start": "2026-07-09T00:00:00Z"
         }
       },
       {
@@ -2548,6 +2607,36 @@
         }
       },
       {
+        "id": "63917125445303009",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1492,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CS",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ADD WAYPOINT UNESU 5.6 NM IUM COORDINATES 581837N 0265241E. REF\r\nAIP PART AD EETU 2.22  ITEM 2.3.4.2 .",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-07-09T00:00:00Z"
+        }
+      },
+      {
         "id": "63916840332689953",
         "locations": [
           "EETT"
@@ -3176,8 +3265,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919052169592705",
-        "number": 929,
+        "id": "63919077862903857",
+        "number": 931,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3188,31 +3277,31 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-07T20:10:00Z"
+            "time": "2026-07-08T03:22:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c19df03e-1328-4a8b-9727-2df4317b55b8",
-  "identifier": "BRIEFING-20260708-1",
+  "id": "87259d6d-1509-463b-a39a-282a503015da",
+  "identifier": "BRIEFING-20260708-25",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3259,8 +3348,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-09T00:00:00Z",
-    "validityStart": "2026-07-08T00:00:00Z"
+    "validityEnd": "2026-07-09T03:45:00Z",
+    "validityStart": "2026-07-08T03:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3374,12 +3463,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63918908851379185",
+                  "referenceId": "63919077653071281",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63918512426939457",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918064420463857",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3570,7 +3664,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919052169592705",
+                  "referenceId": "63919077862903857",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3652,6 +3746,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63917125445303009",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
                 },
@@ -3679,6 +3778,11 @@
             {
               "link": true,
               "referenceId": "63918337037204321",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918067914181313",
               "structureType": "REFERENCE"
             },
             {
