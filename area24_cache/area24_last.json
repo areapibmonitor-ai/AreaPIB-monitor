@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-08T09:00:00.422Z",
+  "createdAt": "2026-07-08T11:15:00.423Z",
   "dynamicData": {
     "notams": [
       {
@@ -60,36 +60,6 @@
         "validity": {
           "end": "2026-08-31T13:00:00Z",
           "start": "2026-07-08T03:21:00Z"
-        }
-      },
-      {
-        "id": "63919027251210305",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1864,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IL",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS LOC RWY 24 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-08T09:30:00Z",
-          "start": "2026-07-08T06:30:00Z"
         }
       },
       {
@@ -3330,8 +3300,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919095374722049",
-        "number": 935,
+        "id": "63919103617617345",
+        "number": 937,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3359,7 +3329,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-08T08:15:00Z"
+            "time": "2026-07-08T10:32:00Z"
           }
         ]
       },
@@ -3400,8 +3370,8 @@
       }
     ]
   },
-  "id": "9045b9f8-d7cd-4145-8fa5-cd4b6f65b27d",
-  "identifier": "BRIEFING-20260708-52",
+  "id": "37369b9a-670e-4bc2-b841-1179eb09c6af",
+  "identifier": "BRIEFING-20260708-61",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3448,8 +3418,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-09T09:00:00Z",
-    "validityStart": "2026-07-08T09:00:00Z"
+    "validityEnd": "2026-07-09T11:15:00Z",
+    "validityStart": "2026-07-08T11:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3519,11 +3489,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63919027251210305",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63918923476962289",
@@ -3764,7 +3729,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919095374722049",
+                  "referenceId": "63919103617617345",
                   "structureType": "REFERENCE"
                 }
               ],
