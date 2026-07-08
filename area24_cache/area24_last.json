@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-07T23:00:02.127Z",
+  "createdAt": "2026-07-08T00:00:00.476Z",
   "dynamicData": {
     "notams": [
       {
@@ -353,6 +353,46 @@
           "end": "2026-07-17T12:00:00Z",
           "est": true,
           "start": "2026-07-03T09:12:00Z"
+        }
+      },
+      {
+        "id": "63918664175366081",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1831,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "referenceId": {
+          "number": 1706,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "03 0828-1359, 04 0500-1759, 05 0500-1659, 09 0600-1359",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-09T13:59:00Z",
+          "start": "2026-07-03T08:28:00Z"
         }
       },
       {
@@ -840,6 +880,42 @@
         "validity": {
           "end": "2026-07-10T13:00:00Z",
           "start": "2026-07-07T11:15:00Z"
+        }
+      },
+      {
+        "id": "63918058976340849",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1743,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "WED-THU SAT-SUN 0700-1800",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T18:00:00Z",
+          "est": true,
+          "start": "2026-07-01T07:00:00Z"
         }
       },
       {
@@ -1503,6 +1579,41 @@
         "validity": {
           "end": "2026-07-09T16:59:00Z",
           "start": "2026-07-01T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917714622410833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1692,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "02-05 09 11-12 15-16 18-19 23 25-26 30 0500-2000",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T20:00:00Z",
+          "start": "2026-07-02T05:00:00Z"
         }
       },
       {
@@ -3100,16 +3211,16 @@
       }
     ]
   },
-  "id": "6bd48df8-d911-4754-b312-534ee0989ae7",
-  "identifier": "BRIEFING-20260707-108",
+  "id": "c19df03e-1328-4a8b-9727-2df4317b55b8",
+  "identifier": "BRIEFING-20260708-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3148,8 +3259,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-08T23:00:00Z",
-    "validityStart": "2026-07-07T23:00:00Z"
+    "validityEnd": "2026-07-09T00:00:00Z",
+    "validityStart": "2026-07-08T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3642,6 +3753,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63918664175366081",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63918493869747169",
               "structureType": "REFERENCE"
@@ -3674,6 +3790,11 @@
             {
               "link": false,
               "referenceId": "63918315278714705",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918058976340849",
               "structureType": "REFERENCE"
             },
             {
@@ -3749,6 +3870,11 @@
             {
               "link": true,
               "referenceId": "63917718374382433",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917714622410833",
               "structureType": "REFERENCE"
             },
             {
