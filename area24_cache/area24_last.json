@@ -1,7 +1,97 @@
 {
-  "createdAt": "2026-07-08T17:00:00.437Z",
+  "createdAt": "2026-07-08T18:30:00.376Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919130058454161",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1872,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "NT",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-09T06:30:00Z",
+          "start": "2026-07-09T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919129804319025",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1871,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 24 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-09T06:30:00Z",
+          "start": "2026-07-09T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919129666437841",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1870,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-09T06:30:00Z",
+          "start": "2026-07-09T06:00:00Z"
+        }
+      },
       {
         "id": "63919114997844481",
         "locations": [
@@ -3196,8 +3286,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919124389990033",
-        "number": 939,
+        "id": "63919127684961121",
+        "number": 940,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3207,15 +3297,15 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
@@ -3225,14 +3315,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-08T16:19:00Z"
+            "time": "2026-07-08T17:13:00Z"
           }
         ]
       }
     ]
   },
-  "id": "785c0b08-43cc-4c62-9d15-f449343dae74",
-  "identifier": "BRIEFING-20260708-84",
+  "id": "b5bf77c2-062f-4200-acd2-90b70524c136",
+  "identifier": "BRIEFING-20260708-90",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3279,8 +3369,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-09T17:00:00Z",
-    "validityStart": "2026-07-08T17:00:00Z"
+    "validityEnd": "2026-07-09T18:30:00Z",
+    "validityStart": "2026-07-08T18:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3350,6 +3440,21 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919130058454161",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919129804319025",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919129666437841",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918923476962289",
@@ -3590,7 +3695,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919124389990033",
+                  "referenceId": "63919127684961121",
                   "structureType": "REFERENCE"
                 }
               ],
