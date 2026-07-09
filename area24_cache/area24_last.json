@@ -1,7 +1,71 @@
 {
-  "createdAt": "2026-07-09T11:15:00.461Z",
+  "createdAt": "2026-07-09T13:45:00.519Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919175389062225",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1876,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 14 AND RNP RWY 32 NOT\r\nAVAILABLE DUE TO MIL ACTIVITY IN EER2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-10T11:15:00Z"
+        }
+      },
+      {
+        "id": "63919174247720305",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1874,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02208E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 22,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2204 ESTABLISHED FOR MILITARY\r\nOPERATIONS WITHIN: 585111N 0214240E - 585914N 0222637E - 584756N\r\n0224329E - 583600N 0224659E - 582937N 0223450E - 582257N 0220542E -\r\n582824N 0220213E - 583242N 0213106E - 585111N 0214240E EXCLUDING\r\nKARDLA FIZ/RMZ AND KURESSAARE FIZ/RMZ. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-10T11:15:00Z"
+        }
+      },
       {
         "id": "63919077653071281",
         "locations": [
@@ -789,6 +853,40 @@
           "end": "2026-07-30T18:00:00Z",
           "est": true,
           "start": "2026-07-01T07:00:00Z"
+        }
+      },
+      {
+        "id": "63918056841661985",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1742,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5905N02427E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26161UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 590500N 0242552E - 590459N\r\n0242728E - 590420N 0242707E - 590420N 0242550E - 590500N 0242552E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5688\r\n9116.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-12T10:00:00Z",
+          "start": "2026-07-10T13:00:00Z"
         }
       },
       {
@@ -3109,8 +3207,8 @@
       }
     ]
   },
-  "id": "d46c8650-13fd-4f7d-90cc-e05bbf9132e6",
-  "identifier": "BRIEFING-20260709-61",
+  "id": "f815f4ae-f132-44fb-a66d-40f19973a16e",
+  "identifier": "BRIEFING-20260709-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3157,8 +3255,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-10T11:15:00Z",
-    "validityStart": "2026-07-09T11:15:00Z"
+    "validityEnd": "2026-07-10T13:45:00Z",
+    "validityStart": "2026-07-09T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3265,6 +3363,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919175389062225",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919077653071281",
@@ -3632,6 +3735,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63919174247720305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919019040148817",
               "structureType": "REFERENCE"
             },
@@ -3678,6 +3786,11 @@
             {
               "link": false,
               "referenceId": "63918058976340849",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918056841661985",
               "structureType": "REFERENCE"
             },
             {
