@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-09T20:15:00.437Z",
+  "createdAt": "2026-07-09T22:00:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -493,40 +493,6 @@
         "validity": {
           "end": "2026-07-27T20:59:00Z",
           "start": "2026-07-05T21:00:00Z"
-        }
-      },
-      {
-        "id": "63918421394250785",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1797,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02642E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2643 ESTABLISHED FOR CULTURAL EVENT\r\nWITHIN: CIRCLE OF 400M RADIUS CENTERED ON 582317N 0264210E. UNMANNED\r\nAIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED AREA\r\nWITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION SHALL\r\nBE OBTAINED BY PHONE: +372 5682 6820.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-09T20:59:00Z",
-          "start": "2026-07-07T05:00:00Z"
         }
       },
       {
@@ -3165,8 +3131,8 @@
       }
     ]
   },
-  "id": "32ecd545-0a92-48b8-b0ef-bbe3385f9614",
-  "identifier": "BRIEFING-20260709-97",
+  "id": "b4897217-348d-4dd5-a8d0-4bd8b2a3ba9c",
+  "identifier": "BRIEFING-20260709-104",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3213,8 +3179,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-10T20:15:00Z",
-    "validityStart": "2026-07-09T20:15:00Z"
+    "validityEnd": "2026-07-10T22:00:00Z",
+    "validityStart": "2026-07-09T22:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3546,11 +3512,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918421394250785",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
                 },
@@ -3714,11 +3675,6 @@
             {
               "link": true,
               "referenceId": "63918493869747169",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63918421394250785",
               "structureType": "REFERENCE"
             },
             {
