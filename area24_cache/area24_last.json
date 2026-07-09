@@ -1,7 +1,75 @@
 {
-  "createdAt": "2026-07-09T13:45:00.519Z",
+  "createdAt": "2026-07-09T16:30:00.453Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919207248950465",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1879,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2507 ACT.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.\r\nREF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-10T07:00:00Z"
+        }
+      },
+      {
+        "id": "63919206433884945",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1878,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2506 ACT.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.\r\nREF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-10T13:00:00Z",
+          "start": "2026-07-10T07:00:00Z"
+        }
+      },
       {
         "id": "63919175389062225",
         "locations": [
@@ -296,46 +364,6 @@
           "end": "2026-07-17T12:00:00Z",
           "est": true,
           "start": "2026-07-03T09:12:00Z"
-        }
-      },
-      {
-        "id": "63918664175366081",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1831,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "referenceId": {
-          "number": 1706,
-          "series": "A",
-          "year": 2026
-        },
-        "schedule": "03 0828-1359, 04 0500-1759, 05 0500-1659, 09 0600-1359",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-09T13:59:00Z",
-          "start": "2026-07-03T08:28:00Z"
         }
       },
       {
@@ -3137,8 +3165,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919181776635985",
-        "number": 944,
+        "id": "63919202634788177",
+        "number": 945,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3166,7 +3194,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-09T08:15:00Z"
+            "time": "2026-07-09T14:03:00Z"
           }
         ]
       },
@@ -3207,16 +3235,16 @@
       }
     ]
   },
-  "id": "f815f4ae-f132-44fb-a66d-40f19973a16e",
-  "identifier": "BRIEFING-20260709-71",
+  "id": "1ab86a53-daba-4d44-8fd3-5068508c4a0f",
+  "identifier": "BRIEFING-20260709-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3255,8 +3283,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-10T13:45:00Z",
-    "validityStart": "2026-07-09T13:45:00Z"
+    "validityEnd": "2026-07-10T16:30:00Z",
+    "validityStart": "2026-07-09T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3571,7 +3599,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919181776635985",
+                  "referenceId": "63919202634788177",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3735,6 +3763,16 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63919207248950465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919206433884945",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919174247720305",
               "structureType": "REFERENCE"
             },
@@ -3746,11 +3784,6 @@
             {
               "link": false,
               "referenceId": "63919017933953553",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918664175366081",
               "structureType": "REFERENCE"
             },
             {

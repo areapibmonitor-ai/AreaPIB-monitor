@@ -18112,3 +18112,30 @@ E)INSTRUMENT APPROACH PROCEDURES RNP RWY 14 AND RNP RWY 32 NOT
 AVAILABLE DUE TO MIL ACTIVITY IN EER2204.
 )
 [2026-07-09T14:00:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13b6596681fsm37113865c88.8 - gsmtp')
+[2026-07-09T16:34:06Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1831/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1878/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/020/5907N02613E002
+A)EETT B)2607100700 C)2607101300
+E)TEMPORARY RESTRICTED AREA EER2506 ACT.
+INFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.
+REF AIP SUP 13/2026.
+F)SFC G)2000FT AMSL
+)
+
+New NOTAM added:
+(A1879/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/004/050/5903N02619E007
+A)EETT B)2607100700 C)2607101300
+E)TEMPORARY RESTRICTED AREA EER2507 ACT.
+INFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.
+REF AIP SUP 13/2026.
+F)400FT AMSL G)5000FT AMSL
+)
+[2026-07-09T16:34:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-311838c9235sm25555080eec.21 - gsmtp')
