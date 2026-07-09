@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-08T23:45:00.498Z",
+  "createdAt": "2026-07-09T04:00:00.932Z",
   "dynamicData": {
     "notams": [
       {
@@ -2623,41 +2623,6 @@
         }
       },
       {
-        "id": "63917209097940913",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1501,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "03 1500-2359, 04 H24, 05 0000-1500, 06 14 28 0500-1400, 08 21\r\n0600-1400, 17-18 0600-2000",
-        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-28T14:00:00Z",
-          "start": "2026-07-03T15:00:00Z"
-        }
-      },
-      {
         "id": "63917125445303009",
         "locations": [
           "EETU"
@@ -3316,8 +3281,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919134193720273",
-        "number": 942,
+        "id": "63919159334978529",
+        "number": 943,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3345,22 +3310,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-08T19:00:00Z"
+            "time": "2026-07-09T02:00:00Z"
           }
         ]
       }
     ]
   },
-  "id": "0de6c7d3-8eb6-452d-87ae-7d536c8e81be",
-  "identifier": "BRIEFING-20260708-111",
+  "id": "4632417f-f93b-4f50-bc86-003f2cd3f874",
+  "identifier": "BRIEFING-20260709-27",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3399,8 +3364,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-09T23:45:00Z",
-    "validityStart": "2026-07-08T23:45:00Z"
+    "validityEnd": "2026-07-10T04:00:00Z",
+    "validityStart": "2026-07-09T04:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3730,7 +3695,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919134193720273",
+                  "referenceId": "63919159334978529",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4110,11 +4075,6 @@
             {
               "link": false,
               "referenceId": "63917214292074497",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917209097940913",
               "structureType": "REFERENCE"
             },
             {

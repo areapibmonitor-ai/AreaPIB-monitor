@@ -18041,3 +18041,9 @@ A)EETN B)2607092300 C)2607100215
 E)RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.
 )
 [2026-07-08T23:53:19Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3117d847e17sm21579075eec.18 - gsmtp')
+[2026-07-09T04:07:28Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Other removals:
+- NOTAM A1501/26 was removed from the PIB.
+[2026-07-09T04:07:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3118ee6091dsm18249146eec.14 - gsmtp')
