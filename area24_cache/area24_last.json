@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-09T16:30:00.453Z",
+  "createdAt": "2026-07-09T18:15:00.446Z",
   "dynamicData": {
     "notams": [
       {
@@ -1573,41 +1573,6 @@
         "validity": {
           "end": "2026-07-10T13:59:00Z",
           "start": "2026-07-04T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917718374382433",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1705,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01-02 07-09 0500-1659, 04-05 0500-1359",
-        "text": "DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-09T16:59:00Z",
-          "start": "2026-07-01T05:00:00Z"
         }
       },
       {
@@ -3235,8 +3200,8 @@
       }
     ]
   },
-  "id": "1ab86a53-daba-4d44-8fd3-5068508c4a0f",
-  "identifier": "BRIEFING-20260709-82",
+  "id": "68f0c53a-82f2-430c-8efb-1cfd6452d961",
+  "identifier": "BRIEFING-20260709-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3283,8 +3248,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-10T16:30:00Z",
-    "validityStart": "2026-07-09T16:30:00Z"
+    "validityEnd": "2026-07-10T18:15:00Z",
+    "validityStart": "2026-07-09T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3498,11 +3463,6 @@
                 {
                   "link": false,
                   "referenceId": "63918320563534241",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917718374382433",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3894,11 +3854,6 @@
             {
               "link": false,
               "referenceId": "63917719769927617",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63917718374382433",
               "structureType": "REFERENCE"
             },
             {
