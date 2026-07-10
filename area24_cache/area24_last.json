@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-10T08:30:00.443Z",
+  "createdAt": "2026-07-10T11:30:00.419Z",
   "dynamicData": {
     "notams": [
       {
@@ -236,36 +236,6 @@
         "validity": {
           "end": "2026-07-11T20:00:00Z",
           "start": "2026-07-10T04:00:00Z"
-        }
-      },
-      {
-        "id": "63918940691257633",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1844,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUEL JET A1 NOT AVAILABLE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T09:00:00Z",
-          "start": "2026-07-06T14:00:00Z"
         }
       },
       {
@@ -3139,8 +3109,8 @@
       }
     ]
   },
-  "id": "9d52e751-0090-4156-8b2a-09028ccaea5d",
-  "identifier": "BRIEFING-20260710-50",
+  "id": "9d9b224b-225d-46e4-84da-e687d28d603f",
+  "identifier": "BRIEFING-20260710-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3187,8 +3157,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-11T08:30:00Z",
-    "validityStart": "2026-07-10T08:30:00Z"
+    "validityEnd": "2026-07-11T11:30:00Z",
+    "validityStart": "2026-07-10T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3389,11 +3359,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63918940691257633",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63918757851211905",
