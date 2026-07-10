@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-10T11:30:00.419Z",
+  "createdAt": "2026-07-10T13:30:02.266Z",
   "dynamicData": {
     "notams": [
       {
@@ -40,138 +40,6 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
-        }
-      },
-      {
-        "id": "63919207248950465",
-        "levels": {
-          "lower": "400FT AMSL",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1879,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5903N02619E",
-          "fir": "EETT",
-          "lower": 4,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2507 ACT.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.\r\nREF AIP SUP 13/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T13:00:00Z",
-          "start": "2026-07-10T07:00:00Z"
-        }
-      },
-      {
-        "id": "63919206433884945",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1878,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5907N02613E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2506 ACT.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM: +372 501 0296.\r\nREF AIP SUP 13/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T13:00:00Z",
-          "start": "2026-07-10T07:00:00Z"
-        }
-      },
-      {
-        "id": "63919175389062225",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1876,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 14 AND RNP RWY 32 NOT\r\nAVAILABLE DUE TO MIL ACTIVITY IN EER2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T13:00:00Z",
-          "start": "2026-07-10T11:15:00Z"
-        }
-      },
-      {
-        "id": "63919174247720305",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1874,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02208E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 22,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2204 ESTABLISHED FOR MILITARY\r\nOPERATIONS WITHIN: 585111N 0214240E - 585914N 0222637E - 584756N\r\n0224329E - 583600N 0224659E - 582937N 0223450E - 582257N 0220542E -\r\n582824N 0220213E - 583242N 0213106E - 585111N 0214240E EXCLUDING\r\nKARDLA FIZ/RMZ AND KURESSAARE FIZ/RMZ. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T13:00:00Z",
-          "start": "2026-07-10T11:15:00Z"
         }
       },
       {
@@ -3109,8 +2977,8 @@
       }
     ]
   },
-  "id": "9d9b224b-225d-46e4-84da-e687d28d603f",
-  "identifier": "BRIEFING-20260710-62",
+  "id": "e1e81b7f-20c0-40ca-a82e-d59b0320bad4",
+  "identifier": "BRIEFING-20260710-70",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3157,8 +3025,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-11T11:30:00Z",
-    "validityStart": "2026-07-10T11:30:00Z"
+    "validityEnd": "2026-07-11T13:30:00Z",
+    "validityStart": "2026-07-10T13:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3265,11 +3133,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63919175389062225",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63919077653071281",
@@ -3623,21 +3486,6 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919207248950465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919206433884945",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919174247720305",
               "structureType": "REFERENCE"
             },
             {
