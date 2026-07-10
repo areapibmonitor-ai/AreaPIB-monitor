@@ -1,7 +1,47 @@
 {
-  "createdAt": "2026-07-10T05:00:00.461Z",
+  "createdAt": "2026-07-10T08:30:00.443Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919265739862305",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1000FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1883,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02722E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 15
+        },
+        "referenceId": {
+          "number": 1561,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2556 ESTABLISHED WITHIN: 591719N\r\n0272205E - 591749N 0272124E - 591758N 0272123E - 591806N 0272143E -\r\n591813N 0272149E - 591818N 0272204E - 591810N 0272205E - 591814N\r\n0272215E - 591810N 0272221E - 591805N 0272209E - 591802N 0272212E -\r\n591801N 0272209E - 591734N 0272248E - 591729N 0272233E - 591727N\r\n0272234E - 591719N 0272205E. PERMISSION FOR ENTERING THE AREA SHALL\r\nBE OBTAINED FROM TEL +372 717 3701.",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-08T23:59:00Z",
+          "est": true,
+          "start": "2026-07-10T07:35:00Z"
+        }
+      },
       {
         "id": "63919207248950465",
         "levels": {
@@ -329,6 +369,75 @@
           "end": "2026-07-17T12:00:00Z",
           "est": true,
           "start": "2026-07-03T09:12:00Z"
+        }
+      },
+      {
+        "id": "63918665988022385",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1834,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-11T13:59:00Z",
+          "start": "2026-07-11T05:00:00Z"
+        }
+      },
+      {
+        "id": "63918662152448481",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1828,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "11 0500-1859, 12 18 0500-1359, 13-14 17 0500-1459, 15-16\r\n0500-1659, 19 0800-1359",
+        "text": "DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-19T13:59:00Z",
+          "start": "2026-07-11T05:00:00Z"
         }
       },
       {
@@ -2093,41 +2202,6 @@
         }
       },
       {
-        "id": "63917310281072161",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1000FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1561,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02722E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 15
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2556 ESTABLISHED WITHIN: 591719N\r\n0272205E - 591749N 0272124E - 591758N 0272123E - 591806N 0272143E -\r\n591813N 0272149E - 591818N 0272204E - 591810N 0272205E - 591814N\r\n0272215E - 591810N 0272221E - 591805N 0272209E - 591802N 0272212E -\r\n591801N 0272209E - 591734N 0272248E - 591729N 0272233E - 591727N\r\n0272234E - 591719N 0272205E. PERMISSION FOR ENTERING THE AREA SHALL\r\nBE OBTAINED FROM TEL +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-10T23:59:00Z",
-          "est": true,
-          "start": "2026-06-18T00:00:00Z"
-        }
-      },
-      {
         "id": "63917306548858241",
         "levels": {
           "lower": "SFC",
@@ -2995,8 +3069,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919243980030705",
-        "number": 947,
+        "id": "63919268583577121",
+        "number": 948,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3024,14 +3098,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-10T01:31:00Z"
+            "time": "2026-07-10T08:20:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63919260130027025",
+        "number": 540,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-10T05:59:00Z"
           }
         ]
       }
     ]
   },
-  "id": "22e56cb9-1f2c-43c8-9e4e-7335501279fb",
-  "identifier": "BRIEFING-20260710-35",
+  "id": "9d52e751-0090-4156-8b2a-09028ccaea5d",
+  "identifier": "BRIEFING-20260710-50",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3078,8 +3187,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-11T05:00:00Z",
-    "validityStart": "2026-07-10T05:00:00Z"
+    "validityEnd": "2026-07-11T08:30:00Z",
+    "validityStart": "2026-07-10T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3292,6 +3401,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63918662152448481",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918320563534241",
                   "structureType": "REFERENCE"
                 },
@@ -3384,7 +3498,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919243980030705",
+                  "referenceId": "63919268583577121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3447,6 +3561,11 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919260130027025",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3538,6 +3657,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63919265739862305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919207248950465",
               "structureType": "REFERENCE"
             },
@@ -3554,6 +3678,16 @@
             {
               "link": false,
               "referenceId": "63919019040148817",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918665988022385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63918662152448481",
               "structureType": "REFERENCE"
             },
             {
@@ -3699,11 +3833,6 @@
             {
               "link": false,
               "referenceId": "63917461755182017",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917310281072161",
               "structureType": "REFERENCE"
             },
             {
