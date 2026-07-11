@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-10T23:15:00.478Z",
+  "createdAt": "2026-07-11T00:00:00.453Z",
   "dynamicData": {
     "notams": [
       {
@@ -689,6 +689,42 @@
         "validity": {
           "end": "2026-07-22T23:59:00Z",
           "start": "2026-07-09T00:00:00Z"
+        }
+      },
+      {
+        "id": "63918058976340849",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1743,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "WED-THU SAT-SUN 0700-1800",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T18:00:00Z",
+          "est": true,
+          "start": "2026-07-01T07:00:00Z"
         }
       },
       {
@@ -2178,76 +2214,6 @@
         }
       },
       {
-        "id": "63917214452909457",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1517,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02717E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "schedule": "MON-FRI 0500-1400",
-        "text": "TEMPORARY RESTRICTED AREA EER2575UAS ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 6.5KM RADIUS CENTERED ON\r\n574900N 0271700E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 512 3386.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T14:00:00Z",
-          "start": "2026-06-29T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917214292074497",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1516,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5748N02652E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "schedule": "MON-FRI 0500-1400",
-        "text": "TEMPORARY RESTRICTED AREA EER2589UAS ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 8KM RADIUS CENTERED ON\r\n574817N 0265154E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 512 3386.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T14:00:00Z",
-          "start": "2026-06-29T05:00:00Z"
-        }
-      },
-      {
         "id": "63917125445303009",
         "locations": [
           "EETU"
@@ -2941,16 +2907,16 @@
       }
     ]
   },
-  "id": "ba1bffb0-0c13-4fd5-8fef-bec40bcb3787",
-  "identifier": "BRIEFING-20260710-109",
+  "id": "ad39f235-2b00-40cb-9e1b-1dc546a1ccc4",
+  "identifier": "BRIEFING-20260711-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2989,8 +2955,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-11T23:15:00Z",
-    "validityStart": "2026-07-10T23:15:00Z"
+    "validityEnd": "2026-07-12T00:00:00Z",
+    "validityStart": "2026-07-11T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3484,6 +3450,11 @@
             },
             {
               "link": false,
+              "referenceId": "63918058976340849",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63918056841661985",
               "structureType": "REFERENCE"
             },
@@ -3625,16 +3596,6 @@
             {
               "link": false,
               "referenceId": "63917297965207025",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917214452909457",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917214292074497",
               "structureType": "REFERENCE"
             },
             {

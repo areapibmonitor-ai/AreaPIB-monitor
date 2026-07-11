@@ -18275,3 +18275,21 @@ F)3000FT AMSL G)6000FT AMSL
 [2026-07-10T20:56:12Z] NO CHANGE in dynamicData.notams.
 [2026-07-10T22:12:24Z] NO CHANGE in dynamicData.notams.
 [2026-07-10T23:16:02Z] NO CHANGE in dynamicData.notams.
+[2026-07-11T00:13:38Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1743/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2607010700 C)2607301800
+D)WED-THU SAT-SUN 0700-1800
+E)DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.
+F)SFC G)2100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1516/26 was removed from the PIB.
+- NOTAM A1517/26 was removed from the PIB.
+[2026-07-11T00:13:38Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-313b3206aaasm9341326eec.13 - gsmtp')
