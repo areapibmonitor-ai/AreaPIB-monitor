@@ -18294,3 +18294,26 @@ Other removals:
 - NOTAM A1517/26 was removed from the PIB.
 [2026-07-11T00:13:38Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-313b3206aaasm9341326eec.13 - gsmtp')
 [2026-07-11T03:47:07Z] NO CHANGE in dynamicData.notams.
+[2026-07-11T08:11:07Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1829/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/019/5816N02656E001
+A)EETU B)2607120600 C)2607301359
+D)12 26 0600-1559, 13 0700-1259, 15 27 0900-1759, 18-19 21
+0500-1459, 20 0900-1659, 22 1200-1659, 23 30 0600-1359, 24 0500-0959,
+29 0900-1559
+E)DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION
+AVAILABLE FROM: +372 525 8504 AREA DEACTIVATION IS POSSIBLE BY ATS.
+F)SFC G)1900FT AMSL
+)
+
+New NOTAM added:
+(A1891/26 NOTAMN
+Q)EETT/FUAU/IV/NBO/A/000/999/5825N02428E005
+A)EEPU B)2607110700 C)2607141330
+E)FUEL JET A1 NOT AVAILABLE.
+)
+[2026-07-11T08:11:07Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-92ee5bcb074sm401178785a.21 - gsmtp')
