@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-07-12T07:15:00.429Z",
+  "createdAt": "2026-07-12T09:15:00.449Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919442959655489",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1892,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUEL JET A1 NOT AVAILABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-13T14:00:00Z",
+          "start": "2026-07-13T05:00:00Z"
+        }
+      },
       {
         "id": "63919349375789505",
         "locations": [
@@ -702,40 +732,6 @@
         "validity": {
           "end": "2026-07-31T23:59:00Z",
           "start": "2026-07-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918320563534241",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1769,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02430E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2644 ESTABLISHED FOR BEACH GRIND\r\nFESTIVAL WITHIN: CIRCLE OF 400M RADIUS CENTERED ON 582234N 0242935E.\r\nUNMANNED AIRCRAFT (UAS) ARE PROHIBITED FROM ENTERING THE ACTIVATED\r\nAREA WITHOUT PRIOR PERMISSION FROM THE EVENT ORGANISER. PERMISSION\r\nSHALL BE OBTAINED BY PHONE: +372 5697 3037.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-12T09:00:00Z",
-          "start": "2026-07-08T21:00:00Z"
         }
       },
       {
@@ -2766,8 +2762,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919417471143937",
-        "number": 956,
+        "id": "63919439912184945",
+        "number": 957,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2795,14 +2791,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-12T01:43:00Z"
+            "time": "2026-07-12T07:56:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63919434377072065",
-        "number": 541,
+        "id": "63919441637745121",
+        "number": 542,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2812,32 +2808,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-12T06:24:00Z"
+            "time": "2026-07-12T08:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a6474f20-3e14-4ebf-8088-3d2638801d53",
-  "identifier": "BRIEFING-20260712-45",
+  "id": "14eaece8-5a08-45d3-a689-82fcbc7f7653",
+  "identifier": "BRIEFING-20260712-53",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2884,8 +2880,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-13T07:15:00Z",
-    "validityStart": "2026-07-12T07:15:00Z"
+    "validityEnd": "2026-07-13T09:15:00Z",
+    "validityStart": "2026-07-12T09:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3093,11 +3089,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918320563534241",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917306548858241",
                   "structureType": "REFERENCE"
                 }
@@ -3190,7 +3181,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919417471143937",
+                  "referenceId": "63919439912184945",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3200,6 +3191,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919442959655489",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918663109619521",
@@ -3262,7 +3258,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919434377072065",
+                  "referenceId": "63919441637745121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3400,11 +3396,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63918320563534241",
               "structureType": "REFERENCE"
             },
             {
