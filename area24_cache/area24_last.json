@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-07-13T13:45:00.469Z",
+  "createdAt": "2026-07-13T16:30:00.453Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919555750694641",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1919,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. UNMANNED AIRCRAFT ACTIVITY. ADDITIONAL INFORMATION ABOUT\r\nACTIVATION AVAILABLE FROM: +372 529 6130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-14T14:00:00Z",
+          "start": "2026-07-14T06:00:00Z"
+        }
+      },
       {
         "id": "63919528456013617",
         "locations": [
@@ -108,36 +142,6 @@
           "end": "2026-08-03T11:00:00Z",
           "est": true,
           "start": "2026-07-13T07:54:00Z"
-        }
-      },
-      {
-        "id": "63919442959655489",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1892,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUEL JET A1 NOT AVAILABLE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T14:00:00Z",
-          "start": "2026-07-13T05:00:00Z"
         }
       },
       {
@@ -272,41 +276,6 @@
         }
       },
       {
-        "id": "63919017933953553",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1861,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "08-09 13 0600-1400",
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5296 130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T14:00:00Z",
-          "start": "2026-07-08T06:00:00Z"
-        }
-      },
-      {
         "id": "63918923476962289",
         "locations": [
           "EEEI"
@@ -407,6 +376,40 @@
           "end": "2026-07-17T12:00:00Z",
           "est": true,
           "start": "2026-07-03T09:12:00Z"
+        }
+      },
+      {
+        "id": "63918664604057137",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1832,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02655E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 24
+        },
+        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-14T16:59:00Z",
+          "start": "2026-07-14T14:00:00Z"
         }
       },
       {
@@ -2687,8 +2690,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919527492879249",
-        "number": 961,
+        "id": "63919547800184097",
+        "number": 962,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2716,57 +2719,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-13T08:17:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63919519083969921",
-        "number": 544,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-13T05:56:00Z"
+            "time": "2026-07-13T13:55:00Z"
           }
         ]
       }
     ]
   },
-  "id": "75eff369-6886-419d-a7e0-ea9ed6b77801",
-  "identifier": "BRIEFING-20260713-71",
+  "id": "de9bdb33-a589-46ad-83a1-1a9bfb7b7551",
+  "identifier": "BRIEFING-20260713-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2805,8 +2773,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-14T13:45:00Z",
-    "validityStart": "2026-07-13T13:45:00Z"
+    "validityEnd": "2026-07-14T16:30:00Z",
+    "validityStart": "2026-07-13T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3106,7 +3074,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919527492879249",
+                  "referenceId": "63919547800184097",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3116,11 +3084,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63919442959655489",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63918663109619521",
@@ -3179,11 +3142,6 @@
                 {
                   "link": false,
                   "referenceId": "63912009825894017",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63919519083969921",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3280,12 +3238,17 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63919555750694641",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919265739862305",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
-              "referenceId": "63919017933953553",
+              "referenceId": "63918664604057137",
               "structureType": "REFERENCE"
             },
             {

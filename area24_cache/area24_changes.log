@@ -18580,3 +18580,31 @@ ON 590638N0261258E FROM  SFC UP TO 1000 FT AMSL)
 )
 [2026-07-13T11:40:14Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3117483dec6sm71577932eec.11 - gsmtp')
 [2026-07-13T13:50:37Z] NO CHANGE in dynamicData.notams.
+[2026-07-13T16:40:51Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1861/26 expired and was removed from the PIB.
+- NOTAM A1892/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1832/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/024/5749N02655E002
+A)EETT B)2607141400 C)2607141659
+E)DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS
+CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372
+507 2683.
+F)SFC G)1100FT AMSL
+)
+
+New NOTAM added:
+(A1919/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/095/5914N02556E013
+A)EETT B)2607140600 C)2607141400
+E)RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING
+ACTIVATION. UNMANNED AIRCRAFT ACTIVITY. ADDITIONAL INFORMATION ABOUT
+ACTIVATION AVAILABLE FROM: +372 529 6130.
+F)SFC G)4000FT AMSL
+)
+[2026-07-13T16:40:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-51caae5e91dsm87616211cf.21 - gsmtp')
