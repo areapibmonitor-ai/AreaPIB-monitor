@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-07-13T08:15:00.49Z",
+  "createdAt": "2026-07-13T11:30:00.39Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919528456013617",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1897,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1715,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - LAPWINGS, STORKS, STARLINGS, GULLS, RAPTORS AND\r\nSWALLOWS. BIRD WEIGHT - UP TO 3500 GRAMS. MAX FLOCK SIZE - 200 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-03T14:00:00Z",
+          "est": true,
+          "start": "2026-07-13T08:33:00Z"
+        }
+      },
       {
         "id": "63919526295970545",
         "locations": [
@@ -203,6 +239,36 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
+        }
+      },
+      {
+        "id": "63919262593878897",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1881,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 1,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 10
+        },
+        "text": "GPS/GNSS SIGNAL MAY BE UNAVAILABLE WITHIN 1000M RADIUS  CENTERED\r\nON 590638N0261258E FROM  SFC UP TO 1000 FT AMSL)",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-16T15:00:00Z",
+          "start": "2026-07-14T09:30:00Z"
         }
       },
       {
@@ -1099,42 +1165,6 @@
           "end": "2026-07-31T13:30:00Z",
           "est": true,
           "start": "2026-06-26T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917721493905793",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1715,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1303,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - STORKS, LAPWINGS, GULLS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 3500 GRAMS.\r\nMAX FLOCK SIZE - 100 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-13T14:00:00Z",
-          "est": true,
-          "start": "2026-06-22T10:37:00Z"
         }
       },
       {
@@ -2657,8 +2687,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919505712295249",
-        "number": 960,
+        "id": "63919527492879249",
+        "number": 961,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2686,7 +2716,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-13T02:14:00Z"
+            "time": "2026-07-13T08:17:00Z"
           }
         ]
       },
@@ -2727,8 +2757,8 @@
       }
     ]
   },
-  "id": "d6205f39-a235-4a93-ae64-cc95eba8b976",
-  "identifier": "BRIEFING-20260713-49",
+  "id": "356b579f-4e5a-42c2-b964-ab26d5c077b9",
+  "identifier": "BRIEFING-20260713-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2775,8 +2805,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-14T08:15:00Z",
-    "validityStart": "2026-07-13T08:15:00Z"
+    "validityEnd": "2026-07-14T11:30:00Z",
+    "validityStart": "2026-07-13T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3001,6 +3031,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63919528456013617",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918663614512289",
                   "structureType": "REFERENCE"
                 },
@@ -3017,11 +3052,6 @@
                 {
                   "link": false,
                   "referenceId": "63917988603171297",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917721493905793",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3076,7 +3106,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919505712295249",
+                  "referenceId": "63919527492879249",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3167,6 +3197,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63919262593878897",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63918337546481745",
