@@ -1,7 +1,79 @@
 {
-  "createdAt": "2026-07-13T04:45:00.457Z",
+  "createdAt": "2026-07-13T08:15:00.49Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919526295970545",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1896,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1713,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 500FT AGL.\r\nTYPES OF BIRDS - HERONS. MAX FLOCK SIZE - 20 BIRDS. BIRD WEIGHT - UP\r\nTO 2000 GRAMS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-03T11:00:00Z",
+          "est": true,
+          "start": "2026-07-13T07:57:00Z"
+        }
+      },
+      {
+        "id": "63919526187483249",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1895,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1714,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD\r\nTYPE OF BIRDS - STORKS, LAPWINGS, HERONS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 2000 GRAMS. MAX FLOCK SIZE - 150 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-03T11:00:00Z",
+          "est": true,
+          "start": "2026-07-13T07:54:00Z"
+        }
+      },
       {
         "id": "63919442959655489",
         "locations": [
@@ -374,6 +446,111 @@
         "validity": {
           "end": "2026-07-19T13:59:00Z",
           "start": "2026-07-11T05:00:00Z"
+        }
+      },
+      {
+        "id": "63918597049678849",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3000FT AMSL"
+        },
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1827,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5810N02203E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 30
+        },
+        "schedule": "DAILY 0600-1800",
+        "text": "RESTRICTED AREA EER2611M ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-19T18:00:00Z",
+          "start": "2026-07-14T06:00:00Z"
+        }
+      },
+      {
+        "id": "63918596956630913",
+        "levels": {
+          "lower": "1000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1826,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5810N02151E",
+          "fir": "EETT",
+          "lower": 10,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "DAILY 0600-1800",
+        "text": "RESTRICTED AREA EER2611L ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-19T18:00:00Z",
+          "start": "2026-07-14T06:00:00Z"
+        }
+      },
+      {
+        "id": "63918596834111969",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1825,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5757N02145E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 15,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "DAILY 0600-1800",
+        "text": "RESTRICTED AREA EER2611J ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-19T18:00:00Z",
+          "start": "2026-07-14T06:00:00Z"
         }
       },
       {
@@ -825,248 +1002,38 @@
         }
       },
       {
-        "id": "63918054161607265",
+        "id": "63918060824458641",
         "levels": {
           "lower": "SFC",
-          "upper": "3000FT AMSL"
+          "upper": "2200FT AMSL"
         },
         "locations": [
-          "EEKE"
+          "EETT"
         ],
         "notamId": {
-          "number": 1740,
+          "number": 1745,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5810N02203E",
+          "coordinate": "5901N02650E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "schedule": "06 1800-2359, 07-12 0000-0600 1800-2359, 13 0000-0600",
-        "text": "RESTRICTED AREA EER2611M ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918053989677345",
-        "levels": {
-          "lower": "1000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1739,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5810N02151E",
-          "fir": "EETT",
-          "lower": 10,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "06 1800-2359, 07-12 0000-0600 1800-2359, 13 0000-0600",
-        "text": "RESTRICTED AREA EER2611L ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918053038749809",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1736,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5822N02135E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "06 08 11 1800-2359, 07 10 13 0000-0600, 09 12 0000-0600 1800-2359",
-        "text": "RESTRICTED AREA EER2611I ACTIVATED. INFORMATION ABOUT ACT AVBL\r\nFROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918052292435633",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1731,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5825N02110E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 21,
+          "radius": 2,
           "scope": "W",
           "subject": "RD",
           "traffic": "IV",
-          "upper": 60
+          "upper": 22
         },
-        "schedule": "06 08 11 1800-2359, 07 10 13 0000-0600, 09 12 0000-0600 1800-2359",
-        "text": "DANGER AREA EED2611D ACTIVATED. INFORMATION ABOUT ACT AVBL FROM\r\nTEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "schedule": "14-18 22 25 0700-1600",
+        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
         "type": "N",
         "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918052132165201",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1730,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5848N02115E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 15,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "06 08 11 1800-2359, 07 10 13 0000-0600, 09 12 0000-0600 1800-2359",
-        "text": "DANGER AREA EED2611C ACTIVATED. INFORMATION ABOUT ACT AVBL FROM\r\nTEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918052024936257",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1729,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5906N02136E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "06 08 11 1800-2359, 07 10 13 0000-0600, 09 12 0000-0600 1800-2359",
-        "text": "DANGER AREA EED2611B ACTIVATED. INFORMATION ABOUT ACT AVBL FROM\r\nTEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
-        }
-      },
-      {
-        "id": "63918051718058193",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1728,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5921N02234E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 15,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "06 08 11 1800-2359, 07 10 13 0000-0600, 09 12 0000-0600 1800-2359",
-        "text": "DANGER AREA EED2611A ACTIVATED. INFORMATION ABOUT ACT AVBL FROM\r\nTEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-13T06:00:00Z",
-          "start": "2026-07-06T18:00:00Z"
+          "end": "2026-07-25T16:00:00Z",
+          "start": "2026-07-14T07:00:00Z"
         }
       },
       {
@@ -1168,78 +1135,6 @@
           "end": "2026-07-13T14:00:00Z",
           "est": true,
           "start": "2026-06-22T10:37:00Z"
-        }
-      },
-      {
-        "id": "63917721270785521",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1714,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1309,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - STORKS, LAPWINGS, HERONS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 2000 GRAMS.\r\nMAX FLOCK SIZE - 100 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-13T14:00:00Z",
-          "est": true,
-          "start": "2026-06-22T10:33:00Z"
-        }
-      },
-      {
-        "id": "63917720994667857",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1713,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1308,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 500FT AGL.\r\nTYPES OF BIRDS - HERONS.\r\nMAX FLOCK SIZE - 20 BIRDS.\r\nBIRD WEIGHT - UP TO 2000 GRAMS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-13T14:00:00Z",
-          "est": true,
-          "start": "2026-06-22T10:29:00Z"
         }
       },
       {
@@ -2794,11 +2689,46 @@
             "time": "2026-07-13T02:14:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63919519083969921",
+        "number": 544,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-13T05:56:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "5302fef6-c2d9-4330-8f24-752816c189c2",
-  "identifier": "BRIEFING-20260713-34",
+  "id": "d6205f39-a235-4a93-ae64-cc95eba8b976",
+  "identifier": "BRIEFING-20260713-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2845,8 +2775,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-14T04:45:00Z",
-    "validityStart": "2026-07-13T04:45:00Z"
+    "validityEnd": "2026-07-14T08:15:00Z",
+    "validityStart": "2026-07-13T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2918,22 +2848,22 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63919526295970545",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919526187483249",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918923476962289",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63918666789846097",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917721270785521",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917720994667857",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3002,17 +2932,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63918597049678849",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918493869747169",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63918337037204321",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918054161607265",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3220,6 +3150,11 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919519083969921",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3334,6 +3269,21 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": true,
+              "referenceId": "63918597049678849",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918596956630913",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918596834111969",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63918497694521537",
               "structureType": "REFERENCE"
@@ -3359,38 +3309,8 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63918054161607265",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
-              "referenceId": "63918053989677345",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918053038749809",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918052292435633",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918052132165201",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918052024936257",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918051718058193",
+              "referenceId": "63918060824458641",
               "structureType": "REFERENCE"
             },
             {
