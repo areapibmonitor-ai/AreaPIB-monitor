@@ -18861,3 +18861,20 @@ ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5296 130.
 F)SFC G)4000FT AMSL
 )
 [2026-07-14T11:59:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-31174839f89sm79652248eec.10 - gsmtp')
+[2026-07-14T14:06:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1919/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1930/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/095/5914N02556E013
+A)EETT B)2607150700 C)2607161000
+D)15 0700-0900, 16 0745-1000
+E)RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING
+ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5296 130.
+F)SFC G)2999FT AMSL
+)
+[2026-07-14T14:06:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3118ee6080dsm61170582eec.17 - gsmtp')
