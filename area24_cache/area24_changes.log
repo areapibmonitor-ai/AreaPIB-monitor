@@ -18915,3 +18915,11 @@ A)EEKA B)2607150300 C)2607151600
 E)KARDLA AFIS HR OF SERVICE: 0300-0915 1200-1600
 )
 [2026-07-14T15:51:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-51caace31a4sm120074451cf.12 - gsmtp')
+[2026-07-14T17:23:46Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1804/26 expired and was removed from the PIB.
+- NOTAM A1805/26 expired and was removed from the PIB.
+- NOTAM A1832/26 expired and was removed from the PIB.
+[2026-07-14T17:23:46Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-313af819732sm53420511eec.16 - gsmtp')
