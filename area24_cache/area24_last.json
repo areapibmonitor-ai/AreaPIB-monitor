@@ -1,7 +1,107 @@
 {
-  "createdAt": "2026-07-14T14:00:00.453Z",
+  "createdAt": "2026-07-14T15:45:00.442Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919638551084417",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1933,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KARDLA AFIS HR OF SERVICE: 0300-0915 1200-1600",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-15T16:00:00Z",
+          "start": "2026-07-15T03:00:00Z"
+        }
+      },
+      {
+        "id": "63919636394883297",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1932,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1272,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0630-1500\r\nSAT 0830-1100\r\nSUN 0655-1500",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-09T23:59:00Z",
+          "start": "2026-07-14T14:33:00Z"
+        }
+      },
+      {
+        "id": "63919636355775841",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 1931,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1258,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0425-1655\r\nSAT 0630-1130\r\nSUN 0655-1655",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-09T23:59:00Z",
+          "start": "2026-07-14T14:32:00Z"
+        }
+      },
       {
         "id": "63919628139965457",
         "levels": {
@@ -2923,36 +3023,6 @@
         }
       },
       {
-        "id": "63915654906885201",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 1272,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0630-1500\r\nSAT 0830-1100\r\nSUN 0655-1500",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-31T23:59:00Z",
-          "start": "2026-06-01T00:00:00Z"
-        }
-      },
-      {
         "id": "63915648888656033",
         "locations": [
           "EETU"
@@ -2985,36 +3055,6 @@
         "validity": {
           "end": "2026-08-28T17:00:00Z",
           "start": "2026-05-29T10:54:00Z"
-        }
-      },
-      {
-        "id": "63915647026622033",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 1258,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0425-1655\r\nSAT 0630-1130\r\nSUN 0655-1655",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-31T23:59:00Z",
-          "start": "2026-06-01T00:00:00Z"
         }
       },
       {
@@ -3425,8 +3465,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919610504102401",
-        "number": 965,
+        "id": "63919638744922305",
+        "number": 966,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3454,14 +3494,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-14T07:21:00Z"
+            "time": "2026-07-14T15:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "9ed8b899-0575-404b-9e3e-7d07155a30c4",
-  "identifier": "BRIEFING-20260714-72",
+  "id": "15c69986-488e-47f4-be96-7ff71b87f3c4",
+  "identifier": "BRIEFING-20260714-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3508,8 +3548,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-15T14:00:00Z",
-    "validityStart": "2026-07-14T14:00:00Z"
+    "validityEnd": "2026-07-15T15:45:00Z",
+    "validityStart": "2026-07-14T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3618,6 +3658,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63919638551084417",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63919292324597905",
                   "structureType": "REFERENCE"
                 },
@@ -3670,6 +3715,16 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63919636394883297",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919636355775841",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63918597049678849",
                   "structureType": "REFERENCE"
                 },
@@ -3681,16 +3736,6 @@
                 {
                   "link": false,
                   "referenceId": "63918337037204321",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63915654906885201",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63915647026622033",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3814,7 +3859,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919610504102401",
+                  "referenceId": "63919638744922305",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3895,6 +3940,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63919638551084417",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63919530351180513",

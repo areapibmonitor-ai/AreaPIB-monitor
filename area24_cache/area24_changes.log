@@ -18878,3 +18878,40 @@ ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5296 130.
 F)SFC G)2999FT AMSL
 )
 [2026-07-14T14:06:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3118ee6080dsm61170582eec.17 - gsmtp')
+[2026-07-14T15:51:05Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A1258/26 was replaced with NOTAM A1931/26.
+AFTN: (A1931/26 NOTAMR A1258/26
+
+(A1931/26 NOTAMR A1258/26
+Q)EETT/FAAH/IV/BO/A/000/999/5814N02231E005
+A)EEKE B)2607141432 C)2608092359
+E)AD OPR HOURS:
+MON-FRI 0425-1655
+SAT 0630-1130
+SUN 0655-1655
+)
+
+NOTAM A1272/26 was replaced with NOTAM A1932/26.
+AFTN: (A1932/26 NOTAMR A1272/26
+
+(A1932/26 NOTAMR A1272/26
+Q)EETT/FUAH/IV/BO/A/000/999/5814N02231E005
+A)EEKE B)2607141433 C)2608092359
+E)FUELLING HR OF SERVICE:
+MON-FRI 0630-1500
+SAT 0830-1100
+SUN 0655-1500
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A1933/26 NOTAMN
+Q)EETT/SFXX/IV/BO/AE/000/050/5859N02250E013
+A)EEKA B)2607150300 C)2607151600
+E)KARDLA AFIS HR OF SERVICE: 0300-0915 1200-1600
+)
+[2026-07-14T15:51:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-51caace31a4sm120074451cf.12 - gsmtp')
