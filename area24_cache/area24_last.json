@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-07-14T08:15:00.424Z",
+  "createdAt": "2026-07-14T10:15:00.473Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919568193584385",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1922,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "schedule": "DAILY 1000-1500",
+        "text": "RESTRICTED AREA EER2507 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 5296256. REF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-16T15:00:00Z",
+          "start": "2026-07-15T10:00:00Z"
+        }
+      },
+      {
+        "id": "63919567901105745",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1921,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "schedule": "DAILY 1000-1500",
+        "text": "RESTRICTED AREA EER2506 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 5296256. REF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-16T15:00:00Z",
+          "start": "2026-07-15T10:00:00Z"
+        }
+      },
       {
         "id": "63919555750694641",
         "levels": {
@@ -3249,8 +3319,8 @@
       }
     ]
   },
-  "id": "55963045-fc56-49a9-b779-b251d3642b01",
-  "identifier": "BRIEFING-20260714-49",
+  "id": "c562e9f8-d023-4ac9-b00a-a49c5583cefa",
+  "identifier": "BRIEFING-20260714-57",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3297,8 +3367,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-15T08:15:00Z",
-    "validityStart": "2026-07-14T08:15:00Z"
+    "validityEnd": "2026-07-15T10:15:00Z",
+    "validityStart": "2026-07-14T10:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3775,6 +3845,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63919568193584385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919567901105745",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63919555750694641",
