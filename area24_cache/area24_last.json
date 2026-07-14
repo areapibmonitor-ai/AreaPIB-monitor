@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-14T21:00:00.468Z",
+  "createdAt": "2026-07-14T22:15:00.455Z",
   "dynamicData": {
     "notams": [
       {
@@ -518,6 +518,74 @@
           "end": "2026-08-03T11:00:00Z",
           "est": true,
           "start": "2026-07-13T07:54:00Z"
+        }
+      },
+      {
+        "id": "63919523764241793",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1894,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5911N02730E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 26,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 35
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2509B ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 593300N 0273900E - 593519N\r\n0274213E - 592818N 0280236E - 592855N 0281320E - 592210N 0282055E -\r\n584610N 0273240E - 584722N 0272141E - 584800N 0271600E - 585959N\r\n0271000E - 593300N 0273900E EXCLUDING SANKT-PETERBURG FIR. ALL\r\nAIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO OR\r\nIN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER\r\nGUARD BOARD. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM\r\nTEL +372 5382 3704. RESTRICTION DOES NOT APPLY TO ESTONIAN POLICE AND\r\nBORDER GUARD BOARD UNMANNED FLIGHTS AT HEIGHTS UP TO 400FT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-28T20:59:00Z",
+          "start": "2026-07-15T21:00:00Z"
+        }
+      },
+      {
+        "id": "63919523458892545",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1893,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5814N02708E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 47,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 35
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2509A ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 575444N 0272910E - 580559N\r\n0272731E - 583608N 0270757E - 584916N 0264357E - 585913N 0265143E -\r\n585959N 0271000E - 584800N 0271600E - 584722N 0272141E - 584610N\r\n0273240E - 575130N 0275510E - 572920N 0272100E - 573140N 0271010E -\r\n573311N 0271110E - 575444N 0272910E EXCLUDING SANKT-PETERBURG FIR.\r\nALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO\r\nOR IN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER\r\nGUARD BOARD.  PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM\r\nTEL +372 5309 4264. RESTRICTION DOES NOT APPLY TO ESTONIAN POLICE AND\r\nBORDER GUARD BOARD UNMANNED FLIGHTS AT HEIGHTS UP TO 400FT..",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-28T20:59:00Z",
+          "start": "2026-07-15T21:00:00Z"
         }
       },
       {
@@ -3396,8 +3464,8 @@
       }
     ]
   },
-  "id": "9b7a0db3-63bd-4d9e-a2fa-1d2e2fe73eaa",
-  "identifier": "BRIEFING-20260714-100",
+  "id": "c9f9f22d-04d6-4067-9919-8f58414f29f2",
+  "identifier": "BRIEFING-20260714-105",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3444,8 +3512,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-15T21:00:00Z",
-    "validityStart": "2026-07-14T21:00:00Z"
+    "validityEnd": "2026-07-15T22:15:00Z",
+    "validityStart": "2026-07-14T22:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3965,6 +4033,16 @@
             {
               "link": false,
               "referenceId": "63919567901105745",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919523764241793",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919523458892545",
               "structureType": "REFERENCE"
             },
             {
