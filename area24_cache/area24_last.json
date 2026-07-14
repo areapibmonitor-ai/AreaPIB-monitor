@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-13T23:15:00.506Z",
+  "createdAt": "2026-07-14T00:00:00.478Z",
   "dynamicData": {
     "notams": [
       {
@@ -1203,6 +1203,41 @@
         "validity": {
           "end": "2026-07-17T18:59:00Z",
           "start": "2026-07-09T05:00:00Z"
+        }
+      },
+      {
+        "id": "63917714622410833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1692,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "02-05 09 11-12 15-16 18-19 23 25-26 30 0500-2000",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T20:00:00Z",
+          "start": "2026-07-02T05:00:00Z"
         }
       },
       {
@@ -2725,16 +2760,16 @@
       }
     ]
   },
-  "id": "fe865016-ed1b-4382-b4de-6b72dec35944",
-  "identifier": "BRIEFING-20260713-109",
+  "id": "bd0b6527-fbb1-4301-b024-a5f88d25f926",
+  "identifier": "BRIEFING-20260714-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2773,8 +2808,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-14T23:15:00Z",
-    "validityStart": "2026-07-13T23:15:00Z"
+    "validityEnd": "2026-07-15T00:00:00Z",
+    "validityStart": "2026-07-14T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3319,6 +3354,11 @@
             {
               "link": false,
               "referenceId": "63917720456135281",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917714622410833",
               "structureType": "REFERENCE"
             },
             {
