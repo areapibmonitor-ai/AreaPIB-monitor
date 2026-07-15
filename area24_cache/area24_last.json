@@ -1,7 +1,98 @@
 {
-  "createdAt": "2026-07-15T06:00:00.423Z",
+  "createdAt": "2026-07-15T08:30:00.468Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919700325154609",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1937,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AE",
+          "subject": "NX",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO\r\nMAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-15T14:00:00Z",
+          "start": "2026-07-15T08:30:00Z"
+        }
+      },
+      {
+        "id": "63919695747423169",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 1935,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "APCH LIGHTING SYSTEM PALS-I RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-15T13:00:00Z",
+          "start": "2026-07-15T10:00:00Z"
+        }
+      },
+      {
+        "id": "63919692194322417",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1934,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "RNP RWY 08 LNAV AND LNAV/VNAV MINIMA TEMPORARILY NOT AVAILABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-14T14:00:00Z",
+          "est": true,
+          "start": "2026-07-15T07:00:00Z"
+        }
+      },
       {
         "id": "63919638551084417",
         "locations": [
@@ -383,36 +474,6 @@
         }
       },
       {
-        "id": "63919530351180513",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1900,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "NX",
-          "traffic": "V",
-          "upper": 999
-        },
-        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO\r\nMAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-15T08:00:00Z",
-          "start": "2026-07-15T06:30:00Z"
-        }
-      },
-      {
         "id": "63919528456013617",
         "locations": [
           "EETN"
@@ -617,6 +678,41 @@
           "end": "2026-08-31T13:00:00Z",
           "est": true,
           "start": "2026-07-10T15:00:00Z"
+        }
+      },
+      {
+        "id": "63919271496082785",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1884,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "16 0600-1359, 21 0500-1359, 23-24 27 31 0500-1759, 25 0500-1459,\r\n28 0500-2359, 29 H24, 30 0000-0459",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-31T17:59:00Z",
+          "start": "2026-07-16T06:00:00Z"
         }
       },
       {
@@ -1479,6 +1575,40 @@
         "validity": {
           "end": "2026-07-27T20:59:00Z",
           "start": "2026-07-05T21:00:00Z"
+        }
+      },
+      {
+        "id": "63918421063026481",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL165"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1795,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5940N02628E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 405
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5628 1119.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-16T13:00:00Z",
+          "start": "2026-07-16T06:00:00Z"
         }
       },
       {
@@ -3396,8 +3526,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919677701601649",
-        "number": 968,
+        "id": "63919698244197201",
+        "number": 969,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3425,14 +3555,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-15T02:00:00Z"
+            "time": "2026-07-15T07:43:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63919693217179217",
+        "number": 546,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-15T06:18:00Z"
           }
         ]
       }
     ]
   },
-  "id": "bf1e8e74-32ff-4887-91c8-b8b8a0d1cbdf",
-  "identifier": "BRIEFING-20260715-40",
+  "id": "1e8aed57-638c-45bc-8993-1e21890f3e3d",
+  "identifier": "BRIEFING-20260715-50",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3479,8 +3644,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-16T06:00:00Z",
-    "validityStart": "2026-07-15T06:00:00Z"
+    "validityEnd": "2026-07-16T08:30:00Z",
+    "validityStart": "2026-07-15T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3550,6 +3715,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919695747423169",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919526295970545",
@@ -3710,7 +3880,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63919530351180513",
+                  "referenceId": "63919700325154609",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3790,7 +3960,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919677701601649",
+                  "referenceId": "63919698244197201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3800,6 +3970,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919692194322417",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63918663109619521",
@@ -3859,6 +4034,11 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919693217179217",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3873,12 +4053,12 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63919638551084417",
+              "referenceId": "63919700325154609",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
-              "referenceId": "63919530351180513",
+              "referenceId": "63919638551084417",
               "structureType": "REFERENCE"
             },
             {
@@ -4014,6 +4194,11 @@
             },
             {
               "link": false,
+              "referenceId": "63919271496082785",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919265739862305",
               "structureType": "REFERENCE"
             },
@@ -4105,6 +4290,11 @@
             {
               "link": true,
               "referenceId": "63918493869747169",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918421063026481",
               "structureType": "REFERENCE"
             },
             {
