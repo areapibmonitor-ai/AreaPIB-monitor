@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-15T19:45:00.458Z",
+  "createdAt": "2026-07-15T21:00:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -2077,74 +2077,6 @@
         }
       },
       {
-        "id": "63917537652047745",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1684,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5815N02708E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 46,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 35
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2509A ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 575444N 0272910E - 580559N\r\n0272731E - 583608N 0270757E - 584916N 0264357E - 585913N 0265143E -\r\n585959N 0271000E - 584800N 0271600E - 584722N 0272141E - 584610N\r\n0273240E - 575130N 0275510E - 572920N 0272100E - 573140N 0271010E -\r\n573311N 0271110E - 575444N 0272910E EXCLUDING SANKT-PETERBURG FIR AND\r\nRIGA FIR. ALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED\r\nTO FLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE\r\nAND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +372 5309 4264. RESTRICTION DOES NOT APPLY TO\r\nESTONIAN POLICE AND BORDER GUARD BOARD UNMANNED FLIGHTS AT HEIGHTS UP\r\nTO 400FT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-15T20:59:00Z",
-          "start": "2026-06-20T07:35:00Z"
-        }
-      },
-      {
-        "id": "63917537433180417",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1683,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5911N02730E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 26,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 35
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2509B ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 593300N 0273900E - 593519N\r\n0274213E - 592818N 0280236E - 592855N 0281320E - 592210N 0282055E -\r\n584610N 0273240E - 584722N 0272141E - 584800N 0271600E - 585959N\r\n0271000E - 593300N 0273900E EXCLUDING SANKT-PETERBURG FIR. ALL\r\nAIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO OR\r\nIN THE AREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER\r\nGUARD BOARD. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM\r\nTEL +372 5382 3704. RESTRICTION DOES NOT APPLY TO ESTONIAN POLICE AND\r\nBORDER GUARD BOARD UNMANNED FLIGHTS AT HEIGHTS UP TO 400FT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-15T20:59:00Z",
-          "start": "2026-06-20T07:35:00Z"
-        }
-      },
-      {
         "id": "63917465599186017",
         "levels": {
           "lower": "SFC",
@@ -3465,8 +3397,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919720470653345",
-        "number": 970,
+        "id": "63919743131075425",
+        "number": 971,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3494,14 +3426,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-15T13:53:00Z"
+            "time": "2026-07-15T20:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "1634f293-3bb2-4838-baed-d1aec4b9caa2",
-  "identifier": "BRIEFING-20260715-95",
+  "id": "d22f634e-f975-4492-9b9f-2d45f656b4dc",
+  "identifier": "BRIEFING-20260715-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3548,8 +3480,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-16T19:45:00Z",
-    "validityStart": "2026-07-15T19:45:00Z"
+    "validityEnd": "2026-07-16T21:00:00Z",
+    "validityStart": "2026-07-15T21:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3854,7 +3786,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919720470653345",
+                  "referenceId": "63919743131075425",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4219,16 +4151,6 @@
             {
               "link": false,
               "referenceId": "63917556079229537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917537652047745",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917537433180417",
               "structureType": "REFERENCE"
             },
             {
