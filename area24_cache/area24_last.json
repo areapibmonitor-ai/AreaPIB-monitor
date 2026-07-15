@@ -1,46 +1,7 @@
 {
-  "createdAt": "2026-07-15T17:30:00.472Z",
+  "createdAt": "2026-07-15T18:30:00.45Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63919713438500913",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1939,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5843N02206E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 14,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "referenceId": {
-          "number": 1823,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "RESTRICTED AREA EER2611H ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-15T18:00:00Z",
-          "start": "2026-07-15T11:56:00Z"
-        }
-      },
       {
         "id": "63919692194322417",
         "locations": [
@@ -3539,8 +3500,8 @@
       }
     ]
   },
-  "id": "eb7f22af-1707-4652-a52f-84093fdec5bd",
-  "identifier": "BRIEFING-20260715-86",
+  "id": "bb557675-dc3e-4d0d-8de9-240d112b6ec2",
+  "identifier": "BRIEFING-20260715-90",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3587,8 +3548,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-16T17:30:00Z",
-    "validityStart": "2026-07-15T17:30:00Z"
+    "validityEnd": "2026-07-16T18:30:00Z",
+    "validityStart": "2026-07-15T18:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4065,11 +4026,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63919713438500913",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63919628139965457",
