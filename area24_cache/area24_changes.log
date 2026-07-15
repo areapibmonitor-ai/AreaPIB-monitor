@@ -18966,3 +18966,23 @@ F)SFC G)3500FT AMSL
 )
 [2026-07-14T22:17:06Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-313b4cbafa1sm82226049eec.6 - gsmtp')
 [2026-07-14T23:15:18Z] NO CHANGE in dynamicData.notams.
+[2026-07-15T00:09:24Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1723/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A1743/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2607010700 C)2607301800
+D)WED-THU SAT-SUN 0700-1800
+E)DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.
+F)SFC G)2100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1501/26 was removed from the PIB.
+[2026-07-15T00:09:24Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-8ffd50df5e2sm181538796d6.4 - gsmtp')

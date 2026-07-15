@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-14T23:00:00.436Z",
+  "createdAt": "2026-07-15T00:00:00.472Z",
   "dynamicData": {
     "notams": [
       {
@@ -1801,37 +1801,39 @@
         }
       },
       {
-        "id": "63917990125354369",
+        "id": "63918058976340849",
         "levels": {
           "lower": "SFC",
-          "upper": "5000FT AMSL"
+          "upper": "2100FT AMSL"
         },
         "locations": [
           "EETT"
         ],
         "notamId": {
-          "number": 1723,
+          "number": 1743,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5855N02625E",
+          "condition": "CA",
+          "coordinate": "5854N02331E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
-          "radius": 15,
+          "radius": 2,
           "scope": "W",
-          "subject": "RT",
+          "subject": "RD",
           "traffic": "IV",
-          "upper": 50
+          "upper": 21
         },
-        "text": "TRIGGER NOTAM - AIP SUP 13/2026 WEF 01 JUL 2026 TIL 01 JAN 2027.\r\n- ESTABLISHMENT OF TEMPORARY RESTRICTED AREAS EER2506, EER2507,\r\nEER2508 AND EER2509.",
+        "schedule": "WED-THU SAT-SUN 0700-1800",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
         "type": "N",
         "validity": {
-          "end": "2026-07-14T23:59:00Z",
-          "start": "2026-07-01T00:00:00Z"
+          "end": "2026-07-30T18:00:00Z",
+          "est": true,
+          "start": "2026-07-01T07:00:00Z"
         }
       },
       {
@@ -2796,41 +2798,6 @@
         }
       },
       {
-        "id": "63917209097940913",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1501,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "03 1500-2359, 04 H24, 05 0000-1500, 06 14 28 0500-1400, 08 21\r\n0600-1400, 17-18 0600-2000",
-        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-28T14:00:00Z",
-          "start": "2026-07-03T15:00:00Z"
-        }
-      },
-      {
         "id": "63917125445303009",
         "locations": [
           "EETU"
@@ -3464,16 +3431,16 @@
       }
     ]
   },
-  "id": "8a249d0d-c364-4ae5-8b37-05be6884433a",
-  "identifier": "BRIEFING-20260714-108",
+  "id": "7bef959b-10cd-4752-97cd-4c2c66746de9",
+  "identifier": "BRIEFING-20260715-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3512,8 +3479,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-15T23:00:00Z",
-    "validityStart": "2026-07-14T23:00:00Z"
+    "validityEnd": "2026-07-16T00:00:00Z",
+    "validityStart": "2026-07-15T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4157,7 +4124,7 @@
             },
             {
               "link": false,
-              "referenceId": "63917990125354369",
+              "referenceId": "63918058976340849",
               "structureType": "REFERENCE"
             },
             {
@@ -4243,11 +4210,6 @@
             {
               "link": false,
               "referenceId": "63917214292074497",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917209097940913",
               "structureType": "REFERENCE"
             },
             {
