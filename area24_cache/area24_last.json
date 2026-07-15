@@ -1,7 +1,46 @@
 {
-  "createdAt": "2026-07-15T10:15:00.461Z",
+  "createdAt": "2026-07-15T12:00:00.468Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919713438500913",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1939,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5843N02206E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "referenceId": {
+          "number": 1823,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "RESTRICTED AREA EER2611H ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "R",
+        "validity": {
+          "end": "2026-07-15T18:00:00Z",
+          "start": "2026-07-15T11:56:00Z"
+        }
+      },
       {
         "id": "63919700325154609",
         "locations": [
@@ -1226,41 +1265,6 @@
         },
         "schedule": "15 18 0600-1800",
         "text": "RESTRICTED AREA EER2611K ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-18T18:00:00Z",
-          "start": "2026-07-15T06:00:00Z"
-        }
-      },
-      {
-        "id": "63918596634871809",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "6000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1823,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5843N02206E",
-          "fir": "EETT",
-          "lower": 30,
-          "purpose": "BO",
-          "radius": 14,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "15 18 0600-1800",
-        "text": "RESTRICTED AREA EER2611H ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
         "type": "N",
         "validity": {
           "end": "2026-07-18T18:00:00Z",
@@ -3660,8 +3664,8 @@
       }
     ]
   },
-  "id": "6590c978-3c6f-4b57-a9b2-f2e7230ebb84",
-  "identifier": "BRIEFING-20260715-57",
+  "id": "3ba6d225-dadb-4fc4-a463-618453e8c07f",
+  "identifier": "BRIEFING-20260715-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3708,8 +3712,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-16T10:15:00Z",
-    "validityStart": "2026-07-15T10:15:00Z"
+    "validityEnd": "2026-07-16T12:00:00Z",
+    "validityStart": "2026-07-15T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4218,6 +4222,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63919713438500913",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919628139965457",
               "structureType": "REFERENCE"
             },
@@ -4319,11 +4328,6 @@
             {
               "link": false,
               "referenceId": "63918596713898993",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918596634871809",
               "structureType": "REFERENCE"
             },
             {
