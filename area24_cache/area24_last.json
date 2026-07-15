@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-15T12:00:00.468Z",
+  "createdAt": "2026-07-15T14:00:00.485Z",
   "dynamicData": {
     "notams": [
       {
@@ -39,66 +39,6 @@
         "validity": {
           "end": "2026-07-15T18:00:00Z",
           "start": "2026-07-15T11:56:00Z"
-        }
-      },
-      {
-        "id": "63919700325154609",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1937,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "NX",
-          "traffic": "V",
-          "upper": 999
-        },
-        "text": "TALLINN TWR VDF CHANNEL 135.905 AND FREQ 121.500MHZ U/S DUE TO\r\nMAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-15T14:00:00Z",
-          "start": "2026-07-15T08:30:00Z"
-        }
-      },
-      {
-        "id": "63919695747423169",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1935,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APCH LIGHTING SYSTEM PALS-I RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-15T13:00:00Z",
-          "start": "2026-07-15T10:00:00Z"
         }
       },
       {
@@ -3594,8 +3534,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63919698244197201",
-        "number": 969,
+        "id": "63919720470653345",
+        "number": 970,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3623,7 +3563,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-15T07:43:00Z"
+            "time": "2026-07-15T13:53:00Z"
           }
         ]
       },
@@ -3664,8 +3604,8 @@
       }
     ]
   },
-  "id": "3ba6d225-dadb-4fc4-a463-618453e8c07f",
-  "identifier": "BRIEFING-20260715-64",
+  "id": "c64c3f0c-5360-4790-822b-1c57a06040b4",
+  "identifier": "BRIEFING-20260715-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3712,8 +3652,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-16T12:00:00Z",
-    "validityStart": "2026-07-15T12:00:00Z"
+    "validityEnd": "2026-07-16T14:00:00Z",
+    "validityStart": "2026-07-15T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3783,11 +3723,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63919695747423169",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63919526295970545",
@@ -3953,11 +3888,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63919700325154609",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919528456013617",
                   "structureType": "REFERENCE"
                 },
@@ -4033,7 +3963,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919698244197201",
+                  "referenceId": "63919720470653345",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4129,11 +4059,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63919700325154609",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63919638551084417",
