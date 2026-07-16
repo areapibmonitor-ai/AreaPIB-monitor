@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-16T11:15:00.42Z",
+  "createdAt": "2026-07-16T12:45:00.447Z",
   "dynamicData": {
     "notams": [
       {
@@ -1972,41 +1972,6 @@
         }
       },
       {
-        "id": "63917458702861121",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1657,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5927N02752E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "schedule": "15 0600-1100, 16 0700-1200",
-        "text": "TEMPORARY DANGER AREA EED2335 ESTABLISHED FOR ARTILLERY FIRING\r\nWITHIN: 592806N 0275015E - 592813N 0275325E - 592607N 0275348E -\r\n592557N 0275038E - 592806N 0275015E. INFO ABOUT ACT AVBL FROM TEL\r\n+372 5309 1114.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T12:00:00Z",
-          "start": "2026-07-15T06:00:00Z"
-        }
-      },
-      {
         "id": "63917455049070385",
         "locations": [
           "EEEI"
@@ -3326,8 +3291,8 @@
       }
     ]
   },
-  "id": "e63857e6-d33b-48c1-9ee1-5dc7544803bd",
-  "identifier": "BRIEFING-20260716-61",
+  "id": "5d908be4-8053-4ceb-bfe1-29f132882655",
+  "identifier": "BRIEFING-20260716-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3374,8 +3339,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-17T11:15:00Z",
-    "validityStart": "2026-07-16T11:15:00Z"
+    "validityEnd": "2026-07-17T12:45:00Z",
+    "validityStart": "2026-07-16T12:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4060,11 +4025,6 @@
             {
               "link": false,
               "referenceId": "63917461755182017",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917458702861121",
               "structureType": "REFERENCE"
             },
             {
