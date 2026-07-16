@@ -19107,3 +19107,25 @@ Expired NOTAMs:
 [2026-07-15T21:10:44Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2cf100e3915sm8780415ad.3 - gsmtp')
 [2026-07-15T22:16:41Z] NO CHANGE in dynamicData.notams.
 [2026-07-15T23:24:32Z] NO CHANGE in dynamicData.notams.
+[2026-07-16T01:02:42Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A1501/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/023/5751N02605E002
+A)EETT B)2607031500 C)2607281400
+D)03 1500-2359, 04 H24, 05 0000-1500, 06 14 28 0500-1400, 08 21
+0600-1400, 17-18 0600-2000
+E)DANGER AREA EED11 (METSNIKU) ACTIVATED.
+F)SFC G)2300FT AMSL
+)
+
+
+Other removals:
+- NOTAM A1820/26 was removed from the PIB.
+- NOTAM A1821/26 was removed from the PIB.
+- NOTAM A1822/26 was removed from the PIB.
+- NOTAM A1824/26 was removed from the PIB.
+- NOTAM A1829/26 was removed from the PIB.
+[2026-07-16T01:02:42Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3140e6f0fcdsm5392304eec.30 - gsmtp')
