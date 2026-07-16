@@ -1,41 +1,7 @@
 {
-  "createdAt": "2026-07-16T15:00:00.449Z",
+  "createdAt": "2026-07-16T16:30:00.491Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63919790340338337",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1944,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5816N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM: +372 525 8504. AREA DEACTIVATION IS POSSIBLE BY ATS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T15:59:00Z",
-          "start": "2026-07-16T09:20:00Z"
-        }
-      },
       {
         "id": "63919692194322417",
         "locations": [
@@ -3086,16 +3052,16 @@
       }
     ]
   },
-  "id": "b3319708-96e6-4471-bea7-dd6d4538d220",
-  "identifier": "BRIEFING-20260716-76",
+  "id": "a05c4843-ec1c-4543-904f-73216f932f0b",
+  "identifier": "BRIEFING-20260716-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3134,8 +3100,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-17T15:00:00Z",
-    "validityStart": "2026-07-16T15:00:00Z"
+    "validityEnd": "2026-07-17T16:30:00Z",
+    "validityStart": "2026-07-16T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3442,11 +3408,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63919790340338337",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919692194322417",
                   "structureType": "REFERENCE"
                 },
@@ -3627,11 +3588,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63919790340338337",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63919553981226097",
