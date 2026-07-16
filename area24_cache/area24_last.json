@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-07-16T09:15:00.448Z",
+  "createdAt": "2026-07-16T11:15:00.42Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63919790340338337",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1900FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1944,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5816N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 19
+        },
+        "text": "DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM: +372 525 8504. AREA DEACTIVATION IS POSSIBLE BY ATS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-16T15:59:00Z",
+          "start": "2026-07-16T09:20:00Z"
+        }
+      },
       {
         "id": "63919692194322417",
         "locations": [
@@ -104,41 +138,6 @@
         }
       },
       {
-        "id": "63919628139965457",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2999FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1930,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0700-0900, 16 0745-1000",
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5296 130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T10:00:00Z",
-          "start": "2026-07-15T07:00:00Z"
-        }
-      },
-      {
         "id": "63919624255093345",
         "levels": {
           "lower": "SFC",
@@ -171,146 +170,6 @@
         "validity": {
           "end": "2026-07-16T14:00:00Z",
           "start": "2026-07-15T06:00:00Z"
-        }
-      },
-      {
-        "id": "63919624089379841",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1928,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5912N02636E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0700-0900, 16 0745-1000",
-        "text": "RESTRICTED AREA EER15G ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5678 0285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T10:00:00Z",
-          "start": "2026-07-15T07:00:00Z"
-        }
-      },
-      {
-        "id": "63919623921726673",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1927,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0700-0900, 16 0745-1000",
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5678 0285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T10:00:00Z",
-          "start": "2026-07-15T07:00:00Z"
-        }
-      },
-      {
-        "id": "63919623638782321",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1926,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02640E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 20,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0700-0900, 16 0745-1000",
-        "text": "RESTRICTED AREA EER15E ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5678 0285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T10:00:00Z",
-          "start": "2026-07-15T07:00:00Z"
-        }
-      },
-      {
-        "id": "63919623416384625",
-        "levels": {
-          "lower": "3000FT AMSL",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1925,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5931N02601E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "15 0700-0900, 16 0745-1000",
-        "text": "RESTRICTED AREA EER15D ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5678 0285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T10:00:00Z",
-          "start": "2026-07-15T07:00:00Z"
         }
       },
       {
@@ -415,36 +274,6 @@
         "validity": {
           "end": "2026-07-19T17:00:00Z",
           "start": "2026-07-17T05:00:00Z"
-        }
-      },
-      {
-        "id": "63919530698588545",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 1901,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IS",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS RWY 17 U/S DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-16T12:00:00Z",
-          "start": "2026-07-16T09:00:00Z"
         }
       },
       {
@@ -3497,8 +3326,8 @@
       }
     ]
   },
-  "id": "85c76d04-a6f3-494f-84db-7f33b2c079db",
-  "identifier": "BRIEFING-20260716-53",
+  "id": "e63857e6-d33b-48c1-9ee1-5dc7544803bd",
+  "identifier": "BRIEFING-20260716-61",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3545,8 +3374,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-17T09:15:00Z",
-    "validityStart": "2026-07-16T09:15:00Z"
+    "validityEnd": "2026-07-17T11:15:00Z",
+    "validityStart": "2026-07-16T11:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3717,11 +3546,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919530698588545",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918597049678849",
                   "structureType": "REFERENCE"
                 },
@@ -3861,6 +3685,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919790340338337",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919692194322417",
@@ -4049,33 +3878,13 @@
         {
           "content": [
             {
-              "link": false,
-              "referenceId": "63919628139965457",
+              "link": true,
+              "referenceId": "63919790340338337",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
               "referenceId": "63919624255093345",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919624089379841",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919623921726673",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919623638782321",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919623416384625",
               "structureType": "REFERENCE"
             },
             {
