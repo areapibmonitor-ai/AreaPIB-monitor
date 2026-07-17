@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-17T12:15:00.504Z",
+  "createdAt": "2026-07-17T14:00:00.486Z",
   "dynamicData": {
     "notams": [
       {
@@ -1796,41 +1796,6 @@
         }
       },
       {
-        "id": "63917711016001009",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1690,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01-02 07 15-16 0500-1800, 04 0500-2000, 05 0500-1700, 08\r\n2100-2359, 09 0000-1700, 10 14 17 0500-1400, 12 0700-1400",
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-17T14:00:00Z",
-          "start": "2026-07-01T05:00:00Z"
-        }
-      },
-      {
         "id": "63917556079229537",
         "levels": {
           "lower": "SFC",
@@ -3252,46 +3217,11 @@
             "time": "2026-07-17T07:56:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63919860655593249",
-        "number": 548,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-17T04:50:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "65203d63-de29-4f11-b2f0-2ee39d548607",
-  "identifier": "BRIEFING-20260717-65",
+  "id": "69f39139-90ac-4def-835b-12a3e34dc08c",
+  "identifier": "BRIEFING-20260717-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3338,8 +3268,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-18T12:15:00Z",
-    "validityStart": "2026-07-17T12:15:00Z"
+    "validityEnd": "2026-07-18T14:00:00Z",
+    "validityStart": "2026-07-17T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3748,11 +3678,6 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63919860655593249",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -4004,11 +3929,6 @@
             {
               "link": false,
               "referenceId": "63917714622410833",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917711016001009",
               "structureType": "REFERENCE"
             },
             {
