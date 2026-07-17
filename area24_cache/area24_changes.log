@@ -19387,3 +19387,9 @@ VIA TEL +372 717 3413.
 )
 [2026-07-17T09:17:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6a516bb70c0sm965770eaf.3 - gsmtp')
 [2026-07-17T10:58:55Z] NO CHANGE in dynamicData.notams.
+[2026-07-17T12:17:49Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1948/26 expired and was removed from the PIB.
+[2026-07-17T12:17:49Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-84c2af30bd6sm966245b3a.39 - gsmtp')

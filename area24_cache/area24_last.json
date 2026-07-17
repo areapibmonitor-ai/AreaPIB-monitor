@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-17T10:45:00.424Z",
+  "createdAt": "2026-07-17T12:15:00.504Z",
   "dynamicData": {
     "notams": [
       {
@@ -36,36 +36,6 @@
           "end": "2026-07-31T12:00:00Z",
           "est": true,
           "start": "2026-07-17T07:06:00Z"
-        }
-      },
-      {
-        "id": "63919864994937025",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1948,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APCH LIGHTING SYSTEM PALS-I RWY 06 U/S DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-17T12:00:00Z",
-          "start": "2026-07-17T10:00:00Z"
         }
       },
       {
@@ -3320,8 +3290,8 @@
       }
     ]
   },
-  "id": "ba9851cc-11eb-4097-9e21-8e1407e530a2",
-  "identifier": "BRIEFING-20260717-59",
+  "id": "65203d63-de29-4f11-b2f0-2ee39d548607",
+  "identifier": "BRIEFING-20260717-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3368,8 +3338,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-18T10:45:00Z",
-    "validityStart": "2026-07-17T10:45:00Z"
+    "validityEnd": "2026-07-18T12:15:00Z",
+    "validityStart": "2026-07-17T12:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3442,11 +3412,6 @@
                 {
                   "link": false,
                   "referenceId": "63919868831306161",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63919864994937025",
                   "structureType": "REFERENCE"
                 },
                 {
