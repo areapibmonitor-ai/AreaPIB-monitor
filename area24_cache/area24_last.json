@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-17T18:00:00.417Z",
+  "createdAt": "2026-07-17T19:30:00.414Z",
   "dynamicData": {
     "notams": [
       {
@@ -517,40 +517,6 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
-        }
-      },
-      {
-        "id": "63919012938115969",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1855,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5813N02625E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "text": "RESTRICTED AREA EER2437D (ELVA) ACTIVATED. NON-PARTICIPATING\r\nAIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA WITHOUT PRIOR COORDINATION WITH EVENT ORGANISER.\r\nREF AIP SUP 12/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-17T19:00:00Z",
-          "start": "2026-07-17T14:00:00Z"
         }
       },
       {
@@ -1689,41 +1655,6 @@
           "end": "2026-07-31T13:30:00Z",
           "est": true,
           "start": "2026-06-26T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917720456135281",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1711,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "schedule": "09 0500-2359, 10-16 H24, 17 0000-1859",
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-17T18:59:00Z",
-          "start": "2026-07-09T05:00:00Z"
         }
       },
       {
@@ -3149,8 +3080,8 @@
       }
     ]
   },
-  "id": "854af21b-445d-4a0a-98db-496a422a714c",
-  "identifier": "BRIEFING-20260717-88",
+  "id": "42989af4-f748-470a-af8b-1a34166ef41a",
+  "identifier": "BRIEFING-20260717-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3197,8 +3128,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-18T18:00:00Z",
-    "validityStart": "2026-07-17T18:00:00Z"
+    "validityEnd": "2026-07-18T19:30:00Z",
+    "validityStart": "2026-07-17T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3520,11 +3451,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919012938115969",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919012556107089",
                   "structureType": "REFERENCE"
                 },
@@ -3721,11 +3647,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63919012938115969",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63919012812684337",
               "structureType": "REFERENCE"
@@ -3833,11 +3754,6 @@
             {
               "link": false,
               "referenceId": "63918060824458641",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917720456135281",
               "structureType": "REFERENCE"
             },
             {
