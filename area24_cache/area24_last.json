@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-17T16:45:00.428Z",
+  "createdAt": "2026-07-17T18:00:00.417Z",
   "dynamicData": {
     "notams": [
       {
@@ -585,40 +585,6 @@
         "validity": {
           "end": "2026-07-18T12:00:00Z",
           "start": "2026-07-18T05:00:00Z"
-        }
-      },
-      {
-        "id": "63919012686761489",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1853,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5816N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "text": "RESTRICTED AREA EER2327 (UNIKULA) ACTIVATED. NON-PARTICIPATING\r\nAIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA WITHOUT PRIOR COORDINATION WITH EVENT ORGANISER.\r\nREF AIP SUP 12/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-17T17:00:00Z",
-          "start": "2026-07-17T05:00:00Z"
         }
       },
       {
@@ -3183,8 +3149,8 @@
       }
     ]
   },
-  "id": "ae30a938-f420-4014-9009-2ef89719dd25",
-  "identifier": "BRIEFING-20260717-83",
+  "id": "854af21b-445d-4a0a-98db-496a422a714c",
+  "identifier": "BRIEFING-20260717-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3231,8 +3197,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-18T16:45:00Z",
-    "validityStart": "2026-07-17T16:45:00Z"
+    "validityEnd": "2026-07-18T18:00:00Z",
+    "validityStart": "2026-07-17T18:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3559,11 +3525,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63919012686761489",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919012556107089",
                   "structureType": "REFERENCE"
                 },
@@ -3767,11 +3728,6 @@
             {
               "link": false,
               "referenceId": "63919012812684337",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63919012686761489",
               "structureType": "REFERENCE"
             },
             {
