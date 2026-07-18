@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-18T06:15:00.436Z",
+  "createdAt": "2026-07-18T08:15:00.487Z",
   "dynamicData": {
     "notams": [
       {
@@ -408,6 +408,40 @@
           "end": "2026-08-31T13:00:00Z",
           "est": true,
           "start": "2026-07-10T15:00:00Z"
+        }
+      },
+      {
+        "id": "63919276558189489",
+        "levels": {
+          "lower": "2200FT AMSL",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1887,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 22,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR FIRING WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL\r\n+372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-19T13:59:00Z",
+          "start": "2026-07-19T08:00:00Z"
         }
       },
       {
@@ -3153,8 +3187,8 @@
       }
     ]
   },
-  "id": "c42eacf1-03a7-4c90-8658-f8b2f32036c0",
-  "identifier": "BRIEFING-20260718-41",
+  "id": "307c0dfa-1964-48ab-8a84-c2a015ed89b2",
+  "identifier": "BRIEFING-20260718-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3201,8 +3235,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-19T06:15:00Z",
-    "validityStart": "2026-07-18T06:15:00Z"
+    "validityEnd": "2026-07-19T08:15:00Z",
+    "validityStart": "2026-07-18T08:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3401,6 +3435,11 @@
                 {
                   "link": false,
                   "referenceId": "63919864724397953",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63919276558189489",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3712,6 +3751,11 @@
             {
               "link": false,
               "referenceId": "63919523458892545",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63919276558189489",
               "structureType": "REFERENCE"
             },
             {
