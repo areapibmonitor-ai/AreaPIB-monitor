@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-18T11:00:00.427Z",
+  "createdAt": "2026-07-18T12:00:00.447Z",
   "dynamicData": {
     "notams": [
       {
@@ -551,40 +551,6 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
-        }
-      },
-      {
-        "id": "63919012812684337",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1854,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5838N02658E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 8,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 30
-        },
-        "text": "RESTRICTED AREA EER2123 (PEIPSI) ACTIVATED. NON-PARTICIPATING\r\nAIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE NOT PERMITTED TO ENTER\r\nINTO ACTIVATED AREA WITHOUT PRIOR COORDINATION WITH EVENT ORGANISER.\r\nREF AIP SUP 12/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-18T12:00:00Z",
-          "start": "2026-07-18T05:00:00Z"
         }
       },
       {
@@ -3187,8 +3153,8 @@
       }
     ]
   },
-  "id": "5f43d4eb-b11e-432d-948f-9cc28c7a851a",
-  "identifier": "BRIEFING-20260718-60",
+  "id": "0cdae483-ad9e-42bb-b5fa-2e5bad24434f",
+  "identifier": "BRIEFING-20260718-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3235,8 +3201,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-19T11:00:00Z",
-    "validityStart": "2026-07-18T11:00:00Z"
+    "validityEnd": "2026-07-19T12:00:00Z",
+    "validityStart": "2026-07-18T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3771,11 +3737,6 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919012812684337",
               "structureType": "REFERENCE"
             },
             {
