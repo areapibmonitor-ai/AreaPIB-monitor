@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-19T01:00:00.45Z",
+  "createdAt": "2026-07-19T04:30:00.416Z",
   "dynamicData": {
     "notams": [
       {
@@ -381,6 +381,40 @@
         }
       },
       {
+        "id": "63919281237099473",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1888,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-24T17:59:00Z",
+          "start": "2026-07-20T03:00:00Z"
+        }
+      },
+      {
         "id": "63919276558189489",
         "levels": {
           "lower": "2200FT AMSL",
@@ -487,6 +521,41 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
+        }
+      },
+      {
+        "id": "63919208468726001",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1880,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5831N02614E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "20 0400-2359, 21-23 H24, 24 0000-1800, 26 0500-1400, 29-30\r\n0500-1800",
+        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T18:00:00Z",
+          "start": "2026-07-20T04:00:00Z"
         }
       },
       {
@@ -2809,8 +2878,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920006710483377",
-        "number": 984,
+        "id": "63920021933945121",
+        "number": 985,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2820,32 +2889,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-18T21:23:00Z"
+            "time": "2026-07-19T01:37:00Z"
           }
         ]
       }
     ]
   },
-  "id": "6ccf43ba-0cee-4ae8-9338-d622d1f5d4c6",
-  "identifier": "BRIEFING-20260719-5",
+  "id": "d4519b31-be78-44c6-a403-52b415998f31",
+  "identifier": "BRIEFING-20260719-32",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2892,8 +2961,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-20T01:00:00Z",
-    "validityStart": "2026-07-19T01:00:00Z"
+    "validityEnd": "2026-07-20T04:30:00Z",
+    "validityStart": "2026-07-19T04:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3198,7 +3267,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920006710483377",
+                  "referenceId": "63920021933945121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3396,6 +3465,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63919281237099473",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63919276558189489",
               "structureType": "REFERENCE"
@@ -3408,6 +3482,11 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919208468726001",
               "structureType": "REFERENCE"
             },
             {
