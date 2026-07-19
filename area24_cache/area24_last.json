@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-19T13:45:00.442Z",
+  "createdAt": "2026-07-19T14:30:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -761,40 +761,6 @@
         }
       },
       {
-        "id": "63919276558189489",
-        "levels": {
-          "lower": "2200FT AMSL",
-          "upper": "3100FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1887,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 22,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 31
-        },
-        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR FIRING WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL\r\n+372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-19T13:59:00Z",
-          "start": "2026-07-19T08:00:00Z"
-        }
-      },
-      {
         "id": "63919273065898001",
         "levels": {
           "lower": "SFC",
@@ -1142,41 +1108,6 @@
         "validity": {
           "end": "2026-07-30T13:59:00Z",
           "start": "2026-07-12T06:00:00Z"
-        }
-      },
-      {
-        "id": "63918662152448481",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1828,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02448E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "11 0500-1859, 12 18 0500-1359, 13-14 17 0500-1459, 15-16\r\n0500-1659, 19 0800-1359",
-        "text": "DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5303 2206.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-19T13:59:00Z",
-          "start": "2026-07-11T05:00:00Z"
         }
       },
       {
@@ -3291,46 +3222,11 @@
             "time": "2026-07-19T13:38:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63920038851171969",
-        "number": 550,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "NR",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-19T06:20:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "adea7312-2284-4a23-a17e-a4d0228e0a4b",
-  "identifier": "BRIEFING-20260719-71",
+  "id": "c49aa137-4167-4d62-896d-794631765596",
+  "identifier": "BRIEFING-20260719-74",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3377,8 +3273,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-20T13:45:00Z",
-    "validityStart": "2026-07-19T13:45:00Z"
+    "validityEnd": "2026-07-20T14:30:00Z",
+    "validityStart": "2026-07-19T14:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3601,17 +3497,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63919276558189489",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918757851211905",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918662152448481",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3807,11 +3693,6 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920038851171969",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3967,11 +3848,6 @@
             },
             {
               "link": true,
-              "referenceId": "63919276558189489",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63919273065898001",
               "structureType": "REFERENCE"
             },
@@ -4008,11 +3884,6 @@
             {
               "link": true,
               "referenceId": "63918663109619521",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63918662152448481",
               "structureType": "REFERENCE"
             },
             {
