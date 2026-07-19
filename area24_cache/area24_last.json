@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-19T10:45:00.432Z",
+  "createdAt": "2026-07-19T12:00:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -141,6 +141,37 @@
           "end": "2026-07-31T12:00:00Z",
           "est": true,
           "start": "2026-07-17T07:06:00Z"
+        }
+      },
+      {
+        "id": "63919866449696321",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 1949,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PI",
+          "traffic": "I",
+          "upper": 999
+        },
+        "schedule": "DAILY 1115-1300",
+        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 14 AND RNP RWY 32 NOT\r\nAVAILABLE DUE TO MIL ACTIVITY IN EER2204",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-21T13:00:00Z",
+          "start": "2026-07-20T11:15:00Z"
         }
       },
       {
@@ -836,6 +867,41 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
+        }
+      },
+      {
+        "id": "63919265353325281",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1882,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5841N02208E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 22,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "20-21 1115-1300",
+        "text": "TEMPORARY RESTRICTED AREA EER2204 ESTABLISHED FOR MILITARY\r\nOPERATIONS WITHIN: 585111N 0214240E - 585914N 0222637E - 584756N\r\n0224329E - 583600N 0224659E - 582937N 0223450E - 582257N 0220542E -\r\n582824N 0220213E - 583242N 0213106E - 585111N 0214240E EXCLUDING\r\nKARDLA FIZ/RMZ AND KURESSAARE FIZ/RMZ. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-21T13:00:00Z",
+          "start": "2026-07-20T11:15:00Z"
         }
       },
       {
@@ -3263,8 +3329,8 @@
       }
     ]
   },
-  "id": "89502e98-e8d6-473a-b2a0-94975f8b8ca3",
-  "identifier": "BRIEFING-20260719-59",
+  "id": "aeebae97-5922-4540-a311-c1d7bb303d8b",
+  "identifier": "BRIEFING-20260719-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3311,8 +3377,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-20T10:45:00Z",
-    "validityStart": "2026-07-19T10:45:00Z"
+    "validityEnd": "2026-07-20T12:00:00Z",
+    "validityStart": "2026-07-19T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3419,6 +3485,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919866449696321",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919292324597905",
@@ -3907,6 +3978,11 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919265353325281",
               "structureType": "REFERENCE"
             },
             {
