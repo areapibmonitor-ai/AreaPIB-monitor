@@ -1,35 +1,141 @@
 {
-  "createdAt": "2026-07-20T10:15:00.386Z",
+  "createdAt": "2026-07-20T12:30:00.446Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63920130098112065",
+        "id": "63920142685651729",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
         "locations": [
-          "EERU"
+          "EETT"
         ],
         "notamId": {
-          "number": 1978,
+          "number": 1985,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5747N02316E",
+          "condition": "CA",
+          "coordinate": "5912N02636E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "V",
-          "upper": 999
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
         },
-        "text": "RWY 13/31 CLOSED DUE TO MAINTENANCE.",
+        "text": "RESTRICTED AREA EER15G ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 717 3701.",
         "type": "N",
         "validity": {
-          "end": "2026-07-20T12:00:00Z",
-          "start": "2026-07-20T08:00:00Z"
+          "end": "2026-07-21T10:30:00Z",
+          "start": "2026-07-21T08:30:00Z"
+        }
+      },
+      {
+        "id": "63920142506287905",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1984,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-21T10:30:00Z",
+          "start": "2026-07-21T08:30:00Z"
+        }
+      },
+      {
+        "id": "63920142263396865",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1983,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15E ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-21T10:30:00Z",
+          "start": "2026-07-21T08:30:00Z"
+        }
+      },
+      {
+        "id": "63920142129082289",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1982,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5931N02601E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15D ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 717 3701.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-21T10:30:00Z",
+          "start": "2026-07-21T08:30:00Z"
         }
       },
       {
@@ -3253,8 +3359,8 @@
       }
     ]
   },
-  "id": "7c3bb986-290a-48f9-9478-3cbbf55f5965",
-  "identifier": "BRIEFING-20260720-57",
+  "id": "59fbe865-40be-40b7-af9f-94455f99d4f5",
+  "identifier": "BRIEFING-20260720-66",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3301,8 +3407,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-21T10:15:00Z",
-    "validityStart": "2026-07-20T10:15:00Z"
+    "validityEnd": "2026-07-21T12:30:00Z",
+    "validityStart": "2026-07-20T12:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3539,13 +3645,6 @@
               "title": "EEPU - PARNU"
             },
             {
-              "content": [
-                {
-                  "link": false,
-                  "referenceId": "63920130098112065",
-                  "structureType": "REFERENCE"
-                }
-              ],
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
@@ -3801,6 +3900,26 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63920142685651729",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920142506287905",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920142263396865",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920142129082289",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63919883586738209",
