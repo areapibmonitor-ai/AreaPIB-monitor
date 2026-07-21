@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-20T23:30:00.45Z",
+  "createdAt": "2026-07-21T01:00:00.461Z",
   "dynamicData": {
     "notams": [
       {
@@ -1937,6 +1937,41 @@
         }
       },
       {
+        "id": "63918060824458641",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1745,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "14-18 22 25 0700-1600",
+        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-25T16:00:00Z",
+          "start": "2026-07-14T07:00:00Z"
+        }
+      },
+      {
         "id": "63917988603171297",
         "locations": [
           "EETN"
@@ -3289,8 +3324,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920172130354433",
-        "number": 998,
+        "id": "63920188322299537",
+        "number": 999,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3300,40 +3335,40 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-20T19:21:00Z"
+            "time": "2026-07-20T23:50:00Z"
           }
         ]
       }
     ]
   },
-  "id": "468a0dfe-198b-4c42-8e9a-286fa93b4097",
-  "identifier": "BRIEFING-20260720-110",
+  "id": "5a05de49-dc61-4318-b865-04f641b8bec7",
+  "identifier": "BRIEFING-20260721-5",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3372,8 +3407,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-21T23:30:00Z",
-    "validityStart": "2026-07-20T23:30:00Z"
+    "validityEnd": "2026-07-22T01:00:00Z",
+    "validityStart": "2026-07-21T01:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3693,7 +3728,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920172130354433",
+                  "referenceId": "63920188322299537",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4038,6 +4073,11 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63918060824458641",
               "structureType": "REFERENCE"
             },
             {
