@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-21T20:15:00.437Z",
+  "createdAt": "2026-07-21T21:30:00.453Z",
   "dynamicData": {
     "notams": [
       {
@@ -346,6 +346,41 @@
         "validity": {
           "end": "2026-07-24T13:00:00Z",
           "start": "2026-07-20T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919721761593441",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1000FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1942,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5855N02212E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26167UA ESTABLISHED FOR RESTRICTING\r\nUAV/UAS FLIGHTS WITHIN: 585500N 0221144E - 585504N 0221140E - 585508N\r\n0221143E - 585511N 0221148E - 585513N 0221156E - 585507N 0221200E -\r\n585506N 0221156E - 585504N 0221158E - 585500N 0221144E. AN OBJECT OF\r\nTHE MINISTRY OF DEFENCE JURISDICTION. FLIGHTS INTO OR WITHIN THE AREA\r\nARE PROHIBITED WITHOUT PRIOR COORDINATION WITH ESTONIAN DEFENCE\r\nFORCES. PERMISSION TO FLY IN THE AREA SHALL BE REQUESTED AT LEAST 5\r\nWORKING DAYS PRIOR TO THE INTENDED FLIGHT VIA LENNULUBA(AT)MIL.EE.\r\nRESTRICTION DOES NOT APPLY TO THE ESTONIAN DEFENCE FORCES, POLICE AND\r\nBORDER GUARD BOARD, INTERNAL SECURITY SERVICE, TAX AND CUSTOMS BOARD,\r\nRESCUE BOARD AND ENVIRONMENTAL BOARD PERFORMING THEIR STATUTORY\r\nDUTIES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-20T23:59:00Z",
+          "est": true,
+          "start": "2026-07-22T21:00:00Z"
         }
       },
       {
@@ -3266,8 +3301,8 @@
       }
     ]
   },
-  "id": "de7da55e-a083-4461-910b-b3c4dfe79242",
-  "identifier": "BRIEFING-20260721-97",
+  "id": "2883c667-2c2b-462b-84af-469e0e6ed333",
+  "identifier": "BRIEFING-20260721-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3314,8 +3349,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-22T20:15:00Z",
-    "validityStart": "2026-07-21T20:15:00Z"
+    "validityEnd": "2026-07-22T21:30:00Z",
+    "validityStart": "2026-07-21T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3830,6 +3865,11 @@
             {
               "link": false,
               "referenceId": "63919788118110561",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919721761593441",
               "structureType": "REFERENCE"
             },
             {
