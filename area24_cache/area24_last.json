@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-21T11:45:00.44Z",
+  "createdAt": "2026-07-21T14:00:00.434Z",
   "dynamicData": {
     "notams": [
       {
@@ -34,68 +34,6 @@
         "validity": {
           "end": "2026-07-22T18:00:00Z",
           "start": "2026-07-22T06:00:00Z"
-        }
-      },
-      {
-        "id": "63920127979349313",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1976,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "schedule": "DAILY 1115-1300",
-        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 32 NOT AVAILABLE DUE TO MIL\r\nACTIVITY IN EER2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-21T13:00:00Z",
-          "start": "2026-07-20T11:15:00Z"
-        }
-      },
-      {
-        "id": "63920127715709665",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1975,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "schedule": "DAILY 1115-1300",
-        "text": "INSTRUMENT APPROACH PROCEDURES RNP RWY 14 NOT AVAILABLE DUE TO MIL\r\nACTIVITY IN EER2204.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-21T13:00:00Z",
-          "start": "2026-07-20T11:15:00Z"
         }
       },
       {
@@ -579,40 +517,6 @@
         "validity": {
           "end": "2026-07-30T09:59:00Z",
           "start": "2026-07-22T05:00:00Z"
-        }
-      },
-      {
-        "id": "63919544575877153",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1918,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-21T13:59:00Z",
-          "start": "2026-07-21T05:00:00Z"
         }
       },
       {
@@ -1383,41 +1287,6 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
-        }
-      },
-      {
-        "id": "63919265353325281",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL095"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1882,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5841N02208E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 22,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "20-21 1115-1300",
-        "text": "TEMPORARY RESTRICTED AREA EER2204 ESTABLISHED FOR MILITARY\r\nOPERATIONS WITHIN: 585111N 0214240E - 585914N 0222637E - 584756N\r\n0224329E - 583600N 0224659E - 582937N 0223450E - 582257N 0220542E -\r\n582824N 0220213E - 583242N 0213106E - 585111N 0214240E EXCLUDING\r\nKARDLA FIZ/RMZ AND KURESSAARE FIZ/RMZ. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 717 3701.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-21T13:00:00Z",
-          "start": "2026-07-20T11:15:00Z"
         }
       },
       {
@@ -3432,8 +3301,8 @@
       }
     ]
   },
-  "id": "33a22ab7-208a-4044-86e0-63ac0e8192cc",
-  "identifier": "BRIEFING-20260721-63",
+  "id": "311ba917-9876-46e1-bfaa-3baddcd3f70f",
+  "identifier": "BRIEFING-20260721-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3480,8 +3349,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-22T11:45:00Z",
-    "validityStart": "2026-07-21T11:45:00Z"
+    "validityEnd": "2026-07-22T14:00:00Z",
+    "validityStart": "2026-07-21T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3583,16 +3452,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63920127979349313",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920127715709665",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63919292324597905",
@@ -4025,11 +3884,6 @@
             },
             {
               "link": false,
-              "referenceId": "63919544575877153",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63919540596556737",
               "structureType": "REFERENCE"
             },
@@ -4116,11 +3970,6 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919265353325281",
               "structureType": "REFERENCE"
             },
             {
