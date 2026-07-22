@@ -1,7 +1,143 @@
 {
-  "createdAt": "2026-07-22T11:45:00.422Z",
+  "createdAt": "2026-07-22T14:15:00.414Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63920318242202225",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2007,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02636E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15G ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +371 6500 2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-23T10:00:00Z",
+          "start": "2026-07-23T08:00:00Z"
+        }
+      },
+      {
+        "id": "63920318094411297",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2006,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +371 6500 2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-23T10:00:00Z",
+          "start": "2026-07-23T08:00:00Z"
+        }
+      },
+      {
+        "id": "63920317912687329",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2005,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02640E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15E ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +371 6500 2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-23T10:00:00Z",
+          "start": "2026-07-23T08:00:00Z"
+        }
+      },
+      {
+        "id": "63920317735360017",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "FL095"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2004,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5931N02601E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15D ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +371 6500 2204.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-23T10:00:00Z",
+          "start": "2026-07-23T08:00:00Z"
+        }
+      },
       {
         "id": "63920141785686305",
         "levels": {
@@ -3060,8 +3196,8 @@
       }
     ]
   },
-  "id": "6882a556-a8c7-432f-acd2-8b9da1c4d417",
-  "identifier": "BRIEFING-20260722-63",
+  "id": "c706c13e-8d19-4424-a2a4-98e8cf0f3a67",
+  "identifier": "BRIEFING-20260722-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3108,8 +3244,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-23T11:45:00Z",
-    "validityStart": "2026-07-22T11:45:00Z"
+    "validityEnd": "2026-07-23T14:15:00Z",
+    "validityStart": "2026-07-22T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3571,6 +3707,26 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63920318242202225",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920318094411297",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920317912687329",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920317735360017",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63920141785686305",
