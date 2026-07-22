@@ -20136,3 +20136,12 @@ NOT APPLY FOR SAR AND HOSP FLIGHTS.
 F)SFC G)2000FT AMSL
 )
 [2026-07-22T10:03:16Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2cf8f312763sm11738435ad.61 - gsmtp')
+[2026-07-22T12:00:48Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1953/26 expired and was removed from the PIB.
+- NOTAM A1954/26 expired and was removed from the PIB.
+- NOTAM A1955/26 expired and was removed from the PIB.
+- NOTAM A1956/26 expired and was removed from the PIB.
+[2026-07-22T12:00:48Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-930f68a7fffsm149449285a.11 - gsmtp')
