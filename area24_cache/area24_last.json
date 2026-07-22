@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-22T07:15:00.431Z",
+  "createdAt": "2026-07-22T10:00:00.441Z",
   "dynamicData": {
     "notams": [
       {
@@ -1147,6 +1147,40 @@
         "validity": {
           "end": "2026-07-30T18:00:00Z",
           "start": "2026-07-20T04:00:00Z"
+        }
+      },
+      {
+        "id": "63919002915745009",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1848,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5822N02536E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER831 ESTABLISHED FOR VILJANDI FOLK\r\nMUSIC FESTIVAL WITHIN: CIRCLE OF 500M RADIUS CENTERED ON 582135N\r\n0253543E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FM TEL:\r\n+372 522 3583 OR BY E-MAIL: PEEDU.POLD(AT)FOLK.EE. RESTRICTION DOES\r\nNOT APPLY FOR SAR AND HOSP FLIGHTS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T09:00:00Z",
+          "start": "2026-07-23T09:00:00Z"
         }
       },
       {
@@ -3092,8 +3126,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920300421979713",
-        "number": 1004,
+        "id": "63920311039076865",
+        "number": 1006,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3103,25 +3137,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-22T06:59:00Z"
+            "time": "2026-07-22T09:56:00Z"
           }
         ]
       },
@@ -3162,8 +3196,8 @@
       }
     ]
   },
-  "id": "83651677-2dd2-4ecc-99a0-0ca9ae33b6b8",
-  "identifier": "BRIEFING-20260722-45",
+  "id": "66266a6b-9b81-4e15-8d85-1381c3c4a05e",
+  "identifier": "BRIEFING-20260722-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3210,8 +3244,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-23T07:15:00Z",
-    "validityStart": "2026-07-22T07:15:00Z"
+    "validityEnd": "2026-07-23T10:00:00Z",
+    "validityStart": "2026-07-22T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3506,7 +3540,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920300421979713",
+                  "referenceId": "63920311039076865",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3796,6 +3830,11 @@
             {
               "link": false,
               "referenceId": "63919208468726001",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919002915745009",
               "structureType": "REFERENCE"
             },
             {
