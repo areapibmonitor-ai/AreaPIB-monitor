@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-22T23:45:00.443Z",
+  "createdAt": "2026-07-23T01:15:00.463Z",
   "dynamicData": {
     "notams": [
       {
@@ -242,41 +242,6 @@
           "end": "2026-10-20T23:59:00Z",
           "est": true,
           "start": "2026-07-22T21:00:00Z"
-        }
-      },
-      {
-        "id": "63919697483943665",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1936,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "schedule": "20-22 0500-1859, 25 0500-2359, 26-29 H24, 30 0000-1359",
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T13:59:00Z",
-          "start": "2026-07-20T05:00:00Z"
         }
       },
       {
@@ -556,6 +521,41 @@
         }
       },
       {
+        "id": "63919538767438433",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1912,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5753N02221E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "21 24 0600-1800",
+        "text": "RESTRICTED AREA EER2611K ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-24T18:00:00Z",
+          "start": "2026-07-21T06:00:00Z"
+        }
+      },
+      {
         "id": "63919538693936401",
         "levels": {
           "lower": "3000FT AMSL",
@@ -622,6 +622,76 @@
         "type": "N",
         "validity": {
           "end": "2026-07-25T18:00:00Z",
+          "start": "2026-07-21T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919538297199713",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1907,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02156E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "21 24 0600-1800",
+        "text": "RESTRICTED AREA EER2611F ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-24T18:00:00Z",
+          "start": "2026-07-21T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919538187008097",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1906,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5917N02238E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 15,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "21 24 0600-1800",
+        "text": "RESTRICTED AREA EER2611E ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-24T18:00:00Z",
           "start": "2026-07-21T06:00:00Z"
         }
       },
@@ -1606,101 +1676,6 @@
         "validity": {
           "end": "2026-07-31T05:00:00Z",
           "start": "2026-07-02T17:00:00Z"
-        }
-      },
-      {
-        "id": "63918067914181313",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1755,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 07/2026 WEF 09 JUL 2026:\r\n- RNAV ROUTES Q11, Q22, Q33, Q55, Q77, Q92, Q141, Y117, Y123\r\nCOMPLETELY WITHDRAWN.\r\n- FRA CONNECTING ROUTES FOR EFHK DEPARTURES AND ARRIVALS COMPLETELY\r\nWITHDRAWN.\r\n- TEMPORARY SEGREGATED AREA EETSA22J LATERAL LIMITS UPDATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-22T23:59:00Z",
-          "start": "2026-07-09T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918064420463857",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1751,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 07/2026 WEF 09 JUL 2026:\r\n- REMOVED AREA 3 OBSTACLES ID 1051, ID 2951, ID 2954.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-22T23:59:00Z",
-          "start": "2026-07-09T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918060824458641",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1745,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "14-18 22 25 0700-1600",
-        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-25T16:00:00Z",
-          "start": "2026-07-14T07:00:00Z"
         }
       },
       {
@@ -3127,16 +3102,16 @@
       }
     ]
   },
-  "id": "e5cdbb65-b88f-4d0f-9fe4-8ba310c331f3",
-  "identifier": "BRIEFING-20260722-111",
+  "id": "6d994f34-eeed-414a-b785-b5d38c12cea2",
+  "identifier": "BRIEFING-20260723-6",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3175,8 +3150,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-23T23:45:00Z",
-    "validityStart": "2026-07-22T23:45:00Z"
+    "validityEnd": "2026-07-24T01:15:00Z",
+    "validityStart": "2026-07-23T01:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3281,11 +3256,6 @@
                 {
                   "link": false,
                   "referenceId": "63919292324597905",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918064420463857",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3568,11 +3538,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63918067914181313",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63917378605092753",
               "structureType": "REFERENCE"
@@ -3664,11 +3629,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63919697483943665",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63919623126982177",
               "structureType": "REFERENCE"
@@ -3695,12 +3655,27 @@
             },
             {
               "link": false,
+              "referenceId": "63919538767438433",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63919538693936401",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
               "referenceId": "63919538612875377",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919538297199713",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919538187008097",
               "structureType": "REFERENCE"
             },
             {
@@ -3786,11 +3761,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918060824458641",
               "structureType": "REFERENCE"
             },
             {
