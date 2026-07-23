@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-23T17:45:00.436Z",
+  "createdAt": "2026-07-23T19:30:00.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -30,6 +30,41 @@
         "validity": {
           "end": "2026-07-24T10:00:00Z",
           "start": "2026-07-24T07:00:00Z"
+        }
+      },
+      {
+        "id": "63919891993741681",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1958,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "schedule": "24 1800-2359, 25 28 H24, 26 0000-1459, 27 0300-2359, 29 0000-0459",
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-29T04:59:00Z",
+          "start": "2026-07-24T18:00:00Z"
         }
       },
       {
@@ -3123,8 +3158,8 @@
       }
     ]
   },
-  "id": "f8ce6fdd-c5bb-447f-93d2-f40b961badca",
-  "identifier": "BRIEFING-20260723-87",
+  "id": "f11454c9-5889-44d6-90d4-c6b96b1c808b",
+  "identifier": "BRIEFING-20260723-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3171,8 +3206,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-24T17:45:00Z",
-    "validityStart": "2026-07-23T17:45:00Z"
+    "validityEnd": "2026-07-24T19:30:00Z",
+    "validityStart": "2026-07-23T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3639,6 +3674,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63919891993741681",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63919788118110561",
