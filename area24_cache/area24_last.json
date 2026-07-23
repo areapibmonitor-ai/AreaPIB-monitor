@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-07-23T11:45:00.406Z",
+  "createdAt": "2026-07-23T14:15:01.703Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63920408963670209",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2011,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-24T05:00:00Z",
+          "start": "2026-07-23T13:15:00Z"
+        }
+      },
       {
         "id": "63920312679603553",
         "locations": [
@@ -66,6 +96,36 @@
           "end": "2026-07-31T12:00:00Z",
           "est": true,
           "start": "2026-07-17T07:06:00Z"
+        }
+      },
+      {
+        "id": "63919804473707985",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1946,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 08/26 CLSD DUE TO DRAG RACE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-26T09:00:00Z",
+          "start": "2026-07-24T13:00:00Z"
         }
       },
       {
@@ -2621,6 +2681,36 @@
         }
       },
       {
+        "id": "63915383627850033",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 1328,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5819N02646E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 34,
+          "scope": "AE",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TRIGGER NOTAM - AIRAC AIP SUP 11/2026 WEF 09 JUL 2026. TARTU AFIS\r\nAND\r\nAD CLSD. RESTRICTIONS TO OVERFLY TARTU AD DUE TO RACING EVENT\r\nSPEEDEST GLASSDRIVE NIGHTRACE 2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-26T09:00:00Z",
+          "start": "2026-07-24T13:00:00Z"
+        }
+      },
+      {
         "id": "63915648888656033",
         "locations": [
           "EETU"
@@ -3063,8 +3153,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920384976934273",
-        "number": 1012,
+        "id": "63920409091720017",
+        "number": 1013,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3092,7 +3182,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-23T06:28:00Z"
+            "time": "2026-07-23T13:10:00Z"
           }
         ]
       },
@@ -3133,8 +3223,8 @@
       }
     ]
   },
-  "id": "cd505a06-5aad-43bc-87ec-10cfcd59e12f",
-  "identifier": "BRIEFING-20260723-63",
+  "id": "74bd50cc-1fb4-4524-be67-f302804efb7b",
+  "identifier": "BRIEFING-20260723-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3181,8 +3271,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-24T11:45:00Z",
-    "validityStart": "2026-07-23T11:45:00Z"
+    "validityEnd": "2026-07-24T14:15:00Z",
+    "validityStart": "2026-07-23T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3477,7 +3567,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920384976934273",
+                  "referenceId": "63920409091720017",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3487,6 +3577,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63919804473707985",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919692194322417",
@@ -3544,6 +3639,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63915383627850033",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
                 },
@@ -3568,6 +3668,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63920408963670209",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63918337546481745",
@@ -3596,6 +3701,11 @@
             {
               "link": false,
               "referenceId": "63916840332689953",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63915383627850033",
               "structureType": "REFERENCE"
             },
             {
