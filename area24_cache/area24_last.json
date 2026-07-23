@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-23T16:00:00.429Z",
+  "createdAt": "2026-07-23T17:45:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -302,41 +302,6 @@
         "validity": {
           "end": "2026-07-30T09:59:00Z",
           "start": "2026-07-22T05:00:00Z"
-        }
-      },
-      {
-        "id": "63919540596556737",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1916,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02425E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "22 0630-1200, 23 1300-1700",
-        "text": "DANGER AREA EED37 (HUMALA) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-23T17:00:00Z",
-          "start": "2026-07-22T06:30:00Z"
         }
       },
       {
@@ -3158,8 +3123,8 @@
       }
     ]
   },
-  "id": "36124578-5b95-42af-9d75-7f298bb35d70",
-  "identifier": "BRIEFING-20260723-80",
+  "id": "f8ce6fdd-c5bb-447f-93d2-f40b961badca",
+  "identifier": "BRIEFING-20260723-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3206,8 +3171,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-24T16:00:00Z",
-    "validityStart": "2026-07-23T16:00:00Z"
+    "validityEnd": "2026-07-24T17:45:00Z",
+    "validityStart": "2026-07-23T17:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3687,11 +3652,6 @@
             {
               "link": true,
               "referenceId": "63919623126982177",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919540596556737",
               "structureType": "REFERENCE"
             },
             {
