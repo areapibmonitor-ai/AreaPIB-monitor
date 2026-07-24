@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-24T11:45:00.41Z",
+  "createdAt": "2026-07-24T14:00:00.403Z",
   "dynamicData": {
     "notams": [
       {
@@ -137,41 +137,6 @@
         "validity": {
           "end": "2026-07-26T09:00:00Z",
           "start": "2026-07-24T13:00:00Z"
-        }
-      },
-      {
-        "id": "63919788118110561",
-        "levels": {
-          "lower": "1000FT AGL",
-          "upper": "3500FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1943,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5850N02528E",
-          "fir": "EETT",
-          "lower": 10,
-          "purpose": "BO",
-          "radius": 8,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 38
-        },
-        "schedule": "DAILY 0600-1300",
-        "text": "TEMPORARY RESTRICTED AREA EER26169UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585602N 0251831E - 585615N\r\n0253716E - 584940N 0253406E - 584424N 0251905E - 585602N 0251831E\r\nEXCLUDING EETSA21 (NURMSI). PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +37256502880.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-24T13:00:00Z",
-          "start": "2026-07-20T06:00:00Z"
         }
       },
       {
@@ -3007,8 +2972,8 @@
       }
     ]
   },
-  "id": "eda9ea67-236e-4ae2-a0ba-bc837e9c1152",
-  "identifier": "BRIEFING-20260724-63",
+  "id": "62cd7d8e-84f2-4843-ba6a-1a9b60c3bf5e",
+  "identifier": "BRIEFING-20260724-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3055,8 +3020,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-25T11:45:00Z",
-    "validityStart": "2026-07-24T11:45:00Z"
+    "validityEnd": "2026-07-25T14:00:00Z",
+    "validityStart": "2026-07-24T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3491,11 +3456,6 @@
             {
               "link": false,
               "referenceId": "63919891993741681",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919788118110561",
               "structureType": "REFERENCE"
             },
             {
