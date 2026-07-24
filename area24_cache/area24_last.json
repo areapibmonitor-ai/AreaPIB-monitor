@@ -1,35 +1,41 @@
 {
-  "createdAt": "2026-07-24T04:30:00.417Z",
+  "createdAt": "2026-07-24T07:15:00.422Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63920312679603553",
+        "id": "63920469903538769",
         "locations": [
-          "EEEI"
+          "EEKA"
         ],
         "notamId": {
-          "number": 2003,
+          "number": 2026,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
+          "condition": "HX",
+          "coordinate": "5859N02250E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "BO",
+          "purpose": "NBO",
           "radius": 5,
           "scope": "A",
-          "subject": "NT",
+          "subject": "FA",
           "traffic": "IV",
           "upper": 999
         },
-        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.",
-        "type": "N",
+        "referenceId": {
+          "number": 1203,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - DUCKS, LAPWINGS, GULLS, CROWS, LARKS AND SPARROWS.\r\nMAX FLOCK SIZE - 50 BIRDS.",
+        "type": "R",
         "validity": {
-          "end": "2026-07-24T10:00:00Z",
-          "start": "2026-07-24T07:00:00Z"
+          "end": "2026-08-31T07:00:00Z",
+          "est": true,
+          "start": "2026-07-24T06:04:00Z"
         }
       },
       {
@@ -1210,6 +1216,40 @@
         "validity": {
           "end": "2026-07-30T18:00:00Z",
           "start": "2026-07-20T04:00:00Z"
+        }
+      },
+      {
+        "id": "63919006093785761",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1600FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1849,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02604E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 16
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26165UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 575045N 0260330E - 575049N\r\n0260350E - 575045N 0260357E - 575045N 0260408E - 575021N 0260413E -\r\n575016N 0260408E - 575012N 0260334E - 575045N 0260330E. PERMISSION\r\nFOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5330 9948.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-25T17:00:00Z",
+          "start": "2026-07-25T05:00:00Z"
         }
       },
       {
@@ -2786,42 +2826,6 @@
         }
       },
       {
-        "id": "63915284864602369",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 1203,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 668,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - DUCKS, LAPWINGS, GULLS, CROWS, LARKS AND SPARROWS.\r\nMAX FLOCK SIZE - 50 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-24T07:00:00Z",
-          "est": true,
-          "start": "2026-05-25T05:47:00Z"
-        }
-      },
-      {
         "id": "63914852146938465",
         "locations": [
           "EETT"
@@ -3189,11 +3193,46 @@
             "time": "2026-07-24T01:55:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63920471109656945",
+        "number": 556,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-07-24T06:24:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "247343f4-ac34-49fb-a879-816553d312fc",
-  "identifier": "BRIEFING-20260724-32",
+  "id": "36ad016a-1ba9-4418-8fdb-dd2ccec5239f",
+  "identifier": "BRIEFING-20260724-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3240,8 +3279,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-25T04:30:00Z",
-    "validityStart": "2026-07-24T04:30:00Z"
+    "validityEnd": "2026-07-25T07:15:00Z",
+    "validityStart": "2026-07-24T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3313,11 +3352,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63920312679603553",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919868831306161",
                   "structureType": "REFERENCE"
                 },
@@ -3350,6 +3384,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63920469903538769",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63919292324597905",
                   "structureType": "REFERENCE"
                 },
@@ -3366,11 +3405,6 @@
                 {
                   "link": false,
                   "referenceId": "63916779442260577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63915284864602369",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3620,6 +3654,11 @@
                   "link": false,
                   "referenceId": "63912009825894017",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63920471109656945",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3831,6 +3870,11 @@
             {
               "link": false,
               "referenceId": "63919208468726001",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919006093785761",
               "structureType": "REFERENCE"
             },
             {
