@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-24T14:00:00.403Z",
+  "createdAt": "2026-07-24T15:45:00.413Z",
   "dynamicData": {
     "notams": [
       {
@@ -2902,8 +2902,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920477456646865",
-        "number": 1016,
+        "id": "63920498543238145",
+        "number": 1017,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2931,49 +2931,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-24T08:10:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63920471109656945",
-        "number": 556,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-24T06:24:00Z"
+            "time": "2026-07-24T14:01:00Z"
           }
         ]
       }
     ]
   },
-  "id": "62cd7d8e-84f2-4843-ba6a-1a9b60c3bf5e",
-  "identifier": "BRIEFING-20260724-72",
+  "id": "d423912a-7907-458c-a9d5-bd3d6ab3cdba",
+  "identifier": "BRIEFING-20260724-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3020,8 +2985,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-25T14:00:00Z",
-    "validityStart": "2026-07-24T14:00:00Z"
+    "validityEnd": "2026-07-25T15:45:00Z",
+    "validityStart": "2026-07-24T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3296,7 +3261,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920477456646865",
+                  "referenceId": "63920498543238145",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3374,11 +3339,6 @@
                 {
                   "link": false,
                   "referenceId": "63915648888656033",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920471109656945",
                   "structureType": "REFERENCE"
                 }
               ],
