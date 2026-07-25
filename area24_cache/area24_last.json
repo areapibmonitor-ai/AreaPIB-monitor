@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-25T16:00:00.412Z",
+  "createdAt": "2026-07-25T17:15:00.403Z",
   "dynamicData": {
     "notams": [
       {
@@ -1008,40 +1008,6 @@
         "validity": {
           "end": "2026-07-30T18:00:00Z",
           "start": "2026-07-20T04:00:00Z"
-        }
-      },
-      {
-        "id": "63919006093785761",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1600FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1849,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02604E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 16
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26165UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 575045N 0260330E - 575049N\r\n0260350E - 575045N 0260357E - 575045N 0260408E - 575021N 0260413E -\r\n575016N 0260408E - 575012N 0260334E - 575045N 0260330E. PERMISSION\r\nFOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5330 9948.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-25T17:00:00Z",
-          "start": "2026-07-25T05:00:00Z"
         }
       },
       {
@@ -2626,8 +2592,8 @@
       }
     ]
   },
-  "id": "27aa2023-9fcc-458a-9034-3a04eea8551b",
-  "identifier": "BRIEFING-20260725-80",
+  "id": "913f8a59-d68f-4562-8475-a379ddc009c6",
+  "identifier": "BRIEFING-20260725-85",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2674,8 +2640,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-26T16:00:00Z",
-    "validityStart": "2026-07-25T16:00:00Z"
+    "validityEnd": "2026-07-26T17:15:00Z",
+    "validityStart": "2026-07-25T17:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3195,11 +3161,6 @@
             {
               "link": false,
               "referenceId": "63919208468726001",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919006093785761",
               "structureType": "REFERENCE"
             },
             {
