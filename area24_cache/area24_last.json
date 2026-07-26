@@ -1,7 +1,72 @@
 {
-  "createdAt": "2026-07-26T04:45:00.404Z",
+  "createdAt": "2026-07-26T07:15:00.493Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63920504441145313",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL070"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2053,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5932N02619E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 11,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 70
+        },
+        "schedule": "27-29 31 0600-1400",
+        "text": "TEMPORARY AREA FOR LASER HAZARD (UAS LASER EQUIPMENT TESTING )\r\nWILL TAKE PLACE WITHIN: CIRCLE OF 3.5NM RADIUS CENTERED ON 593202N\r\n0261855E WITH UPPER LIMIT 6500FT AGL (RUTJA). SHORT DURATION LASER\r\nBEAMS MAY CAUSE BLINDNESS IF VIEWED WITHIN TEST AIRSPACE BTN SFC AND\r\nFL70. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR UNTIL 10NM\r\nFROM 593202N 0261855E UNTIL FL70.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-31T14:00:00Z",
+          "start": "2026-07-27T06:00:00Z"
+        }
+      },
+      {
+        "id": "63920489232258705",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2050,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5840N02633E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AE",
+          "subject": "ND",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "DME KRP 112.150 MHZ/CH58Y UNSERVICEABLE DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T10:30:00Z",
+          "start": "2026-07-27T07:00:00Z"
+        }
+      },
       {
         "id": "63920469903538769",
         "locations": [
@@ -36,6 +101,75 @@
           "end": "2026-08-31T07:00:00Z",
           "est": true,
           "start": "2026-07-24T06:04:00Z"
+        }
+      },
+      {
+        "id": "63920141541661009",
+        "levels": {
+          "lower": "SFC",
+          "upper": "6500FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1980,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5932N02619E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 68
+        },
+        "schedule": "27-29 31 0600-1400",
+        "text": "TEMPORARY RESTRICTED AREA EER26170UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 6KM RADIUS CENTERED ON\r\n593202N 0261855E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +37258514984.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-31T14:00:00Z",
+          "start": "2026-07-27T06:00:00Z"
+        }
+      },
+      {
+        "id": "63919980929173201",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1959,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02329E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 25
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2573UAS ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585620N 0232605E - 585627N\r\n0233054E - 585217N 0233320E - 585041N 0232851E - 585620N 0232605E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T17:00:00Z",
+          "start": "2026-07-27T05:30:00Z"
         }
       },
       {
@@ -2383,8 +2517,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920627622338033",
-        "number": 1023,
+        "id": "63920640984890097",
+        "number": 1024,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2394,32 +2528,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-26T01:52:00Z"
+            "time": "2026-07-26T05:35:00Z"
           }
         ]
       }
     ]
   },
-  "id": "b8c47c83-0020-42ca-8376-46c570737a86",
-  "identifier": "BRIEFING-20260726-34",
+  "id": "7484c213-934b-4e79-8238-57f1fb22b62f",
+  "identifier": "BRIEFING-20260726-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2466,8 +2600,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-27T04:45:00Z",
-    "validityStart": "2026-07-26T04:45:00Z"
+    "validityEnd": "2026-07-27T07:15:00Z",
+    "validityStart": "2026-07-26T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2742,7 +2876,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920627622338033",
+                  "referenceId": "63920640984890097",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2752,6 +2886,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63920489232258705",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919804473707985",
@@ -2835,6 +2974,11 @@
           "content": [
             {
               "link": true,
+              "referenceId": "63920489232258705",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63918337546481745",
               "structureType": "REFERENCE"
             },
@@ -2894,6 +3038,21 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63920504441145313",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920141541661009",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63919980929173201",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63919891993741681",
