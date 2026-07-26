@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-26T11:00:00.436Z",
+  "createdAt": "2026-07-26T12:30:00.405Z",
   "dynamicData": {
     "notams": [
       {
@@ -35,6 +35,36 @@
         "validity": {
           "end": "2026-07-31T14:00:00Z",
           "start": "2026-07-27T06:00:00Z"
+        }
+      },
+      {
+        "id": "63920490534714065",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2051,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IC",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS RWY 26 UNSERVICEABLE DUE TO MAINT, EXCEPT FOR SCHEDULED\r\nFLIGHTS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T15:30:00Z",
+          "start": "2026-07-27T11:30:00Z"
         }
       },
       {
@@ -1114,41 +1144,6 @@
           "end": "2026-08-04T10:30:00Z",
           "est": true,
           "start": "2026-07-04T10:28:00Z"
-        }
-      },
-      {
-        "id": "63918664930064113",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1833,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "15 19 21 0500-1359, 17 1500-1959, 18 23-25 0500-1959, 22\r\n1200-1959, 26 0500-1159",
-        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-26T11:59:00Z",
-          "start": "2026-07-15T05:00:00Z"
         }
       },
       {
@@ -2633,8 +2628,8 @@
       }
     ]
   },
-  "id": "32696f78-9bb0-4ff4-9c7d-fcd7c28caa16",
-  "identifier": "BRIEFING-20260726-60",
+  "id": "3f6ce219-ef51-4d99-9346-4751d241eaeb",
+  "identifier": "BRIEFING-20260726-66",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2681,8 +2676,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-27T11:00:00Z",
-    "validityStart": "2026-07-26T11:00:00Z"
+    "validityEnd": "2026-07-27T12:30:00Z",
+    "validityStart": "2026-07-26T12:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2765,11 +2760,6 @@
                 {
                   "link": false,
                   "referenceId": "63919526187483249",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918664930064113",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2967,6 +2957,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63920490534714065",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63920489232258705",
@@ -3212,11 +3207,6 @@
             {
               "link": false,
               "referenceId": "63919002915745009",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63918664930064113",
               "structureType": "REFERENCE"
             },
             {

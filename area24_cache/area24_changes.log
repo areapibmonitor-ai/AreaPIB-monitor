@@ -20611,3 +20611,18 @@ F)3000FT AMSL G)FL095
 )
 [2026-07-26T09:36:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-314bc447f6bsm21571253eec.12 - gsmtp')
 [2026-07-26T11:09:45Z] NO CHANGE in dynamicData.notams.
+[2026-07-26T12:32:51Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1833/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2051/26 NOTAMN
+Q)EETT/ICAS/I/NBO/A/000/999/5818N02641E005
+A)EETU B)2607271130 C)2607271530
+E)ILS RWY 26 UNSERVICEABLE DUE TO MAINT, EXCEPT FOR SCHEDULED
+FLIGHTS.
+)
+[2026-07-26T12:32:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-529a27f68f3sm35305971cf.9 - gsmtp')
