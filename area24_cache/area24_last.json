@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-27T13:45:00.418Z",
+  "createdAt": "2026-07-27T16:15:00.443Z",
   "dynamicData": {
     "notams": [
       {
@@ -30,36 +30,6 @@
         "validity": {
           "end": "2026-07-28T12:30:00Z",
           "start": "2026-07-28T06:30:00Z"
-        }
-      },
-      {
-        "id": "63920745199783889",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2055,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-27T16:35:00Z",
-          "start": "2026-07-27T10:35:00Z"
         }
       },
       {
@@ -125,36 +95,6 @@
         "validity": {
           "end": "2026-07-28T10:30:00Z",
           "start": "2026-07-28T06:30:00Z"
-        }
-      },
-      {
-        "id": "63920490534714065",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2051,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IC",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS RWY 26 UNSERVICEABLE DUE TO MAINT, EXCEPT FOR SCHEDULED\r\nFLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-27T15:30:00Z",
-          "start": "2026-07-27T11:30:00Z"
         }
       },
       {
@@ -365,36 +305,6 @@
         "validity": {
           "end": "2026-07-30T14:00:00Z",
           "start": "2026-07-28T06:00:00Z"
-        }
-      },
-      {
-        "id": "63920486108933377",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2041,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MX",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APRON M TWY CLSD BTN STAND M17 AND STAND M21 (BOTH INCLUDED.)",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-28T17:00:00Z",
-          "start": "2026-07-28T05:00:00Z"
         }
       },
       {
@@ -3033,8 +2943,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920752997982913",
-        "number": 1033,
+        "id": "63920762847014929",
+        "number": 1035,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3044,50 +2954,15 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-07-27T12:42:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63920730151749729",
-        "number": 558,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
@@ -3097,22 +2972,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-27T06:20:00Z"
+            "time": "2026-07-27T15:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "9fb230f2-aead-4c3c-a0a9-145c679f0e3c",
-  "identifier": "BRIEFING-20260727-71",
+  "id": "f1922089-feb2-499e-b405-7f14079a4844",
+  "identifier": "BRIEFING-20260727-81",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3151,8 +3026,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-28T13:45:00Z",
-    "validityStart": "2026-07-27T13:45:00Z"
+    "validityEnd": "2026-07-28T16:15:00Z",
+    "validityStart": "2026-07-27T16:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3357,11 +3232,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63920486108933377",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919528456013617",
                   "structureType": "REFERENCE"
                 },
@@ -3437,7 +3307,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920752997982913",
+                  "referenceId": "63920762847014929",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3447,11 +3317,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63920490534714065",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63919692194322417",
@@ -3511,11 +3376,6 @@
                   "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920730151749729",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3528,11 +3388,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63920745199783889",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63918337546481745",
