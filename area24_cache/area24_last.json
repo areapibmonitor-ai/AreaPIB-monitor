@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-07-27T08:15:00.423Z",
+  "createdAt": "2026-07-27T11:30:00.431Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63920746997262465",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2057,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "APCH LIGHTING SYSTEM PALS-I RWY 24 U/S DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-28T12:30:00Z",
+          "start": "2026-07-28T06:30:00Z"
+        }
+      },
+      {
+        "id": "63920745199783889",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2055,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-27T16:35:00Z",
+          "start": "2026-07-27T10:35:00Z"
+        }
+      },
       {
         "id": "63920504441145313",
         "levels": {
@@ -95,36 +155,6 @@
         "validity": {
           "end": "2026-07-27T15:30:00Z",
           "start": "2026-07-27T11:30:00Z"
-        }
-      },
-      {
-        "id": "63920489232258705",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2050,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5840N02633E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "ND",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "DME KRP 112.150 MHZ/CH58Y UNSERVICEABLE DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-27T10:30:00Z",
-          "start": "2026-07-27T07:00:00Z"
         }
       },
       {
@@ -265,6 +295,41 @@
         "validity": {
           "end": "2026-07-30T12:00:00Z",
           "start": "2026-07-27T08:30:00Z"
+        }
+      },
+      {
+        "id": "63920487850611185",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2999FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2045,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "28-30 0830-1200",
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 529 6130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-30T12:00:00Z",
+          "start": "2026-07-28T08:30:00Z"
         }
       },
       {
@@ -1484,40 +1549,6 @@
           "end": "2026-10-08T23:59:00Z",
           "est": true,
           "start": "2026-07-10T07:35:00Z"
-        }
-      },
-      {
-        "id": "63919002915745009",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1848,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5822N02536E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER831 ESTABLISHED FOR VILJANDI FOLK\r\nMUSIC FESTIVAL WITHIN: CIRCLE OF 500M RADIUS CENTERED ON 582135N\r\n0253543E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FM TEL:\r\n+372 522 3583 OR BY E-MAIL: PEEDU.POLD(AT)FOLK.EE. RESTRICTION DOES\r\nNOT APPLY FOR SAR AND HOSP FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-27T09:00:00Z",
-          "start": "2026-07-23T09:00:00Z"
         }
       },
       {
@@ -3002,8 +3033,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920717766553617",
-        "number": 1031,
+        "id": "63920739497813233",
+        "number": 1032,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3013,25 +3044,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "coverage": "50",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-27T02:54:00Z"
+            "time": "2026-07-27T08:57:00Z"
           }
         ]
       },
@@ -3072,8 +3103,8 @@
       }
     ]
   },
-  "id": "90573de7-b013-41f8-b4a4-c09270458699",
-  "identifier": "BRIEFING-20260727-49",
+  "id": "6cd70173-17f7-4a67-88a4-a39719c17b1c",
+  "identifier": "BRIEFING-20260727-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3120,8 +3151,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-28T08:15:00Z",
-    "validityStart": "2026-07-27T08:15:00Z"
+    "validityEnd": "2026-07-28T11:30:00Z",
+    "validityStart": "2026-07-27T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3191,6 +3222,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63920746997262465",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919868831306161",
@@ -3401,7 +3437,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920717766553617",
+                  "referenceId": "63920739497813233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3414,11 +3450,6 @@
                 {
                   "link": false,
                   "referenceId": "63920490534714065",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920489232258705",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3498,8 +3529,8 @@
         {
           "content": [
             {
-              "link": true,
-              "referenceId": "63920489232258705",
+              "link": false,
+              "referenceId": "63920745199783889",
               "structureType": "REFERENCE"
             },
             {
@@ -3581,6 +3612,11 @@
             {
               "link": false,
               "referenceId": "63920488143663297",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920487850611185",
               "structureType": "REFERENCE"
             },
             {
@@ -3706,11 +3742,6 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919002915745009",
               "structureType": "REFERENCE"
             },
             {
