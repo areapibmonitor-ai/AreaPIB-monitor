@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-28T01:00:00.406Z",
+  "createdAt": "2026-07-28T04:15:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -406,6 +406,40 @@
         "validity": {
           "end": "2026-10-21T17:00:00Z",
           "start": "2026-07-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920305349480657",
+        "levels": {
+          "lower": "2200FT AMSL",
+          "upper": "3100FT AMSL"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 1999,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02448E",
+          "fir": "EETT",
+          "lower": 22,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 31
+        },
+        "text": "TEMPORARY DANGER AREA EED2409 ESTABLISHED FOR FIRING WITHIN:\r\n581915N 0244530E - 581932N 0245008E - 581734N 0244906E - 581823N\r\n0244515E - 581915N 0244530E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL\r\n+372 5303 2206.",
+        "type": "N",
+        "validity": {
+          "end": "2026-07-29T09:59:00Z",
+          "start": "2026-07-29T04:00:00Z"
         }
       },
       {
@@ -2905,8 +2939,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920776644250033",
-        "number": 1037,
+        "id": "63920799072084753",
+        "number": 1038,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2934,14 +2968,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-27T19:16:00Z"
+            "time": "2026-07-28T01:29:00Z"
           }
         ]
       }
     ]
   },
-  "id": "9a9ddbdc-1885-4d11-8468-e2c2441abf7c",
-  "identifier": "BRIEFING-20260728-5",
+  "id": "486ea149-7648-4b6c-8306-00d7396848d8",
+  "identifier": "BRIEFING-20260728-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2988,8 +3022,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-29T01:00:00Z",
-    "validityStart": "2026-07-28T01:00:00Z"
+    "validityEnd": "2026-07-29T04:15:00Z",
+    "validityStart": "2026-07-28T04:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3162,6 +3196,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63920305349480657",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63919623126982177",
                   "structureType": "REFERENCE"
                 },
@@ -3264,7 +3303,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920776644250033",
+                  "referenceId": "63920799072084753",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3444,6 +3483,11 @@
             {
               "link": false,
               "referenceId": "63920310026862465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63920305349480657",
               "structureType": "REFERENCE"
             },
             {
