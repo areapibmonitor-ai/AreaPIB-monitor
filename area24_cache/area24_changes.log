@@ -21129,3 +21129,24 @@ F)SFC G)4400FT AMSL
 [2026-07-29T14:55:27Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-933e733a27esm184575085a.34 - gsmtp')
 [2026-07-29T16:36:24Z] NO CHANGE in dynamicData.notams.
 [2026-07-29T17:59:00Z] NO CHANGE in dynamicData.notams.
+[2026-07-29T19:37:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2063/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2086/26 NOTAMN
+Q)EETT/NTAS/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2607300700 C)2607300830
+E)VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINTENANCE.
+)
+
+New NOTAM added:
+(A2087/26 NOTAMN
+Q)EETT/LAAS/IV/NBO/A/000/999/5916N02413E005
+A)EEEI B)2607301030 C)2607301330
+E)APCH LIGHTING SYSTEM PALS-I RWY 24 U/S DUE TO MAINTENANCE.
+)
+[2026-07-29T19:37:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6aca528b2b7sm2518798eaf.7 - gsmtp')
