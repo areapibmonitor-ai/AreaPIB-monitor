@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-30T17:00:00.44Z",
+  "createdAt": "2026-07-30T18:45:00.439Z",
   "dynamicData": {
     "notams": [
       {
@@ -313,40 +313,6 @@
         "validity": {
           "end": "2026-10-21T17:00:00Z",
           "start": "2026-07-28T05:00:00Z"
-        }
-      },
-      {
-        "id": "63920306005860673",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2000,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T17:59:00Z",
-          "start": "2026-07-30T05:00:00Z"
         }
       },
       {
@@ -1223,41 +1189,6 @@
         }
       },
       {
-        "id": "63919208468726001",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1880,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "20 0400-2359, 21-23 H24, 24 0000-1800, 26 0500-1400, 29-30\r\n0500-1800",
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T18:00:00Z",
-          "start": "2026-07-20T04:00:00Z"
-        }
-      },
-      {
         "id": "63918757851211905",
         "locations": [
           "EEPU"
@@ -1605,42 +1536,6 @@
         "validity": {
           "end": "2026-07-31T05:00:00Z",
           "start": "2026-07-02T17:00:00Z"
-        }
-      },
-      {
-        "id": "63918058976340849",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1743,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "WED-THU SAT-SUN 0700-1800",
-        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T18:00:00Z",
-          "est": true,
-          "start": "2026-07-01T07:00:00Z"
         }
       },
       {
@@ -2670,8 +2565,8 @@
       }
     ]
   },
-  "id": "926c024d-e8a0-4d8f-b27b-a9bb5ba3f990",
-  "identifier": "BRIEFING-20260730-84",
+  "id": "ca371307-39ff-4e92-b5fd-599a0de7e005",
+  "identifier": "BRIEFING-20260730-91",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2718,8 +2613,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-31T17:00:00Z",
-    "validityStart": "2026-07-30T17:00:00Z"
+    "validityEnd": "2026-07-31T18:45:00Z",
+    "validityStart": "2026-07-30T18:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3147,11 +3042,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63920306005860673",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63920075546615201",
               "structureType": "REFERENCE"
@@ -3242,11 +3132,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63919208468726001",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63918418771218417",
               "structureType": "REFERENCE"
@@ -3254,11 +3139,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918058976340849",
               "structureType": "REFERENCE"
             },
             {
