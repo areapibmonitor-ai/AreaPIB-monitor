@@ -21232,3 +21232,10 @@ E)METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST
 VIA TEL +372 717 3413.
 )
 [2026-07-30T09:46:05Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-9083231d3absm14026446d6.17 - gsmtp')
+[2026-07-30T11:42:11Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1924/26 expired and was removed from the PIB.
+- NOTAM A2089/26 expired and was removed from the PIB.
+[2026-07-30T11:42:11Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-933e736a9ffsm396033985a.47 - gsmtp')
