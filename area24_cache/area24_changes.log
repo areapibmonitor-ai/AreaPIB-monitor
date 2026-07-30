@@ -21166,3 +21166,29 @@ E)RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.
 [2026-07-29T23:45:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-81fb8a89ee1sm773957b3.32 - gsmtp')
 [2026-07-30T01:05:38Z] NO CHANGE in dynamicData.notams.
 [2026-07-30T04:23:32Z] NO CHANGE in dynamicData.notams.
+[2026-07-30T07:16:30Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2009/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/017/5922N02425E001
+A)EETT B)2607310700 C)2607311030
+E)DANGER AREA EED37 (HUMALA) ACTIVATED.
+F)SFC G)1700FT AMSL
+)
+
+New NOTAM added:
+(A2088/26 NOTAMN
+Q)EETT/LBAS/V/M/A/000/999/5916N02413E005
+A)EEEI B)2607300545 C)2608061400
+E)AERODROME BEACON U/S.
+)
+
+New NOTAM added:
+(A2089/26 NOTAMN
+Q)EETT/MRLC/V/NBO/A/000/999/5747N02316E005
+A)EERU B)2607300700 C)2607301000
+E)EERU RWY 13/31 CLOSED DUE TO MAINTENANCE
+)
+[2026-07-30T07:16:30Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-31504cc6936sm16903066eec.17 - gsmtp')
