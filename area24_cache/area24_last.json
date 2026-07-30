@@ -1,7 +1,119 @@
 {
-  "createdAt": "2026-07-30T07:15:00.416Z",
+  "createdAt": "2026-07-30T09:45:00.406Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63920999363675681",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2093,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1721,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "RUNWAY 08/26 180DEG TURN PROHIBITED FOR AIRCRAFT MASS HEAVIER THAN\r\n7000KG EXCEPT AT TWY AND RWY INTERSECTIONS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-25T13:30:00Z",
+          "est": true,
+          "start": "2026-07-30T09:00:00Z"
+        }
+      },
+      {
+        "id": "63920994462176129",
+        "levels": {
+          "lower": "SFC",
+          "upper": "450FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2092,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 9
+        },
+        "referenceId": {
+          "number": 1669,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "TEMPORARY DANGER AREA EED2519B ESTABLISHED FOR SLACKLINE BETWEEN\r\nKIVIOLI TUHAMAGI AND KIVIOLI UUS TUHAMAGI WITHIN: 592139N 0265540E -\r\n592145N 0265540E - 592146N 0265716E - 592139N 0265717E - 592139N\r\n0265540E. SLACKLINE ATTACHMENT POINTS ARE ILLUMINATED AT NIGHT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-30T10:00:00Z",
+          "est": true,
+          "start": "2026-07-30T07:47:00Z"
+        }
+      },
+      {
+        "id": "63920993597446529",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2091,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1950,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST\r\nVIA TEL +372 717 3413.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-14T14:00:00Z",
+          "est": true,
+          "start": "2026-07-30T07:32:00Z"
+        }
+      },
       {
         "id": "63920989820626897",
         "locations": [
@@ -91,36 +203,6 @@
         "validity": {
           "end": "2026-07-30T13:30:00Z",
           "start": "2026-07-30T10:30:00Z"
-        }
-      },
-      {
-        "id": "63920944141689505",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2086,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "NT",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINTENANCE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T08:30:00Z",
-          "start": "2026-07-30T07:00:00Z"
         }
       },
       {
@@ -1059,42 +1141,6 @@
         "validity": {
           "end": "2026-08-03T06:00:00Z",
           "start": "2026-07-27T18:00:00Z"
-        }
-      },
-      {
-        "id": "63919868831306161",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1950,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1836,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST\r\nVIA TEL +372 717 3413.",
-        "type": "R",
-        "validity": {
-          "end": "2026-07-31T12:00:00Z",
-          "est": true,
-          "start": "2026-07-17T07:06:00Z"
         }
       },
       {
@@ -2111,37 +2157,6 @@
         }
       },
       {
-        "id": "63917988603171297",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1721,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RUNWAY 08/26 180DEG TURN PROHIBITED FOR AIRCRAFT MASS HEAVIER THAN\r\n7000KG  EXCEPT AT TWY AND RWY INTERSECTIONS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T13:30:00Z",
-          "est": true,
-          "start": "2026-06-26T00:00:00Z"
-        }
-      },
-      {
         "id": "63917714622410833",
         "levels": {
           "lower": "SFC",
@@ -2244,41 +2259,6 @@
         "validity": {
           "end": "2026-07-31T18:59:00Z",
           "start": "2026-07-01T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917461755182017",
-        "levels": {
-          "lower": "SFC",
-          "upper": "450FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1669,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 9
-        },
-        "text": "TEMPORARY DANGER AREA EED2519B ESTABLISHED FOR SLACKLINE BETWEEN\r\nKIVIOLI TUHAMAGI AND KIVIOLI UUS TUHAMAGI WITHIN: 592139N 0265540E -\r\n592145N 0265540E - 592146N 0265716E - 592139N 0265717E - 592139N\r\n0265540E. SLACKLINE ATTACHMENT POINTS ARE ILLUMINATED AT NIGHT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-30T10:00:00Z",
-          "est": true,
-          "start": "2026-06-20T00:00:00Z"
         }
       },
       {
@@ -3168,8 +3148,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63920970176312657",
-        "number": 1046,
+        "id": "63920994271692017",
+        "number": 1047,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3197,7 +3177,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-30T01:02:00Z"
+            "time": "2026-07-30T07:43:00Z"
           }
         ]
       },
@@ -3238,8 +3218,8 @@
       }
     ]
   },
-  "id": "f13334ed-ecd6-436d-9b29-5746d7ba0b21",
-  "identifier": "BRIEFING-20260730-45",
+  "id": "186652f1-08ae-43c5-882b-7e50987999d8",
+  "identifier": "BRIEFING-20260730-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3286,8 +3266,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-07-31T07:15:00Z",
-    "validityStart": "2026-07-30T07:15:00Z"
+    "validityEnd": "2026-07-31T09:45:00Z",
+    "validityStart": "2026-07-30T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3359,22 +3339,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63920993597446529",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63920987102301137",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63920944371549409",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920944141689505",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63919868831306161",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3499,6 +3474,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63920999363675681",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63920482452300385",
                   "structureType": "REFERENCE"
                 },
@@ -3525,11 +3505,6 @@
                 {
                   "link": false,
                   "referenceId": "63918319286605393",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917988603171297",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3584,7 +3559,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920970176312657",
+                  "referenceId": "63920994271692017",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3726,6 +3701,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63920994462176129",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63920504441145313",
@@ -3934,11 +3914,6 @@
             {
               "link": false,
               "referenceId": "63917465415470929",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917461755182017",
               "structureType": "REFERENCE"
             },
             {
