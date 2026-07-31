@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-31T18:00:00.421Z",
+  "createdAt": "2026-07-31T19:45:00.428Z",
   "dynamicData": {
     "notams": [
       {
@@ -1785,76 +1785,6 @@
         }
       },
       {
-        "id": "63917465599186017",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1678,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5921N02728E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "DAILY 0500-1859",
-        "text": "DANGER AREA EED26 (VIRU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T18:59:00Z",
-          "start": "2026-07-01T05:00:00Z"
-        }
-      },
-      {
-        "id": "63917465415470929",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1677,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5915N02554E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "DAILY 0500-1859",
-        "text": "DANGER AREA EED13 (TAPA 1) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T18:59:00Z",
-          "start": "2026-07-01T05:00:00Z"
-        }
-      },
-      {
         "id": "63917455049070385",
         "locations": [
           "EEEI"
@@ -2741,8 +2671,8 @@
       }
     ]
   },
-  "id": "cf3916e5-69ef-47d1-8015-1d6b7fb9c57f",
-  "identifier": "BRIEFING-20260731-88",
+  "id": "38db322b-3825-447d-8229-30252900271c",
+  "identifier": "BRIEFING-20260731-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2789,8 +2719,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-01T18:00:00Z",
-    "validityStart": "2026-07-31T18:00:00Z"
+    "validityEnd": "2026-08-01T19:45:00Z",
+    "validityStart": "2026-07-31T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3365,16 +3295,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917465599186017",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917465415470929",
               "structureType": "REFERENCE"
             },
             {
