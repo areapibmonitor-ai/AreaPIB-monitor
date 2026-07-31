@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-07-31T00:00:00.429Z",
+  "createdAt": "2026-07-31T03:45:00.458Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921004958802689",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2095,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 34,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1000-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0600-0900 1000-1300 2100-2200\r\nEXC 1, 8 CLOSED\r\n2-7, 9 0630-0900 1000-1400\r\n10 0600-0900 1000-1300 2100-2200\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR. IF SERVICE IS NOT\r\nAVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-08-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63921004394934609",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2094,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 0845-1230 1330-1655\r\nEXC 10-31 CLOSED\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-08-01T00:00:00Z"
+        }
+      },
       {
         "id": "63920999363675681",
         "locations": [
@@ -143,6 +203,36 @@
           "end": "2026-08-06T14:00:00Z",
           "est": true,
           "start": "2026-07-30T05:45:00Z"
+        }
+      },
+      {
+        "id": "63920924162510609",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2084,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0600-1300 2100-2200\r\nEXCEPT:\r\n01 08 CLOSED\r\n02-07 09 0630-1400\r\n10 0600-1300 2100-2200.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-08-01T00:00:00Z"
         }
       },
       {
@@ -1282,36 +1372,6 @@
         "validity": {
           "perm": true,
           "start": "2026-07-02T12:45:00Z"
-        }
-      },
-      {
-        "id": "63918479957251441",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1798,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T02:15:00Z",
-          "start": "2026-07-30T23:00:00Z"
         }
       },
       {
@@ -2495,8 +2555,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921039993326689",
-        "number": 1049,
+        "id": "63921057485708865",
+        "number": 1050,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2524,14 +2584,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-30T20:26:00Z"
+            "time": "2026-07-31T01:17:00Z"
           }
         ]
       }
     ]
   },
-  "id": "2753662d-33c1-40b1-b5c3-9b9c3a5b242e",
-  "identifier": "BRIEFING-20260731-1",
+  "id": "c641822a-4d1e-439c-9307-5eaf7bb79021",
+  "identifier": "BRIEFING-20260731-25",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2578,8 +2638,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-01T00:00:00Z",
-    "validityStart": "2026-07-31T00:00:00Z"
+    "validityEnd": "2026-08-01T03:45:00Z",
+    "validityStart": "2026-07-31T03:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2715,6 +2775,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63921004394934609",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63920075546615201",
                   "structureType": "REFERENCE"
                 },
@@ -2789,11 +2854,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918479957251441",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918400221082769",
                   "structureType": "REFERENCE"
                 },
@@ -2854,7 +2914,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921039993326689",
+                  "referenceId": "63921057485708865",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -2864,6 +2924,16 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63921004958802689",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63920924162510609",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63919692194322417",
@@ -2930,6 +3000,16 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63921004958802689",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63921004394934609",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63918337546481745",
