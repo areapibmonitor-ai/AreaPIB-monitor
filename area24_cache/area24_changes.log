@@ -21442,3 +21442,23 @@ E)DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.
 F)SFC G)2100FT AMSL
 )
 [2026-07-31T09:50:25Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-81fcd1576cesm3829487b3.46 - gsmtp')
+[2026-07-31T12:08:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1885/26 expired and was removed from the PIB.
+- NOTAM A2009/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A2038/26 was replaced with NOTAM A2112/26.
+AFTN: (A2112/26 NOTAMR A2038/26
+
+(A2112/26 NOTAMR A2038/26
+Q)EETT/OBCE/IV/M/A/000/999/5925N02450E005
+A)EETN B)2607311140 C)2608071430
+D)JUL 31 1140-1430, AUG 03-07 0600-1430
+E)TEMPORARY MOBILE OBSTACLE (EXCAVATOR) LOCATED IN STRIP AREA ALONG
+A LINE: 592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT.
+NOT LIGHTED.
+)
+[2026-07-31T12:08:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-38fb29ca477sm610349a91.8 - gsmtp')

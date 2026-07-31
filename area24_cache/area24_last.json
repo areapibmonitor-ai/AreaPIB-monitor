@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-07-31T09:45:00.486Z",
+  "createdAt": "2026-07-31T12:00:00.43Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921094907026481",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2112,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2038,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "JUL 31 1140-1430, AUG 03-07 0600-1430",
+        "text": "TEMPORARY MOBILE OBSTACLE (EXCAVATOR) LOCATED IN STRIP AREA ALONG\r\nA LINE: 592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT.\r\nNOT LIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-07T14:30:00Z",
+          "start": "2026-07-31T11:40:00Z"
+        }
+      },
       {
         "id": "63921004958802689",
         "locations": [
@@ -341,37 +377,6 @@
         }
       },
       {
-        "id": "63920482452300385",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2038,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "schedule": "DAILY 0600-1400",
-        "text": "TEMPORARY MOBILE OBSTACLE (EXCAVATOR) LOCATED IN STRIP AREA ALONG\r\nA LINE: 592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT.\r\nNOT LIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-07T14:00:00Z",
-          "start": "2026-07-29T06:00:00Z"
-        }
-      },
-      {
         "id": "63920482010233089",
         "levels": {
           "lower": "SFC",
@@ -545,40 +550,6 @@
           "end": "2026-08-31T07:00:00Z",
           "est": true,
           "start": "2026-07-24T06:04:00Z"
-        }
-      },
-      {
-        "id": "63920390530905969",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2009,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02425E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "DANGER AREA EED37 (HUMALA) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T10:30:00Z",
-          "start": "2026-07-31T07:00:00Z"
         }
       },
       {
@@ -1481,41 +1452,6 @@
           "end": "2026-08-31T13:00:00Z",
           "est": true,
           "start": "2026-07-10T15:00:00Z"
-        }
-      },
-      {
-        "id": "63919273065898001",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1885,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02443E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "18 30 0500-1659, 19 22 26 0500-1359, 20-21 0500-1559, 23 29\r\n0600-1259, 24 0700-1059, 25 0500-1959, 27-28 0600-1359, 31 0600-0959",
-        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
-        "type": "N",
-        "validity": {
-          "end": "2026-07-31T09:59:00Z",
-          "start": "2026-07-18T05:00:00Z"
         }
       },
       {
@@ -2945,8 +2881,8 @@
       }
     ]
   },
-  "id": "0dd853b9-ed17-4bc1-b2d4-a958146d61b9",
-  "identifier": "BRIEFING-20260731-55",
+  "id": "8f1d2be1-f310-4ee5-87f9-e73610c1c395",
+  "identifier": "BRIEFING-20260731-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2993,8 +2929,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-01T09:45:00Z",
-    "validityStart": "2026-07-31T09:45:00Z"
+    "validityEnd": "2026-08-01T12:00:00Z",
+    "validityStart": "2026-07-31T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3194,6 +3130,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63921094907026481",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63920999363675681",
                   "structureType": "REFERENCE"
                 },
@@ -3204,17 +3145,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920482452300385",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63919528456013617",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63919273065898001",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3473,11 +3404,6 @@
             },
             {
               "link": false,
-              "referenceId": "63920390530905969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63920312500052321",
               "structureType": "REFERENCE"
             },
@@ -3569,11 +3495,6 @@
             {
               "link": false,
               "referenceId": "63919523458892545",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63919273065898001",
               "structureType": "REFERENCE"
             },
             {
