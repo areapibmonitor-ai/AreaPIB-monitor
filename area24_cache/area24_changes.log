@@ -21462,3 +21462,10 @@ A LINE: 592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT.
 NOT LIGHTED.
 )
 [2026-07-31T12:08:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-38fb29ca477sm610349a91.8 - gsmtp')
+[2026-07-31T14:40:58Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A1516/26 expired and was removed from the PIB.
+- NOTAM A1517/26 expired and was removed from the PIB.
+[2026-07-31T14:40:58Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-908431af2c1sm11722416d6.0 - gsmtp')
