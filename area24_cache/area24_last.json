@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-31T06:45:00.431Z",
+  "createdAt": "2026-07-31T09:45:00.486Z",
   "dynamicData": {
     "notams": [
       {
@@ -236,6 +236,41 @@
         }
       },
       {
+        "id": "63920836957579873",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2073,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "01-02 05-09 12-16 19-23 26-30 0700-1700",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T17:00:00Z",
+          "start": "2026-08-01T07:00:00Z"
+        }
+      },
+      {
         "id": "63920482944702577",
         "levels": {
           "lower": "SFC",
@@ -268,6 +303,41 @@
         "validity": {
           "end": "2026-08-15T14:59:00Z",
           "start": "2026-08-01T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920482752882689",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2039,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "01 0700-1359, 02 0500-1159, 03 0600-1459, 04 0500-1459, 05\r\n0300-1959, 06 0300-1859, 07 0500-0859, 08 0400-1859, 09 0400-1359,\r\n10-13 0500-1559, 14 0600-1059",
+        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-14T10:59:00Z",
+          "start": "2026-08-01T07:00:00Z"
         }
       },
       {
@@ -578,6 +648,41 @@
         "validity": {
           "end": "2026-10-21T17:00:00Z",
           "start": "2026-07-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920221576567521",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1994,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01 04-08 12-15 18 22 28-30 0700-1600",
+        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T16:00:00Z",
+          "start": "2026-08-01T07:00:00Z"
         }
       },
       {
@@ -2770,8 +2875,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921057485708865",
-        "number": 1050,
+        "id": "63921079018977489",
+        "number": 1051,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2799,7 +2904,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-31T01:17:00Z"
+            "time": "2026-07-31T07:15:00Z"
           }
         ]
       },
@@ -2840,8 +2945,8 @@
       }
     ]
   },
-  "id": "2bf98160-1f4e-41b6-8e55-eaeba81d9dc6",
-  "identifier": "BRIEFING-20260731-43",
+  "id": "0dd853b9-ed17-4bc1-b2d4-a958146d61b9",
+  "identifier": "BRIEFING-20260731-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2888,8 +2993,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-01T06:45:00Z",
-    "validityStart": "2026-07-31T06:45:00Z"
+    "validityEnd": "2026-08-01T09:45:00Z",
+    "validityStart": "2026-07-31T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3094,6 +3199,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63920482752882689",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63920482452300385",
                   "structureType": "REFERENCE"
                 },
@@ -3164,7 +3274,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921057485708865",
+                  "referenceId": "63921079018977489",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3328,7 +3438,17 @@
             },
             {
               "link": false,
+              "referenceId": "63920836957579873",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63920482944702577",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63920482752882689",
               "structureType": "REFERENCE"
             },
             {
@@ -3364,6 +3484,11 @@
             {
               "link": false,
               "referenceId": "63920310026862465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920221576567521",
               "structureType": "REFERENCE"
             },
             {
