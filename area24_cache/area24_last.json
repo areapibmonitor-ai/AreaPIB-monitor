@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-07-31T14:30:00.448Z",
+  "createdAt": "2026-07-31T16:15:00.402Z",
   "dynamicData": {
     "notams": [
       {
@@ -2741,8 +2741,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921104775914865",
-        "number": 1053,
+        "id": "63921106668270017",
+        "number": 1054,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2764,28 +2764,28 @@
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-07-31T14:24:00Z"
+            "time": "2026-07-31T14:56:00Z"
           }
         ]
       }
     ]
   },
-  "id": "b92ed187-5ad6-4073-9384-09d37531a5c3",
-  "identifier": "BRIEFING-20260731-74",
+  "id": "a33fbd61-91cd-4dff-8b96-1f54c5696560",
+  "identifier": "BRIEFING-20260731-81",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2824,8 +2824,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-01T14:30:00Z",
-    "validityStart": "2026-07-31T14:30:00Z"
+    "validityEnd": "2026-08-01T16:15:00Z",
+    "validityStart": "2026-07-31T16:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3100,7 +3100,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921104775914865",
+                  "referenceId": "63921106668270017",
                   "structureType": "REFERENCE"
                 }
               ],
