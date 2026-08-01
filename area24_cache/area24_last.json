@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-01T04:30:00.402Z",
+  "createdAt": "2026-08-01T07:15:00.402Z",
   "dynamicData": {
     "notams": [
       {
@@ -268,6 +268,41 @@
         "validity": {
           "end": "2026-08-30T17:00:00Z",
           "start": "2026-08-01T07:00:00Z"
+        }
+      },
+      {
+        "id": "63920487170087665",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1900FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2043,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5816N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 19
+        },
+        "schedule": "02 15 0600-1559, 03 20 27 0900-1759, 04 08 16 18 0500-1459, 05 10\r\n19 24 0900-1559, 06-07 0600-1359, 11 0500-1759, 12 0500-1859, 13-14\r\n0500-1359, 21 0500-0959, 26 1200-1659, 29 0500-1659",
+        "text": "DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM: +372 525 8504. AREA DEACTIVATION IS POSSIBLE BY ATS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-29T16:59:00Z",
+          "start": "2026-08-02T06:00:00Z"
         }
       },
       {
@@ -2545,8 +2580,8 @@
       }
     ]
   },
-  "id": "9403258b-4ef7-43bb-b9aa-c7186f4ead83",
-  "identifier": "BRIEFING-20260801-32",
+  "id": "61774b4f-9904-42cf-a32a-bd8f5a8167dd",
+  "identifier": "BRIEFING-20260801-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2593,8 +2628,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-02T04:30:00Z",
-    "validityStart": "2026-08-01T04:30:00Z"
+    "validityEnd": "2026-08-02T07:15:00Z",
+    "validityStart": "2026-08-01T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2881,6 +2916,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63920487170087665",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63919692194322417",
                   "structureType": "REFERENCE"
                 },
@@ -2999,6 +3039,11 @@
             {
               "link": false,
               "referenceId": "63920836957579873",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63920487170087665",
               "structureType": "REFERENCE"
             },
             {
