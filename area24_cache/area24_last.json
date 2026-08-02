@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-08-02T07:15:00.427Z",
+  "createdAt": "2026-08-02T09:30:00.386Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63921206245294433",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2118,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-02T09:00:00Z",
-          "start": "2026-08-01T21:00:00Z"
-        }
-      },
       {
         "id": "63921094907026481",
         "locations": [
@@ -2716,8 +2686,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63921248701218161",
-        "number": 566,
+        "id": "63921254196792945",
+        "number": 567,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2727,32 +2697,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "75",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-02T06:21:00Z"
+            "time": "2026-08-02T07:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "11c520bb-6044-47f1-8c4e-1b5850179458",
-  "identifier": "BRIEFING-20260802-45",
+  "id": "c2ead89d-736e-4842-b9cb-637f705d3e50",
+  "identifier": "BRIEFING-20260802-54",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2799,8 +2769,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-03T07:15:00Z",
-    "validityStart": "2026-08-02T07:15:00Z"
+    "validityEnd": "2026-08-03T09:30:00Z",
+    "validityStart": "2026-08-02T09:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3147,7 +3117,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921248701218161",
+                  "referenceId": "63921254196792945",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3161,11 +3131,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63921206245294433",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63921004958802689",
