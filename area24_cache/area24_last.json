@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-02T16:15:00.394Z",
+  "createdAt": "2026-08-02T17:15:00.408Z",
   "dynamicData": {
     "notams": [
       {
@@ -794,6 +794,36 @@
         "validity": {
           "end": "2026-08-30T20:00:00Z",
           "start": "2026-08-01T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920129703894321",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1977,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:\r\nAUG 03 1700-04 0500, 07 1700-08 0500, 11 1700-12 0500, 15 1700-16\r\n0500, 19 1700-20 0500, 23 1700-24 0500, 27 1700-28 0500, 31 1700-2359\r\nSEP 01 0000-0500",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-01T05:00:00Z",
+          "start": "2026-08-03T17:00:00Z"
         }
       },
       {
@@ -2686,8 +2716,8 @@
       }
     ]
   },
-  "id": "eb1a024a-457f-4f41-909f-a3b7a74e53c7",
-  "identifier": "BRIEFING-20260802-81",
+  "id": "d2ddc680-932f-4572-8554-c5352da63270",
+  "identifier": "BRIEFING-20260802-85",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2734,8 +2764,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-03T16:15:00Z",
-    "validityStart": "2026-08-02T16:15:00Z"
+    "validityEnd": "2026-08-03T17:15:00Z",
+    "validityStart": "2026-08-02T17:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2941,6 +2971,11 @@
                 {
                   "link": false,
                   "referenceId": "63920482752882689",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63920129703894321",
                   "structureType": "REFERENCE"
                 },
                 {
