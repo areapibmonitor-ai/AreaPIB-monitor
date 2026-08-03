@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-03T10:45:00.405Z",
+  "createdAt": "2026-08-03T13:45:00.435Z",
   "dynamicData": {
     "notams": [
       {
@@ -550,41 +550,6 @@
         "validity": {
           "end": "2026-08-30T16:59:00Z",
           "start": "2026-08-03T05:00:00Z"
-        }
-      },
-      {
-        "id": "63920737766228305",
-        "levels": {
-          "lower": "SFC",
-          "upper": "165FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2054,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5818N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 2
-        },
-        "schedule": "DAILY 0700-0900",
-        "text": "TEMPORARY RESTRICTED AREA EER2617A ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 581849N 0264305.50E - 581848.80N\r\n0264319.60E - 581807.60N 0264332.90E - 581807.40N 0264319.70E -\r\n581849N 0264305.50E. INFORMATION ABOUT ACTIVITY IN THE AREA AVAILABLE\r\nFROM TARTU AFIS. ADDITIONAL INFORMATION AVAILABLE FROM OPERATOR +372\r\n516 8285.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-07T09:00:00Z",
-          "start": "2026-08-03T07:00:00Z"
         }
       },
       {
@@ -2575,8 +2540,8 @@
       }
     ]
   },
-  "id": "fcbb0126-de34-4523-94ef-96440d22b3a1",
-  "identifier": "BRIEFING-20260803-59",
+  "id": "2a33a72f-4b10-4d93-896f-9f9732988c0d",
+  "identifier": "BRIEFING-20260803-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2623,8 +2588,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-04T10:45:00Z",
-    "validityStart": "2026-08-03T10:45:00Z"
+    "validityEnd": "2026-08-04T13:45:00Z",
+    "validityStart": "2026-08-03T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2921,11 +2886,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920737766228305",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63920487170087665",
                   "structureType": "REFERENCE"
                 },
@@ -3079,11 +3039,6 @@
             {
               "link": false,
               "referenceId": "63920746654767425",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63920737766228305",
               "structureType": "REFERENCE"
             },
             {
