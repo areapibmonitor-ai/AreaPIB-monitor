@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-04T07:15:00.382Z",
+  "createdAt": "2026-08-04T10:00:00.675Z",
   "dynamicData": {
     "notams": [
       {
@@ -1559,42 +1559,6 @@
         }
       },
       {
-        "id": "63918757851211905",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 1837,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1375,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPES OF BIRDS: LAPWINGS, CROWS, BLACKBIRDS, GEESE, CRANES, JACKDAWS,\r\nGULLS, SWIFTS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-04T10:30:00Z",
-          "est": true,
-          "start": "2026-07-04T10:28:00Z"
-        }
-      },
-      {
         "id": "63918593470378785",
         "locations": [
           "EETU"
@@ -2610,8 +2574,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921405078828849",
-        "number": 1068,
+        "id": "63921427423579057",
+        "number": 1069,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2639,7 +2603,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-04T01:50:00Z"
+            "time": "2026-08-04T08:02:00Z"
           }
         ]
       },
@@ -2680,8 +2644,8 @@
       }
     ]
   },
-  "id": "221f1054-37cb-40e9-91a7-f65c5e8a2be4",
-  "identifier": "BRIEFING-20260804-45",
+  "id": "84279c29-0de1-4546-b81e-5f7c170f8423",
+  "identifier": "BRIEFING-20260804-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2728,8 +2692,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-05T07:15:00Z",
-    "validityStart": "2026-08-04T07:15:00Z"
+    "validityEnd": "2026-08-05T10:00:00Z",
+    "validityStart": "2026-08-04T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2902,11 +2866,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918757851211905",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917306548858241",
                   "structureType": "REFERENCE"
                 }
@@ -3004,7 +2963,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921405078828849",
+                  "referenceId": "63921427423579057",
                   "structureType": "REFERENCE"
                 }
               ],
