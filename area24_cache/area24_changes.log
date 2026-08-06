@@ -22078,3 +22078,16 @@ F)SFC G)3000FT AGL
 )
 [2026-08-06T06:17:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13fca6576b7sm18984187c88.7 - gsmtp')
 [2026-08-06T09:16:14Z] NO CHANGE in dynamicData.notams.
+[2026-08-06T11:36:41Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A2088/26 was replaced with NOTAM A2161/26.
+AFTN: (A2161/26 NOTAMR A2088/26
+
+(A2161/26 NOTAMR A2088/26
+Q)EETT/LBAS/V/M/A/000/999/5916N02413E005
+A)EEEI B)2608061042 C)2609041400
+E)AERODROME BEACON U/S.
+)
+[2026-08-06T11:36:41Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-13fca660e66sm23692778c88.8 - gsmtp')

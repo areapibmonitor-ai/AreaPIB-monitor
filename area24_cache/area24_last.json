@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-08-06T09:15:00.423Z",
+  "createdAt": "2026-08-06T11:30:00.406Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921609802922321",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2161,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LB",
+          "traffic": "V",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2088,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "AERODROME BEACON U/S.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-04T14:00:00Z",
+          "est": true,
+          "start": "2026-08-06T10:42:00Z"
+        }
+      },
       {
         "id": "63921525023082497",
         "levels": {
@@ -420,37 +456,6 @@
           "end": "2026-08-14T14:00:00Z",
           "est": true,
           "start": "2026-07-30T07:32:00Z"
-        }
-      },
-      {
-        "id": "63920987102301137",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2088,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LB",
-          "traffic": "V",
-          "upper": 999
-        },
-        "text": "AERODROME BEACON U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-06T14:00:00Z",
-          "est": true,
-          "start": "2026-07-30T05:45:00Z"
         }
       },
       {
@@ -2938,8 +2943,8 @@
       }
     ]
   },
-  "id": "0a21e8a8-c8d8-444e-8c4b-c9bd7d0daf1d",
-  "identifier": "BRIEFING-20260806-53",
+  "id": "11f240f6-39a7-4369-b691-37750d04cb7f",
+  "identifier": "BRIEFING-20260806-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2986,8 +2991,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-07T09:15:00Z",
-    "validityStart": "2026-08-06T09:15:00Z"
+    "validityEnd": "2026-08-07T11:30:00Z",
+    "validityStart": "2026-08-06T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3059,17 +3064,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63921609802922321",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63921335878328705",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63920993597446529",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920987102301137",
                   "structureType": "REFERENCE"
                 },
                 {
