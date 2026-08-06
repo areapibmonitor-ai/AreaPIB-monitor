@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-05T23:00:00.434Z",
+  "createdAt": "2026-08-06T00:00:00.43Z",
   "dynamicData": {
     "notams": [
       {
@@ -142,6 +142,41 @@
           "end": "2026-08-24T14:00:00Z",
           "est": true,
           "start": "2026-08-03T05:42:00Z"
+        }
+      },
+      {
+        "id": "63921098353731137",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2117,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02425E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "04 0630-1200, 07 0700-0900, 08 0600-1400, 11 18 0600-2359, 12 H24,\r\n13 19 0000-1100, 15 0630-2359, 16 0000-1500",
+        "text": "DANGER AREA EED37 (HUMALA) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-19T11:00:00Z",
+          "start": "2026-08-04T06:30:00Z"
         }
       },
       {
@@ -585,41 +620,6 @@
         "validity": {
           "end": "2026-08-15T17:59:00Z",
           "start": "2026-08-04T05:00:00Z"
-        }
-      },
-      {
-        "id": "63920748061019873",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2059,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "03 10 17 24 0500-2359, 04 11 18 25-26 H24, 05 0000-1359, 12-13\r\n0000-0459 1700-2359, 14 19 27 0000-1659",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-27T16:59:00Z",
-          "start": "2026-08-03T05:00:00Z"
         }
       },
       {
@@ -1391,41 +1391,6 @@
         "validity": {
           "end": "2026-08-30T16:00:00Z",
           "start": "2026-08-01T07:00:00Z"
-        }
-      },
-      {
-        "id": "63920214210570225",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1987,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "04 13-14 0500-2000, 05 09 11-12 0500-1400, 08 1200-2000",
-        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T20:00:00Z",
-          "start": "2026-08-04T05:00:00Z"
         }
       },
       {
@@ -2904,16 +2869,16 @@
       }
     ]
   },
-  "id": "77bc2d48-946f-466f-99e7-40268a664981",
-  "identifier": "BRIEFING-20260805-108",
+  "id": "7f5451e0-4760-4c0e-811c-da73012e243a",
+  "identifier": "BRIEFING-20260806-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2952,8 +2917,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-06T23:00:00Z",
-    "validityStart": "2026-08-05T23:00:00Z"
+    "validityEnd": "2026-08-07T00:00:00Z",
+    "validityStart": "2026-08-06T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3397,6 +3362,11 @@
             },
             {
               "link": false,
+              "referenceId": "63921098353731137",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63921094385018913",
               "structureType": "REFERENCE"
             },
@@ -3423,11 +3393,6 @@
             {
               "link": true,
               "referenceId": "63920750285983457",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63920748061019873",
               "structureType": "REFERENCE"
             },
             {
@@ -3533,11 +3498,6 @@
             {
               "link": false,
               "referenceId": "63920221576567521",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63920214210570225",
               "structureType": "REFERENCE"
             },
             {
