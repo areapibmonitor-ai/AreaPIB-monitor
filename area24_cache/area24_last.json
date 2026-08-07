@@ -1,7 +1,76 @@
 {
-  "createdAt": "2026-08-07T09:00:00.403Z",
+  "createdAt": "2026-08-07T10:00:00.393Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921691334025745",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2165,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "08 10 0600-2000",
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5485 0882.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-10T20:00:00Z",
+          "start": "2026-08-08T06:00:00Z"
+        }
+      },
+      {
+        "id": "63921690936700625",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2800FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2164,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5800N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 28
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26175UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 580038N 0245901E - 580552N\r\n0245545E - 580855N 0250207E - 580748N 0252113E - 575429N 0260340E -\r\n575114N 0255458E - 580038N 0245901E EXCLUDING RIGA FIR. ALL AIRCRAFT\r\n(INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO OR IN THE\r\nAREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER GUARD\r\nBOARD. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL\r\n+372 5309 4264.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-11T09:00:00Z",
+          "start": "2026-08-08T09:30:00Z"
+        }
+      },
       {
         "id": "63921683540933777",
         "locations": [
@@ -3025,8 +3094,8 @@
       }
     ]
   },
-  "id": "168b3019-9af2-460d-84c9-d192e715bc7c",
-  "identifier": "BRIEFING-20260807-52",
+  "id": "7aaa1c15-b1d6-4438-abab-1d65ae5af988",
+  "identifier": "BRIEFING-20260807-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3073,8 +3142,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-08T09:00:00Z",
-    "validityStart": "2026-08-07T09:00:00Z"
+    "validityEnd": "2026-08-08T10:00:00Z",
+    "validityStart": "2026-08-07T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3541,6 +3610,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63921691334025745",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921690936700625",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63921525023082497",
