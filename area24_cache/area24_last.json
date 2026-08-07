@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-07T06:30:00.399Z",
+  "createdAt": "2026-08-07T08:00:00.403Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921683540933777",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2163,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 6.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-07T11:15:00Z",
+          "start": "2026-08-07T09:30:00Z"
+        }
+      },
       {
         "id": "63921609802922321",
         "locations": [
@@ -2925,8 +2955,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921664275026193",
-        "number": 1080,
+        "id": "63921685070793857",
+        "number": 1081,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2954,7 +2984,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-07T01:49:00Z"
+            "time": "2026-08-07T07:37:00Z"
           }
         ]
       },
@@ -2995,8 +3025,8 @@
       }
     ]
   },
-  "id": "92ec4254-93a5-4067-85df-918df1b09e50",
-  "identifier": "BRIEFING-20260807-42",
+  "id": "19833417-f046-4472-9647-c1ac7e75123a",
+  "identifier": "BRIEFING-20260807-48",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3043,8 +3073,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-08T06:30:00Z",
-    "validityStart": "2026-08-07T06:30:00Z"
+    "validityEnd": "2026-08-08T08:00:00Z",
+    "validityStart": "2026-08-07T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3349,7 +3379,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921664275026193",
+                  "referenceId": "63921685070793857",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3359,6 +3389,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63921683540933777",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63921004958802689",
