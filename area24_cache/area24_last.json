@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-07T17:15:02.92Z",
+  "createdAt": "2026-08-07T18:15:00.475Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921719894882433",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2180,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-08T18:00:00Z",
+          "start": "2026-08-07T18:00:00Z"
+        }
+      },
       {
         "id": "63921691334025745",
         "levels": {
@@ -2959,8 +2989,8 @@
       }
     ]
   },
-  "id": "c92417aa-8182-4f5f-aaa8-569835a9a4f5",
-  "identifier": "BRIEFING-20260807-85",
+  "id": "3b10f699-3394-4c1e-98f2-bbdf310be35e",
+  "identifier": "BRIEFING-20260807-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3007,8 +3037,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-08T17:15:00Z",
-    "validityStart": "2026-08-07T17:15:00Z"
+    "validityEnd": "2026-08-08T18:15:00Z",
+    "validityStart": "2026-08-07T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3394,6 +3424,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63921719894882433",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63921522923548865",
