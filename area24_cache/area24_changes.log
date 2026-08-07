@@ -22265,3 +22265,9 @@ F)SFC G)2200FT AMSL
 )
 [2026-08-07T10:14:18Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b02bbbf755sm2084520eaf.2 - gsmtp')
 [2026-08-07T11:11:02Z] NO CHANGE in dynamicData.notams.
+[2026-08-07T12:00:50Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2163/26 expired and was removed from the PIB.
+[2026-08-07T12:00:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-52d160da94dsm10528691cf.0 - gsmtp')

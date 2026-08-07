@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-07T11:00:00.415Z",
+  "createdAt": "2026-08-07T11:45:00.401Z",
   "dynamicData": {
     "notams": [
       {
@@ -69,36 +69,6 @@
         "validity": {
           "end": "2026-08-11T09:00:00Z",
           "start": "2026-08-08T09:30:00Z"
-        }
-      },
-      {
-        "id": "63921683540933777",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2163,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FIRE FIGHTING AND RESCUE SERVICE UPGRADED TO CATEGORY 6.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-07T11:15:00Z",
-          "start": "2026-08-07T09:30:00Z"
         }
       },
       {
@@ -3094,8 +3064,8 @@
       }
     ]
   },
-  "id": "99f08edf-b3f6-44cc-b4b7-3744bd2667be",
-  "identifier": "BRIEFING-20260807-60",
+  "id": "4a65aa56-4b96-436b-b84f-05a34da3c954",
+  "identifier": "BRIEFING-20260807-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3142,8 +3112,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-08T11:00:00Z",
-    "validityStart": "2026-08-07T11:00:00Z"
+    "validityEnd": "2026-08-08T11:45:00Z",
+    "validityStart": "2026-08-07T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3458,11 +3428,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63921683540933777",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63921004958802689",
