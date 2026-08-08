@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-08-08T16:00:00.4Z",
+  "createdAt": "2026-08-08T16:45:00.41Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63921802066711969",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2182,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MX",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2131,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "APRON TWY CLSD BTN STANDS M17 AND M21 (BOTH INCLUDED).",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-08T21:00:00Z",
+          "start": "2026-08-08T16:07:00Z"
+        }
+      },
       {
         "id": "63921719894882433",
         "locations": [
@@ -235,36 +270,6 @@
         "validity": {
           "end": "2026-08-09T17:00:00Z",
           "start": "2026-08-09T05:00:00Z"
-        }
-      },
-      {
-        "id": "63921440914180993",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2131,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MX",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APRON TWY CLSD BTN STANDS M17 AND M21 (BOTH INCLUDED).",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-08T17:00:00Z",
-          "start": "2026-08-08T05:00:00Z"
         }
       },
       {
@@ -3229,8 +3234,8 @@
       }
     ]
   },
-  "id": "ffdab844-f827-49c9-9236-8d7587c8b796",
-  "identifier": "BRIEFING-20260808-80",
+  "id": "e5064ae5-3997-4ffb-874a-b27b3ebbf993",
+  "identifier": "BRIEFING-20260808-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3277,8 +3282,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-09T16:00:00Z",
-    "validityStart": "2026-08-08T16:00:00Z"
+    "validityEnd": "2026-08-09T16:45:00Z",
+    "validityStart": "2026-08-08T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3498,12 +3503,12 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63921441247401777",
+                  "referenceId": "63921802066711969",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63921440914180993",
+                  "referenceId": "63921441247401777",
                   "structureType": "REFERENCE"
                 },
                 {
