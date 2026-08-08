@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-08T04:30:00.4Z",
+  "createdAt": "2026-08-08T05:15:00.429Z",
   "dynamicData": {
     "notams": [
       {
@@ -205,6 +205,36 @@
         "validity": {
           "end": "2026-09-10T23:59:00Z",
           "start": "2026-08-05T10:36:00Z"
+        }
+      },
+      {
+        "id": "63921441247401777",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2132,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MX",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "APRON TWY CLSD BTN STANDS M23 AND M28 (BOTH INCLUDED).",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-09T17:00:00Z",
+          "start": "2026-08-09T05:00:00Z"
         }
       },
       {
@@ -3199,8 +3229,8 @@
       }
     ]
   },
-  "id": "6f69732e-e210-49d3-ba95-a5c1c5951528",
-  "identifier": "BRIEFING-20260808-32",
+  "id": "ea3e292a-36a6-4843-8c6e-5af5c879d011",
+  "identifier": "BRIEFING-20260808-36",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3247,8 +3277,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-09T04:30:00Z",
-    "validityStart": "2026-08-08T04:30:00Z"
+    "validityEnd": "2026-08-09T05:15:00Z",
+    "validityStart": "2026-08-08T05:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3466,6 +3496,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63921441247401777",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63921440914180993",
