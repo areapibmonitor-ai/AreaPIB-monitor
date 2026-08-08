@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-08T19:30:00.412Z",
+  "createdAt": "2026-08-08T20:00:00.422Z",
   "dynamicData": {
     "notams": [
       {
@@ -2000,40 +2000,6 @@
         }
       },
       {
-        "id": "63919190165913873",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1877,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02425E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 12
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER25114UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 592226N 0242423E - 592223N\r\n0242440E - 592229N 0242449E - 592217N 0242519E - 592155N 0242453E -\r\n592153N 0242446E - 592152N 0242442E - 592156N 0242430E - 592157N\r\n0242429E - 592158N 0242427E - 592159N 0242427E - 592222N 0242423E -\r\n592226N 0242423E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 529 5458.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-08T20:00:00Z",
-          "start": "2026-08-08T05:00:00Z"
-        }
-      },
-      {
         "id": "63918593470378785",
         "locations": [
           "EETU"
@@ -3204,8 +3170,8 @@
       }
     ]
   },
-  "id": "2be0eed9-97d8-468f-b146-6531eeee32fb",
-  "identifier": "BRIEFING-20260808-94",
+  "id": "d3b97728-8f7e-49b4-a53e-1f8d54e652a9",
+  "identifier": "BRIEFING-20260808-96",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3252,8 +3218,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-09T19:30:00Z",
-    "validityStart": "2026-08-08T19:30:00Z"
+    "validityEnd": "2026-08-09T20:00:00Z",
+    "validityStart": "2026-08-08T20:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3908,11 +3874,6 @@
             {
               "link": false,
               "referenceId": "63919265739862305",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63919190165913873",
               "structureType": "REFERENCE"
             },
             {
