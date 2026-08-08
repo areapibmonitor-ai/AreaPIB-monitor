@@ -1,42 +1,7 @@
 {
-  "createdAt": "2026-08-08T20:45:00.416Z",
+  "createdAt": "2026-08-08T21:30:00.407Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63921802066711969",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2182,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MX",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2131,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "APRON TWY CLSD BTN STANDS M17 AND M21 (BOTH INCLUDED).",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-08T21:00:00Z",
-          "start": "2026-08-08T16:07:00Z"
-        }
-      },
       {
         "id": "63921691334025745",
         "levels": {
@@ -3170,8 +3135,8 @@
       }
     ]
   },
-  "id": "19446828-d847-401e-b95d-5badd1585d59",
-  "identifier": "BRIEFING-20260808-99",
+  "id": "6766da0d-7d11-4732-ba57-639995c64c6c",
+  "identifier": "BRIEFING-20260808-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3218,8 +3183,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-09T20:45:00Z",
-    "validityStart": "2026-08-08T20:45:00Z"
+    "validityEnd": "2026-08-09T21:30:00Z",
+    "validityStart": "2026-08-08T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3437,11 +3402,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63921802066711969",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63921441247401777",
