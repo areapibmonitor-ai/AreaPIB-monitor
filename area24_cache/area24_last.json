@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-09T14:45:02.174Z",
+  "createdAt": "2026-08-09T15:15:00.452Z",
   "dynamicData": {
     "notams": [
       {
@@ -483,66 +483,6 @@
         }
       },
       {
-        "id": "63921337569447137",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2124,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "INSTRUMENT APPROACH PROCEDURE RNP RWY 21 NOT AVAILABLE  DUE TO\r\nTEMPORARY RESTRICTED AREAS EER2649 AND EER2648 ACTIVATION.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-09T15:00:00Z",
-          "start": "2026-08-07T14:00:00Z"
-        }
-      },
-      {
-        "id": "63921337050050273",
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2123,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5825N02428E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "INSTRUMENT APPROACH PROCEDURE RNP RWY 03 NOT AVAILABLE DUE TO\r\nTEMPORARY RESTRICTED AREAS EER2649 AND EER2648 ACTIVATION.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-09T15:00:00Z",
-          "start": "2026-08-07T14:00:00Z"
-        }
-      },
-      {
         "id": "63921335878328705",
         "locations": [
           "EEEI"
@@ -884,74 +824,6 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63920912739158673",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2079,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02453E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 14,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2649 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 584202N 0245812E - 584156N\r\n0250806E - 583355N 0250701E - 582044N 0243820E - 582256N 0243424E -\r\n584202N 0245812E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5196 1769.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-09T15:00:00Z",
-          "start": "2026-08-07T14:00:00Z"
-        }
-      },
-      {
-        "id": "63920912588253425",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2078,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5835N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2648 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 584223N 0241947E - 584218N\r\n0243555E - 583509N 0243552E - 582649N 0242421E - 582645N 0241648E -\r\n583408N 0241638E - 584223N 0241947E. PERMISSION FOR ENTERING THE AREA\r\nSHALL BE OBTAINED FROM TEL +372 5196 1769.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-09T15:00:00Z",
-          "start": "2026-08-07T14:00:00Z"
         }
       },
       {
@@ -3405,8 +3277,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63921860689622561",
-        "number": 1091,
+        "id": "63921884888737953",
+        "number": 1092,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3434,14 +3306,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-09T08:24:00Z"
+            "time": "2026-08-09T15:07:00Z"
           }
         ]
       }
     ]
   },
-  "id": "282aef94-43f4-4123-8a15-f728b1ec6efc",
-  "identifier": "BRIEFING-20260809-75",
+  "id": "ab88f0ef-5678-4cee-9763-d8c2295642cc",
+  "identifier": "BRIEFING-20260809-77",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3488,8 +3360,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-10T14:45:00Z",
-    "validityStart": "2026-08-09T14:45:00Z"
+    "validityEnd": "2026-08-10T15:15:00Z",
+    "validityStart": "2026-08-09T15:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3682,26 +3554,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63921337569447137",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63921337050050273",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920912739158673",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920912588253425",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63920750285983457",
                   "structureType": "REFERENCE"
                 },
@@ -3809,7 +3661,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921860689622561",
+                  "referenceId": "63921884888737953",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4024,16 +3876,6 @@
             {
               "link": false,
               "referenceId": "63920994462176129",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63920912739158673",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63920912588253425",
               "structureType": "REFERENCE"
             },
             {
