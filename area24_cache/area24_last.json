@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-10T19:30:00.411Z",
+  "createdAt": "2026-08-10T20:15:00.411Z",
   "dynamicData": {
     "notams": [
       {
@@ -233,41 +233,6 @@
         "validity": {
           "end": "2026-08-19T14:30:00Z",
           "start": "2026-08-10T06:00:00Z"
-        }
-      },
-      {
-        "id": "63921691334025745",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2165,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "08 10 0600-2000",
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5485 0882.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-10T20:00:00Z",
-          "start": "2026-08-08T06:00:00Z"
         }
       },
       {
@@ -2962,8 +2927,8 @@
       }
     ]
   },
-  "id": "cba63c51-5edb-46b4-aaa5-96b87d7cd217",
-  "identifier": "BRIEFING-20260810-94",
+  "id": "ba0b8a00-4e49-49ab-baa7-422455786a23",
+  "identifier": "BRIEFING-20260810-97",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3010,8 +2975,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-11T19:30:00Z",
-    "validityStart": "2026-08-10T19:30:00Z"
+    "validityEnd": "2026-08-11T20:15:00Z",
+    "validityStart": "2026-08-10T20:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3476,11 +3441,6 @@
             {
               "link": false,
               "referenceId": "63921948197272449",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63921691334025745",
               "structureType": "REFERENCE"
             },
             {
