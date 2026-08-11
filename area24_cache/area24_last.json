@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-11T06:30:00.419Z",
+  "createdAt": "2026-08-11T07:45:00.438Z",
   "dynamicData": {
     "notams": [
       {
@@ -263,6 +263,41 @@
         "validity": {
           "end": "2026-08-19T14:30:00Z",
           "start": "2026-08-10T06:00:00Z"
+        }
+      },
+      {
+        "id": "63921681397582609",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2162,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5924N02332E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 9,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 197
+        },
+        "schedule": "12 18 0700-1300",
+        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM +372 527 0001.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-18T13:00:00Z",
+          "start": "2026-08-12T07:00:00Z"
         }
       },
       {
@@ -3027,8 +3062,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922010086629537",
-        "number": 1098,
+        "id": "63922028330225057",
+        "number": 1100,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3056,14 +3091,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-11T01:53:00Z"
+            "time": "2026-08-11T06:57:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63922022157049681",
-        "number": 577,
+        "id": "63922028613017553",
+        "number": 578,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3073,32 +3108,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-11T05:14:00Z"
+            "time": "2026-08-11T07:02:00Z"
           }
         ]
       }
     ]
   },
-  "id": "96b5dc2b-0b1d-4932-b6b8-4c53352415ae",
-  "identifier": "BRIEFING-20260811-42",
+  "id": "07d41500-4812-419a-9ff1-98a33ff2ac6a",
+  "identifier": "BRIEFING-20260811-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3145,8 +3180,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-12T06:30:00Z",
-    "validityStart": "2026-08-11T06:30:00Z"
+    "validityEnd": "2026-08-12T07:45:00Z",
+    "validityStart": "2026-08-11T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3441,7 +3476,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922010086629537",
+                  "referenceId": "63922028330225057",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3523,7 +3558,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922022157049681",
+                  "referenceId": "63922028613017553",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3621,6 +3656,11 @@
             {
               "link": false,
               "referenceId": "63921948197272449",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921681397582609",
               "structureType": "REFERENCE"
             },
             {
