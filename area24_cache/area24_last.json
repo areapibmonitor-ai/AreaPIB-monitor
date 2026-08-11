@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-11T04:30:00.398Z",
+  "createdAt": "2026-08-11T05:30:00.413Z",
   "dynamicData": {
     "notams": [
       {
@@ -791,6 +791,41 @@
         "validity": {
           "end": "2026-08-19T11:00:00Z",
           "start": "2026-08-04T06:30:00Z"
+        }
+      },
+      {
+        "id": "63921095901313377",
+        "levels": {
+          "lower": "SFC",
+          "upper": "9200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2113,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "12-13 0500-1659",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-13T16:59:00Z",
+          "start": "2026-08-12T05:00:00Z"
         }
       },
       {
@@ -3027,8 +3062,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63922011124238721",
-        "number": 576,
+        "id": "63922022157049681",
+        "number": 577,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3056,14 +3091,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-11T02:10:00Z"
+            "time": "2026-08-11T05:14:00Z"
           }
         ]
       }
     ]
   },
-  "id": "43d1ff08-d066-4b5b-a8c8-cd2439306875",
-  "identifier": "BRIEFING-20260811-32",
+  "id": "7af3b47f-3d30-4ee9-a067-63c3933b6fc7",
+  "identifier": "BRIEFING-20260811-37",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3110,8 +3145,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-12T04:30:00Z",
-    "validityStart": "2026-08-11T04:30:00Z"
+    "validityEnd": "2026-08-12T05:30:00Z",
+    "validityStart": "2026-08-11T05:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3488,7 +3523,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922011124238721",
+                  "referenceId": "63922022157049681",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3641,6 +3676,11 @@
             {
               "link": false,
               "referenceId": "63921098353731137",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921095901313377",
               "structureType": "REFERENCE"
             },
             {
