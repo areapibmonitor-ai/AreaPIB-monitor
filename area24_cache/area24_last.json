@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-11T14:30:00.388Z",
+  "createdAt": "2026-08-11T15:30:03.898Z",
   "dynamicData": {
     "notams": [
       {
@@ -70,36 +70,6 @@
         "validity": {
           "end": "2026-08-14T13:00:00Z",
           "start": "2026-08-11T07:55:00Z"
-        }
-      },
-      {
-        "id": "63922002405468817",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2205,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "ATIS CHANNEL 123.130 U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-11T15:00:00Z",
-          "start": "2026-08-10T23:46:00Z"
         }
       },
       {
@@ -3004,8 +2974,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922038352777697",
-        "number": 1101,
+        "id": "63922057196263601",
+        "number": 1103,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3015,25 +2985,25 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
+                "code": 5,
                 "condition": "WET",
-                "coverage": "25",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-11T09:45:00Z"
+            "time": "2026-08-11T14:58:00Z"
           }
         ]
       },
@@ -3074,8 +3044,8 @@
       }
     ]
   },
-  "id": "9dfcd334-3043-4260-8a49-c3578e039892",
-  "identifier": "BRIEFING-20260811-75",
+  "id": "94e03b9a-e05c-4c63-ab53-114d180938a0",
+  "identifier": "BRIEFING-20260811-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3122,8 +3092,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-12T14:30:00Z",
-    "validityStart": "2026-08-11T14:30:00Z"
+    "validityEnd": "2026-08-12T15:30:00Z",
+    "validityStart": "2026-08-11T15:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3408,7 +3378,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922038352777697",
+                  "referenceId": "63922057196263601",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3418,11 +3388,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63922002405468817",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63921004958802689",
