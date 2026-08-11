@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-10T23:45:00.46Z",
+  "createdAt": "2026-08-11T00:30:00.395Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922002405468817",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2205,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "SA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "ATIS CHANNEL 123.130 U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-11T15:00:00Z",
+          "start": "2026-08-10T23:46:00Z"
+        }
+      },
       {
         "id": "63921963531182945",
         "locations": [
@@ -1071,6 +1101,41 @@
         }
       },
       {
+        "id": "63920836957579873",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2073,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5854N02331E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "01-02 05-09 12-16 19-23 26-30 0700-1700",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T17:00:00Z",
+          "start": "2026-08-01T07:00:00Z"
+        }
+      },
+      {
         "id": "63920815142492801",
         "levels": {
           "lower": "SFC",
@@ -1484,6 +1549,41 @@
         "validity": {
           "end": "2026-10-21T17:00:00Z",
           "start": "2026-07-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920221576567521",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1994,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01 04-08 12-15 18 22 28-30 0700-1600",
+        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T16:00:00Z",
+          "start": "2026-08-01T07:00:00Z"
         }
       },
       {
@@ -2962,16 +3062,16 @@
       }
     ]
   },
-  "id": "0d8f642c-6949-445a-8fe7-9b10fa2958c3",
-  "identifier": "BRIEFING-20260810-111",
+  "id": "f18c718f-c264-4f1c-addc-9d1503a630c1",
+  "identifier": "BRIEFING-20260811-3",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3010,8 +3110,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-11T23:45:00Z",
-    "validityStart": "2026-08-10T23:45:00Z"
+    "validityEnd": "2026-08-12T00:30:00Z",
+    "validityStart": "2026-08-11T00:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3318,6 +3418,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63922002405468817",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63921004958802689",
                   "structureType": "REFERENCE"
                 },
@@ -3560,6 +3665,11 @@
             },
             {
               "link": false,
+              "referenceId": "63920836957579873",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63920815142492801",
               "structureType": "REFERENCE"
             },
@@ -3606,6 +3716,11 @@
             {
               "link": false,
               "referenceId": "63920310026862465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920221576567521",
               "structureType": "REFERENCE"
             },
             {
