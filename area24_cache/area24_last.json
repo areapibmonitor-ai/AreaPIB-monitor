@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-11T20:30:00.413Z",
+  "createdAt": "2026-08-11T21:15:00.417Z",
   "dynamicData": {
     "notams": [
       {
@@ -3006,11 +3006,46 @@
             "time": "2026-08-11T17:46:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63922078305914385",
+        "number": 581,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "NR",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "NR",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "NR",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-08-11T20:50:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "594dc622-bb5f-4a8f-8631-eae9e1f5a469",
-  "identifier": "BRIEFING-20260811-99",
+  "id": "56aa6c08-ff69-4e17-b680-52dc0be99b2d",
+  "identifier": "BRIEFING-20260811-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3057,8 +3092,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-12T20:30:00Z",
-    "validityStart": "2026-08-11T20:30:00Z"
+    "validityEnd": "2026-08-12T21:15:00Z",
+    "validityStart": "2026-08-11T21:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3416,6 +3451,11 @@
                 {
                   "link": false,
                   "referenceId": "63915648888656033",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922078305914385",
                   "structureType": "REFERENCE"
                 }
               ],
