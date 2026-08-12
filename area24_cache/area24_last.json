@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-12T22:45:00.445Z",
+  "createdAt": "2026-08-12T23:45:00.432Z",
   "dynamicData": {
     "notams": [
       {
@@ -1964,6 +1964,36 @@
         }
       },
       {
+        "id": "63918480682025457",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 1799,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-14T02:15:00Z",
+          "start": "2026-08-13T23:00:00Z"
+        }
+      },
+      {
         "id": "63918418771218417",
         "levels": {
           "lower": "500FT AGL",
@@ -3109,8 +3139,8 @@
       }
     ]
   },
-  "id": "867d33e9-5888-4b72-8cb9-98f646902a5a",
-  "identifier": "BRIEFING-20260812-107",
+  "id": "26ea080f-d81a-46e2-a747-4b60f185e9cc",
+  "identifier": "BRIEFING-20260812-111",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3157,8 +3187,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-13T22:45:00Z",
-    "validityStart": "2026-08-12T22:45:00Z"
+    "validityEnd": "2026-08-13T23:45:00Z",
+    "validityStart": "2026-08-12T23:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3384,6 +3414,11 @@
                 {
                   "link": false,
                   "referenceId": "63920129703894321",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63918480682025457",
                   "structureType": "REFERENCE"
                 },
                 {
