@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-08-12T10:00:00.435Z",
+  "createdAt": "2026-08-12T11:00:00.433Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922126622088097",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2217,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2091,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST\r\nVIA TEL +372 717 3413.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-31T14:00:00Z",
+          "est": true,
+          "start": "2026-08-12T10:16:00Z"
+        }
+      },
       {
         "id": "63922122125813153",
         "levels": {
@@ -1054,42 +1090,6 @@
           "end": "2026-10-30T10:00:00Z",
           "est": true,
           "start": "2026-07-30T07:47:00Z"
-        }
-      },
-      {
-        "id": "63920993597446529",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2091,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AU",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1950,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST\r\nVIA TEL +372 717 3413.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-14T14:00:00Z",
-          "est": true,
-          "start": "2026-07-30T07:32:00Z"
         }
       },
       {
@@ -3084,8 +3084,8 @@
       }
     ]
   },
-  "id": "d9dfd336-2670-4473-9bad-13325dcf7e6c",
-  "identifier": "BRIEFING-20260812-56",
+  "id": "3f9f1871-a302-4eec-92f6-a7c633a847c0",
+  "identifier": "BRIEFING-20260812-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3132,8 +3132,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-13T10:00:00Z",
-    "validityStart": "2026-08-12T10:00:00Z"
+    "validityEnd": "2026-08-13T11:00:00Z",
+    "validityStart": "2026-08-12T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3205,17 +3205,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63922126622088097",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63921609802922321",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63921335878328705",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920993597446529",
                   "structureType": "REFERENCE"
                 },
                 {

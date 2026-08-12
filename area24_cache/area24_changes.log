@@ -23052,3 +23052,17 @@ FROM TEL +37253557238
 F)SFC G)3200FT AMSL
 )
 [2026-08-12T10:15:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90a6c395f07sm18191036d6.28 - gsmtp')
+[2026-08-12T11:12:47Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A2091/26 was replaced with NOTAM A2217/26.
+AFTN: (A2217/26 NOTAMR A2091/26
+
+(A2217/26 NOTAMR A2091/26
+Q)EETT/FMAU/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2608121016 C)2608311400
+E)METAR INFO UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON REQUEST
+VIA TEL +372 717 3413.
+)
+[2026-08-12T11:12:47Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-392f8893709sm3275542a91.4 - gsmtp')
