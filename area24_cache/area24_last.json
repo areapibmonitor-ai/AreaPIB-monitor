@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-12T15:30:00.447Z",
+  "createdAt": "2026-08-12T16:30:00.447Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922146354934321",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2221,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "APCH LIGHTING SYSTEM PALS-I RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-13T13:30:00Z",
+          "start": "2026-08-13T06:00:00Z"
+        }
+      },
       {
         "id": "63922133641802769",
         "levels": {
@@ -3083,16 +3113,16 @@
       }
     ]
   },
-  "id": "f810d369-4305-4e2b-a441-964c27515c7c",
-  "identifier": "BRIEFING-20260812-78",
+  "id": "9ddb6434-94f1-42af-9035-34b9a6a80b34",
+  "identifier": "BRIEFING-20260812-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3131,8 +3161,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-13T15:30:00Z",
-    "validityStart": "2026-08-12T15:30:00Z"
+    "validityEnd": "2026-08-13T16:30:00Z",
+    "validityStart": "2026-08-12T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3202,6 +3232,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922146354934321",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922126622088097",
