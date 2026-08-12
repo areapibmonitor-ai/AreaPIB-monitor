@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-08-12T06:00:00.415Z",
+  "createdAt": "2026-08-12T07:45:00.4Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922113526272945",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2213,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "referenceId": {
+          "number": 2094,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "KURESSAARE AFIS CLOSED DUE TO RECONSTRUCTION WORKS. REF AIP SUP\r\n14/2026.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-08-12T06:33:00Z"
+        }
+      },
       {
         "id": "63922032079903905",
         "levels": {
@@ -904,36 +939,6 @@
           "upper": 95
         },
         "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1000-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0600-0900 1000-1300 2100-2200\r\nEXC 1, 8 CLOSED\r\n2-7, 9 0630-0900 1000-1400\r\n10 0600-0900 1000-1300 2100-2200\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR. IF SERVICE IS NOT\r\nAVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-31T23:59:00Z",
-          "start": "2026-08-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63921004394934609",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2094,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 0845-1230 1330-1655\r\nEXC 10-31 CLOSED\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
         "type": "N",
         "validity": {
           "end": "2026-08-31T23:59:00Z",
@@ -3079,8 +3084,8 @@
       }
     ]
   },
-  "id": "ad050e92-0fd8-4705-95f6-7b9bf4a9bdc0",
-  "identifier": "BRIEFING-20260812-40",
+  "id": "8c6b77cb-5b01-4229-b860-a9f8b3010196",
+  "identifier": "BRIEFING-20260812-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3127,8 +3132,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-13T06:00:00Z",
-    "validityStart": "2026-08-12T06:00:00Z"
+    "validityEnd": "2026-08-13T07:45:00Z",
+    "validityStart": "2026-08-12T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3269,6 +3274,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63922113526272945",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63921952790256769",
                   "structureType": "REFERENCE"
                 },
@@ -3280,11 +3290,6 @@
                 {
                   "link": false,
                   "referenceId": "63921017638835585",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63921004394934609",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3506,17 +3511,17 @@
           "content": [
             {
               "link": true,
+              "referenceId": "63922113526272945",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
               "referenceId": "63921522923548865",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
               "referenceId": "63921004958802689",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63921004394934609",
               "structureType": "REFERENCE"
             },
             {
