@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-13T13:30:00.449Z",
+  "createdAt": "2026-08-13T14:45:00.48Z",
   "dynamicData": {
     "notams": [
       {
@@ -1289,41 +1289,6 @@
         "validity": {
           "end": "2026-08-14T10:59:00Z",
           "start": "2026-08-01T07:00:00Z"
-        }
-      },
-      {
-        "id": "63920482010233089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2037,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "01 08 0500-1459, 06 11-13 0500-1359, 07 0500-1759",
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-13T13:59:00Z",
-          "start": "2026-08-01T05:00:00Z"
         }
       },
       {
@@ -2967,8 +2932,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922204953681809",
-        "number": 1111,
+        "id": "63922228822864913",
+        "number": 1112,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2996,14 +2961,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-13T08:01:00Z"
+            "time": "2026-08-13T14:38:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ee3d0576-82a9-404e-b9e1-46335bc360c5",
-  "identifier": "BRIEFING-20260813-70",
+  "id": "34545699-7765-440e-a58a-4bdc4ee9c184",
+  "identifier": "BRIEFING-20260813-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3050,8 +3015,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-14T13:30:00Z",
-    "validityStart": "2026-08-13T13:30:00Z"
+    "validityEnd": "2026-08-14T14:45:00Z",
+    "validityStart": "2026-08-13T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3346,7 +3311,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922204953681809",
+                  "referenceId": "63922228822864913",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3626,11 +3591,6 @@
             {
               "link": true,
               "referenceId": "63920482752882689",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63920482010233089",
               "structureType": "REFERENCE"
             },
             {
