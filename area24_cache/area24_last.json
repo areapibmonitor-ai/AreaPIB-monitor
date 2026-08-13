@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-13T07:45:00.444Z",
+  "createdAt": "2026-08-13T08:45:00.488Z",
   "dynamicData": {
     "notams": [
       {
@@ -170,6 +170,74 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-12T06:33:00Z"
+        }
+      },
+      {
+        "id": "63922045992843313",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2212,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5912N02636E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15G ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5887 0814.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-14T16:00:00Z",
+          "start": "2026-08-14T08:00:00Z"
+        }
+      },
+      {
+        "id": "63922045706581505",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2211,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5887 0814.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-14T16:00:00Z",
+          "start": "2026-08-14T08:00:00Z"
         }
       },
       {
@@ -2894,8 +2962,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922179742431313",
-        "number": 1110,
+        "id": "63922204953681809",
+        "number": 1111,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2923,7 +2991,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-13T01:01:00Z"
+            "time": "2026-08-13T08:01:00Z"
           }
         ]
       },
@@ -2964,8 +3032,8 @@
       }
     ]
   },
-  "id": "42d20f59-a894-4e34-9c63-fbf983bec8f8",
-  "identifier": "BRIEFING-20260813-47",
+  "id": "9618b179-55f6-4f75-ba67-05c2fc3e19f6",
+  "identifier": "BRIEFING-20260813-51",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3012,8 +3080,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-14T07:45:00Z",
-    "validityStart": "2026-08-13T07:45:00Z"
+    "validityEnd": "2026-08-14T08:45:00Z",
+    "validityStart": "2026-08-13T08:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3308,7 +3376,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922179742431313",
+                  "referenceId": "63922204953681809",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3473,6 +3541,16 @@
             {
               "link": false,
               "referenceId": "63922122125813153",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63922045992843313",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63922045706581505",
               "structureType": "REFERENCE"
             },
             {
