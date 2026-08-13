@@ -23157,3 +23157,18 @@ ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5887 0814.
 F)SFC G)4500FT AMSL
 )
 [2026-08-13T08:57:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-84fc5a2797dsm535660b3a.31 - gsmtp')
+[2026-08-13T10:17:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A1073/26 was replaced with NOTAM A2223/26.
+AFTN: (A2223/26 NOTAMR A1073/26
+
+(A2223/26 NOTAMR A1073/26
+Q)EETT/GWXX/IV/NBO/E/000/999/5849N02426E999
+A)EETT B)2608130957 C)2611132359
+E)PRECAUTION - GNSS SIGNAL INTERFERENCE AND/OR SPOOFING CAN BE
+EXPECTED IN TALLINN FIR. AIRCREW ARE ASKED TO INFORM AN ATC OF ANY
+GNSS INTERFERENCE OR SPOOFING DETECTED.
+)
+[2026-08-13T10:17:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3931ced4dc0sm2837789a91.10 - gsmtp')
