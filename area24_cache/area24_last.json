@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-08-13T12:00:00.49Z",
+  "createdAt": "2026-08-13T13:30:00.449Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922220603502513",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL420"
+        },
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 2224,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5819N02437E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 16,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 420
+        },
+        "schedule": "13-15 1800-2359, 16 0000-0359",
+        "text": "TEMPORARY AREA FOR LASER HAZARD (PARNU-REIU) WILL TAKE PLACE\r\nWITHIN: 582414.29N 0250416.40E - CLOCKWISE ARC OF 15NM CENTERED ON\r\n581910N 0243729E - 581400.12N 0241049.32E - 581910N 0243729E -\r\n582414.29N 0250416.40E. LASER BEAMS MAY CAUSE BLINDNESS WITHIN 4NM UP\r\nTO FL130. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR WITHIN\r\n15NM UP TO FL420.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-16T03:59:00Z",
+          "start": "2026-08-13T18:00:00Z"
+        }
+      },
       {
         "id": "63922211921052705",
         "locations": [
@@ -36,36 +71,6 @@
           "end": "2026-11-13T23:59:00Z",
           "est": true,
           "start": "2026-08-13T09:57:00Z"
-        }
-      },
-      {
-        "id": "63922146354934321",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2221,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APCH LIGHTING SYSTEM PALS-I RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-13T13:30:00Z",
-          "start": "2026-08-13T06:00:00Z"
         }
       },
       {
@@ -2994,46 +2999,11 @@
             "time": "2026-08-13T08:01:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63922194929709169",
-        "number": 586,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-08-13T05:14:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "9f96c4e7-a7e1-495f-ac2c-93c0f192844f",
-  "identifier": "BRIEFING-20260813-64",
+  "id": "ee3d0576-82a9-404e-b9e1-46335bc360c5",
+  "identifier": "BRIEFING-20260813-70",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3080,8 +3050,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-14T12:00:00Z",
-    "validityStart": "2026-08-13T12:00:00Z"
+    "validityEnd": "2026-08-14T13:30:00Z",
+    "validityStart": "2026-08-13T13:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3151,11 +3121,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63922146354934321",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63922126622088097",
@@ -3262,6 +3227,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922220603502513",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63920750285983457",
@@ -3450,11 +3420,6 @@
                   "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63922194929709169",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3533,6 +3498,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63922220603502513",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63922133641802769",

@@ -23174,3 +23174,24 @@ GNSS INTERFERENCE OR SPOOFING DETECTED.
 [2026-08-13T10:17:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-3931ced4dc0sm2837789a91.10 - gsmtp')
 [2026-08-13T11:13:39Z] NO CHANGE in dynamicData.notams.
 [2026-08-13T12:02:54Z] NO CHANGE in dynamicData.notams.
+[2026-08-13T13:39:27Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2221/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2224/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/420/5819N02437E016
+A)EEPU B)2608131800 C)2608160359
+D)13-15 1800-2359, 16 0000-0359
+E)TEMPORARY AREA FOR LASER HAZARD (PARNU-REIU) WILL TAKE PLACE
+WITHIN: 582414.29N 0250416.40E - CLOCKWISE ARC OF 15NM CENTERED ON
+581910N 0243729E - 581400.12N 0241049.32E - 581910N 0243729E -
+582414.29N 0250416.40E. LASER BEAMS MAY CAUSE BLINDNESS WITHIN 4NM UP
+TO FL130. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR WITHIN
+15NM UP TO FL420.
+F)SFC G)FL420
+)
+[2026-08-13T13:39:27Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b0c474920csm2347351eaf.14 - gsmtp')
