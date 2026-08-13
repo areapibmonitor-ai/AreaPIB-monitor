@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-13T16:30:01.82Z",
+  "createdAt": "2026-08-13T17:30:00.465Z",
   "dynamicData": {
     "notams": [
       {
@@ -837,41 +837,6 @@
         "validity": {
           "end": "2026-08-16T12:59:00Z",
           "start": "2026-08-14T16:00:00Z"
-        }
-      },
-      {
-        "id": "63921095901313377",
-        "levels": {
-          "lower": "SFC",
-          "upper": "9200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2113,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "12-13 0500-1659",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-13T16:59:00Z",
-          "start": "2026-08-12T05:00:00Z"
         }
       },
       {
@@ -3001,8 +2966,8 @@
       }
     ]
   },
-  "id": "f04887e7-9709-41c7-8286-2b9478cdfd0a",
-  "identifier": "BRIEFING-20260813-82",
+  "id": "a81a21ab-d4bd-4b7e-bb3a-651957970812",
+  "identifier": "BRIEFING-20260813-86",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3049,8 +3014,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-14T16:30:00Z",
-    "validityStart": "2026-08-13T16:30:00Z"
+    "validityEnd": "2026-08-14T17:30:00Z",
+    "validityStart": "2026-08-13T17:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3575,11 +3540,6 @@
             {
               "link": false,
               "referenceId": "63921097295240193",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63921095901313377",
               "structureType": "REFERENCE"
             },
             {
