@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-14T03:00:00.513Z",
+  "createdAt": "2026-08-14T05:00:00.481Z",
   "dynamicData": {
     "notams": [
       {
@@ -486,6 +486,41 @@
           "end": "2026-09-04T14:00:00Z",
           "est": true,
           "start": "2026-08-06T10:42:00Z"
+        }
+      },
+      {
+        "id": "63921529777809761",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2158,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "15 22 0300-1959, 17-18 24 0600-1359, 19 0600-1759, 21 0900-1959,\r\n23 0300-1659, 25-26 0500-1359, 27 0500-1459",
+        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-27T14:59:00Z",
+          "start": "2026-08-15T03:00:00Z"
         }
       },
       {
@@ -3216,8 +3251,8 @@
       }
     ]
   },
-  "id": "9d92a613-f5eb-42a9-a8d2-e111a6669da6",
-  "identifier": "BRIEFING-20260814-15",
+  "id": "76bf46eb-25c9-4965-8e2d-151bb144a520",
+  "identifier": "BRIEFING-20260814-35",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3264,8 +3299,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-15T03:00:00Z",
-    "validityStart": "2026-08-14T03:00:00Z"
+    "validityEnd": "2026-08-15T05:00:00Z",
+    "validityStart": "2026-08-14T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3471,6 +3506,11 @@
                 {
                   "link": false,
                   "referenceId": "63921704888310577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63921529777809761",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3755,6 +3795,11 @@
             {
               "link": true,
               "referenceId": "63921952790256769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63921529777809761",
               "structureType": "REFERENCE"
             },
             {
