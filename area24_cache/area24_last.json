@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-14T20:30:00.481Z",
+  "createdAt": "2026-08-14T21:00:00.495Z",
   "dynamicData": {
     "notams": [
       {
@@ -174,40 +174,6 @@
           "end": "2026-11-13T23:59:00Z",
           "est": true,
           "start": "2026-08-13T09:57:00Z"
-        }
-      },
-      {
-        "id": "63922133641802769",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2800FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2218,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5800N02437E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 28
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2425 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 575400N 0241758E - 580038N\r\n0242926E - 580552N 0245545E - 580038N 0245901E - 575122N 0242405E -\r\n575400N 0241758E EXCLUDING RIGA FIR. ALL AIRCRAFT (INCLUDING UNMANNED\r\nAIRCRAFT) ARE PROHIBITED TO FLY INTO OR IN THE AREA WITHOUT\r\nAUTHORISATION FROM ESTONIAN POLICE AND BORDER GUARD BOARD. PERMISSION\r\nFOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5309 4264.\r\nRESTRICTION DOES NOT APPLY TO SAR, HOSP, ESTONIAN POLICE AND BORDER\r\nGUARD BOARD FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T20:59:00Z",
-          "start": "2026-08-13T12:00:00Z"
         }
       },
       {
@@ -3141,11 +3107,46 @@
             "time": "2026-08-14T20:04:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63922337331951697",
+        "number": 590,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-08-14T20:48:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "15a88340-de6c-44f8-9188-2179b18267f8",
-  "identifier": "BRIEFING-20260814-98",
+  "id": "a599a39d-044e-4b9f-ae94-7f3e0ee442f0",
+  "identifier": "BRIEFING-20260814-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3192,8 +3193,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-15T20:30:00Z",
-    "validityStart": "2026-08-14T20:30:00Z"
+    "validityEnd": "2026-08-15T21:00:00Z",
+    "validityStart": "2026-08-14T21:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3557,6 +3558,11 @@
                   "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922337331951697",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3653,11 +3659,6 @@
             {
               "link": true,
               "referenceId": "63922220603502513",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922133641802769",
               "structureType": "REFERENCE"
             },
             {
