@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-14T00:30:00.482Z",
+  "createdAt": "2026-08-14T03:00:00.513Z",
   "dynamicData": {
     "notams": [
       {
@@ -2107,36 +2107,6 @@
         }
       },
       {
-        "id": "63918480682025457",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1799,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T02:15:00Z",
-          "start": "2026-08-13T23:00:00Z"
-        }
-      },
-      {
         "id": "63918418771218417",
         "levels": {
           "lower": "500FT AGL",
@@ -3176,8 +3146,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922245829392897",
-        "number": 1113,
+        "id": "63922267415981425",
+        "number": 1114,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3205,14 +3175,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-13T19:23:00Z"
+            "time": "2026-08-14T01:22:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63922251181756977",
-        "number": 587,
+        "id": "63922270189158177",
+        "number": 588,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3240,14 +3210,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-13T20:52:00Z"
+            "time": "2026-08-14T02:08:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d2affa73-adc2-413c-aaf9-0bdbe04c0ffc",
-  "identifier": "BRIEFING-20260814-3",
+  "id": "9d92a613-f5eb-42a9-a8d2-e111a6669da6",
+  "identifier": "BRIEFING-20260814-15",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3294,8 +3264,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-15T00:30:00Z",
-    "validityStart": "2026-08-14T00:30:00Z"
+    "validityEnd": "2026-08-15T03:00:00Z",
+    "validityStart": "2026-08-14T03:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3525,11 +3495,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918480682025457",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63918400221082769",
                   "structureType": "REFERENCE"
                 },
@@ -3590,7 +3555,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922245829392897",
+                  "referenceId": "63922267415981425",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3667,7 +3632,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922251181756977",
+                  "referenceId": "63922270189158177",
                   "structureType": "REFERENCE"
                 }
               ],
