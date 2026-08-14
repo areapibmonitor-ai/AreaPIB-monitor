@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-14T19:45:00.463Z",
+  "createdAt": "2026-08-14T20:30:00.481Z",
   "dynamicData": {
     "notams": [
       {
@@ -1741,41 +1741,6 @@
         }
       },
       {
-        "id": "63920214210570225",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1987,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5751N02605E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "04 13-14 0500-2000, 05 09 11-12 0500-1400, 08 1200-2000",
-        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T20:00:00Z",
-          "start": "2026-08-04T05:00:00Z"
-        }
-      },
-      {
         "id": "63920129703894321",
         "locations": [
           "EETN"
@@ -3144,8 +3109,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922312170419441",
-        "number": 1116,
+        "id": "63922334675441969",
+        "number": 1117,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3173,14 +3138,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-14T13:48:00Z"
+            "time": "2026-08-14T20:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "550253b2-909d-4eb5-85ce-4ff3390c9594",
-  "identifier": "BRIEFING-20260814-95",
+  "id": "15a88340-de6c-44f8-9188-2179b18267f8",
+  "identifier": "BRIEFING-20260814-98",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3227,8 +3192,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-15T19:45:00Z",
-    "validityStart": "2026-08-14T19:45:00Z"
+    "validityEnd": "2026-08-15T20:30:00Z",
+    "validityStart": "2026-08-14T20:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3518,7 +3483,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922312170419441",
+                  "referenceId": "63922334675441969",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3853,11 +3818,6 @@
             {
               "link": false,
               "referenceId": "63920221576567521",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63920214210570225",
               "structureType": "REFERENCE"
             },
             {
