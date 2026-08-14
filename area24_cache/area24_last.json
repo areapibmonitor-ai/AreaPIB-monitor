@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-14T11:15:00.481Z",
+  "createdAt": "2026-08-14T12:15:00.475Z",
   "dynamicData": {
     "notams": [
       {
@@ -1708,41 +1708,6 @@
         }
       },
       {
-        "id": "63920481825886961",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2036,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "01 0600-1859, 02 0500-1359, 03-06 13 0500-1859, 07 1600-1959, 08\r\n0300-1959, 09 0600-1759, 10-11 0500-1459, 12 0900-1759, 14 0500-1159",
-        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-14T11:59:00Z",
-          "start": "2026-08-01T06:00:00Z"
-        }
-      },
-      {
         "id": "63920481550712689",
         "levels": {
           "lower": "SFC",
@@ -3422,8 +3387,8 @@
       }
     ]
   },
-  "id": "ae2e1d61-82c1-43d4-8f71-a841e4473829",
-  "identifier": "BRIEFING-20260814-61",
+  "id": "0ff5d2ae-1940-414e-948d-15c789e2f677",
+  "identifier": "BRIEFING-20260814-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3470,8 +3435,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-15T11:15:00Z",
-    "validityStart": "2026-08-14T11:15:00Z"
+    "validityEnd": "2026-08-15T12:15:00Z",
+    "validityStart": "2026-08-14T12:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3559,11 +3524,6 @@
                 {
                   "link": false,
                   "referenceId": "63921335878328705",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63920481825886961",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4111,11 +4071,6 @@
             {
               "link": false,
               "referenceId": "63920482944702577",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63920481825886961",
               "structureType": "REFERENCE"
             },
             {
