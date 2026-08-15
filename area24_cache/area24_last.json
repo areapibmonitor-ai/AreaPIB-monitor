@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-15T21:45:00.454Z",
+  "createdAt": "2026-08-15T22:30:00.482Z",
   "dynamicData": {
     "notams": [
       {
@@ -68,41 +68,6 @@
         "validity": {
           "end": "2026-08-18T20:59:00Z",
           "start": "2026-08-15T09:00:00Z"
-        }
-      },
-      {
-        "id": "63922221002806961",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL420"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2225,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5916N02558E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 420
-        },
-        "schedule": "14 1800-2359, 15 1830-2230",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (TAPA) WILL TAKE PLACE WITHIN:\r\n593033.19N 0260243.89E - CLOCKWISE ARC OF 15NM CENTERED ON 591549.20N\r\n0255737.20E - 591821.91N 0252848.23E - 591549.20N 0255737.20E -\r\n593033.19N 0260243.89E. LASER BEAMS MAY CAUSE BLINDNESS IN VERTICAL\r\nANGLE BTN SFC AND 30 DEG UNTIL 4 NM AND FL130. FLASHBLINDNESS AND\r\nCOCKPIT ILLUMINATION MAY OCCUR WITHIN 15NM UP TO FL420.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-15T22:30:00Z",
-          "start": "2026-08-14T18:00:00Z"
         }
       },
       {
@@ -2730,8 +2695,8 @@
       }
     ]
   },
-  "id": "ceda1aac-7f92-49a1-9e54-b94a2054da0f",
-  "identifier": "BRIEFING-20260815-103",
+  "id": "147ff92f-26a7-404f-ac99-d3fd307b4acb",
+  "identifier": "BRIEFING-20260815-106",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2778,8 +2743,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-16T21:45:00Z",
-    "validityStart": "2026-08-15T21:45:00Z"
+    "validityEnd": "2026-08-16T22:30:00Z",
+    "validityStart": "2026-08-15T22:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3219,11 +3184,6 @@
             {
               "link": false,
               "referenceId": "63922286541041297",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922221002806961",
               "structureType": "REFERENCE"
             },
             {
