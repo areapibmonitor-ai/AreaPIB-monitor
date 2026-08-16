@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-08-16T06:00:00.433Z",
+  "createdAt": "2026-08-16T07:00:00.43Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922295135053633",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2230,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "schedule": "DAILY 0600-1400",
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5885 9398.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-19T14:00:00Z",
+          "start": "2026-08-17T06:00:00Z"
+        }
+      },
       {
         "id": "63922286889716961",
         "levels": {
@@ -104,6 +139,37 @@
           "end": "2026-11-13T23:59:00Z",
           "est": true,
           "start": "2026-08-13T09:57:00Z"
+        }
+      },
+      {
+        "id": "63922204706327489",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2222,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5748N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 3,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 100
+        },
+        "schedule": "17-19 24-27 0600-1200",
+        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 3KM\r\nRADIUS CENTRED ON 574816N0265531E FROM SFC UP TO FL100.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-27T12:00:00Z",
+          "start": "2026-08-17T06:00:00Z"
         }
       },
       {
@@ -841,6 +907,40 @@
         "validity": {
           "end": "2026-08-16T18:00:00Z",
           "start": "2026-08-10T06:00:00Z"
+        }
+      },
+      {
+        "id": "63921007232482161",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL165"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2097,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5940N02628E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 405
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5628 1119.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-17T13:00:00Z",
+          "start": "2026-08-17T06:00:00Z"
         }
       },
       {
@@ -2625,8 +2725,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922447927407665",
-        "number": 1125,
+        "id": "63922459381608689",
+        "number": 1126,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2637,24 +2737,24 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-16T03:30:00Z"
+            "time": "2026-08-16T06:42:00Z"
           }
         ]
       },
@@ -2695,8 +2795,8 @@
       }
     ]
   },
-  "id": "99f68410-9345-4c59-bfa1-c6d715037c9c",
-  "identifier": "BRIEFING-20260816-40",
+  "id": "492970ff-11eb-44b8-a1a1-bb861967d47d",
+  "identifier": "BRIEFING-20260816-44",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2743,8 +2843,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-17T06:00:00Z",
-    "validityStart": "2026-08-16T06:00:00Z"
+    "validityEnd": "2026-08-17T07:00:00Z",
+    "validityStart": "2026-08-16T07:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3019,7 +3119,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922447927407665",
+                  "referenceId": "63922459381608689",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3116,6 +3216,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63922204706327489",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63922113526272945",
               "structureType": "REFERENCE"
@@ -3176,6 +3281,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63922295135053633",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63922286889716961",
@@ -3259,6 +3369,11 @@
             {
               "link": false,
               "referenceId": "63921017599186721",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921007232482161",
               "structureType": "REFERENCE"
             },
             {
