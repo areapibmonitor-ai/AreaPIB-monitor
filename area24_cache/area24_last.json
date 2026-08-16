@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-16T07:00:00.43Z",
+  "createdAt": "2026-08-16T07:30:00.506Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922307819865505",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2247,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "NT",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-17T10:00:00Z",
+          "start": "2026-08-17T07:00:00Z"
+        }
+      },
       {
         "id": "63922295135053633",
         "levels": {
@@ -345,6 +375,41 @@
         "validity": {
           "end": "2026-08-31T13:00:00Z",
           "start": "2026-08-11T06:00:00Z"
+        }
+      },
+      {
+        "id": "63921857371151153",
+        "levels": {
+          "lower": "SFC",
+          "upper": "165FT AGL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2184,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5818N02643E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 4
+        },
+        "schedule": "DAILY 0700-0900",
+        "text": "TEMPORARY RESTRICTED AREA EER2617A ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 581849N 0264305.50E - 581848.80N\r\n0264319.60E - 581807.60N 0264332.90E - 581807.40N 0264319.70E -\r\n581849N 0264305.50E. INFORMATION ABOUT ACTIVITY IN THE AREA AVAILABLE\r\nFROM TARTU AFIS. ADDITIONAL INFORMATION AVAILABLE FROM OPERATOR +372\r\n516 8285.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-21T09:00:00Z",
+          "start": "2026-08-17T07:00:00Z"
         }
       },
       {
@@ -2795,8 +2860,8 @@
       }
     ]
   },
-  "id": "492970ff-11eb-44b8-a1a1-bb861967d47d",
-  "identifier": "BRIEFING-20260816-44",
+  "id": "2a09d7b2-5ece-4646-bf89-b453c07f2f64",
+  "identifier": "BRIEFING-20260816-46",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2843,8 +2908,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-17T07:00:00Z",
-    "validityStart": "2026-08-16T07:00:00Z"
+    "validityEnd": "2026-08-17T07:30:00Z",
+    "validityStart": "2026-08-16T07:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2914,6 +2979,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922307819865505",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922126622088097",
@@ -3131,6 +3201,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63921857371151153",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63921004958802689",
                   "structureType": "REFERENCE"
                 },
@@ -3309,6 +3384,11 @@
             {
               "link": true,
               "referenceId": "63921952790256769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63921857371151153",
               "structureType": "REFERENCE"
             },
             {
