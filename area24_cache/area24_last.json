@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-16T03:00:04.246Z",
+  "createdAt": "2026-08-16T04:00:00.461Z",
   "dynamicData": {
     "notams": [
       {
@@ -68,41 +68,6 @@
         "validity": {
           "end": "2026-08-18T20:59:00Z",
           "start": "2026-08-15T09:00:00Z"
-        }
-      },
-      {
-        "id": "63922220603502513",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL420"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2224,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5819N02437E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 420
-        },
-        "schedule": "13-15 1800-2359, 16 0000-0359",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (PARNU-REIU) WILL TAKE PLACE\r\nWITHIN: 582414.29N 0250416.40E - CLOCKWISE ARC OF 15NM CENTERED ON\r\n581910N 0243729E - 581400.12N 0241049.32E - 581910N 0243729E -\r\n582414.29N 0250416.40E. LASER BEAMS MAY CAUSE BLINDNESS WITHIN 4NM UP\r\nTO FL130. FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR WITHIN\r\n15NM UP TO FL420.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-16T03:59:00Z",
-          "start": "2026-08-13T18:00:00Z"
         }
       },
       {
@@ -2660,8 +2625,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922443312436465",
-        "number": 1124,
+        "id": "63922447927407665",
+        "number": 1125,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2671,32 +2636,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-16T02:13:00Z"
+            "time": "2026-08-16T03:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "4affdaaf-388d-4021-b1eb-1dbcf3b8e62f",
-  "identifier": "BRIEFING-20260816-15",
+  "id": "f1951bc2-4cfc-428e-aa55-4f98c92a5da9",
+  "identifier": "BRIEFING-20260816-27",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2743,8 +2708,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-17T03:00:00Z",
-    "validityStart": "2026-08-16T03:00:00Z"
+    "validityEnd": "2026-08-17T04:00:00Z",
+    "validityStart": "2026-08-16T04:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2922,11 +2887,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63922220603502513",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917306548858241",
                   "structureType": "REFERENCE"
                 }
@@ -3024,7 +2984,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922443312436465",
+                  "referenceId": "63922447927407665",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3184,11 +3144,6 @@
             {
               "link": false,
               "referenceId": "63922286541041297",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63922220603502513",
               "structureType": "REFERENCE"
             },
             {
