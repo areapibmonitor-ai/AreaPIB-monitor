@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-08-17T05:30:00.419Z",
+  "createdAt": "2026-08-17T06:15:00.477Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922387892878529",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2249,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "schedule": "DAILY 0600-1500",
+        "text": "TEMPORARY RESTRICTED AREA EER2506 ACTIVATED FOR UNMANNED AIRCRAFT\r\nSYSTEM ACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT\r\nACT AVBL FROM: +372 501 0296. REF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-19T15:00:00Z",
+          "start": "2026-08-18T06:00:00Z"
+        }
+      },
+      {
+        "id": "63922387696611649",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "1500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2248,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "schedule": "DAILY 0600-1500",
+        "text": "RESTRICTED AREA EER2507 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. VERTICAL LIMITS CHANGED DURING ACTIVATION. PERMISSION FOR\r\nENTERING THE AREA AND INFO ABOUT ACT AVBL FROM: +372 501 0296. REF\r\nAIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-19T15:00:00Z",
+          "start": "2026-08-18T06:00:00Z"
+        }
+      },
       {
         "id": "63922307819865505",
         "locations": [
@@ -2821,8 +2891,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63922529273669457",
-        "number": 594,
+        "id": "63922543028935713",
+        "number": 595,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2850,14 +2920,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-17T02:06:00Z"
+            "time": "2026-08-17T05:55:00Z"
           }
         ]
       }
     ]
   },
-  "id": "46f0cb72-3de0-475b-aeb8-31520f9307bb",
-  "identifier": "BRIEFING-20260817-37",
+  "id": "46d6d3ab-74ee-4212-accd-5860f9454ea8",
+  "identifier": "BRIEFING-20260817-41",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2904,8 +2974,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-18T05:30:00Z",
-    "validityStart": "2026-08-17T05:30:00Z"
+    "validityEnd": "2026-08-18T06:15:00Z",
+    "validityStart": "2026-08-17T06:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3277,7 +3347,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922529273669457",
+                  "referenceId": "63922543028935713",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3362,6 +3432,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63922387892878529",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63922387696611649",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63922297641187857",
