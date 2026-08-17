@@ -1,7 +1,97 @@
 {
-  "createdAt": "2026-08-17T11:30:00.413Z",
+  "createdAt": "2026-08-17T11:45:00.441Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922563517641281",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2259,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IL",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS LOC RWY 24 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-18T13:00:00Z",
+          "start": "2026-08-18T11:00:00Z"
+        }
+      },
+      {
+        "id": "63922563349541057",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2258,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "ID",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS DME RWY 24 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-18T09:00:00Z",
+          "start": "2026-08-18T07:00:00Z"
+        }
+      },
+      {
+        "id": "63922563126482625",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2257,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IG",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS GP RWY 24 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-18T09:00:00Z",
+          "start": "2026-08-18T07:00:00Z"
+        }
+      },
       {
         "id": "63922554697698305",
         "levels": {
@@ -2906,8 +2996,8 @@
       }
     ]
   },
-  "id": "aaeb4843-fe76-47c0-b1e4-ea83933147c7",
-  "identifier": "BRIEFING-20260817-62",
+  "id": "d8fbfcb4-455c-4054-a426-e7da77d0620f",
+  "identifier": "BRIEFING-20260817-63",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2954,8 +3044,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-18T11:30:00Z",
-    "validityStart": "2026-08-17T11:30:00Z"
+    "validityEnd": "2026-08-18T11:45:00Z",
+    "validityStart": "2026-08-17T11:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3025,6 +3115,21 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922563517641281",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922563349541057",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922563126482625",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922126622088097",
