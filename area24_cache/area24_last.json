@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-18T09:15:00.469Z",
+  "createdAt": "2026-08-18T09:45:00.483Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922642426409809",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2268,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AERODROME CLOSED. REF AIP SUP 14/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-31T23:59:00Z",
+          "start": "2026-08-18T09:35:00Z"
+        }
+      },
       {
         "id": "63922563517641281",
         "locations": [
@@ -3217,8 +3247,8 @@
       }
     ]
   },
-  "id": "14de5d5a-b458-4f38-8a5c-11baa3618d3a",
-  "identifier": "BRIEFING-20260818-53",
+  "id": "02b1bc72-439e-4946-b07f-f31b7e3aa3b1",
+  "identifier": "BRIEFING-20260818-55",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3265,8 +3295,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-19T09:15:00Z",
-    "validityStart": "2026-08-18T09:15:00Z"
+    "validityEnd": "2026-08-19T09:45:00Z",
+    "validityStart": "2026-08-18T09:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3410,6 +3440,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922642426409809",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922113526272945",
