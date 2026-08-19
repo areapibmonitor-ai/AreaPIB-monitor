@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-19T01:45:00.55Z",
+  "createdAt": "2026-08-19T02:30:00.474Z",
   "dynamicData": {
     "notams": [
       {
@@ -3111,8 +3111,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63922682589471985",
-        "number": 599,
+        "id": "63922702464749937",
+        "number": 600,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3134,20 +3134,20 @@
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-18T20:42:00Z"
+            "time": "2026-08-19T02:09:00Z"
           }
         ]
       }
     ]
   },
-  "id": "1026c684-956c-4c92-9e02-fbcf2c0713cd",
-  "identifier": "BRIEFING-20260819-8",
+  "id": "31873dbe-47f7-48bf-a6d8-2be8c91eb734",
+  "identifier": "BRIEFING-20260819-11",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3194,8 +3194,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-20T01:45:00Z",
-    "validityStart": "2026-08-19T01:45:00Z"
+    "validityEnd": "2026-08-20T02:30:00Z",
+    "validityStart": "2026-08-19T02:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3562,7 +3562,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922682589471985",
+                  "referenceId": "63922702464749937",
                   "structureType": "REFERENCE"
                 }
               ],
