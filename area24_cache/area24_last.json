@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-19T18:45:00.478Z",
+  "createdAt": "2026-08-19T19:30:00.475Z",
   "dynamicData": {
     "notams": [
       {
@@ -420,40 +420,6 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-12T06:33:00Z"
-        }
-      },
-      {
-        "id": "63922035788677825",
-        "levels": {
-          "lower": "SFC",
-          "upper": "900FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2210,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5923N02535E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 9
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2048 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 592513N 0252928E - 592600N\r\n0253909E - 592036N 0254000E - 592238N 0252912E - 592513N 0252928E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5696 4550.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T18:59:00Z",
-          "start": "2026-08-15T09:00:00Z"
         }
       },
       {
@@ -2972,8 +2938,8 @@
       }
     ]
   },
-  "id": "4dea925b-1bb1-4898-a44a-0368d6f1ad35",
-  "identifier": "BRIEFING-20260819-91",
+  "id": "d41ada21-ec08-49e9-830b-e988250d1959",
+  "identifier": "BRIEFING-20260819-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3020,8 +2986,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-20T18:45:00Z",
-    "validityStart": "2026-08-19T18:45:00Z"
+    "validityEnd": "2026-08-20T19:30:00Z",
+    "validityStart": "2026-08-19T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3481,11 +3447,6 @@
             {
               "link": false,
               "referenceId": "63922297641187857",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922035788677825",
               "structureType": "REFERENCE"
             },
             {
