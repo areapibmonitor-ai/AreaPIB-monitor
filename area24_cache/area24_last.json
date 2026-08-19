@@ -1,7 +1,115 @@
 {
-  "createdAt": "2026-08-19T07:00:00.48Z",
+  "createdAt": "2026-08-19T07:45:00.462Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922720474019585",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2271,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LP",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1156,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ALL AIRCRAFT OWNED, CHARTERED OR OPERATED BY CITIZENS OF THE\r\nRUSSIAN FEDERATION, OPERATORS HOLDING AIR OPERATOR CERTIFICATE (AOC)\r\nISSUED BY THE RUSSIAN FEDERATION AUTHORITIES ARE PROHIBITED TO ENTER,\r\nEXIT OR OVERFLY ESTONIAN AIRSPACE EXCEPT HUMANITARIAN FLIGHTS AND SAR\r\nFLIGHTS WITH THE PERMISSION OF THE ESTONIAN TRANSPORT ADMINISTRATION\r\nAND IN CASE OF EMERGENCY LANDING OR EMERGENCY OVERFLIGHT.",
+        "type": "R",
+        "validity": {
+          "end": "2026-11-20T09:00:00Z",
+          "est": true,
+          "start": "2026-08-19T07:13:00Z"
+        }
+      },
+      {
+        "id": "63922720324533809",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2270,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2179,
+          "series": "A",
+          "year": 2026
+        },
+        "schedule": "19 0711-1430, 21 24-25 0600-1430",
+        "text": "TEMPORARY OBSTACLE (EXCAVATOR IN STRIP AREA) ERECTED ALONG A LINE:\r\n592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT. NOT\r\nLIGHTED.",
+        "type": "R",
+        "validity": {
+          "end": "2026-08-25T14:30:00Z",
+          "start": "2026-08-19T07:11:00Z"
+        }
+      },
+      {
+        "id": "63922719919910385",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2269,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 999,
+          "scope": "E",
+          "subject": "AF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 1157,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "ESTONIAN AIR CARRIERS AND CAPTAINS OF AIRCRAFT IN CHARGE OF AIR\r\nSERVICE MANAGED BY CARRIERS HOLDERS OF OPERATING LICENCE ISSUED BY\r\nESTONIA, WHETHER THEY ARE CONTRACTUAL CARRIERS AND OR DE FACTO\r\nCARRIERS, OR PERFORMING AIR SERVICE WITH COMMERCIAL CHARTER AGREEMENT\r\nOR WITH CODE SHARING AND TO ALL FLIGHT PERFORMED WITH ESTONIAN\r\nAIRCRAFT REGISTRATION, ARE REQUESTED TO AVOID MINSK FIR (UMMV).\r\nFOREIGN AIR CARRIERS INBOUND EU ARE RECOMMENDED TO AVOID BELARUS\r\nMINSK FIR(UMMV). FOR MORE INFORMATION EASA SAFETY DIRECTIVE\r\nSD2021-02.",
+        "type": "R",
+        "validity": {
+          "end": "2026-11-20T09:00:00Z",
+          "est": true,
+          "start": "2026-08-19T07:01:00Z"
+        }
+      },
       {
         "id": "63922642426409809",
         "locations": [
@@ -592,37 +700,6 @@
         "validity": {
           "end": "2026-08-31T13:00:00Z",
           "start": "2026-08-11T06:00:00Z"
-        }
-      },
-      {
-        "id": "63921704888310577",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2179,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "schedule": "MON-FRI 0600-1430",
-        "text": "TEMPORARY OBSTACLE (EXCAVATOR IN STRIP AREA) ERECTED ALONG A LINE:\r\n592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT. NOT\r\nLIGHTED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T14:30:00Z",
-          "start": "2026-08-10T06:00:00Z"
         }
       },
       {
@@ -3033,78 +3110,6 @@
           "est": true,
           "start": "2026-05-27T07:18:00Z"
         }
-      },
-      {
-        "id": "63914852146938465",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1157,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 371,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ESTONIAN AIR CARRIERS AND CAPTAINS OF AIRCRAFT IN CHARGE OF AIR\r\nSERVICE MANAGED BY CARRIERS HOLDERS OF OPERATING LICENCE ISSUED BY\r\nESTONIA, WHETHER THEY ARE CONTRACTUAL CARRIERS AND OR DE FACTO\r\nCARRIERS, OR PERFORMING AIR SERVICE WITH COMMERCIAL CHARTER AGREEMENT\r\nOR WITH CODE SHARING AND TO ALL FLIGHT PERFORMED WITH ESTONIAN\r\nAIRCRAFT REGISTRATION, ARE REQUESTED TO AVOID MINSK FIR (UMMV).\r\nFOREIGN AIR CARRIERS INBOUND EU ARE RECOMMENDED TO AVOID BELARUS\r\nMINSK FIR(UMMV). FOR MORE INFORMATION EASA SAFETY DIRECTIVE\r\nSD2021-02.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-20T09:00:00Z",
-          "est": true,
-          "start": "2026-05-20T05:35:00Z"
-        }
-      },
-      {
-        "id": "63914851946498273",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1156,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LP",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 370,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ALL AIRCRAFT OWNED, CHARTERED OR OPERATED BY CITIZENS OF THE\r\nRUSSIAN FEDERATION, OPERATORS HOLDING AIR OPERATOR CERTIFICATE (AOC)\r\nISSUED BY THE RUSSIAN FEDERATION AUTHORITIES ARE PROHIBITED TO ENTER,\r\nEXIT OR OVERFLY ESTONIAN AIRSPACE EXCEPT HUMANITARIAN FLIGHTS AND SAR\r\nFLIGHTS WITH THE PERMISSION OF THE ESTONIAN TRANSPORT ADMINISTRATION\r\nAND IN CASE OF EMERGENCY LANDING OR EMERGENCY OVERFLIGHT.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-20T09:00:00Z",
-          "est": true,
-          "start": "2026-05-20T05:31:00Z"
-        }
       }
     ],
     "snowtams": [
@@ -3180,8 +3185,8 @@
       }
     ]
   },
-  "id": "f5530a4a-8cfc-4851-8ba4-0626168d059f",
-  "identifier": "BRIEFING-20260819-44",
+  "id": "eed4289b-8cf7-419e-a357-a390a236e249",
+  "identifier": "BRIEFING-20260819-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3228,8 +3233,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-20T07:00:00Z",
-    "validityStart": "2026-08-19T07:00:00Z"
+    "validityEnd": "2026-08-20T07:45:00Z",
+    "validityStart": "2026-08-19T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3434,7 +3439,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63921704888310577",
+                  "referenceId": "63922720324533809",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3612,6 +3617,16 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63922720474019585",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63922719919910385",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63922211921052705",
               "structureType": "REFERENCE"
             },
@@ -3663,16 +3678,6 @@
             {
               "link": false,
               "referenceId": "63915463295057601",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914852146938465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63914851946498273",
               "structureType": "REFERENCE"
             }
           ],
