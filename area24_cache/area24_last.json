@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-19T23:30:00.501Z",
+  "createdAt": "2026-08-20T00:15:00.441Z",
   "dynamicData": {
     "notams": [
       {
@@ -318,37 +318,6 @@
           "end": "2026-11-13T23:59:00Z",
           "est": true,
           "start": "2026-08-13T09:57:00Z"
-        }
-      },
-      {
-        "id": "63922204706327489",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2222,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5748N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 3,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 100
-        },
-        "schedule": "17-19 24-27 0600-1200",
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 3KM\r\nRADIUS CENTRED ON 574816N0265531E FROM SFC UP TO FL100.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-27T12:00:00Z",
-          "start": "2026-08-17T06:00:00Z"
         }
       },
       {
@@ -1400,41 +1369,6 @@
         }
       },
       {
-        "id": "63920748061019873",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2059,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "03 10 17 24 0500-2359, 04 11 18 25-26 H24, 05 0000-1359, 12-13\r\n0000-0459 1700-2359, 14 19 27 0000-1659",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-27T16:59:00Z",
-          "start": "2026-08-03T05:00:00Z"
-        }
-      },
-      {
         "id": "63920487170087665",
         "levels": {
           "lower": "SFC",
@@ -2040,126 +1974,6 @@
         }
       },
       {
-        "id": "63918067520514193",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1754,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 999,
-          "scope": "E",
-          "subject": "AF",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 08/2026 WEF 06 AUG 2026:\r\n- UPDATED INFORMATION ABOUT METEOROLOGICAL OBSERVATIONS AND REPORTS.\r\n- UPDATED INFORMATION ABOUT ADDRESSING OF FLIGHT PLAN MESSAGES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T23:59:00Z",
-          "start": "2026-08-06T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918063362670193",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 1748,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PA",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 08/2026 WEF 06 AUG 2026:\r\n- UPDATED ARRIVAL PROCEDURES.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T23:59:00Z",
-          "start": "2026-08-06T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918063212204849",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 1747,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MD",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 08/2026 WEF 06 AUG 2026:\r\n- UPDATED REDUCED DECLARED DISTANCES FOR TAKE OFF.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T23:59:00Z",
-          "start": "2026-08-06T00:00:00Z"
-        }
-      },
-      {
-        "id": "63918062514055041",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1746,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "TT",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 08/2026 WEF 06 AUG 2026:\r\n- UPDATED EETU ILS RWY 26 WAYPOINT LIST.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-19T23:59:00Z",
-          "start": "2026-08-06T00:00:00Z"
-        }
-      },
-      {
         "id": "63917455049070385",
         "locations": [
           "EEEI"
@@ -2434,41 +2248,6 @@
           "end": "2026-09-18T23:59:00Z",
           "est": true,
           "start": "2026-06-19T00:00:00Z"
-        }
-      },
-      {
-        "id": "63917376885247921",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 1607,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5933N02618E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01-19 0600-1900, 22-23 30 0600-1500, 27-28 1200-1800",
-        "text": "DANGER AREA EED8 (RUTJA) ACTIVATED FOR FIRING.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-30T15:00:00Z",
-          "start": "2026-08-01T06:00:00Z"
         }
       },
       {
@@ -2973,16 +2752,16 @@
       }
     ]
   },
-  "id": "8d4c1376-bdf3-41d3-b980-03d2625d0d67",
-  "identifier": "BRIEFING-20260819-110",
+  "id": "9f9f24f3-2c32-4f21-b4f7-14283589ebb2",
+  "identifier": "BRIEFING-20260820-2",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3021,8 +2800,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-20T23:30:00Z",
-    "validityStart": "2026-08-19T23:30:00Z"
+    "validityEnd": "2026-08-21T00:15:00Z",
+    "validityStart": "2026-08-20T00:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3110,11 +2889,6 @@
                 {
                   "link": false,
                   "referenceId": "63921335878328705",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63918063362670193",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3257,11 +3031,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918063212204849",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917386256682513",
                   "structureType": "REFERENCE"
                 },
@@ -3364,11 +3133,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63918062514055041",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63917304677472401",
                   "structureType": "REFERENCE"
                 },
@@ -3419,11 +3183,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63922204706327489",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63922113526272945",
               "structureType": "REFERENCE"
@@ -3436,11 +3195,6 @@
             {
               "link": true,
               "referenceId": "63921004958802689",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63918067520514193",
               "structureType": "REFERENCE"
             },
             {
@@ -3595,11 +3349,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63920748061019873",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63920487170087665",
               "structureType": "REFERENCE"
@@ -3647,11 +3396,6 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63917376885247921",
               "structureType": "REFERENCE"
             },
             {
