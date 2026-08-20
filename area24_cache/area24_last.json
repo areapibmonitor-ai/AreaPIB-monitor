@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-08-20T16:00:00.45Z",
+  "createdAt": "2026-08-20T16:45:00.508Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63922761237860849",
+        "id": "63922838486769505",
         "locations": [
           "EEEI"
         ],
         "notamId": {
-          "number": 2287,
+          "number": 2288,
           "series": "A",
           "year": 2026
         },
@@ -25,12 +25,17 @@
           "traffic": "IV",
           "upper": 999
         },
+        "referenceId": {
+          "number": 2287,
+          "series": "A",
+          "year": 2026
+        },
         "text": "TAF REPORTS UNAVAILABLE. RELIABLE WEATHER INFO AVAILABLE ON\r\nREQUEST VIA TEL +372 717 3413.",
-        "type": "N",
+        "type": "R",
         "validity": {
-          "end": "2026-08-20T18:30:00Z",
+          "end": "2026-08-24T18:00:00Z",
           "est": true,
-          "start": "2026-08-19T18:35:00Z"
+          "start": "2026-08-20T16:00:00Z"
         }
       },
       {
@@ -1262,6 +1267,40 @@
           "end": "2026-08-24T14:00:00Z",
           "est": true,
           "start": "2026-08-03T05:42:00Z"
+        }
+      },
+      {
+        "id": "63921015620719489",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2102,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5853N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26171UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585645N 0241849E - 585647N\r\n0243211E - 584852N 0243210E - 584852N 0241857E - 585645N 0241849E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 503\r\n6833.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-22T15:00:00Z",
+          "start": "2026-08-21T16:00:00Z"
         }
       },
       {
@@ -2819,8 +2858,8 @@
       }
     ]
   },
-  "id": "0fa6d299-e45a-4713-b240-d4f65a86d24b",
-  "identifier": "BRIEFING-20260820-80",
+  "id": "e9c44f64-37a2-4fde-bd6d-d343d7f71dd4",
+  "identifier": "BRIEFING-20260820-83",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2867,8 +2906,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-21T16:00:00Z",
-    "validityStart": "2026-08-20T16:00:00Z"
+    "validityEnd": "2026-08-21T16:45:00Z",
+    "validityStart": "2026-08-20T16:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2940,7 +2979,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63922761237860849",
+                  "referenceId": "63922838486769505",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3403,6 +3442,11 @@
             {
               "link": false,
               "referenceId": "63921356113562513",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921015620719489",
               "structureType": "REFERENCE"
             },
             {
