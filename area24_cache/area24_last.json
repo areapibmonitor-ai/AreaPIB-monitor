@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-20T04:45:00.476Z",
+  "createdAt": "2026-08-20T05:15:00.482Z",
   "dynamicData": {
     "notams": [
       {
@@ -357,6 +357,40 @@
         }
       },
       {
+        "id": "63922125124079953",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2216,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5831N02614E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-21T14:01:00Z",
+          "start": "2026-08-21T05:00:00Z"
+        }
+      },
+      {
         "id": "63922113526272945",
         "locations": [
           "EEKE"
@@ -389,6 +423,75 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-12T06:33:00Z"
+        }
+      },
+      {
+        "id": "63921959089236545",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2199,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "21 0500-1759, 22 0500-1459, 27 1700-2359, 28-29 H24, 30 0000-1359",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T13:59:00Z",
+          "start": "2026-08-21T05:00:00Z"
+        }
+      },
+      {
+        "id": "63921958373305761",
+        "levels": {
+          "lower": "SFC",
+          "upper": "9200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2198,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-21T18:59:00Z",
+          "start": "2026-08-21T05:00:00Z"
         }
       },
       {
@@ -2752,8 +2855,8 @@
       }
     ]
   },
-  "id": "fd5b5e6b-e78d-4f5b-8917-d6e0bce9ac6b",
-  "identifier": "BRIEFING-20260820-34",
+  "id": "40515768-f37f-4013-8a54-d1377ee3577c",
+  "identifier": "BRIEFING-20260820-36",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2800,8 +2903,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-21T04:45:00Z",
-    "validityStart": "2026-08-20T04:45:00Z"
+    "validityEnd": "2026-08-21T05:15:00Z",
+    "validityStart": "2026-08-20T05:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3241,6 +3344,21 @@
             {
               "link": false,
               "referenceId": "63922297641187857",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63922125124079953",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921959089236545",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921958373305761",
               "structureType": "REFERENCE"
             },
             {
