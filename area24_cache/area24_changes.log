@@ -24506,3 +24506,22 @@ Other removals:
 - NOTAM A2215/26 was removed from the PIB.
 [2026-08-21T09:47:36Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7f43fea8559sm6775933a34.10 - gsmtp')
 [2026-08-21T10:15:19Z] NO CHANGE in dynamicData.notams.
+[2026-08-21T10:52:03Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A2217/26 was replaced with NOTAM A2306/26.
+AFTN: (A2306/26 NOTAMR A2217/26
+
+(A2306/26 NOTAMR A2217/26
+Q)EETT/FMAU/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2608211027 C)2608311400
+E)METAR UNAVAILABLE AT INTERNET SOURCE WWW.LENNUILM.EE/OPMET/.
+RELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413 AND
+EMAIL LB.METEO(AT)MIL.EE.
+)
+
+
+Other removals:
+- NOTAM A2289/26 was removed from the PIB.
+[2026-08-21T10:52:03Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-327bf1970b0sm26973116eec.29 - gsmtp')
