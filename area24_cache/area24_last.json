@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-20T23:30:00.489Z",
+  "createdAt": "2026-08-21T00:15:00.484Z",
   "dynamicData": {
     "notams": [
       {
@@ -315,6 +315,41 @@
         "validity": {
           "end": "2026-08-21T14:01:00Z",
           "start": "2026-08-21T05:00:00Z"
+        }
+      },
+      {
+        "id": "63922122125813153",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2215,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "13 15-16 18 22-23 27 29-30 0500-2000",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T20:00:00Z",
+          "start": "2026-08-13T05:00:00Z"
         }
       },
       {
@@ -1363,6 +1398,41 @@
         }
       },
       {
+        "id": "63920835785075953",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2072,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5904N02406E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "08-09 15-16 22 25-26 0500-2000",
+        "text": "DANGER AREA EED7 (PIIRSALU) ACTIVATED FOR MILITARY EXERCISE.\r\nVERTICAL LIMITS CHANGED DURING ACTIVATION.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-26T20:00:00Z",
+          "start": "2026-08-08T05:00:00Z"
+        }
+      },
+      {
         "id": "63920815142492801",
         "levels": {
           "lower": "SFC",
@@ -1601,6 +1671,41 @@
         "validity": {
           "end": "2026-10-21T17:00:00Z",
           "start": "2026-07-28T05:00:00Z"
+        }
+      },
+      {
+        "id": "63920221576567521",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1994,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5901N02650E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01 04-08 12-15 18 22 28-30 0700-1600",
+        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T16:00:00Z",
+          "start": "2026-08-01T07:00:00Z"
         }
       },
       {
@@ -2280,6 +2385,41 @@
         }
       },
       {
+        "id": "63917376885247921",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1607,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5933N02618E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "schedule": "01-19 0600-1900, 22-23 30 0600-1500, 27-28 1200-1800",
+        "text": "DANGER AREA EED8 (RUTJA) ACTIVATED FOR FIRING.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-30T15:00:00Z",
+          "start": "2026-08-01T06:00:00Z"
+        }
+      },
+      {
         "id": "63917372935923281",
         "locations": [
           "EETN"
@@ -2781,16 +2921,16 @@
       }
     ]
   },
-  "id": "ad88e9f7-80ff-4946-adf7-744e14888341",
-  "identifier": "BRIEFING-20260820-110",
+  "id": "e7e0b345-8c46-4423-9ad4-55375ae4b008",
+  "identifier": "BRIEFING-20260821-2",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2829,8 +2969,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-21T23:30:00Z",
-    "validityStart": "2026-08-20T23:30:00Z"
+    "validityEnd": "2026-08-22T00:15:00Z",
+    "validityStart": "2026-08-21T00:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3264,6 +3404,11 @@
             },
             {
               "link": false,
+              "referenceId": "63922122125813153",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63921959089236545",
               "structureType": "REFERENCE"
             },
@@ -3374,6 +3519,11 @@
             },
             {
               "link": false,
+              "referenceId": "63920835785075953",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63920815142492801",
               "structureType": "REFERENCE"
             },
@@ -3395,6 +3545,11 @@
             {
               "link": false,
               "referenceId": "63920310026862465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63920221576567521",
               "structureType": "REFERENCE"
             },
             {
@@ -3425,6 +3580,11 @@
             {
               "link": true,
               "referenceId": "63918400221082769",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917376885247921",
               "structureType": "REFERENCE"
             },
             {
