@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-21T06:15:00.484Z",
+  "createdAt": "2026-08-21T07:00:00.453Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63922889961429201",
+        "locations": [
+          "EERU"
+        ],
+        "notamId": {
+          "number": 2289,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5747N02316E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "EERU RWY 13/31 CLOSED DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-21T11:00:00Z",
+          "start": "2026-08-21T06:20:00Z"
+        }
+      },
       {
         "id": "63922838486769505",
         "locations": [
@@ -2621,36 +2651,6 @@
         }
       },
       {
-        "id": "63917125445303009",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 1492,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CS",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "PI",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ADD WAYPOINT UNESU 5.6 NM IUM COORDINATES 581837N 0265241E. REF\r\nAIP PART AD EETU 2.22  ITEM 2.3.4.2 .",
-        "type": "N",
-        "validity": {
-          "perm": true,
-          "start": "2026-07-09T00:00:00Z"
-        }
-      },
-      {
         "id": "63916840332689953",
         "locations": [
           "EETT"
@@ -2921,8 +2921,8 @@
       }
     ]
   },
-  "id": "c9dc7a2f-14c2-4d38-a578-6a8805ef55cc",
-  "identifier": "BRIEFING-20260821-41",
+  "id": "c26a2bb1-3ff4-4c34-8f3e-2a117b0fa6ec",
+  "identifier": "BRIEFING-20260821-44",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2969,8 +2969,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T06:15:00Z",
-    "validityStart": "2026-08-21T06:15:00Z"
+    "validityEnd": "2026-08-22T07:00:00Z",
+    "validityStart": "2026-08-21T07:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3157,6 +3157,13 @@
               "title": "EEPU - PARNU"
             },
             {
+              "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922889961429201",
+                  "structureType": "REFERENCE"
+                }
+              ],
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
@@ -3303,11 +3310,6 @@
                 {
                   "link": false,
                   "referenceId": "63917303860207313",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63917125445303009",
                   "structureType": "REFERENCE"
                 },
                 {
