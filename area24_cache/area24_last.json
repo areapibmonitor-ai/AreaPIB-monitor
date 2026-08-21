@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-21T18:15:00.451Z",
+  "createdAt": "2026-08-21T19:00:03.722Z",
   "dynamicData": {
     "notams": [
       {
@@ -492,40 +492,6 @@
         "type": "N",
         "validity": {
           "end": "2026-08-30T13:59:00Z",
-          "start": "2026-08-21T05:00:00Z"
-        }
-      },
-      {
-        "id": "63921958373305761",
-        "levels": {
-          "lower": "SFC",
-          "upper": "9200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2198,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-21T18:59:00Z",
           "start": "2026-08-21T05:00:00Z"
         }
       },
@@ -1088,40 +1054,6 @@
         "validity": {
           "end": "2026-09-10T23:59:00Z",
           "start": "2026-08-05T10:36:00Z"
-        }
-      },
-      {
-        "id": "63921356113562513",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2127,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5859N02500E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26173UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 2.5KM RADIUS CENTERED ON\r\n585929N 0250007E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5887 5147.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-21T19:00:00Z",
-          "start": "2026-08-21T09:00:00Z"
         }
       },
       {
@@ -2860,8 +2792,8 @@
       }
     ]
   },
-  "id": "23f708ec-c7de-4802-8342-3deba1659337",
-  "identifier": "BRIEFING-20260821-89",
+  "id": "008a456e-ea2f-4e83-9c2e-64ce4af89c75",
+  "identifier": "BRIEFING-20260821-92",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2908,8 +2840,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T18:15:00Z",
-    "validityStart": "2026-08-21T18:15:00Z"
+    "validityEnd": "2026-08-22T19:00:00Z",
+    "validityStart": "2026-08-21T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3357,11 +3289,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63921958373305761",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63921952790256769",
               "structureType": "REFERENCE"
@@ -3429,11 +3356,6 @@
             {
               "link": false,
               "referenceId": "63921525023082497",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63921356113562513",
               "structureType": "REFERENCE"
             },
             {
