@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-21T13:00:02.965Z",
+  "createdAt": "2026-08-21T14:00:00.448Z",
   "dynamicData": {
     "notams": [
       {
@@ -596,40 +596,6 @@
         "validity": {
           "end": "2026-08-21T18:59:00Z",
           "start": "2026-08-21T05:00:00Z"
-        }
-      },
-      {
-        "id": "63921958263272209",
-        "levels": {
-          "lower": "SFC",
-          "upper": "8500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2197,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 85
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E - 592114N 0253942E -\r\n592744N 0254210E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-21T13:59:00Z",
-          "start": "2026-08-20T05:00:00Z"
         }
       },
       {
@@ -2960,46 +2926,11 @@
             "time": "2026-08-21T12:55:00Z"
           }
         ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63922888459198929",
-        "number": 607,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-08-21T05:52:00Z"
-          }
-        ]
       }
     ]
   },
-  "id": "fcbdeea6-57d3-474b-b8da-67a1c43b31d0",
-  "identifier": "BRIEFING-20260821-68",
+  "id": "2c5bda93-d9b8-4cc3-99e5-97d46c695d14",
+  "identifier": "BRIEFING-20260821-72",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3046,8 +2977,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T13:00:00Z",
-    "validityStart": "2026-08-21T13:00:00Z"
+    "validityEnd": "2026-08-22T14:00:00Z",
+    "validityStart": "2026-08-21T14:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3391,11 +3322,6 @@
                   "link": false,
                   "referenceId": "63915648888656033",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63922888459198929",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3512,11 +3438,6 @@
             {
               "link": false,
               "referenceId": "63921958373305761",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63921958263272209",
               "structureType": "REFERENCE"
             },
             {
