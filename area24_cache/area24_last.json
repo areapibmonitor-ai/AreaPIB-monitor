@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-21T14:00:00.448Z",
+  "createdAt": "2026-08-21T14:45:01.956Z",
   "dynamicData": {
     "notams": [
       {
@@ -458,40 +458,6 @@
           "end": "2026-11-13T23:59:00Z",
           "est": true,
           "start": "2026-08-13T09:57:00Z"
-        }
-      },
-      {
-        "id": "63922125124079953",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2216,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-21T14:01:00Z",
-          "start": "2026-08-21T05:00:00Z"
         }
       },
       {
@@ -2929,8 +2895,8 @@
       }
     ]
   },
-  "id": "2c5bda93-d9b8-4cc3-99e5-97d46c695d14",
-  "identifier": "BRIEFING-20260821-72",
+  "id": "f362582b-f2bd-46d9-b19c-f8f468121ff7",
+  "identifier": "BRIEFING-20260821-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2977,8 +2943,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T14:00:00Z",
-    "validityStart": "2026-08-21T14:00:00Z"
+    "validityEnd": "2026-08-22T14:45:00Z",
+    "validityStart": "2026-08-21T14:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3423,11 +3389,6 @@
             {
               "link": false,
               "referenceId": "63922297641187857",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922125124079953",
               "structureType": "REFERENCE"
             },
             {
