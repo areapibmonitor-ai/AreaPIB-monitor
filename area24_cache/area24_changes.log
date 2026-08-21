@@ -24474,3 +24474,34 @@ Other removals:
 [2026-08-21T07:14:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-327bf173b02sm23746936eec.27 - gsmtp')
 [2026-08-21T08:00:40Z] NO CHANGE in dynamicData.notams.
 [2026-08-21T08:53:17Z] NO CHANGE in dynamicData.notams.
+[2026-08-21T09:47:36Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Replaced NOTAMs:
+NOTAM A2288/26 was replaced with NOTAM A2294/26.
+AFTN: (A2294/26 NOTAMR A2288/26
+
+(A2294/26 NOTAMR A2288/26
+Q)EETT/FMLT/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2608210853 C)2608241400
+E)TAF REPORT UNAVAILABLE AT INTERNET SOURCE WWW.LENNUILM.EE/OPMET/.
+RELIABLE WEATHER INFO AVAILABLE ON REQUEST VIA TEL +372 717 3413 AND
+EMAIL LB.METEO(AT)MIL.EE.
+)
+
+
+New NOTAMs:
+New NOTAM added:
+(A2296/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/032/5858N02530E002
+A)EETT B)2608220500 C)2608302000
+D)22-24 27 29-30 0500-2000
+E)DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT
+FROM TEL +37253557238.
+F)SFC G)3200FT AMSL
+)
+
+
+Other removals:
+- NOTAM A2215/26 was removed from the PIB.
+[2026-08-21T09:47:36Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7f43fea8559sm6775933a34.10 - gsmtp')
