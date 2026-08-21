@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-21T07:00:00.453Z",
+  "createdAt": "2026-08-21T07:45:00.478Z",
   "dynamicData": {
     "notams": [
       {
@@ -2851,8 +2851,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63922872940295761",
-        "number": 1152,
+        "id": "63922892969819377",
+        "number": 1153,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2863,24 +2863,24 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-21T01:33:00Z"
+            "time": "2026-08-21T07:08:00Z"
           }
         ]
       },
@@ -2921,8 +2921,8 @@
       }
     ]
   },
-  "id": "c26a2bb1-3ff4-4c34-8f3e-2a117b0fa6ec",
-  "identifier": "BRIEFING-20260821-44",
+  "id": "c2a5e282-2f66-4bfa-af8b-46640fc457ed",
+  "identifier": "BRIEFING-20260821-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2969,8 +2969,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T07:00:00Z",
-    "validityStart": "2026-08-21T07:00:00Z"
+    "validityEnd": "2026-08-22T07:45:00Z",
+    "validityStart": "2026-08-21T07:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3252,7 +3252,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922872940295761",
+                  "referenceId": "63922892969819377",
                   "structureType": "REFERENCE"
                 }
               ],
