@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-21T16:45:00.477Z",
+  "createdAt": "2026-08-21T17:00:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -387,41 +387,6 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-18T09:35:00Z"
-        }
-      },
-      {
-        "id": "63922297641187857",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2231,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "DAILY 0500-1700",
-        "text": "TEMPORARY RESTRICTED AREA EER26176UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585555N 0232458E - 585651N\r\n0233104E - 585138N 0233741E - 585043N 0232953E - 585555N 0232458E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-21T17:00:00Z",
-          "start": "2026-08-18T05:00:00Z"
         }
       },
       {
@@ -2895,8 +2860,8 @@
       }
     ]
   },
-  "id": "87be5e7b-2c28-4139-8eca-3fdd847c4fef",
-  "identifier": "BRIEFING-20260821-83",
+  "id": "3d435bad-2d46-4718-a9f4-f81daf0cd4ca",
+  "identifier": "BRIEFING-20260821-84",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2943,8 +2908,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-22T16:45:00Z",
-    "validityStart": "2026-08-21T16:45:00Z"
+    "validityEnd": "2026-08-22T17:00:00Z",
+    "validityStart": "2026-08-21T17:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3384,11 +3349,6 @@
             {
               "link": false,
               "referenceId": "63922895649169969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922297641187857",
               "structureType": "REFERENCE"
             },
             {
