@@ -24949,3 +24949,16 @@ Expired NOTAMs:
 [2026-08-23T16:36:51Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5614622812f47-4b32c8c8093sm1410035b6e.17 - gsmtp')
 [2026-08-23T17:07:58Z] NO CHANGE in dynamicData.notams.
 [2026-08-23T17:39:35Z] NO CHANGE in dynamicData.notams.
+[2026-08-23T18:00:31Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2334/26 NOTAMN
+Q)EETT/ORLT/IV/M/E/000/999/5849N02426E999
+A)EETT B)2608231800 C)2608251800
+E)RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO RESCUE
+SWIMMER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE IMMEDIATE
+RESPONSE IF REQUESTED (1HR PN).
+)
+[2026-08-23T18:00:31Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-93749d9538csm337508085a.30 - gsmtp')
