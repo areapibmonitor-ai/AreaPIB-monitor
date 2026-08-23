@@ -1,7 +1,97 @@
 {
-  "createdAt": "2026-08-23T11:00:00.406Z",
+  "createdAt": "2026-08-23T11:30:00.452Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923080906840497",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2331,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AW",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AREA 2 OBSTACLE ID 299 ANTENNA COMPLETELY WITHDRAWN. REF AIP EEKE\r\nAD 2.10.",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-08-23T11:15:00Z"
+        }
+      },
+      {
+        "id": "63923080783539761",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2330,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AW",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AREA 2 OBSTACLE ID 303 ANTENNA COMPLETELY WITHDRAWN. REF AIP EEKE\r\nAD 2.10.",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-08-23T11:15:00Z"
+        }
+      },
+      {
+        "id": "63923080571984801",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2329,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AW",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AREA 2 OBSTACLE ID 2853 ANTENNA COMPLETELY WITHDRAWN. REF AIP EEKE\r\nAD 2.10.",
+        "type": "N",
+        "validity": {
+          "perm": true,
+          "start": "2026-08-23T11:15:00Z"
+        }
+      },
       {
         "id": "63923077952026849",
         "locations": [
@@ -2790,8 +2880,8 @@
       }
     ]
   },
-  "id": "51c68350-5774-4ae4-a938-0dacf8d82059",
-  "identifier": "BRIEFING-20260823-60",
+  "id": "c1639467-c887-4f49-a5d6-b1e4de63921c",
+  "identifier": "BRIEFING-20260823-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2838,8 +2928,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-24T11:00:00Z",
-    "validityStart": "2026-08-23T11:00:00Z"
+    "validityEnd": "2026-08-24T11:30:00Z",
+    "validityStart": "2026-08-23T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2998,6 +3088,21 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63923080906840497",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63923080783539761",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63923080571984801",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922642426409809",
