@@ -24913,3 +24913,9 @@ AD 2.10.
 [2026-08-23T11:39:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b17c832d31sm1185650eaf.5 - gsmtp')
 [2026-08-23T12:01:21Z] NO CHANGE in dynamicData.notams.
 [2026-08-23T12:58:04Z] NO CHANGE in dynamicData.notams.
+[2026-08-23T13:39:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Other removals:
+- NOTAM A2327/26 was removed from the PIB.
+[2026-08-23T13:39:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90c935fbb5asm38131386d6.11 - gsmtp')
