@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-23T10:30:00.453Z",
+  "createdAt": "2026-08-23T11:00:00.406Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923077952026849",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2328,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 06 WIND INFORMATION UNAVAILABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-23T23:59:00Z",
+          "start": "2026-08-23T10:35:00Z"
+        }
+      },
       {
         "id": "63923059025572577",
         "locations": [
@@ -2760,8 +2790,8 @@
       }
     ]
   },
-  "id": "196cb3da-aece-40ab-8501-92ab938667db",
-  "identifier": "BRIEFING-20260823-58",
+  "id": "51c68350-5774-4ae4-a938-0dacf8d82059",
+  "identifier": "BRIEFING-20260823-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2808,8 +2838,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-24T10:30:00Z",
-    "validityStart": "2026-08-23T10:30:00Z"
+    "validityEnd": "2026-08-24T11:00:00Z",
+    "validityStart": "2026-08-23T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2879,6 +2909,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63923077952026849",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922908743001905",
