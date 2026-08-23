@@ -24747,3 +24747,25 @@ Other removals:
 - NOTAM A2199/26 was removed from the PIB.
 [2026-08-23T01:55:17Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 006d021491bc7-6b17c703cf8sm382216eaf.0 - gsmtp')
 [2026-08-23T03:11:24Z] NO CHANGE in dynamicData.notams.
+[2026-08-23T04:04:48Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2160/26 NOTAMN
+Q)EETT/RDTT/IV/BO/W/000/234/5909N02738E011
+A)EETT B)2608240300 C)2608261900
+E)TRIGGER NOTAM - AIP SUP 15/2026 WEF 24 AUG 2026.
+- ESTABLISHMENT OF TEMPORARY DANGER AREA EED2441.
+F)SFC G)23400FT AMSL
+)
+
+New NOTAM added:
+(A2200/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/147/5922N02549E007
+A)EETT B)2608240300 C)2608281959
+E)DANGER AREA EED14 (TAPA 2) ACTIVATED. INFO ABOUT ACTIVATION
+AVAILABLE FROM +372 5326 4560.
+F)SFC G)14700FT AMSL
+)
+[2026-08-23T04:04:48Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-327f925190fsm21384950eec.31 - gsmtp')
