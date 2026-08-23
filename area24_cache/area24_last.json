@@ -1,7 +1,41 @@
 {
-  "createdAt": "2026-08-23T14:30:04.209Z",
+  "createdAt": "2026-08-23T15:00:00.427Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923092260375473",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2333,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5756N02659E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 6,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 15
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2410B ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 5NM RADIUS CENTERED ON\r\n575623N 0265848E. ALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE\r\nPROHIBITED TO FLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM\r\nESTONIAN POLICE AND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5309 4264. RESTRICTION DOES NOT\r\nAPPLY TO SAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD FLIGHTS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-24T19:00:00Z",
+          "start": "2026-08-24T07:00:00Z"
+        }
+      },
       {
         "id": "63923080906840497",
         "locations": [
@@ -2815,8 +2849,8 @@
       }
     ]
   },
-  "id": "d45ac99d-55ff-4249-9da2-ce961dc87de2",
-  "identifier": "BRIEFING-20260823-74",
+  "id": "fb5e5799-6e22-4063-a762-7063ecfca8a8",
+  "identifier": "BRIEFING-20260823-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2863,8 +2897,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-24T14:30:00Z",
-    "validityStart": "2026-08-23T14:30:00Z"
+    "validityEnd": "2026-08-24T15:00:00Z",
+    "validityStart": "2026-08-23T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3321,6 +3355,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63923092260375473",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63922906253829281",
