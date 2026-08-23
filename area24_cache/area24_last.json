@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-23T06:45:00.523Z",
+  "createdAt": "2026-08-23T07:30:00.437Z",
   "dynamicData": {
     "notams": [
       {
@@ -30,6 +30,66 @@
         "validity": {
           "end": "2026-08-23T18:00:00Z",
           "start": "2026-08-23T06:00:00Z"
+        }
+      },
+      {
+        "id": "63922908743001905",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2318,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "ID",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS DME RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-24T09:00:00Z",
+          "start": "2026-08-24T07:00:00Z"
+        }
+      },
+      {
+        "id": "63922908595028721",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2317,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IG",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS GP RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-24T09:00:00Z",
+          "start": "2026-08-24T07:00:00Z"
         }
       },
       {
@@ -2600,8 +2660,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63923046412889057",
-        "number": 1166,
+        "id": "63923065610880785",
+        "number": 1167,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2629,7 +2689,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-23T01:45:00Z"
+            "time": "2026-08-23T07:05:00Z"
           }
         ]
       },
@@ -2670,8 +2730,8 @@
       }
     ]
   },
-  "id": "d301a80d-248e-4b1b-b2a9-ff86c1c7f9a4",
-  "identifier": "BRIEFING-20260823-43",
+  "id": "d66d317f-1d42-4f34-a06a-cfcff2a8d1d6",
+  "identifier": "BRIEFING-20260823-46",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2718,8 +2778,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-24T06:45:00Z",
-    "validityStart": "2026-08-23T06:45:00Z"
+    "validityEnd": "2026-08-24T07:30:00Z",
+    "validityStart": "2026-08-23T07:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2789,6 +2849,16 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63922908743001905",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922908595028721",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63922904870019745",
@@ -2999,7 +3069,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923046412889057",
+                  "referenceId": "63923065610880785",
                   "structureType": "REFERENCE"
                 }
               ],
