@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-23T10:00:00.438Z",
+  "createdAt": "2026-08-23T10:30:00.453Z",
   "dynamicData": {
     "notams": [
       {
@@ -90,6 +90,36 @@
         "validity": {
           "end": "2026-08-24T09:00:00Z",
           "start": "2026-08-24T07:00:00Z"
+        }
+      },
+      {
+        "id": "63922908238739585",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2316,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IL",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-24T11:30:00Z",
+          "start": "2026-08-24T10:00:00Z"
         }
       },
       {
@@ -2730,8 +2760,8 @@
       }
     ]
   },
-  "id": "b969b1dc-3832-4cb8-bd69-ead897088d15",
-  "identifier": "BRIEFING-20260823-56",
+  "id": "196cb3da-aece-40ab-8501-92ab938667db",
+  "identifier": "BRIEFING-20260823-58",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2778,8 +2808,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-24T10:00:00Z",
-    "validityStart": "2026-08-23T10:00:00Z"
+    "validityEnd": "2026-08-24T10:30:00Z",
+    "validityStart": "2026-08-23T10:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2857,6 +2887,11 @@
                 {
                   "link": false,
                   "referenceId": "63922908595028721",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63922908238739585",
                   "structureType": "REFERENCE"
                 },
                 {
