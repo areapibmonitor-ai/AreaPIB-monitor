@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-24T20:45:00.439Z",
+  "createdAt": "2026-08-24T21:30:04.409Z",
   "dynamicData": {
     "notams": [
       {
@@ -172,36 +172,6 @@
           "end": "2026-09-14T14:00:00Z",
           "est": true,
           "start": "2026-08-24T11:47:00Z"
-        }
-      },
-      {
-        "id": "63923143580888673",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2335,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 06 WIND INFORMATION UNAVAILABLE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-24T20:59:00Z",
-          "start": "2026-08-24T04:45:00Z"
         }
       },
       {
@@ -2856,11 +2826,46 @@
             "time": "2026-08-24T20:06:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63923201410945329",
+        "number": 615,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-08-24T20:48:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "6dc34481-449e-400e-86fc-c7eb1d43684f",
-  "identifier": "BRIEFING-20260824-99",
+  "id": "7a27a7cd-03ea-46f2-bccb-150b4a15b558",
+  "identifier": "BRIEFING-20260824-102",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2907,8 +2912,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-25T20:45:00Z",
-    "validityStart": "2026-08-24T20:45:00Z"
+    "validityEnd": "2026-08-25T21:30:00Z",
+    "validityStart": "2026-08-24T21:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2991,11 +2996,6 @@
                 {
                   "link": false,
                   "referenceId": "63923172945265633",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923143580888673",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3276,6 +3276,11 @@
                 {
                   "link": false,
                   "referenceId": "63915648888656033",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63923201410945329",
                   "structureType": "REFERENCE"
                 }
               ],
