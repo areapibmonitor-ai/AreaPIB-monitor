@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-08-24T10:45:00.411Z",
+  "createdAt": "2026-08-24T11:30:00.456Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63923161437586497",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2336,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "SA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "ATIS CHANNEL 123.880 U/S DUE TO MAINTENANCE.\r\nMET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-24T11:30:00Z",
-          "start": "2026-08-24T11:00:00Z"
-        }
-      },
       {
         "id": "63923143580888673",
         "locations": [
@@ -214,36 +184,6 @@
         "validity": {
           "perm": true,
           "start": "2026-08-23T11:15:00Z"
-        }
-      },
-      {
-        "id": "63922908238739585",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2316,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IL",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-24T11:30:00Z",
-          "start": "2026-08-24T10:00:00Z"
         }
       },
       {
@@ -2924,8 +2864,8 @@
       }
     ]
   },
-  "id": "83c9d380-6693-407f-a9ad-a87041f1fbde",
-  "identifier": "BRIEFING-20260824-59",
+  "id": "76e1da74-fe5c-4a50-9f95-1e35b4c2a6c1",
+  "identifier": "BRIEFING-20260824-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2972,8 +2912,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-25T10:45:00Z",
-    "validityStart": "2026-08-24T10:45:00Z"
+    "validityEnd": "2026-08-25T11:30:00Z",
+    "validityStart": "2026-08-24T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3045,17 +2985,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63923161437586497",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63923143580888673",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63922908238739585",
                   "structureType": "REFERENCE"
                 },
                 {

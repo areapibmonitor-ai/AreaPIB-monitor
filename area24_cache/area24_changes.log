@@ -25126,3 +25126,10 @@ MET INFORMATION AVBL FROM AMARI TWR ON FREQ 122.100MHZ.
 )
 [2026-08-24T10:07:08Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-7f48fc81d20sm3731233a34.20 - gsmtp')
 [2026-08-24T10:56:48Z] NO CHANGE in dynamicData.notams.
+[2026-08-24T11:37:33Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2316/26 expired and was removed from the PIB.
+- NOTAM A2336/26 expired and was removed from the PIB.
+[2026-08-24T11:37:33Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3280d116cb1sm16166040eec.10 - gsmtp')
