@@ -1,7 +1,77 @@
 {
-  "createdAt": "2026-08-24T11:30:00.456Z",
+  "createdAt": "2026-08-24T12:15:00.414Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923169573818321",
+        "levels": {
+          "lower": "SFC",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2348,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5914N02556E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 13,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM +372 5360 6105.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-25T15:00:00Z",
+          "start": "2026-08-25T06:00:00Z"
+        }
+      },
+      {
+        "id": "63923168944836753",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2346,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2120,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - LAPWINGS, GULLS, STARLINGS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 2000 GRAMS\r\nMAX FLOCK SIZE - 500 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-14T14:00:00Z",
+          "est": true,
+          "start": "2026-08-24T11:47:00Z"
+        }
+      },
       {
         "id": "63923143580888673",
         "locations": [
@@ -1227,42 +1297,6 @@
           "end": "2026-08-24T14:00:00Z",
           "est": true,
           "start": "2026-08-03T06:36:00Z"
-        }
-      },
-      {
-        "id": "63921332591496097",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2120,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1897,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - LAPWINGS, STORKS, STARLINGS, GULLS, RAPTORS AND\r\nSWALLOWS\r\nBIRD WEIGHT - UP TO 3500 GRAMS\r\nMAX FLOCK SIZE - 500 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-24T14:00:00Z",
-          "est": true,
-          "start": "2026-08-03T05:42:00Z"
         }
       },
       {
@@ -2864,8 +2898,8 @@
       }
     ]
   },
-  "id": "76e1da74-fe5c-4a50-9f95-1e35b4c2a6c1",
-  "identifier": "BRIEFING-20260824-62",
+  "id": "c1737fac-c45b-4030-9479-6f4fd13d0ba5",
+  "identifier": "BRIEFING-20260824-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2912,8 +2946,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-25T11:30:00Z",
-    "validityStart": "2026-08-24T11:30:00Z"
+    "validityEnd": "2026-08-25T12:15:00Z",
+    "validityStart": "2026-08-24T12:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3133,17 +3167,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63923168944836753",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63922906253829281",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63922720324533809",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63921332591496097",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3365,6 +3399,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63923169573818321",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63923092260375473",
