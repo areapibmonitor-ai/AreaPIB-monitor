@@ -25221,3 +25221,31 @@ Expired NOTAMs:
 [2026-08-24T22:47:38Z] NO CHANGE in dynamicData.notams.
 [2026-08-24T23:10:13Z] NO CHANGE in dynamicData.notams.
 [2026-08-24T23:40:25Z] NO CHANGE in dynamicData.notams.
+[2026-08-25T00:01:53Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2071/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5831N02614E002
+A)EETT B)2608050500 C)2608301000
+D)05-06 19-20 22 26-27 0500-1800, 09 0500-1700, 10 0500-2359, 11-13
+H24, 14 0000-1700, 18 23 0500-1500, 29 0900-1600, 30 0600-1000
+E)DANGER AREA EED10 (UTSALI) ACTIVATED.
+F)SFC G)2200FT AMSL
+)
+
+New NOTAM added:
+(A2073/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2608010700 C)2608301700
+D)01-02 05-09 12-16 19-23 26-30 0700-1700
+E)DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.
+F)SFC G)2100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A2136/26 was removed from the PIB.
+- NOTAM A2296/26 was removed from the PIB.
+[2026-08-25T00:01:53Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-93749abe863sm611458885a.10 - gsmtp')
