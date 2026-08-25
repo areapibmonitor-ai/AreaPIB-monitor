@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-25T14:00:00.414Z",
+  "createdAt": "2026-08-25T15:00:00.434Z",
   "dynamicData": {
     "notams": [
       {
@@ -309,40 +309,6 @@
         }
       },
       {
-        "id": "63923169573818321",
-        "levels": {
-          "lower": "SFC",
-          "upper": "5000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2348,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACT AVBL FROM +372 5360 6105.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-25T15:00:00Z",
-          "start": "2026-08-25T06:00:00Z"
-        }
-      },
-      {
         "id": "63923168944836753",
         "locations": [
           "EETN"
@@ -637,42 +603,6 @@
           "end": "2026-11-20T09:00:00Z",
           "est": true,
           "start": "2026-08-19T07:13:00Z"
-        }
-      },
-      {
-        "id": "63922720324533809",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2270,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2179,
-          "series": "A",
-          "year": 2026
-        },
-        "schedule": "19 0711-1430, 21 24-25 0600-1430",
-        "text": "TEMPORARY OBSTACLE (EXCAVATOR IN STRIP AREA) ERECTED ALONG A LINE:\r\n592444.50N 0245022E - 592442.80N 0245056.70E ELEVATION 141FT. NOT\r\nLIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-08-25T14:30:00Z",
-          "start": "2026-08-19T07:11:00Z"
         }
       },
       {
@@ -3308,8 +3238,8 @@
       }
     ]
   },
-  "id": "e948081a-4b57-4e99-90b6-00041e26877e",
-  "identifier": "BRIEFING-20260825-72",
+  "id": "a8c69890-f48e-45f0-9eb9-563a351f0b91",
+  "identifier": "BRIEFING-20260825-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3356,8 +3286,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-26T14:00:00Z",
-    "validityStart": "2026-08-25T14:00:00Z"
+    "validityEnd": "2026-08-26T15:00:00Z",
+    "validityStart": "2026-08-25T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3602,11 +3532,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63922720324533809",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63920999363675681",
                   "structureType": "REFERENCE"
                 },
@@ -3832,11 +3757,6 @@
             {
               "link": false,
               "referenceId": "63923237666657345",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923169573818321",
               "structureType": "REFERENCE"
             },
             {
