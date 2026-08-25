@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-25T17:30:00.437Z",
+  "createdAt": "2026-08-25T18:15:00.438Z",
   "dynamicData": {
     "notams": [
       {
@@ -144,36 +144,6 @@
         "validity": {
           "end": "2026-08-27T20:59:00Z",
           "start": "2026-08-25T06:53:00Z"
-        }
-      },
-      {
-        "id": "63923231868087169",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2369,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-25T18:00:00Z",
-          "start": "2026-08-25T05:15:00Z"
         }
       },
       {
@@ -342,36 +312,6 @@
           "end": "2026-09-14T14:00:00Z",
           "est": true,
           "start": "2026-08-24T11:47:00Z"
-        }
-      },
-      {
-        "id": "63923103078652609",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2334,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5849N02426E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 999,
-          "scope": "E",
-          "subject": "OR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO RESCUE\r\nSWIMMER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE IMMEDIATE\r\nRESPONSE IF REQUESTED (1HR PN).",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-25T18:00:00Z",
-          "start": "2026-08-23T18:00:00Z"
         }
       },
       {
@@ -3204,8 +3144,8 @@
       }
     ]
   },
-  "id": "f5ba0b6c-c0ae-4d3b-8a10-095ef84d607b",
-  "identifier": "BRIEFING-20260825-86",
+  "id": "401d29ba-9e59-4170-b0e0-1eca0acca3c8",
+  "identifier": "BRIEFING-20260825-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3252,8 +3192,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-26T17:30:00Z",
-    "validityStart": "2026-08-25T17:30:00Z"
+    "validityEnd": "2026-08-26T18:15:00Z",
+    "validityStart": "2026-08-25T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3639,16 +3579,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63923231868087169",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923103078652609",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63922720474019585",
