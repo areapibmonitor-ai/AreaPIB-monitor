@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-08-25T05:00:00.486Z",
+  "createdAt": "2026-08-25T05:45:02.362Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923231868087169",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2369,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5849N02426E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 999,
+          "scope": "E",
+          "subject": "OR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE COORDINATION CENTRE SAR OPS SERVICE LIMITED DUE TO\r\nHELICOPTER UNAVAILABILITY. LATVIA, FINLAND AND SWEDEN PROVIDE\r\nIMMEDIATE RESPONSE IF REQUESTED (1HR PN).",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-25T18:00:00Z",
+          "start": "2026-08-25T05:15:00Z"
+        }
+      },
       {
         "id": "63923173759323825",
         "locations": [
@@ -1018,6 +1048,40 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-12T06:33:00Z"
+        }
+      },
+      {
+        "id": "63921964641237889",
+        "levels": {
+          "lower": "SFC",
+          "upper": "23400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2204,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5909N02739E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 10,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 234
+        },
+        "text": "TEMPORARY DANGER AREA EED2441 ESTABLISHED FOR FIRING WITHIN:\r\n591731N 0274220E - 591731N 0274816E - 590108N 0273202E - 590108N\r\n0272848E - 591731N 0274220E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL\r\n+372 5302 7449. REF AIP SUP 15/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-26T14:59:00Z",
+          "start": "2026-08-26T05:00:00Z"
         }
       },
       {
@@ -2858,8 +2922,8 @@
       }
     ]
   },
-  "id": "047a577c-188c-4f4e-bb20-84ef8ca94fe6",
-  "identifier": "BRIEFING-20260825-35",
+  "id": "ca3178eb-28ba-49ec-9e97-ef4b7244d7a1",
+  "identifier": "BRIEFING-20260825-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2906,8 +2970,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-26T05:00:00Z",
-    "validityStart": "2026-08-25T05:00:00Z"
+    "validityEnd": "2026-08-26T05:45:00Z",
+    "validityStart": "2026-08-25T05:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3285,6 +3349,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63923231868087169",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63923103078652609",
               "structureType": "REFERENCE"
             },
@@ -3422,6 +3491,11 @@
             {
               "link": false,
               "referenceId": "63922135399765553",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921964641237889",
               "structureType": "REFERENCE"
             },
             {
