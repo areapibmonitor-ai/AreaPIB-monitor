@@ -1,7 +1,69 @@
 {
-  "createdAt": "2026-08-26T14:15:00.464Z",
+  "createdAt": "2026-08-26T16:00:00.599Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63923355016576193",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2397,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "WIND INFORMATION FOR RWY 24 UNRELIABLE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-04T12:00:00Z",
+          "est": true,
+          "start": "2026-08-26T15:10:00Z"
+        }
+      },
+      {
+        "id": "63923351641489985",
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2393,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5852N02545E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 4,
+          "scope": "E",
+          "subject": "GW",
+          "traffic": "IV",
+          "upper": 165
+        },
+        "schedule": "DAILY 0500-0900",
+        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 5KM\r\nRADIUS CENTRED ON 585148N 0254511E FROM SFC UP TO FL165.",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-28T09:00:00Z",
+          "start": "2026-08-27T05:00:00Z"
+        }
+      },
       {
         "id": "63923342446430337",
         "levels": {
@@ -1356,40 +1418,6 @@
         "validity": {
           "end": "2026-08-31T23:59:00Z",
           "start": "2026-08-12T06:33:00Z"
-        }
-      },
-      {
-        "id": "63921964641237889",
-        "levels": {
-          "lower": "SFC",
-          "upper": "23400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2204,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5909N02739E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 234
-        },
-        "text": "TEMPORARY DANGER AREA EED2441 ESTABLISHED FOR FIRING WITHIN:\r\n591731N 0274220E - 591731N 0274816E - 590108N 0273202E - 590108N\r\n0272848E - 591731N 0274220E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL\r\n+372 5302 7449. REF AIP SUP 15/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-26T14:59:00Z",
-          "start": "2026-08-26T05:00:00Z"
         }
       },
       {
@@ -3232,16 +3260,16 @@
       }
     ]
   },
-  "id": "ed9bc228-d3a1-4a6f-a1ac-af30bbde7806",
-  "identifier": "BRIEFING-20260826-73",
+  "id": "c022cca2-6563-479c-bec9-94bb1dc772df",
+  "identifier": "BRIEFING-20260826-80",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3280,8 +3308,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-27T14:15:00Z",
-    "validityStart": "2026-08-26T14:15:00Z"
+    "validityEnd": "2026-08-27T16:00:00Z",
+    "validityStart": "2026-08-26T16:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3351,6 +3379,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63923355016576193",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63923247637066065",
@@ -3654,6 +3687,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63923351641489985",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63922720474019585",
               "structureType": "REFERENCE"
             },
@@ -3841,11 +3879,6 @@
             {
               "link": true,
               "referenceId": "63922303063117537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63921964641237889",
               "structureType": "REFERENCE"
             },
             {
