@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-26T06:15:00.432Z",
+  "createdAt": "2026-08-26T07:15:04.273Z",
   "dynamicData": {
     "notams": [
       {
@@ -282,6 +282,74 @@
           "end": "2026-09-14T14:00:00Z",
           "est": true,
           "start": "2026-08-24T11:47:00Z"
+        }
+      },
+      {
+        "id": "63923165885790369",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2340,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "RESTRICTED AREA EER2507 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 501 0296. REF AIP SUP 13/2026..",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-27T15:00:00Z",
+          "start": "2026-08-27T07:00:00Z"
+        }
+      },
+      {
+        "id": "63923165594815825",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2339,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "RESTRICTED AREA EER2506 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 501 0296. REF AIP SUP 13/2026..",
+        "type": "N",
+        "validity": {
+          "end": "2026-08-27T15:00:00Z",
+          "start": "2026-08-27T07:00:00Z"
         }
       },
       {
@@ -3288,8 +3356,8 @@
       }
     ]
   },
-  "id": "9452cb62-23f3-4ae7-802c-283740f6d890",
-  "identifier": "BRIEFING-20260826-41",
+  "id": "84eaaf8f-40e3-48df-95ca-e0b71aa14959",
+  "identifier": "BRIEFING-20260826-45",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3336,8 +3404,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-27T06:15:00Z",
-    "validityStart": "2026-08-26T06:15:00Z"
+    "validityEnd": "2026-08-27T07:15:00Z",
+    "validityStart": "2026-08-26T07:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3797,6 +3865,16 @@
             {
               "link": false,
               "referenceId": "63923237666657345",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923165885790369",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923165594815825",
               "structureType": "REFERENCE"
             },
             {
