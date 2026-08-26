@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-26T12:15:00.451Z",
+  "createdAt": "2026-08-26T13:15:01.602Z",
   "dynamicData": {
     "notams": [
       {
@@ -453,40 +453,6 @@
         "validity": {
           "perm": true,
           "start": "2026-08-23T11:15:00Z"
-        }
-      },
-      {
-        "id": "63922909402832993",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2321,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5924N02332E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 197
-        },
-        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM +372 527 0001.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-26T13:00:00Z",
-          "start": "2026-08-26T07:00:00Z"
         }
       },
       {
@@ -3335,8 +3301,8 @@
       }
     ]
   },
-  "id": "a613d7b5-fb7a-4dc8-94e4-52c7a59884ad",
-  "identifier": "BRIEFING-20260826-65",
+  "id": "c1222423-c9e1-4ca9-899b-b04dbad30b7f",
+  "identifier": "BRIEFING-20260826-69",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3383,8 +3349,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-27T12:15:00Z",
-    "validityStart": "2026-08-26T12:15:00Z"
+    "validityEnd": "2026-08-27T13:15:00Z",
+    "validityStart": "2026-08-26T13:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3854,11 +3820,6 @@
             {
               "link": false,
               "referenceId": "63923165594815825",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922909402832993",
               "structureType": "REFERENCE"
             },
             {
