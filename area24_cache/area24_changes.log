@@ -26099,3 +26099,22 @@ Other removals:
 - NOTAM A2397/26 was removed from the PIB.
 - NOTAM A2410/26 was removed from the PIB.
 [2026-08-28T11:18:55Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-396b1868086sm6760521a91.9 - gsmtp')
+[2026-08-28T21:27:12Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2200/26 expired and was removed from the PIB.
+- NOTAM A2255/26 expired and was removed from the PIB.
+- NOTAM A2262/26 expired and was removed from the PIB.
+
+Replaced NOTAMs:
+NOTAM A1262/26 was replaced with NOTAM A2431/26.
+AFTN: (A2431/26 NOTAMR A1262/26
+
+(A2431/26 NOTAMR A1262/26
+Q)EETT/FAHX/IV/NBO/A/000/999/5818N02641E005
+A)EETU B)2608281348 C)2609301400
+E)SEASONAL BIRDS ACTIVITY ON MANEUVERING AREA AND VICINITY OF AD.
+TYPES OF BIRDS: CROWS, GULLS, COMMON CRANES, WHITE STORKS.
+)
+[2026-08-28T21:27:12Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3286f7bf283sm9293682eec.8 - gsmtp')
