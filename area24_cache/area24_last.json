@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-08-29T10:15:00.432Z",
+  "createdAt": "2026-08-29T15:15:00.428Z",
   "dynamicData": {
     "notams": [
       {
@@ -436,36 +436,6 @@
           "end": "2026-09-14T14:00:00Z",
           "est": true,
           "start": "2026-08-24T11:47:00Z"
-        }
-      },
-      {
-        "id": "63923167721267953",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2344,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 14/32 CLOSED DUE TO WIP.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-29T13:30:00Z",
-          "start": "2026-08-29T07:30:00Z"
         }
       },
       {
@@ -1005,41 +975,6 @@
         "validity": {
           "end": "2026-08-30T13:59:00Z",
           "start": "2026-08-27T05:00:00Z"
-        }
-      },
-      {
-        "id": "63922557211620385",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2253,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "25 28-29 0500-1359, 26 0500-2359, 27 0000-1359",
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-08-29T13:59:00Z",
-          "start": "2026-08-25T05:00:00Z"
         }
       },
       {
@@ -3029,8 +2964,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63923587813989793",
-        "number": 1194,
+        "id": "63923610336091377",
+        "number": 1195,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3058,14 +2993,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-08-29T08:05:00Z"
+            "time": "2026-08-29T14:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "2f0d1fb6-1daf-4cfc-829e-0080817ee3e3",
-  "identifier": "BRIEFING-20260829-57",
+  "id": "15b83033-eb42-4449-a22d-60b3e923bf7c",
+  "identifier": "BRIEFING-20260829-77",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3112,8 +3047,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-08-30T10:15:00Z",
-    "validityStart": "2026-08-29T10:15:00Z"
+    "validityEnd": "2026-08-30T15:15:00Z",
+    "validityStart": "2026-08-29T15:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3228,11 +3163,6 @@
                 {
                   "link": false,
                   "referenceId": "63923407753343681",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923167721267953",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3423,7 +3353,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923587813989793",
+                  "referenceId": "63923610336091377",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3628,11 +3558,6 @@
             {
               "link": false,
               "referenceId": "63922557868095553",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922557211620385",
               "structureType": "REFERENCE"
             },
             {
