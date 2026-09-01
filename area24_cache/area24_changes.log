@@ -26901,3 +26901,19 @@ A)EEKE B)2609011030 C)2609302059
 E)INSTRUMENT APPROACH PROCEDURES RNP RWY 35 NOT AVAILABLE.
 )
 [2026-09-01T14:58:13Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-468a2ef1cd0sm13637273fac.3 - gsmtp')
+[2026-09-01T18:23:47Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2285/26 expired and was removed from the PIB.
+- NOTAM A2286/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2447/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5821N02551E002
+A)EETT B)2609021500 C)2609082100
+E)DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.
+F)SFC G)2200FT AMSL
+)
+[2026-09-01T18:23:47Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-90e9ee24af5sm106416d6.12 - gsmtp')

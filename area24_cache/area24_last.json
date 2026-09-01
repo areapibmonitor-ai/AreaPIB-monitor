@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-01T14:45:00.392Z",
+  "createdAt": "2026-09-01T18:15:00.424Z",
   "dynamicData": {
     "notams": [
       {
@@ -120,6 +120,40 @@
         "validity": {
           "end": "2026-09-30T23:59:00Z",
           "start": "2026-09-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63923767663415041",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2447,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-08T21:00:00Z",
+          "start": "2026-09-02T15:00:00Z"
         }
       },
       {
@@ -1748,74 +1782,6 @@
         }
       },
       {
-        "id": "63922744441650017",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2286,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5845N02220E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26179UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585133N 0220725E - 585133N\r\n0222006E - 584058N 0222532E - 583926N 0223234E - 583820N 0223232E -\r\n583820N 0221505E - 585133N 0220725E. PERMISSION FOR ENTERING THE AREA\r\nSHALL BE OBTAINED FROM TEL +372 5854 8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-01T16:00:00Z",
-          "start": "2026-08-31T06:00:00Z"
-        }
-      },
-      {
-        "id": "63922744100326225",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2285,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5846N02300E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 10
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2502C ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 583926N 0223234E - 583913N\r\n0225544E - 584447N 0231425E - 585325N 0231858E - 585440N 0232715E -\r\n585345N 0232813E - 585233N 0232051E - 584402N 0231619E - 583812N\r\n0225617E - 583820N 0223232E - 583926N 0223234E. PERMISSION FOR\r\nENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854 8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-01T16:00:00Z",
-          "start": "2026-08-31T06:00:00Z"
-        }
-      },
-      {
         "id": "63922737366230113",
         "levels": {
           "lower": "3000FT AMSL",
@@ -3121,16 +3087,16 @@
       }
     ]
   },
-  "id": "f497826c-f310-4a7d-b755-569494a11638",
-  "identifier": "BRIEFING-20260901-75",
+  "id": "d15a1b8d-6cbe-4a82-9174-6bf43fce73af",
+  "identifier": "BRIEFING-20260901-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3169,8 +3135,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-02T14:45:00Z",
-    "validityStart": "2026-09-01T14:45:00Z"
+    "validityEnd": "2026-09-02T18:15:00Z",
+    "validityStart": "2026-09-01T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3614,6 +3580,11 @@
           "content": [
             {
               "link": false,
+              "referenceId": "63923767663415041",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63923763090635217",
               "structureType": "REFERENCE"
             },
@@ -3760,16 +3731,6 @@
             {
               "link": false,
               "referenceId": "63922901107297537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922744441650017",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922744100326225",
               "structureType": "REFERENCE"
             },
             {
