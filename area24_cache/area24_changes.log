@@ -27035,3 +27035,35 @@ AVAILABLE FROM +372 501 0296. REF AIP SUP 13/2026.
 F)400FT AMSL G)5000FT AMSL
 )
 [2026-09-02T11:10:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-32f07bdb15bsm6020887eec.26 - gsmtp')
+[2026-09-02T15:08:20Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2475/26 expired and was removed from the PIB.
+- NOTAM A2476/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2483/26 NOTAMN
+Q)EETT/MRLC/IV/NBO/A/000/999/5916N02413E005
+A)EEEI B)2609021400 C)2609021730
+E)RWY 06/24 CLOSED.
+)
+
+New NOTAM added:
+(A2485/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/017/5854N02331E005
+A)EETT B)2609030500 C)2609041200
+E)TEMPORARY RESTRICTED AREA EER26176UA ESTABLISHED FOR UNMANNED
+AIRCRAFT SYSTEM ACTIVITIES WITHIN: 585555N 0232458E - 585651N
+0233104E - 585138N 0233741E - 585043N 0232953E - 585555N 0232458E.
+PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5635
+4039.
+F)SFC G)1700FT AMSL
+)
+
+
+Other removals:
+- NOTAM A2371/26 was removed from the PIB.
+- NOTAM A2474/26 was removed from the PIB.
+[2026-09-02T15:08:20Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-530330282bfsm20475241cf.11 - gsmtp')
