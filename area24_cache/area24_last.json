@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-03T18:30:00.43Z",
+  "createdAt": "2026-09-03T21:15:00.429Z",
   "dynamicData": {
     "notams": [
       {
@@ -105,6 +105,40 @@
         "validity": {
           "end": "2026-09-05T22:00:00Z",
           "start": "2026-09-03T18:00:00Z"
+        }
+      },
+      {
+        "id": "63924012907183633",
+        "levels": {
+          "lower": "SFC",
+          "upper": "500FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2489,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5927N02448E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2232 ESTABLISHED WITHIN: CIRCLE OF\r\n1000M RADIUS CENTERED ON 592641N 0244823E. TEMPO RESTRICTED AREA\r\nEER2232 ESTABLISHED FOR UNMANNED AIRCRAFT WI 1000M RADIUS CENTERED ON\r\n592641N 0244823E DUE TO ARMIN VAN BUUREN CONCERT. PERMISSION FOR\r\nOPERATING UNMANNED AIRCRAFT IN THE AREA SHALL BE OBTAINED FM EVENT\r\nORGANIZER BY TEL +372 5697 3037.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-05T23:59:00Z",
+          "start": "2026-09-04T21:00:00Z"
         }
       },
       {
@@ -3300,8 +3334,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924033913505105",
-        "number": 1225,
+        "id": "63924061002300593",
+        "number": 1226,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3329,14 +3363,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-03T12:04:00Z"
+            "time": "2026-09-03T19:34:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63924034081585409",
-        "number": 644,
+        "id": "63924065403912257",
+        "number": 645,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3346,32 +3380,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-03T12:06:00Z"
+            "time": "2026-09-03T20:47:00Z"
           }
         ]
       }
     ]
   },
-  "id": "55e33a06-7787-4a24-baf5-9f5ad9a22ad8",
-  "identifier": "BRIEFING-20260903-90",
+  "id": "ef5d1114-d4f2-4971-8591-52e085ae0026",
+  "identifier": "BRIEFING-20260903-101",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3418,8 +3452,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-04T18:30:00Z",
-    "validityStart": "2026-09-03T18:30:00Z"
+    "validityEnd": "2026-09-04T21:15:00Z",
+    "validityStart": "2026-09-03T21:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3659,6 +3693,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63924012907183633",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63924010306506369",
                   "structureType": "REFERENCE"
                 },
@@ -3734,7 +3773,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924033913505105",
+                  "referenceId": "63924061002300593",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3796,7 +3835,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924034081585409",
+                  "referenceId": "63924065403912257",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3879,6 +3918,11 @@
             {
               "link": true,
               "referenceId": "63924021918380833",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63924012907183633",
               "structureType": "REFERENCE"
             },
             {
