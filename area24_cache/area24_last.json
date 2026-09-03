@@ -1,7 +1,76 @@
 {
-  "createdAt": "2026-09-03T06:15:00.43Z",
+  "createdAt": "2026-09-03T11:30:00.439Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63924025240590465",
+        "levels": {
+          "lower": "SFC",
+          "upper": "400FT AGL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2493,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5926N02444E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 6
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2664 ESTABLISHED WITHIN: CIRCLE OF\r\n40M RADIUS CENTERED ON 592614N 0244429E. UNMANNED AIRCRAFT ARE\r\nPROHIBITED TO FLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM\r\nESTONIAN POLICE AND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED OBTAINED FROM TOOMAS.KRUSIMAE(AT)POLITSEI.EE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-12T17:00:00Z",
+          "start": "2026-09-03T12:00:00Z"
+        }
+      },
+      {
+        "id": "63924021918380833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL420"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2490,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5930N02432E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 12,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 420
+        },
+        "schedule": "03-04 1800-2359, 05 1800-2200",
+        "text": "TEMPORARY AREA FOR LASER HAZARD (TALLINN) WILL TAKE PLACE WITHIN:\r\n591940.11N 0242441.83E - CLOCKWISE ARC OF 14NM CENTERED ON 592641.20N\r\n0244821.80E - 593948.19N 0243855.42E - 592641.20N 0244821.80E -\r\n591940.11N 0242441.83E. SHORT DURATION LASER BEAMS MAY CAUSE\r\nBLINDNESS IF VIEWED WITHIN HORISONTAL SECTOR FROM 240 DEG CLOCKWISE\r\nTO 340 DEG IN VERTICAL ANGLE BTN SFC AND 30 DEG UNTIL 3 NM AND FL95.\r\nIN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR\r\nUNTIL 14 NM AND FL420.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-05T22:00:00Z",
+          "start": "2026-09-03T18:00:00Z"
+        }
+      },
       {
         "id": "63924010306506369",
         "locations": [
@@ -1097,6 +1166,41 @@
         "validity": {
           "end": "2026-09-11T17:59:00Z",
           "start": "2026-09-02T05:00:00Z"
+        }
+      },
+      {
+        "id": "63923344947258625",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2387,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5751N02605E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 23
+        },
+        "schedule": "04 0700-2359, 05 13-20 H24, 06 0000-1200, 12 0500-2359, 21\r\n0000-1700, 27 0500-2000",
+        "text": "DANGER AREA EED11 (METSNIKU) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-27T20:00:00Z",
+          "start": "2026-09-04T07:00:00Z"
         }
       },
       {
@@ -3201,8 +3305,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924002306898577",
-        "number": 1220,
+        "id": "63924028350727249",
+        "number": 1224,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3212,40 +3316,11 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-09-03T03:17:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63924011606158241",
-        "number": 641,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
               {
                 "code": 6,
                 "condition": "WET",
@@ -3254,25 +3329,54 @@
               },
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-03T05:53:00Z"
+            "time": "2026-09-03T10:31:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63924018739755153",
+        "number": 642,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-09-03T07:49:00Z"
           }
         ]
       }
     ]
   },
-  "id": "aea9b4a5-77ab-46e8-9365-4aef03912289",
-  "identifier": "BRIEFING-20260903-41",
+  "id": "9afe22e2-d61a-4a6a-bae0-be5e6848ff16",
+  "identifier": "BRIEFING-20260903-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3319,8 +3423,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-04T06:15:00Z",
-    "validityStart": "2026-09-03T06:15:00Z"
+    "validityEnd": "2026-09-04T11:30:00Z",
+    "validityStart": "2026-09-03T11:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3550,6 +3654,16 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63924025240590465",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924021918380833",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63924010306506369",
                   "structureType": "REFERENCE"
                 },
@@ -3620,7 +3734,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924002306898577",
+                  "referenceId": "63924028350727249",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3682,7 +3796,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924011606158241",
+                  "referenceId": "63924018739755153",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3757,6 +3871,16 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63924025240590465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63924021918380833",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63923953458764129",
@@ -3840,6 +3964,11 @@
             {
               "link": false,
               "referenceId": "63923349394306225",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923344947258625",
               "structureType": "REFERENCE"
             },
             {
