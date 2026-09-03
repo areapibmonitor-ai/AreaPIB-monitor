@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-03T11:30:00.439Z",
+  "createdAt": "2026-09-03T15:00:00.476Z",
   "dynamicData": {
     "notams": [
       {
@@ -402,40 +402,6 @@
         "validity": {
           "end": "2026-09-08T20:59:00Z",
           "start": "2026-08-31T09:00:00Z"
-        }
-      },
-      {
-        "id": "63923755434313841",
-        "levels": {
-          "lower": "SFC",
-          "upper": "14500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2441,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5924N02332E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 197
-        },
-        "text": "TEMPORARY SEGREGATED AREA EETSA17 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM +372 5836 7636.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-03T14:00:00Z",
-          "start": "2026-09-03T05:00:00Z"
         }
       },
       {
@@ -1068,6 +1034,40 @@
         }
       },
       {
+        "id": "63923414808472145",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2401,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5917N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2374DRO ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 591740N 0254647E - 591742N\r\n0255028E - 591606N 0255031E - 591603N 0254650E - 591740N 0254647E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 56678001.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-06T14:59:00Z",
+          "start": "2026-09-04T13:00:00Z"
+        }
+      },
+      {
         "id": "63923407753343681",
         "locations": [
           "EEKA"
@@ -1096,41 +1096,6 @@
           "end": "2026-09-30T15:00:00Z",
           "est": true,
           "start": "2026-08-27T06:10:00Z"
-        }
-      },
-      {
-        "id": "63923349595255953",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2391,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5936N02422E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "schedule": "02 0700-1259, 03 0800-1359",
-        "text": "DANGER AREA EED23 (NAISSAAR) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-03T13:59:00Z",
-          "start": "2026-09-02T07:00:00Z"
         }
       },
       {
@@ -3305,8 +3270,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924028350727249",
-        "number": 1224,
+        "id": "63924033913505105",
+        "number": 1225,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3323,25 +3288,25 @@
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-03T10:31:00Z"
+            "time": "2026-09-03T12:04:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63924018739755153",
-        "number": 642,
+        "id": "63924034081585409",
+        "number": 644,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3351,32 +3316,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-03T07:49:00Z"
+            "time": "2026-09-03T12:06:00Z"
           }
         ]
       }
     ]
   },
-  "id": "9afe22e2-d61a-4a6a-bae0-be5e6848ff16",
-  "identifier": "BRIEFING-20260903-62",
+  "id": "7eef98c4-a08b-49fb-b0fa-40dbd73d1f78",
+  "identifier": "BRIEFING-20260903-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3423,8 +3388,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-04T11:30:00Z",
-    "validityStart": "2026-09-03T11:30:00Z"
+    "validityEnd": "2026-09-04T15:00:00Z",
+    "validityStart": "2026-09-03T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3734,7 +3699,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924028350727249",
+                  "referenceId": "63924033913505105",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3796,7 +3761,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924018739755153",
+                  "referenceId": "63924034081585409",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3903,11 +3868,6 @@
             },
             {
               "link": false,
-              "referenceId": "63923755434313841",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63923707362332577",
               "structureType": "REFERENCE"
             },
@@ -3958,7 +3918,7 @@
             },
             {
               "link": false,
-              "referenceId": "63923349595255953",
+              "referenceId": "63923414808472145",
               "structureType": "REFERENCE"
             },
             {

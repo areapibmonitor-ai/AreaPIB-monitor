@@ -27138,3 +27138,22 @@ AREA SHALL BE OBTAINED OBTAINED FROM TOOMAS.KRUSIMAE(AT)POLITSEI.EE.
 F)SFC G)400FT AGL
 )
 [2026-09-03T11:39:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3325592ebb3sm6228829eec.14 - gsmtp')
+[2026-09-03T15:14:29Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2391/26 expired and was removed from the PIB.
+- NOTAM A2441/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2401/26 NOTAMN
+Q)EETT/RRCA/IV/BO/W/000/020/5917N02549E002
+A)EETT B)2609041300 C)2609061459
+E)TEMPORARY RESTRICTED AREA EER2374DRO ESTABLISHED FOR UNMANNED
+AIRCRAFT SYSTEM ACTIVITIES WITHIN: 591740N 0254647E - 591742N
+0255028E - 591606N 0255031E - 591603N 0254650E - 591740N 0254647E.
+INFO ABOUT ACTIVATION AVAILABLE FROM +372 56678001.
+F)SFC G)2000FT AMSL
+)
+[2026-09-03T15:14:29Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9395f3def46sm516518085a.44 - gsmtp')
