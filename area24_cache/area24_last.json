@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-09-04T06:00:00.428Z",
+  "createdAt": "2026-09-04T11:00:00.438Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63924104008659921",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2516,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FM",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2376,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "WIND INFORMATION FOR RWY 06 UNAVAILABLE.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-05T09:00:00Z",
+          "est": true,
+          "start": "2026-09-04T07:33:00Z"
+        }
+      },
       {
         "id": "63924050112059057",
         "locations": [
@@ -816,6 +852,40 @@
         }
       },
       {
+        "id": "63923516574918449",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2428,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02724E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RA",
+          "traffic": "IV",
+          "upper": 45
+        },
+        "text": "TEMPORARY AREA FOR RADIO MANDATORY ZONE ESTABLISHED FOR AIRSHOW\r\nWITH AIR DISPLAY AND COMPETITION FLIGHTS IN VISUAL METEOROLOGICAL\r\nCONDITIONS. WILL TAKE PLACE WITHIN: CIRCLE OF 2NM RADIUS CENTERED ON\r\n591934N 0272335E. PARTICIPATING AIRCRAFT SHALL CONTACT 119.080MHZ\r\n5MIN BEFORE ENTERING THE RADIO MANDATORY ZONE. NON-PARTICIPATING\r\nAIRCRAFT INCLUDING UNMANNED AIRCRAFT SHALL OBTAIN PERMISSION FROM TEL\r\n+372 522 9927 OR E-MAIL MARK(AT)MJPIKAT.COM.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-05T15:00:00Z",
+          "start": "2026-09-05T07:00:00Z"
+        }
+      },
+      {
         "id": "63923508842553121",
         "locations": [
           "EETU"
@@ -843,6 +913,41 @@
         "validity": {
           "end": "2026-09-30T23:59:00Z",
           "start": "2026-09-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63923507290103681",
+        "levels": {
+          "lower": "SFC",
+          "upper": "14700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2420,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "schedule": "05 0600-2359, 06 0000-1559, 07 0500-2359, 08-10 H24, 11 0000-1659",
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5326 4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-11T16:59:00Z",
+          "start": "2026-09-05T06:00:00Z"
         }
       },
       {
@@ -1578,42 +1683,6 @@
         "validity": {
           "end": "2026-09-12T14:59:00Z",
           "start": "2026-09-01T05:00:00Z"
-        }
-      },
-      {
-        "id": "63923247637066065",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2376,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2372,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "WIND INFORMATION FOR RWY 06 UNAVAILABLE.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-04T12:00:00Z",
-          "est": true,
-          "start": "2026-08-25T09:39:00Z"
         }
       },
       {
@@ -3332,8 +3401,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924081956429441",
-        "number": 1227,
+        "id": "63924110936801473",
+        "number": 1229,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3361,7 +3430,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-04T01:24:00Z"
+            "time": "2026-09-04T09:27:00Z"
           }
         ]
       },
@@ -3402,8 +3471,8 @@
       }
     ]
   },
-  "id": "59196084-60ab-41c4-8a81-828c6eb1423d",
-  "identifier": "BRIEFING-20260904-40",
+  "id": "c44ac621-5515-483c-afe3-37d3497038f1",
+  "identifier": "BRIEFING-20260904-60",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3450,8 +3519,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-05T06:00:00Z",
-    "validityStart": "2026-09-04T06:00:00Z"
+    "validityEnd": "2026-09-05T11:00:00Z",
+    "validityStart": "2026-09-04T11:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3523,17 +3592,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63924104008659921",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63923764922098209",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63923764745823441",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923247637066065",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3776,7 +3845,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924081956429441",
+                  "referenceId": "63924110936801473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3971,6 +4040,16 @@
             {
               "link": false,
               "referenceId": "63923516761049377",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923516574918449",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923507290103681",
               "structureType": "REFERENCE"
             },
             {
