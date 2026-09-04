@@ -27203,3 +27203,23 @@ F)SFC G)500FT AMSL
 )
 [2026-09-03T21:24:41Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-4755493580fsm683290fac.13 - gsmtp')
 [2026-09-03T23:29:51Z] NO CHANGE in dynamicData.notams.
+[2026-09-04T01:18:40Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2368/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/022/5819N02448E002
+A)EEPU B)2609010600 C)2609091659
+D)01-02 08-09 0600-1659, 05-06 0500-1359, 07 0600-1259
+E)DANGER AREA EED32 (KIKEPERA) ACTIVATED. INFO ABOUT ACTIVATION
+AVAILABLE FROM +372 5303 2206.
+F)SFC G)2200FT AMSL
+)
+
+
+Other removals:
+- NOTAM A2303/26 was removed from the PIB.
+- NOTAM A2307/26 was removed from the PIB.
+- NOTAM A2309/26 was removed from the PIB.
+[2026-09-04T01:18:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3339b123731sm2174300eec.18 - gsmtp')
