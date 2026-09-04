@@ -27309,3 +27309,10 @@ A)EEEI B)2609041154 C)2610041200
 E)AERODROME BEACON U/S.
 )
 [2026-09-04T14:59:40Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-530541ba2d2sm23048211cf.22 - gsmtp')
+[2026-09-04T18:18:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2434/26 expired and was removed from the PIB.
+- NOTAM A2435/26 expired and was removed from the PIB.
+[2026-09-04T18:18:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33517b57ac8sm50682eec.28 - gsmtp')
