@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-05T09:15:00.419Z",
+  "createdAt": "2026-09-05T12:45:00.419Z",
   "dynamicData": {
     "notams": [
       {
@@ -809,6 +809,40 @@
         "validity": {
           "end": "2026-09-30T23:59:00Z",
           "start": "2026-09-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63923507490337137",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2421,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02742E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 154
+        },
+        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-10T13:59:00Z",
+          "start": "2026-09-06T11:00:00Z"
         }
       },
       {
@@ -3156,8 +3190,8 @@
       }
     ]
   },
-  "id": "1618d3e5-ec16-455f-9df8-b2869fc0882e",
-  "identifier": "BRIEFING-20260905-53",
+  "id": "8d8c9450-2f8a-4350-92a5-c2ee96c8bf70",
+  "identifier": "BRIEFING-20260905-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3204,8 +3238,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-06T09:15:00Z",
-    "validityStart": "2026-09-05T09:15:00Z"
+    "validityEnd": "2026-09-06T12:45:00Z",
+    "validityStart": "2026-09-05T12:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3700,6 +3734,11 @@
             {
               "link": false,
               "referenceId": "63923516574918449",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923507490337137",
               "structureType": "REFERENCE"
             },
             {
