@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-05T05:30:00.454Z",
+  "createdAt": "2026-09-05T09:15:00.419Z",
   "dynamicData": {
     "notams": [
       {
@@ -36,42 +36,6 @@
           "end": "2026-10-04T12:00:00Z",
           "est": true,
           "start": "2026-09-04T11:54:00Z"
-        }
-      },
-      {
-        "id": "63924104008659921",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2516,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FM",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2376,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "WIND INFORMATION FOR RWY 06 UNAVAILABLE.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-05T09:00:00Z",
-          "est": true,
-          "start": "2026-09-04T07:33:00Z"
         }
       },
       {
@@ -3157,8 +3121,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924169664142017",
-        "number": 1232,
+        "id": "63924191755179537",
+        "number": 1233,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3186,14 +3150,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-05T01:46:00Z"
+            "time": "2026-09-05T07:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c607a672-1b97-4e2f-a376-c694422c282a",
-  "identifier": "BRIEFING-20260905-37",
+  "id": "1618d3e5-ec16-455f-9df8-b2869fc0882e",
+  "identifier": "BRIEFING-20260905-53",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3240,8 +3204,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-06T05:30:00Z",
-    "validityStart": "2026-09-05T05:30:00Z"
+    "validityEnd": "2026-09-06T09:15:00Z",
+    "validityStart": "2026-09-05T09:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3314,11 +3278,6 @@
                 {
                   "link": false,
                   "referenceId": "63924119676788353",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924104008659921",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3566,7 +3525,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924169664142017",
+                  "referenceId": "63924191755179537",
                   "structureType": "REFERENCE"
                 }
               ],
