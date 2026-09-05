@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-05T20:15:00.424Z",
+  "createdAt": "2026-09-05T22:00:00.43Z",
   "dynamicData": {
     "notams": [
       {
@@ -106,41 +106,6 @@
         "validity": {
           "end": "2026-10-12T17:00:00Z",
           "start": "2026-09-03T12:00:00Z"
-        }
-      },
-      {
-        "id": "63924021918380833",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL420"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2490,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5930N02432E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 12,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 420
-        },
-        "schedule": "03-04 1800-2359, 05 1800-2200",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (TALLINN) WILL TAKE PLACE WITHIN:\r\n591940.11N 0242441.83E - CLOCKWISE ARC OF 14NM CENTERED ON 592641.20N\r\n0244821.80E - 593948.19N 0243855.42E - 592641.20N 0244821.80E -\r\n591940.11N 0242441.83E. SHORT DURATION LASER BEAMS MAY CAUSE\r\nBLINDNESS IF VIEWED WITHIN HORISONTAL SECTOR FROM 240 DEG CLOCKWISE\r\nTO 340 DEG IN VERTICAL ANGLE BTN SFC AND 30 DEG UNTIL 3 NM AND FL95.\r\nIN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR\r\nUNTIL 14 NM AND FL420.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-05T22:00:00Z",
-          "start": "2026-09-03T18:00:00Z"
         }
       },
       {
@@ -3122,8 +3087,8 @@
       }
     ]
   },
-  "id": "b5ac1a92-058b-4bbd-9cde-0f9342dad074",
-  "identifier": "BRIEFING-20260905-97",
+  "id": "e7f9c753-c056-45a6-b5b0-283764e7e5ff",
+  "identifier": "BRIEFING-20260905-104",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3170,8 +3135,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-06T20:15:00Z",
-    "validityStart": "2026-09-05T20:15:00Z"
+    "validityEnd": "2026-09-06T22:00:00Z",
+    "validityStart": "2026-09-05T22:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3406,11 +3371,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924021918380833",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63924012907183633",
                   "structureType": "REFERENCE"
                 },
@@ -3621,11 +3581,6 @@
             {
               "link": true,
               "referenceId": "63924025240590465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63924021918380833",
               "structureType": "REFERENCE"
             },
             {
