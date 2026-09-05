@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-05T12:45:00.419Z",
+  "createdAt": "2026-09-05T15:45:00.428Z",
   "dynamicData": {
     "notams": [
       {
@@ -745,40 +745,6 @@
         "validity": {
           "end": "2026-09-06T07:00:00Z",
           "start": "2026-09-05T04:00:00Z"
-        }
-      },
-      {
-        "id": "63923516574918449",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2428,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02724E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RA",
-          "traffic": "IV",
-          "upper": 45
-        },
-        "text": "TEMPORARY AREA FOR RADIO MANDATORY ZONE ESTABLISHED FOR AIRSHOW\r\nWITH AIR DISPLAY AND COMPETITION FLIGHTS IN VISUAL METEOROLOGICAL\r\nCONDITIONS. WILL TAKE PLACE WITHIN: CIRCLE OF 2NM RADIUS CENTERED ON\r\n591934N 0272335E. PARTICIPATING AIRCRAFT SHALL CONTACT 119.080MHZ\r\n5MIN BEFORE ENTERING THE RADIO MANDATORY ZONE. NON-PARTICIPATING\r\nAIRCRAFT INCLUDING UNMANNED AIRCRAFT SHALL OBTAIN PERMISSION FROM TEL\r\n+372 522 9927 OR E-MAIL MARK(AT)MJPIKAT.COM.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-05T15:00:00Z",
-          "start": "2026-09-05T07:00:00Z"
         }
       },
       {
@@ -1988,40 +1954,6 @@
         }
       },
       {
-        "id": "63922901107297537",
-        "levels": {
-          "lower": "SFC",
-          "upper": "8500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2300,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 85
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E - 592114N 0253942E -\r\n592744N 0254210E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-05T13:59:00Z",
-          "start": "2026-08-29T05:00:00Z"
-        }
-      },
-      {
         "id": "63922737366230113",
         "levels": {
           "lower": "3000FT AMSL",
@@ -3155,8 +3087,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924191755179537",
-        "number": 1233,
+        "id": "63924213968360881",
+        "number": 1234,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3184,14 +3116,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-05T07:54:00Z"
+            "time": "2026-09-05T14:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8d8c9450-2f8a-4350-92a5-c2ee96c8bf70",
-  "identifier": "BRIEFING-20260905-67",
+  "id": "0d45322f-6388-4d68-974c-5725d68b41ee",
+  "identifier": "BRIEFING-20260905-79",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3238,8 +3170,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-06T12:45:00Z",
-    "validityStart": "2026-09-05T12:45:00Z"
+    "validityEnd": "2026-09-06T15:45:00Z",
+    "validityStart": "2026-09-05T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3559,7 +3491,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924191755179537",
+                  "referenceId": "63924213968360881",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3733,11 +3665,6 @@
             },
             {
               "link": false,
-              "referenceId": "63923516574918449",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63923507490337137",
               "structureType": "REFERENCE"
             },
@@ -3859,11 +3786,6 @@
             {
               "link": false,
               "referenceId": "63922904424711969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63922901107297537",
               "structureType": "REFERENCE"
             },
             {

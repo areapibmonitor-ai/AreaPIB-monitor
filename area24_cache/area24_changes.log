@@ -27379,3 +27379,10 @@ DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302
 F)SFC G)2300FT AMSL
 )
 [2026-09-05T12:59:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-143243f780csm13011978c88.13 - gsmtp')
+[2026-09-05T15:58:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2300/26 expired and was removed from the PIB.
+- NOTAM A2428/26 expired and was removed from the PIB.
+[2026-09-05T15:58:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-333c9db92b1sm14537739eec.9 - gsmtp')
