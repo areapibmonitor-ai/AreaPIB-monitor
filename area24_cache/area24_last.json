@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-05T23:45:00.437Z",
+  "createdAt": "2026-09-06T04:15:04.477Z",
   "dynamicData": {
     "notams": [
       {
@@ -106,40 +106,6 @@
         "validity": {
           "end": "2026-10-12T17:00:00Z",
           "start": "2026-09-03T12:00:00Z"
-        }
-      },
-      {
-        "id": "63924012907183633",
-        "levels": {
-          "lower": "SFC",
-          "upper": "500FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2489,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5927N02448E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 5
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2232 ESTABLISHED WITHIN: CIRCLE OF\r\n1000M RADIUS CENTERED ON 592641N 0244823E. TEMPO RESTRICTED AREA\r\nEER2232 ESTABLISHED FOR UNMANNED AIRCRAFT WI 1000M RADIUS CENTERED ON\r\n592641N 0244823E DUE TO ARMIN VAN BUUREN CONCERT. PERMISSION FOR\r\nOPERATING UNMANNED AIRCRAFT IN THE AREA SHALL BE OBTAINED FM EVENT\r\nORGANIZER BY TEL +372 5697 3037.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-05T23:59:00Z",
-          "start": "2026-09-04T21:00:00Z"
         }
       },
       {
@@ -1334,6 +1300,41 @@
         "validity": {
           "end": "2026-09-17T20:00:00Z",
           "start": "2026-09-01T05:00:00Z"
+        }
+      },
+      {
+        "id": "63923255709628497",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1900FT AMSL"
+        },
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2379,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5816N02656E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 19
+        },
+        "schedule": "01-02 07 09 14 21 23-24 29-30 0900-1759, 03 18 28 0500-0959, 04 11\r\n25 0600-1359, 08 20 22 0500-1459, 10 0800-1659, 13 27 0600-1559, 15\r\n0900-1859, 16-17 0700-1859",
+        "text": "DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM: +372 525 8504. AREA DEACTIVATION IS POSSIBLE BY ATS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-30T17:59:00Z",
+          "start": "2026-09-01T09:00:00Z"
         }
       },
       {
@@ -3052,8 +3053,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924234362792817",
-        "number": 1235,
+        "id": "63924255966991665",
+        "number": 1236,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3081,22 +3082,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-05T19:44:00Z"
+            "time": "2026-09-06T01:44:00Z"
           }
         ]
       }
     ]
   },
-  "id": "5bdbfddb-c17f-41ac-bab2-25947c5d7a9c",
-  "identifier": "BRIEFING-20260905-111",
+  "id": "4ed3b7eb-4230-4f28-9220-7de60d2d045c",
+  "identifier": "BRIEFING-20260906-31",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3135,8 +3136,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-06T23:45:00Z",
-    "validityStart": "2026-09-05T23:45:00Z"
+    "validityEnd": "2026-09-07T04:15:00Z",
+    "validityStart": "2026-09-06T04:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3371,11 +3372,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924012907183633",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63924010306506369",
                   "structureType": "REFERENCE"
                 },
@@ -3451,7 +3447,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924234362792817",
+                  "referenceId": "63924255966991665",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3484,6 +3480,11 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63923255709628497",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3584,11 +3585,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63924012907183633",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63923767663415041",
               "structureType": "REFERENCE"
@@ -3681,6 +3677,11 @@
             {
               "link": false,
               "referenceId": "63923274568735249",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63923255709628497",
               "structureType": "REFERENCE"
             },
             {
