@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-06T12:45:00.428Z",
+  "createdAt": "2026-09-06T16:00:00.432Z",
   "dynamicData": {
     "notams": [
       {
@@ -994,40 +994,6 @@
           "end": "2026-11-27T12:00:00Z",
           "est": true,
           "start": "2026-08-27T10:32:00Z"
-        }
-      },
-      {
-        "id": "63923414808472145",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2401,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5917N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2374DRO ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 591740N 0254647E - 591742N\r\n0255028E - 591606N 0255031E - 591603N 0254650E - 591740N 0254647E.\r\nINFO ABOUT ACTIVATION AVAILABLE FROM +372 56678001.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-06T14:59:00Z",
-          "start": "2026-09-04T13:00:00Z"
         }
       },
       {
@@ -3155,8 +3121,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924278560773153",
-        "number": 1237,
+        "id": "63924299984069121",
+        "number": 1238,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3184,7 +3150,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-06T08:01:00Z"
+            "time": "2026-09-06T13:58:00Z"
           }
         ]
       },
@@ -3225,16 +3191,16 @@
       }
     ]
   },
-  "id": "e1eb8cf2-b791-49d4-b718-9eb643e8b3b6",
-  "identifier": "BRIEFING-20260906-67",
+  "id": "2ad63655-70ac-49bc-ab5c-7795f541ee19",
+  "identifier": "BRIEFING-20260906-80",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3273,8 +3239,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-07T12:45:00Z",
-    "validityStart": "2026-09-06T12:45:00Z"
+    "validityEnd": "2026-09-07T16:00:00Z",
+    "validityStart": "2026-09-06T16:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3589,7 +3555,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924278560773153",
+                  "referenceId": "63924299984069121",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3789,11 +3755,6 @@
             {
               "link": true,
               "referenceId": "63923430128724577",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923414808472145",
               "structureType": "REFERENCE"
             },
             {
