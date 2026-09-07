@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-07T15:45:00.433Z",
+  "createdAt": "2026-09-07T19:45:00.448Z",
   "dynamicData": {
     "notams": [
       {
@@ -611,6 +611,41 @@
         "validity": {
           "end": "2026-09-14T06:00:00Z",
           "start": "2026-09-07T18:00:00Z"
+        }
+      },
+      {
+        "id": "63923773611057617",
+        "levels": {
+          "lower": "3000FT AMSL",
+          "upper": "6000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2465,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5757N02145E",
+          "fir": "EETT",
+          "lower": 30,
+          "purpose": "BO",
+          "radius": 15,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 60
+        },
+        "schedule": "08 11 1800-2359, 09 12 0000-0600 1800-2359, 10 13 0000-0600",
+        "text": "RESTRICTED AREA EER2611J ACTIVATED. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5199 8543. REF AIP SUP 09/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-13T06:00:00Z",
+          "start": "2026-09-08T18:00:00Z"
         }
       },
       {
@@ -3091,8 +3126,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924386562971777",
-        "number": 1242,
+        "id": "63924405260555233",
+        "number": 1243,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3102,40 +3137,40 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-07T14:02:00Z"
+            "time": "2026-09-07T19:13:00Z"
           }
         ]
       }
     ]
   },
-  "id": "851db639-e6b1-47fa-b516-f731e2106b3a",
-  "identifier": "BRIEFING-20260907-79",
+  "id": "5e8b9578-83e0-40e7-8a26-5be2a7588bd0",
+  "identifier": "BRIEFING-20260907-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3174,8 +3209,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-08T15:45:00Z",
-    "validityStart": "2026-09-07T15:45:00Z"
+    "validityEnd": "2026-09-08T19:45:00Z",
+    "validityStart": "2026-09-07T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3480,7 +3515,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924386562971777",
+                  "referenceId": "63924405260555233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3670,6 +3705,11 @@
             {
               "link": false,
               "referenceId": "63923773872302881",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923773611057617",
               "structureType": "REFERENCE"
             },
             {
