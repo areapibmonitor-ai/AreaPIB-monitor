@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-07T22:30:00.45Z",
+  "createdAt": "2026-09-08T00:30:00.437Z",
   "dynamicData": {
     "notams": [
       {
@@ -1037,6 +1037,41 @@
         }
       },
       {
+        "id": "63923707362332577",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2438,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "03 05-06 09 12-13 19-21 26-27 0500-2000",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-27T20:00:00Z",
+          "start": "2026-09-03T05:00:00Z"
+        }
+      },
+      {
         "id": "63923670395042049",
         "locations": [
           "EEKE"
@@ -1688,7 +1723,7 @@
         }
       },
       {
-        "id": "63923274568735249",
+        "id": "63923275030569041",
         "levels": {
           "lower": "SFC",
           "upper": "2100FT AMSL"
@@ -1697,14 +1732,14 @@
           "EETT"
         ],
         "notamId": {
-          "number": 2380,
+          "number": 2381,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "CA",
-          "coordinate": "5904N02406E",
+          "coordinate": "5854N02331E",
           "fir": "EETT",
           "lower": 0,
           "purpose": "BO",
@@ -1712,14 +1747,14 @@
           "scope": "W",
           "subject": "RD",
           "traffic": "IV",
-          "upper": 22
+          "upper": 21
         },
-        "schedule": "01-02 04-07 12-17 0500-2000",
-        "text": "DANGER AREA EED7 (PIIRSALU) ACTIVATED FOR MILITARY EXERCISE.\r\nVERTICAL LIMITS CHANGED DURING ACTIVATION.",
+        "schedule": "02-06 09-13 16-20 23-27 30 0700-1900",
+        "text": "DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.",
         "type": "N",
         "validity": {
-          "end": "2026-09-17T20:00:00Z",
-          "start": "2026-09-01T05:00:00Z"
+          "end": "2026-09-30T19:00:00Z",
+          "start": "2026-09-02T07:00:00Z"
         }
       },
       {
@@ -1825,6 +1860,41 @@
         "validity": {
           "end": "2026-09-09T16:59:00Z",
           "start": "2026-09-01T06:00:00Z"
+        }
+      },
+      {
+        "id": "63923173103301681",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2363,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5920N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "01-02 0500-1559, 03 10 0500-1359, 04 0500-1259, 05 0500-1759, 06\r\n0500-1959, 09 0600-1359",
+        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-10T13:59:00Z",
+          "start": "2026-09-01T05:00:00Z"
         }
       },
       {
@@ -3196,16 +3266,16 @@
       }
     ]
   },
-  "id": "0488e747-63e3-4ec9-abbe-df63a5d8404e",
-  "identifier": "BRIEFING-20260907-106",
+  "id": "a4af6a77-017b-466d-9890-d7f8bd3ce0f3",
+  "identifier": "BRIEFING-20260908-3",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3244,8 +3314,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-08T22:30:00Z",
-    "validityStart": "2026-09-07T22:30:00Z"
+    "validityEnd": "2026-09-09T00:30:00Z",
+    "validityStart": "2026-09-08T00:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3496,6 +3566,11 @@
                 {
                   "link": false,
                   "referenceId": "63923332989514033",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63923173103301681",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3789,6 +3864,11 @@
             },
             {
               "link": false,
+              "referenceId": "63923707362332577",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63923507490337137",
               "structureType": "REFERENCE"
             },
@@ -3844,7 +3924,7 @@
             },
             {
               "link": false,
-              "referenceId": "63923274568735249",
+              "referenceId": "63923275030569041",
               "structureType": "REFERENCE"
             },
             {
@@ -3860,6 +3940,11 @@
             {
               "link": true,
               "referenceId": "63923177751641777",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63923173103301681",
               "structureType": "REFERENCE"
             },
             {
