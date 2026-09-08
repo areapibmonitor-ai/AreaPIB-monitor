@@ -27851,3 +27851,12 @@ A)EETN B)2609080607 C)2609081530
 E)APRON TAXI LINE FM ABEAM M15 TO M5 CLSD.
 )
 [2026-09-08T10:02:21Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 586e51a60fabf-47a7585b25esm1541534fac.11 - gsmtp')
+[2026-09-08T14:28:39Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2547/26 expired and was removed from the PIB.
+
+Other removals:
+- NOTAM A2548/26 was removed from the PIB.
+[2026-09-08T14:28:39Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-3339aa33e96sm36247531eec.12 - gsmtp')
