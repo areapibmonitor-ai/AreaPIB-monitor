@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-09T01:15:00.442Z",
+  "createdAt": "2026-09-09T06:30:00.431Z",
   "dynamicData": {
     "notams": [
       {
@@ -2444,6 +2444,40 @@
         }
       },
       {
+        "id": "63921007515462689",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL165"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2099,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5940N02628E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 405
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACT AVBL FROM: +372 5628 1119.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-10T13:00:00Z",
+          "start": "2026-09-10T06:00:00Z"
+        }
+      },
+      {
         "id": "63920999363675681",
         "locations": [
           "EETN"
@@ -3268,8 +3302,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63924497999075969",
-        "number": 657,
+        "id": "63924530046450801",
+        "number": 659,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3297,14 +3331,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-08T20:57:00Z"
+            "time": "2026-09-09T05:52:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ac054f05-251a-40a8-b91e-dbb877fb82c0",
-  "identifier": "BRIEFING-20260909-6",
+  "id": "7afa16a5-a16c-4d09-bf4c-049cff83b42d",
+  "identifier": "BRIEFING-20260909-42",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3351,8 +3385,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-10T01:15:00Z",
-    "validityStart": "2026-09-09T01:15:00Z"
+    "validityEnd": "2026-09-10T06:30:00Z",
+    "validityStart": "2026-09-09T06:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3729,7 +3763,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924497999075969",
+                  "referenceId": "63924530046450801",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4017,6 +4051,11 @@
             {
               "link": false,
               "referenceId": "63923165223566097",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63921007515462689",
               "structureType": "REFERENCE"
             },
             {
