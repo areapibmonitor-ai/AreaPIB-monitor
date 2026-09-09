@@ -27943,3 +27943,17 @@ Other removals:
 - NOTAM A2525/26 was removed from the PIB.
 [2026-09-09T11:57:52Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-333959d5f69sm41750369eec.0 - gsmtp')
 [2026-09-09T16:32:16Z] NO CHANGE in dynamicData.notams.
+[2026-09-09T19:27:28Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2368/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2579/26 NOTAMN
+Q)EETT/FMLT/IV/BO/A/000/999/5916N02413E005
+A)EEEI B)2609091715 C)2609102359
+E)WIND INFORMATION FOR RWY 06 UNAVAILABLE.
+)
+[2026-09-09T19:27:28Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-14340a69666sm23983331c88.9 - gsmtp')
