@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-09-10T17:30:00.47Z",
+  "createdAt": "2026-09-10T20:00:00.436Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63924570712267537",
+        "id": "63924659038416161",
         "locations": [
           "EEEI"
         ],
         "notamId": {
-          "number": 2579,
+          "number": 2583,
           "series": "A",
           "year": 2026
         },
@@ -25,12 +25,17 @@
           "traffic": "IV",
           "upper": 999
         },
+        "referenceId": {
+          "number": 2579,
+          "series": "A",
+          "year": 2026
+        },
         "text": "WIND INFORMATION FOR RWY 06 UNAVAILABLE.",
-        "type": "N",
+        "type": "R",
         "validity": {
-          "end": "2026-09-10T23:59:00Z",
+          "end": "2026-09-18T14:00:00Z",
           "est": true,
-          "start": "2026-09-09T17:15:00Z"
+          "start": "2026-09-10T17:43:00Z"
         }
       },
       {
@@ -1548,41 +1553,6 @@
         }
       },
       {
-        "id": "63923168234759361",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2345,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "01 07-08 0600-1259, 02-03 0500-1359, 04 1300-2359, 05 H24, 06\r\n0000-1859, 09-10 0500-1859",
-        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-10T18:59:00Z",
-          "start": "2026-09-01T06:00:00Z"
-        }
-      },
-      {
         "id": "63923166363258945",
         "levels": {
           "lower": "SFC",
@@ -2670,8 +2640,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924635842201041",
-        "number": 1259,
+        "id": "63924660083194017",
+        "number": 1260,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2699,49 +2669,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-10T11:16:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63924636766106353",
-        "number": 663,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-09-10T11:32:00Z"
+            "time": "2026-09-10T18:00:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a0f077a0-c74f-418d-a523-bf711944940c",
-  "identifier": "BRIEFING-20260910-86",
+  "id": "dd8a2939-af62-4d3c-a05f-99f942905c31",
+  "identifier": "BRIEFING-20260910-96",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2788,8 +2723,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-11T17:30:00Z",
-    "validityStart": "2026-09-10T17:30:00Z"
+    "validityEnd": "2026-09-11T20:00:00Z",
+    "validityStart": "2026-09-10T20:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -2861,7 +2796,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63924570712267537",
+                  "referenceId": "63924659038416161",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -2882,11 +2817,6 @@
                 {
                   "link": false,
                   "referenceId": "63923172945265633",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923168234759361",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3094,7 +3024,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924635842201041",
+                  "referenceId": "63924660083194017",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3152,11 +3082,6 @@
                 {
                   "link": false,
                   "referenceId": "63918418771218417",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924636766106353",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3344,11 +3269,6 @@
             {
               "link": false,
               "referenceId": "63923172271385409",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63923168234759361",
               "structureType": "REFERENCE"
             },
             {
