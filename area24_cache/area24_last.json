@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-10T13:45:04.388Z",
+  "createdAt": "2026-09-10T17:30:00.47Z",
   "dynamicData": {
     "notams": [
       {
@@ -242,6 +242,41 @@
         "validity": {
           "end": "2026-09-17T13:59:00Z",
           "start": "2026-09-11T12:00:00Z"
+        }
+      },
+      {
+        "id": "63924040549733649",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2513,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "schedule": "11 1700-2359, 12 16-17 H24, 13 25 0000-1359, 15 0500-2359, 18\r\n0000-0259, 21 24 2100-2359, 23 0000-0459, 29 0600-1559",
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-29T15:59:00Z",
+          "start": "2026-09-11T17:00:00Z"
         }
       },
       {
@@ -772,40 +807,6 @@
         "validity": {
           "end": "2026-09-30T23:59:00Z",
           "start": "2026-09-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63923507490337137",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2421,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-10T13:59:00Z",
-          "start": "2026-09-06T11:00:00Z"
         }
       },
       {
@@ -1401,41 +1402,6 @@
         "type": "N",
         "validity": {
           "end": "2026-09-12T14:59:00Z",
-          "start": "2026-09-01T05:00:00Z"
-        }
-      },
-      {
-        "id": "63923173103301681",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2363,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5920N02443E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "01-02 0500-1559, 03 10 0500-1359, 04 0500-1259, 05 0500-1759, 06\r\n0500-1959, 09 0600-1359",
-        "text": "DANGER AREA EED20 (MANNIKU) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 503 4102.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-10T13:59:00Z",
           "start": "2026-09-01T05:00:00Z"
         }
       },
@@ -2774,16 +2740,16 @@
       }
     ]
   },
-  "id": "f76a4812-e294-41ac-89cf-c930d9c51827",
-  "identifier": "BRIEFING-20260910-71",
+  "id": "a0f077a0-c74f-418d-a523-bf711944940c",
+  "identifier": "BRIEFING-20260910-86",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2822,8 +2788,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-11T13:45:00Z",
-    "validityStart": "2026-09-10T13:45:00Z"
+    "validityEnd": "2026-09-11T17:30:00Z",
+    "validityStart": "2026-09-10T17:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3078,11 +3044,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923173103301681",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63923168944836753",
                   "structureType": "REFERENCE"
                 },
@@ -3286,6 +3247,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63924040549733649",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63924040071405905",
               "structureType": "REFERENCE"
@@ -3303,11 +3269,6 @@
             {
               "link": false,
               "referenceId": "63923769682896609",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923507490337137",
               "structureType": "REFERENCE"
             },
             {
@@ -3373,11 +3334,6 @@
             {
               "link": false,
               "referenceId": "63923255110054033",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63923173103301681",
               "structureType": "REFERENCE"
             },
             {

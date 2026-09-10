@@ -27998,3 +27998,23 @@ DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302
 F)SFC G)4300FT AMSL
 )
 [2026-09-10T13:52:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9397fb566a8sm1723395985a.25 - gsmtp')
+[2026-09-10T17:38:57Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2363/26 expired and was removed from the PIB.
+- NOTAM A2421/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2513/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/147/5922N02549E007
+A)EETT B)2609111700 C)2609291559
+D)11 1700-2359, 12 16-17 H24, 13 25 0000-1359, 15 0500-2359, 18
+0000-0259, 21 24 2100-2359, 23 0000-0459, 29 0600-1559
+E)DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED
+DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326
+4560.
+F)SFC G)4400FT AMSL
+)
+[2026-09-10T17:38:57Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-39d99531b16sm242180a91.14 - gsmtp')
