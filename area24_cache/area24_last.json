@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-09T21:45:00.439Z",
+  "createdAt": "2026-09-10T00:00:00.447Z",
   "dynamicData": {
     "notams": [
       {
@@ -576,41 +576,6 @@
           "end": "2026-10-30T07:00:00Z",
           "est": true,
           "start": "2026-08-31T03:29:00Z"
-        }
-      },
-      {
-        "id": "63923707362332577",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2438,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "schedule": "03 05-06 09 12-13 19-21 26-27 0500-2000",
-        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-27T20:00:00Z",
-          "start": "2026-09-03T05:00:00Z"
         }
       },
       {
@@ -2773,16 +2738,16 @@
       }
     ]
   },
-  "id": "e0fae20d-68a6-4723-9d92-2c65d25ec462",
-  "identifier": "BRIEFING-20260909-103",
+  "id": "a50474a2-27f3-455c-a26f-3154ebb3d2ca",
+  "identifier": "BRIEFING-20260910-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2821,8 +2786,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-10T21:45:00Z",
-    "validityStart": "2026-09-09T21:45:00Z"
+    "validityEnd": "2026-09-11T00:00:00Z",
+    "validityStart": "2026-09-10T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3287,11 +3252,6 @@
             {
               "link": false,
               "referenceId": "63923769682896609",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923707362332577",
               "structureType": "REFERENCE"
             },
             {
