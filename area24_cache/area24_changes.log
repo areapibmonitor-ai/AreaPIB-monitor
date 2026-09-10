@@ -27980,3 +27980,21 @@ AVAILABLE FROM +372 5303 2206.
 F)SFC G)2200FT AMSL
 )
 [2026-09-10T09:36:00Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-143243f780csm46171352c88.13 - gsmtp')
+[2026-09-10T13:52:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2099/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2514/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/154/5918N02742E005
+A)EETT B)2609111200 C)2609171359
+D)11 1200-2359, 12 16 H24, 13 0000-1459, 15 0600-2359, 17 0000-1359
+E)DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED
+DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302
+7449.
+F)SFC G)4300FT AMSL
+)
+[2026-09-10T13:52:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-9397fb566a8sm1723395985a.25 - gsmtp')
