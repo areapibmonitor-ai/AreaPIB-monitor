@@ -1,44 +1,144 @@
 {
-  "createdAt": "2026-09-11T09:45:06.643Z",
+  "createdAt": "2026-09-11T14:15:00.447Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63924716530401313",
+        "id": "63924732724811121",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL490"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2619,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5926N02447E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 16,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 490
+        },
+        "schedule": "11 1600-2300, 12-13 1700-2300, 14-15 1700-2330, 16-19 1630-2050",
+        "text": "TEMPORARY AREA FOR LASER HAZARD (TALLINN - KADRIORG) WILL TAKE\r\nPLACE WITHIN: CIRCLE OF 15NM RADIUS CENTERED ON 592618.90N\r\n0244726.40E. LASER BEAMS MAY CAUSE BLINDNESS UNTIL 4 NM AND FL250 IN\r\nALL DIRECTIONS WITHIN VERTICAL SECTOR FROM SFC TO 90 DEG. IN SAME\r\nSECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR UNTIL 15 NM\r\nAND FL490.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-19T20:50:00Z",
+          "start": "2026-09-11T16:00:00Z"
+        }
+      },
+      {
+        "id": "63924731752439265",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2618,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY OBSTACLE (TENTS) ERECTED ALONG A LINE: 581821.03N\r\n0263948.11E - 581821.19N 0263958.98E ELEVATION 233FT (HEIGHT 19FT).\r\nNOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T14:00:00Z",
+          "start": "2026-09-11T14:00:00Z"
+        }
+      },
+      {
+        "id": "63924731613271841",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2617,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY OBSTACLE (TENTS) ERECTED ALONG A LINE: 581832.08N\r\n0264111.91E - 581832.17N 0264120.43E ELEVATION 233FT (HEIGHT 19FT).\r\nNOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T14:00:00Z",
+          "start": "2026-09-11T14:00:00Z"
+        }
+      },
+      {
+        "id": "63924717898007649",
         "locations": [
           "EEKE"
         ],
         "notamId": {
+          "number": 2604,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
           "number": 2601,
           "series": "A",
           "year": 2026
         },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "AE",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
         "text": "READ AREA 2 OBSTACLE ID 13118 TREE ELEVATION 18 FT AND HEIGHT 14\r\nFT INSTEAD OF ELEVATION 40 FT AND HEIGHT 36 FT. REF AIP EEKE AD\r\n2.10.",
-        "type": "N",
+        "type": "R",
         "validity": {
           "perm": true,
-          "start": "2026-09-11T09:30:00Z"
+          "start": "2026-09-11T10:04:00Z"
         }
       },
       {
-        "id": "63924716257604033",
+        "id": "63924717764760721",
         "locations": [
           "EEKE"
         ],
         "notamId": {
-          "number": 2600,
+          "number": 2603,
           "series": "A",
           "year": 2026
         },
@@ -50,12 +150,47 @@
           "lower": 0,
           "purpose": "M",
           "radius": 5,
-          "scope": "AE",
+          "scope": "A",
           "subject": "OB",
           "traffic": "IV",
           "upper": 999
         },
+        "referenceId": {
+          "number": 2600,
+          "series": "A",
+          "year": 2026
+        },
         "text": "READ AREA 2 OBSTACLE ID 13120 TREE ELEVATION 18 FT AND HEIGHT 14\r\nFT INSTEAD OF ELEVATION 16 FT AND HEIGHT 12 FT. REF AIP EEKE AD 2.10.",
+        "type": "R",
+        "validity": {
+          "perm": true,
+          "start": "2026-09-11T10:02:00Z"
+        }
+      },
+      {
+        "id": "63924716829899617",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2602,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "READ AREA 2 OBSTACLE ID 13119 TREE ELEVATION 18 FT AND HEIGHT 14\r\nFT INSTEAD OF ELEVATION 32 FT AND HEIGHT 27 FT. REF AIP EEKE AD 2.10.",
         "type": "N",
         "validity": {
           "perm": true,
@@ -3007,8 +3142,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924709245330385",
-        "number": 1262,
+        "id": "63924732501411313",
+        "number": 1263,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3036,14 +3171,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-11T07:36:00Z"
+            "time": "2026-09-11T14:07:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63924703242253617",
-        "number": 665,
+        "id": "63924718454095057",
+        "number": 666,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3053,32 +3188,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-11T05:59:00Z"
+            "time": "2026-09-11T10:12:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c2b66db0-53a8-479b-a57f-db22153828a6",
-  "identifier": "BRIEFING-20260911-55",
+  "id": "1b0e658e-d5fe-4471-b5d8-a525b52a9c5f",
+  "identifier": "BRIEFING-20260911-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3125,8 +3260,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-12T09:45:00Z",
-    "validityStart": "2026-09-11T09:45:00Z"
+    "validityEnd": "2026-09-12T14:15:00Z",
+    "validityStart": "2026-09-11T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3277,12 +3412,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63924716530401313",
+                  "referenceId": "63924717898007649",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
-                  "referenceId": "63924716257604033",
+                  "referenceId": "63924717764760721",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924716829899617",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3359,6 +3499,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924732724811121",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924367728747873",
@@ -3441,7 +3586,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924709245330385",
+                  "referenceId": "63924732501411313",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3451,6 +3596,16 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924731752439265",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924731613271841",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924707826563009",
@@ -3513,7 +3668,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924703242253617",
+                  "referenceId": "63924718454095057",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3527,16 +3682,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63924716530401313",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63924716257604033",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63924050112059057",
@@ -3593,6 +3738,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63924732724811121",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63924372485232353",
