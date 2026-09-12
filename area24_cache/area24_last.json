@@ -1,7 +1,97 @@
 {
-  "createdAt": "2026-09-12T10:30:00.427Z",
+  "createdAt": "2026-09-12T13:45:00.443Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63924785117764913",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 2622,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FI",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "DE-ICING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-24T08:00:00Z",
+          "start": "2026-09-13T12:00:00Z"
+        }
+      },
+      {
+        "id": "63924784953687729",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 2621,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FU",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-24T08:00:00Z",
+          "start": "2026-09-13T12:00:00Z"
+        }
+      },
+      {
+        "id": "63924784754412065",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 2620,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "HANDLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-24T08:00:00Z",
+          "start": "2026-09-13T12:00:00Z"
+        }
+      },
       {
         "id": "63924732724811121",
         "levels": {
@@ -2912,8 +3002,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924797342320369",
-        "number": 1266,
+        "id": "63924809482673089",
+        "number": 1267,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2923,32 +3013,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-12T08:00:00Z"
+            "time": "2026-09-12T11:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "08f89bdc-c7ad-4fcc-8d83-e97d3144679d",
-  "identifier": "BRIEFING-20260912-58",
+  "id": "e32b3f0c-1612-4706-90a2-adb67ab0e220",
+  "identifier": "BRIEFING-20260912-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2995,8 +3085,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-13T10:30:00Z",
-    "validityStart": "2026-09-12T10:30:00Z"
+    "validityEnd": "2026-09-13T13:45:00Z",
+    "validityStart": "2026-09-12T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3108,6 +3198,21 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924785117764913",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924784953687729",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924784754412065",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63923744364027473",
@@ -3306,7 +3411,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924797342320369",
+                  "referenceId": "63924809482673089",
                   "structureType": "REFERENCE"
                 }
               ],
