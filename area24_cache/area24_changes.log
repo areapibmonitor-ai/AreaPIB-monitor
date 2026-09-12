@@ -28368,3 +28368,9 @@ SAT 0330-0800
 SUN 1200-1530
 )
 [2026-09-12T13:46:32Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33ba4e51449sm11990928eec.5 - gsmtp')
+[2026-09-12T16:33:46Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2378/26 expired and was removed from the PIB.
+[2026-09-12T16:33:46Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-530ca4ba156sm49712101cf.19 - gsmtp')

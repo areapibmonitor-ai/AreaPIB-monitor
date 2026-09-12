@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-12T13:45:00.443Z",
+  "createdAt": "2026-09-12T16:30:00.444Z",
   "dynamicData": {
     "notams": [
       {
@@ -1860,41 +1860,6 @@
         }
       },
       {
-        "id": "63923255110054033",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2378,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "01 03-04 08-11 0500-1759, 05 12 0500-1459, 07 0500-1359",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-12T14:59:00Z",
-          "start": "2026-09-01T05:00:00Z"
-        }
-      },
-      {
         "id": "63923172945265633",
         "locations": [
           "EEEI"
@@ -3002,8 +2967,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924809482673089",
-        "number": 1267,
+        "id": "63924823223630401",
+        "number": 1269,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3027,26 +2992,26 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-12T11:30:00Z"
+            "time": "2026-09-12T15:19:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e32b3f0c-1612-4706-90a2-adb67ab0e220",
-  "identifier": "BRIEFING-20260912-71",
+  "id": "07778794-3e5a-416b-88e2-f17b2aee2f1b",
+  "identifier": "BRIEFING-20260912-82",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3085,8 +3050,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-13T13:45:00Z",
-    "validityStart": "2026-09-12T13:45:00Z"
+    "validityEnd": "2026-09-13T16:30:00Z",
+    "validityStart": "2026-09-12T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3411,7 +3376,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924809482673089",
+                  "referenceId": "63924823223630401",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3696,11 +3661,6 @@
             {
               "link": true,
               "referenceId": "63923255709628497",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923255110054033",
               "structureType": "REFERENCE"
             },
             {
