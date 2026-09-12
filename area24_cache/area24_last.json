@@ -1,7 +1,157 @@
 {
-  "createdAt": "2026-09-12T21:00:00.421Z",
+  "createdAt": "2026-09-12T22:45:00.426Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63924845408231809",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2634,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5813N02230E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "GA",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "GPS RAIM IS NOT AVAILABLE FOR LNAV",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T23:59:00Z",
+          "start": "2026-09-13T00:00:00Z"
+        }
+      },
+      {
+        "id": "63924845408758577",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2633,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "GA",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "GPS RAIM IS NOT AVAILABLE FOR LNAV",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T23:59:00Z",
+          "start": "2026-09-13T00:00:00Z"
+        }
+      },
+      {
+        "id": "63924845408242833",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2632,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5924N02449E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "GA",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "GPS RAIM IS NOT AVAILABLE FOR LNAV",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T23:59:00Z",
+          "start": "2026-09-13T00:00:00Z"
+        }
+      },
+      {
+        "id": "63924845408237489",
+        "locations": [
+          "EEPU"
+        ],
+        "notamId": {
+          "number": 2631,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5825N02428E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "GA",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "GPS RAIM IS NOT AVAILABLE FOR LNAV",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T23:59:00Z",
+          "start": "2026-09-13T00:00:00Z"
+        }
+      },
+      {
+        "id": "63924845408227137",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 2630,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AU",
+          "coordinate": "5859N02249E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "GA",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "GPS RAIM IS NOT AVAILABLE FOR LNAV",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T23:59:00Z",
+          "start": "2026-09-13T00:00:00Z"
+        }
+      },
       {
         "id": "63924785117764913",
         "locations": [
@@ -3002,8 +3152,8 @@
       }
     ]
   },
-  "id": "2cb7d934-a111-445c-8e1a-ca0faf153cbc",
-  "identifier": "BRIEFING-20260912-100",
+  "id": "1e7df842-67bf-4b2e-8a2b-cb8e63a2c918",
+  "identifier": "BRIEFING-20260912-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3050,8 +3200,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-13T21:00:00Z",
-    "validityStart": "2026-09-12T21:00:00Z"
+    "validityEnd": "2026-09-13T22:45:00Z",
+    "validityStart": "2026-09-12T22:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3165,6 +3315,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63924845408227137",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63924785117764913",
                   "structureType": "REFERENCE"
                 },
@@ -3200,6 +3355,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924845408231809",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924717898007649",
@@ -3269,6 +3429,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63924845408237489",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63924040071405905",
                   "structureType": "REFERENCE"
                 },
@@ -3289,6 +3454,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924845408242833",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924732724811121",
@@ -3386,6 +3556,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63924845408758577",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924731752439265",
