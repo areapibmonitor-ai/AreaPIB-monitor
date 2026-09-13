@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-13T00:45:00.427Z",
+  "createdAt": "2026-09-13T05:45:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -338,6 +338,41 @@
         }
       },
       {
+        "id": "63924730361681537",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2616,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "14-16 23 0500-1759, 17 0500-1559, 19 0500-1659, 20 0600-1159, 21\r\n26 0500-1459, 30 0500-1359",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-30T13:59:00Z",
+          "start": "2026-09-14T05:00:00Z"
+        }
+      },
+      {
         "id": "63924717898007649",
         "locations": [
           "EEKE"
@@ -637,6 +672,40 @@
         "validity": {
           "end": "2026-09-17T11:00:00Z",
           "start": "2026-09-13T05:00:00Z"
+        }
+      },
+      {
+        "id": "63924379968654417",
+        "levels": {
+          "lower": "SFC",
+          "upper": "10200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2545,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-14T16:59:00Z",
+          "start": "2026-09-14T05:00:00Z"
         }
       },
       {
@@ -2957,6 +3026,40 @@
         }
       },
       {
+        "id": "63917379817308929",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 1614,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5853N02425E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26118UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585806N 0241808E - 585806N\r\n0243159E - 585013N 0243252E - 584805N 0242611E - 584805N 0241808E -\r\n585806N 0241808E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 503 6833.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-18T16:00:00Z",
+          "start": "2026-09-14T05:00:00Z"
+        }
+      },
+      {
         "id": "63917378605092753",
         "locations": [
           "EETN"
@@ -3117,8 +3220,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924839455192177",
-        "number": 1270,
+        "id": "63924861169177713",
+        "number": 1271,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3146,14 +3249,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-12T19:50:00Z"
+            "time": "2026-09-13T01:51:00Z"
           }
         ]
       }
     ]
   },
-  "id": "425ea0b7-c299-40f8-ae90-51b9c0cbb489",
-  "identifier": "BRIEFING-20260913-4",
+  "id": "0cd2f273-de87-475d-a564-9e49f9b085a9",
+  "identifier": "BRIEFING-20260913-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3200,8 +3303,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-14T00:45:00Z",
-    "validityStart": "2026-09-13T00:45:00Z"
+    "validityEnd": "2026-09-14T05:45:00Z",
+    "validityStart": "2026-09-13T05:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3546,7 +3649,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924839455192177",
+                  "referenceId": "63924861169177713",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3719,6 +3822,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63924730361681537",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63924650396777137",
               "structureType": "REFERENCE"
@@ -3731,6 +3839,11 @@
             {
               "link": true,
               "referenceId": "63924470067248001",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63924379968654417",
               "structureType": "REFERENCE"
             },
             {
@@ -3891,6 +4004,11 @@
             {
               "link": true,
               "referenceId": "63918418771218417",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63917379817308929",
               "structureType": "REFERENCE"
             },
             {
