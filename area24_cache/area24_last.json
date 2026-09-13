@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-13T11:30:00.485Z",
+  "createdAt": "2026-09-13T15:00:05.138Z",
   "dynamicData": {
     "notams": [
       {
@@ -1286,40 +1286,6 @@
         "validity": {
           "end": "2026-09-13T17:00:00Z",
           "start": "2026-09-13T05:00:00Z"
-        }
-      },
-      {
-        "id": "63923931489222977",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2479,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5926N02444E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2660 (SWEDBANK TALLINN MARATHON)\r\nESTABLISHED FOR SPORTING ACTIVITIES WITHIN: CIRCLE OF 1.5KM RADIUS\r\nCENTERED ON 592605N 0244421E. NON-PARTICIPATING UNMANNED AIRCRAFT ARE\r\nNOT PERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR ENTERING\r\nTHE AREA SHALL BE OBTAINED FROM TEL +372 5202335.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-13T12:00:00Z",
-          "start": "2026-09-12T03:00:00Z"
         }
       },
       {
@@ -3316,8 +3282,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924890289360513",
-        "number": 1273,
+        "id": "63924906488251905",
+        "number": 1275,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3329,23 +3295,23 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "50",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-13T09:57:00Z"
+            "time": "2026-09-13T14:26:00Z"
           }
         ]
       },
@@ -3386,8 +3352,8 @@
       }
     ]
   },
-  "id": "a981176f-4ae3-474b-a308-88bc8b1748d9",
-  "identifier": "BRIEFING-20260913-62",
+  "id": "f5e79a31-f1b5-49b3-ba61-05435b46cb49",
+  "identifier": "BRIEFING-20260913-76",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3434,8 +3400,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-14T11:30:00Z",
-    "validityStart": "2026-09-13T11:30:00Z"
+    "validityEnd": "2026-09-14T15:00:00Z",
+    "validityStart": "2026-09-13T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3730,11 +3696,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923931489222977",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63923340735892913",
                   "structureType": "REFERENCE"
                 },
@@ -3795,7 +3756,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924890289360513",
+                  "referenceId": "63924906488251905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4065,11 +4026,6 @@
             {
               "link": false,
               "referenceId": "63923931906167121",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63923931489222977",
               "structureType": "REFERENCE"
             },
             {

@@ -28504,3 +28504,9 @@ E)GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 1KM
 RADIUS CENTERED ON 592617N 0244425E FROM SFC UP TO 5000FT AMSL.
 )
 [2026-09-13T11:40:55Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33ba4f5833fsm23484043eec.23 - gsmtp')
+[2026-09-13T15:05:49Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2479/26 expired and was removed from the PIB.
+[2026-09-13T15:05:49Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5614622812f47-4c4c8dd21fesm4471732b6e.7 - gsmtp')
