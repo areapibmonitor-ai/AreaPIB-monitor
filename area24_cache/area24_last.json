@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-14T12:45:00.454Z",
+  "createdAt": "2026-09-14T18:30:00.477Z",
   "dynamicData": {
     "notams": [
       {
@@ -941,36 +941,6 @@
         }
       },
       {
-        "id": "63924644685640721",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2580,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LP",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "AZ",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "schedule": "DAILY 0600-1400",
-        "text": "KURESSAARE FIZ/RMZ PROHIBITED TO SCHOOL AND TRAINING FLIGHTS DUE \r\nTO\r\nFLIGHT CHECK.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-16T14:00:00Z",
-          "start": "2026-09-14T06:00:00Z"
-        }
-      },
-      {
         "id": "63924470067248001",
         "levels": {
           "lower": "SFC",
@@ -1099,40 +1069,6 @@
         "validity": {
           "end": "2026-09-17T11:00:00Z",
           "start": "2026-09-13T05:00:00Z"
-        }
-      },
-      {
-        "id": "63924379968654417",
-        "levels": {
-          "lower": "SFC",
-          "upper": "10200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2545,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-14T16:59:00Z",
-          "start": "2026-09-14T05:00:00Z"
         }
       },
       {
@@ -2062,36 +1998,6 @@
           "end": "2026-11-25T23:59:00Z",
           "est": true,
           "start": "2026-08-27T12:18:00Z"
-        }
-      },
-      {
-        "id": "63923425264629249",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2405,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IC",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS RWY 17 U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-15T23:59:00Z",
-          "start": "2026-09-01T00:01:00Z"
         }
       },
       {
@@ -3506,8 +3412,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63924969797992145",
-        "number": 1281,
+        "id": "63924991624989089",
+        "number": 1282,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3535,7 +3441,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-14T08:02:00Z"
+            "time": "2026-09-14T14:04:00Z"
           }
         ]
       },
@@ -3576,16 +3482,16 @@
       }
     ]
   },
-  "id": "6b1c9a8e-4e32-41d3-81f1-6f0cc1129f52",
-  "identifier": "BRIEFING-20260914-67",
+  "id": "b8919a64-9e06-40e5-bba4-109171a3e2c3",
+  "identifier": "BRIEFING-20260914-90",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3624,8 +3530,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-15T12:45:00Z",
-    "validityStart": "2026-09-14T12:45:00Z"
+    "validityEnd": "2026-09-15T18:30:00Z",
+    "validityStart": "2026-09-14T18:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3796,11 +3702,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924644685640721",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63924026696854081",
                   "structureType": "REFERENCE"
                 },
@@ -3822,11 +3723,6 @@
                 {
                   "link": false,
                   "referenceId": "63923670395042049",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923425264629249",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3970,7 +3866,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924969797992145",
+                  "referenceId": "63924991624989089",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4091,11 +3987,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63924644685640721",
-              "structureType": "REFERENCE"
-            },
             {
               "link": false,
               "referenceId": "63924050112059057",
@@ -4220,11 +4111,6 @@
             {
               "link": false,
               "referenceId": "63924462483060561",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63924379968654417",
               "structureType": "REFERENCE"
             },
             {
