@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-09-16T05:00:00.449Z",
+  "createdAt": "2026-09-16T10:00:05.028Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925143409062529",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2683,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5926N02446E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 1,
+          "scope": "AE",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 5
+        },
+        "text": "TEMPORARY CRANE ERECTED POSITION: 592605.10N 0244532.40E ELEVATION\r\n459FT (HEIGHT 443FT). LIGHTED. LIGHTING FIXED RED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-12-15T23:59:00Z",
+          "est": true,
+          "start": "2026-09-16T08:30:00Z"
+        }
+      },
       {
         "id": "63925077126916609",
         "locations": [
@@ -858,6 +889,41 @@
         }
       },
       {
+        "id": "63924718389328897",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2605,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02655E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 24
+        },
+        "schedule": "17 24 0600-0959, 19 0500-1459, 23 0500-1359",
+        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-24T09:59:00Z",
+          "start": "2026-09-17T06:00:00Z"
+        }
+      },
+      {
         "id": "63924717898007649",
         "locations": [
           "EEKE"
@@ -1365,6 +1431,40 @@
         "validity": {
           "end": "2026-09-28T20:59:00Z",
           "start": "2026-09-07T10:15:00Z"
+        }
+      },
+      {
+        "id": "63924371734725569",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1000FT AGL"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2535,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02504E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "AW",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 12
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2666 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 1KM RADIUS CENTERED ON\r\n592155N 0250426E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +37253823704 OR BY EMAIL ANDREI.KOKORIN(AT)POLITSEI.EE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-17T13:00:00Z",
+          "start": "2026-09-17T06:00:00Z"
         }
       },
       {
@@ -3924,8 +4024,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925122516058689",
-        "number": 1289,
+        "id": "63925136259699969",
+        "number": 1290,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3935,67 +4035,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-16T02:27:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63925120987745777",
-        "number": 678,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-09-16T01:59:00Z"
+            "time": "2026-09-16T06:16:00Z"
           }
         ]
       }
     ]
   },
-  "id": "408a2d41-845b-49f3-be8a-63416faf03af",
-  "identifier": "BRIEFING-20260916-35",
+  "id": "2b56594f-9ffe-410e-adbe-07f624653f20",
+  "identifier": "BRIEFING-20260916-56",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -4042,8 +4107,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-17T05:00:00Z",
-    "validityStart": "2026-09-16T05:00:00Z"
+    "validityEnd": "2026-09-17T10:00:00Z",
+    "validityStart": "2026-09-16T10:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4308,6 +4373,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63925143409062529",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63924962060793409",
                   "structureType": "REFERENCE"
                 },
@@ -4324,6 +4394,11 @@
                 {
                   "link": false,
                   "referenceId": "63924379428463217",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63924371734725569",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4398,7 +4473,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925122516058689",
+                  "referenceId": "63925136259699969",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4507,11 +4582,6 @@
                   "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63925120987745777",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -4524,6 +4594,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63925143409062529",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63925075743059937",
@@ -4642,6 +4717,11 @@
             },
             {
               "link": false,
+              "referenceId": "63924718389328897",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
               "referenceId": "63924712403346465",
               "structureType": "REFERENCE"
             },
@@ -4688,6 +4768,11 @@
             {
               "link": false,
               "referenceId": "63924372485232353",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63924371734725569",
               "structureType": "REFERENCE"
             },
             {
