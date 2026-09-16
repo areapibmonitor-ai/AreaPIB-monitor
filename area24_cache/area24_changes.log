@@ -29107,3 +29107,19 @@ Expired NOTAMs:
 - NOTAM A2678/26 expired and was removed from the PIB.
 [2026-09-15T22:07:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-53261fd7e5bsm5499811cf.7 - gsmtp')
 [2026-09-16T00:28:58Z] NO CHANGE in dynamicData.notams.
+[2026-09-16T05:09:55Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2629/26 NOTAMN
+Q)EETT/RRCA/IV/BO/AW/000/007/5850N02223E015
+A)EEKA B)2609170300 C)2609180259
+E)TEMPORARY RESTRICTED AREA EER2654 ESTABLISHED FOR UNMANNED
+AIRCRAFT SYSTEM ACTIVITIES WITHIN: 585647N 0215834E - 590414N
+0222516E - 590029N 0224239E - 585550N 0224831E - 584300N 0224721E -
+583716N 0222324E - 585647N 0215834E. PERMISSION FOR ENTERING THE AREA
+SHALL BE OBTAINED FROM TEL +372 717 3891 OR +372 5355 6051.
+F)SFC G)700FT AMSL
+)
+[2026-09-16T05:09:55Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33bf5af4f0bsm4616471eec.24 - gsmtp')
