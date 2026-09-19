@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-19T00:30:00.437Z",
+  "createdAt": "2026-09-19T05:00:00.452Z",
   "dynamicData": {
     "notams": [
       {
@@ -3602,8 +3602,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925356579244657",
-        "number": 1302,
+        "id": "63925383600361073",
+        "number": 1303,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3631,14 +3631,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-18T19:28:00Z"
+            "time": "2026-09-19T01:53:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63925361313189361",
-        "number": 686,
+        "id": "63925383607449601",
+        "number": 687,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3648,32 +3648,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-18T20:45:00Z"
+            "time": "2026-09-19T02:07:00Z"
           }
         ]
       }
     ]
   },
-  "id": "d121171b-b444-4428-a4ac-d773e23868c0",
-  "identifier": "BRIEFING-20260919-3",
+  "id": "0ca62bf3-9102-4dbf-a305-7c8e06b7d9bf",
+  "identifier": "BRIEFING-20260919-35",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3720,8 +3720,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-20T00:30:00Z",
-    "validityStart": "2026-09-19T00:30:00Z"
+    "validityEnd": "2026-09-20T05:00:00Z",
+    "validityStart": "2026-09-19T05:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4076,7 +4076,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925356579244657",
+                  "referenceId": "63925383600361073",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4143,7 +4143,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925361313189361",
+                  "referenceId": "63925383607449601",
                   "structureType": "REFERENCE"
                 }
               ],
