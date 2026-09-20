@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-19T23:15:00.458Z",
+  "createdAt": "2026-09-20T01:30:00.451Z",
   "dynamicData": {
     "notams": [
       {
@@ -449,6 +449,41 @@
           "end": "2026-12-15T23:59:00Z",
           "est": true,
           "start": "2026-09-16T08:30:00Z"
+        }
+      },
+      {
+        "id": "63925076155571377",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2100FT AMSL"
+        },
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2679,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5919N02412E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "AW",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 21
+        },
+        "schedule": "16 0500-1859, 17 21 28-30 0600-1359, 22 0500-1559, 23 0500-0959,\r\n24 0600-1259, 27 0500-1359",
+        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-30T13:59:00Z",
+          "start": "2026-09-16T05:00:00Z"
         }
       },
       {
@@ -915,41 +950,6 @@
         "validity": {
           "end": "2026-09-24T20:59:00Z",
           "start": "2026-09-18T03:00:00Z"
-        }
-      },
-      {
-        "id": "63924718389328897",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2605,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "17 24 0600-0959, 19 0500-1459, 23 0500-1359",
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-24T09:59:00Z",
-          "start": "2026-09-17T06:00:00Z"
         }
       },
       {
@@ -1768,6 +1768,40 @@
         "validity": {
           "end": "2026-09-30T23:59:00Z",
           "start": "2026-09-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63923768095499921",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2450,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-21T23:59:00Z",
+          "start": "2026-09-21T00:00:00Z"
         }
       },
       {
@@ -3492,16 +3526,16 @@
       }
     ]
   },
-  "id": "9fad6717-9ad0-4a8a-b07c-766b8c7e45e5",
-  "identifier": "BRIEFING-20260919-109",
+  "id": "48acf71f-efc9-4f63-bf55-3edb6ff13fb9",
+  "identifier": "BRIEFING-20260920-7",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3540,8 +3574,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-20T23:15:00Z",
-    "validityStart": "2026-09-19T23:15:00Z"
+    "validityEnd": "2026-09-21T01:30:00Z",
+    "validityStart": "2026-09-20T01:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3614,6 +3648,11 @@
                 {
                   "link": false,
                   "referenceId": "63925334206008081",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63925076155571377",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4044,6 +4083,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": true,
+              "referenceId": "63925076155571377",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": false,
               "referenceId": "63924730361681537",
               "structureType": "REFERENCE"
@@ -4061,11 +4105,6 @@
             {
               "link": false,
               "referenceId": "63924723096444273",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63924718389328897",
               "structureType": "REFERENCE"
             },
             {
@@ -4146,6 +4185,11 @@
             {
               "link": false,
               "referenceId": "63923947702895377",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923768095499921",
               "structureType": "REFERENCE"
             },
             {
