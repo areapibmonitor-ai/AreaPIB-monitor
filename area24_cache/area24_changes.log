@@ -30109,3 +30109,25 @@ DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507
 F)SFC G)4500FT AMSL
 )
 [2026-09-21T07:07:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d75a77b69052e-532ae751182sm57377301cf.24 - gsmtp')
+[2026-09-21T14:18:56Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2754/26 NOTAMN
+Q)EETT/ILAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2609220630 C)2609220930
+E)ILS LOC RWY 06 U/S DUE TO MAINT.
+)
+
+New NOTAM added:
+(A2755/26 NOTAMN
+Q)EETT/ILAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2609221000 C)2609221300
+E)ILS LOC RWY 24 U/S DUE TO MAINT.
+)
+
+
+Other removals:
+- NOTAM A2727/26 was removed from the PIB.
+[2026-09-21T14:18:56Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 46e09a7af769-8107e38c212sm8038229a34.11 - gsmtp')

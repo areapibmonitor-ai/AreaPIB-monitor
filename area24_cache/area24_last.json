@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-09-21T07:00:00.466Z",
+  "createdAt": "2026-09-21T14:15:00.516Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925591426895505",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2755,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IL",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS LOC RWY 24 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-22T13:00:00Z",
+          "start": "2026-09-22T10:00:00Z"
+        }
+      },
+      {
+        "id": "63925591366408513",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2754,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IL",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "ILS LOC RWY 06 U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-22T09:30:00Z",
+          "start": "2026-09-22T06:30:00Z"
+        }
+      },
       {
         "id": "63925515400186465",
         "levels": {
@@ -176,36 +236,6 @@
           "end": "2026-12-20T15:00:00Z",
           "est": true,
           "start": "2026-09-20T10:28:00Z"
-        }
-      },
-      {
-        "id": "63925420168508273",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2727,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5840N02633E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 25,
-          "scope": "AE",
-          "subject": "ND",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "DME KRP 112.150 MHZ/CH58Y U/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-21T20:00:00Z",
-          "start": "2026-09-19T13:11:00Z"
         }
       },
       {
@@ -3545,8 +3575,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925552443381649",
-        "number": 1316,
+        "id": "63925593556418033",
+        "number": 1321,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3557,14 +3587,8 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "condition": "WET",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
@@ -3572,51 +3596,22 @@
                 "condition": "WET",
                 "coverage": "25",
                 "depth": "NR"
-              }
-            ],
-            "time": "2026-09-21T01:53:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63925566883024753",
-        "number": 691,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-21T05:53:00Z"
+            "time": "2026-09-21T13:18:00Z"
           }
         ]
       }
     ]
   },
-  "id": "84493074-37d7-4b90-b69e-48b865923180",
-  "identifier": "BRIEFING-20260921-44",
+  "id": "a859c3fa-5fd2-4029-9bb4-5f5c1926fbb1",
+  "identifier": "BRIEFING-20260921-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3663,8 +3658,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-22T07:00:00Z",
-    "validityStart": "2026-09-21T07:00:00Z"
+    "validityEnd": "2026-09-22T14:15:00Z",
+    "validityStart": "2026-09-21T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3734,6 +3729,16 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63925591426895505",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63925591366408513",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63925496985577953",
@@ -3994,7 +3999,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925552443381649",
+                  "referenceId": "63925593556418033",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4004,11 +4009,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63925420168508273",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63923670091267553",
@@ -4058,11 +4058,6 @@
                   "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63925566883024753",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -4075,11 +4070,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63925420168508273",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63925246729044609",
