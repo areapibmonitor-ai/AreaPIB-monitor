@@ -1,7 +1,43 @@
 {
-  "createdAt": "2026-09-21T19:30:04.548Z",
+  "createdAt": "2026-09-21T22:45:00.456Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925616090769809",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2758,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LB",
+          "traffic": "V",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2721,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "AERODROME BEACON U/S.",
+        "type": "R",
+        "validity": {
+          "end": "2026-09-28T14:00:00Z",
+          "est": true,
+          "start": "2026-09-21T19:34:00Z"
+        }
+      },
       {
         "id": "63925591426895505",
         "locations": [
@@ -239,39 +275,38 @@
         }
       },
       {
-        "id": "63925334206008081",
+        "id": "63925335692176705",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4400FT AMSL"
+        },
         "locations": [
-          "EEEI"
+          "EETT"
         ],
         "notamId": {
-          "number": 2721,
+          "number": 2723,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
+          "condition": "CA",
+          "coordinate": "5922N02549E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LB",
-          "traffic": "V",
-          "upper": 999
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
         },
-        "referenceId": {
-          "number": 2718,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "AERODROME BEACON U/S.",
-        "type": "R",
+        "schedule": "22 24 2100-2359, 23 0000-0459, 25 0000-1359",
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
         "validity": {
-          "end": "2026-09-21T14:59:00Z",
-          "est": true,
-          "start": "2026-09-18T13:16:00Z"
+          "end": "2026-09-25T13:59:00Z",
+          "start": "2026-09-22T21:00:00Z"
         }
       },
       {
@@ -3539,11 +3574,46 @@
             "time": "2026-09-21T17:11:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63925620164486001",
+        "number": 692,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "25",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "50",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "75",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-09-21T20:41:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "ff78d561-4314-48d4-a305-4d9c6e6b879c",
-  "identifier": "BRIEFING-20260921-94",
+  "id": "0377d9bc-4308-47a3-9fd4-2f427fbde4a5",
+  "identifier": "BRIEFING-20260921-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3590,8 +3660,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-22T19:30:00Z",
-    "validityStart": "2026-09-21T19:30:00Z"
+    "validityEnd": "2026-09-22T22:45:00Z",
+    "validityStart": "2026-09-21T22:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3663,6 +3733,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63925616090769809",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63925591426895505",
                   "structureType": "REFERENCE"
                 },
@@ -3674,11 +3749,6 @@
                 {
                   "link": false,
                   "referenceId": "63925496985577953",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63925334206008081",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3990,6 +4060,11 @@
                   "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63925620164486001",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -4081,6 +4156,11 @@
             {
               "link": false,
               "referenceId": "63925514191650753",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63925335692176705",
               "structureType": "REFERENCE"
             },
             {
