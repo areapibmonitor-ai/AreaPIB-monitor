@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-21T14:15:00.516Z",
+  "createdAt": "2026-09-21T19:30:04.548Z",
   "dynamicData": {
     "notams": [
       {
@@ -306,40 +306,6 @@
         "validity": {
           "end": "2026-09-28T20:59:00Z",
           "start": "2026-09-19T04:00:00Z"
-        }
-      },
-      {
-        "id": "63925320861407057",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2703,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5907N02613E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "RESTRICTED AREA EER2506 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACTIVITY\r\nAVAILABLE FROM +372 5385 6820. REF AIP SUP 13/2026.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-21T19:00:00Z",
-          "start": "2026-09-21T10:00:00Z"
         }
       },
       {
@@ -902,40 +868,6 @@
           "end": "2026-09-30T18:00:00Z",
           "est": true,
           "start": "2026-09-14T09:52:00Z"
-        }
-      },
-      {
-        "id": "63924976164901249",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL080"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2645,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5756N02659E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 80
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2410B ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 5NM RADIUS CENTERED ON\r\n575623N 0265848E. ALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE\r\nPROHIBITED TO FLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM\r\nESTONIAN POLICE AND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 5309 4264. RESTRICTION DOES NOT\r\nAPPLY TO SAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-21T18:00:00Z",
-          "start": "2026-09-21T08:00:00Z"
         }
       },
       {
@@ -3575,8 +3507,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925593556418033",
-        "number": 1321,
+        "id": "63925607544315057",
+        "number": 1322,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3587,14 +3519,14 @@
             "thirds": [
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
@@ -3604,22 +3536,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-21T13:18:00Z"
+            "time": "2026-09-21T17:11:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a859c3fa-5fd2-4029-9bb4-5f5c1926fbb1",
-  "identifier": "BRIEFING-20260921-73",
+  "id": "ff78d561-4314-48d4-a305-4d9c6e6b879c",
+  "identifier": "BRIEFING-20260921-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3658,8 +3590,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-22T14:15:00Z",
-    "validityStart": "2026-09-21T14:15:00Z"
+    "validityEnd": "2026-09-22T19:30:00Z",
+    "validityStart": "2026-09-21T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3999,7 +3931,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925593556418033",
+                  "referenceId": "63925607544315057",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4158,11 +4090,6 @@
             },
             {
               "link": false,
-              "referenceId": "63925320861407057",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63925076984425233",
               "structureType": "REFERENCE"
             },
@@ -4179,11 +4106,6 @@
             {
               "link": false,
               "referenceId": "63924977523256401",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63924976164901249",
               "structureType": "REFERENCE"
             },
             {
