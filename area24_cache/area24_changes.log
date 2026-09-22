@@ -30164,3 +30164,35 @@ DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326
 F)SFC G)4400FT AMSL
 )
 [2026-09-21T22:50:29Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33e61316b92sm142490eec.26 - gsmtp')
+[2026-09-22T01:34:08Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2450/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2381/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/021/5854N02331E002
+A)EETT B)2609020700 C)2609301900
+D)02-06 09-13 16-20 23-27 30 0700-1900
+E)DANGER AREA EED5 (KILTSI) ACTIVATED FOR MILITARY EXERCISE.
+F)SFC G)2100FT AMSL
+)
+
+New NOTAM added:
+(A2605/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/024/5749N02655E002
+A)EETT B)2609170600 C)2609240959
+D)17 24 0600-0959, 19 0500-1459, 23 0500-1359
+E)DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS
+CHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372
+507 2683.
+F)SFC G)1100FT AMSL
+)
+
+
+Other removals:
+- NOTAM A2387/26 was removed from the PIB.
+- NOTAM A2438/26 was removed from the PIB.
+[2026-09-22T01:34:08Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-87c31ee84eesm66675b3a.19 - gsmtp')
