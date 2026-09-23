@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-09-23T06:30:00.465Z",
+  "createdAt": "2026-09-23T12:15:00.476Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63925739303656993",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2777,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 14/32 CLOSED DUE TO WIP.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-23T13:30:00Z",
-          "start": "2026-09-23T06:00:00Z"
-        }
-      },
       {
         "id": "63925688927993361",
         "levels": {
@@ -200,36 +170,6 @@
         "validity": {
           "end": "2026-09-23T13:30:00Z",
           "start": "2026-09-23T10:30:00Z"
-        }
-      },
-      {
-        "id": "63925683631867249",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2765,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IG",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS GP RWY 24 U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-23T09:30:00Z",
-          "start": "2026-09-23T06:30:00Z"
         }
       },
       {
@@ -3469,8 +3409,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925721922839569",
-        "number": 1329,
+        "id": "63925742273909473",
+        "number": 1330,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3480,32 +3420,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-23T00:57:00Z"
+            "time": "2026-09-23T06:36:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63925739650348481",
-        "number": 698,
+        "id": "63925759762676241",
+        "number": 699,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3517,30 +3457,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-23T05:52:00Z"
+            "time": "2026-09-23T11:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ff6e2fa3-95bb-47d5-9af0-6405efd91229",
-  "identifier": "BRIEFING-20260923-39",
+  "id": "60d95384-d7a0-4262-81b7-e9650dc19a56",
+  "identifier": "BRIEFING-20260923-62",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3587,8 +3527,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-24T06:30:00Z",
-    "validityStart": "2026-09-23T06:30:00Z"
+    "validityEnd": "2026-09-24T12:15:00Z",
+    "validityStart": "2026-09-23T12:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3665,11 +3605,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925683631867249",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63925496985577953",
                   "structureType": "REFERENCE"
                 },
@@ -3710,11 +3645,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63925739303656993",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63924785117764913",
@@ -3923,7 +3853,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925721922839569",
+                  "referenceId": "63925742273909473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3985,7 +3915,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925739650348481",
+                  "referenceId": "63925759762676241",
                   "structureType": "REFERENCE"
                 }
               ],
