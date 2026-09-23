@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-09-23T17:15:00.462Z",
+  "createdAt": "2026-09-23T20:15:00.456Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925788172397185",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2784,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5917N02408E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 11,
+          "scope": "AE",
+          "subject": "ST",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "text": "AMARI TWR TELEPHONE NUMBERS U/S FOR EXTERNAL CALLS. AVAILABLE\r\nTELEPHONE NUMBER +37256212444.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-24T09:00:00Z",
+          "est": true,
+          "start": "2026-09-23T19:30:00Z"
+        }
+      },
       {
         "id": "63925688927993361",
         "levels": {
@@ -3241,8 +3272,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925766776419665",
-        "number": 1331,
+        "id": "63925790887344097",
+        "number": 1332,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3270,14 +3301,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-23T13:25:00Z"
+            "time": "2026-09-23T20:05:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63925759762676241",
-        "number": 699,
+        "id": "63925788925606833",
+        "number": 700,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3289,30 +3320,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-23T11:26:00Z"
+            "time": "2026-09-23T19:34:00Z"
           }
         ]
       }
     ]
   },
-  "id": "ebffd15d-8d9b-4b0a-a3bf-5286376dcfd5",
-  "identifier": "BRIEFING-20260923-82",
+  "id": "3f13d722-6879-4a00-96ec-48dd444439a6",
+  "identifier": "BRIEFING-20260923-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3359,8 +3390,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-24T17:15:00Z",
-    "validityStart": "2026-09-23T17:15:00Z"
+    "validityEnd": "2026-09-24T20:15:00Z",
+    "validityStart": "2026-09-23T20:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3430,6 +3461,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63925788172397185",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63925496985577953",
@@ -3680,7 +3716,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925766776419665",
+                  "referenceId": "63925790887344097",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3742,7 +3778,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925759762676241",
+                  "referenceId": "63925788925606833",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3756,6 +3792,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63925788172397185",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63925246729044609",

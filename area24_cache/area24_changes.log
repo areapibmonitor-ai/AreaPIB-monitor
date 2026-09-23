@@ -30379,3 +30379,15 @@ Expired NOTAMs:
 - NOTAM A2682/26 expired and was removed from the PIB.
 - NOTAM A2766/26 expired and was removed from the PIB.
 [2026-09-23T17:17:02Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-09-23T20:30:50Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2784/26 NOTAMN
+Q)EETT/STXX/IV/BO/AE/000/017/5917N02408E011
+A)EEEI B)2609231930 C)2609240900
+E)AMARI TWR TELEPHONE NUMBERS U/S FOR EXTERNAL CALLS. AVAILABLE
+TELEPHONE NUMBER +37256212444.
+)
+[2026-09-23T20:30:50Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-9141e27734asm2400236d6.29 - gsmtp')
