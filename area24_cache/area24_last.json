@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-09-23T01:15:00.451Z",
+  "createdAt": "2026-09-23T06:30:00.465Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925739303656993",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 2777,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 14/32 CLOSED DUE TO WIP.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-23T13:30:00Z",
+          "start": "2026-09-23T06:00:00Z"
+        }
+      },
       {
         "id": "63925688927993361",
         "levels": {
@@ -3474,8 +3504,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63925707049879681",
-        "number": 696,
+        "id": "63925739650348481",
+        "number": 698,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3485,32 +3515,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-22T20:50:00Z"
+            "time": "2026-09-23T05:52:00Z"
           }
         ]
       }
     ]
   },
-  "id": "baa59387-ff64-4fa1-919a-a710a24f71db",
-  "identifier": "BRIEFING-20260923-6",
+  "id": "ff6e2fa3-95bb-47d5-9af0-6405efd91229",
+  "identifier": "BRIEFING-20260923-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3557,8 +3587,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-24T01:15:00Z",
-    "validityStart": "2026-09-23T01:15:00Z"
+    "validityEnd": "2026-09-24T06:30:00Z",
+    "validityStart": "2026-09-23T06:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3680,6 +3710,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63925739303656993",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63924785117764913",
@@ -3950,7 +3985,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925707049879681",
+                  "referenceId": "63925739650348481",
                   "structureType": "REFERENCE"
                 }
               ],
