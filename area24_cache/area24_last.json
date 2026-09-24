@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-24T20:30:00.507Z",
+  "createdAt": "2026-09-24T23:30:00.54Z",
   "dynamicData": {
     "notams": [
       {
@@ -1117,41 +1117,6 @@
         "validity": {
           "end": "2026-09-25T04:59:00Z",
           "start": "2026-09-21T05:00:00Z"
-        }
-      },
-      {
-        "id": "63924723096444273",
-        "levels": {
-          "lower": "SFC",
-          "upper": "14700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2608,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "schedule": "18 0300-2359, 19-21 H24, 22 24 0000-2059, 23 0500-2359",
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5326 4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-24T20:59:00Z",
-          "start": "2026-09-18T03:00:00Z"
         }
       },
       {
@@ -3462,8 +3427,8 @@
       }
     ]
   },
-  "id": "add779b4-1c88-4e4f-a41d-df4f01979460",
-  "identifier": "BRIEFING-20260924-95",
+  "id": "1961304e-d451-4025-8226-b304814eff5b",
+  "identifier": "BRIEFING-20260924-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3510,8 +3475,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-25T20:30:00Z",
-    "validityStart": "2026-09-24T20:30:00Z"
+    "validityEnd": "2026-09-25T23:30:00Z",
+    "validityStart": "2026-09-24T23:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4046,11 +4011,6 @@
             {
               "link": false,
               "referenceId": "63924725552453185",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63924723096444273",
               "structureType": "REFERENCE"
             },
             {

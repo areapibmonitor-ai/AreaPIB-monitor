@@ -30556,3 +30556,9 @@ RADIUS CENTERED ON PSN 581104N 0263428E (PANGODI) FROM SFC TO FL 095
 U/S.
 )
 [2026-09-24T20:43:32Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-09-24T23:33:09Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2608/26 expired and was removed from the PIB.
+[2026-09-24T23:33:09Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-93c44948eb2sm46618385a.32 - gsmtp')
