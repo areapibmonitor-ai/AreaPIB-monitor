@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-09-24T17:15:00.508Z",
+  "createdAt": "2026-09-24T20:30:00.507Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63925869989049057",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2809,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5811N02634E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 51,
+          "scope": "AE",
+          "subject": "CA",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TALLINN FIS CHANNEL 128.980 AND CHANNEL 119.380 U/S WITHIN 50NM\r\nRADIUS CENTERED ON PSN 581104N 0263428E (PANGODI) FROM SFC TO FL 095\r\nU/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-25T18:00:00Z",
+          "est": true,
+          "start": "2026-09-24T18:09:00Z"
+        }
+      },
       {
         "id": "63925862470118801",
         "locations": [
@@ -590,6 +621,40 @@
         "validity": {
           "end": "2026-09-27T16:59:00Z",
           "start": "2026-09-25T14:00:00Z"
+        }
+      },
+      {
+        "id": "63925237069116689",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2686,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5917N02548E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 13
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER2407B ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 5KM RADIUS CENTERED ON\r\n591655N 0254826E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5645 6447.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-27T12:59:00Z",
+          "start": "2026-09-25T19:00:00Z"
         }
       },
       {
@@ -3327,8 +3392,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925847193452849",
-        "number": 1336,
+        "id": "63925877292214657",
+        "number": 1337,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3356,14 +3421,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-24T11:45:00Z"
+            "time": "2026-09-24T20:08:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63925874789506161",
+        "number": 703,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-09-24T19:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "40d40e73-2bf5-4b42-9862-0456fd75da2c",
-  "identifier": "BRIEFING-20260924-82",
+  "id": "add779b4-1c88-4e4f-a41d-df4f01979460",
+  "identifier": "BRIEFING-20260924-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3410,8 +3510,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-25T17:15:00Z",
-    "validityStart": "2026-09-24T17:15:00Z"
+    "validityEnd": "2026-09-25T20:30:00Z",
+    "validityStart": "2026-09-24T20:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3746,7 +3846,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925847193452849",
+                  "referenceId": "63925877292214657",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3756,6 +3856,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63925869989049057",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63923670091267553",
@@ -3805,6 +3910,11 @@
                   "link": false,
                   "referenceId": "63918418771218417",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63925874789506161",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3817,6 +3927,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63925869989049057",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63925840709068177",
@@ -3911,6 +4026,11 @@
             {
               "link": false,
               "referenceId": "63925237361611905",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63925237069116689",
               "structureType": "REFERENCE"
             },
             {
