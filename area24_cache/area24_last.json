@@ -1,36 +1,35 @@
 {
-  "createdAt": "2026-09-24T01:15:00.468Z",
+  "createdAt": "2026-09-24T06:30:00.427Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63925788172397185",
+        "id": "63925826595784881",
         "locations": [
           "EEEI"
         ],
         "notamId": {
-          "number": 2784,
+          "number": 2787,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5917N02408E",
+          "condition": "AS",
+          "coordinate": "5916N02413E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "BO",
-          "radius": 11,
-          "scope": "AE",
-          "subject": "ST",
-          "traffic": "IV",
-          "upper": 17
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "IG",
+          "traffic": "I",
+          "upper": 999
         },
-        "text": "AMARI TWR TELEPHONE NUMBERS U/S FOR EXTERNAL CALLS. AVAILABLE\r\nTELEPHONE NUMBER +37256212444.",
+        "text": "ILS GP RWY 24 U/S DUE TO MAINT.",
         "type": "N",
         "validity": {
-          "end": "2026-09-24T09:00:00Z",
-          "est": true,
-          "start": "2026-09-23T19:30:00Z"
+          "end": "2026-09-24T09:30:00Z",
+          "start": "2026-09-24T07:00:00Z"
         }
       },
       {
@@ -564,6 +563,41 @@
           "end": "2026-12-17T11:00:00Z",
           "est": true,
           "start": "2026-09-17T11:44:00Z"
+        }
+      },
+      {
+        "id": "63925238184978657",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2689,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5918N02742E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 154
+        },
+        "schedule": "25 0500-1359, 27 1200-1359",
+        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-27T13:59:00Z",
+          "start": "2026-09-25T05:00:00Z"
         }
       },
       {
@@ -3407,8 +3441,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63925788925606833",
-        "number": 700,
+        "id": "63925826114452977",
+        "number": 702,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3436,14 +3470,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-23T19:34:00Z"
+            "time": "2026-09-24T05:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "70d96aec-51c0-48b6-bec6-5c0dffdeac04",
-  "identifier": "BRIEFING-20260924-6",
+  "id": "8207a1a9-372f-4599-a9af-6f309119e291",
+  "identifier": "BRIEFING-20260924-39",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3490,8 +3524,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-25T01:15:00Z",
-    "validityStart": "2026-09-24T01:15:00Z"
+    "validityEnd": "2026-09-25T06:30:00Z",
+    "validityStart": "2026-09-24T06:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3563,7 +3597,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63925788172397185",
+                  "referenceId": "63925826595784881",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3883,7 +3917,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925788925606833",
+                  "referenceId": "63925826114452977",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3897,11 +3931,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63925788172397185",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63925246729044609",
@@ -3991,6 +4020,11 @@
             {
               "link": false,
               "referenceId": "63925322911738401",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63925238184978657",
               "structureType": "REFERENCE"
             },
             {

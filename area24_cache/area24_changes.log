@@ -30437,3 +30437,29 @@ F)3000FT AMSL G)6000FT AMSL
 Other removals:
 - NOTAM A2616/26 was removed from the PIB.
 [2026-09-24T01:28:54Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-9141e21995fsm6552916d6.10 - gsmtp')
+[2026-09-24T06:41:35Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2689/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/154/5918N02742E005
+A)EETT B)2609250500 C)2609271359
+D)25 0500-1359, 27 1200-1359
+E)DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED
+DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302
+7449.
+F)SFC G)4300FT AMSL
+)
+
+New NOTAM added:
+(A2787/26 NOTAMN
+Q)EETT/IGAS/I/NBO/A/000/999/5916N02413E005
+A)EEEI B)2609240700 C)2609240930
+E)ILS GP RWY 24 U/S DUE TO MAINT.
+)
+
+
+Other removals:
+- NOTAM A2784/26 was removed from the PIB.
+[2026-09-24T06:41:35Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-33e975223fcsm10582368eec.31 - gsmtp')
