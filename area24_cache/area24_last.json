@@ -1,38 +1,7 @@
 {
-  "createdAt": "2026-09-25T01:45:00.488Z",
+  "createdAt": "2026-09-25T07:30:00.558Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63925869989049057",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2809,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5811N02634E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 51,
-          "scope": "AE",
-          "subject": "CA",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TALLINN FIS CHANNEL 128.980 AND CHANNEL 119.380 U/S WITHIN 50NM\r\nRADIUS CENTERED ON PSN 581104N 0263428E (PANGODI) FROM SFC TO FL 095\r\nU/S.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-25T18:00:00Z",
-          "est": true,
-          "start": "2026-09-24T18:09:00Z"
-        }
-      },
       {
         "id": "63925862470118801",
         "locations": [
@@ -1083,40 +1052,6 @@
         "validity": {
           "end": "2026-09-30T13:59:00Z",
           "start": "2026-09-14T05:00:00Z"
-        }
-      },
-      {
-        "id": "63924725552453185",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2612,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-25T04:59:00Z",
-          "start": "2026-09-21T05:00:00Z"
         }
       },
       {
@@ -2940,36 +2875,6 @@
         }
       },
       {
-        "id": "63921952103777217",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2191,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RUNWAY 08/26 CLOSED DUE TO MAINTENANCE WORKS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-25T02:15:00Z",
-          "start": "2026-09-24T23:00:00Z"
-        }
-      },
-      {
         "id": "63920999363675681",
         "locations": [
           "EETN"
@@ -3427,8 +3332,8 @@
       },
       {
         "aerodrome": "EETU",
-        "id": "63925874789506161",
-        "number": 703,
+        "id": "63925912035480449",
+        "number": 705,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3456,14 +3361,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-24T19:26:00Z"
+            "time": "2026-09-25T05:43:00Z"
           }
         ]
       }
     ]
   },
-  "id": "b7ed8e3a-8538-483c-afab-2cc9db5bd25c",
-  "identifier": "BRIEFING-20260925-8",
+  "id": "7cb1f1a4-6c7b-42e6-afca-8001e4854c05",
+  "identifier": "BRIEFING-20260925-43",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3510,8 +3415,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-26T01:45:00Z",
-    "validityStart": "2026-09-25T01:45:00Z"
+    "validityEnd": "2026-09-26T07:30:00Z",
+    "validityStart": "2026-09-25T07:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3831,11 +3736,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63921952103777217",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63920999363675681",
                   "structureType": "REFERENCE"
                 },
@@ -3851,11 +3751,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63925869989049057",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63923670091267553",
@@ -3908,7 +3803,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63925874789506161",
+                  "referenceId": "63925912035480449",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3922,11 +3817,6 @@
         },
         {
           "content": [
-            {
-              "link": true,
-              "referenceId": "63925869989049057",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63925840709068177",
@@ -4036,11 +3926,6 @@
             {
               "link": false,
               "referenceId": "63924730361681537",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63924725552453185",
               "structureType": "REFERENCE"
             },
             {
