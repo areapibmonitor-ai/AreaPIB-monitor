@@ -1,37 +1,7 @@
 {
-  "createdAt": "2026-09-25T07:30:00.558Z",
+  "createdAt": "2026-09-25T13:00:00.479Z",
   "dynamicData": {
     "notams": [
-      {
-        "id": "63925862470118801",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2808,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "NT",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-25T09:00:00Z",
-          "start": "2026-09-25T07:00:00Z"
-        }
-      },
       {
         "id": "63925840709068177",
         "locations": [
@@ -1979,6 +1949,40 @@
         }
       },
       {
+        "id": "63923767801758465",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2448,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-26T22:59:00Z",
+          "start": "2026-09-26T12:00:00Z"
+        }
+      },
+      {
         "id": "63923744364027473",
         "locations": [
           "EEKA"
@@ -2875,42 +2879,6 @@
         }
       },
       {
-        "id": "63920999363675681",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2093,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LT",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1721,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "RUNWAY 08/26 180DEG TURN PROHIBITED FOR AIRCRAFT MASS HEAVIER THAN\r\n7000KG EXCEPT AT TWY AND RWY INTERSECTIONS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-25T13:30:00Z",
-          "est": true,
-          "start": "2026-07-30T09:00:00Z"
-        }
-      },
-      {
         "id": "63920994462176129",
         "levels": {
           "lower": "SFC",
@@ -3297,8 +3265,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63925897115412369",
-        "number": 1338,
+        "id": "63925919102613521",
+        "number": 1339,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3326,7 +3294,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-25T01:37:00Z"
+            "time": "2026-09-25T07:43:00Z"
           }
         ]
       },
@@ -3367,8 +3335,8 @@
       }
     ]
   },
-  "id": "7cb1f1a4-6c7b-42e6-afca-8001e4854c05",
-  "identifier": "BRIEFING-20260925-43",
+  "id": "2634f2d8-f778-4d2e-b408-5231c1d8c06b",
+  "identifier": "BRIEFING-20260925-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3415,8 +3383,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-26T07:30:00Z",
-    "validityStart": "2026-09-25T07:30:00Z"
+    "validityEnd": "2026-09-26T13:00:00Z",
+    "validityStart": "2026-09-25T13:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3486,11 +3454,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63925862470118801",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63925496985577953",
@@ -3736,12 +3699,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63920999363675681",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63925897115412369",
+                  "referenceId": "63925919102613521",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4021,6 +3979,11 @@
             {
               "link": false,
               "referenceId": "63923767908819057",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923767801758465",
               "structureType": "REFERENCE"
             },
             {
