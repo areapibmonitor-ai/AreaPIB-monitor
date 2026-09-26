@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-09-26T09:45:00.468Z",
+  "createdAt": "2026-09-26T14:15:00.467Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63926020544234305",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2828,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5840N02633E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 25,
+          "scope": "AE",
+          "subject": "ND",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "DME KRP 112.150 MHZ/CH58Y U/S.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-28T14:00:00Z",
+          "start": "2026-09-26T12:00:00Z"
+        }
+      },
       {
         "id": "63925496985577953",
         "locations": [
@@ -3026,8 +3056,8 @@
       }
     ]
   },
-  "id": "47420a59-51a0-40d8-9acd-82c34aa00a37",
-  "identifier": "BRIEFING-20260926-52",
+  "id": "357b2e6c-3a6c-4f6c-bcd6-1c65739e1d87",
+  "identifier": "BRIEFING-20260926-70",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3074,8 +3104,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-27T09:45:00Z",
-    "validityStart": "2026-09-26T09:45:00Z"
+    "validityEnd": "2026-09-27T14:15:00Z",
+    "validityStart": "2026-09-26T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3402,6 +3432,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63926020544234305",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63923670091267553",
                   "structureType": "REFERENCE"
                 },
@@ -3461,6 +3496,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63926020544234305",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63925246729044609",
