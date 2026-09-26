@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-26T21:00:01.446Z",
+  "createdAt": "2026-09-26T23:30:00.466Z",
   "dynamicData": {
     "notams": [
       {
@@ -1531,40 +1531,6 @@
         }
       },
       {
-        "id": "63923767801758465",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2448,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5821N02551E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-26T22:59:00Z",
-          "start": "2026-09-26T12:00:00Z"
-        }
-      },
-      {
         "id": "63923767405181281",
         "levels": {
           "lower": "SFC",
@@ -2846,8 +2812,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926032719181137",
-        "number": 1344,
+        "id": "63926058952613169",
+        "number": 1345,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2875,49 +2841,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-26T15:17:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63926032043954705",
-        "number": 708,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-09-26T15:07:00Z"
+            "time": "2026-09-26T22:34:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e4f0c36b-d140-476d-8997-3759d0bbc425",
-  "identifier": "BRIEFING-20260926-97",
+  "id": "170a9654-2bfa-4f7e-8294-7b47363c68c9",
+  "identifier": "BRIEFING-20260926-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -2964,8 +2895,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-27T21:00:00Z",
-    "validityStart": "2026-09-26T21:00:00Z"
+    "validityEnd": "2026-09-27T23:30:00Z",
+    "validityStart": "2026-09-26T23:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3280,7 +3211,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926032719181137",
+                  "referenceId": "63926058952613169",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3343,11 +3274,6 @@
                 {
                   "link": false,
                   "referenceId": "63918418771218417",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926032043954705",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3505,11 +3431,6 @@
             {
               "link": true,
               "referenceId": "63924025240590465",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63923767801758465",
               "structureType": "REFERENCE"
             },
             {
