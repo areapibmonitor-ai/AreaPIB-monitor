@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-26T23:30:00.466Z",
+  "createdAt": "2026-09-27T01:30:00.468Z",
   "dynamicData": {
     "notams": [
       {
@@ -956,41 +956,6 @@
         }
       },
       {
-        "id": "63924730361681537",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2616,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02648E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 92
-        },
-        "schedule": "14-16 23 0500-1759, 17 0500-1559, 19 0500-1659, 20 0600-1159, 21\r\n26 0500-1459, 30 0500-1359",
-        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T13:59:00Z",
-          "start": "2026-09-14T05:00:00Z"
-        }
-      },
-      {
         "id": "63924717898007649",
         "locations": [
           "EEKE"
@@ -1403,6 +1368,41 @@
         "validity": {
           "end": "2026-09-30T16:59:00Z",
           "start": "2026-09-11T06:00:00Z"
+        }
+      },
+      {
+        "id": "63924031369158865",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL055"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2506,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5850N02528E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 8,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 55
+        },
+        "schedule": "SEP 21-25 28-30 0600-1500, OCT 01-02 0600-1500",
+        "text": "TEMPORARY RESTRICTED AREA EER26169UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585602N 0251831E - 585615N\r\n0253716E - 584940N 0253406E - 584424N 0251905E - 585602N 0251831E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +37256\r\n502 880.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-02T15:00:00Z",
+          "start": "2026-09-21T06:00:00Z"
         }
       },
       {
@@ -2847,16 +2847,16 @@
       }
     ]
   },
-  "id": "170a9654-2bfa-4f7e-8294-7b47363c68c9",
-  "identifier": "BRIEFING-20260926-107",
+  "id": "2404d4b7-75e5-43f6-b9b2-8f081f3bfbf2",
+  "identifier": "BRIEFING-20260927-7",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2895,8 +2895,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-27T23:30:00Z",
-    "validityStart": "2026-09-26T23:30:00Z"
+    "validityEnd": "2026-09-28T01:30:00Z",
+    "validityStart": "2026-09-27T01:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3389,11 +3389,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63924730361681537",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63924705104560849",
               "structureType": "REFERENCE"
@@ -3426,6 +3421,11 @@
             {
               "link": true,
               "referenceId": "63924040071405905",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63924031369158865",
               "structureType": "REFERENCE"
             },
             {
