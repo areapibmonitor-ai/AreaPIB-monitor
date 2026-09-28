@@ -1,7 +1,71 @@
 {
-  "createdAt": "2026-09-28T01:45:00.496Z",
+  "createdAt": "2026-09-28T08:30:00.504Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63926176867409329",
+        "locations": [
+          "EERU"
+        ],
+        "notamId": {
+          "number": 2834,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5747N02316E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "RWY 13/31 CLSD DUE TO MAINTENANCE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-28T12:00:00Z",
+          "start": "2026-09-28T07:30:00Z"
+        }
+      },
+      {
+        "id": "63926176253887713",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1970FT AGL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2832,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5932N02619E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 3,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26194UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 4KM RADIUS CENTERED ON\r\n593159.15N 0261909.89E. PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +37253006481.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-29T15:00:00Z",
+          "start": "2026-09-29T06:00:00Z"
+        }
+      },
       {
         "id": "63926020544234305",
         "locations": [
@@ -2045,6 +2109,40 @@
         }
       },
       {
+        "id": "63923501904958129",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL165"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2418,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5940N02628E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 14,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 405
+        },
+        "text": "TEMPORARY SEGREGATED AREA EETSA20 ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVITY AVAILABLE FROM +372\r\n5628 1119.",
+        "type": "N",
+        "validity": {
+          "end": "2026-09-29T13:00:00Z",
+          "start": "2026-09-29T06:00:00Z"
+        }
+      },
+      {
         "id": "63923430730124113",
         "levels": {
           "lower": "SFC",
@@ -3059,8 +3157,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926135695815921",
-        "number": 1348,
+        "id": "63926179746519041",
+        "number": 1350,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3088,14 +3186,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-27T19:54:00Z"
+            "time": "2026-09-28T08:00:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63926139769125617",
-        "number": 711,
+        "id": "63926171575833297",
+        "number": 713,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3123,14 +3221,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-09-27T21:02:00Z"
+            "time": "2026-09-28T05:50:00Z"
           }
         ]
       }
     ]
   },
-  "id": "86f4466e-13bb-420d-824b-de050f30bd9c",
-  "identifier": "BRIEFING-20260928-8",
+  "id": "41765ada-cdbb-4488-b37f-a85a4db3e012",
+  "identifier": "BRIEFING-20260928-47",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3177,8 +3275,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-29T01:45:00Z",
-    "validityStart": "2026-09-28T01:45:00Z"
+    "validityEnd": "2026-09-29T08:30:00Z",
+    "validityStart": "2026-09-28T08:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3400,6 +3498,13 @@
               "title": "EEPU - PARNU"
             },
             {
+              "content": [
+                {
+                  "link": false,
+                  "referenceId": "63926176867409329",
+                  "structureType": "REFERENCE"
+                }
+              ],
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
@@ -3493,7 +3598,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926135695815921",
+                  "referenceId": "63926179746519041",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3565,7 +3670,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926139769125617",
+                  "referenceId": "63926171575833297",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3645,6 +3750,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63926176253887713",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63925947446521985",
@@ -3768,6 +3878,11 @@
             {
               "link": true,
               "referenceId": "63924025240590465",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63923501904958129",
               "structureType": "REFERENCE"
             },
             {
