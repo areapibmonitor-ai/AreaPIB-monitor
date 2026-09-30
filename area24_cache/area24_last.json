@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-29T23:30:00.473Z",
+  "createdAt": "2026-09-30T02:15:02.299Z",
   "dynamicData": {
     "notams": [
       {
@@ -69,45 +69,6 @@
         }
       },
       {
-        "id": "63926275285612497",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2870,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "referenceId": {
-          "number": 2757,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "R",
-        "validity": {
-          "end": "2026-09-29T23:59:00Z",
-          "start": "2026-09-29T10:40:00Z"
-        }
-      },
-      {
         "id": "63926273063513825",
         "levels": {
           "lower": "SFC",
@@ -139,6 +100,66 @@
         "validity": {
           "end": "2026-10-01T05:00:00Z",
           "start": "2026-09-30T13:00:00Z"
+        }
+      },
+      {
+        "id": "63926265104759857",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2866,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5819N02646E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 34,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 95
+        },
+        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2100-2200\r\nEXC:\r\n25 0730-1000 1100-1400 2200-2330\r\n26-30 0330-0430 0700-1000 1130-1400 2200-2330\r\n31 0330-0430\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPERATING HOURS. IF\r\nSERVICE IS NOT AVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-31T23:59:00Z",
+          "start": "2026-10-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63926264748177137",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2865,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AH",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0630-1300 2100-2200\r\nEXC:\r\n25 0730-1400 2200-2330\r\n26-30 0330-0430 0700-1400 2200-2330\r\n31 0330-0430.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-31T23:59:00Z",
+          "start": "2026-10-01T00:00:00Z"
         }
       },
       {
@@ -503,6 +524,36 @@
         "validity": {
           "end": "2026-10-02T13:59:00Z",
           "start": "2026-09-28T09:00:00Z"
+        }
+      },
+      {
+        "id": "63926177075542977",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2835,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nEXC\r\n25 1400-1755\r\n26-30 0530-0930 1100-1755\r\n31 0730-1100\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-31T23:59:00Z",
+          "start": "2026-10-01T00:00:00Z"
         }
       },
       {
@@ -2901,6 +2952,66 @@
         }
       },
       {
+        "id": "63922914067649329",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2325,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "PD",
+          "traffic": "I",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 09/2026 WEF 01 OCT 2026.\r\n- UPDATED INFORMATION ABOUT DEPARTURE PROCEDURES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-14T23:59:00Z",
+          "start": "2026-10-01T00:00:00Z"
+        }
+      },
+      {
+        "id": "63922913092233249",
+        "locations": [
+          "EETU"
+        ],
+        "notamId": {
+          "number": 2324,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "TT",
+          "coordinate": "5818N02641E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TRIGGER NOTAM - PERM AIRAC AIP AMDT 09/2026 WEF 01 OCT 2026.\r\n- AD OPERATOR CONTACT INFORMATION UPDATED\r\n- TAXIING INFORMATION UPDATED\r\n- UPDATED LIST OF AREA 2 AERODROME OBSTACLES.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-14T23:59:00Z",
+          "start": "2026-10-01T00:00:00Z"
+        }
+      },
+      {
         "id": "63922720474019585",
         "locations": [
           "EETT"
@@ -3357,16 +3468,16 @@
       }
     ]
   },
-  "id": "18a737d9-97ff-4353-bce7-99f8525e92df",
-  "identifier": "BRIEFING-20260929-107",
+  "id": "4a3f8efc-6a11-4744-949d-228155de6a59",
+  "identifier": "BRIEFING-20260930-10",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3405,8 +3516,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-09-30T23:30:00Z",
-    "validityStart": "2026-09-29T23:30:00Z"
+    "validityEnd": "2026-10-01T02:15:00Z",
+    "validityStart": "2026-09-30T02:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3555,6 +3666,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63926177075542977",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63925333364776401",
@@ -3726,6 +3842,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63922914067649329",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63926305947697809",
                   "structureType": "REFERENCE"
                 }
@@ -3736,6 +3857,16 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63926265104759857",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926264748177137",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63926185613299233",
@@ -3778,6 +3909,11 @@
                 },
                 {
                   "link": false,
+                  "referenceId": "63922913092233249",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63919692194322417",
                   "structureType": "REFERENCE"
                 },
@@ -3807,6 +3943,16 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63926265104759857",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": true,
+              "referenceId": "63926177075542977",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63925246729044609",
@@ -3871,11 +4017,6 @@
             {
               "link": false,
               "referenceId": "63926275578959009",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926275285612497",
               "structureType": "REFERENCE"
             },
             {
