@@ -31691,3 +31691,31 @@ SUN 0655-1655
 Other removals:
 - NOTAM A2751/26 was removed from the PIB.
 [2026-09-30T15:51:29Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-09-30T20:44:55Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2360/26 expired and was removed from the PIB.
+- NOTAM A2361/26 expired and was removed from the PIB.
+- NOTAM A2379/26 expired and was removed from the PIB.
+- NOTAM A2381/26 expired and was removed from the PIB.
+- NOTAM A2512/26 expired and was removed from the PIB.
+- NOTAM A2664/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2859/26 NOTAMN
+Q)EETT/RDCA/IV/BO/AW/000/110/5823N02643E016
+A)EETU B)2610011800 C)2610022050
+D)01 1800-2300, 02 1630-2050
+E)TEMPORARY AREA FOR LASER HAZARD (TARTU) WILL TAKE PLACE WITHIN:
+CIRCLE OF 15NM RADIUS CENTERED ON 582249.40N 0264325.60E. LIGHTSHOW
+WILL TAKE PLACE AT PSN 582249.4N 0264325.6E (TARTU). SHORT DURATION
+LASER BEAMS MAY CAUSE BLINDNESS IF VIEWED WITHIN HORISONTAL SECTORS
+FROM 050DEG CLOCKWISE TO 130DEG AND FROM 220DEG CLOCKWISE TO 290DEG
+IN VERTICAL ANGLE BTN SFC AND 30DEG UNTIL 3.5NM AND 5000FT
+AMSL. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY
+OCCUR UNTIL 15NM AND FL110.
+F)SFC G)FL110
+)
+[2026-09-30T20:44:55Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-93cb65665d6sm51542085a.33 - gsmtp')
