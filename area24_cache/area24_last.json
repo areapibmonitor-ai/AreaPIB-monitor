@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-09-30T20:30:00.477Z",
+  "createdAt": "2026-10-01T00:00:00.453Z",
   "dynamicData": {
     "notams": [
       {
@@ -2691,66 +2691,6 @@
         }
       },
       {
-        "id": "63923808497420865",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2470,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0630-1500\r\nSAT 0830-1100\r\nSUN 0655-1500",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T23:59:00Z",
-          "start": "2026-09-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63923808252432129",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2469,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0425-1655\r\nSAT 0630-1130\r\nSUN 0655-1655",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T23:59:00Z",
-          "start": "2026-09-01T00:00:00Z"
-        }
-      },
-      {
         "id": "63923744364027473",
         "locations": [
           "EEKA"
@@ -2820,96 +2760,6 @@
           "end": "2026-10-30T07:00:00Z",
           "est": true,
           "start": "2026-08-31T03:29:00Z"
-        }
-      },
-      {
-        "id": "63923670395042049",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2437,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T23:59:00Z",
-          "start": "2026-09-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63923670091267553",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2436,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5819N02646E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 34,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2100-2200\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR. IF SERVICE IS NOT\r\nAVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T23:59:00Z",
-          "start": "2026-09-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63923508842553121",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2423,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0600-1300 2100-2200",
-        "type": "N",
-        "validity": {
-          "end": "2026-09-30T23:59:00Z",
-          "start": "2026-09-01T00:00:00Z"
         }
       },
       {
@@ -3603,19 +3453,54 @@
             "time": "2026-09-30T19:12:00Z"
           }
         ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63926398450267217",
+        "number": 722,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-09-30T20:51:00Z"
+          }
+        ]
       }
     ]
   },
-  "id": "c3887201-14a9-4f9f-a1fa-e61f802f0465",
-  "identifier": "BRIEFING-20260930-95",
+  "id": "922bf505-ff7f-4511-b446-768a1a461017",
+  "identifier": "BRIEFING-20261001-1",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3654,8 +3539,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-01T20:30:00Z",
-    "validityStart": "2026-09-30T20:30:00Z"
+    "validityEnd": "2026-10-02T00:00:00Z",
+    "validityStart": "2026-10-01T00:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3846,21 +3731,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923808497420865",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923808252432129",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923670395042049",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63923080906840497",
                   "structureType": "REFERENCE"
                 },
@@ -4042,16 +3912,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63923670091267553",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923508842553121",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63923430376597009",
                   "structureType": "REFERENCE"
                 },
@@ -4078,6 +3938,11 @@
                 {
                   "link": false,
                   "referenceId": "63918592979529729",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926398450267217",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4129,16 +3994,6 @@
             {
               "link": false,
               "referenceId": "63924050112059057",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63923670395042049",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63923670091267553",
               "structureType": "REFERENCE"
             },
             {
