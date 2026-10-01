@@ -31818,3 +31818,14 @@ A)EETN B)2610011315 C)2610022359
 E)APRON K TAXI LINE CLOSED BETWEEN TWY Z AND STAND K4.
 )
 [2026-10-01T19:00:11Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-10-01T23:06:22Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+New NOTAMs:
+New NOTAM added:
+(A2915/26 NOTAMN
+Q)EETT/FTAS/I/BO/A/000/999/5925N02450E005
+A)EETN B)2610011915 C)2610021200
+E)TRANSMISSOMETER (MID-POINT) RWY 08/26 UNSERVICEABLE.
+)
+[2026-10-01T23:06:22Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-34f14fdfc58sm1177420eec.24 - gsmtp')
