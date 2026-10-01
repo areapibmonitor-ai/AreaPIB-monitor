@@ -1,7 +1,73 @@
 {
-  "createdAt": "2026-10-01T13:15:00.441Z",
+  "createdAt": "2026-10-01T18:45:00.453Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63926460245737057",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2914,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 17,
+          "scope": "AE",
+          "subject": "SF",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "referenceId": {
+          "number": 2835,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nEXC\r\n03 0630-0900\r\n04 1400-1655\r\n25 1400-1755\r\n26-30 0530-0930 1100-1755\r\n31 0730-1100\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-31T23:59:00Z",
+          "start": "2026-10-01T14:03:00Z"
+        }
+      },
+      {
+        "id": "63926457971316465",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2913,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MX",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "APRON K TAXI LINE CLOSED BETWEEN TWY Z AND STAND K4.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-02T23:59:00Z",
+          "est": true,
+          "start": "2026-10-01T13:15:00Z"
+        }
+      },
       {
         "id": "63926377507472785",
         "locations": [
@@ -582,41 +648,6 @@
         }
       },
       {
-        "id": "63926198477621569",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL060"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2856,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5839N02536E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "DAILY 0600-1500",
-        "text": "TEMPORARY RESTRICTED AREA EER2156UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 584708N 0253732E - 584547N\r\n0254516E - 583127N 0253615E - 583202N 0252556E - 584708N 0253732E\r\nEXCLUDING EETSA21 (NURMSI). PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +372 5355 8231, ALTERNATIVE TEL +372 5559 6780.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-01T15:00:00Z",
-          "start": "2026-09-30T06:00:00Z"
-        }
-      },
-      {
         "id": "63926189141867521",
         "levels": {
           "lower": "SFC",
@@ -731,41 +762,6 @@
         "validity": {
           "end": "2026-10-06T20:59:00Z",
           "start": "2026-09-28T10:37:00Z"
-        }
-      },
-      {
-        "id": "63926188030582001",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2847,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5914N02556E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 13,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "schedule": "DAILY 0600-1400",
-        "text": "RESTRICTED AREA EER15F ACTIVATED. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. INFO ABOUT ACTIVITY AVAILABLE FROM +372 5885 9398.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-01T14:00:00Z",
-          "start": "2026-09-30T06:00:00Z"
         }
       },
       {
@@ -943,36 +939,6 @@
         "validity": {
           "end": "2026-10-31T15:00:00Z",
           "start": "2026-10-01T05:00:00Z"
-        }
-      },
-      {
-        "id": "63926177075542977",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2835,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nEXC\r\n25 1400-1755\r\n26-30 0530-0930 1100-1755\r\n31 0730-1100\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-31T23:59:00Z",
-          "start": "2026-10-01T00:00:00Z"
         }
       },
       {
@@ -1357,6 +1323,36 @@
         "validity": {
           "end": "2026-10-31T19:59:00Z",
           "start": "2026-10-01T05:00:00Z"
+        }
+      },
+      {
+        "id": "63925826300137665",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2786,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CH",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FF",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RESCUE AND FIRE FIGHTING SERVICE CHANGED TO CATEGORY 9 AS FOLLOWS:\r\n02 1700-03 0500, 06 1700-07 0500, 10 1700-11 0500, 14 1700-15 0500,\r\n18 1700-19 0500, 22 1700-23 0500, 26 1800-27 0600, 30 1800-31 0600",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-31T06:00:00Z",
+          "start": "2026-10-02T17:00:00Z"
         }
       },
       {
@@ -3460,8 +3456,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926437213037617",
-        "number": 1365,
+        "id": "63926459224598785",
+        "number": 1366,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3489,57 +3485,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-01T07:39:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63926447434425937",
-        "number": 724,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-01T10:28:00Z"
+            "time": "2026-10-01T13:45:00Z"
           }
         ]
       }
     ]
   },
-  "id": "7742a8a2-c46d-41d9-bd22-dc840449d289",
-  "identifier": "BRIEFING-20261001-66",
+  "id": "7937a906-2f52-4683-8454-a834d17a30f8",
+  "identifier": "BRIEFING-20261001-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3578,8 +3539,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-02T13:15:00Z",
-    "validityStart": "2026-10-01T13:15:00Z"
+    "validityEnd": "2026-10-02T18:45:00Z",
+    "validityStart": "2026-10-01T18:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3735,17 +3696,17 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63926460245737057",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63926377507472785",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63926377274583521",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926177075542977",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3824,12 +3785,22 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63926457971316465",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63926365629222817",
                   "structureType": "REFERENCE"
                 },
                 {
                   "link": false,
                   "referenceId": "63925856097851441",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63925826300137665",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3909,7 +3880,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926437213037617",
+                  "referenceId": "63926459224598785",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3978,11 +3949,6 @@
                   "link": false,
                   "referenceId": "63918592979529729",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926447434425937",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -3997,12 +3963,12 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63926265104759857",
+              "referenceId": "63926460245737057",
               "structureType": "REFERENCE"
             },
             {
               "link": true,
-              "referenceId": "63926177075542977",
+              "referenceId": "63926265104759857",
               "structureType": "REFERENCE"
             },
             {
@@ -4098,11 +4064,6 @@
             },
             {
               "link": false,
-              "referenceId": "63926198477621569",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63926189141867521",
               "structureType": "REFERENCE"
             },
@@ -4114,11 +4075,6 @@
             {
               "link": false,
               "referenceId": "63926188737973249",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926188030582001",
               "structureType": "REFERENCE"
             },
             {
