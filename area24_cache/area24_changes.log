@@ -31729,3 +31729,31 @@ Expired NOTAMs:
 - NOTAM A2469/26 expired and was removed from the PIB.
 - NOTAM A2470/26 expired and was removed from the PIB.
 [2026-10-01T00:11:58Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-14df34a8385sm1306369c88.6 - gsmtp')
+[2026-10-01T06:08:05Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2868/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A2818/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/092/5749N02648E004
+A)EETT B)2610020500 C)2610101459
+D)02 0500-1759, 06 1400-1759, 10 0500-1459
+E)DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED
+DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507
+2683.
+F)SFC G)2300FT AMSL
+)
+
+New NOTAM added:
+(A2860/26 NOTAMN
+Q)EETT/RDCA/IV/BO/W/000/022/5904N02406E002
+A)EETT B)2610020500 C)2610312000
+D)02-09 14 20-24 28-31 0500-2000
+E)DANGER AREA EED7 (PIIRSALU) ACTIVATED FOR MILITARY EXERCISE.
+VERTICAL LIMITS CHANGED DURING ACTIVATION.
+F)SFC G)2100FT AMSL
+)
+[2026-10-01T06:08:05Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
