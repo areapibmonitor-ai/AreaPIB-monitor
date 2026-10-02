@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-02T19:45:00.444Z",
+  "createdAt": "2026-10-02T23:30:00.456Z",
   "dynamicData": {
     "notams": [
       {
@@ -701,41 +701,6 @@
         "validity": {
           "end": "2026-10-31T20:00:00Z",
           "start": "2026-10-02T05:00:00Z"
-        }
-      },
-      {
-        "id": "63926259789823105",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL110"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2859,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 110
-        },
-        "schedule": "01 1800-2300, 02 1630-2050",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (TARTU) WILL TAKE PLACE WITHIN:\r\nCIRCLE OF 15NM RADIUS CENTERED ON 582249.40N 0264325.60E. LIGHTSHOW\r\nWILL TAKE PLACE AT PSN 582249.4N 0264325.6E (TARTU). SHORT DURATION\r\nLASER BEAMS MAY CAUSE BLINDNESS IF VIEWED WITHIN HORISONTAL SECTORS\r\nFROM 050DEG CLOCKWISE TO 130DEG AND FROM 220DEG CLOCKWISE TO 290DEG\r\nIN VERTICAL ANGLE BTN SFC AND 30DEG UNTIL 3.5NM AND 5000FT\r\nAMSL. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY\r\nOCCUR UNTIL 15NM AND FL110.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-02T20:50:00Z",
-          "start": "2026-10-01T18:00:00Z"
         }
       },
       {
@@ -3581,8 +3546,43 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926547861747425",
-        "number": 1371,
+        "id": "63926569675171313",
+        "number": 1372,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-10-02T20:27:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63926571100716961",
+        "number": 727,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3610,14 +3610,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-02T14:23:00Z"
+            "time": "2026-10-02T20:49:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e26aca14-18a7-4d52-8db8-4a092c978f5e",
-  "identifier": "BRIEFING-20261002-92",
+  "id": "d7716841-5e2d-4a39-b0c1-9baff23dca2d",
+  "identifier": "BRIEFING-20261002-107",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3664,8 +3664,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-03T19:45:00Z",
-    "validityStart": "2026-10-02T19:45:00Z"
+    "validityEnd": "2026-10-03T23:30:00Z",
+    "validityStart": "2026-10-02T23:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4020,7 +4020,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926547861747425",
+                  "referenceId": "63926569675171313",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4048,11 +4048,6 @@
                 {
                   "link": false,
                   "referenceId": "63926264748177137",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926259789823105",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4098,6 +4093,11 @@
                 {
                   "link": false,
                   "referenceId": "63918592979529729",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926571100716961",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4200,11 +4200,6 @@
             {
               "link": false,
               "referenceId": "63926262044515441",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63926259789823105",
               "structureType": "REFERENCE"
             },
             {
