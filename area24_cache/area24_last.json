@@ -1,7 +1,38 @@
 {
-  "createdAt": "2026-10-02T15:00:00.439Z",
+  "createdAt": "2026-10-02T19:45:00.444Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63926555771203505",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2926,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "OBSTACLE (MAST) AT POSITION: 591530.98N 0241307.25E ELEVATION\r\n187.66FT. NOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-05T14:59:00Z",
+          "est": true,
+          "start": "2026-10-02T16:37:00Z"
+        }
+      },
       {
         "id": "63926543336218433",
         "locations": [
@@ -3585,16 +3616,16 @@
       }
     ]
   },
-  "id": "91666c26-9eeb-45dd-940f-acad0b206389",
-  "identifier": "BRIEFING-20261002-73",
+  "id": "e26aca14-18a7-4d52-8db8-4a092c978f5e",
+  "identifier": "BRIEFING-20261002-92",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3633,8 +3664,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-03T15:00:00Z",
-    "validityStart": "2026-10-02T15:00:00Z"
+    "validityEnd": "2026-10-03T19:45:00Z",
+    "validityStart": "2026-10-02T19:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3704,6 +3735,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63926555771203505",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63926354466130801",
