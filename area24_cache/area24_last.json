@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-03T20:00:00.438Z",
+  "createdAt": "2026-10-03T23:00:00.443Z",
   "dynamicData": {
     "notams": [
       {
@@ -67,41 +67,6 @@
           "end": "2026-10-05T17:00:00Z",
           "est": true,
           "start": "2026-10-02T13:08:00Z"
-        }
-      },
-      {
-        "id": "63926540963083857",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL110"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2923,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5824N02645E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 16,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 110
-        },
-        "schedule": "02 2000-2359, 03 1630-2050",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (TARTU) WILL TAKE PLACE WITHIN:\r\nCIRCLE OF 15NM RADIUS CENTERED ON 582342.50N 0264435E. LASER BEAMS\r\nMAY CAUSE BLINDNESS IF VIEWED WITHIN HORISONTAL SECTOR FROM 210DEG\r\nCLOCKWISE TO 290DEG AND IN VERTICAL ANGLE BTN SFC AND 30DEG UNTIL\r\n3.5NM AND 5000FT AMSL. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT\r\nILLUMINATION MAY OCCUR UNTIL 15NM AND FL110.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-03T20:50:00Z",
-          "start": "2026-10-02T20:00:00Z"
         }
       },
       {
@@ -770,41 +735,6 @@
         "validity": {
           "end": "2026-10-31T18:00:00Z",
           "start": "2026-10-01T07:00:00Z"
-        }
-      },
-      {
-        "id": "63926204755029281",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL320"
-        },
-        "locations": [
-          "EEPU"
-        ],
-        "notamId": {
-          "number": 2857,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5809N02437E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 15,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 320
-        },
-        "schedule": "SEP 28-30 1700-2300, OCT 01-03 1600-2050",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (PARNU) WILL TAKE PLACE WITHIN:\r\n581256.41N 0250252.92E - CLOCKWISE ARC OF 20NM CENTERED ON 582259.20N\r\n0243008.20E - 580541.02N 0241117.72E - 582259.20N 0243008.20E -\r\n581256.41N 0250252.92E. LASER BEAMS MAY CAUSE BLINDNESS IF VIEWED\r\nFROM 120DEG CLOCKWISE TO 210DEG AND IN VERTICAL ANGLE BTN SFC AND\r\n30DEG UNTIL 10NM AND FL150. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT\r\nILLUMINATION MAY OCCUR UNTIL 20NM AND FL320.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-03T20:50:00Z",
-          "start": "2026-09-28T17:00:00Z"
         }
       },
       {
@@ -3370,8 +3300,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926641189501297",
-        "number": 1380,
+        "id": "63926658256752289",
+        "number": 1381,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3399,14 +3329,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-03T16:18:00Z"
+            "time": "2026-10-03T21:03:00Z"
           }
         ]
       }
     ]
   },
-  "id": "32df67b2-e33d-4297-bb06-ea6e84e8a0ca",
-  "identifier": "BRIEFING-20261003-93",
+  "id": "29ab5095-1b52-43fc-a441-da57682dd09b",
+  "identifier": "BRIEFING-20261003-105",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3453,8 +3383,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-04T20:00:00Z",
-    "validityStart": "2026-10-03T20:00:00Z"
+    "validityEnd": "2026-10-04T23:00:00Z",
+    "validityStart": "2026-10-03T23:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3687,11 +3617,6 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63926204755029281",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63925856492428273",
                   "structureType": "REFERENCE"
                 },
@@ -3804,7 +3729,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926641189501297",
+                  "referenceId": "63926658256752289",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3814,11 +3739,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63926540963083857",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63926349925955377",
@@ -3948,11 +3868,6 @@
           "content": [
             {
               "link": true,
-              "referenceId": "63926540963083857",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
               "referenceId": "63926365629222817",
               "structureType": "REFERENCE"
             },
@@ -3984,11 +3899,6 @@
             {
               "link": false,
               "referenceId": "63926256960004673",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63926204755029281",
               "structureType": "REFERENCE"
             },
             {

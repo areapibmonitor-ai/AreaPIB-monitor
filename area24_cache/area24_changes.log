@@ -31992,3 +31992,10 @@ F)SFC G)7500FT AMSL
 [2026-10-03T13:40:27Z] ERROR: Email sending failed: SMTPAuthenticationError(535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5a478bee46e88-34f14f98527sm13671884eec.16 - gsmtp')
 [2026-10-03T17:38:36Z] NO CHANGE in dynamicData.notams.
 [2026-10-03T20:13:39Z] NO CHANGE in dynamicData.notams.
+[2026-10-03T23:09:22Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A2857/26 expired and was removed from the PIB.
+- NOTAM A2923/26 expired and was removed from the PIB.
+[2026-10-03T23:09:22Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
