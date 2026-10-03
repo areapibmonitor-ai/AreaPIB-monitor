@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-03T08:30:00.444Z",
+  "createdAt": "2026-10-03T13:30:00.436Z",
   "dynamicData": {
     "notams": [
       {
@@ -536,6 +536,40 @@
           "end": "2026-10-09T23:59:00Z",
           "est": true,
           "start": "2026-09-29T15:30:00Z"
+        }
+      },
+      {
+        "id": "63926275781884625",
+        "levels": {
+          "lower": "SFC",
+          "upper": "7500FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2872,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02549E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 147
+        },
+        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-04T18:59:00Z",
+          "start": "2026-10-04T12:00:00Z"
         }
       },
       {
@@ -3336,8 +3370,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926612150653425",
-        "number": 1374,
+        "id": "63926623619083473",
+        "number": 1377,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3354,25 +3388,25 @@
               },
               {
                 "code": 6,
-                "condition": "WET",
-                "coverage": "25",
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "50",
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-03T08:13:00Z"
+            "time": "2026-10-03T11:26:00Z"
           }
         ]
       }
     ]
   },
-  "id": "a5754a06-4e8d-44a6-942e-807170f192bb",
-  "identifier": "BRIEFING-20261003-47",
+  "id": "20de7441-542d-40e4-889d-ae4460319cec",
+  "identifier": "BRIEFING-20261003-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3419,8 +3453,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-04T08:30:00Z",
-    "validityStart": "2026-10-03T08:30:00Z"
+    "validityEnd": "2026-10-04T13:30:00Z",
+    "validityStart": "2026-10-03T13:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3770,7 +3804,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926612150653425",
+                  "referenceId": "63926623619083473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3925,6 +3959,11 @@
             {
               "link": false,
               "referenceId": "63926364284820961",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63926275781884625",
               "structureType": "REFERENCE"
             },
             {
