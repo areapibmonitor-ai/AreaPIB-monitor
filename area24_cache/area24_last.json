@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-04T08:45:00.441Z",
+  "createdAt": "2026-10-04T14:30:00.44Z",
   "dynamicData": {
     "notams": [
       {
@@ -133,96 +133,6 @@
         "validity": {
           "end": "2026-10-31T23:59:00Z",
           "start": "2026-10-01T14:03:00Z"
-        }
-      },
-      {
-        "id": "63926453940705617",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2910,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "APPROACH, RUNWAY AND TWY LIGHTS NOT AVBL DUE WIP.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T14:00:00Z",
-          "start": "2026-10-03T09:00:00Z"
-        }
-      },
-      {
-        "id": "63926453456220545",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2909,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 17/35 CLSD DUE TO WIP.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T14:00:00Z",
-          "start": "2026-10-03T09:00:00Z"
-        }
-      },
-      {
-        "id": "63926453003177585",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2908,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LC",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "MR",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 05/23 CLSD DUE TO WIP.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T14:00:00Z",
-          "start": "2026-10-03T09:00:00Z"
         }
       },
       {
@@ -1465,40 +1375,6 @@
         "validity": {
           "end": "2026-10-04T15:00:00Z",
           "start": "2026-10-01T06:00:00Z"
-        }
-      },
-      {
-        "id": "63925573138529905",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2744,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5741N02658E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26191UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 574339N 0265035E - 574339N\r\n0270545E - 573811N 0270546E - 573815N 0270304E - 574009N 0265042E -\r\n574339N 0265035E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5342 0259.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T11:00:00Z",
-          "start": "2026-10-03T07:00:00Z"
         }
       },
       {
@@ -3428,8 +3304,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926699524057857",
-        "number": 1383,
+        "id": "63926714090883073",
+        "number": 1384,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3439,67 +3315,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-04T08:30:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63926689900122673",
-        "number": 728,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-04T05:51:00Z"
+            "time": "2026-10-04T12:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "e095f507-e30a-4a07-ba87-2d075fcc387a",
-  "identifier": "BRIEFING-20261004-48",
+  "id": "668932a7-e179-42b2-ab05-62276f15ce2f",
+  "identifier": "BRIEFING-20261004-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3546,8 +3387,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-05T08:45:00Z",
-    "validityStart": "2026-10-04T08:45:00Z"
+    "validityEnd": "2026-10-05T14:30:00Z",
+    "validityStart": "2026-10-04T14:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3704,21 +3545,6 @@
                 {
                   "link": false,
                   "referenceId": "63926460245737057",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926453940705617",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926453456220545",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926453003177585",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3897,7 +3723,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926699524057857",
+                  "referenceId": "63926714090883073",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3955,11 +3781,6 @@
                 {
                   "link": false,
                   "referenceId": "63918592979529729",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926689900122673",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4167,11 +3988,6 @@
             {
               "link": false,
               "referenceId": "63925576978082161",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63925573138529905",
               "structureType": "REFERENCE"
             },
             {
