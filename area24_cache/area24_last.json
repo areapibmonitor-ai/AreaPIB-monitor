@@ -1,7 +1,67 @@
 {
-  "createdAt": "2026-10-04T14:30:00.44Z",
+  "createdAt": "2026-10-04T18:15:00.416Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63926725091452913",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2928,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 17/35 CLOSED DUE TO WIP.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-05T14:00:00Z",
+          "start": "2026-10-05T08:00:00Z"
+        }
+      },
+      {
+        "id": "63926725231953585",
+        "locations": [
+          "EEKE"
+        ],
+        "notamId": {
+          "number": 2927,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "XX",
+          "coordinate": "5814N02231E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "LE",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 17/35 EDGE LIGHTS CHANGED TO LED LIGHTS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-11-30T13:00:00Z",
+          "start": "2026-10-04T15:40:00Z"
+        }
+      },
       {
         "id": "63926555771203505",
         "locations": [
@@ -1037,40 +1097,6 @@
         }
       },
       {
-        "id": "63925911395717121",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2811,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02651E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26192UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 1KM RADIUS CENTERED ON\r\n574905N 0265042E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5330 9948.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T15:00:00Z",
-          "start": "2026-10-03T05:00:00Z"
-        }
-      },
-      {
         "id": "63925856492428273",
         "levels": {
           "lower": "SFC",
@@ -1341,40 +1367,6 @@
         "validity": {
           "end": "2026-10-14T23:59:00Z",
           "start": "2026-10-05T00:00:00Z"
-        }
-      },
-      {
-        "id": "63925576978082161",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL155"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2745,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 155
-        },
-        "schedule": "DAILY 0600-1500",
-        "text": "TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES. NON-PARTICIPATING AIRCRAFT (INCLUDING UA)\r\nARE NOT PERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR\r\nENTERING THE AREA AND INFO ABOUT ACT AVBL FROM +372 56608643.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-04T15:00:00Z",
-          "start": "2026-10-01T06:00:00Z"
         }
       },
       {
@@ -3304,8 +3296,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926714090883073",
-        "number": 1384,
+        "id": "63926723309849217",
+        "number": 1385,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3333,22 +3325,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-04T12:30:00Z"
+            "time": "2026-10-04T15:00:00Z"
           }
         ]
       }
     ]
   },
-  "id": "668932a7-e179-42b2-ab05-62276f15ce2f",
-  "identifier": "BRIEFING-20261004-71",
+  "id": "cc3277b5-255d-4fba-b1f7-4379721959b1",
+  "identifier": "BRIEFING-20261004-86",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3387,8 +3379,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-05T14:30:00Z",
-    "validityStart": "2026-10-04T14:30:00Z"
+    "validityEnd": "2026-10-05T18:15:00Z",
+    "validityStart": "2026-10-04T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3542,6 +3534,16 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63926725091452913",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926725231953585",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63926460245737057",
@@ -3723,7 +3725,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926714090883073",
+                  "referenceId": "63926723309849217",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3946,11 +3948,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63925911395717121",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63925856492428273",
               "structureType": "REFERENCE"
@@ -3983,11 +3980,6 @@
             {
               "link": false,
               "referenceId": "63925582358609969",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63925576978082161",
               "structureType": "REFERENCE"
             },
             {
