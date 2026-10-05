@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-10-05T06:15:00.418Z",
+  "createdAt": "2026-10-05T15:00:00.404Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63926725091452913",
+        "id": "63926807778201809",
         "locations": [
           "EEKE"
         ],
         "notamId": {
-          "number": 2928,
+          "number": 2940,
           "series": "A",
           "year": 2026
         },
@@ -28,47 +28,17 @@
         "text": "RWY 17/35 CLOSED DUE TO WIP.",
         "type": "N",
         "validity": {
-          "end": "2026-10-05T14:00:00Z",
-          "start": "2026-10-05T08:00:00Z"
+          "end": "2026-10-06T13:00:00Z",
+          "start": "2026-10-06T08:00:00Z"
         }
       },
       {
-        "id": "63926725231953585",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2927,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "LE",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "RWY 17/35 EDGE LIGHTS CHANGED TO LED LIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-30T13:00:00Z",
-          "start": "2026-10-04T15:40:00Z"
-        }
-      },
-      {
-        "id": "63926555771203505",
+        "id": "63926797056220369",
         "locations": [
           "EEEI"
         ],
         "notamId": {
-          "number": 2926,
+          "number": 2938,
           "series": "A",
           "year": 2026
         },
@@ -85,21 +55,26 @@
           "traffic": "IV",
           "upper": 999
         },
+        "referenceId": {
+          "number": 2926,
+          "series": "A",
+          "year": 2026
+        },
         "text": "OBSTACLE (MAST) AT POSITION: 591530.98N 0241307.25E ELEVATION\r\n187.66FT. NOT LIGHTED.",
-        "type": "N",
+        "type": "R",
         "validity": {
-          "end": "2026-10-05T14:59:00Z",
+          "end": "2026-10-16T23:59:00Z",
           "est": true,
-          "start": "2026-10-02T16:37:00Z"
+          "start": "2026-10-05T11:37:00Z"
         }
       },
       {
-        "id": "63926543336218433",
+        "id": "63926796460480161",
         "locations": [
           "EETN"
         ],
         "notamId": {
-          "number": 2924,
+          "number": 2937,
           "series": "A",
           "year": 2026
         },
@@ -117,16 +92,155 @@
           "upper": 999
         },
         "referenceId": {
-          "number": 2922,
+          "number": 2924,
           "series": "A",
           "year": 2026
         },
         "text": "TRANSMISSOMETER (MID-POINT) RWY 08/26 UNSERVICEABLE.",
         "type": "R",
         "validity": {
-          "end": "2026-10-05T17:00:00Z",
+          "end": "2026-10-09T17:00:00Z",
           "est": true,
-          "start": "2026-10-02T13:08:00Z"
+          "start": "2026-10-05T11:27:00Z"
+        }
+      },
+      {
+        "id": "63926796353199489",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2936,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2641,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 3000FT AGL\r\nTYPES OF BIRDS - GEESE AND SWANS\r\nMAX FLOCK SIZE - 800 BIRDS\r\nBIRD WEIGHT - UP TO 9000 GRAMS\r\nMAIN MOVING DIRECTION - S, SW, W",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-30T23:59:00Z",
+          "est": true,
+          "start": "2026-10-05T11:25:00Z"
+        }
+      },
+      {
+        "id": "63926796234142001",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 2935,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2640,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD\r\nTYPE OF BIRDS - LAPWINGS, GULLS AND RAPTORS\r\nBIRD WEIGHT - UP TO 3000 GRAMS\r\nMAX FLOCK SIZE - 500 BIRDS",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-30T23:59:00Z",
+          "est": true,
+          "start": "2026-10-05T11:23:00Z"
+        }
+      },
+      {
+        "id": "63926790168669921",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2932,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "referenceId": {
+          "number": 2642,
+          "series": "A",
+          "year": 2026
+        },
+        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD\r\nTYPE OF BIRDS - STARLINGS, LAPWINGS, GULLS, DUCKS AND RAPTORS\r\nBIRD WEIGHT - UP TO 3000 GRAMS\r\nMAX FLOCK SIZE - 500 BIRDS.",
+        "type": "R",
+        "validity": {
+          "end": "2026-10-30T14:00:00Z",
+          "est": true,
+          "start": "2026-10-05T09:41:00Z"
+        }
+      },
+      {
+        "id": "63926789794126001",
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 2931,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "HX",
+          "coordinate": "5925N02450E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "FA",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 3000FT AGL\r\nTYPES OF BIRDS - GEESE AND SWANS\r\nMAX FLOCK SIZE - 800 BIRDS\r\nBIRD WEIGHT - UP TO 9000 GRAMS\r\nMAIN MOVING DIRECTION - S, SW, W.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-30T14:00:00Z",
+          "est": true,
+          "start": "2026-10-05T09:45:00Z"
         }
       },
       {
@@ -321,36 +435,6 @@
         "validity": {
           "end": "2026-10-24T23:59:00Z",
           "start": "2026-10-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63926367343847217",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2885,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02230E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 51,
-          "scope": "E",
-          "subject": "CA",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 581401N\r\n0223011E (KURESSAARE). ALTN CH 119.380 AND FREQ 134.325MHZ AVBL.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-05T10:00:00Z",
-          "start": "2026-10-05T07:00:00Z"
         }
       },
       {
@@ -565,6 +649,41 @@
           "end": "2026-10-09T23:59:00Z",
           "est": true,
           "start": "2026-09-29T15:30:00Z"
+        }
+      },
+      {
+        "id": "63926276383314081",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2873,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5936N02422E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "schedule": "06-08 0700-1359",
+        "text": "DANGER AREA EED23 (NAISSAAR) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-08T13:59:00Z",
+          "start": "2026-10-06T07:00:00Z"
         }
       },
       {
@@ -2076,140 +2195,6 @@
         }
       },
       {
-        "id": "63924962060793409",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2643,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 2000 FT AGL.\r\nTYPES OF BIRDS - GEESE AND CRANES.\r\nMAX FLOCK SIZE - 300 BIRDS.\r\nBIRD WEIGHT - UP TO 6000 GRAMS.\r\nMAIN MOVING DIRECTION - S, SW, W.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-05T14:00:00Z",
-          "est": true,
-          "start": "2026-09-14T05:55:00Z"
-        }
-      },
-      {
-        "id": "63924961944223857",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2642,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2346,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - LAPWINGS, GULLS, STARLINGS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 2000 GRAMS.\r\nMAX FLOCK SIZE - 350 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-10-05T14:00:00Z",
-          "est": true,
-          "start": "2026-09-14T05:51:00Z"
-        }
-      },
-      {
-        "id": "63924960389282001",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2641,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 2000 FT AGL.\r\nTYPES OF BIRDS - GEESE AND CRANES.\r\nMAX FLOCK SIZE - 300 BIRDS.\r\nBIRD WEIGHT - UP TO 6000 GRAMS.\r\nMAIN MOVING DIRECTION - S, SW, W.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-05T14:00:00Z",
-          "est": true,
-          "start": "2026-09-14T05:45:00Z"
-        }
-      },
-      {
-        "id": "63924960239031681",
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 2640,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5916N02413E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2362,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "CONCENTRATION OF BIRDS ON MANEUVERING AREA AND VICINITY OF AD.\r\nTYPE OF BIRDS - CRANES, LAPWINGS, GULLS, RAPTORS AND SWALLOWS.\r\nBIRD WEIGHT - UP TO 6000 GRAMS.\r\nMAX FLOCK SIZE - 200 BIRDS.",
-        "type": "R",
-        "validity": {
-          "end": "2026-10-05T14:00:00Z",
-          "est": true,
-          "start": "2026-09-14T05:23:00Z"
-        }
-      },
-      {
         "id": "63924785117764913",
         "locations": [
           "EEKA"
@@ -3262,8 +3247,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926775165573681",
-        "number": 1388,
+        "id": "63926805880285649",
+        "number": 1391,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3291,14 +3276,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-05T05:31:00Z"
+            "time": "2026-10-05T14:04:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63926776799987041",
-        "number": 731,
+        "id": "63926783777656609",
+        "number": 732,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3308,32 +3293,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-05T05:58:00Z"
+            "time": "2026-10-05T07:54:00Z"
           }
         ]
       }
     ]
   },
-  "id": "45b523b4-e6c3-4d35-bcb3-81f2a4c86414",
-  "identifier": "BRIEFING-20261005-38",
+  "id": "0bb70c09-e7e3-46cf-a1bd-2de33577a3c7",
+  "identifier": "BRIEFING-20261005-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3380,8 +3365,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-06T06:15:00Z",
-    "validityStart": "2026-10-05T06:15:00Z"
+    "validityEnd": "2026-10-06T15:00:00Z",
+    "validityStart": "2026-10-05T15:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3453,7 +3438,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63926555771203505",
+                  "referenceId": "63926797056220369",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926796353199489",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926796234142001",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3484,16 +3479,6 @@
                 {
                   "link": false,
                   "referenceId": "63925496985577953",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924960389282001",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924960239031681",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3537,12 +3522,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63926725091452913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926725231953585",
+                  "referenceId": "63926807778201809",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3631,7 +3611,17 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63926543336218433",
+                  "referenceId": "63926796460480161",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926790168669921",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63926789794126001",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3696,16 +3686,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924962060793409",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924961944223857",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63924367728747873",
                   "structureType": "REFERENCE"
                 },
@@ -3726,7 +3706,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926775165573681",
+                  "referenceId": "63926805880285649",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3793,7 +3773,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926776799987041",
+                  "referenceId": "63926783777656609",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3815,11 +3795,6 @@
             {
               "link": true,
               "referenceId": "63926460245737057",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926367343847217",
               "structureType": "REFERENCE"
             },
             {
@@ -3891,6 +3866,11 @@
             {
               "link": true,
               "referenceId": "63926365629222817",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63926276383314081",
               "structureType": "REFERENCE"
             },
             {
