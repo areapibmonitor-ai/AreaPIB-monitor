@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-05T15:00:00.404Z",
+  "createdAt": "2026-10-05T21:45:00.439Z",
   "dynamicData": {
     "notams": [
       {
@@ -3247,8 +3247,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63926805880285649",
-        "number": 1391,
+        "id": "63926832959697057",
+        "number": 1392,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3276,14 +3276,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-05T14:04:00Z"
+            "time": "2026-10-05T21:30:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63926783777656609",
-        "number": 732,
+        "id": "63926825691616033",
+        "number": 733,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3295,38 +3295,38 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "NR",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "NR",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-05T07:54:00Z"
+            "time": "2026-10-05T19:34:00Z"
           }
         ]
       }
     ]
   },
-  "id": "0bb70c09-e7e3-46cf-a1bd-2de33577a3c7",
-  "identifier": "BRIEFING-20261005-73",
+  "id": "026a3394-033a-4611-be4e-70a4fd09ca3c",
+  "identifier": "BRIEFING-20261005-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3365,8 +3365,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-06T15:00:00Z",
-    "validityStart": "2026-10-05T15:00:00Z"
+    "validityEnd": "2026-10-06T21:45:00Z",
+    "validityStart": "2026-10-05T21:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3706,7 +3706,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926805880285649",
+                  "referenceId": "63926832959697057",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3773,7 +3773,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926783777656609",
+                  "referenceId": "63926825691616033",
                   "structureType": "REFERENCE"
                 }
               ],
