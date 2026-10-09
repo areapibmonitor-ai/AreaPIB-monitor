@@ -1,41 +1,75 @@
 {
-  "createdAt": "2026-10-09T05:45:00.438Z",
+  "createdAt": "2026-10-09T13:00:00.489Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63927066555704497",
+        "id": "63927143316418945",
         "locations": [
-          "EEEI"
+          "EETN"
         ],
         "notamId": {
-          "number": 2980,
+          "number": 2999,
           "series": "A",
           "year": 2026
         },
         "notamOffice": "EETN",
         "qualifiers": {
           "condition": "AS",
-          "coordinate": "5916N02413E",
+          "coordinate": "5925N02450E",
           "fir": "EETT",
           "lower": 0,
-          "purpose": "NBO",
+          "purpose": "BO",
           "radius": 5,
           "scope": "A",
-          "subject": "IG",
+          "subject": "FT",
           "traffic": "I",
           "upper": 999
         },
         "referenceId": {
-          "number": 2875,
+          "number": 2937,
           "series": "A",
           "year": 2026
         },
-        "text": "ILS GP RWY 06 U/S.",
+        "text": "TRANSMISSOMETER (MID-POINT) RWY 08/26 UNSERVICEABLE.",
         "type": "R",
         "validity": {
-          "end": "2026-10-23T14:00:00Z",
-          "est": true,
-          "start": "2026-10-08T14:28:00Z"
+          "end": "2026-10-12T17:00:00Z",
+          "start": "2026-10-09T11:48:00Z"
+        }
+      },
+      {
+        "id": "63927052609359217",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1700FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2977,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02425E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 17
+        },
+        "schedule": "10 0600-1400, 14 1500-1700, 15 0700-1400, 20 1100-1500, 22\r\n0700-0900",
+        "text": "DANGER AREA EED37 (HUMALA) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-22T09:00:00Z",
+          "start": "2026-10-10T06:00:00Z"
         }
       },
       {
@@ -287,42 +321,6 @@
         }
       },
       {
-        "id": "63926796460480161",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2937,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FT",
-          "traffic": "I",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2924,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TRANSMISSOMETER (MID-POINT) RWY 08/26 UNSERVICEABLE.",
-        "type": "R",
-        "validity": {
-          "end": "2026-10-09T17:00:00Z",
-          "est": true,
-          "start": "2026-10-05T11:27:00Z"
-        }
-      },
-      {
         "id": "63926796353199489",
         "locations": [
           "EEEI"
@@ -563,37 +561,6 @@
         "validity": {
           "end": "2026-10-18T13:59:00Z",
           "start": "2026-10-09T15:00:00Z"
-        }
-      },
-      {
-        "id": "63926515660735313",
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2916,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5748N02717E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 4,
-          "scope": "E",
-          "subject": "GW",
-          "traffic": "IV",
-          "upper": 165
-        },
-        "schedule": "DAILY 0500-1200",
-        "text": "GPS/GNSS SIGNAL UNRELIABLE AND MAY BE UNAVAILABLE WITHIN 5KM\r\nRADIUS CENTRED ON 574816N 0271724E FROM SFC UP TO FL165.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-09T12:00:00Z",
-          "start": "2026-10-05T05:00:00Z"
         }
       },
       {
@@ -3415,8 +3382,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63927101466382193",
-        "number": 1406,
+        "id": "63927129672837905",
+        "number": 1407,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3444,14 +3411,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-09T00:10:00Z"
+            "time": "2026-10-09T08:00:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63927108834154833",
-        "number": 744,
+        "id": "63927122001823681",
+        "number": 745,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3461,32 +3428,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-09T02:12:00Z"
+            "time": "2026-10-09T05:51:00Z"
           }
         ]
       }
     ]
   },
-  "id": "888e3c65-0d87-4f41-981c-b1e1dad24cdb",
-  "identifier": "BRIEFING-20261009-36",
+  "id": "9780c77c-c264-436b-a2b1-82c6c4b51065",
+  "identifier": "BRIEFING-20261009-65",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3533,8 +3500,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-10T05:45:00Z",
-    "validityStart": "2026-10-09T05:45:00Z"
+    "validityEnd": "2026-10-10T13:00:00Z",
+    "validityStart": "2026-10-09T13:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3604,11 +3571,6 @@
           "content": [
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63927066555704497",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63926797056220369",
@@ -3774,7 +3736,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63926796460480161",
+                  "referenceId": "63927143316418945",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3869,7 +3831,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927101466382193",
+                  "referenceId": "63927129672837905",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3936,7 +3898,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927108834154833",
+                  "referenceId": "63927122001823681",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3950,11 +3912,6 @@
         },
         {
           "content": [
-            {
-              "link": false,
-              "referenceId": "63926515660735313",
-              "structureType": "REFERENCE"
-            },
             {
               "link": true,
               "referenceId": "63926460245737057",
@@ -4016,6 +3973,11 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63927052609359217",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63927051838206417",
