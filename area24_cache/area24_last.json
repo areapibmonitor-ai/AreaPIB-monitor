@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-12T09:30:00.436Z",
+  "createdAt": "2026-10-12T19:15:00.483Z",
   "dynamicData": {
     "notams": [
       {
@@ -212,36 +212,6 @@
         "validity": {
           "end": "2026-10-14T20:59:00Z",
           "start": "2026-10-07T10:45:00Z"
-        }
-      },
-      {
-        "id": "63926953970332705",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2962,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AS",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "IC",
-          "traffic": "I",
-          "upper": 999
-        },
-        "text": "ILS RWY 17 U/S DUE TO MAINT, EXCEPT FOR SCHEDULED REGULAR FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-12T14:00:00Z",
-          "start": "2026-10-12T09:00:00Z"
         }
       },
       {
@@ -2346,40 +2316,6 @@
         }
       },
       {
-        "id": "63924025240590465",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 2493,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5926N02444E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 6
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2664 ESTABLISHED WITHIN: CIRCLE OF\r\n40M RADIUS CENTERED ON 592614N 0244429E. UNMANNED AIRCRAFT ARE\r\nPROHIBITED TO FLY INTO OR IN THE AREA WITHOUT AUTHORISATION FROM\r\nESTONIAN POLICE AND BORDER GUARD BOARD. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED OBTAINED FROM TOOMAS.KRUSIMAE(AT)POLITSEI.EE.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-12T17:00:00Z",
-          "start": "2026-09-03T12:00:00Z"
-        }
-      },
-      {
         "id": "63924011444083761",
         "locations": [
           "EETN"
@@ -3135,8 +3071,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63927391846729041",
-        "number": 1422,
+        "id": "63927411793202929",
+        "number": 1423,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3164,57 +3100,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-12T08:49:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63927382031040817",
-        "number": 752,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-12T06:05:00Z"
+            "time": "2026-10-12T14:21:00Z"
           }
         ]
       }
     ]
   },
-  "id": "37ad8b6b-397c-4574-8beb-ba4c55ede13d",
-  "identifier": "BRIEFING-20261012-51",
+  "id": "1fdd9950-3578-4076-ac2f-2a733f4bd90f",
+  "identifier": "BRIEFING-20261012-90",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3253,8 +3154,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-13T09:30:00Z",
-    "validityStart": "2026-10-12T09:30:00Z"
+    "validityEnd": "2026-10-13T19:15:00Z",
+    "validityStart": "2026-10-12T19:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3403,11 +3304,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63926953970332705",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63926460245737057",
@@ -3569,11 +3465,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63924025240590465",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63924011444083761",
                   "structureType": "REFERENCE"
                 },
@@ -3584,7 +3475,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927391846729041",
+                  "referenceId": "63927411793202929",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3647,11 +3538,6 @@
                 {
                   "link": false,
                   "referenceId": "63918592979529729",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63927382031040817",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3894,11 +3780,6 @@
             {
               "link": false,
               "referenceId": "63924031493208945",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63924025240590465",
               "structureType": "REFERENCE"
             },
             {
