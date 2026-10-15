@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-15T05:45:00.455Z",
+  "createdAt": "2026-10-15T10:15:01.445Z",
   "dynamicData": {
     "notams": [
       {
@@ -2122,6 +2122,40 @@
         }
       },
       {
+        "id": "63925573020595201",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1400FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2743,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5748N02718E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 14
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26166UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 574858N 0271739E - 574840N\r\n0271941E - 574724N 0271922E - 574733N 0271610E - 574858N 0271739E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5386\r\n4028.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-17T21:00:00Z",
+          "start": "2026-10-16T09:00:00Z"
+        }
+      },
+      {
         "id": "63925571942125473",
         "levels": {
           "lower": "SFC",
@@ -3468,8 +3502,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63927627195285105",
-        "number": 1434,
+        "id": "63927645498904065",
+        "number": 1435,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3497,14 +3531,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-15T02:10:00Z"
+            "time": "2026-10-15T07:17:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63927626166899841",
-        "number": 761,
+        "id": "63927641095834273",
+        "number": 762,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3532,14 +3566,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-15T01:54:00Z"
+            "time": "2026-10-15T06:02:00Z"
           }
         ]
       }
     ]
   },
-  "id": "2a028155-898b-4204-8c65-b864ae35861a",
-  "identifier": "BRIEFING-20261015-36",
+  "id": "c4e47e90-daf7-4704-abaf-637a409de46e",
+  "identifier": "BRIEFING-20261015-54",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3586,8 +3620,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-16T05:45:00Z",
-    "validityStart": "2026-10-15T05:45:00Z"
+    "validityEnd": "2026-10-16T10:15:00Z",
+    "validityStart": "2026-10-15T10:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3912,7 +3946,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927627195285105",
+                  "referenceId": "63927645498904065",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3979,7 +4013,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927626166899841",
+                  "referenceId": "63927641095834273",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4267,6 +4301,11 @@
             {
               "link": false,
               "referenceId": "63925582466057425",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63925573020595201",
               "structureType": "REFERENCE"
             },
             {
