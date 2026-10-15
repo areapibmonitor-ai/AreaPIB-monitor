@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-15T15:15:00.452Z",
+  "createdAt": "2026-10-15T19:00:00.461Z",
   "dynamicData": {
     "notams": [
       {
@@ -493,41 +493,6 @@
         "validity": {
           "end": "2026-10-19T13:59:00Z",
           "start": "2026-10-15T06:00:00Z"
-        }
-      },
-      {
-        "id": "63926880469047073",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2952,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5816N02656E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 1,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "schedule": "07 14 0600-1359, 08 0900-1059, 10 0500-1459, 11 0600-1559, 13\r\n0900-1859, 15 0500-1559",
-        "text": "DANGER AREA EED2 (UNIKULA) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM: +372 5750 3538. AREA DEACTIVATION IS POSSIBLE BY ATS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-15T15:59:00Z",
-          "start": "2026-10-07T06:00:00Z"
         }
       },
       {
@@ -3434,16 +3399,16 @@
       }
     ]
   },
-  "id": "1912ef25-1496-48d1-b74e-2f1d67f5d638",
-  "identifier": "BRIEFING-20261015-74",
+  "id": "a7aced0e-ba04-49d6-b02a-58e8f2b09485",
+  "identifier": "BRIEFING-20261015-89",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3482,8 +3447,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-16T15:15:00Z",
-    "validityStart": "2026-10-15T15:15:00Z"
+    "validityEnd": "2026-10-16T19:00:00Z",
+    "validityStart": "2026-10-15T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3825,11 +3790,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926880469047073",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63926873882979457",
                   "structureType": "REFERENCE"
                 },
@@ -3993,11 +3953,6 @@
             {
               "link": false,
               "referenceId": "63926884390906177",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63926880469047073",
               "structureType": "REFERENCE"
             },
             {
