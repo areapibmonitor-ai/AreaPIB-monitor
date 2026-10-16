@@ -1,7 +1,76 @@
 {
-  "createdAt": "2026-10-16T14:30:02.578Z",
+  "createdAt": "2026-10-16T18:15:00.437Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63927767198176769",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2800FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3065,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5800N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 20,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 28
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26175UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 580038N 0245901E - 580552N\r\n0245545E - 580855N 0250207E - 580748N 0252113E - 575429N 0260340E -\r\n575114N 0255458E - 580038N 0245901E EXCLUDING RIGA FIR. ALL AIRCRAFT\r\n(INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO OR IN THE\r\nAREA WITHOUT AUTHORISATION FROM ESTONIAN POLICE AND BORDER GUARD\r\nBOARD. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL\r\n53094264.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-20T20:59:00Z",
+          "start": "2026-10-17T10:00:00Z"
+        }
+      },
+      {
+        "id": "63927758425054177",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL470"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 3063,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LW",
+          "coordinate": "5916N02439E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 10,
+          "scope": "AW",
+          "subject": "WO",
+          "traffic": "IV",
+          "upper": 470
+        },
+        "schedule": "DAILY 1500-2000",
+        "text": "LIGHTSHOW (TALLINN) WILL TAKE PLACE WITHIN: 591446.56N 0245622.12E\r\n- CLOCKWISE ARC OF 14NM CENTERED ON 592529.60N 0243850.70E -\r\n591446.56N 0242119.28E - 592529.60N 0243850.70E - 591446.56N\r\n0245622.12E. LASER BEAMS MAY CAUSE BLINDNESS UNTIL 3NM AND FL180 IN\r\nHORIZONTAL SECTOR FROM 140DEG CLOCKWISE TO 220DEG WITH VERTICAL\r\nSECTOR FROM 70DEG TO 90DEG. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT\r\nILLUMINATION MAY OCCUR UNTIL 14NM AND FL470.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-18T20:00:00Z",
+          "start": "2026-10-16T15:00:00Z"
+        }
+      },
       {
         "id": "63927742635633665",
         "locations": [
@@ -30,41 +99,6 @@
         "validity": {
           "end": "2026-10-18T20:59:00Z",
           "start": "2026-10-17T05:00:00Z"
-        }
-      },
-      {
-        "id": "63927665856111185",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL470"
-        },
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 3055,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5916N02439E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 470
-        },
-        "schedule": "DAILY 1500-2000",
-        "text": "TEMPORARY AREA FOR LASER HAZARD (TALLINN) WILL TAKE PLACE WITHIN:\r\n591446.56N 0245622.12E - CLOCKWISE ARC OF 14NM CENTERED ON 592529.60N\r\n0243850.70E - 591446.56N 0242119.28E - 592529.60N 0243850.70E -\r\n591446.56N 0245622.12E. LASER BEAMS MAY CAUSE BLINDNESS UNTIL 3NM AND\r\nFL180 IN HORIZONTAL SECTOR FROM 140DEG CLOCKWISE TO 220DEG WITH\r\nVERTICAL SECTOR FROM 70DEG TO 90DEG. IN SAME SECTOR FLASHBLINDNESS\r\nAND COCKPIT ILLUMINATION MAY OCCUR UNTIL 14NM AND FL470.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-17T20:00:00Z",
-          "start": "2026-10-15T15:00:00Z"
         }
       },
       {
@@ -312,41 +346,6 @@
         }
       },
       {
-        "id": "63927429908526337",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL060"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3014,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5839N02536E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 9,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 60
-        },
-        "schedule": "DAILY 0600-1500",
-        "text": "TEMPORARY RESTRICTED AREA EER2156UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 584708N 0253732E - 584547N\r\n0254516E - 583127N 0253615E - 583202N 0252556E - 584708N 0253732E\r\nEXCLUDING EETSA21 (NURMSI). PERMISSION FOR ENTERING THE AREA SHALL BE\r\nOBTAINED FROM TEL +372 5661 9651, ALTERNATIVE TEL +372 5837 3106.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-16T15:00:00Z",
-          "start": "2026-10-15T06:00:00Z"
-        }
-      },
-      {
         "id": "63927396384829505",
         "levels": {
           "lower": "SFC",
@@ -557,6 +556,41 @@
         "validity": {
           "end": "2026-10-31T19:59:00Z",
           "start": "2026-10-17T05:00:00Z"
+        }
+      },
+      {
+        "id": "63926885822886977",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2300FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2954,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02648E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 92
+        },
+        "schedule": "17 1500-1759, 21 0500-1559, 23 0500-1359, 24 0500-1459, 26\r\n0600-1859, 27-29 1500-1859, 30-31 0600-1559",
+        "text": "DANGER AREA EED4 (NURSIPALU 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 507\r\n2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-31T15:59:00Z",
+          "start": "2026-10-17T15:00:00Z"
         }
       },
       {
@@ -870,76 +904,6 @@
         "validity": {
           "end": "2026-10-18T13:59:00Z",
           "start": "2026-10-09T15:00:00Z"
-        }
-      },
-      {
-        "id": "63926517495706849",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2919,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02325E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "DAILY 0600-1500",
-        "text": "TEMPORARY RESTRICTED AREA EER26178UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585931N 0232318E - 585931N\r\n0232619E - 585605N 0232804E - 585537N 0232553E - 585931N 0232318E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-16T15:00:00Z",
-          "start": "2026-10-12T06:00:00Z"
-        }
-      },
-      {
-        "id": "63926517323314945",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2300FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2918,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5854N02331E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 23
-        },
-        "schedule": "DAILY 0500-1500",
-        "text": "TEMPORARY RESTRICTED AREA EER26176UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 585555N 0232458E - 585651N\r\n0233104E - 585138N 0233741E - 585043N 0232953E - 585555N 0232458E.\r\nPERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5854\r\n8450.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-16T15:00:00Z",
-          "start": "2026-10-12T05:00:00Z"
         }
       },
       {
@@ -3508,16 +3472,16 @@
       }
     ]
   },
-  "id": "a63c8aa4-ad21-43ac-ade3-cfabb2d29471",
-  "identifier": "BRIEFING-20261016-71",
+  "id": "cf26f4f5-b667-4583-8e00-527203e8457d",
+  "identifier": "BRIEFING-20261016-86",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3556,8 +3520,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-17T14:30:00Z",
-    "validityStart": "2026-10-16T14:30:00Z"
+    "validityEnd": "2026-10-17T18:15:00Z",
+    "validityStart": "2026-10-16T18:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3802,7 +3766,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63927665856111185",
+                  "referenceId": "63927758425054177",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -4015,8 +3979,13 @@
         {
           "content": [
             {
+              "link": false,
+              "referenceId": "63927767198176769",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
-              "referenceId": "63927665856111185",
+              "referenceId": "63927758425054177",
               "structureType": "REFERENCE"
             },
             {
@@ -4032,11 +4001,6 @@
             {
               "link": false,
               "referenceId": "63927556304794401",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63927429908526337",
               "structureType": "REFERENCE"
             },
             {
@@ -4070,6 +4034,11 @@
               "structureType": "REFERENCE"
             },
             {
+              "link": false,
+              "referenceId": "63926885822886977",
+              "structureType": "REFERENCE"
+            },
+            {
               "link": true,
               "referenceId": "63926873882979457",
               "structureType": "REFERENCE"
@@ -4092,16 +4061,6 @@
             {
               "link": false,
               "referenceId": "63926528598408129",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926517495706849",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926517323314945",
               "structureType": "REFERENCE"
             },
             {
