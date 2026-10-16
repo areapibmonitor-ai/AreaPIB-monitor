@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-10-16T09:45:00.443Z",
+  "createdAt": "2026-10-16T14:30:02.578Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63927742635633665",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 3061,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LC",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "RWY 06/24 CLOSED DUE TO WORK IN PROGRESS.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-18T20:59:00Z",
+          "start": "2026-10-17T05:00:00Z"
+        }
+      },
       {
         "id": "63927665856111185",
         "levels": {
@@ -1608,41 +1638,6 @@
           "end": "2026-10-30T14:00:00Z",
           "est": true,
           "start": "2026-09-30T07:23:00Z"
-        }
-      },
-      {
-        "id": "63926275578959009",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2871,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "schedule": "SEP 30 H24, OCT 01-03 05-06 15 H24, 04 0000-1159 1900-2359, 07\r\n0000-0259, 12 0500-2359, 13 0000-0459, 14 1700-2359, 16 0000-1359",
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-16T13:59:00Z",
-          "start": "2026-09-30T00:00:00Z"
         }
       },
       {
@@ -3478,8 +3473,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63927731689983041",
-        "number": 1439,
+        "id": "63927754603415793",
+        "number": 1440,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3507,49 +3502,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-16T07:13:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63927727003030849",
-        "number": 765,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-16T05:54:00Z"
+            "time": "2026-10-16T13:35:00Z"
           }
         ]
       }
     ]
   },
-  "id": "652d64e9-6379-4b7b-a79d-e831badbdd55",
-  "identifier": "BRIEFING-20261016-52",
+  "id": "a63c8aa4-ad21-43ac-ade3-cfabb2d29471",
+  "identifier": "BRIEFING-20261016-71",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3596,8 +3556,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-17T09:45:00Z",
-    "validityStart": "2026-10-16T09:45:00Z"
+    "validityEnd": "2026-10-17T14:30:00Z",
+    "validityStart": "2026-10-16T14:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3667,6 +3627,11 @@
           "content": [
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63927742635633665",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63927573542046609",
@@ -3927,7 +3892,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63927731689983041",
+                  "referenceId": "63927754603415793",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3975,11 +3940,6 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63927727003030849",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4207,11 +4167,6 @@
             {
               "link": false,
               "referenceId": "63926364284820961",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926275578959009",
               "structureType": "REFERENCE"
             },
             {
