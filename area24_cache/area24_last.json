@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-20T18:30:04.871Z",
+  "createdAt": "2026-10-20T21:45:00.479Z",
   "dynamicData": {
     "notams": [
       {
@@ -726,40 +726,6 @@
         "validity": {
           "end": "2026-10-24T23:00:00Z",
           "start": "2026-10-19T15:01:00Z"
-        }
-      },
-      {
-        "id": "63927131841538145",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2994,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5936N02422E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 40
-        },
-        "text": "DANGER AREA EED23 (NAISSAAR) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-20T18:59:00Z",
-          "start": "2026-10-20T10:00:00Z"
         }
       },
       {
@@ -3752,8 +3718,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928102188738977",
-        "number": 1458,
+        "id": "63928123298455729",
+        "number": 1459,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3781,14 +3747,49 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-20T14:08:00Z"
+            "time": "2026-10-20T20:00:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EETU",
+        "id": "63928127039554881",
+        "number": 773,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "08",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              },
+              {
+                "code": 6,
+                "condition": "DRY",
+                "coverage": "NR",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-10-20T21:02:00Z"
           }
         ]
       }
     ]
   },
-  "id": "94c2c6c3-34a7-4cf6-a3ec-4093a7ab347b",
-  "identifier": "BRIEFING-20261020-87",
+  "id": "aa5e9ef3-c65c-4ba0-abad-e6a41a20d700",
+  "identifier": "BRIEFING-20261020-100",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3835,8 +3836,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-21T18:30:00Z",
-    "validityStart": "2026-10-20T18:30:00Z"
+    "validityEnd": "2026-10-21T21:45:00Z",
+    "validityStart": "2026-10-20T21:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4171,7 +4172,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928102188738977",
+                  "referenceId": "63928123298455729",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4224,6 +4225,11 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63928127039554881",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4371,11 +4377,6 @@
             {
               "link": false,
               "referenceId": "63927139470745857",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63927131841538145",
               "structureType": "REFERENCE"
             },
             {
