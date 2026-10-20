@@ -34561,3 +34561,17 @@ A)EETN B)2610201044 C)2610201500
 E)ILS RWY 26 U/S.
 )
 [2026-10-20T14:30:53Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-10-20T18:40:54Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A3100/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A3102/26 NOTAMN
+Q)EETT/ICAS/I/NBO/A/000/999/5925N02450E005
+A)EETN B)2610210630 C)2610211100
+E)ILS RWY 08 U/S.
+)
+[2026-10-20T18:40:54Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')

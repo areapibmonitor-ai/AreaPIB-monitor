@@ -1,14 +1,14 @@
 {
-  "createdAt": "2026-10-20T14:15:00.52Z",
+  "createdAt": "2026-10-20T18:30:04.871Z",
   "dynamicData": {
     "notams": [
       {
-        "id": "63928089887312753",
+        "id": "63928109403515329",
         "locations": [
           "EETN"
         ],
         "notamId": {
-          "number": 3100,
+          "number": 3102,
           "series": "A",
           "year": 2026
         },
@@ -25,16 +25,11 @@
           "traffic": "I",
           "upper": 999
         },
-        "referenceId": {
-          "number": 3087,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "ILS RWY 26 U/S.",
-        "type": "R",
+        "text": "ILS RWY 08 U/S.",
+        "type": "N",
         "validity": {
-          "end": "2026-10-20T15:00:00Z",
-          "start": "2026-10-20T10:44:00Z"
+          "end": "2026-10-21T11:00:00Z",
+          "start": "2026-10-21T06:30:00Z"
         }
       },
       {
@@ -3792,16 +3787,16 @@
       }
     ]
   },
-  "id": "990fd28c-f327-4f33-bf27-45a83f61cdfd",
-  "identifier": "BRIEFING-20261020-70",
+  "id": "94c2c6c3-34a7-4cf6-a3ec-4093a7ab347b",
+  "identifier": "BRIEFING-20261020-87",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3840,8 +3835,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-21T14:15:00Z",
-    "validityStart": "2026-10-20T14:15:00Z"
+    "validityEnd": "2026-10-21T18:30:00Z",
+    "validityStart": "2026-10-20T18:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4081,7 +4076,7 @@
               "content": [
                 {
                   "link": false,
-                  "referenceId": "63928089887312753",
+                  "referenceId": "63928109403515329",
                   "structureType": "REFERENCE"
                 },
                 {
