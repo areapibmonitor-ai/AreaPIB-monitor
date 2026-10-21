@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-21T15:15:00.454Z",
+  "createdAt": "2026-10-21T19:30:00.512Z",
   "dynamicData": {
     "notams": [
       {
@@ -2640,41 +2640,6 @@
         }
       },
       {
-        "id": "63925670901466433",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2762,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "01 07-08 10 14-15 20-21 0500-1700, 17 0500-2359, 18 0000-1500",
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-21T17:00:00Z",
-          "start": "2026-10-01T05:00:00Z"
-        }
-      },
-      {
         "id": "63925582466057425",
         "levels": {
           "lower": "SFC",
@@ -3885,41 +3850,6 @@
           "est": true,
           "start": "2026-07-30T07:47:00Z"
         }
-      },
-      {
-        "id": "63920310026862465",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2001,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02707E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 7
-        },
-        "schedule": "DAILY 0500-1700",
-        "text": "TEMPORARY RESTRICTED AREA EER26128UA ESTABLISHED WITHIN: 591916N\r\n0271026E - 591708N 0271022E - 591701N 0270358E - 591914N 0270356E -\r\n591916N 0271026E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5340 0535.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-21T17:00:00Z",
-          "start": "2026-07-28T05:00:00Z"
-        }
       }
     ],
     "snowtams": [
@@ -3960,16 +3890,16 @@
       }
     ]
   },
-  "id": "089d9bad-358f-4438-8d6e-b4ef42b2a36f",
-  "identifier": "BRIEFING-20261021-74",
+  "id": "3fc10a5c-1cb7-429e-baea-beb7b64b0dd9",
+  "identifier": "BRIEFING-20261021-91",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -4009,8 +3939,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-22T15:15:00Z",
-    "validityStart": "2026-10-21T15:15:00Z"
+    "validityEnd": "2026-10-22T19:30:00Z",
+    "validityStart": "2026-10-21T19:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -4767,11 +4697,6 @@
             },
             {
               "link": false,
-              "referenceId": "63925670901466433",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63925582466057425",
               "structureType": "REFERENCE"
             },
@@ -4808,11 +4733,6 @@
             {
               "link": false,
               "referenceId": "63920994462176129",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63920310026862465",
               "structureType": "REFERENCE"
             }
           ],
