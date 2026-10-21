@@ -1,7 +1,137 @@
 {
-  "createdAt": "2026-10-21T10:15:00.45Z",
+  "createdAt": "2026-10-21T15:15:00.454Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63928189950531537",
+        "locations": [
+          "EERA"
+        ],
+        "notamId": {
+          "number": 3111,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LT",
+          "coordinate": "5859N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "NBO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "MR",
+          "traffic": "V",
+          "upper": 999
+        },
+        "text": "RWY 15L/33R REDUCED BY 200M DUE TO RWY MAINTENANCE WORKS. CONTACT\r\nTEL +372 5665 9281.",
+        "type": "N",
+        "validity": {
+          "end": "2027-01-22T10:00:00Z",
+          "est": true,
+          "start": "2026-10-22T07:00:00Z"
+        }
+      },
+      {
+        "id": "63928188504556209",
+        "locations": [
+          "EEKA"
+        ],
+        "notamId": {
+          "number": 3110,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CE",
+          "coordinate": "5859N02250E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 5,
+          "scope": "A",
+          "subject": "OB",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "TEMPORARY OBSTACLE (PARKING AIRCRAFT) ERECTED POSITION: 585939.49N\r\n0224929.22E ELEVATION 21FT. NOT LIGHTED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-23T10:00:00Z",
+          "est": true,
+          "start": "2026-10-22T14:15:00Z"
+        }
+      },
+      {
+        "id": "63928180130980865",
+        "levels": {
+          "lower": "400FT AMSL",
+          "upper": "5000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3109,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5903N02619E",
+          "fir": "EETT",
+          "lower": 4,
+          "purpose": "BO",
+          "radius": 7,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 50
+        },
+        "text": "RESTRICTED AREA EER2507 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 53856820. REF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-22T14:00:00Z",
+          "start": "2026-10-22T08:00:00Z"
+        }
+      },
+      {
+        "id": "63928179887374385",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3108,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5907N02613E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 20
+        },
+        "text": "RESTRICTED AREA EER2506 ACTIVATED FOR UNMANNED AIRCRAFT SYSTEM\r\nACTIVITIES. PERMISSION FOR ENTERING THE AREA AND INFO ABOUT ACT AVBL\r\nFROM: +372 53856820. REF AIP SUP 13/2026.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-22T14:00:00Z",
+          "start": "2026-10-22T08:00:00Z"
+        }
+      },
       {
         "id": "63928159590624145",
         "locations": [
@@ -433,37 +563,6 @@
         "validity": {
           "end": "2026-10-31T15:00:00Z",
           "start": "2026-10-22T05:00:00Z"
-        }
-      },
-      {
-        "id": "63927732845862497",
-        "locations": [
-          "EETN"
-        ],
-        "notamId": {
-          "number": 3057,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "LP",
-          "coordinate": "5925N02450E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 10,
-          "scope": "AE",
-          "subject": "AC",
-          "traffic": "IV",
-          "upper": 17
-        },
-        "schedule": "DAILY 0700-1700",
-        "text": "TALLINN CTR IS PROHIBITED TO SCHOOL AND TRAINING FLIGHTS DUE TO\r\nILS INSPECTION FLIGHT",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-21T17:00:00Z",
-          "start": "2026-10-20T07:00:00Z"
         }
       },
       {
@@ -1366,6 +1465,40 @@
         "validity": {
           "end": "2026-10-22T15:00:00Z",
           "start": "2026-10-19T06:00:00Z"
+        }
+      },
+      {
+        "id": "63926965525269601",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 2966,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5922N02425E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 1,
+          "scope": "W",
+          "subject": "RR",
+          "traffic": "IV",
+          "upper": 11
+        },
+        "text": "TEMPORARY RESTRICTED AREA EER26196UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: CIRCLE OF 1KM RADIUS CENTERED ON\r\n592210N 0242445E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5696 4550.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-23T14:00:00Z",
+          "start": "2026-10-22T13:00:00Z"
         }
       },
       {
@@ -3792,8 +3925,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928166459259505",
-        "number": 1461,
+        "id": "63928187194484881",
+        "number": 1462,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3821,49 +3954,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-21T08:00:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63928160137755281",
-        "number": 774,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-21T06:15:00Z"
+            "time": "2026-10-21T13:45:00Z"
           }
         ]
       }
     ]
   },
-  "id": "de6a97f2-ce64-44a0-b9bd-08c50871dbb2",
-  "identifier": "BRIEFING-20261021-54",
+  "id": "089d9bad-358f-4438-8d6e-b4ef42b2a36f",
+  "identifier": "BRIEFING-20261021-74",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3885,6 +3983,7 @@
         "EEKE",
         "EEKU",
         "EEPU",
+        "EERA",
         "EERU",
         "EETN",
         "EETU"
@@ -3910,8 +4009,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-22T10:15:00Z",
-    "validityStart": "2026-10-21T10:15:00Z"
+    "validityEnd": "2026-10-22T15:15:00Z",
+    "validityStart": "2026-10-21T15:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3945,6 +4044,12 @@
         "id": "63638525762145429",
         "name": "PARNU",
         "wkt": "POINT (24.4727777 58.4188889)"
+      },
+      {
+        "designator": "EERA",
+        "id": "63764342532419585",
+        "name": "RAPLA",
+        "wkt": "POINT (24.7202777 58.9888889)"
       },
       {
         "designator": "EERU",
@@ -4033,6 +4138,11 @@
             },
             {
               "content": [
+                {
+                  "link": false,
+                  "referenceId": "63928188504556209",
+                  "structureType": "REFERENCE"
+                },
                 {
                   "link": false,
                   "referenceId": "63928016978926481",
@@ -4143,17 +4253,24 @@
               "title": "EEPU - PARNU"
             },
             {
+              "content": [
+                {
+                  "link": false,
+                  "referenceId": "63928189950531537",
+                  "structureType": "REFERENCE"
+                }
+              ],
+              "staticDataId": "63764342532419585",
+              "structureType": "SECTION",
+              "title": "EERA - RAPLA"
+            },
+            {
               "staticDataId": "63544203142222571",
               "structureType": "SECTION",
               "title": "EERU - RUHNU"
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63927732845862497",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63926869220534865",
@@ -4236,7 +4353,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928166459259505",
+                  "referenceId": "63928187194484881",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4300,11 +4417,6 @@
                   "link": false,
                   "referenceId": "63923430128724577",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63928160137755281",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63544203142765300",
@@ -4320,11 +4432,6 @@
             {
               "link": false,
               "referenceId": "63927999775201393",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63927732845862497",
               "structureType": "REFERENCE"
             },
             {
@@ -4388,6 +4495,16 @@
         },
         {
           "content": [
+            {
+              "link": false,
+              "referenceId": "63928180130980865",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63928179887374385",
+              "structureType": "REFERENCE"
+            },
             {
               "link": false,
               "referenceId": "63928087421969713",
@@ -4546,6 +4663,11 @@
             {
               "link": false,
               "referenceId": "63926974435732449",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63926965525269601",
               "structureType": "REFERENCE"
             },
             {
