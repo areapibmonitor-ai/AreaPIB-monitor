@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-23T17:30:00.438Z",
+  "createdAt": "2026-10-23T20:30:00.413Z",
   "dynamicData": {
     "notams": [
       {
@@ -1418,40 +1418,6 @@
           "end": "2027-01-08T23:59:00Z",
           "est": true,
           "start": "2026-10-08T07:27:00Z"
-        }
-      },
-      {
-        "id": "63926886679496241",
-        "levels": {
-          "lower": "SFC",
-          "upper": "8500FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2956,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 85
-        },
-        "text": "TEMPORARY DANGER AREA EED2007 ESTABLISHED FOR FIRING WITHIN:\r\n592744N 0254210E - 592729N 0255009E - 592704N 0255347E - 591725N\r\n0255744E - 591615N 0255524E - 591626N 0254707E - 592114N 0253942E -\r\n592744N 0254210E. INFO ABOUT ACTIVATION AVAILABLE FROM TEL + 372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-23T17:59:00Z",
-          "start": "2026-10-17T04:00:00Z"
         }
       },
       {
@@ -3529,8 +3495,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928366695969489",
-        "number": 1472,
+        "id": "63928382278239201",
+        "number": 1473,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3558,14 +3524,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-23T15:37:00Z"
+            "time": "2026-10-23T19:57:00Z"
           }
         ]
       }
     ]
   },
-  "id": "bf2d067f-9d31-4fec-8c65-b38ffe6e0c7e",
-  "identifier": "BRIEFING-20261023-83",
+  "id": "5d13aff4-3512-4ab2-aa7e-5fa16076279d",
+  "identifier": "BRIEFING-20261023-95",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3613,8 +3579,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-24T17:30:00Z",
-    "validityStart": "2026-10-23T17:30:00Z"
+    "validityEnd": "2026-10-24T20:30:00Z",
+    "validityStart": "2026-10-23T20:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3947,7 +3913,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928366695969489",
+                  "referenceId": "63928382278239201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4247,11 +4213,6 @@
             {
               "link": false,
               "referenceId": "63927041585504849",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63926886679496241",
               "structureType": "REFERENCE"
             },
             {
