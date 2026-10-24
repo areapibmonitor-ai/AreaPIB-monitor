@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-24T07:00:00.42Z",
+  "createdAt": "2026-10-24T12:00:00.46Z",
   "dynamicData": {
     "notams": [
       {
@@ -2624,96 +2624,6 @@
         }
       },
       {
-        "id": "63924785117764913",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2622,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FI",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "DE-ICING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T08:00:00Z",
-          "start": "2026-09-13T12:00:00Z"
-        }
-      },
-      {
-        "id": "63924784953687729",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2621,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FU",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "FUELLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T08:00:00Z",
-          "start": "2026-09-13T12:00:00Z"
-        }
-      },
-      {
-        "id": "63924784754412065",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2620,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "HANDLING HR OF SERVICE:\r\nMON-FRI 0300-0900 0930-1530\r\nSAT 0330-0800\r\nSUN 1200-1530",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T08:00:00Z",
-          "start": "2026-09-13T12:00:00Z"
-        }
-      },
-      {
         "id": "63924717898007649",
         "locations": [
           "EEKE"
@@ -3345,8 +3255,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928403848199025",
-        "number": 1474,
+        "id": "63928437133189553",
+        "number": 1476,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3358,65 +3268,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "100",
+                "coverage": "75",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-24T01:56:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63928403030065297",
-        "number": 783,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-10-24T01:42:00Z"
+            "time": "2026-10-24T11:10:00Z"
           }
         ]
       }
     ]
   },
-  "id": "562fed25-df3b-40a6-b142-22481d04835f",
-  "identifier": "BRIEFING-20261024-29",
+  "id": "46a803d7-a1ad-4ce6-9f2d-ac0cbf62eede",
+  "identifier": "BRIEFING-20261024-49",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3464,8 +3339,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-25T07:00:00Z",
-    "validityStart": "2026-10-24T07:00:00Z"
+    "validityEnd": "2026-10-25T12:00:00Z",
+    "validityStart": "2026-10-24T12:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3591,21 +3466,6 @@
                 {
                   "link": false,
                   "referenceId": "63928016978926481",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924785117764913",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924784953687729",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63924784754412065",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3808,7 +3668,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928403848199025",
+                  "referenceId": "63928437133189553",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3861,11 +3721,6 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63928403030065297",
                   "structureType": "REFERENCE"
                 }
               ],
