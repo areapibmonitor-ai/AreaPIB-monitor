@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-24T15:45:00.426Z",
+  "createdAt": "2026-10-24T18:30:00.43Z",
   "dynamicData": {
     "notams": [
       {
@@ -237,41 +237,6 @@
         "validity": {
           "end": "2027-01-24T18:00:00Z",
           "start": "2026-10-25T06:00:00Z"
-        }
-      },
-      {
-        "id": "63928248811667633",
-        "levels": {
-          "lower": "SFC",
-          "upper": "400FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3113,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02707E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 7
-        },
-        "schedule": "22 0700-1700, 23-24 0500-1700",
-        "text": "TEMPORARY RESTRICTED AREA EER26128UA ESTABLISHED WITHIN: 591916N\r\n0271026E - 591708N 0271022E - 591701N 0270358E - 591914N 0270356E -\r\n591916N 0271026E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5340 0535.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T17:00:00Z",
-          "start": "2026-10-22T07:00:00Z"
         }
       },
       {
@@ -3221,16 +3186,16 @@
       }
     ]
   },
-  "id": "d5c11b90-e3c7-4862-b6ab-bf36b0b96337",
-  "identifier": "BRIEFING-20261024-64",
+  "id": "7163e2de-5bf8-4272-af19-bef3db60d5f1",
+  "identifier": "BRIEFING-20261024-75",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3270,8 +3235,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-25T15:45:00Z",
-    "validityStart": "2026-10-24T15:45:00Z"
+    "validityEnd": "2026-10-25T18:30:00Z",
+    "validityStart": "2026-10-24T18:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3734,11 +3699,6 @@
             {
               "link": false,
               "referenceId": "63928249112289681",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63928248811667633",
               "structureType": "REFERENCE"
             },
             {
