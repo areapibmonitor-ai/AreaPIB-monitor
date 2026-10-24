@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-24T18:30:00.43Z",
+  "createdAt": "2026-10-24T21:00:04.539Z",
   "dynamicData": {
     "notams": [
       {
@@ -537,41 +537,6 @@
         }
       },
       {
-        "id": "63928012132907521",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL270"
-        },
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 3084,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5823N02643E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 10,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 270
-        },
-        "schedule": "20-21 1200-2100, 22-24 1400-2100",
-        "text": "TEMPORARY WARNING AREA ESTABLISHED FOR LASER HAZARD (TARTU)\r\nWITHIN: CIRCLE OF 9NM RADIUS CENTERED ON 582304.90N 0264317.70E.\r\nWHITE LASER BEAMS MAY CAUSE BLINDNESS UNTIL 2NM AND FL110 IN ALL\r\nDIRECTIONS WITHIN VERTICAL SECTOR FROM 60DEG TO 80DEG FROM SFC. IN\r\nTHE SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR\r\nUNTIL 9NM AND FL270.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T21:00:00Z",
-          "start": "2026-10-20T12:00:00Z"
-        }
-      },
-      {
         "id": "63927999289317777",
         "levels": {
           "lower": "SFC",
@@ -707,40 +672,6 @@
         "validity": {
           "end": "2026-10-25T12:59:00Z",
           "start": "2026-10-24T06:00:00Z"
-        }
-      },
-      {
-        "id": "63927582824293313",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2000FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3039,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5917N02536E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 8,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 20
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER26198UA ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 592232N 0252912E - 591942N\r\n0254150E - 591703N 0254552E - 591202N 0254555E - 591209N 0252536E -\r\n591635N 0252536E - 591924N 0252801E - 592232N 0252912E. PERMISSION\r\nFOR ENTERING THE AREA SHALL BE OBTAINED FROM TEL +372 5357 0753 OR\r\n+372 5370 3607.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T21:00:00Z",
-          "start": "2026-10-19T00:00:00Z"
         }
       },
       {
@@ -2096,41 +2027,6 @@
         }
       },
       {
-        "id": "63925750385020065",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2780,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5901N02650E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "05-11 15-18 20-24 0700-1900",
-        "text": "DANGER AREA EED25 (MURU) ACTIVATED FOR FIRING.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T19:00:00Z",
-          "start": "2026-10-05T07:00:00Z"
-        }
-      },
-      {
         "id": "63925582466057425",
         "levels": {
           "lower": "SFC",
@@ -3151,8 +3047,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928448604063873",
-        "number": 1478,
+        "id": "63928469177234001",
+        "number": 1479,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3180,14 +3076,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-24T14:20:00Z"
+            "time": "2026-10-24T20:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "7163e2de-5bf8-4272-af19-bef3db60d5f1",
-  "identifier": "BRIEFING-20261024-75",
+  "id": "fe165b97-924c-4d62-b648-5a13eff37670",
+  "identifier": "BRIEFING-20261024-85",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3235,8 +3131,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-25T18:30:00Z",
-    "validityStart": "2026-10-24T18:30:00Z"
+    "validityEnd": "2026-10-25T21:00:00Z",
+    "validityStart": "2026-10-24T21:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3559,7 +3455,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928448604063873",
+                  "referenceId": "63928469177234001",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3569,11 +3465,6 @@
             },
             {
               "content": [
-                {
-                  "link": false,
-                  "referenceId": "63928012132907521",
-                  "structureType": "REFERENCE"
-                },
                 {
                   "link": false,
                   "referenceId": "63927573000503601",
@@ -3732,11 +3623,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": true,
-              "referenceId": "63928012132907521",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": false,
               "referenceId": "63927999289317777",
               "structureType": "REFERENCE"
@@ -3754,11 +3640,6 @@
             {
               "link": false,
               "referenceId": "63927583095765809",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63927582824293313",
               "structureType": "REFERENCE"
             },
             {
@@ -3884,11 +3765,6 @@
             {
               "link": false,
               "referenceId": "63925853143795937",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63925750385020065",
               "structureType": "REFERENCE"
             },
             {
