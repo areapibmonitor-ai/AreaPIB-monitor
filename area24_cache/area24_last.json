@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-24T21:00:04.539Z",
+  "createdAt": "2026-10-24T23:15:00.446Z",
   "dynamicData": {
     "notams": [
       {
@@ -777,40 +777,6 @@
         "validity": {
           "end": "2026-10-30T17:59:00Z",
           "start": "2026-10-13T05:00:00Z"
-        }
-      },
-      {
-        "id": "63927139470745857",
-        "levels": {
-          "lower": "SFC",
-          "upper": "FL055"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 2996,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 6,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 155
-        },
-        "schedule": "DAILY 1501-2300",
-        "text": "TEMPORARY SEGREGATED AREA EETSA21 (NURMSI) ACTIVATED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES. VERTICAL LIMITS CHANGED DURING\r\nACTIVATION. NON-PARTICIPATING AIRCRAFT (INCLUDING UNMANNED AIRCRAFT)\r\nARE NOT PERMITTED TO ENTER INTO ACTIVATED AREA. PERMISSION FOR\r\nENTERING THE AREA AND INFO ABOUT ACTIVITY AVAILABLE FROM +372\r\n56502880.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T23:00:00Z",
-          "start": "2026-10-19T15:01:00Z"
         }
       },
       {
@@ -3082,8 +3048,8 @@
       }
     ]
   },
-  "id": "fe165b97-924c-4d62-b648-5a13eff37670",
-  "identifier": "BRIEFING-20261024-85",
+  "id": "0bfa66d6-a22c-4eb4-99b0-074b0871c70f",
+  "identifier": "BRIEFING-20261024-94",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3131,8 +3097,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-25T21:00:00Z",
-    "validityStart": "2026-10-24T21:00:00Z"
+    "validityEnd": "2026-10-25T23:15:00Z",
+    "validityStart": "2026-10-24T23:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3650,11 +3616,6 @@
             {
               "link": false,
               "referenceId": "63927142015771729",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63927139470745857",
               "structureType": "REFERENCE"
             },
             {
