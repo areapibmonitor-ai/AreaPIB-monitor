@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-24T12:00:00.46Z",
+  "createdAt": "2026-10-24T15:45:00.426Z",
   "dynamicData": {
     "notams": [
       {
@@ -779,40 +779,6 @@
         }
       },
       {
-        "id": "63927582640491057",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1900FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3038,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5923N02535E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 19
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2048 ESTABLISHED WITHIN: 592513N\r\n0252928E - 592600N 0253909E - 592036N 0254000E - 592238N 0252912E -\r\n592513N 0252928E. PERMISSION FOR ENTERING THE AREA SHALL BE OBTAINED\r\nFROM TEL +372 5192 8532.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T14:59:00Z",
-          "start": "2026-10-23T12:00:00Z"
-        }
-      },
-      {
         "id": "63927573000503601",
         "locations": [
           "EETU"
@@ -880,41 +846,6 @@
         "validity": {
           "end": "2026-11-08T15:00:00Z",
           "start": "2026-10-23T05:00:00Z"
-        }
-      },
-      {
-        "id": "63927396384829505",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2100FT AMSL"
-        },
-        "locations": [
-          "EEEI"
-        ],
-        "notamId": {
-          "number": 3010,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5919N02412E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 3,
-          "scope": "AW",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 21
-        },
-        "schedule": "14 0600-1259, 15 24 0600-1359, 16 22 0500-2359, 17 H24, 18\r\n0000-1359, 19 0900-1459, 20 0500-1459, 21 0500-1759, 23 0000-0059\r\n0400-1559",
-        "text": "DANGER AREA EED16 (KLOOGA 1) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM +372 5332 6746.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-24T13:59:00Z",
-          "start": "2026-10-14T06:00:00Z"
         }
       },
       {
@@ -3255,8 +3186,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928437133189553",
-        "number": 1476,
+        "id": "63928448604063873",
+        "number": 1478,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3266,32 +3197,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "25",
                 "depth": "NR"
               },
               {
-                "code": 5,
+                "code": 6,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "25",
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-24T11:10:00Z"
+            "time": "2026-10-24T14:20:00Z"
           }
         ]
       }
     ]
   },
-  "id": "46a803d7-a1ad-4ce6-9f2d-ac0cbf62eede",
-  "identifier": "BRIEFING-20261024-49",
+  "id": "d5c11b90-e3c7-4862-b6ab-bf36b0b96337",
+  "identifier": "BRIEFING-20261024-64",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3339,8 +3270,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-25T12:00:00Z",
-    "validityStart": "2026-10-24T12:00:00Z"
+    "validityEnd": "2026-10-25T15:45:00Z",
+    "validityStart": "2026-10-24T15:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3424,11 +3355,6 @@
                 {
                   "link": false,
                   "referenceId": "63928339541757073",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63927396384829505",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3668,7 +3594,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928437133189553",
+                  "referenceId": "63928448604063873",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3877,17 +3803,7 @@
             },
             {
               "link": false,
-              "referenceId": "63927582640491057",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63927471079314129",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63927396384829505",
               "structureType": "REFERENCE"
             },
             {
