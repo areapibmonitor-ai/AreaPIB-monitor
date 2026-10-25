@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-25T16:30:00.456Z",
+  "createdAt": "2026-10-25T19:00:00.458Z",
   "dynamicData": {
     "notams": [
       {
@@ -393,40 +393,6 @@
           "end": "2026-11-25T23:59:00Z",
           "est": true,
           "start": "2026-10-20T10:03:00Z"
-        }
-      },
-      {
-        "id": "63928077991198321",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3500FT AGL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3095,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5824N02712E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 4,
-          "scope": "W",
-          "subject": "RR",
-          "traffic": "IV",
-          "upper": 37
-        },
-        "text": "TEMPORARY RESTRICTED AREA EER2668 ESTABLISHED FOR UNMANNED\r\nAIRCRAFT SYSTEM ACTIVITIES WITHIN: 582634N 0270834E - 582630N\r\n0271416E - 582244N 0271643E - 582516N 0270640E - 582634N 0270834E.\r\nALL AIRCRAFT (INCLUDING UNMANNED AIRCRAFT) ARE PROHIBITED TO FLY INTO\r\nOR IN THE AREA WITHOUT AUTHORISATION. PERMISSION FOR ENTERING THE\r\nAREA SHALL BE OBTAINED FROM TEL +372 53094264. RESTRICTION DOES NOT\r\nAPPLY TO SAR, HOSP, ESTONIAN POLICE AND BORDER GUARD BOARD FLIGHTS.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-25T17:00:00Z",
-          "start": "2026-10-23T06:00:00Z"
         }
       },
       {
@@ -2934,8 +2900,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928515958716769",
-        "number": 1481,
+        "id": "63928544547585201",
+        "number": 1482,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2963,7 +2929,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-25T09:04:00Z"
+            "time": "2026-10-25T17:01:00Z"
           }
         ]
       },
@@ -3004,8 +2970,8 @@
       }
     ]
   },
-  "id": "67e7f5be-6df3-4419-bef2-1c848daefed6",
-  "identifier": "BRIEFING-20261025-82",
+  "id": "50b0984d-3edb-491a-97ae-0fb978b4b8e5",
+  "identifier": "BRIEFING-20261025-92",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3053,8 +3019,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-26T16:30:00Z",
-    "validityStart": "2026-10-25T16:30:00Z"
+    "validityEnd": "2026-10-26T19:00:00Z",
+    "validityStart": "2026-10-25T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3387,7 +3353,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928515958716769",
+                  "referenceId": "63928544547585201",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3532,11 +3498,6 @@
             {
               "link": false,
               "referenceId": "63928087421969713",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63928077991198321",
               "structureType": "REFERENCE"
             },
             {
