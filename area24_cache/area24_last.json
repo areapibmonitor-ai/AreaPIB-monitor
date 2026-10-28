@@ -1,7 +1,37 @@
 {
-  "createdAt": "2026-10-28T07:30:00.472Z",
+  "createdAt": "2026-10-28T14:15:00.47Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63928787318309281",
+        "locations": [
+          "EEEI"
+        ],
+        "notamId": {
+          "number": 3184,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "AS",
+          "coordinate": "5916N02413E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 5,
+          "scope": "A",
+          "subject": "NT",
+          "traffic": "IV",
+          "upper": 999
+        },
+        "text": "VORTAC AMI 115.300MHZ/CH100X U/S DUE TO MAINT.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-29T10:00:00Z",
+          "start": "2026-10-29T08:00:00Z"
+        }
+      },
       {
         "id": "63928698717201969",
         "locations": [
@@ -562,6 +592,40 @@
           "end": "2026-11-25T23:59:00Z",
           "est": true,
           "start": "2026-10-20T10:03:00Z"
+        }
+      },
+      {
+        "id": "63928083217387009",
+        "levels": {
+          "lower": "SFC",
+          "upper": "4000FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3096,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5936N02422E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 4,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 40
+        },
+        "text": "DANGER AREA EED23 (NAISSAAR) ACTIVATED.",
+        "type": "N",
+        "validity": {
+          "end": "2026-10-29T14:59:00Z",
+          "start": "2026-10-29T08:00:00Z"
         }
       },
       {
@@ -2985,42 +3049,6 @@
         }
       },
       {
-        "id": "63923744364027473",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 2440,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CE",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "M",
-          "radius": 5,
-          "scope": "A",
-          "subject": "OB",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 1890,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "TEMPORARY GROUP OF POLE (SAILING BOAT MASTS) ERECTED LOCATED AT\r\nROOGRAHU MARINA POSITION: 585958.88N 0224910.46E ELEVATION 38FT. NOT\r\nLIGHTED.",
-        "type": "R",
-        "validity": {
-          "end": "2026-10-30T13:00:00Z",
-          "est": true,
-          "start": "2026-08-31T03:39:00Z"
-        }
-      },
-      {
         "id": "63923430730124113",
         "levels": {
           "lower": "SFC",
@@ -3418,8 +3446,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63928754264311841",
-        "number": 1495,
+        "id": "63928773281504065",
+        "number": 1496,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3447,7 +3475,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-10-28T03:16:00Z"
+            "time": "2026-10-28T08:30:00Z"
           }
         ]
       },
@@ -3488,8 +3516,8 @@
       }
     ]
   },
-  "id": "1d22406d-3d7f-432c-b618-e90bbc5d3eca",
-  "identifier": "BRIEFING-20261028-46",
+  "id": "7f2c8ad0-3c7c-4e86-90fe-2d138e45cdb3",
+  "identifier": "BRIEFING-20261028-73",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3537,8 +3565,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-10-29T07:30:00Z",
-    "validityStart": "2026-10-28T07:30:00Z"
+    "validityEnd": "2026-10-29T14:15:00Z",
+    "validityStart": "2026-10-28T14:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3616,6 +3644,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63928787318309281",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63928339541757073",
                   "structureType": "REFERENCE"
                 },
@@ -3674,11 +3707,6 @@
                 {
                   "link": false,
                   "referenceId": "63928016978926481",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63923744364027473",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3876,7 +3904,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928754264311841",
+                  "referenceId": "63928773281504065",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -4041,6 +4069,11 @@
             {
               "link": false,
               "referenceId": "63928087421969713",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63928083217387009",
               "structureType": "REFERENCE"
             },
             {
