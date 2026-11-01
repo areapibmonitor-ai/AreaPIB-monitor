@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-10-31T22:30:00.47Z",
+  "createdAt": "2026-11-01T01:15:00.483Z",
   "dynamicData": {
     "notams": [
       {
@@ -1740,41 +1740,6 @@
         }
       },
       {
-        "id": "63926460245737057",
-        "locations": [
-          "EEKE"
-        ],
-        "notamId": {
-          "number": 2914,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5814N02231E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 17,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 50
-        },
-        "referenceId": {
-          "number": 2835,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "KURESSAARE AFIS HR OF SERVICE:\r\nMON-FRI 0430-0830 1000-1655\r\nSAT 0630-1000\r\nSUN 1300-1655\r\nEXC\r\n03 0630-0900\r\n04 1400-1655\r\n25 1400-1755\r\n26-30 0530-0930 1100-1755\r\n31 0730-1100\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPR HR.",
-        "type": "R",
-        "validity": {
-          "end": "2026-10-31T23:59:00Z",
-          "start": "2026-10-01T14:03:00Z"
-        }
-      },
-      {
         "id": "63926365629222817",
         "levels": {
           "lower": "SFC",
@@ -1811,66 +1776,6 @@
         "validity": {
           "end": "2026-12-30T02:59:00Z",
           "start": "2026-09-30T11:45:00Z"
-        }
-      },
-      {
-        "id": "63926265104759857",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2866,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "XX",
-          "coordinate": "5819N02646E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 34,
-          "scope": "AE",
-          "subject": "SF",
-          "traffic": "IV",
-          "upper": 95
-        },
-        "text": "TARTU AFIS HR OF SERVICE:\r\nMON-FRI 0230-0330 0600-0900 1030-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0630-0900 1000-1300 2100-2200\r\nEXC:\r\n25 0730-1000 1100-1400 2200-2330\r\n26-30 0330-0430 0700-1000 1130-1400 2200-2330\r\n31 0330-0430\r\nSERVICE MAY BE AVAILABLE OUTSIDE PUBLISHED OPERATING HOURS. IF\r\nSERVICE IS NOT AVAILABLE, INFORMATION ON ATIS CHANNEL 123.130.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-31T23:59:00Z",
-          "start": "2026-10-01T00:00:00Z"
-        }
-      },
-      {
-        "id": "63926264748177137",
-        "locations": [
-          "EETU"
-        ],
-        "notamId": {
-          "number": 2865,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "AH",
-          "coordinate": "5818N02641E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "text": "AD OPR HOURS:\r\nMON-FRI 0230-0330 0600-1300 2100-2200\r\nSAT 0230-0330\r\nSUN 0630-1300 2100-2200\r\nEXC:\r\n25 0730-1400 2200-2330\r\n26-30 0330-0430 0700-1400 2200-2330\r\n31 0330-0430.",
-        "type": "N",
-        "validity": {
-          "end": "2026-10-31T23:59:00Z",
-          "start": "2026-10-01T00:00:00Z"
         }
       },
       {
@@ -2961,16 +2866,16 @@
       }
     ]
   },
-  "id": "6d0c9f3e-22e3-40bb-bac1-2e1406555ffe",
-  "identifier": "BRIEFING-20261031-104",
+  "id": "1cf3b054-075f-41bd-b29e-8a0d831ec988",
+  "identifier": "BRIEFING-20261101-6",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3010,8 +2915,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-01T22:30:00Z",
-    "validityStart": "2026-10-31T22:30:00Z"
+    "validityEnd": "2026-11-02T01:15:00Z",
+    "validityStart": "2026-11-01T01:15:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3184,11 +3089,6 @@
                 {
                   "link": false,
                   "referenceId": "63927662412016465",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926460245737057",
                   "structureType": "REFERENCE"
                 },
                 {
@@ -3371,16 +3271,6 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63926265104759857",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63926264748177137",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
                   "referenceId": "63926185613299233",
                   "structureType": "REFERENCE"
                 },
@@ -3408,16 +3298,6 @@
             {
               "link": true,
               "referenceId": "63929030461604113",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63926460245737057",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": true,
-              "referenceId": "63926265104759857",
               "structureType": "REFERENCE"
             },
             {
