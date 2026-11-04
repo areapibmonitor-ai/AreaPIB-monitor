@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-03T22:30:00.493Z",
+  "createdAt": "2026-11-04T02:30:00.585Z",
   "dynamicData": {
     "notams": [
       {
@@ -419,41 +419,6 @@
           "end": "2026-11-20T14:00:00Z",
           "est": true,
           "start": "2026-10-30T12:01:00Z"
-        }
-      },
-      {
-        "id": "63928948731740929",
-        "levels": {
-          "lower": "SFC",
-          "upper": "1100FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3209,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5749N02655E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 24
-        },
-        "schedule": "03 0700-1359, 06 0600-1859, 07 0600-1559, 10 0800-1259, 11\r\n0800-1059, 12 0700-1459",
-        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-12T14:59:00Z",
-          "start": "2026-11-03T07:00:00Z"
         }
       },
       {
@@ -2806,16 +2771,16 @@
       }
     ]
   },
-  "id": "d68a73f8-8db8-4e46-92ce-67a2543668b6",
-  "identifier": "BRIEFING-20261103-104",
+  "id": "9f93e538-2d32-469a-936c-be9e408f8a09",
+  "identifier": "BRIEFING-20261104-11",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2855,8 +2820,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-04T22:30:00Z",
-    "validityStart": "2026-11-03T22:30:00Z"
+    "validityEnd": "2026-11-05T02:30:00Z",
+    "validityStart": "2026-11-04T02:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3319,11 +3284,6 @@
             {
               "link": false,
               "referenceId": "63928970334368753",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63928948731740929",
               "structureType": "REFERENCE"
             },
             {
