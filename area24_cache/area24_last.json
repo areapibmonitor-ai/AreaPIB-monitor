@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-04T23:30:00.496Z",
+  "createdAt": "2026-11-05T03:30:00.505Z",
   "dynamicData": {
     "notams": [
       {
@@ -260,41 +260,6 @@
         "validity": {
           "end": "2026-11-06T16:00:00Z",
           "start": "2026-11-05T07:00:00Z"
-        }
-      },
-      {
-        "id": "63929162782132833",
-        "levels": {
-          "lower": "SFC",
-          "upper": "3200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3236,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5858N02530E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 32
-        },
-        "schedule": "04 07 11 14 19 21 25-26 28-29 0600-2200",
-        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-29T22:00:00Z",
-          "start": "2026-11-04T06:00:00Z"
         }
       },
       {
@@ -610,6 +575,41 @@
           "end": "2026-11-20T14:00:00Z",
           "est": true,
           "start": "2026-10-30T12:01:00Z"
+        }
+      },
+      {
+        "id": "63928948731740929",
+        "levels": {
+          "lower": "SFC",
+          "upper": "1100FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3209,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5749N02655E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 24
+        },
+        "schedule": "03 0700-1359, 06 0600-1859, 07 0600-1559, 10 0800-1259, 11\r\n0800-1059, 12 0700-1459",
+        "text": "DANGER AREA EED18 (TSIATSUNGOLMAA) ACTIVATED. VERTICAL LIMITS\r\nCHANGED DURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372\r\n507 2683.",
+        "type": "N",
+        "validity": {
+          "end": "2026-11-12T14:59:00Z",
+          "start": "2026-11-03T07:00:00Z"
         }
       },
       {
@@ -2792,8 +2792,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63929423750415041",
-        "number": 1529,
+        "id": "63929444317461457",
+        "number": 1530,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2805,30 +2805,30 @@
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
                 "code": 5,
                 "condition": "WET",
-                "coverage": "75",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-04T21:14:00Z"
+            "time": "2026-11-05T02:56:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63929424976996929",
-        "number": 814,
+        "id": "63929445054877969",
+        "number": 815,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2856,22 +2856,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-04T21:35:00Z"
+            "time": "2026-11-05T03:09:00Z"
           }
         ]
       }
     ]
   },
-  "id": "27ac69e8-84f0-4a58-b226-c06f45863b8c",
-  "identifier": "BRIEFING-20261104-108",
+  "id": "86b492fb-fa5c-4527-90af-dc6d5c3579d1",
+  "identifier": "BRIEFING-20261105-15",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -2911,8 +2911,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-05T23:30:00Z",
-    "validityStart": "2026-11-04T23:30:00Z"
+    "validityEnd": "2026-11-06T03:30:00Z",
+    "validityStart": "2026-11-05T03:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3240,7 +3240,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63929423750415041",
+                  "referenceId": "63929444317461457",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3292,7 +3292,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63929424976996929",
+                  "referenceId": "63929445054877969",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3379,12 +3379,12 @@
             },
             {
               "link": false,
-              "referenceId": "63929162782132833",
+              "referenceId": "63928970334368753",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
-              "referenceId": "63928970334368753",
+              "referenceId": "63928948731740929",
               "structureType": "REFERENCE"
             },
             {
