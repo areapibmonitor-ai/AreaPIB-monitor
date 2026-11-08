@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-08T14:15:00.479Z",
+  "createdAt": "2026-11-08T19:00:00.469Z",
   "dynamicData": {
     "notams": [
       {
@@ -788,41 +788,6 @@
         }
       },
       {
-        "id": "63928951029127089",
-        "levels": {
-          "lower": "SFC",
-          "upper": "15400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3211,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "schedule": "07 0500-2059, 08 0600-1459",
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. INFO ABOUT ACTIVATION\r\nAVAILABLE FROM TEL +372 5302 7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-08T14:59:00Z",
-          "start": "2026-11-07T05:00:00Z"
-        }
-      },
-      {
         "id": "63928945809946545",
         "levels": {
           "lower": "SFC",
@@ -1234,40 +1199,6 @@
         }
       },
       {
-        "id": "63928350450254625",
-        "levels": {
-          "lower": "SFC",
-          "upper": "4400FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3127,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5922N02549E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 7,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 147
-        },
-        "text": "DANGER AREA EED14 (TAPA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM +372 5326\r\n4560.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-08T14:59:00Z",
-          "start": "2026-10-30T18:00:00Z"
-        }
-      },
-      {
         "id": "63928349723580337",
         "levels": {
           "lower": "SFC",
@@ -1573,41 +1504,6 @@
         "validity": {
           "end": "2026-12-14T14:00:00Z",
           "start": "2026-10-14T11:09:00Z"
-        }
-      },
-      {
-        "id": "63927471079314129",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3017,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "OCT 23 0500-2359, 24 H24, 25 0000-1500, 28-29 0500-1800, 31\r\n0700-2359, NOV 01 08 0000-1500, 03 0600-1500, 04-05 0600-1700, 07\r\n0600-2359",
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-08T15:00:00Z",
-          "start": "2026-10-23T05:00:00Z"
         }
       },
       {
@@ -2807,8 +2703,8 @@
       },
       {
         "aerodrome": "EETN",
-        "id": "63929722424092673",
-        "number": 1544,
+        "id": "63929752302409937",
+        "number": 1546,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2818,75 +2714,40 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-08T08:12:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63929718027485361",
-        "number": 824,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              },
-              {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-11-08T06:59:00Z"
+            "time": "2026-11-08T16:30:00Z"
           }
         ]
       }
     ]
   },
-  "id": "c09a407f-2c11-40da-b080-b16047a21aa0",
-  "identifier": "BRIEFING-20261108-69",
+  "id": "34ee1b17-1ee9-4fe3-8ea7-364450df91a5",
+  "identifier": "BRIEFING-20261108-88",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -2926,8 +2787,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-09T14:15:00Z",
-    "validityStart": "2026-11-08T14:15:00Z"
+    "validityEnd": "2026-11-09T19:00:00Z",
+    "validityStart": "2026-11-08T19:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3250,7 +3111,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63929722424092673",
+                  "referenceId": "63929752302409937",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3298,11 +3159,6 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63929718027485361",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3438,11 +3294,6 @@
               "structureType": "REFERENCE"
             },
             {
-              "link": false,
-              "referenceId": "63928951029127089",
-              "structureType": "REFERENCE"
-            },
-            {
               "link": true,
               "referenceId": "63928945809946545",
               "structureType": "REFERENCE"
@@ -3484,11 +3335,6 @@
             },
             {
               "link": false,
-              "referenceId": "63928350450254625",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63928349723580337",
               "structureType": "REFERENCE"
             },
@@ -3500,11 +3346,6 @@
             {
               "link": false,
               "referenceId": "63928087421969713",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
-              "referenceId": "63927471079314129",
               "structureType": "REFERENCE"
             },
             {
