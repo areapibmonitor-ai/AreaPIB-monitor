@@ -37082,3 +37082,18 @@ FROM TEL +372 53 464 313.
 F)SFC G)1300FT AGL
 )
 [2026-11-09T09:55:41Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
+[2026-11-09T20:38:49Z] CHANGE DETECTED in dynamicData.notams
+URL: https://aim.eans.ee/web/notampib/area24.json
+
+Expired NOTAMs:
+- NOTAM A3297/26 expired and was removed from the PIB.
+
+New NOTAMs:
+New NOTAM added:
+(A3298/26 NOTAMN
+Q)EETT/CAAS/IV/BO/E/000/999/5851N02349E051
+A)EETT B)2611101100 C)2611101400
+E)TALLINN FIS CH 128.980 U/S WITHIN 50NM RADIUS CENTERED ON 585105N
+0234850E (MARTNA). ALTN CH 119.380 AND FREQ 134.325MHZ AVBL.
+)
+[2026-11-09T20:38:49Z] ERROR: Email sending failed: SMTPServerDisconnected('Connection unexpectedly closed')
