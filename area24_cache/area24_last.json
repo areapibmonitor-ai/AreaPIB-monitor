@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-12T01:00:00.513Z",
+  "createdAt": "2026-11-12T08:00:05.381Z",
   "dynamicData": {
     "notams": [
       {
@@ -3056,9 +3056,79 @@
     ],
     "snowtams": [
       {
+        "aerodrome": "EEKA",
+        "id": "63930052803923361",
+        "number": 138,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "14",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-11-12T03:59:00Z"
+          }
+        ]
+      },
+      {
+        "aerodrome": "EEPU",
+        "id": "63930055051960433",
+        "number": 304,
+        "runway": [
+          {
+            "adjacentSnowbanks": false,
+            "chemicalTreatment": false,
+            "designator": "03",
+            "driftingSnow": false,
+            "looseSand": false,
+            "thirds": [
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              },
+              {
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
+                "depth": "NR"
+              }
+            ],
+            "time": "2026-11-12T04:37:00Z"
+          }
+        ]
+      },
+      {
         "aerodrome": "EETN",
-        "id": "63930033403664241",
-        "number": 1562,
+        "id": "63930050567035713",
+        "number": 1563,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3086,14 +3156,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-11T22:35:00Z"
+            "time": "2026-11-12T03:21:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63930030907836433",
-        "number": 834,
+        "id": "63930063262940049",
+        "number": 836,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3103,32 +3173,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               },
               {
-                "code": 6,
-                "condition": "DRY",
-                "coverage": "NR",
+                "code": 5,
+                "condition": "WET",
+                "coverage": "100",
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-11T21:54:00Z"
+            "time": "2026-11-12T06:52:00Z"
           }
         ]
       }
     ]
   },
-  "id": "82695745-0031-4257-bfe8-4f7de89d4b75",
-  "identifier": "BRIEFING-20261112-5",
+  "id": "acd2e5e4-543c-45b1-a6ea-77b4cb34163c",
+  "identifier": "BRIEFING-20261112-44",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3176,8 +3246,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-13T01:00:00Z",
-    "validityStart": "2026-11-12T01:00:00Z"
+    "validityEnd": "2026-11-13T08:00:00Z",
+    "validityStart": "2026-11-12T08:00:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3314,6 +3384,11 @@
                   "link": false,
                   "referenceId": "63928016978926481",
                   "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63930052803923361",
+                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145174",
@@ -3407,6 +3482,11 @@
                 {
                   "link": false,
                   "referenceId": "63923430730124113",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
+                  "referenceId": "63930055051960433",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3505,7 +3585,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930033403664241",
+                  "referenceId": "63930050567035713",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3557,7 +3637,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930030907836433",
+                  "referenceId": "63930063262940049",
                   "structureType": "REFERENCE"
                 }
               ],
