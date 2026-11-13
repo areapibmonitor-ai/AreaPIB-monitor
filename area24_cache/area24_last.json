@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-12T22:30:00.481Z",
+  "createdAt": "2026-11-13T02:45:00.437Z",
   "dynamicData": {
     "notams": [
       {
@@ -860,41 +860,6 @@
         }
       },
       {
-        "id": "63929216183387633",
-        "levels": {
-          "lower": "SFC",
-          "upper": "2200FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3248,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5831N02614E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 2,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 22
-        },
-        "schedule": "10 22 0600-1500, 11-12 25-26 0600-1700, 18 0600-2359, 19 0000-1800",
-        "text": "DANGER AREA EED10 (UTSALI) ACTIVATED.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-26T17:00:00Z",
-          "start": "2026-11-10T06:00:00Z"
-        }
-      },
-      {
         "id": "63929209872180113",
         "levels": {
           "lower": "SFC",
@@ -927,6 +892,41 @@
         "validity": {
           "end": "2026-11-30T15:00:00Z",
           "start": "2026-11-03T06:00:00Z"
+        }
+      },
+      {
+        "id": "63929162782132833",
+        "levels": {
+          "lower": "SFC",
+          "upper": "3200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3236,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5858N02530E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 32
+        },
+        "schedule": "04 07 11 14 19 21 25-26 28-29 0600-2200",
+        "text": "DANGER AREA EED36 (EIVERE) ACTIVATED FOR FIRING. INFO ABOUT ACT\r\nFROM TEL +37253557238",
+        "type": "N",
+        "validity": {
+          "end": "2026-11-29T22:00:00Z",
+          "start": "2026-11-04T06:00:00Z"
         }
       },
       {
@@ -3091,8 +3091,8 @@
     "snowtams": [
       {
         "aerodrome": "EETN",
-        "id": "63930115857898801",
-        "number": 1568,
+        "id": "63930128822433633",
+        "number": 1569,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3120,7 +3120,7 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-12T21:30:00Z"
+            "time": "2026-11-13T01:05:00Z"
           }
         ]
       },
@@ -3161,16 +3161,16 @@
       }
     ]
   },
-  "id": "50e91a36-bb15-4edb-a4c8-29cdb6121024",
-  "identifier": "BRIEFING-20261112-102",
+  "id": "b0ea9eaa-eda3-4e39-bf9b-ddb62b42610d",
+  "identifier": "BRIEFING-20261113-12",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       },
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       }
     ],
     "limits": {
@@ -3210,8 +3210,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-13T22:30:00Z",
-    "validityStart": "2026-11-12T22:30:00Z"
+    "validityEnd": "2026-11-14T02:45:00Z",
+    "validityStart": "2026-11-13T02:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3539,7 +3539,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930115857898801",
+                  "referenceId": "63930128822433633",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3783,12 +3783,12 @@
             },
             {
               "link": false,
-              "referenceId": "63929216183387633",
+              "referenceId": "63929209872180113",
               "structureType": "REFERENCE"
             },
             {
               "link": false,
-              "referenceId": "63929209872180113",
+              "referenceId": "63929162782132833",
               "structureType": "REFERENCE"
             },
             {
