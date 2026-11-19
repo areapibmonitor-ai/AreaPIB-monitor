@@ -1,7 +1,42 @@
 {
-  "createdAt": "2026-11-19T04:30:00.428Z",
+  "createdAt": "2026-11-19T13:45:00.444Z",
   "dynamicData": {
     "notams": [
+      {
+        "id": "63930687196646401",
+        "levels": {
+          "lower": "SFC",
+          "upper": "FL320"
+        },
+        "locations": [
+          "EETN"
+        ],
+        "notamId": {
+          "number": 3364,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "LW",
+          "coordinate": "5925N02443E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "M",
+          "radius": 7,
+          "scope": "AW",
+          "subject": "WO",
+          "traffic": "IV",
+          "upper": 320
+        },
+        "schedule": "20 1300-2200, 21 1500-2030",
+        "text": "LIGHTSHOW (KURNA) WILL TAKE PLACE WITHIN: 592200.41N 0243129.80E -\r\nCLOCKWISE ARC OF 10NM CENTERED ON 592017.90N 0245044.50E - 593016.38N\r\n0245044.50E - 592017.90N 0245044.50E - 592200.41N 0243129.80E. LASER\r\nBEAMS MAY CAUSE BLINDNESS UNTIL 3 NM AND FL100 IN HORIZONTAL SECTOR\r\nFROM 280 DEG CLOCKWISE TO 360 DEG WITH VERTICAL SECTOR FROM SFC TO 30\r\nDEG. IN SAME SECTOR FLASHBLINDNESS AND COCKPIT ILLUMINATION MAY OCCUR\r\nUNTIL 10 NM AND FL320.",
+        "type": "N",
+        "validity": {
+          "end": "2026-11-21T20:30:00Z",
+          "start": "2026-11-20T13:00:00Z"
+        }
+      },
       {
         "id": "63930572574538865",
         "locations": [
@@ -709,41 +744,6 @@
         "validity": {
           "end": "2026-11-30T15:00:00Z",
           "start": "2026-11-12T06:00:00Z"
-        }
-      },
-      {
-        "id": "63929917196838865",
-        "levels": {
-          "lower": "SFC",
-          "upper": "7700FT AMSL"
-        },
-        "locations": [
-          "EETT"
-        ],
-        "notamId": {
-          "number": 3315,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "CA",
-          "coordinate": "5918N02742E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "BO",
-          "radius": 5,
-          "scope": "W",
-          "subject": "RD",
-          "traffic": "IV",
-          "upper": 154
-        },
-        "schedule": "18 0700-2359, 19 0000-0559",
-        "text": "DANGER AREA EED17 (SIRGALA 2) ACTIVATED. VERTICAL LIMITS CHANGED\r\nDURING ACTIVATION. INFO ABOUT ACTIVATION AVAILABLE FROM TEL +372 5302\r\n7449.",
-        "type": "N",
-        "validity": {
-          "end": "2026-11-19T05:59:00Z",
-          "start": "2026-11-18T07:00:00Z"
         }
       },
       {
@@ -1628,6 +1628,40 @@
         }
       },
       {
+        "id": "63928702523679233",
+        "levels": {
+          "lower": "SFC",
+          "upper": "2200FT AMSL"
+        },
+        "locations": [
+          "EETT"
+        ],
+        "notamId": {
+          "number": 3177,
+          "series": "A",
+          "year": 2026
+        },
+        "notamOffice": "EETN",
+        "qualifiers": {
+          "condition": "CA",
+          "coordinate": "5821N02551E",
+          "fir": "EETT",
+          "lower": 0,
+          "purpose": "BO",
+          "radius": 2,
+          "scope": "W",
+          "subject": "RD",
+          "traffic": "IV",
+          "upper": 22
+        },
+        "text": "DANGER AREA EED9 (VALUSTE) ACTIVATED FOR MILITARY EXERCISE.",
+        "type": "N",
+        "validity": {
+          "end": "2026-11-22T23:59:00Z",
+          "start": "2026-11-20T08:00:00Z"
+        }
+      },
+      {
         "id": "63928601709995745",
         "levels": {
           "lower": "SFC",
@@ -2022,42 +2056,6 @@
           "end": "2026-11-25T23:59:00Z",
           "est": true,
           "start": "2026-10-20T10:03:00Z"
-        }
-      },
-      {
-        "id": "63928016978926481",
-        "locations": [
-          "EEKA"
-        ],
-        "notamId": {
-          "number": 3088,
-          "series": "A",
-          "year": 2026
-        },
-        "notamOffice": "EETN",
-        "qualifiers": {
-          "condition": "HX",
-          "coordinate": "5859N02250E",
-          "fir": "EETT",
-          "lower": 0,
-          "purpose": "NBO",
-          "radius": 5,
-          "scope": "A",
-          "subject": "FA",
-          "traffic": "IV",
-          "upper": 999
-        },
-        "referenceId": {
-          "number": 2439,
-          "series": "A",
-          "year": 2026
-        },
-        "text": "SEASONAL BIRDS ACTIVITY AT AD, HGT UP TO 3000FT AGL\r\nTYPES OF BIRDS - GEESE, SWANS, DUCKS\r\nMAX FLOCK SIZE - 800 BIRDS\r\nBIRD WEIGHT - UP TO 9000 GRAMS\r\nMAIN MOVING DIRECTION - SW, W.",
-        "type": "R",
-        "validity": {
-          "end": "2026-11-30T14:30:00Z",
-          "est": true,
-          "start": "2026-10-19T14:29:00Z"
         }
       },
       {
@@ -3260,8 +3258,8 @@
     "snowtams": [
       {
         "aerodrome": "EEKA",
-        "id": "63930658087848337",
-        "number": 151,
+        "id": "63930687004961265",
+        "number": 152,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3289,14 +3287,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-19T04:07:00Z"
+            "time": "2026-11-19T12:10:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63930653642423985",
-        "number": 1595,
+        "id": "63930675829378753",
+        "number": 1596,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3324,14 +3322,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-19T02:53:00Z"
+            "time": "2026-11-19T09:03:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETU",
-        "id": "63930653764254577",
-        "number": 855,
+        "id": "63930668537990753",
+        "number": 856,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -3359,14 +3357,14 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-19T02:55:00Z"
+            "time": "2026-11-19T07:01:00Z"
           }
         ]
       }
     ]
   },
-  "id": "8b0ec4b0-6b29-44c8-99fb-67cded4b03b0",
-  "identifier": "BRIEFING-20261119-27",
+  "id": "ced5830a-3475-4f8e-bdd4-13ed4d8944ab",
+  "identifier": "BRIEFING-20261119-67",
   "pibType": "AREA",
   "request": {
     "exclude": [
@@ -3414,8 +3412,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-20T04:30:00Z",
-    "validityStart": "2026-11-19T04:30:00Z"
+    "validityEnd": "2026-11-20T13:45:00Z",
+    "validityStart": "2026-11-19T13:45:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3555,12 +3553,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63928016978926481",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63930658087848337",
+                  "referenceId": "63930687004961265",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3663,6 +3656,11 @@
               "content": [
                 {
                   "link": false,
+                  "referenceId": "63930687196646401",
+                  "structureType": "REFERENCE"
+                },
+                {
+                  "link": false,
                   "referenceId": "63930522445301825",
                   "structureType": "REFERENCE"
                 },
@@ -3733,7 +3731,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930653642423985",
+                  "referenceId": "63930675829378753",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3785,7 +3783,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930653764254577",
+                  "referenceId": "63930668537990753",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3855,6 +3853,11 @@
         },
         {
           "content": [
+            {
+              "link": true,
+              "referenceId": "63930687196646401",
+              "structureType": "REFERENCE"
+            },
             {
               "link": true,
               "referenceId": "63930522445301825",
@@ -3947,11 +3950,6 @@
             },
             {
               "link": false,
-              "referenceId": "63929917196838865",
-              "structureType": "REFERENCE"
-            },
-            {
-              "link": false,
               "referenceId": "63929916699003697",
               "structureType": "REFERENCE"
             },
@@ -4023,6 +4021,11 @@
             {
               "link": false,
               "referenceId": "63928870575981617",
+              "structureType": "REFERENCE"
+            },
+            {
+              "link": false,
+              "referenceId": "63928702523679233",
               "structureType": "REFERENCE"
             },
             {
