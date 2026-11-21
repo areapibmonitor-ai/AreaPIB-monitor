@@ -1,5 +1,5 @@
 {
-  "createdAt": "2026-11-21T08:45:00.403Z",
+  "createdAt": "2026-11-21T16:30:04.92Z",
   "dynamicData": {
     "notams": [
       {
@@ -2858,44 +2858,9 @@
     ],
     "snowtams": [
       {
-        "aerodrome": "EEKA",
-        "id": "63930832914426945",
-        "number": 155,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": false,
-            "designator": "14",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-11-21T04:41:00Z"
-          }
-        ]
-      },
-      {
         "aerodrome": "EEPU",
-        "id": "63930832967305681",
-        "number": 323,
+        "id": "63930865818399233",
+        "number": 324,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2905,32 +2870,32 @@
             "looseSand": false,
             "thirds": [
               {
-                "code": 5,
-                "condition": "WET",
+                "code": 2,
+                "condition": "SLUSH",
                 "coverage": "100",
-                "depth": "NR"
+                "depth": "04"
               },
               {
-                "code": 5,
-                "condition": "WET",
+                "code": 2,
+                "condition": "SLUSH",
                 "coverage": "100",
-                "depth": "NR"
+                "depth": "04"
               },
               {
-                "code": 5,
-                "condition": "WET",
+                "code": 2,
+                "condition": "SLUSH",
                 "coverage": "100",
-                "depth": "NR"
+                "depth": "04"
               }
             ],
-            "time": "2026-11-21T04:42:00Z"
+            "time": "2026-11-21T13:50:00Z"
           }
         ]
       },
       {
         "aerodrome": "EETN",
-        "id": "63930825712078785",
-        "number": 1604,
+        "id": "63930870312629745",
+        "number": 1606,
         "runway": [
           {
             "adjacentSnowbanks": false,
@@ -2958,57 +2923,22 @@
                 "depth": "NR"
               }
             ],
-            "time": "2026-11-21T02:41:00Z"
-          }
-        ]
-      },
-      {
-        "aerodrome": "EETU",
-        "id": "63930826176635281",
-        "number": 862,
-        "runway": [
-          {
-            "adjacentSnowbanks": false,
-            "chemicalTreatment": true,
-            "designator": "08",
-            "driftingSnow": false,
-            "looseSand": false,
-            "thirds": [
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              },
-              {
-                "code": 5,
-                "condition": "WET",
-                "coverage": "100",
-                "depth": "NR"
-              }
-            ],
-            "time": "2026-11-21T02:49:00Z"
+            "time": "2026-11-21T15:04:00Z"
           }
         ]
       }
     ]
   },
-  "id": "2e7e6246-74b3-4516-a842-c92791fd9800",
-  "identifier": "BRIEFING-20261121-47",
+  "id": "2ef509fa-c882-46a1-9ffb-908b69a905f1",
+  "identifier": "BRIEFING-20261121-78",
   "pibType": "AREA",
   "request": {
     "exclude": [
       {
-        "nof": "EYVN"
+        "nof": "EVRA"
       },
       {
-        "nof": "EVRA"
+        "nof": "EYVN"
       }
     ],
     "limits": {
@@ -3048,8 +2978,8 @@
       "type": "INCLUDE"
     },
     "traffic": "IV",
-    "validityEnd": "2026-11-22T08:45:00Z",
-    "validityStart": "2026-11-21T08:45:00Z"
+    "validityEnd": "2026-11-22T16:30:00Z",
+    "validityStart": "2026-11-21T16:30:00Z"
   },
   "serviceType": "FULL",
   "staticData": {
@@ -3176,11 +3106,6 @@
                   "link": false,
                   "referenceId": "63928533145859553",
                   "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63930832914426945",
-                  "structureType": "REFERENCE"
                 }
               ],
               "staticDataId": "63638525762145174",
@@ -3273,7 +3198,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930832967305681",
+                  "referenceId": "63930865818399233",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3377,7 +3302,7 @@
                 },
                 {
                   "link": false,
-                  "referenceId": "63930825712078785",
+                  "referenceId": "63930870312629745",
                   "structureType": "REFERENCE"
                 }
               ],
@@ -3425,11 +3350,6 @@
                 {
                   "link": false,
                   "referenceId": "63923430128724577",
-                  "structureType": "REFERENCE"
-                },
-                {
-                  "link": false,
-                  "referenceId": "63930826176635281",
                   "structureType": "REFERENCE"
                 }
               ],
